@@ -1,0 +1,146 @@
+################ Results: 1st analysis ################
+
+>QuerySequence
+Oryzias-latipes_ENSORLT00000025590.1_aco1-aconitase-1-solubl  <= [Identities = 912/912 (100%)] : Oryzias-latipes_ENSORLT00000025590.1
+
+>Number_of_blastHits
+Drosophila-melanogaster  4
+Ciona-intestinalis       3
+Xenopus-tropicalis       3
+Gallus-gallus            3
+Homo-sapiens             3
+Danio-rerio              3
+Tetraodon-nigroviridis   3
+Gasterosteus-aculeatus   4
+Oryzias-latipes          3
+
+>BS_of_orthogroupBasalNode
+100
+
+
+>Orthogroup
+Danio-rerio_ENSDART00000045253.7_aco1-aconitase-1-soluble
+Gallus-gallus_ENSGALT00000076439.2_ACO1-aconitase-1-sol
+Gasterosteus-aculeatus_ENSGACT00000002203.1_aco1-aconitase-1
+Homo-sapiens_ENST00000379923.5_ACO1-aconitase-1
+Oryzias-latipes_ENSORLT00000025590.1_aco1-aconitase-1-solubl
+Tetraodon-nigroviridis_ENSTNIT00000008128.1_aco1-aconitase-1
+Xenopus-tropicalis_ENSXETT00000020189.3_aco1-aconitase-1-aco
+
+>GeneNumber_of_orthogroup
+Xenopus-tropicalis            1
+Gallus-gallus                 1
+Homo-sapiens                  1
+Danio-rerio                   1
+Tetraodon-nigroviridis        1
+Gasterosteus-aculeatus        1
+Oryzias-latipes               1
+
+>Rooting
+Homo-sapiens_ENST00000258886.13_IREB2-iron-responsive-
+
+
+>1st_rearranged_gene_tree_newick
+((((((((((Oryzias-latipes_ENSORLT00000025590.1_aco1-aconitase-1-solubl,Gasterosteus-aculeatus_ENSGACT00000002203.1_aco1-aconitase-1)91_S=Percomorpha_D=N,Tetraodon-nigroviridis_ENSTNIT00000008128.1_aco1-aconitase-1)94_S=Percomorpha_D=Y,Danio-rerio_ENSDART00000045253.7_aco1-aconitase-1-soluble)98_S=Clupeocephala_D=N,((Gallus-gallus_ENSGALT00000076439.2_ACO1-aconitase-1-sol,Homo-sapiens_ENST00000379923.5_ACO1-aconitase-1)78_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000020189.3_aco1-aconitase-1-aco)100_S=Tetrapoda_D=N)100_S=BonyVertebrates_D=N,(((Homo-sapiens_ENST00000258886.13_IREB2-iron-responsive-,Gallus-gallus_ENSGALT00000059950.2_IREB2-iron-responsiv)100_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000062273.1_ireb2-iron-responsiv)97_S=Tetrapoda_D=N,((Oryzias-latipes_ENSORLT00000002418.1_ireb2-iron-responsive-e,Gasterosteus-aculeatus_ENSGACT00000009785.1_ireb2-iron-respo)100_S=Percomorpha_D=N,Danio-rerio_ENSDART00000135808.1_ireb2-iron-responsive-eleme)100_S=Clupeocephala_D=N)100_S=BonyVertebrates_D=N)r_S=BonyVertebrates_D=Y,Ciona-intestinalis_ENSCINT00000019416.3_NONE)r_S=Deuterostomia_D=N,(Drosophila-melanogaster_FBtr0082259_Irp-1B-Iron-regulatory-,Drosophila-melanogaster_FBtr0084327_Irp-1A-Iron-regulatory-)100_S=Drosophila-melanogaster_D=Y)100_S=Bilateria_D=N,((((Homo-sapiens_ENST00000396512.3_ACO2-aconitase-2,Gallus-gallus_ENSGALT00000019494.5_ACO2-aconitase-2)89_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000060979.1_aco2-aconitase-2)98_S=Tetrapoda_D=N,((((Gasterosteus-aculeatus_ENSGACT00000006312.1_aco2-aconitase-2,Tetraodon-nigroviridis_ENSTNIT00000016128.1_aco2-aconitase-2)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000003270.1_aco2-aconitase-2-mitoch)72_S=Percomorpha_D=N,Gasterosteus-aculeatus_ENSGACT00000010121.1_ACO2-aconitase-2)r_S=Percomorpha_D=Y,Danio-rerio_ENSDART00000149180.2_aco2-aconitase-2-mitochondr)r_S=Clupeocephala_D=N)r_S=BonyVertebrates_D=N,Ciona-intestinalis_ENSCINT00000018217.3_NONE)86_S=Deuterostomia_D=N)99_S=Bilateria_D=Y,Drosophila-melanogaster_FBtr0346587_Acon-Aconitase-DBNLINE-)100_S=Bilateria_D=Y,Drosophila-melanogaster_FBtr0082336_CG4706-NONE)100_S=Bilateria_D=Y;
+
+>1st_rearranged_gene_tree_NHX
+((((((((((Oryzias-latipes_ENSORLT00000025590.1_aco1-aconitase-1-solubl:0.03326315317[&&NHX:S=Oryzias-latipes],Gasterosteus-aculeatus_ENSGACT00000002203.1_aco1-aconitase-1:0.03015757481[&&NHX:S=Gasterosteus-aculeatus])n2:0.008878178884[&&NHX:S=Percomorpha:D=N:B=91.0],Tetraodon-nigroviridis_ENSTNIT00000008128.1_aco1-aconitase-1:0.07320957134[&&NHX:S=Tetraodon-nigroviridis])n4:0.01187966912[&&NHX:S=Percomorpha:D=Y:B=94.0],Danio-rerio_ENSDART00000045253.7_aco1-aconitase-1-soluble:0.04469836674[&&NHX:S=Danio-rerio])n6:0.01493793286[&&NHX:S=Clupeocephala:D=N:B=98.0],((Gallus-gallus_ENSGALT00000076439.2_ACO1-aconitase-1-sol:0.04516466001[&&NHX:S=Gallus-gallus],Homo-sapiens_ENST00000379923.5_ACO1-aconitase-1:0.04115435284[&&NHX:S=Homo-sapiens])n9:0.00723652461[&&NHX:S=Amniota:D=N:B=78.0],Xenopus-tropicalis_ENSXETT00000020189.3_aco1-aconitase-1-aco:0.06010827824[&&NHX:S=Xenopus-tropicalis])n11:0.01237086686[&&NHX:S=Tetrapoda:D=N:B=100.0])n12:0.05578969999[&&NHX:S=BonyVertebrates:D=N:B=100.0],(((Homo-sapiens_ENST00000258886.13_IREB2-iron-responsive-:0.05593216942[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000059950.2_IREB2-iron-responsiv:0.06530446395[&&NHX:S=Gallus-gallus])n15:0.03491190815[&&NHX:S=Amniota:D=N:B=100.0],Xenopus-tropicalis_ENSXETT00000062273.1_ireb2-iron-responsiv:0.1944195932[&&NHX:S=Xenopus-tropicalis])n17:0.0177053823[&&NHX:S=Tetrapoda:D=N:B=97.0],((Oryzias-latipes_ENSORLT00000002418.1_ireb2-iron-responsive-e:0.03905967429[&&NHX:S=Oryzias-latipes],Gasterosteus-aculeatus_ENSGACT00000009785.1_ireb2-iron-respo:0.03431087151[&&NHX:S=Gasterosteus-aculeatus])n20:0.03339352798[&&NHX:S=Percomorpha:D=N:B=100.0],Danio-rerio_ENSDART00000135808.1_ireb2-iron-responsive-eleme:0.0634204096[&&NHX:S=Danio-rerio])n22:0.06678016198[&&NHX:S=Clupeocephala:D=N:B=100.0])n23:0.08640970828[&&NHX:S=BonyVertebrates:D=N:B=100.0])r56[&&NHX:S=BonyVertebrates:D=Y],Ciona-intestinalis_ENSCINT00000019416.3_NONE:0.1423672188[&&NHX:S=Ciona-intestinalis])r55[&&NHX:S=Deuterostomia:D=N],(Drosophila-melanogaster_FBtr0082259_Irp-1B-Iron-regulatory-:0.04038470492[&&NHX:S=Drosophila-melanogaster],Drosophila-melanogaster_FBtr0084327_Irp-1A-Iron-regulatory-:0.05012879953[&&NHX:S=Drosophila-melanogaster])n27:0.1186732005[&&NHX:S=Drosophila-melanogaster:D=Y:B=100.0])n30:0.7665588647[&&NHX:S=Bilateria:D=N:B=100.0],((((Homo-sapiens_ENST00000396512.3_ACO2-aconitase-2:0.02399674961[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000019494.5_ACO2-aconitase-2:0.03494296383[&&NHX:S=Gallus-gallus])n44:0.009564466178[&&NHX:S=Amniota:D=N:B=89.0],Xenopus-tropicalis_ENSXETT00000060979.1_aco2-aconitase-2:0.1437376478[&&NHX:S=Xenopus-tropicalis])n46:0.0441012982[&&NHX:S=Tetrapoda:D=N:B=98.0],((((Gasterosteus-aculeatus_ENSGACT00000006312.1_aco2-aconitase-2:0.02481664834[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000016128.1_aco2-aconitase-2:0.03249141813[&&NHX:S=Tetraodon-nigroviridis])r66[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000003270.1_aco2-aconitase-2-mitoch:0.02869952409[&&NHX:S=Oryzias-latipes])n35:0.01119424296[&&NHX:S=Percomorpha:D=N:B=72.0],Gasterosteus-aculeatus_ENSGACT00000010121.1_ACO2-aconitase-2:0.04871048097[&&NHX:S=Gasterosteus-aculeatus])r60[&&NHX:S=Percomorpha:D=Y],Danio-rerio_ENSDART00000149180.2_aco2-aconitase-2-mitochondr:0.04141677317[&&NHX:S=Danio-rerio])r59[&&NHX:S=Clupeocephala:D=N])r58[&&NHX:S=BonyVertebrates:D=N],Ciona-intestinalis_ENSCINT00000018217.3_NONE:0.1478877613[&&NHX:S=Ciona-intestinalis])n47:0.03288644449[&&NHX:S=Deuterostomia:D=N:B=86.0])n48:0.0587712866[&&NHX:S=Bilateria:D=Y:B=99.0],Drosophila-melanogaster_FBtr0346587_Acon-Aconitase-DBNLINE-:0.06225977046[&&NHX:S=Drosophila-melanogaster])n50:0.0[&&NHX:S=Bilateria:D=Y:B=100.0],Drosophila-melanogaster_FBtr0082336_CG4706-NONE:0.08568131008[&&NHX:S=Drosophila-melanogaster])n52[&&NHX:S=Bilateria:D=Y:B=100.0];
+
+>1st_gene_tree_newick
+(((((((((Gasterosteus-aculeatus_ENSGACT00000002203.1_aco1-aconitase-1:0.03015757481,Oryzias-latipes_ENSORLT00000025590.1_aco1-aconitase-1-solubl:0.03326315317)91:0.008878178884,Tetraodon-nigroviridis_ENSTNIT00000008128.1_aco1-aconitase-1:0.07320957134)94:0.01187966912,Danio-rerio_ENSDART00000045253.7_aco1-aconitase-1-soluble:0.04469836674)98:0.01493793286,((Homo-sapiens_ENST00000379923.5_ACO1-aconitase-1:0.04115435284,Gallus-gallus_ENSGALT00000076439.2_ACO1-aconitase-1-sol:0.04516466001)78:0.00723652461,Xenopus-tropicalis_ENSXETT00000020189.3_aco1-aconitase-1-aco:0.06010827824)100:0.01237086686)100:0.05578969999,(((Gallus-gallus_ENSGALT00000059950.2_IREB2-iron-responsiv:0.06530446395,Homo-sapiens_ENST00000258886.13_IREB2-iron-responsive-:0.05593216942)100:0.03491190815,Xenopus-tropicalis_ENSXETT00000062273.1_ireb2-iron-responsiv:0.1944195932)97:0.0177053823,((Gasterosteus-aculeatus_ENSGACT00000009785.1_ireb2-iron-respo:0.03431087151,Oryzias-latipes_ENSORLT00000002418.1_ireb2-iron-responsive-e:0.03905967429)100:0.03339352798,Danio-rerio_ENSDART00000135808.1_ireb2-iron-responsive-eleme:0.0634204096)100:0.06678016198)100:0.08640970828)43:0.01076099331,((Drosophila-melanogaster_FBtr0084327_Irp-1A-Iron-regulatory-:0.05012879953,Drosophila-melanogaster_FBtr0082259_Irp-1B-Iron-regulatory-:0.04038470492)100:0.1186732005,Ciona-intestinalis_ENSCINT00000019416.3_NONE:0.1423672188)58:0.01002264926)100:0.7665588647,((((((Tetraodon-nigroviridis_ENSTNIT00000016128.1_aco2-aconitase-2:0.03249141813,Oryzias-latipes_ENSORLT00000003270.1_aco2-aconitase-2-mitoch:0.02869952409)64:0.008761502105,Gasterosteus-aculeatus_ENSGACT00000006312.1_aco2-aconitase-2:0.02481664834)72:0.01119424296,Gasterosteus-aculeatus_ENSGACT00000010121.1_ACO2-aconitase-2:0.04871048097)35:0.005428199248,Danio-rerio_ENSDART00000149180.2_aco2-aconitase-2-mitochondr:0.04141677317)68:0.006112861711,Ciona-intestinalis_ENSCINT00000018217.3_NONE:0.1478877613)45:0.01591526879,((Gallus-gallus_ENSGALT00000019494.5_ACO2-aconitase-2:0.03494296383,Homo-sapiens_ENST00000396512.3_ACO2-aconitase-2:0.02399674961)89:0.009564466178,Xenopus-tropicalis_ENSXETT00000060979.1_aco2-aconitase-2:0.1437376478)98:0.0441012982)86:0.03288644449)99:0.0587712866,Drosophila-melanogaster_FBtr0346587_Acon-Aconitase-DBNLINE-:0.06225977046)100:0,Drosophila-melanogaster_FBtr0082336_CG4706-NONE:0.08568131008)100;
+
+>Aligned-site_rate
+Drosophila-melanogaster_FBtr0082336_CG4706-NONE                  0.999
+Drosophila-melanogaster_FBtr0346587_Acon-Aconitase-DBNLINE-      0.997
+Drosophila-melanogaster_FBtr0084327_Irp-1A-Iron-regulatory-      1.0
+Drosophila-melanogaster_FBtr0082259_Irp-1B-Iron-regulatory-      1.0
+== Removed ==> Ciona-intestinalis_ENSCINT00000018216.3_NONE                     0.435
+Ciona-intestinalis_ENSCINT00000018217.3_NONE                     0.545
+Ciona-intestinalis_ENSCINT00000019416.3_NONE                     1.0
+Xenopus-tropicalis_ENSXETT00000060979.1_aco2-aconitase-2         0.969
+Xenopus-tropicalis_ENSXETT00000062273.1_ireb2-iron-responsiv     0.995
+Xenopus-tropicalis_ENSXETT00000020189.3_aco1-aconitase-1-aco     1.0
+Gallus-gallus_ENSGALT00000019494.5_ACO2-aconitase-2              1.0
+Gallus-gallus_ENSGALT00000059950.2_IREB2-iron-responsiv          1.0
+Gallus-gallus_ENSGALT00000076439.2_ACO1-aconitase-1-sol          1.0
+Homo-sapiens_ENST00000396512.3_ACO2-aconitase-2                  0.999
+Homo-sapiens_ENST00000258886.13_IREB2-iron-responsive-           0.999
+Homo-sapiens_ENST00000379923.5_ACO1-aconitase-1                  1.0
+Danio-rerio_ENSDART00000149180.2_aco2-aconitase-2-mitochondr     1.0
+Danio-rerio_ENSDART00000135808.1_ireb2-iron-responsive-eleme     1.0
+Danio-rerio_ENSDART00000045253.7_aco1-aconitase-1-soluble        1.0
+== Removed ==> Tetraodon-nigroviridis_ENSTNIT00000011468.1_NONE                 0.181
+Tetraodon-nigroviridis_ENSTNIT00000016128.1_aco2-aconitase-2     1.0
+Tetraodon-nigroviridis_ENSTNIT00000008128.1_aco1-aconitase-1     1.0
+Gasterosteus-aculeatus_ENSGACT00000006312.1_aco2-aconitase-2     1.0
+Gasterosteus-aculeatus_ENSGACT00000010121.1_ACO2-aconitase-2     0.997
+Gasterosteus-aculeatus_ENSGACT00000009785.1_ireb2-iron-respo     0.999
+Gasterosteus-aculeatus_ENSGACT00000002203.1_aco1-aconitase-1     1.0
+Oryzias-latipes_ENSORLT00000003270.1_aco2-aconitase-2-mitoch     0.997
+Oryzias-latipes_ENSORLT00000002418.1_ireb2-iron-responsive-e     0.999
+Oryzias-latipes_ENSORLT00000025590.1_aco1-aconitase-1-solubl     1.0
+
+
+################ Settings ################
+
+>NumberAssigned_querySequence
+Oryzias-latipes_ENSORLT00000025590.1
+AATATGAAGAACCCTTTCCAACATTTGGTGGAATCTCTCAGCCCCACTGACCCACAGCAGCAGTTTTTCAACCTGTCGAAGCTGACAGACCCCAGATACGACCGCCTGCCGTTCTCCATCCGCGTGCTGCTGGAGTCCGCCGTCAGGAACTGCGACGGGTTTCTGGTGAAGCGCTCGGACGTGGAGAACATCCTGAACTGGAAGCAGACGCAGACTCAGACTGTGGAGGTTCCCTTCAGACCGGCCCGGGTCATCCTTCAAGACTTCACCGGCGTTCCCGCCGTGGTGGACTTCGCCGCCATGCGCGACGCAGTCATGAAGCTGGGCGGCGATCCAGAAAGGATCAACCCCGTTTGCCCCGCAGACCTCGTCATCGATCATTCCATCCAAGTGGACTTCAACAGGAATCTGGCGCCCCGCCCAGCGAGGCGGCGTCAGTCAGCAGATCTTCTCTTTTCATCCGTCTTTAGGTCCGACAGCCTTCAGAAGAACCAGGACTTGGAGTTTGACCGCAACAAAGAGAGATTCCAGTTTTTGAAATGGGGCTCCAAAGCCTTCAAGAACATGCGGATCATCCCTCCTGGTTCTGGAATCGTTCACCAGGTCAACCTGGAGTATTTGGCTCGGGTGGTGTTCCACCACGACGGCTTCCTGTACCCCGACAGTCTGGTGGGCACCGACTCCCACACCACCATGATTGATGGCCTGGGTGTTCTCGGCTGGGGCGTCGGTGGGATTGAGGCAGAGGCCGTCATGCTGGGACAGCCAATCAGCATGGTTCTCCCAGAGGTGGTGGGGTACAAGCTGCACGGCGTCCCGGACAAGTTCATCACCTCCACTGACATCGTCCTCACGGTCACCAAGCACCTTCGACAGGTGGGCGTGGTGGGGAAGTTTGTGGAGTTCTTCGGCCCCGGCGTCGCCCAGCTGTCCATCGCTGACCGAGCCACCATCGCCAACATGTGTCCAGAGTACGGCGCCACGGCGGCGTTCTTCCCCGTGGACGCCGTCAGCGTTCAGTACCTGGAGCAGACGGGGCGAGAGGCGCAGCAGCTGGCCTACATCACGGAGTACCTGAAGGCCGTGGCCATGTTCAGAGACTACGAGGATGCGGCCCAGGATCCAGACTTCACTCATGTGGTGGAGTTGGATCTCAGCACCGTGGTTCCGTGCTGCAGCGGTCCCAAACGGCCTCAGGACCGAATTCCCGTCTCCGAAATGAAGACAGACTTTGAGAGCTGCCTGGGAGCAAAGCAGGGATTCAAGGGTTTCCAGGTCGCTCCTGAACGCCACAGCGCCGCCGTCCCCTTCCACTTCAGCGGGAATGAATACACGCTGAGCCACGGCTCTGTGGTCATCGCCGCCATCACCAGCTGCACCAACACCAGCAACCCGTCCGTCATGCTGGGAGCAGGACTTCTGGCTAAGAAAGCCGTGGAACACGGACTGAGCGTGAAGCCGTACATCAAAACCAGTCTGTCGCCCGGCAGCGGCGTGGTGACCTACTACCTGAAGGAGAGCGGCGTCATGGACTACCTGTCCCAGCTGGGCTTTGAAGTGGTCGGCTACGGTTGCATGACGTGCATCGGCAACAGCGGGCCGCTGCCAGAAGCGGTGGTAGAGGCCATAACCCAGGGGGACCTGGTGGCCGCCGGCATCCTGTCAGGGAACAGGAACTTTGAGGGCCGGGTCCATCCCAACACCAGGGCCAACTACCTGGCTTCTCCGCCGCTGGTCATCGCTTATGCGATTGCCGGCACCGTGAGGATCGACTTTGAGACGGAGCCCATCGCCACCAACTGTGACGGTAAAGACGTCTACCTGAGGGACATCTGGCCCACGCGGGAGGAGATCCAGGCCGTGGAAAAAGAGTTTGTCATTCCGTCCATGTTCAGAGAAGTCTACCAGAAGATCGAGAAAGTGAACGAACGCTGGAACGCTCTGGAGGCTCCCTCTGACAAGCTGTACACCTGGGATCCCAAGTCCACTTACATCAAGTCTCCACCGTTCTTTGAGGGTTTGACCCTGAAGCTGCAGCCCCCCCGCTCCATAAAGGATGCGTACGTGCTGCTCAACCTGGGAGACTCGGTCACCACCGATCACATCTCTCCTGCCGGAAACATCGCCAGGAACAGTTCGGCAGCTCGTTACCTGGCAGACCGAGGTTTGACTCCTCGAGACTACAACTCGTACGGCTCGCGGCGAGGAAACGACGCCGTCATGGCCAGAGGGACGTTCGCAAACATCCGCCTCTTCAACAAGTTCCTGGGCAAGCAGGCGCCGCAGACCGTCCACCTGCCGAGCGGAGAAACGCTGGACGTGTTCGATGCTGCAGAGAGGTACCGGCAGTCCGGTGAGCCGCTGCTGGTTCTGGCGGGGAAAGAGTACGGCTCCGGGAGCTCCAGAGACTGGGCGGCCAAAGGCCCGTTCCTGCTGGGCATCAAGGCGGTTCTGGCTGAGAGCTATGAGAGGATCCACCGCAGCAACCTGGTGGGGATGGGAGTCATCCCCCTGGAGTATCTGCCAGGAGACTCAGCGGACAGCCTGGGCCTGACGGGCCGGGAGCGCTACAGCATCAGCATCCCAGAGCCGCTCACGCCCAGGATGCTGGCGGATGTGAAGCTGGACTCTGGGAAAACCTTCCAAGTGCGAATGAGGTTTGACACCGACGTGGAGCTGACCTACTTCCACCACGGAGGAATCCTCAACTACATGATCCGCAAGATGTCAGCAAACTAA
+
+>SubstitutionModel
+F84 (Tamura and Nei 1993) + gamma
+
+>ShortSequence_threshold
+0.45
+
+>Dataset
+Exclude3rd
+
+>Rearrangement_BS_value_threshold
+70
+
+>TaxonSampling_color
+Drosophila-melanogaster_Black
+Ciona-intestinalis_Black
+Xenopus-tropicalis_Magenta
+Gallus-gallus_Magenta
+Homo-sapiens_Magenta
+Danio-rerio_Purple
+Tetraodon-nigroviridis_Green
+Gasterosteus-aculeatus_Red
+Oryzias-latipes_Blue
+
+################ Results: 2nd analysis ################
+
+>TreeSearchMethod
+NJ
+
+>2nd_rearranged_gene_tree_newick
+(((((Oryzias-latipes_ENSORLT00000025590.1_aco1-aconitase-1-solubl,Gasterosteus-aculeatus_ENSGACT00000002203.1_aco1-aconitase-1)87_S=Percomorpha_D=N,Tetraodon-nigroviridis_ENSTNIT00000008128.1_aco1-aconitase-1)96_S=Percomorpha_D=Y,Danio-rerio_ENSDART00000045253.7_aco1-aconitase-1-soluble)100_S=Clupeocephala_D=N,((Homo-sapiens_ENST00000379923.5_ACO1-aconitase-1,Gallus-gallus_ENSGALT00000076439.2_ACO1-aconitase-1-sol)84_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000020189.3_aco1-aconitase-1-aco)83_S=Tetrapoda_D=N)100_S=BonyVertebrates_D=N,Homo-sapiens_ENST00000258886.13_IREB2-iron-responsive-)100_S=BonyVertebrates_D=Y;
+
+>2nd_rearranged_gene_tree_NHX
+(((((Oryzias-latipes_ENSORLT00000025590.1_aco1-aconitase-1-solubl:0.03825317007[&&NHX:S=Oryzias-latipes],Gasterosteus-aculeatus_ENSGACT00000002203.1_aco1-aconitase-1:0.03395256825[&&NHX:S=Gasterosteus-aculeatus])n2:0.008591342387[&&NHX:S=Percomorpha:D=N:B=87.0],Tetraodon-nigroviridis_ENSTNIT00000008128.1_aco1-aconitase-1:0.08003816771[&&NHX:S=Tetraodon-nigroviridis])n4:0.01259474016[&&NHX:S=Percomorpha:D=Y:B=96.0],Danio-rerio_ENSDART00000045253.7_aco1-aconitase-1-soluble:0.05167189074[&&NHX:S=Danio-rerio])n6:0.02242550798[&&NHX:S=Clupeocephala:D=N:B=100.0],((Homo-sapiens_ENST00000379923.5_ACO1-aconitase-1:0.04353739722[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000076439.2_ACO1-aconitase-1-sol:0.04738752588[&&NHX:S=Gallus-gallus])n9:0.008374709294[&&NHX:S=Amniota:D=N:B=84.0],Xenopus-tropicalis_ENSXETT00000020189.3_aco1-aconitase-1-aco:0.0622096918[&&NHX:S=Xenopus-tropicalis])n11:0.008042605913[&&NHX:S=Tetrapoda:D=N:B=83.0])n12:0.0[&&NHX:S=BonyVertebrates:D=N:B=100.0],Homo-sapiens_ENST00000258886.13_IREB2-iron-responsive-:0.2428566558[&&NHX:S=Homo-sapiens])n14[&&NHX:S=BonyVertebrates:D=Y:B=100.0];
+
+>2nd_gene_tree_newick
+(((((Gasterosteus-aculeatus_ENSGACT00000002203.1_aco1-aconitase-1:0.03395256825,Oryzias-latipes_ENSORLT00000025590.1_aco1-aconitase-1-solubl:0.03825317007)87:0.008591342387,Tetraodon-nigroviridis_ENSTNIT00000008128.1_aco1-aconitase-1:0.08003816771)96:0.01259474016,Danio-rerio_ENSDART00000045253.7_aco1-aconitase-1-soluble:0.05167189074)100:0.02242550798,((Gallus-gallus_ENSGALT00000076439.2_ACO1-aconitase-1-sol:0.04738752588,Homo-sapiens_ENST00000379923.5_ACO1-aconitase-1:0.04353739722)84:0.008374709294,Xenopus-tropicalis_ENSXETT00000020189.3_aco1-aconitase-1-aco:0.0622096918)83:0.008042605913)100:0,Homo-sapiens_ENST00000258886.13_IREB2-iron-responsive-:0.2428566558)100;
+
+>MonophyleticGeneGroups
+BonyVertebrates                 100  D=N
+Clupeocephala                   100  D=N
+Percomorpha                     96  D=Y
+Oryzias-latipes                 leaf  leaf
+
+>SisterGeneGroups
+BonyVertebrates                 NONE   NoGeneNode
+Clupeocephala                   100   Tetrapoda
+Percomorpha                     100   Danio-rerio
+Oryzias-latipes                 87   Gasterosteus-aculeatus
+
+>Number_of_duplicatedNode
+BonyVertebrates                 0
+Clupeocephala                   0
+Percomorpha                     1
+Oryzias-latipes                 0
+
+>AnalysisTime
+8.6 seconds

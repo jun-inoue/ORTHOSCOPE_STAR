@@ -1,0 +1,202 @@
+################ Results: 1st analysis ################
+
+>QuerySequence
+Oryzias-latipes_ENSORLT00000017335.1_pde1a-phosphodiesterase  <= [Identities = 543/543 (100%)] : Oryzias-latipes_ENSORLT00000017335.1
+
+>Number_of_blastHits
+Drosophila-melanogaster  6
+Ciona-intestinalis       10
+Xenopus-tropicalis       10
+Gallus-gallus            10
+Homo-sapiens             10
+Danio-rerio              10
+Tetraodon-nigroviridis   10
+Gasterosteus-aculeatus   10
+Oryzias-latipes          10
+
+>BS_of_orthogroupBasalNode
+r
+
+
+>Orthogroup
+Danio-rerio_ENSDART00000086202.5_pde1a-phosphodiesterase-1A-
+Gallus-gallus_ENSGALT00000091328.1_PDE1A-phosphodiester
+Gasterosteus-aculeatus_ENSGACT00000010815.1_pde1a-phosphodie
+Homo-sapiens_ENST00000435564.5_PDE1A-phosphodiesterase
+Oryzias-latipes_ENSORLT00000017335.1_pde1a-phosphodiesterase
+Xenopus-tropicalis_ENSXETT00000063692.1_pde1a-phosphodiester
+
+>GeneNumber_of_orthogroup
+Xenopus-tropicalis            1
+Gallus-gallus                 1
+Homo-sapiens                  1
+Danio-rerio                   1
+Tetraodon-nigroviridis        0
+Gasterosteus-aculeatus        1
+Oryzias-latipes               1
+
+>Rooting
+Gallus-gallus_ENSGALT00000093214.1_PDE1C-phosphodiester
+
+
+>1st_rearranged_gene_tree_newick
+((((((((((((((Homo-sapiens_ENST00000329654.8_PDE4B-phosphodiesterase,Gallus-gallus_ENSGALT00000018074.6_PDE4B-phosphodiester)92_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000043959.3_pde4b-phosphodiester)85_S=Tetrapoda_D=N,((((Oryzias-latipes_ENSORLT00000012530.1_NONE,Tetraodon-nigroviridis_ENSTNIT00000011258.1_NONE)98_S=Percomorpha_D=N,Oryzias-latipes_ENSORLT00000006850.1_pde4a-phosphodiesterase)r_S=Percomorpha_D=Y,Danio-rerio_ENSDART00000006602.7_pde4a-phosphodiesterase-4A-)86_S=Clupeocephala_D=N,((Oryzias-latipes_ENSORLT00000012296.1_pde4ba-phosphodiesteras,Tetraodon-nigroviridis_ENSTNIT00000021516.1_pde4ba-phosphodi)85_S=Percomorpha_D=N,Danio-rerio_ENSDART00000028612.8_pde4ba-phosphodiesterase-4B)r_S=Clupeocephala_D=N)r_S=Clupeocephala_D=Y)r_S=BonyVertebrates_D=N,(Xenopus-tropicalis_ENSXETT00000025444.2_pde4a-phosphodiester,((Oryzias-latipes_ENSORLT00000012920.1_NONE,Tetraodon-nigroviridis_ENSTNIT00000010856.1_NONE)100_S=Percomorpha_D=N,Danio-rerio_ENSDART00000170687.1_pde4bb-phosphodiesterase-4B)r_S=Clupeocephala_D=N)r_S=BonyVertebrates_D=N)73_S=BonyVertebrates_D=Y,(((Oryzias-latipes_ENSORLT00000005845.1_pde4d-phosphodiesterase,Tetraodon-nigroviridis_ENSTNIT00000020974.1_pde4d-phosphodie)76_S=Percomorpha_D=N,Danio-rerio_ENSDART00000018934.8_pde4d-phosphodiesterase-4D-)92_S=Clupeocephala_D=N,((Homo-sapiens_ENST00000340635.11_PDE4D-phosphodiesteras,Gallus-gallus_ENSGALT00000082151.2_PDE4D-phosphodiester)100_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000040889.3_pde4d-phosphodiester)97_S=Tetrapoda_D=N)89_S=BonyVertebrates_D=N)r_S=BonyVertebrates_D=Y,((((Homo-sapiens_ENST00000380702.7_PDE4A-phosphodiesterase,(Homo-sapiens_ENST00000355502.7_AC008397.2-novel-protei,Homo-sapiens_ENST00000594617.7_PDE4C-phosphodiesterase)100_S=Homo-sapiens_D=Y)r_S=Homo-sapiens_D=Y,Gallus-gallus_ENSGALT00000107883.1_phosphodiesterase-4C)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000028294.3_pde4c-phosphodiester)r_S=Tetrapoda_D=N,((((Oryzias-latipes_ENSORLT00000010476.1_pde4cb-phosphodiesteras,Tetraodon-nigroviridis_ENSTNIT00000013286.1_pde4cb-phosphodi)97_S=Percomorpha_D=N,Tetraodon-nigroviridis_ENSTNIT00000014203.1_pde4ca-phosphodi)r_S=Percomorpha_D=Y,Danio-rerio_ENSDART00000139454.3_pde4cb-phosphodiesterase-4C)80_S=Clupeocephala_D=N,Danio-rerio_ENSDART00000002096.7_pde4ca-phosphodiesterase-4C)90_S=Clupeocephala_D=Y)r_S=BonyVertebrates_D=N)97_S=BonyVertebrates_D=Y,Ciona-intestinalis_ENSCINT00000015277.3_NONE)r_S=Deuterostomia_D=N,Drosophila-melanogaster_FBtr0333315_dnc-dunce-DBNLINE-148)100_S=Bilateria_D=N,((Xenopus-tropicalis_ENSXETT00000035117.3_pde8a-phosphodiester,Ciona-intestinalis_ENSCINT00000016568.3_NONE)99_S=Deuterostomia_D=N,Drosophila-melanogaster_FBtr0344184_Pde8-Phosphodiesterase-)96_S=Bilateria_D=N)r_S=Bilateria_D=Y,(Ciona-intestinalis_ENSCINT00000013533.3_NONE,Drosophila-melanogaster_FBtr0330395_Pde9-Phosphodiesterase-)98_S=Bilateria_D=N)r_S=Bilateria_D=Y,((((((Homo-sapiens_ENST00000359062.4_PDE3A-phosphodiesterase,Gallus-gallus_ENSGALT00000037438.4_PDE3A-phosphodiester)98_S=Amniota_D=N,Oryzias-latipes_ENSORLT00000005650.1_PDE3A-phosphodiesterase)90_S=BonyVertebrates_D=N,(Danio-rerio_ENSDART00000173932.1_PDE3B-phosphodiesterase-3B,Gallus-gallus_ENSGALT00000039611.4_PDE3B-phosphodiester)77_S=BonyVertebrates_D=N)98_S=BonyVertebrates_D=Y,Ciona-intestinalis_ENSCINT00000011667.3_NONE)100_S=Deuterostomia_D=N,(((((((Gallus-gallus_ENSGALT00000093214.1_PDE1C-phosphodiester,Xenopus-tropicalis_ENSXETT00000050616.2_pde1c-phosphodiester)81_S=Tetrapoda_D=N,(((Gasterosteus-aculeatus_ENSGACT00000022726.1_NONE,Tetraodon-nigroviridis_ENSTNIT00000022046.1_PDE1C-phosphodie)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000022279.1_NONE)77_S=Percomorpha_D=N,Danio-rerio_ENSDART00000122716.2_NONE)97_S=Clupeocephala_D=N)r_S=BonyVertebrates_D=N,(Homo-sapiens_ENST00000396193.5_PDE1C-phosphodiesterase,(((((((Gasterosteus-aculeatus_ENSGACT00000020747.1_NONE,Gasterosteus-aculeatus_ENSGACT00000001565.1_NONE)r_S=Gasterosteus-aculeatus_D=Y,Gasterosteus-aculeatus_ENSGACT00000001444.1_NONE)r_S=Gasterosteus-aculeatus_D=Y,Gasterosteus-aculeatus_ENSGACT00000014882.1_NONE)r_S=Gasterosteus-aculeatus_D=Y,Gasterosteus-aculeatus_ENSGACT00000000002.1_NONE)r_S=Gasterosteus-aculeatus_D=Y,Gasterosteus-aculeatus_ENSGACT00000001141.1_NONE)94_S=Gasterosteus-aculeatus_D=Y,Gasterosteus-aculeatus_ENSGACT00000001233.1_NONE)100_S=Gasterosteus-aculeatus_D=Y,Tetraodon-nigroviridis_ENSTNIT00000008121.1_PDE1C-phosphodie)95_S=Eupercaria_D=N)r_S=BonyVertebrates_D=N)80_S=BonyVertebrates_D=Y,(((Homo-sapiens_ENST00000435564.5_PDE1A-phosphodiesterase,Gallus-gallus_ENSGALT00000091328.1_PDE1A-phosphodiester)77_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000063692.1_pde1a-phosphodiester)83_S=Tetrapoda_D=N,((Oryzias-latipes_ENSORLT00000017335.1_pde1a-phosphodiesterase,Gasterosteus-aculeatus_ENSGACT00000010815.1_pde1a-phosphodie)100_S=Percomorpha_D=N,Danio-rerio_ENSDART00000086202.5_pde1a-phosphodiesterase-1A-)81_S=Clupeocephala_D=N)r_S=BonyVertebrates_D=N)89_S=BonyVertebrates_D=Y,(((Homo-sapiens_ENST00000243052.8_PDE1B-phosphodiesterase,Gallus-gallus_ENSGALT00000095439.1_PDE1B-phosphodiester)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000060269.1_pde1b-phosphodiester)96_S=Tetrapoda_D=N,((Gasterosteus-aculeatus_ENSGACT00000009260.1_PDE1B-phosphodie,Tetraodon-nigroviridis_ENSTNIT00000018088.1_PDE1B-phosphodie)99_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000006203.1_NONE)99_S=Percomorpha_D=N)r_S=BonyVertebrates_D=N)76_S=BonyVertebrates_D=Y,((((Homo-sapiens_ENST00000401827.8_PDE7A-phosphodiesterase,Gallus-gallus_ENSGALT00000075209.2_PDE7A-phosphodiester)100_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000043752.3_pde7a-phosphodiester)78_S=Tetrapoda_D=N,Danio-rerio_ENSDART00000124317.2_pde7a-phosphodiesterase-7A)96_S=BonyVertebrates_D=N,(Gallus-gallus_ENSGALT00000108093.1_PDE7B-phosphodiester,Xenopus-tropicalis_ENSXETT00000038451.3_pde7b-phosphodiester)100_S=Tetrapoda_D=N)100_S=BonyVertebrates_D=Y)r_S=BonyVertebrates_D=Y,Ciona-intestinalis_ENSCINT00000013648.3_NONE)r_S=Deuterostomia_D=N)r_S=Deuterostomia_D=Y,Drosophila-melanogaster_FBtr0334138_Pde1c-Phosphodiesterase)r_S=Bilateria_D=N)100_S=Bilateria_D=Y,(Ciona-intestinalis_ENSCINT00000031567.1_NONE,Ciona-intestinalis_ENSCINT00000010920.3_NONE)r_S=Ciona-intestinalis_D=Y)98_S=Bilateria_D=Y,Drosophila-melanogaster_FBtr0330048_Pde6-Phosphodiesterase-)100_S=Bilateria_D=Y,Drosophila-melanogaster_FBtr0112544_Pde11-Phosphodiesterase)100_S=Bilateria_D=Y;
+
+>1st_rearranged_gene_tree_NHX
+((((((((((((((Homo-sapiens_ENST00000329654.8_PDE4B-phosphodiesterase:0.02049038242[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000018074.6_PDE4B-phosphodiester:0.01155736366[&&NHX:S=Gallus-gallus])n80:0.008401102125[&&NHX:S=Amniota:D=N:B=92.0],Xenopus-tropicalis_ENSXETT00000043959.3_pde4b-phosphodiester:0.03211366314[&&NHX:S=Xenopus-tropicalis])n82:0.009763557746[&&NHX:S=Tetrapoda:D=N:B=85.0],((((Oryzias-latipes_ENSORLT00000012530.1_NONE:0.02180860721[&&NHX:S=Oryzias-latipes],Tetraodon-nigroviridis_ENSTNIT00000011258.1_NONE:0.01608788303[&&NHX:S=Tetraodon-nigroviridis])n89:0.01591850831[&&NHX:S=Percomorpha:D=N:B=98.0],Oryzias-latipes_ENSORLT00000006850.1_pde4a-phosphodiesterase:0.02334022153[&&NHX:S=Oryzias-latipes])r194[&&NHX:S=Percomorpha:D=Y],Danio-rerio_ENSDART00000006602.7_pde4a-phosphodiesterase-4A-:0.02420189605[&&NHX:S=Danio-rerio])n90:0.01459816845[&&NHX:S=Clupeocephala:D=N:B=86.0],((Oryzias-latipes_ENSORLT00000012296.1_pde4ba-phosphodiesteras:0.01391703971[&&NHX:S=Oryzias-latipes],Tetraodon-nigroviridis_ENSTNIT00000021516.1_pde4ba-phosphodi:0.01072204824[&&NHX:S=Tetraodon-nigroviridis])n69:0.008207097657[&&NHX:S=Percomorpha:D=N:B=85.0],Danio-rerio_ENSDART00000028612.8_pde4ba-phosphodiesterase-4B:0.02463974367[&&NHX:S=Danio-rerio])r188[&&NHX:S=Clupeocephala:D=N])r187[&&NHX:S=Clupeocephala:D=Y])r186[&&NHX:S=BonyVertebrates:D=N],(Xenopus-tropicalis_ENSXETT00000025444.2_pde4a-phosphodiester:0.03015597507[&&NHX:S=Xenopus-tropicalis],((Oryzias-latipes_ENSORLT00000012920.1_NONE:0.01983800498[&&NHX:S=Oryzias-latipes],Tetraodon-nigroviridis_ENSTNIT00000010856.1_NONE:0.01404498286[&&NHX:S=Tetraodon-nigroviridis])n74:0.0202299759[&&NHX:S=Percomorpha:D=N:B=100.0],Danio-rerio_ENSDART00000170687.1_pde4bb-phosphodiesterase-4B:0.03907305407[&&NHX:S=Danio-rerio])r192[&&NHX:S=Clupeocephala:D=N])r189[&&NHX:S=BonyVertebrates:D=N])n93:0.008104779373[&&NHX:S=BonyVertebrates:D=Y:B=73.0],(((Oryzias-latipes_ENSORLT00000005845.1_pde4d-phosphodiesterase:0.02109351262[&&NHX:S=Oryzias-latipes],Tetraodon-nigroviridis_ENSTNIT00000020974.1_pde4d-phosphodie:0.01295947751[&&NHX:S=Tetraodon-nigroviridis])n109:0.003918060269[&&NHX:S=Percomorpha:D=N:B=76.0],Danio-rerio_ENSDART00000018934.8_pde4d-phosphodiesterase-4D-:0.01599039532[&&NHX:S=Danio-rerio])n111:0.008426917703[&&NHX:S=Clupeocephala:D=N:B=92.0],((Homo-sapiens_ENST00000340635.11_PDE4D-phosphodiesteras:0.0103928275[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000082151.2_PDE4D-phosphodiester:0.01015092322[&&NHX:S=Gallus-gallus])n114:0.01312108315[&&NHX:S=Amniota:D=N:B=100.0],Xenopus-tropicalis_ENSXETT00000040889.3_pde4d-phosphodiester:0.0189954147[&&NHX:S=Xenopus-tropicalis])n116:0.01115792695[&&NHX:S=Tetrapoda:D=N:B=97.0])n117:0.006972834734[&&NHX:S=BonyVertebrates:D=N:B=89.0])r180[&&NHX:S=BonyVertebrates:D=Y],((((Homo-sapiens_ENST00000380702.7_PDE4A-phosphodiesterase:0.04955006169[&&NHX:S=Homo-sapiens],(Homo-sapiens_ENST00000355502.7_AC008397.2-novel-protei:0.0[&&NHX:S=Homo-sapiens],Homo-sapiens_ENST00000594617.7_PDE4C-phosphodiesterase:0.0[&&NHX:S=Homo-sapiens])n121:0.06231556118[&&NHX:S=Homo-sapiens:D=Y:B=100.0])r184[&&NHX:S=Homo-sapiens:D=Y],Gallus-gallus_ENSGALT00000107883.1_phosphodiesterase-4C:0.0301673509[&&NHX:S=Gallus-gallus])r183[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000028294.3_pde4c-phosphodiester:0.03410047895[&&NHX:S=Xenopus-tropicalis])r182[&&NHX:S=Tetrapoda:D=N],((((Oryzias-latipes_ENSORLT00000010476.1_pde4cb-phosphodiesteras:0.0242247422[&&NHX:S=Oryzias-latipes],Tetraodon-nigroviridis_ENSTNIT00000013286.1_pde4cb-phosphodi:0.03334649417[&&NHX:S=Tetraodon-nigroviridis])n98:0.01441543481[&&NHX:S=Percomorpha:D=N:B=97.0],Tetraodon-nigroviridis_ENSTNIT00000014203.1_pde4ca-phosphodi:0.01820610469[&&NHX:S=Tetraodon-nigroviridis])r198[&&NHX:S=Percomorpha:D=Y],Danio-rerio_ENSDART00000139454.3_pde4cb-phosphodiesterase-4C:0.03808339781[&&NHX:S=Danio-rerio])n102:0.007816771205[&&NHX:S=Clupeocephala:D=N:B=80.0],Danio-rerio_ENSDART00000002096.7_pde4ca-phosphodiesterase-4C:0.03218409563[&&NHX:S=Danio-rerio])n104:0.01312346283[&&NHX:S=Clupeocephala:D=Y:B=90.0])r181[&&NHX:S=BonyVertebrates:D=N])n125:0.0470467482[&&NHX:S=BonyVertebrates:D=Y:B=97.0],Ciona-intestinalis_ENSCINT00000015277.3_NONE:0.1560378272[&&NHX:S=Ciona-intestinalis])r178[&&NHX:S=Deuterostomia:D=N],Drosophila-melanogaster_FBtr0333315_dnc-dunce-DBNLINE-148:0.1450826528[&&NHX:S=Drosophila-melanogaster])n129:0.1824695561[&&NHX:S=Bilateria:D=N:B=100.0],((Xenopus-tropicalis_ENSXETT00000035117.3_pde8a-phosphodiester:0.1705490058[&&NHX:S=Xenopus-tropicalis],Ciona-intestinalis_ENSCINT00000016568.3_NONE:0.1505299542[&&NHX:S=Ciona-intestinalis])n144:0.0709200041[&&NHX:S=Deuterostomia:D=N:B=99.0],Drosophila-melanogaster_FBtr0344184_Pde8-Phosphodiesterase-:0.2102900645[&&NHX:S=Drosophila-melanogaster])n146:0.2039432689[&&NHX:S=Bilateria:D=N:B=96.0])r172[&&NHX:S=Bilateria:D=Y],(Ciona-intestinalis_ENSCINT00000013533.3_NONE:0.315199723[&&NHX:S=Ciona-intestinalis],Drosophila-melanogaster_FBtr0330395_Pde9-Phosphodiesterase-:0.261509004[&&NHX:S=Drosophila-melanogaster])n153:0.1999124979[&&NHX:S=Bilateria:D=N:B=98.0])r171[&&NHX:S=Bilateria:D=Y],((((((Homo-sapiens_ENST00000359062.4_PDE3A-phosphodiesterase:0.02200602584[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000037438.4_PDE3A-phosphodiester:0.02168543291[&&NHX:S=Gallus-gallus])n133:0.02961991237[&&NHX:S=Amniota:D=N:B=98.0],Oryzias-latipes_ENSORLT00000005650.1_PDE3A-phosphodiesterase:0.05445968746[&&NHX:S=Oryzias-latipes])n135:0.0280189397[&&NHX:S=BonyVertebrates:D=N:B=90.0],(Danio-rerio_ENSDART00000173932.1_PDE3B-phosphodiesterase-3B:0.06503827405[&&NHX:S=Danio-rerio],Gallus-gallus_ENSGALT00000039611.4_PDE3B-phosphodiester:0.07278746782[&&NHX:S=Gallus-gallus])n138:0.0162047742[&&NHX:S=BonyVertebrates:D=N:B=77.0])n139:0.09506289579[&&NHX:S=BonyVertebrates:D=Y:B=98.0],Ciona-intestinalis_ENSCINT00000011667.3_NONE:0.1899293316[&&NHX:S=Ciona-intestinalis])n141:0.2335615571[&&NHX:S=Deuterostomia:D=N:B=100.0],(((((((Gallus-gallus_ENSGALT00000093214.1_PDE1C-phosphodiester:0.01722499433[&&NHX:S=Gallus-gallus],Xenopus-tropicalis_ENSXETT00000050616.2_pde1c-phosphodiester:0.02652250478[&&NHX:S=Xenopus-tropicalis])n24:0.007142077582[&&NHX:S=Tetrapoda:D=N:B=81.0],(((Gasterosteus-aculeatus_ENSGACT00000022726.1_NONE:0.0163327543[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000022046.1_PDE1C-phosphodie:0.01193703727[&&NHX:S=Tetraodon-nigroviridis])r221[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000022279.1_NONE:0.01132656955[&&NHX:S=Oryzias-latipes])n19:0.008025049917[&&NHX:S=Percomorpha:D=N:B=77.0],Danio-rerio_ENSDART00000122716.2_NONE:0.02839544927[&&NHX:S=Danio-rerio])n21:0.0142343381[&&NHX:S=Clupeocephala:D=N:B=97.0])r210[&&NHX:S=BonyVertebrates:D=N],(Homo-sapiens_ENST00000396193.5_PDE1C-phosphodiesterase:0.03352344736[&&NHX:S=Homo-sapiens],(((((((Gasterosteus-aculeatus_ENSGACT00000020747.1_NONE:0.00108797559[&&NHX:S=Gasterosteus-aculeatus],Gasterosteus-aculeatus_ENSGACT00000001565.1_NONE:0.07244066186[&&NHX:S=Gasterosteus-aculeatus])r226[&&NHX:S=Gasterosteus-aculeatus:D=Y],Gasterosteus-aculeatus_ENSGACT00000001444.1_NONE:0.01836325663[&&NHX:S=Gasterosteus-aculeatus])r225[&&NHX:S=Gasterosteus-aculeatus:D=Y],Gasterosteus-aculeatus_ENSGACT00000014882.1_NONE:0.004343666235[&&NHX:S=Gasterosteus-aculeatus])r224[&&NHX:S=Gasterosteus-aculeatus:D=Y],Gasterosteus-aculeatus_ENSGACT00000000002.1_NONE:0.01064180904[&&NHX:S=Gasterosteus-aculeatus])r223[&&NHX:S=Gasterosteus-aculeatus:D=Y],Gasterosteus-aculeatus_ENSGACT00000001141.1_NONE:0.004705684393[&&NHX:S=Gasterosteus-aculeatus])n10:0.01181011213[&&NHX:S=Gasterosteus-aculeatus:D=Y:B=94.0],Gasterosteus-aculeatus_ENSGACT00000001233.1_NONE:0.02002818142[&&NHX:S=Gasterosteus-aculeatus])n12:0.02903974707[&&NHX:S=Gasterosteus-aculeatus:D=Y:B=100.0],Tetraodon-nigroviridis_ENSTNIT00000008121.1_PDE1C-phosphodie:0.04175670661[&&NHX:S=Tetraodon-nigroviridis])n14:0.0157298805[&&NHX:S=Eupercaria:D=N:B=95.0])r211[&&NHX:S=BonyVertebrates:D=N])n28:0.01544097885[&&NHX:S=BonyVertebrates:D=Y:B=80.0],(((Homo-sapiens_ENST00000435564.5_PDE1A-phosphodiesterase:0.03174607221[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000091328.1_PDE1A-phosphodiester:0.03177516562[&&NHX:S=Gallus-gallus])n31:0.01351913823[&&NHX:S=Amniota:D=N:B=77.0],Xenopus-tropicalis_ENSXETT00000063692.1_pde1a-phosphodiester:0.04306500889[&&NHX:S=Xenopus-tropicalis])n33:0.01899158095[&&NHX:S=Tetrapoda:D=N:B=83.0],((Oryzias-latipes_ENSORLT00000017335.1_pde1a-phosphodiesterase:0.005257012163[&&NHX:S=Oryzias-latipes],Gasterosteus-aculeatus_ENSGACT00000010815.1_pde1a-phosphodie:0.02275738517[&&NHX:S=Gasterosteus-aculeatus])n36:0.03775223504[&&NHX:S=Percomorpha:D=N:B=100.0],Danio-rerio_ENSDART00000086202.5_pde1a-phosphodiesterase-1A-:0.04379729388[&&NHX:S=Danio-rerio])n38:0.0300690542[&&NHX:S=Clupeocephala:D=N:B=81.0])r208[&&NHX:S=BonyVertebrates:D=N])n40:0.02617271506[&&NHX:S=BonyVertebrates:D=Y:B=89.0],(((Homo-sapiens_ENST00000243052.8_PDE1B-phosphodiesterase:0.04509409776[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000095439.1_PDE1B-phosphodiester:0.271260607[&&NHX:S=Gallus-gallus])r228[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000060269.1_pde1b-phosphodiester:0.05374358229[&&NHX:S=Xenopus-tropicalis])n45:0.05145668308[&&NHX:S=Tetrapoda:D=N:B=96.0],((Gasterosteus-aculeatus_ENSGACT00000009260.1_PDE1B-phosphodie:0.02119228884[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000018088.1_PDE1B-phosphodie:0.03033216902[&&NHX:S=Tetraodon-nigroviridis])n48:0.02469639113[&&NHX:S=Eupercaria:D=N:B=99.0],Oryzias-latipes_ENSORLT00000006203.1_NONE:0.04046309658[&&NHX:S=Oryzias-latipes])n50:0.06598912557[&&NHX:S=Percomorpha:D=N:B=99.0])r204[&&NHX:S=BonyVertebrates:D=N])n52:1.07683975E-4[&&NHX:S=BonyVertebrates:D=Y:B=76.0],((((Homo-sapiens_ENST00000401827.8_PDE7A-phosphodiesterase:0.03977576454[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000075209.2_PDE7A-phosphodiester:0.02611559464[&&NHX:S=Gallus-gallus])n57:0.04990924356[&&NHX:S=Amniota:D=N:B=100.0],Xenopus-tropicalis_ENSXETT00000043752.3_pde7a-phosphodiester:0.02523637068[&&NHX:S=Xenopus-tropicalis])n59:0.02300004234[&&NHX:S=Tetrapoda:D=N:B=78.0],Danio-rerio_ENSDART00000124317.2_pde7a-phosphodiesterase-7A:0.09795826829[&&NHX:S=Danio-rerio])n61:0.03511098231[&&NHX:S=BonyVertebrates:D=N:B=96.0],(Gallus-gallus_ENSGALT00000108093.1_PDE7B-phosphodiester:0.02772144135[&&NHX:S=Gallus-gallus],Xenopus-tropicalis_ENSXETT00000038451.3_pde7b-phosphodiester:0.0616833084[&&NHX:S=Xenopus-tropicalis])n64:0.08060502202[&&NHX:S=Tetrapoda:D=N:B=100.0])n65:0.2577853152[&&NHX:S=BonyVertebrates:D=Y:B=100.0])r176[&&NHX:S=BonyVertebrates:D=Y],Ciona-intestinalis_ENSCINT00000013648.3_NONE:1.321033534[&&NHX:S=Ciona-intestinalis])r175[&&NHX:S=Deuterostomia:D=N])r174[&&NHX:S=Deuterostomia:D=Y],Drosophila-melanogaster_FBtr0334138_Pde1c-Phosphodiesterase:0.362076337[&&NHX:S=Drosophila-melanogaster])r173[&&NHX:S=Bilateria:D=N])n154:0.2634359297[&&NHX:S=Bilateria:D=Y:B=100.0],(Ciona-intestinalis_ENSCINT00000031567.1_NONE:0.267397752[&&NHX:S=Ciona-intestinalis],Ciona-intestinalis_ENSCINT00000010920.3_NONE:0.4772070357[&&NHX:S=Ciona-intestinalis])r168[&&NHX:S=Ciona-intestinalis:D=Y])n158:0.1038542974[&&NHX:S=Bilateria:D=Y:B=98.0],Drosophila-melanogaster_FBtr0330048_Pde6-Phosphodiesterase-:0.1630884188[&&NHX:S=Drosophila-melanogaster])n160:0.0[&&NHX:S=Bilateria:D=Y:B=100.0],Drosophila-melanogaster_FBtr0112544_Pde11-Phosphodiesterase:0.2177629754[&&NHX:S=Drosophila-melanogaster])n162[&&NHX:S=Bilateria:D=Y:B=100.0];
+
+>1st_gene_tree_newick
+(((((((((((((((((((((Gasterosteus-aculeatus_ENSGACT00000001565.1_NONE:0.07244066186,Gasterosteus-aculeatus_ENSGACT00000020747.1_NONE:0.00108797559)27:0.000304768715,Gasterosteus-aculeatus_ENSGACT00000001444.1_NONE:0.01836325663)56:0.006626250649,Gasterosteus-aculeatus_ENSGACT00000014882.1_NONE:0.004343666235)38:0.00344421205,Gasterosteus-aculeatus_ENSGACT00000000002.1_NONE:0.01064180904)31:0.001562195295,Gasterosteus-aculeatus_ENSGACT00000001141.1_NONE:0.004705684393)94:0.01181011213,Gasterosteus-aculeatus_ENSGACT00000001233.1_NONE:0.02002818142)100:0.02903974707,Tetraodon-nigroviridis_ENSTNIT00000008121.1_PDE1C-phosphodie:0.04175670661)95:0.0157298805,((((Tetraodon-nigroviridis_ENSTNIT00000022046.1_PDE1C-phosphodie:0.01193703727,Gasterosteus-aculeatus_ENSGACT00000022726.1_NONE:0.0163327543)52:0.007756065924,Oryzias-latipes_ENSORLT00000022279.1_NONE:0.01132656955)77:0.008025049917,Danio-rerio_ENSDART00000122716.2_NONE:0.02839544927)97:0.0142343381,(Xenopus-tropicalis_ENSXETT00000050616.2_pde1c-phosphodiester:0.02652250478,Gallus-gallus_ENSGALT00000093214.1_PDE1C-phosphodiester:0.01722499433)81:0.007142077582)63:0.01356395031)47:0.01397775058,Homo-sapiens_ENST00000396193.5_PDE1C-phosphodiesterase:0.03352344736)80:0.01544097885,(((Gallus-gallus_ENSGALT00000091328.1_PDE1A-phosphodiester:0.03177516562,Homo-sapiens_ENST00000435564.5_PDE1A-phosphodiesterase:0.03174607221)77:0.01351913823,Xenopus-tropicalis_ENSXETT00000063692.1_pde1a-phosphodiester:0.04306500889)83:0.01899158095,((Gasterosteus-aculeatus_ENSGACT00000010815.1_pde1a-phosphodie:0.02275738517,Oryzias-latipes_ENSORLT00000017335.1_pde1a-phosphodiesterase:0.005257012163)100:0.03775223504,Danio-rerio_ENSDART00000086202.5_pde1a-phosphodiesterase-1A-:0.04379729388)81:0.0300690542)48:0.00779104125)89:0.02617271506,(((Gallus-gallus_ENSGALT00000095439.1_PDE1B-phosphodiester:0.271260607,Homo-sapiens_ENST00000243052.8_PDE1B-phosphodiesterase:0.04509409776)55:0.0182355602,Xenopus-tropicalis_ENSXETT00000060269.1_pde1b-phosphodiester:0.05374358229)96:0.05145668308,((Tetraodon-nigroviridis_ENSTNIT00000018088.1_PDE1B-phosphodie:0.03033216902,Gasterosteus-aculeatus_ENSGACT00000009260.1_PDE1B-phosphodie:0.02119228884)99:0.02469639113,Oryzias-latipes_ENSORLT00000006203.1_NONE:0.04046309658)99:0.06598912557)61:0.0177096501)76:0.000107683975,Ciona-intestinalis_ENSCINT00000013648.3_NONE:1.321033534)12:0.1742568817,((((Gallus-gallus_ENSGALT00000075209.2_PDE7A-phosphodiester:0.02611559464,Homo-sapiens_ENST00000401827.8_PDE7A-phosphodiesterase:0.03977576454)100:0.04990924356,Xenopus-tropicalis_ENSXETT00000043752.3_pde7a-phosphodiester:0.02523637068)78:0.02300004234,Danio-rerio_ENSDART00000124317.2_pde7a-phosphodiesterase-7A:0.09795826829)96:0.03511098231,(Xenopus-tropicalis_ENSXETT00000038451.3_pde7b-phosphodiester:0.0616833084,Gallus-gallus_ENSGALT00000108093.1_PDE7B-phosphodiester:0.02772144135)100:0.08060502202)100:0.2577853152)0:0.05286499034,((((((((((Tetraodon-nigroviridis_ENSTNIT00000021516.1_pde4ba-phosphodi:0.01072204824,Oryzias-latipes_ENSORLT00000012296.1_pde4ba-phosphodiesteras:0.01391703971)85:0.008207097657,Danio-rerio_ENSDART00000028612.8_pde4ba-phosphodiesterase-4B:0.02463974367)45:0.00245224054,(Tetraodon-nigroviridis_ENSTNIT00000010856.1_NONE:0.01404498286,Oryzias-latipes_ENSORLT00000012920.1_NONE:0.01983800498)100:0.0202299759)52:0.003006164257,Danio-rerio_ENSDART00000170687.1_pde4bb-phosphodiesterase-4B:0.03907305407)49:0.002749700417,((Gallus-gallus_ENSGALT00000018074.6_PDE4B-phosphodiester:0.01155736366,Homo-sapiens_ENST00000329654.8_PDE4B-phosphodiesterase:0.02049038242)92:0.008401102125,Xenopus-tropicalis_ENSXETT00000043959.3_pde4b-phosphodiester:0.03211366314)85:0.009763557746)32:0.003861820161,(((Danio-rerio_ENSDART00000006602.7_pde4a-phosphodiesterase-4A-:0.02420189605,Oryzias-latipes_ENSORLT00000006850.1_pde4a-phosphodiesterase:0.02334022153)52:0.00476983518,(Tetraodon-nigroviridis_ENSTNIT00000011258.1_NONE:0.01608788303,Oryzias-latipes_ENSORLT00000012530.1_NONE:0.02180860721)98:0.01591850831)86:0.01459816845,Xenopus-tropicalis_ENSXETT00000025444.2_pde4a-phosphodiester:0.03015597507)59:0.005710836983)73:0.008104779373,Homo-sapiens_ENST00000380702.7_PDE4A-phosphodiesterase:0.04955006169)47:0.007485126841,(((((((Tetraodon-nigroviridis_ENSTNIT00000013286.1_pde4cb-phosphodi:0.03334649417,Oryzias-latipes_ENSORLT00000010476.1_pde4cb-phosphodiesteras:0.0242247422)97:0.01441543481,Danio-rerio_ENSDART00000139454.3_pde4cb-phosphodiesterase-4C:0.03808339781)65:0.00521735083,Tetraodon-nigroviridis_ENSTNIT00000014203.1_pde4ca-phosphodi:0.01820610469)80:0.007816771205,Danio-rerio_ENSDART00000002096.7_pde4ca-phosphodiesterase-4C:0.03218409563)90:0.01312346283,Xenopus-tropicalis_ENSXETT00000028294.3_pde4c-phosphodiester:0.03410047895)42:0.005075986187,(((Tetraodon-nigroviridis_ENSTNIT00000020974.1_pde4d-phosphodie:0.01295947751,Oryzias-latipes_ENSORLT00000005845.1_pde4d-phosphodiesterase:0.02109351262)76:0.003918060269,Danio-rerio_ENSDART00000018934.8_pde4d-phosphodiesterase-4D-:0.01599039532)92:0.008426917703,((Gallus-gallus_ENSGALT00000082151.2_PDE4D-phosphodiester:0.01015092322,Homo-sapiens_ENST00000340635.11_PDE4D-phosphodiesteras:0.0103928275)100:0.01312108315,Xenopus-tropicalis_ENSXETT00000040889.3_pde4d-phosphodiester:0.0189954147)97:0.01115792695)89:0.006972834734)39:0.004614043279,((Homo-sapiens_ENST00000594617.7_PDE4C-phosphodiesterase:0,Homo-sapiens_ENST00000355502.7_AC008397.2-novel-protei:0)100:0.06231556118,Gallus-gallus_ENSGALT00000107883.1_phosphodiesterase-4C:0.0301673509)58:0.0121029325)49:0.006662323061)97:0.0470467482,Drosophila-melanogaster_FBtr0333315_dnc-dunce-DBNLINE-148:0.1450826528)45:0.01352748611,Ciona-intestinalis_ENSCINT00000015277.3_NONE:0.1560378272)100:0.1824695561)0:0.03179326609,(((((Gallus-gallus_ENSGALT00000037438.4_PDE3A-phosphodiester:0.02168543291,Homo-sapiens_ENST00000359062.4_PDE3A-phosphodiesterase:0.02200602584)98:0.02961991237,Oryzias-latipes_ENSORLT00000005650.1_PDE3A-phosphodiesterase:0.05445968746)90:0.0280189397,(Gallus-gallus_ENSGALT00000039611.4_PDE3B-phosphodiester:0.07278746782,Danio-rerio_ENSDART00000173932.1_PDE3B-phosphodiesterase-3B:0.06503827405)77:0.0162047742)98:0.09506289579,Ciona-intestinalis_ENSCINT00000011667.3_NONE:0.1899293316)100:0.2335615571,((Ciona-intestinalis_ENSCINT00000016568.3_NONE:0.1505299542,Xenopus-tropicalis_ENSXETT00000035117.3_pde8a-phosphodiester:0.1705490058)99:0.0709200041,Drosophila-melanogaster_FBtr0344184_Pde8-Phosphodiesterase-:0.2102900645)96:0.2039432689)23:0.01232523019)1:0.05294803689,Drosophila-melanogaster_FBtr0334138_Pde1c-Phosphodiesterase:0.362076337)56:0.06696476519,(Drosophila-melanogaster_FBtr0330395_Pde9-Phosphodiesterase-:0.261509004,Ciona-intestinalis_ENSCINT00000013533.3_NONE:0.315199723)98:0.1999124979)100:0.2634359297,Ciona-intestinalis_ENSCINT00000031567.1_NONE:0.267397752)40:0.01646811589,Ciona-intestinalis_ENSCINT00000010920.3_NONE:0.4772070357)98:0.1038542974,Drosophila-melanogaster_FBtr0330048_Pde6-Phosphodiesterase-:0.1630884188)100:0,Drosophila-melanogaster_FBtr0112544_Pde11-Phosphodiesterase:0.2177629754)100;
+
+>Aligned-site_rate
+Drosophila-melanogaster_FBtr0112544_Pde11-Phosphodiesterase      0.98
+Drosophila-melanogaster_FBtr0330048_Pde6-Phosphodiesterase-      0.98
+Drosophila-melanogaster_FBtr0330395_Pde9-Phosphodiesterase-      0.99
+Drosophila-melanogaster_FBtr0344184_Pde8-Phosphodiesterase-      0.982
+Drosophila-melanogaster_FBtr0333315_dnc-dunce-DBNLINE-148        1.0
+Drosophila-melanogaster_FBtr0334138_Pde1c-Phosphodiesterase      1.0
+== Removed ==> Ciona-intestinalis_ENSCINT00000019976.3_NONE                     0.256
+== Removed ==> Ciona-intestinalis_ENSCINT00000007369.3_NONE                     0.401
+Ciona-intestinalis_ENSCINT00000013648.3_NONE                     0.546
+Ciona-intestinalis_ENSCINT00000010920.3_NONE                     0.97
+Ciona-intestinalis_ENSCINT00000031567.1_NONE                     0.939
+Ciona-intestinalis_ENSCINT00000013533.3_NONE                     0.723
+== Removed ==> Ciona-intestinalis_ENSCINT00000013646.3_NONE                     0.294
+Ciona-intestinalis_ENSCINT00000016568.3_NONE                     0.975
+Ciona-intestinalis_ENSCINT00000011667.3_NONE                     0.926
+Ciona-intestinalis_ENSCINT00000015277.3_NONE                     0.997
+Xenopus-tropicalis_ENSXETT00000035117.3_pde8a-phosphodiester     0.975
+Xenopus-tropicalis_ENSXETT00000038451.3_pde7b-phosphodiester     0.858
+Xenopus-tropicalis_ENSXETT00000043752.3_pde7a-phosphodiester     0.86
+Xenopus-tropicalis_ENSXETT00000025444.2_pde4a-phosphodiester     1.0
+Xenopus-tropicalis_ENSXETT00000043959.3_pde4b-phosphodiester     1.0
+Xenopus-tropicalis_ENSXETT00000028294.3_pde4c-phosphodiester     1.0
+Xenopus-tropicalis_ENSXETT00000040889.3_pde4d-phosphodiester     1.0
+Xenopus-tropicalis_ENSXETT00000060269.1_pde1b-phosphodiester     1.0
+Xenopus-tropicalis_ENSXETT00000050616.2_pde1c-phosphodiester     1.0
+Xenopus-tropicalis_ENSXETT00000063692.1_pde1a-phosphodiester     1.0
+Gallus-gallus_ENSGALT00000108093.1_PDE7B-phosphodiester          0.86
+Gallus-gallus_ENSGALT00000039611.4_PDE3B-phosphodiester          0.937
+Gallus-gallus_ENSGALT00000075209.2_PDE7A-phosphodiester          0.86
+Gallus-gallus_ENSGALT00000037438.4_PDE3A-phosphodiester          0.959
+Gallus-gallus_ENSGALT00000018074.6_PDE4B-phosphodiester          0.967
+Gallus-gallus_ENSGALT00000107883.1_phosphodiesterase-4C          0.962
+Gallus-gallus_ENSGALT00000082151.2_PDE4D-phosphodiester          1.0
+Gallus-gallus_ENSGALT00000095439.1_PDE1B-phosphodiester          0.898
+Gallus-gallus_ENSGALT00000093214.1_PDE1C-phosphodiester          1.0
+Gallus-gallus_ENSGALT00000091328.1_PDE1A-phosphodiester          1.0
+Homo-sapiens_ENST00000401827.8_PDE7A-phosphodiesterase           0.86
+Homo-sapiens_ENST00000359062.4_PDE3A-phosphodiesterase           0.954
+Homo-sapiens_ENST00000329654.8_PDE4B-phosphodiesterase           1.0
+Homo-sapiens_ENST00000380702.7_PDE4A-phosphodiesterase           1.0
+Homo-sapiens_ENST00000594617.7_PDE4C-phosphodiesterase           1.0
+Homo-sapiens_ENST00000355502.7_AC008397.2-novel-protei           1.0
+Homo-sapiens_ENST00000340635.11_PDE4D-phosphodiesteras           1.0
+Homo-sapiens_ENST00000243052.8_PDE1B-phosphodiesterase           1.0
+Homo-sapiens_ENST00000396193.5_PDE1C-phosphodiesterase           1.0
+Homo-sapiens_ENST00000435564.5_PDE1A-phosphodiesterase           0.997
+Danio-rerio_ENSDART00000173932.1_PDE3B-phosphodiesterase-3B      0.952
+Danio-rerio_ENSDART00000124317.2_pde7a-phosphodiesterase-7A      0.868
+Danio-rerio_ENSDART00000170687.1_pde4bb-phosphodiesterase-4B     1.0
+Danio-rerio_ENSDART00000028612.8_pde4ba-phosphodiesterase-4B     1.0
+Danio-rerio_ENSDART00000006602.7_pde4a-phosphodiesterase-4A-     0.997
+Danio-rerio_ENSDART00000139454.3_pde4cb-phosphodiesterase-4C     0.997
+Danio-rerio_ENSDART00000002096.7_pde4ca-phosphodiesterase-4C     1.0
+Danio-rerio_ENSDART00000018934.8_pde4d-phosphodiesterase-4D-     1.0
+Danio-rerio_ENSDART00000122716.2_NONE                            1.0
+Danio-rerio_ENSDART00000086202.5_pde1a-phosphodiesterase-1A-     1.0
+Tetraodon-nigroviridis_ENSTNIT00000010856.1_NONE                 1.0
+Tetraodon-nigroviridis_ENSTNIT00000021516.1_pde4ba-phosphodi     1.0
+Tetraodon-nigroviridis_ENSTNIT00000011258.1_NONE                 0.995
+Tetraodon-nigroviridis_ENSTNIT00000020974.1_pde4d-phosphodie     1.0
+Tetraodon-nigroviridis_ENSTNIT00000014203.1_pde4ca-phosphodi     1.0
+Tetraodon-nigroviridis_ENSTNIT00000013286.1_pde4cb-phosphodi     1.0
+== Removed ==> Tetraodon-nigroviridis_ENSTNIT00000023187.1_NONE                 0.406
+Tetraodon-nigroviridis_ENSTNIT00000018088.1_PDE1B-phosphodie     1.0
+Tetraodon-nigroviridis_ENSTNIT00000008121.1_PDE1C-phosphodie     1.0
+Tetraodon-nigroviridis_ENSTNIT00000022046.1_PDE1C-phosphodie     1.0
+Gasterosteus-aculeatus_ENSGACT00000001565.1_NONE                 1.0
+Gasterosteus-aculeatus_ENSGACT00000001444.1_NONE                 0.942
+Gasterosteus-aculeatus_ENSGACT00000001233.1_NONE                 0.937
+Gasterosteus-aculeatus_ENSGACT00000014882.1_NONE                 0.934
+Gasterosteus-aculeatus_ENSGACT00000009260.1_PDE1B-phosphodie     1.0
+Gasterosteus-aculeatus_ENSGACT00000020747.1_NONE                 0.997
+Gasterosteus-aculeatus_ENSGACT00000000002.1_NONE                 1.0
+Gasterosteus-aculeatus_ENSGACT00000001141.1_NONE                 1.0
+Gasterosteus-aculeatus_ENSGACT00000022726.1_NONE                 0.997
+Gasterosteus-aculeatus_ENSGACT00000010815.1_pde1a-phosphodie     1.0
+Oryzias-latipes_ENSORLT00000005650.1_PDE3A-phosphodiesterase     0.967
+Oryzias-latipes_ENSORLT00000012296.1_pde4ba-phosphodiesteras     1.0
+Oryzias-latipes_ENSORLT00000012920.1_NONE                        1.0
+Oryzias-latipes_ENSORLT00000006850.1_pde4a-phosphodiesterase     0.997
+Oryzias-latipes_ENSORLT00000010476.1_pde4cb-phosphodiesteras     1.0
+Oryzias-latipes_ENSORLT00000012530.1_NONE                        0.995
+Oryzias-latipes_ENSORLT00000005845.1_pde4d-phosphodiesterase     1.0
+Oryzias-latipes_ENSORLT00000006203.1_NONE                        1.0
+Oryzias-latipes_ENSORLT00000022279.1_NONE                        0.964
+Oryzias-latipes_ENSORLT00000017335.1_pde1a-phosphodiesterase     1.0
+
+
+################ Settings ################
+
+>NumberAssigned_querySequence
+Oryzias-latipes_ENSORLT00000017335.1
+TTATATTCAAGTCATCAGCTAATTATTATTATATGCACACAAGTATTTAAGTACATACATCTTCAAAAAAGAAGAAAAATAATGACAGGAATATTGATGCTGAAGGCAGCCCTGGAACAGATGGACCGGGGGGTTGTGGACCTACAGGAGCTCCGCAGGAACCTGGAGCTCGCTGCGGCCATGTTGGACGCTGTTTACACGGATGAAACGAGACGCCTCTTGGACACAGAGGATGAGCTAAGTGACCTGCAGGCGGAGTCGGTTCCCAGCGAGGTTCGTGATTGGCTGGCATGCACATTCAGCAGGAGGACGGGCTTGTCCAAGCGCCGCCCTGAGGAGAAGCCAAGATTCAGGAGCATCGTTCATGCAGTGCAGGCTGGGATATTTGTTGAGAGGATGTACAGACGGACGTCCAACATGGCCGGTCTGACCTACCCCCCCACAGCACTGAACGCTCTAAAGGAGGTGGATCAGTGGTCCTTTGATGTTTTTACCTTCCACGACGCCACAGGAGAACACGCCCTCAAGTTCATCGTCTACGACCTTCTGACCCGCTATGACCTCATCAACAGGTTCAGGATCCCAGTGCAGGCATTGGTGCAATTTGTTGAGGCTCTGGAGAGTGGCTACAGCAAACACAGGAACCCCTACCACAACCTGATCCATGCCGCTGACGTCACCCAGACTGCCCACTTCCTGATGTTACACACCGGACTAATGCACTGGCTCAGTGAGCTGGAGATCCTCGCAATGGTTTTTGCAGCAGCAATTCATGACTTTGAGCACACAGGAACCACCAACAACTTTCACATTCACACCAGATCAGAGGTGGCCATTCTGTACAACGATAGGTCAGTGCTGGAGAACCATCACGTCAGTGCCGCCTACAAGCTGATGGCAGAGGAGGATATGAACATCCTGGTCAACCTGAACAAGGACGACTGGAGAGAACTTAGGTCTCTTGTGATTGAGATGGTGATGTCCACAGACATGTCCTGCCACTTCCAGCAGATCAAGACCATGAGAAACTCTTTGACACAGACAGACAGTATAGACAAAGTGAAGGTTTTGTCGCTGATGCTTCATGCTGCAGACATCAGTCACCCCGCCAAAGCCTGGCCGCTTCACTATCACTGGACCCACAGCCTGATGGAGGAGTTCTTCAGACAGGGAGATAAAGAAGTGGAACTTGGTCTTCCCTTTTCACCACTTTGTGACCGCAAAGCTACCATGATCGCCCAGTCGCAGATAGGTTTCATTGACTTCATTGTGGAACCAACATTCAGCGTTCTGATAGATACAACTGACAAGGTGATTGGTCCTCTGATCGAAGAGGACAGGAAGGCCAGAGAGACTGGAAACAGGCGCCCCAGCTTAACAGGAAGTGGTTCAGTCACTGTCGAGTCAGTGCAGAGGCACAGCAGTGGTCTCCACGGCAACAGCGATGATGGACCGACAGACTTTTCATTGACTGCCATCGACCTGCCGGCTCTGAGGCTCCACCTTTCCAGCGTCATTGTAAGCAACAAGGAAAGATGGAAAGAGCTGTCTGTGCATGGTAAGTACACCGTACACAAAAGCTCACTTTCACTTTTACAACAAGCTCAAATATCCAAAGCAACACATCAC
+
+>SubstitutionModel
+F84 (Tamura and Nei 1993) + gamma
+
+>ShortSequence_threshold
+0.45
+
+>Dataset
+Exclude3rd
+
+>Rearrangement_BS_value_threshold
+70
+
+>TaxonSampling_color
+Drosophila-melanogaster_Black
+Ciona-intestinalis_Black
+Xenopus-tropicalis_Magenta
+Gallus-gallus_Magenta
+Homo-sapiens_Magenta
+Danio-rerio_Purple
+Tetraodon-nigroviridis_Green
+Gasterosteus-aculeatus_Red
+Oryzias-latipes_Blue
+
+################ Results: 2nd analysis ################
+
+>TreeSearchMethod
+NJ
+
+>2nd_rearranged_gene_tree_newick
+((((Gallus-gallus_ENSGALT00000091328.1_PDE1A-phosphodiester,Homo-sapiens_ENST00000435564.5_PDE1A-phosphodiesterase)95_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000063692.1_pde1a-phosphodiester)99_S=Tetrapoda_D=N,((Oryzias-latipes_ENSORLT00000017335.1_pde1a-phosphodiesterase,Gasterosteus-aculeatus_ENSGACT00000010815.1_pde1a-phosphodie)100_S=Percomorpha_D=N,Danio-rerio_ENSDART00000086202.5_pde1a-phosphodiesterase-1A-)100_S=Clupeocephala_D=N)100_S=BonyVertebrates_D=N,Gallus-gallus_ENSGALT00000093214.1_PDE1C-phosphodiester)100_S=BonyVertebrates_D=Y;
+
+>2nd_rearranged_gene_tree_NHX
+((((Gallus-gallus_ENSGALT00000091328.1_PDE1A-phosphodiester:0.07236351243[&&NHX:S=Gallus-gallus],Homo-sapiens_ENST00000435564.5_PDE1A-phosphodiesterase:0.06315654257[&&NHX:S=Homo-sapiens])n2:0.01249151964[&&NHX:S=Amniota:D=N:B=95.0],Xenopus-tropicalis_ENSXETT00000063692.1_pde1a-phosphodiester:0.07691417138[&&NHX:S=Xenopus-tropicalis])n4:0.02713499417[&&NHX:S=Tetrapoda:D=N:B=99.0],((Oryzias-latipes_ENSORLT00000017335.1_pde1a-phosphodiesterase:0.0395231206[&&NHX:S=Oryzias-latipes],Gasterosteus-aculeatus_ENSGACT00000010815.1_pde1a-phosphodie:0.02527492049[&&NHX:S=Gasterosteus-aculeatus])n7:0.1036056945[&&NHX:S=Percomorpha:D=N:B=100.0],Danio-rerio_ENSDART00000086202.5_pde1a-phosphodiesterase-1A-:0.06506001938[&&NHX:S=Danio-rerio])n9:0.05173670922[&&NHX:S=Clupeocephala:D=N:B=100.0])n10:0.0[&&NHX:S=BonyVertebrates:D=N:B=100.0],Gallus-gallus_ENSGALT00000093214.1_PDE1C-phosphodiester:0.1209509649[&&NHX:S=Gallus-gallus])n12[&&NHX:S=BonyVertebrates:D=Y:B=100.0];
+
+>2nd_gene_tree_newick
+((((Homo-sapiens_ENST00000435564.5_PDE1A-phosphodiesterase:0.06315654257,Gallus-gallus_ENSGALT00000091328.1_PDE1A-phosphodiester:0.07236351243)95:0.01249151964,Xenopus-tropicalis_ENSXETT00000063692.1_pde1a-phosphodiester:0.07691417138)99:0.02713499417,((Gasterosteus-aculeatus_ENSGACT00000010815.1_pde1a-phosphodie:0.02527492049,Oryzias-latipes_ENSORLT00000017335.1_pde1a-phosphodiesterase:0.0395231206)100:0.1036056945,Danio-rerio_ENSDART00000086202.5_pde1a-phosphodiesterase-1A-:0.06506001938)100:0.05173670922)100:0,Gallus-gallus_ENSGALT00000093214.1_PDE1C-phosphodiester:0.1209509649)100;
+
+>MonophyleticGeneGroups
+BonyVertebrates                 100  D=N
+Clupeocephala                   100  D=N
+Percomorpha                     100  D=N
+Oryzias-latipes                 leaf  leaf
+
+>SisterGeneGroups
+BonyVertebrates                 NONE   NoGeneNode
+Clupeocephala                   100   Tetrapoda
+Percomorpha                     100   Danio-rerio
+Oryzias-latipes                 100   Gasterosteus-aculeatus
+
+>Number_of_duplicatedNode
+BonyVertebrates                 0
+Clupeocephala                   0
+Percomorpha                     0
+Oryzias-latipes                 0
+
+>AnalysisTime
+16.4 seconds

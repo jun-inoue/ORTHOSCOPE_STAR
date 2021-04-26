@@ -1,0 +1,204 @@
+################ Results: 1st analysis ################
+
+>QuerySequence
+Oryzias-latipes_ENSORLT00000021486.1_adcy1b-adenylate-cyclas  <= [Identities = 1030/1030 (100%)] : Oryzias-latipes_ENSORLT00000021486.1
+
+>Number_of_blastHits
+Drosophila-melanogaster  10
+Ciona-intestinalis       10
+Xenopus-tropicalis       10
+Gallus-gallus            10
+Homo-sapiens             10
+Danio-rerio              10
+Tetraodon-nigroviridis   10
+Gasterosteus-aculeatus   10
+Oryzias-latipes          10
+
+>BS_of_orthogroupBasalNode
+r
+
+
+>Orthogroup
+Gasterosteus-aculeatus_ENSGACT00000017328.1_adcy1b-adenylate
+Homo-sapiens_ENST00000297323.12_ADCY1-adenylate-cyclas
+Oryzias-latipes_ENSORLT00000021486.1_adcy1b-adenylate-cyclas
+Tetraodon-nigroviridis_ENSTNIT00000005942.1_ADCY1-adenylate-
+
+>GeneNumber_of_orthogroup
+Xenopus-tropicalis            0
+Gallus-gallus                 0
+Homo-sapiens                  1
+Danio-rerio                   0
+Tetraodon-nigroviridis        1
+Gasterosteus-aculeatus        1
+Oryzias-latipes               1
+
+>Rooting
+Gallus-gallus_ENSGALT00000048137.2_ADCY1-adenylate-cycl
+
+
+>1st_rearranged_gene_tree_newick
+((((((((((((((((Gasterosteus-aculeatus_ENSGACT00000011360.1_adcy6b-adenylate,Tetraodon-nigroviridis_ENSTNIT00000018375.1_adcy6b-adenylate)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000008754.1_adcy6b-adenylate-cyclas)100_S=Percomorpha_D=N,Danio-rerio_ENSDART00000038491.9_adcy6b-adenylate-cyclase-6b)85_S=Clupeocephala_D=N,((Oryzias-latipes_ENSORLT00000015501.1_adcy6a-adenylate-cyclas,Gasterosteus-aculeatus_ENSGACT00000004013.1_adcy6a-adenylate)100_S=Percomorpha_D=N,Danio-rerio_ENSDART00000087654.6_adcy6a-adenylate-cyclase-6a)100_S=Clupeocephala_D=N)100_S=Clupeocephala_D=Y,Xenopus-tropicalis_ENSXETT00000021584.3_adcy6-adenylate-cycl)100_S=BonyVertebrates_D=N,(Homo-sapiens_ENST00000307885.4_ADCY6-adenylate-cyclase,Gallus-gallus_ENSGALT00000102308.1_ADCY6-adenylate-cycl)77_S=Amniota_D=N)72_S=BonyVertebrates_D=Y,(((Homo-sapiens_ENST00000462833.6_ADCY5-adenylate-cyclase,Gallus-gallus_ENSGALT00000057284.3_ADCY6-adenylate-cycl)100_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000052137.2_XB-GENE-5994092-NONE)r_S=Tetrapoda_D=N,(((Oryzias-latipes_ENSORLT00000012233.1_adcy5-adenylate-cyclase,Tetraodon-nigroviridis_ENSTNIT00000019000.1_adcy5-adenylate-)98_S=Percomorpha_D=N,Gasterosteus-aculeatus_ENSGACT00000001603.1_adcy5-adenylate-)97_S=Percomorpha_D=Y,Danio-rerio_ENSDART00000124333.2_adcy5-adenylate-cyclase-5)100_S=Clupeocephala_D=N)92_S=BonyVertebrates_D=N)100_S=BonyVertebrates_D=Y,Drosophila-melanogaster_FBtr0307368_CG43373-NONE)100_S=Bilateria_D=N,(((((Gallus-gallus_ENSGALT00000048137.2_ADCY1-adenylate-cycl,Xenopus-tropicalis_ENSXETT00000034177.4_adcy1-adenylate-cycl)100_S=Tetrapoda_D=N,(((Oryzias-latipes_ENSORLT00000016127.1_adcy1a-adenylate-cyclas,Gasterosteus-aculeatus_ENSGACT00000006451.1_adcy1a-adenylate)89_S=Percomorpha_D=N,Tetraodon-nigroviridis_ENSTNIT00000009388.1_adcy1a-adenylate)100_S=Percomorpha_D=Y,Danio-rerio_ENSDART00000100098.4_adcy1a-adenylate-cyclase-1a)100_S=Clupeocephala_D=N)r_S=BonyVertebrates_D=N,(Homo-sapiens_ENST00000297323.12_ADCY1-adenylate-cyclas,((Oryzias-latipes_ENSORLT00000021486.1_adcy1b-adenylate-cyclas,Tetraodon-nigroviridis_ENSTNIT00000005942.1_ADCY1-adenylate-)98_S=Percomorpha_D=N,Gasterosteus-aculeatus_ENSGACT00000017328.1_adcy1b-adenylate)100_S=Percomorpha_D=Y)r_S=BonyVertebrates_D=N)98_S=BonyVertebrates_D=Y,Danio-rerio_ENSDART00000131177.2_adcy1b-adenylate-cyclase-1b)100_S=BonyVertebrates_D=Y,Drosophila-melanogaster_FBtr0073992_rut-rutabaga-DBNLINE-54)100_S=Bilateria_D=N)99_S=Bilateria_D=Y,((((((Tetraodon-nigroviridis_ENSTNIT00000012312.1_adcy2b-adenylate,Danio-rerio_ENSDART00000046166.8_adcy2b-adenylate-cyclase-2b)72_S=Clupeocephala_D=N,(Gasterosteus-aculeatus_ENSGACT00000008647.1_adcy2a-adenylate,Danio-rerio_ENSDART00000084264.6_adcy2a-adenylate-cyclase-2a)99_S=Clupeocephala_D=N)86_S=Clupeocephala_D=Y,(Homo-sapiens_ENST00000338316.9_ADCY2-adenylate-cyclase,Gallus-gallus_ENSGALT00000021320.6_ADCY2-adenylate-cycl)100_S=Amniota_D=N)100_S=BonyVertebrates_D=N,(((Gallus-gallus_ENSGALT00000108344.1_ADCY7-adenylate-cycl,Xenopus-tropicalis_ENSXETT00000036808.3_adcy7-adenylate-cycl)92_S=Tetrapoda_D=N,Homo-sapiens_ENST00000394697.7_ADCY7-adenylate-cyclase)98_S=Tetrapoda_D=Y,(Oryzias-latipes_ENSORLT00000017521.1_adcy7-adenylate-cyclase,Gasterosteus-aculeatus_ENSGACT00000022123.1_adcy7-adenylate-)100_S=Percomorpha_D=N)100_S=BonyVertebrates_D=N)r_S=BonyVertebrates_D=Y,((Homo-sapiens_ENST00000644961.1_ADCY4-adenylate-cyclase,Homo-sapiens_ENST00000310677.8_ADCY4-adenylate-cyclase)100_S=Homo-sapiens_D=Y,Xenopus-tropicalis_ENSXETT00000036801.3_adcy4-adenylate-cycl)100_S=Tetrapoda_D=N)100_S=BonyVertebrates_D=Y,Drosophila-melanogaster_FBtr0304746_Ac76E-Adenylyl-cyclase-)92_S=Bilateria_D=N)77_S=Bilateria_D=Y,(((((((Gasterosteus-aculeatus_ENSGACT00000013341.1_sidkey-206f10.1-,Tetraodon-nigroviridis_ENSTNIT00000019710.1_sidkey-206f10.1-)86_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000017065.1_sidkey-206f10.1-sidkey-)100_S=Percomorpha_D=N,Danio-rerio_ENSDART00000142543.3_sidkey-206f10.1-si-dkey-206)100_S=Clupeocephala_D=N,((Oryzias-latipes_ENSORLT00000001388.1_sich211-132f19.7-sich21,Tetraodon-nigroviridis_ENSTNIT00000009542.1_sich211-132f19.7)100_S=Percomorpha_D=N,Danio-rerio_ENSDART00000156229.2_sich211-132f19.7-si-ch211-1)r_S=Clupeocephala_D=N)100_S=Clupeocephala_D=Y,(((Homo-sapiens_ENST00000286355.10_ADCY8-adenylate-cyclas,Gallus-gallus_ENSGALT00000073355.2_ADCY8-adenylate-cycl)100_S=Amniota_D=N,(Tetraodon-nigroviridis_ENSTNIT00000011007.1_adcy8-adenylate-,Oryzias-latipes_ENSORLT00000008052.1_adcy8-adenylate-cyclase)r_S=Percomorpha_D=N)84_S=BonyVertebrates_D=N,Danio-rerio_ENSDART00000087823.5_adcy8-adenylate-cyclase-8-b)100_S=BonyVertebrates_D=Y)100_S=BonyVertebrates_D=Y,Ciona-intestinalis_ENSCINT00000000889.3_NONE)92_S=Deuterostomia_D=N,Drosophila-melanogaster_FBtr0330067_Ac78C-Adenylyl-cyclase-)74_S=Bilateria_D=N)r_S=Bilateria_D=Y,(((((Homo-sapiens_ENST00000405392.5_ADCY3-adenylate-cyclase,Gallus-gallus_ENSGALT00000026804.6_ADCY3-adenylate-cycl)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000045792.2_adcy3-adenylate-cycl)r_S=Tetrapoda_D=N,(Gasterosteus-aculeatus_ENSGACT00000018571.1_adcy3a-adenylate,Tetraodon-nigroviridis_ENSTNIT00000014828.1_adcy3a-adenylate)100_S=Eupercaria_D=N)100_S=BonyVertebrates_D=N,(Gasterosteus-aculeatus_ENSGACT00000017745.1_adcy3b-adenylate,Tetraodon-nigroviridis_ENSTNIT00000009712.1_adcy3b-adenylate)100_S=Eupercaria_D=N)100_S=BonyVertebrates_D=Y,Drosophila-melanogaster_FBtr0085897_Ac3-NONE)90_S=Bilateria_D=N)81_S=Bilateria_D=Y,(((((Ciona-intestinalis_ENSCINT00000002159.3_NONE,Ciona-intestinalis_ENSCINT00000014922.3_NONE)99_S=Ciona-intestinalis_D=Y,Ciona-intestinalis_ENSCINT00000017724.3_NONE)100_S=Ciona-intestinalis_D=Y,(Gallus-gallus_ENSGALT00000106575.1_natriuretic-peptide-,Xenopus-tropicalis_ENSXETT00000032276.3_NONE)99_S=Tetrapoda_D=N)100_S=Deuterostomia_D=N,((Xenopus-tropicalis_ENSXETT00000048490.3_gucy1b3-guanylate-cy,Ciona-intestinalis_ENSCINT00000017414.3_NONE)100_S=Deuterostomia_D=N,(Gallus-gallus_ENSGALT00000008137.6_guanylate-cyclase-1-,Xenopus-tropicalis_ENSXETT00000060980.1_NONE)100_S=Tetrapoda_D=N)97_S=Deuterostomia_D=Y)100_S=Deuterostomia_D=Y,(((Drosophila-melanogaster_FBtr0080413_ACXC-NONE,Drosophila-melanogaster_FBtr0080415_ACXA-NONE)100_S=Drosophila-melanogaster_D=Y,Drosophila-melanogaster_FBtr0310556_ACXE-NONE)100_S=Drosophila-melanogaster_D=Y,Drosophila-melanogaster_FBtr0072874_ACXD-NONE)100_S=Drosophila-melanogaster_D=Y)r_S=Bilateria_D=N)100_S=Bilateria_D=Y,Ciona-intestinalis_ENSCINT00000014863.3_NONE)100_S=Bilateria_D=Y,((Homo-sapiens_ENST00000294016.8_ADCY9-adenylate-cyclase,Gallus-gallus_ENSGALT00000012620.6_ADCY9-adenylate-cycl)100_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000037697.3_adcy9-adenylate-cycl)100_S=Tetrapoda_D=N)100_S=Bilateria_D=Y,Drosophila-melanogaster_FBtr0332497_Ac13E-Adenylyl-cyclase-)100_S=Bilateria_D=Y;
+
+>1st_rearranged_gene_tree_NHX
+((((((((((((((((Gasterosteus-aculeatus_ENSGACT00000011360.1_adcy6b-adenylate:0.0312761587[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000018375.1_adcy6b-adenylate:0.07769227316[&&NHX:S=Tetraodon-nigroviridis])r175[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000008754.1_adcy6b-adenylate-cyclas:0.03986529737[&&NHX:S=Oryzias-latipes])n4:0.02110277826[&&NHX:S=Percomorpha:D=N:B=100.0],Danio-rerio_ENSDART00000038491.9_adcy6b-adenylate-cyclase-6b:0.06299397206[&&NHX:S=Danio-rerio])n6:0.004162480782[&&NHX:S=Clupeocephala:D=N:B=85.0],((Oryzias-latipes_ENSORLT00000015501.1_adcy6a-adenylate-cyclas:0.02422945262[&&NHX:S=Oryzias-latipes],Gasterosteus-aculeatus_ENSGACT00000004013.1_adcy6a-adenylate:0.04934618883[&&NHX:S=Gasterosteus-aculeatus])n9:0.01271303754[&&NHX:S=Percomorpha:D=N:B=100.0],Danio-rerio_ENSDART00000087654.6_adcy6a-adenylate-cyclase-6a:0.03641854733[&&NHX:S=Danio-rerio])n11:0.0125782315[&&NHX:S=Clupeocephala:D=N:B=100.0])n12:0.02427214908[&&NHX:S=Clupeocephala:D=Y:B=100.0],Xenopus-tropicalis_ENSXETT00000021584.3_adcy6-adenylate-cycl:0.06825131063[&&NHX:S=Xenopus-tropicalis])n14:0.02025216138[&&NHX:S=BonyVertebrates:D=N:B=100.0],(Homo-sapiens_ENST00000307885.4_ADCY6-adenylate-cyclase:0.08520835479[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000102308.1_ADCY6-adenylate-cycl:0.1081464473[&&NHX:S=Gallus-gallus])n17:0.01730878665[&&NHX:S=Amniota:D=N:B=77.0])n18:0.01563608783[&&NHX:S=BonyVertebrates:D=Y:B=72.0],(((Homo-sapiens_ENST00000462833.6_ADCY5-adenylate-cyclase:0.04976169693[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000057284.3_ADCY6-adenylate-cycl:0.05412994508[&&NHX:S=Gallus-gallus])n30:0.01683540067[&&NHX:S=Amniota:D=N:B=100.0],Xenopus-tropicalis_ENSXETT00000052137.2_XB-GENE-5994092-NONE:0.2027374865[&&NHX:S=Xenopus-tropicalis])r177[&&NHX:S=Tetrapoda:D=N],(((Oryzias-latipes_ENSORLT00000012233.1_adcy5-adenylate-cyclase:0.03445249953[&&NHX:S=Oryzias-latipes],Tetraodon-nigroviridis_ENSTNIT00000019000.1_adcy5-adenylate-:0.03646132712[&&NHX:S=Tetraodon-nigroviridis])n21:0.008521204922[&&NHX:S=Percomorpha:D=N:B=98.0],Gasterosteus-aculeatus_ENSGACT00000001603.1_adcy5-adenylate-:0.06854565717[&&NHX:S=Gasterosteus-aculeatus])n23:0.01288911193[&&NHX:S=Percomorpha:D=Y:B=97.0],Danio-rerio_ENSDART00000124333.2_adcy5-adenylate-cyclase-5:0.05267244773[&&NHX:S=Danio-rerio])n25:0.01979666047[&&NHX:S=Clupeocephala:D=N:B=100.0])n31:0.02553411056[&&NHX:S=BonyVertebrates:D=N:B=92.0])n32:0.1192756821[&&NHX:S=BonyVertebrates:D=Y:B=100.0],Drosophila-melanogaster_FBtr0307368_CG43373-NONE:0.2763289668[&&NHX:S=Drosophila-melanogaster])n34:0.06554333787[&&NHX:S=Bilateria:D=N:B=100.0],(((((Gallus-gallus_ENSGALT00000048137.2_ADCY1-adenylate-cycl:0.03013796261[&&NHX:S=Gallus-gallus],Xenopus-tropicalis_ENSXETT00000034177.4_adcy1-adenylate-cycl:0.03503055643[&&NHX:S=Xenopus-tropicalis])n50:0.03321296678[&&NHX:S=Tetrapoda:D=N:B=100.0],(((Oryzias-latipes_ENSORLT00000016127.1_adcy1a-adenylate-cyclas:0.09733666598[&&NHX:S=Oryzias-latipes],Gasterosteus-aculeatus_ENSGACT00000006451.1_adcy1a-adenylate:0.0[&&NHX:S=Gasterosteus-aculeatus])n37:0.02993537628[&&NHX:S=Percomorpha:D=N:B=89.0],Tetraodon-nigroviridis_ENSTNIT00000009388.1_adcy1a-adenylate:0.02728059421[&&NHX:S=Tetraodon-nigroviridis])n39:0.04233924891[&&NHX:S=Percomorpha:D=Y:B=100.0],Danio-rerio_ENSDART00000100098.4_adcy1a-adenylate-cyclase-1a:0.05384875455[&&NHX:S=Danio-rerio])n41:0.03374021732[&&NHX:S=Clupeocephala:D=N:B=100.0])r179[&&NHX:S=BonyVertebrates:D=N],(Homo-sapiens_ENST00000297323.12_ADCY1-adenylate-cyclas:0.07020409891[&&NHX:S=Homo-sapiens],((Oryzias-latipes_ENSORLT00000021486.1_adcy1b-adenylate-cyclas:0.02963225976[&&NHX:S=Oryzias-latipes],Tetraodon-nigroviridis_ENSTNIT00000005942.1_ADCY1-adenylate-:0.03363317614[&&NHX:S=Tetraodon-nigroviridis])n44:0.01110463717[&&NHX:S=Percomorpha:D=N:B=98.0],Gasterosteus-aculeatus_ENSGACT00000017328.1_adcy1b-adenylate:0.009639168123[&&NHX:S=Gasterosteus-aculeatus])n46:0.04812639913[&&NHX:S=Percomorpha:D=Y:B=100.0])r180[&&NHX:S=BonyVertebrates:D=N])n53:0.03181645947[&&NHX:S=BonyVertebrates:D=Y:B=98.0],Danio-rerio_ENSDART00000131177.2_adcy1b-adenylate-cyclase-1b:0.03116901333[&&NHX:S=Danio-rerio])n55:0.1756194962[&&NHX:S=BonyVertebrates:D=Y:B=100.0],Drosophila-melanogaster_FBtr0073992_rut-rutabaga-DBNLINE-54:0.2617460905[&&NHX:S=Drosophila-melanogaster])n57:0.04326664071[&&NHX:S=Bilateria:D=N:B=100.0])n58:0.02877876118[&&NHX:S=Bilateria:D=Y:B=99.0],((((((Tetraodon-nigroviridis_ENSTNIT00000012312.1_adcy2b-adenylate:0.06244529959[&&NHX:S=Tetraodon-nigroviridis],Danio-rerio_ENSDART00000046166.8_adcy2b-adenylate-cyclase-2b:0.05314282487[&&NHX:S=Danio-rerio])n61:0.00638080092[&&NHX:S=Clupeocephala:D=N:B=72.0],(Gasterosteus-aculeatus_ENSGACT00000008647.1_adcy2a-adenylate:0.02993056856[&&NHX:S=Gasterosteus-aculeatus],Danio-rerio_ENSDART00000084264.6_adcy2a-adenylate-cyclase-2a:0.04941938594[&&NHX:S=Danio-rerio])n64:0.01622926836[&&NHX:S=Clupeocephala:D=N:B=99.0])n65:0.008160213952[&&NHX:S=Clupeocephala:D=Y:B=86.0],(Homo-sapiens_ENST00000338316.9_ADCY2-adenylate-cyclase:0.03585633029[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000021320.6_ADCY2-adenylate-cycl:0.04174304392[&&NHX:S=Gallus-gallus])n68:0.02447797605[&&NHX:S=Amniota:D=N:B=100.0])n69:0.09680484528[&&NHX:S=BonyVertebrates:D=N:B=100.0],(((Gallus-gallus_ENSGALT00000108344.1_ADCY7-adenylate-cycl:0.08454465727[&&NHX:S=Gallus-gallus],Xenopus-tropicalis_ENSXETT00000036808.3_adcy7-adenylate-cycl:0.1588670329[&&NHX:S=Xenopus-tropicalis])n72:0.0256816304[&&NHX:S=Tetrapoda:D=N:B=92.0],Homo-sapiens_ENST00000394697.7_ADCY7-adenylate-cyclase:0.1218076437[&&NHX:S=Homo-sapiens])n74:0.0378394068[&&NHX:S=Tetrapoda:D=Y:B=98.0],(Oryzias-latipes_ENSORLT00000017521.1_adcy7-adenylate-cyclase:0.04427584911[&&NHX:S=Oryzias-latipes],Gasterosteus-aculeatus_ENSGACT00000022123.1_adcy7-adenylate-:0.04209157285[&&NHX:S=Gasterosteus-aculeatus])n77:0.1223879848[&&NHX:S=Percomorpha:D=N:B=100.0])n78:0.02344884406[&&NHX:S=BonyVertebrates:D=N:B=100.0])r188[&&NHX:S=BonyVertebrates:D=Y],((Homo-sapiens_ENST00000644961.1_ADCY4-adenylate-cyclase:0.0[&&NHX:S=Homo-sapiens],Homo-sapiens_ENST00000310677.8_ADCY4-adenylate-cyclase:0.0[&&NHX:S=Homo-sapiens])n82:0.1498464931[&&NHX:S=Homo-sapiens:D=Y:B=100.0],Xenopus-tropicalis_ENSXETT00000036801.3_adcy4-adenylate-cycl:0.1358180048[&&NHX:S=Xenopus-tropicalis])n84:0.03392054033[&&NHX:S=Tetrapoda:D=N:B=100.0])n85:0.1079759791[&&NHX:S=BonyVertebrates:D=Y:B=100.0],Drosophila-melanogaster_FBtr0304746_Ac76E-Adenylyl-cyclase-:0.3529281974[&&NHX:S=Drosophila-melanogaster])n87:0.06993325306[&&NHX:S=Bilateria:D=N:B=92.0])n88:0.02799503286[&&NHX:S=Bilateria:D=Y:B=77.0],(((((((Gasterosteus-aculeatus_ENSGACT00000013341.1_sidkey-206f10.1-:0.06275196847[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000019710.1_sidkey-206f10.1-:0.05432047816[&&NHX:S=Tetraodon-nigroviridis])n91:0.006031242647[&&NHX:S=Eupercaria:D=N:B=86.0],Oryzias-latipes_ENSORLT00000017065.1_sidkey-206f10.1-sidkey-:0.07371359346[&&NHX:S=Oryzias-latipes])n93:0.03437033239[&&NHX:S=Percomorpha:D=N:B=100.0],Danio-rerio_ENSDART00000142543.3_sidkey-206f10.1-si-dkey-206:0.1094152831[&&NHX:S=Danio-rerio])n95:0.03152561204[&&NHX:S=Clupeocephala:D=N:B=100.0],((Oryzias-latipes_ENSORLT00000001388.1_sich211-132f19.7-sich21:0.09148485657[&&NHX:S=Oryzias-latipes],Tetraodon-nigroviridis_ENSTNIT00000009542.1_sich211-132f19.7:0.09906137365[&&NHX:S=Tetraodon-nigroviridis])n98:0.06770888723[&&NHX:S=Percomorpha:D=N:B=100.0],Danio-rerio_ENSDART00000156229.2_sich211-132f19.7-si-ch211-1:0.1022077192[&&NHX:S=Danio-rerio])r192[&&NHX:S=Clupeocephala:D=N])n101:0.1055593375[&&NHX:S=Clupeocephala:D=Y:B=100.0],(((Homo-sapiens_ENST00000286355.10_ADCY8-adenylate-cyclas:0.02202272202[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000073355.2_ADCY8-adenylate-cycl:0.02583906851[&&NHX:S=Gallus-gallus])n104:0.05795112972[&&NHX:S=Amniota:D=N:B=100.0],(Tetraodon-nigroviridis_ENSTNIT00000011007.1_adcy8-adenylate-:0.04714619015[&&NHX:S=Tetraodon-nigroviridis],Oryzias-latipes_ENSORLT00000008052.1_adcy8-adenylate-cyclase:0.04233079212[&&NHX:S=Oryzias-latipes])r197[&&NHX:S=Percomorpha:D=N])n108:0.0184437204[&&NHX:S=BonyVertebrates:D=N:B=84.0],Danio-rerio_ENSDART00000087823.5_adcy8-adenylate-cyclase-8-b:0.03961376981[&&NHX:S=Danio-rerio])n110:0.06561085775[&&NHX:S=BonyVertebrates:D=Y:B=100.0])n111:0.05220779817[&&NHX:S=BonyVertebrates:D=Y:B=100.0],Ciona-intestinalis_ENSCINT00000000889.3_NONE:0.3537016808[&&NHX:S=Ciona-intestinalis])n113:0.0276394272[&&NHX:S=Deuterostomia:D=N:B=92.0],Drosophila-melanogaster_FBtr0330067_Ac78C-Adenylyl-cyclase-:0.4058141466[&&NHX:S=Drosophila-melanogaster])n115:0.02449324747[&&NHX:S=Bilateria:D=N:B=74.0])r173[&&NHX:S=Bilateria:D=Y],(((((Homo-sapiens_ENST00000405392.5_ADCY3-adenylate-cyclase:0.06929383316[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000026804.6_ADCY3-adenylate-cycl:0.05263513809[&&NHX:S=Gallus-gallus])r203[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000045792.2_adcy3-adenylate-cycl:0.1061540615[&&NHX:S=Xenopus-tropicalis])r202[&&NHX:S=Tetrapoda:D=N],(Gasterosteus-aculeatus_ENSGACT00000018571.1_adcy3a-adenylate:0.02761103411[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000014828.1_adcy3a-adenylate:0.02928954043[&&NHX:S=Tetraodon-nigroviridis])n124:0.04326853788[&&NHX:S=Eupercaria:D=N:B=100.0])n125:0.04301323639[&&NHX:S=BonyVertebrates:D=N:B=100.0],(Gasterosteus-aculeatus_ENSGACT00000017745.1_adcy3b-adenylate:0.06252670855[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000009712.1_adcy3b-adenylate:0.05336936225[&&NHX:S=Tetraodon-nigroviridis])n128:0.07114217105[&&NHX:S=Eupercaria:D=N:B=100.0])n129:0.1435921979[&&NHX:S=BonyVertebrates:D=Y:B=100.0],Drosophila-melanogaster_FBtr0085897_Ac3-NONE:0.3767922062[&&NHX:S=Drosophila-melanogaster])n131:0.07185267849[&&NHX:S=Bilateria:D=N:B=90.0])n132:0.05136833247[&&NHX:S=Bilateria:D=Y:B=81.0],(((((Ciona-intestinalis_ENSCINT00000002159.3_NONE:0.1028584503[&&NHX:S=Ciona-intestinalis],Ciona-intestinalis_ENSCINT00000014922.3_NONE:0.1520290535[&&NHX:S=Ciona-intestinalis])n135:0.06368491706[&&NHX:S=Ciona-intestinalis:D=Y:B=99.0],Ciona-intestinalis_ENSCINT00000017724.3_NONE:0.3790435969[&&NHX:S=Ciona-intestinalis])n137:0.2551206626[&&NHX:S=Ciona-intestinalis:D=Y:B=100.0],(Gallus-gallus_ENSGALT00000106575.1_natriuretic-peptide-:0.0776405487[&&NHX:S=Gallus-gallus],Xenopus-tropicalis_ENSXETT00000032276.3_NONE:0.09404887731[&&NHX:S=Xenopus-tropicalis])n140:0.09338982514[&&NHX:S=Tetrapoda:D=N:B=99.0])n141:0.2238167424[&&NHX:S=Deuterostomia:D=N:B=100.0],((Xenopus-tropicalis_ENSXETT00000048490.3_gucy1b3-guanylate-cy:0.2035840843[&&NHX:S=Xenopus-tropicalis],Ciona-intestinalis_ENSCINT00000017414.3_NONE:0.1349329014[&&NHX:S=Ciona-intestinalis])n144:0.2781517241[&&NHX:S=Deuterostomia:D=N:B=100.0],(Gallus-gallus_ENSGALT00000008137.6_guanylate-cyclase-1-:0.0[&&NHX:S=Gallus-gallus],Xenopus-tropicalis_ENSXETT00000060980.1_NONE:0.1364014446[&&NHX:S=Xenopus-tropicalis])n147:0.222178557[&&NHX:S=Tetrapoda:D=N:B=100.0])n148:0.123937033[&&NHX:S=Deuterostomia:D=Y:B=97.0])n149:0.5954466682[&&NHX:S=Deuterostomia:D=Y:B=100.0],(((Drosophila-melanogaster_FBtr0080413_ACXC-NONE:0.1064008342[&&NHX:S=Drosophila-melanogaster],Drosophila-melanogaster_FBtr0080415_ACXA-NONE:0.1305834741[&&NHX:S=Drosophila-melanogaster])n152:0.08715887307[&&NHX:S=Drosophila-melanogaster:D=Y:B=100.0],Drosophila-melanogaster_FBtr0310556_ACXE-NONE:0.1907619007[&&NHX:S=Drosophila-melanogaster])n154:0.1120651417[&&NHX:S=Drosophila-melanogaster:D=Y:B=100.0],Drosophila-melanogaster_FBtr0072874_ACXD-NONE:0.2531825913[&&NHX:S=Drosophila-melanogaster])n156:0.2304952039[&&NHX:S=Drosophila-melanogaster:D=Y:B=100.0])r171[&&NHX:S=Bilateria:D=N])n158:0.1639799443[&&NHX:S=Bilateria:D=Y:B=100.0],Ciona-intestinalis_ENSCINT00000014863.3_NONE:0.2812043272[&&NHX:S=Ciona-intestinalis])n160:0.06286342429[&&NHX:S=Bilateria:D=Y:B=100.0],((Homo-sapiens_ENST00000294016.8_ADCY9-adenylate-cyclase:0.05092988217[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000012620.6_ADCY9-adenylate-cycl:0.04013067941[&&NHX:S=Gallus-gallus])n163:0.04166537125[&&NHX:S=Amniota:D=N:B=100.0],Xenopus-tropicalis_ENSXETT00000037697.3_adcy9-adenylate-cycl:0.08497858794[&&NHX:S=Xenopus-tropicalis])n165:0.1716811989[&&NHX:S=Tetrapoda:D=N:B=100.0])n166:0.0[&&NHX:S=Bilateria:D=Y:B=100.0],Drosophila-melanogaster_FBtr0332497_Ac13E-Adenylyl-cyclase-:0.341440733[&&NHX:S=Drosophila-melanogaster])n168[&&NHX:S=Bilateria:D=Y:B=100.0];
+
+>1st_gene_tree_newick
+((((((((((((((((Oryzias-latipes_ENSORLT00000008754.1_adcy6b-adenylate-cyclas:0.03986529737,Tetraodon-nigroviridis_ENSTNIT00000018375.1_adcy6b-adenylate:0.07769227316)51:0.001379000624,Gasterosteus-aculeatus_ENSGACT00000011360.1_adcy6b-adenylate:0.0312761587)100:0.02110277826,Danio-rerio_ENSDART00000038491.9_adcy6b-adenylate-cyclase-6b:0.06299397206)85:0.004162480782,((Gasterosteus-aculeatus_ENSGACT00000004013.1_adcy6a-adenylate:0.04934618883,Oryzias-latipes_ENSORLT00000015501.1_adcy6a-adenylate-cyclas:0.02422945262)100:0.01271303754,Danio-rerio_ENSDART00000087654.6_adcy6a-adenylate-cyclase-6a:0.03641854733)100:0.0125782315)100:0.02427214908,Xenopus-tropicalis_ENSXETT00000021584.3_adcy6-adenylate-cycl:0.06825131063)100:0.02025216138,(Gallus-gallus_ENSGALT00000102308.1_ADCY6-adenylate-cycl:0.1081464473,Homo-sapiens_ENST00000307885.4_ADCY6-adenylate-cyclase:0.08520835479)77:0.01730878665)72:0.01563608783,(((((Tetraodon-nigroviridis_ENSTNIT00000019000.1_adcy5-adenylate-:0.03646132712,Oryzias-latipes_ENSORLT00000012233.1_adcy5-adenylate-cyclase:0.03445249953)98:0.008521204922,Gasterosteus-aculeatus_ENSGACT00000001603.1_adcy5-adenylate-:0.06854565717)97:0.01288911193,Danio-rerio_ENSDART00000124333.2_adcy5-adenylate-cyclase-5:0.05267244773)100:0.01979666047,Xenopus-tropicalis_ENSXETT00000052137.2_XB-GENE-5994092-NONE:0.2027374865)43:0.002589900952,(Gallus-gallus_ENSGALT00000057284.3_ADCY6-adenylate-cycl:0.05412994508,Homo-sapiens_ENST00000462833.6_ADCY5-adenylate-cyclase:0.04976169693)100:0.01683540067)92:0.02553411056)100:0.1192756821,Drosophila-melanogaster_FBtr0307368_CG43373-NONE:0.2763289668)100:0.06554333787,(((((((Gasterosteus-aculeatus_ENSGACT00000006451.1_adcy1a-adenylate:-0.01203358922,Oryzias-latipes_ENSORLT00000016127.1_adcy1a-adenylate-cyclas:0.09733666598)89:0.02993537628,Tetraodon-nigroviridis_ENSTNIT00000009388.1_adcy1a-adenylate:0.02728059421)100:0.04233924891,Danio-rerio_ENSDART00000100098.4_adcy1a-adenylate-cyclase-1a:0.05384875455)100:0.03374021732,((Tetraodon-nigroviridis_ENSTNIT00000005942.1_ADCY1-adenylate-:0.03363317614,Oryzias-latipes_ENSORLT00000021486.1_adcy1b-adenylate-cyclas:0.02963225976)98:0.01110463717,Gasterosteus-aculeatus_ENSGACT00000017328.1_adcy1b-adenylate:0.009639168123)100:0.04812639913)19:0.002284177418,((Xenopus-tropicalis_ENSXETT00000034177.4_adcy1-adenylate-cycl:0.03503055643,Gallus-gallus_ENSGALT00000048137.2_ADCY1-adenylate-cycl:0.03013796261)100:0.03321296678,Homo-sapiens_ENST00000297323.12_ADCY1-adenylate-cyclas:0.07020409891)50:0.01433127726)98:0.03181645947,Danio-rerio_ENSDART00000131177.2_adcy1b-adenylate-cyclase-1b:0.03116901333)100:0.1756194962,Drosophila-melanogaster_FBtr0073992_rut-rutabaga-DBNLINE-54:0.2617460905)100:0.04326664071)99:0.02877876118,((((((Danio-rerio_ENSDART00000046166.8_adcy2b-adenylate-cyclase-2b:0.05314282487,Tetraodon-nigroviridis_ENSTNIT00000012312.1_adcy2b-adenylate:0.06244529959)72:0.00638080092,(Danio-rerio_ENSDART00000084264.6_adcy2a-adenylate-cyclase-2a:0.04941938594,Gasterosteus-aculeatus_ENSGACT00000008647.1_adcy2a-adenylate:0.02993056856)99:0.01622926836)86:0.008160213952,(Gallus-gallus_ENSGALT00000021320.6_ADCY2-adenylate-cycl:0.04174304392,Homo-sapiens_ENST00000338316.9_ADCY2-adenylate-cyclase:0.03585633029)100:0.02447797605)100:0.09680484528,(((Xenopus-tropicalis_ENSXETT00000036808.3_adcy7-adenylate-cycl:0.1588670329,Gallus-gallus_ENSGALT00000108344.1_ADCY7-adenylate-cycl:0.08454465727)92:0.0256816304,Homo-sapiens_ENST00000394697.7_ADCY7-adenylate-cyclase:0.1218076437)98:0.0378394068,(Gasterosteus-aculeatus_ENSGACT00000022123.1_adcy7-adenylate-:0.04209157285,Oryzias-latipes_ENSORLT00000017521.1_adcy7-adenylate-cyclase:0.04427584911)100:0.1223879848)100:0.02344884406)45:0.006528146294,((Homo-sapiens_ENST00000310677.8_ADCY4-adenylate-cyclase:0,Homo-sapiens_ENST00000644961.1_ADCY4-adenylate-cyclase:0)100:0.1498464931,Xenopus-tropicalis_ENSXETT00000036801.3_adcy4-adenylate-cycl:0.1358180048)100:0.03392054033)100:0.1079759791,Drosophila-melanogaster_FBtr0304746_Ac76E-Adenylyl-cyclase-:0.3529281974)92:0.06993325306)77:0.02799503286,(((((((Tetraodon-nigroviridis_ENSTNIT00000019710.1_sidkey-206f10.1-:0.05432047816,Gasterosteus-aculeatus_ENSGACT00000013341.1_sidkey-206f10.1-:0.06275196847)86:0.006031242647,Oryzias-latipes_ENSORLT00000017065.1_sidkey-206f10.1-sidkey-:0.07371359346)100:0.03437033239,Danio-rerio_ENSDART00000142543.3_sidkey-206f10.1-si-dkey-206:0.1094152831)100:0.03152561204,((Tetraodon-nigroviridis_ENSTNIT00000009542.1_sich211-132f19.7:0.09906137365,Oryzias-latipes_ENSORLT00000001388.1_sich211-132f19.7-sich21:0.09148485657)100:0.06770888723,Danio-rerio_ENSDART00000156229.2_sich211-132f19.7-si-ch211-1:0.1022077192)55:0.01427394522)100:0.1055593375,((((Gallus-gallus_ENSGALT00000073355.2_ADCY8-adenylate-cycl:0.02583906851,Homo-sapiens_ENST00000286355.10_ADCY8-adenylate-cyclas:0.02202272202)100:0.05795112972,Oryzias-latipes_ENSORLT00000008052.1_adcy8-adenylate-cyclase:0.04233079212)46:0.01011958974,Tetraodon-nigroviridis_ENSTNIT00000011007.1_adcy8-adenylate-:0.04714619015)84:0.0184437204,Danio-rerio_ENSDART00000087823.5_adcy8-adenylate-cyclase-8-b:0.03961376981)100:0.06561085775)100:0.05220779817,Ciona-intestinalis_ENSCINT00000000889.3_NONE:0.3537016808)92:0.0276394272,Drosophila-melanogaster_FBtr0330067_Ac78C-Adenylyl-cyclase-:0.4058141466)74:0.02449324747)68:0.02632661235,(((((Xenopus-tropicalis_ENSXETT00000045792.2_adcy3-adenylate-cycl:0.1061540615,Gallus-gallus_ENSGALT00000026804.6_ADCY3-adenylate-cycl:0.05263513809)41:0.003426330632,Homo-sapiens_ENST00000405392.5_ADCY3-adenylate-cyclase:0.06929383316)46:0.01006996275,(Tetraodon-nigroviridis_ENSTNIT00000014828.1_adcy3a-adenylate:0.02928954043,Gasterosteus-aculeatus_ENSGACT00000018571.1_adcy3a-adenylate:0.02761103411)100:0.04326853788)100:0.04301323639,(Tetraodon-nigroviridis_ENSTNIT00000009712.1_adcy3b-adenylate:0.05336936225,Gasterosteus-aculeatus_ENSGACT00000017745.1_adcy3b-adenylate:0.06252670855)100:0.07114217105)100:0.1435921979,Drosophila-melanogaster_FBtr0085897_Ac3-NONE:0.3767922062)90:0.07185267849)81:0.05136833247,(((((Ciona-intestinalis_ENSCINT00000014922.3_NONE:0.1520290535,Ciona-intestinalis_ENSCINT00000002159.3_NONE:0.1028584503)99:0.06368491706,Ciona-intestinalis_ENSCINT00000017724.3_NONE:0.3790435969)100:0.2551206626,(Xenopus-tropicalis_ENSXETT00000032276.3_NONE:0.09404887731,Gallus-gallus_ENSGALT00000106575.1_natriuretic-peptide-:0.0776405487)99:0.09338982514)100:0.2238167424,((Ciona-intestinalis_ENSCINT00000017414.3_NONE:0.1349329014,Xenopus-tropicalis_ENSXETT00000048490.3_gucy1b3-guanylate-cy:0.2035840843)100:0.2781517241,(Xenopus-tropicalis_ENSXETT00000060980.1_NONE:0.1364014446,Gallus-gallus_ENSGALT00000008137.6_guanylate-cyclase-1-:-0.009083679663)100:0.222178557)97:0.123937033)100:0.5954466682,(((Drosophila-melanogaster_FBtr0080415_ACXA-NONE:0.1305834741,Drosophila-melanogaster_FBtr0080413_ACXC-NONE:0.1064008342)100:0.08715887307,Drosophila-melanogaster_FBtr0310556_ACXE-NONE:0.1907619007)100:0.1120651417,Drosophila-melanogaster_FBtr0072874_ACXD-NONE:0.2531825913)100:0.2304952039)41:0.03557980456)100:0.1639799443,Ciona-intestinalis_ENSCINT00000014863.3_NONE:0.2812043272)100:0.06286342429,((Gallus-gallus_ENSGALT00000012620.6_ADCY9-adenylate-cycl:0.04013067941,Homo-sapiens_ENST00000294016.8_ADCY9-adenylate-cyclase:0.05092988217)100:0.04166537125,Xenopus-tropicalis_ENSXETT00000037697.3_adcy9-adenylate-cycl:0.08497858794)100:0.1716811989)100:0,Drosophila-melanogaster_FBtr0332497_Ac13E-Adenylyl-cyclase-:0.341440733)100;
+
+>Aligned-site_rate
+Drosophila-melanogaster_FBtr0332497_Ac13E-Adenylyl-cyclase-      0.922
+Drosophila-melanogaster_FBtr0085897_Ac3-NONE                     0.936
+Drosophila-melanogaster_FBtr0304746_Ac76E-Adenylyl-cyclase-      0.916
+Drosophila-melanogaster_FBtr0330067_Ac78C-Adenylyl-cyclase-      0.989
+Drosophila-melanogaster_FBtr0072874_ACXD-NONE                    0.934
+Drosophila-melanogaster_FBtr0080415_ACXA-NONE                    0.933
+Drosophila-melanogaster_FBtr0080413_ACXC-NONE                    0.926
+Drosophila-melanogaster_FBtr0310556_ACXE-NONE                    0.928
+Drosophila-melanogaster_FBtr0307368_CG43373-NONE                 0.969
+Drosophila-melanogaster_FBtr0073992_rut-rutabaga-DBNLINE-54      0.974
+== Removed ==> Ciona-intestinalis_ENSCINT00000007479.2_NONE                     0.207
+== Removed ==> Ciona-intestinalis_ENSCINT00000026536.2_NONE                     0.262
+Ciona-intestinalis_ENSCINT00000014922.3_NONE                     0.678
+Ciona-intestinalis_ENSCINT00000002159.3_NONE                     0.722
+Ciona-intestinalis_ENSCINT00000017724.3_NONE                     0.683
+== Removed ==> Ciona-intestinalis_ENSCINT00000004523.3_NONE                     0.444
+Ciona-intestinalis_ENSCINT00000017414.3_NONE                     0.493
+Ciona-intestinalis_ENSCINT00000014863.3_NONE                     0.795
+== Removed ==> Ciona-intestinalis_ENSCINT00000000534.3_NONE                     0.402
+Ciona-intestinalis_ENSCINT00000000889.3_NONE                     0.97
+Xenopus-tropicalis_ENSXETT00000048490.3_gucy1b3-guanylate-cy     0.509
+Xenopus-tropicalis_ENSXETT00000060980.1_NONE                     0.529
+Xenopus-tropicalis_ENSXETT00000032276.3_NONE                     0.646
+Xenopus-tropicalis_ENSXETT00000037697.3_adcy9-adenylate-cycl     0.927
+Xenopus-tropicalis_ENSXETT00000036808.3_adcy7-adenylate-cycl     0.545
+Xenopus-tropicalis_ENSXETT00000052137.2_XB-GENE-5994092-NONE     0.611
+Xenopus-tropicalis_ENSXETT00000045792.2_adcy3-adenylate-cycl     0.935
+Xenopus-tropicalis_ENSXETT00000036801.3_adcy4-adenylate-cycl     0.963
+Xenopus-tropicalis_ENSXETT00000021584.3_adcy6-adenylate-cycl     0.988
+Xenopus-tropicalis_ENSXETT00000034177.4_adcy1-adenylate-cycl     0.973
+Gallus-gallus_ENSGALT00000008137.6_guanylate-cyclase-1-          0.527
+Gallus-gallus_ENSGALT00000106575.1_natriuretic-peptide-          0.639
+Gallus-gallus_ENSGALT00000012620.6_ADCY9-adenylate-cycl          0.927
+Gallus-gallus_ENSGALT00000026804.6_ADCY3-adenylate-cycl          0.973
+Gallus-gallus_ENSGALT00000102308.1_ADCY6-adenylate-cycl          0.987
+Gallus-gallus_ENSGALT00000108344.1_ADCY7-adenylate-cycl          0.973
+Gallus-gallus_ENSGALT00000021320.6_ADCY2-adenylate-cycl          0.975
+Gallus-gallus_ENSGALT00000073355.2_ADCY8-adenylate-cycl          0.986
+Gallus-gallus_ENSGALT00000057284.3_ADCY6-adenylate-cycl          0.986
+Gallus-gallus_ENSGALT00000048137.2_ADCY1-adenylate-cycl          0.973
+Homo-sapiens_ENST00000294016.8_ADCY9-adenylate-cyclase           0.927
+Homo-sapiens_ENST00000310677.8_ADCY4-adenylate-cyclase           0.98
+Homo-sapiens_ENST00000644961.1_ADCY4-adenylate-cyclase           0.98
+Homo-sapiens_ENST00000405392.5_ADCY3-adenylate-cyclase           0.967
+Homo-sapiens_ENST00000394697.7_ADCY7-adenylate-cyclase           0.974
+Homo-sapiens_ENST00000338316.9_ADCY2-adenylate-cyclase           0.973
+Homo-sapiens_ENST00000286355.10_ADCY8-adenylate-cyclas           0.986
+Homo-sapiens_ENST00000307885.4_ADCY6-adenylate-cyclase           0.988
+Homo-sapiens_ENST00000462833.6_ADCY5-adenylate-cyclase           0.986
+Homo-sapiens_ENST00000297323.12_ADCY1-adenylate-cyclas           0.973
+Danio-rerio_ENSDART00000087823.5_adcy8-adenylate-cyclase-8-b     0.785
+Danio-rerio_ENSDART00000046166.8_adcy2b-adenylate-cyclase-2b     0.972
+Danio-rerio_ENSDART00000084264.6_adcy2a-adenylate-cyclase-2a     0.976
+Danio-rerio_ENSDART00000142543.3_sidkey-206f10.1-si-dkey-206     0.984
+Danio-rerio_ENSDART00000156229.2_sich211-132f19.7-si-ch211-1     0.979
+Danio-rerio_ENSDART00000038491.9_adcy6b-adenylate-cyclase-6b     0.989
+Danio-rerio_ENSDART00000124333.2_adcy5-adenylate-cyclase-5       0.986
+Danio-rerio_ENSDART00000087654.6_adcy6a-adenylate-cyclase-6a     0.989
+Danio-rerio_ENSDART00000131177.2_adcy1b-adenylate-cyclase-1b     0.718
+Danio-rerio_ENSDART00000100098.4_adcy1a-adenylate-cyclase-1a     0.968
+Tetraodon-nigroviridis_ENSTNIT00000009712.1_adcy3b-adenylate     0.95
+Tetraodon-nigroviridis_ENSTNIT00000009542.1_sich211-132f19.7     0.973
+Tetraodon-nigroviridis_ENSTNIT00000014828.1_adcy3a-adenylate     0.967
+Tetraodon-nigroviridis_ENSTNIT00000019710.1_sidkey-206f10.1-     0.984
+Tetraodon-nigroviridis_ENSTNIT00000011007.1_adcy8-adenylate-     0.823
+Tetraodon-nigroviridis_ENSTNIT00000012312.1_adcy2b-adenylate     0.988
+Tetraodon-nigroviridis_ENSTNIT00000018375.1_adcy6b-adenylate     0.988
+Tetraodon-nigroviridis_ENSTNIT00000019000.1_adcy5-adenylate-     0.984
+Tetraodon-nigroviridis_ENSTNIT00000009388.1_adcy1a-adenylate     0.971
+Tetraodon-nigroviridis_ENSTNIT00000005942.1_ADCY1-adenylate-     0.968
+Gasterosteus-aculeatus_ENSGACT00000017745.1_adcy3b-adenylate     0.954
+Gasterosteus-aculeatus_ENSGACT00000018571.1_adcy3a-adenylate     0.971
+Gasterosteus-aculeatus_ENSGACT00000001603.1_adcy5-adenylate-     0.811
+Gasterosteus-aculeatus_ENSGACT00000022123.1_adcy7-adenylate-     0.973
+Gasterosteus-aculeatus_ENSGACT00000013341.1_sidkey-206f10.1-     0.975
+Gasterosteus-aculeatus_ENSGACT00000008647.1_adcy2a-adenylate     0.978
+Gasterosteus-aculeatus_ENSGACT00000004013.1_adcy6a-adenylate     0.939
+Gasterosteus-aculeatus_ENSGACT00000011360.1_adcy6b-adenylate     0.979
+Gasterosteus-aculeatus_ENSGACT00000006451.1_adcy1a-adenylate     0.96
+Gasterosteus-aculeatus_ENSGACT00000017328.1_adcy1b-adenylate     0.971
+== Removed ==> Oryzias-latipes_ENSORLT00000016118.1_NONE                        0.252
+Oryzias-latipes_ENSORLT00000017521.1_adcy7-adenylate-cyclase     0.968
+Oryzias-latipes_ENSORLT00000001388.1_sich211-132f19.7-sich21     0.979
+Oryzias-latipes_ENSORLT00000017065.1_sidkey-206f10.1-sidkey-     0.982
+Oryzias-latipes_ENSORLT00000008052.1_adcy8-adenylate-cyclase     0.824
+Oryzias-latipes_ENSORLT00000008754.1_adcy6b-adenylate-cyclas     0.988
+Oryzias-latipes_ENSORLT00000012233.1_adcy5-adenylate-cyclase     0.987
+Oryzias-latipes_ENSORLT00000015501.1_adcy6a-adenylate-cyclas     0.988
+Oryzias-latipes_ENSORLT00000016127.1_adcy1a-adenylate-cyclas     0.521
+Oryzias-latipes_ENSORLT00000021486.1_adcy1b-adenylate-cyclas     0.96
+
+
+################ Settings ################
+
+>NumberAssigned_querySequence
+Oryzias-latipes_ENSORLT00000021486.1
+GCGTGCGAGGACGAGTTCGACTGCAAGGAACTTGAGTCTCTCTTCCAGAACTACAACCTTAAACTGGAGCAGACTTCCACTCTCAAAGCCTTGGCGGTCCTCATCTTCATGTCCTTCACATTGGCCGTGGTGGAGTTGCTGTCCGGCCCCAGCCTTACCATCTCCAAGGGGTCCCACCCGGTCCACTGTGTCATCTTCCTCTCTCTTTTCATCGTAACTAATGTCAAGTATCTACAAGTGACTCAGCTCCAGCAGATCGTCAACCTGACGCTGCTCTTCGGCTTCACTTTCTCCTTCCTGTGCTGTCCCTTCTCGCTGGGGGCGATGGGGATGGAGCCCCCGACCTCCCCGGAGCAGGGCGTGTGGCAGCTGATCCTGGTCACCTTCGTCGCCTACGCGCTTTTGCCTGTGCGGACGCTCTTGGCTGTGCTGCTCGGACTGATGGTTTCCATCTCGCACTTAATTGTGACCGCCACTTCTGTCACAGTGAAAACACAGAAACTGTGGAGAACGTTGGTTGCCAACACAGTTCTGTTCACCAGTGTCAACCTGTCAGGCCTGTTTGTGCGCATCCTGACAGAGCGGGCCCAGAGGAAAGCGTTCCTGCAGGCCCGCAACTGCATTGAAGAAAGACTTCGTATGGAGGACGAGAACGAGAAACAGGTAGCAGCACCTGCATTTTTCCTGAACTCAAACCTCTCAGTTTTCCTGAAACACGAGTTTCTAAATGATGTAGATCAAAGCTTTAAACAGTTAAAGGTAGAAGATGTCCATGATAGAGTGAGTATCTTGTTTGCAGACATCGTTGGTTTCACCAGCCTGGCTTCTCAGTGCACAGCGCAGGAACTCGTTAAGCTGTTAAATGAGCTTTTTGGAAAGTTTGATGAGCTCGCCACGGAGAACCACTGTCGCAGAATTAAGATCCTGGGAGACTGTTACTACTGCGTTTCTGGACTGACCCAGCCCAAGACTGACCACGCTCACTGCTGCGTTGAGATGGGCTTAGACATGATCGACACTATAACGTCAGTAGCAGAGGCCACAGAAGTCAACCTTAATATGCGAGTGGGCTTGCACACCGGCCGAGTGCTGTGCGGAGTGCTGGGCCTCCGGAAATGGCAGTATGATGTTTGGTCAAATGATGTGACCCTGGCCAACGTTATGGAAGCTGGAGGCCTACCAGGGAAAGTTCACATCACCAGATCTACACTTGAGTGCCTAAATGGAGACTATGAGGTGGAGCCTGGAAATGGCCACGAAAGGAGCGCCTTCCTCCAAAAACATGAAATAGAAACCTTCTTTATTGTGCCATCTCACCGACGAAAGATATTCCCAGGATTGATTCTTTCGGATATAAAGCCCGCCAAAAAGATGAAGTTCAAAACCGTGTGCTACTTACTAGTGCAGCTTATGCACTGCAGGAAGATGTTCAAGGCTGAGATTCCCTTCTCCAATGTCATGAACTGCGAGGACGGGGATAAGCGGAGGGCCATGAGAACTGCTCCCCAAAAGCTGAGAAACCGCAACAACGCCAACCAGGCGAATGTGATCCAAAGCAGTCCCAGGACCCGGGTCAACCGTTACATCGGTCGGCTGATCGAAGCCCGACAGACCGAGTCGGACACAGCGGACCTGAACTTTCTGACACTCATGTATAAATGTTCTGAGCGCGAGCAGAGGTACCACCAGCTTCCGGATGAGTACTTCACCAGTGCAGTGGTCCTCTCACTGATCCTAGCTGCCTTGTTTGGCCTTGTTTATCTTCTCATCATACCACAGGGGATGGTGGTACTTGTCCTTCTTGTCTTCTGCATCTGCTTCCTAGTAGCGTGTATCATGTACCTTCATATCACAAAAGTTCAGTGTTTTCCAGGATGCTTGACCATCCAGATTCGCACTGCTCTTTGCATTCTCATAGTGCTCTTAATTTACGCCGTGGCCCAGGCCTGTGTGGTGGGCTGCATGCCCTGGATGTGGGGAAGTGCCAACACCAACAGCTCTATTGTAATTATTGATGTGGACAGTGGAGCAAATTACACCATGGAAGAGCTGCCCTGCGATGGCGCCCGTTACGCCTTCCTGTCCTGCGTGGTGGGCACTCTCACTCTGGCCCTCTTCCTTAGAGTCTCCTGGCTGCCAAAGATGGCGCTGTTGCTTCTTCTGGGGGTGCTGTATGTCACAGTATTGGAGCTCAGTGGCTTTCGCAGGACTGCAGGTGGGGGGTCCTTCCACATCCGGGGCTTTGAGCCCATCCTGTCTCTGTTGCTCTTTGTCAGCGCCCTGGCCCTCCACTCCAGGCAACTTGACCTCAAACTGCGCTTGGACTTCCTATGGGCTGTTCAGGCGGAGGAGGAAAGAGATGGGATGGAGAAAGTCAAGCTGGATAACAGAAGGATCCTCTTCAACCTCCTGCCTGCACATGTGGCTCAGCACTTCCTAATGTCAAACCCCAGAAACATGGATCTCTACTATCAGTCTTACGCTCAAGTCGGTGTCCTGTTTGCCTCCATTCCAAACTTTAACGACTTCTACATAGAGCTGGATGGCAACAATATGGGGGTGGAGTGCTTGAGATTGCTTAATGAGATCATAGCTGACTTTGATGAGCTCATGGATAAGGAGTGTTACAAGGACATTGAGAAGATCAAAACTATTGGCAGCACATACATGGCAGCTGTGGGACTCGTCCCCACCATCGGAACCAAGGCTAAAAAATCAGTTCATGACCATCTGAGCACAATTGCGGACTATGCTATTGAGATGTTTGATGTCTTGGATGAAATCAACTACCAGTCATACAATGAGTTTGTGCTGAGAGTGGGCATAAATGTGGGCCCGGTTGTGGCAGGAGTGATTGGAGCCCGGCGACCTCAGTATGACATCTGGGGAAACACGGTCAATGTGGCCAGTCGGATGGACAGCACCGGTGTTCCGGGAAAAATACAGGTAACTGAGGATGTTTACCGGCTTCTGAACAGCAACTACGACCTGGTCTGCCGTGGCAAGATCAGCGTGAAGGGCAAAGGTGAGATGCTGACTTACTTCCTTGAAGGGAAGGTGCAGGGCATCGGAACTGTGACCACCTCATTG
+
+>SubstitutionModel
+F84 (Tamura and Nei 1993) + gamma
+
+>ShortSequence_threshold
+0.45
+
+>Dataset
+Exclude3rd
+
+>Rearrangement_BS_value_threshold
+70
+
+>TaxonSampling_color
+Drosophila-melanogaster_Black
+Ciona-intestinalis_Black
+Xenopus-tropicalis_Magenta
+Gallus-gallus_Magenta
+Homo-sapiens_Magenta
+Danio-rerio_Purple
+Tetraodon-nigroviridis_Green
+Gasterosteus-aculeatus_Red
+Oryzias-latipes_Blue
+
+################ Results: 2nd analysis ################
+
+>TreeSearchMethod
+NJ
+
+>2nd_rearranged_gene_tree_newick
+((((Tetraodon-nigroviridis_ENSTNIT00000005942.1_ADCY1-adenylate-,Oryzias-latipes_ENSORLT00000021486.1_adcy1b-adenylate-cyclas)99_S=Percomorpha_D=N,Gasterosteus-aculeatus_ENSGACT00000017328.1_adcy1b-adenylate)100_S=Percomorpha_D=Y,Homo-sapiens_ENST00000297323.12_ADCY1-adenylate-cyclas)100_S=BonyVertebrates_D=N,Gallus-gallus_ENSGALT00000048137.2_ADCY1-adenylate-cycl)100_S=BonyVertebrates_D=Y;
+
+>2nd_rearranged_gene_tree_NHX
+((((Tetraodon-nigroviridis_ENSTNIT00000005942.1_ADCY1-adenylate-:0.03695154364[&&NHX:S=Tetraodon-nigroviridis],Oryzias-latipes_ENSORLT00000021486.1_adcy1b-adenylate-cyclas:0.02546790966[&&NHX:S=Oryzias-latipes])n2:0.008988281754[&&NHX:S=Percomorpha:D=N:B=99.0],Gasterosteus-aculeatus_ENSGACT00000017328.1_adcy1b-adenylate:0.01185219808[&&NHX:S=Gasterosteus-aculeatus])n4:0.07740265199[&&NHX:S=Percomorpha:D=Y:B=100.0],Homo-sapiens_ENST00000297323.12_ADCY1-adenylate-cyclas:0.08575586543[&&NHX:S=Homo-sapiens])n6:0.0[&&NHX:S=BonyVertebrates:D=N:B=100.0],Gallus-gallus_ENSGALT00000048137.2_ADCY1-adenylate-cycl:0.0303276547[&&NHX:S=Gallus-gallus])n8[&&NHX:S=BonyVertebrates:D=Y:B=100.0];
+
+>2nd_gene_tree_newick
+((((Oryzias-latipes_ENSORLT00000021486.1_adcy1b-adenylate-cyclas:0.02546790966,Tetraodon-nigroviridis_ENSTNIT00000005942.1_ADCY1-adenylate-:0.03695154364)99:0.008988281754,Gasterosteus-aculeatus_ENSGACT00000017328.1_adcy1b-adenylate:0.01185219808)100:0.07740265199,Homo-sapiens_ENST00000297323.12_ADCY1-adenylate-cyclas:0.08575586543)100:0,Gallus-gallus_ENSGALT00000048137.2_ADCY1-adenylate-cycl:0.0303276547)100;
+
+>MonophyleticGeneGroups
+BonyVertebrates                 100  D=N
+Clupeocephala                   NoGeneNode  NONE
+Percomorpha                     100  D=Y
+Oryzias-latipes                 leaf  leaf
+
+>SisterGeneGroups
+BonyVertebrates                 NONE   NoGeneNode
+Clupeocephala                   NONE   NoGeneNode
+Percomorpha                     100   Homo-sapiens
+Oryzias-latipes                 99   Tetraodon-nigroviridis
+
+>Number_of_duplicatedNode
+BonyVertebrates                 0
+Clupeocephala                   0
+Percomorpha                     1
+Oryzias-latipes                 0
+
+>AnalysisTime
+21.0 seconds

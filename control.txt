@@ -1,0 +1,64 @@
+# E: Estimate gene trees, orthogroup members, etc.
+# S: Summarize results.
+# D: Draw phylogenetic trees.
+>Mode
+E
+
+>QuerySpecies
+Oryzias-latipes
+
+# SpaciesName_color                 Amino acide database                                                                           Nucleotide database
+>TaxonSampling
+Drosophila-melanogaster_Black   Drosophila.pep.txt       Drosophila.cds.txt
+Ciona-intestinalis_Black        Ciona.pep.txt            Ciona.cds.txt
+Xenopus-tropicalis_Magenta      Xenopus.pep.txt          Xenopus.cds.txt
+Gallus-gallus_Magenta           Chicken.pep.txt          Chicken.cds.txt
+Homo-sapiens_Magenta            Human.pep.txt            Human.cds.txt
+Danio-rerio_Purple              Zebra.pep.txt            Zebra.cds.txt
+Tetraodon-nigroviridis_Green    Tetraodon.pep.txt        Tetraodon.cds.txt
+Gasterosteus-aculeatus_Red      Stickleback.pep.txt      Stickleback.cds.txt
+Oryzias-latipes_Blue            Medaka.pep.txt           Medaka.cds.txt
+
+>SpeciesWithGeneFunction
+Homo-sapiens
+
+>SpeciesTree
+(Drosophila-melanogaster,(Ciona-intestinalis,((Xenopus-tropicalis,(Gallus-gallus,Homo-sapiens)Amniota)Tetrapoda,(Danio-rerio,((Tetraodon-nigroviridis,Gasterosteus-aculeatus)Eupercaria,Oryzias-latipes)Percomorpha)Clupeocephala)BonyVertebrates)Deuterostomia)Bilateria;
+
+
+# Number of rooting sequences
+>Num_rootSequences
+1
+
+# This species node is used to find orthogroups within gene trees.
+>OrthogroupBasalNode
+BonyVertebrates
+
+# Floating point expression such as 1e-3 and 1e-5, or just 1
+>BLAST_Evalue_threshold_for_reported_sequences
+1e-3
+
+>Number_of_hits_to_report_per_genome
+10
+
+# This fraction is used to evaluate short sequences that interferes with tree searchs.
+>ShortSequence_threshold
+0.45
+
+# Exclude3rd, Include3rd, or AminoAcid
+>Dataset
+Exclude3rd
+
+>RearrangementBSthreshold
+70
+
+>Outdir
+outdir
+
+>Database
+database
+
+# D: Delete these files
+# L: Leave intermediate process
+>Switch_deleteIntermediateFiles
+D
