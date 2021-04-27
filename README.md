@@ -1,17 +1,6 @@
-# ORTHOSCOPE_STAR
- 
+# ORTHOSCOPE_STAR   
 
-
-# dbCNS
-
-<table width="200" border="0">
-  <tr>
-    <td>ORTHOSCOPE_STAR is an analysis pipeline to infer orthologous/paralogous relationships for a focal gene.<br>
-</td>
-  </tr>
-</table>  
-
-<br><br>
+An analysis pipeline to infer orthologous/paralogous relationships for a focal gene.   
 
 
 ---
