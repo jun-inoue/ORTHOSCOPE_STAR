@@ -6,7 +6,7 @@ An analysis pipeline to infer orthologous/paralogous relationships for a focal g
 ---
 
 ## Tutorial
-[http://yurai.aori.u-tokyo.ac.jp/orthoscopeStar/index.html](http://yurai.aori.u-tokyo.ac.jp/orthoscopeStar/index.html).
+[http://www.fish-evol.org/orthoscopeStar/](http://www.fish-evol.org/orthoscopeStar/){:target="_blank"}.
 
 <br />  
 
