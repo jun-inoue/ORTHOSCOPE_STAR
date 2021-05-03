@@ -93,12 +93,12 @@ Num,geneID,QueryLength,SpeciesWithGeneFunction,BS_of_orthogroupBasalNode,2ndGene
 92,ENSORLT00000000328.1,843,Homo-sapiens_ENST00000375499.8_SDHB-succinate-dehydrog ,100,DONE,2,1,1,1,1,2,2,2,2,1,1,1,2,2,2,2,100,D=N,r,D=Y,95,D=N,leaf,leaf,NoGeneNode,NONE,Tetrapoda,100,Danio-rerio,r,Eupercaria,95,0,0,0,0
 93,ENSORLT00000017407.1,3288,Homo-sapiens_ENST00000352035.7_ACLY-ATP-citrate-lyase ,100,DONE,4,6,3,3,4,3,7,3,3,1,1,1,2,3,2,2,100,D=N,r,D=Y,79,D=N,leaf,leaf,NoGeneNode,NONE,Tetrapoda,100,Danio-rerio,r,Gasterosteus-aculeatus,79,0,0,0,0
 94,ENSORLT00000021103.1,3408,Homo-sapiens_ENST00000405392.5_ADCY3-adenylate-cyclase ,100,DONE,10,10,10,10,10,10,10,10,10,1,1,1,2,2,2,2,100,D=Y,r,D=N,100,D=N,leaf,leaf,NoGeneNode,NONE,BonyVertebrates(Clupeocephala;Xenopus-tropicalis;Amniota),100,Danio-rerio,r,Eupercaria,100,1,0,0,0
-95,ENSORLT00000003094.1,2769,,Less than 4 orthogroup members.,NONE,6,2,5,8,9,10,10,10,10,1,0,0,0,0,0,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-96,ENSORLT00000006681.1,2160,NONE,No_orthogroup,NONE,3,4,5,5,4,5,4,4,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-97,ENSORLT00000007664.1,975,NONE,No_orthogroup,NONE,3,1,2,2,2,3,4,3,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-98,ENSORLT00000017626.1,1404,NONE,No_orthogroup,NONE,2,2,2,3,2,4,2,3,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-99,ENSORLT00000007944.1,1056,NONE,No_orthogroup,NONE,10,10,10,10,10,10,10,10,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-100,ENSORLT00000015883.1,1023,NONE,No_orthogroup,NONE,10,10,10,10,10,10,10,10,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+95,ENSORLT00000003094.1,2769,,Less than 4 orthogroup members.,NONE,6,2,5,8,9,10,10,10,10,1,0,0,0,0,0,1,,,,,,,,,,,,,,,,,,,,
+96,ENSORLT00000006681.1,2160,NONE,No_orthogroup,NONE,3,4,5,5,4,5,4,4,5,,,,,,,,,,,,,,,,,,,,,,,,,,,
+97,ENSORLT00000007664.1,975,NONE,No_orthogroup,NONE,3,1,2,2,2,3,4,3,3,,,,,,,,,,,,,,,,,,,,,,,,,,,
+98,ENSORLT00000017626.1,1404,NONE,No_orthogroup,NONE,2,2,2,3,2,4,2,3,3,,,,,,,,,,,,,,,,,,,,,,,,,,,
+99,ENSORLT00000007944.1,1056,NONE,No_orthogroup,NONE,10,10,10,10,10,10,10,10,10,,,,,,,,,,,,,,,,,,,,,,,,,,,
+100,ENSORLT00000015883.1,1023,NONE,No_orthogroup,NONE,10,10,10,10,10,10,10,10,10,,,,,,,,,,,,,,,,,,,,,,,,,,,
 101,ENSORLT00000000766.1,2247,Homo-sapiens_ENST00000371741.6_KCNB1-potassium-voltage Homo-sapiens_ENST00000523207.2_KCNB2-potassium-voltage ,r,DONE,10,10,10,10,10,10,10,10,10,1,1,2,2,2,1,1,100,D=Y,r,D=Y,NoGeneNode,NONE,leaf,leaf,Homo-sapiens,100,BonyVertebrates(Tetrapoda;Tetraodon-nigroviridis;Danio-rerio),100,NoGeneNode,NONE,Clupeocephala(Eupercaria;Danio-rerio),r,2,0,0,0
 102,ENSORLT00000002910.1,2112,Homo-sapiens_ENST00000295121.11_WDR92-WD-repeat-domain Homo-sapiens_ENST00000406334.3_AC017083.3-novel-protei ,r,DONE,10,10,10,10,10,10,10,10,10,1,1,2,1,1,1,1,100,D=N,r,D=N,r,D=N,leaf,leaf,NoGeneNode,NONE,Tetrapoda,100,Danio-rerio,r,Eupercaria,r,0,0,0,0
 103,ENSORLT00000003270.1,2346,Homo-sapiens_ENST00000396512.3_ACO2-aconitase-2 ,r,DONE,4,3,3,3,3,3,2,4,3,1,1,1,1,1,2,1,100,D=N,r,D=N,r,D=Y,leaf,leaf,NoGeneNode,NONE,Tetrapoda,100,Danio-rerio,r,Eupercaria,100,0,0,0,0
@@ -120,8 +120,3 @@ Num,geneID,QueryLength,SpeciesWithGeneFunction,BS_of_orthogroupBasalNode,2ndGene
 119,ENSORLT00000016836.1,1074,Homo-sapiens_ENST00000674920.1_ATF4-activating-transcr ,r,DONE,1,1,6,5,8,8,9,7,8,1,1,1,2,2,2,2,100,D=N,74,D=Y,97,D=Y,leaf,leaf,NoGeneNode,NONE,Tetrapoda,100,Danio-rerio,71,Gasterosteus-aculeatus,82,0,1,1,0
 120,ENSORLT00000017526.1,7260,Homo-sapiens_ENST00000263253.9_EP300-E1A-binding-prote ,r,DONE,10,10,10,10,10,10,10,10,10,1,1,1,2,1,2,2,100,D=N,100,D=Y,100,D=Y,leaf,leaf,NoGeneNode,NONE,Tetrapoda,100,Danio-rerio,100,Gasterosteus-aculeatus,99,0,1,1,0
 121,ENSORLT00000021486.1,3090,Homo-sapiens_ENST00000297323.12_ADCY1-adenylate-cyclas ,r,DONE,10,10,10,10,10,10,10,10,10,0,0,1,0,1,1,1,100,D=N,NoGeneNode,NONE,100,D=Y,leaf,leaf,NoGeneNode,NONE,NoGeneNode,NONE,Homo-sapiens,100,Tetraodon-nigroviridis,99,0,0,1,0
-122,ENSORLT00000014338.1,2430,Homo-sapiens_ENST00000263269.3_GRIN2D-glutamate-ionotr ,100,DONE,10,7,10,10,10,10,10,10,10,1,0,1,2,2,1,1,100,D=Y,100,D=Y,100,D=Y,leaf,leaf,Xenopus-tropicalis,100,Homo-sapiens,89,Danio-rerio,97,Gasterosteus-aculeatus,82,1,1,1,0
-123,ENSORLT00000025224.1,2673,Homo-sapiens_ENST00000645636.1_GRIA2-glutamate-ionotro ,100,DONE,10,8,10,10,10,10,10,10,10,1,1,1,2,0,2,1,100,D=N,100,D=Y,NoGeneNode,NONE,leaf,leaf,NoGeneNode,NONE,Tetrapoda,100,NoGeneNode,NONE,Danio-rerio,100,0,1,0,0
-124,ENSORLT00000020807.1,1398,Homo-sapiens_ENST00000334220.9_DLST-dihydrolipoamide-S ,99,DONE,3,4,4,4,4,4,5,5,4,1,1,1,1,2,2,1,100,D=N,100,D=N,r,D=Y,leaf,leaf,NoGeneNode,NONE,Tetrapoda,100,Danio-rerio,100,Eupercaria,100,0,0,0,0
-125,ENSORLT00000017521.1,3300,Homo-sapiens_ENST00000394697.7_ADCY7-adenylate-cyclase ,100,DONE,10,10,10,10,10,10,10,10,10,1,1,1,1,0,1,1,100,D=N,100,D=N,100,D=N,leaf,leaf,NoGeneNode,NONE,Tetrapoda,100,Danio-rerio,100,Gasterosteus-aculeatus,100,0,0,0,0
-126,ENSORLT00000016127.1,1761,Homo-sapiens_ENST00000297323.12_ADCY1-adenylate-cyclas ,75,DONE,10,10,10,10,10,10,10,10,10,1,1,1,1,1,1,1,100,D=N,100,D=N,100,D=Y,leaf,leaf,NoGeneNode,NONE,Tetrapoda,100,Danio-rerio,100,Gasterosteus-aculeatus,88,0,0,1,0
