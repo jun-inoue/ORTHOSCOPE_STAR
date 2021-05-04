@@ -2,7 +2,7 @@
 # S: Summarize results.
 # D: Draw phylogenetic trees.
 >Mode
-S
+E
 
 >QuerySpecies
 Oryzias-latipes
