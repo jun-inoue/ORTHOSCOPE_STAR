@@ -6,7 +6,7 @@ ORTHOSCOPE* (star) is an analysis pipelie to infer evolutionary history of a gen
 
 - a sister group of a focal species group,
 - gene duplication events on the species tree,
-- prensence/abnsence of genes in species lineages 
+- prensence/abnsence of genes in species lineages    
   (including horizontal gene transfer).   
   
 The code is derived from the [ORTHOSCOPE web version](https://github.com/jun-inoue/orthoscope). ORTHOSCOPE* is designed to employ supercomputers (High Performance Computers) for genome scale analyses.
