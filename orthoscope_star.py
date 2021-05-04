@@ -449,6 +449,12 @@ def check_mode():
         print("You selected mode D. Mode D needs gene ID as the argument.")
         print("Your argument was:", queryID)
         exit()
+    if mode == "S":
+        if not queryID.endswith(".txt"):
+            print("Error in your control.txt file.")
+            print("You selected mode S. Mode S needs .txt file as the argument.")
+            print("Your argument was:", queryID)
+            exit()
 
 def check_pickup_parameter(resDict_SR, keyword):
     keyword = ">" + keyword
@@ -2694,7 +2700,6 @@ treeSearchMethod, num_rootSequences, orthogroupBasalNode, name_querySpecies, que
 dbAddress, outdir, mode, Switch_deleteIntermediateFiles, speciesWithGeneFunction\
 = read_controlFile()
 
-makeblastdb_database()
 
 check_mode()
 
@@ -2707,9 +2712,6 @@ if not os.path.exists(dbAddress):
     print("Exit.")
 eachDirAddress = outdir + "/" + queryID + "/"
 #outdir = path_currentDirectory + "/" + outdir
-
-
-
 
 allNodes_speciesTree  = collect_nodes_from_speciesTree()
 
@@ -2751,6 +2753,8 @@ if mode == "D":
     make_resHtml2(resHTMLlines_2steps)
     #make_resHtml_link_form_outside()
     exit()
+
+makeblastdb_database()
 
 orthogroup_speciesNode = identifiy_orthogroup_speciesNode()
 
