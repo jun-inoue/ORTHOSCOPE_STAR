@@ -7,7 +7,8 @@ E
 >QuerySpecies
 Oryzias-latipes
 
-# SpaciesName_color                 Amino acide database                                                                           Nucleotide database
+#Each line shows species names followed by an underscore and then database file names of amino acid and nucleotide
+# SpaciesName_color             Amino acide database     Nucleotide database
 >TaxonSampling
 Drosophila-melanogaster_Black   Drosophila.pep.txt       Drosophila.cds.txt
 Ciona-intestinalis_Black        Ciona.pep.txt            Ciona.cds.txt
