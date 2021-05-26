@@ -8,15 +8,15 @@ E
 #Each line shows species names followed by an underscore and then database file names of amino acid and nucleotide
 # SpaciesName_color             Amino acide database     Nucleotide database
 >TaxonSampling
-Drosophila-melanogaster_Black Drosophila-melanogaster.pep.txt Drosophila-melanogaster.cds.txt   
-Ciona-intestinalis_Black      Ciona-intestinalis.pep.txt      Ciona-intestinalis.cds.txt       
-Xenopus-tropicalis_Magenta    Xenopus-tropicalis.pep.txt      Xenopus-tropicalis.cds.txt        
-Gallus-gallus_Magenta         Gallus-gallus.pep.txt           Gallus-gallus.cds.txt             
-Homo-sapiens_Magenta          Homo-sapiens.pep.txt            Homo-sapiens.cds.txt              
-Danio-rerio_Purple            Danio-rerio.pep.txt             Danio-rerio.cds.txt               
-Tetraodon-nigroviridis_Green  Gasterosteus-aculeatus.pep.txt  Gasterosteus-aculeatus.cds.txt    
-Gasterosteus-aculeatus_Red    Tetraodon-nigroviridis.pep.txt  Tetraodon-nigroviridis.cds.txt    
-Oryzias-latipes_Blue          Oryzias-latipes.pep.txt         Oryzias-latipes.cds.txt           
+Drosophila-melanogaster_Black Drosophila-melanogaster-SHN.pep.txt Drosophila-melanogaster-SHN.cds.txt   
+Ciona-intestinalis_Black      Ciona-intestinalis-SHN.pep.txt      Ciona-intestinalis-SHN.cds.txt       
+Xenopus-tropicalis_Magenta    Xenopus-tropicalis-SHN.pep.txt      Xenopus-tropicalis-SHN.cds.txt        
+Gallus-gallus_Magenta         Gallus-gallus-SHN.pep.txt           Gallus-gallus-SHN.cds.txt             
+Homo-sapiens_Magenta          Homo-sapiens-SHN.pep.txt            Homo-sapiens-SHN.cds.txt              
+Danio-rerio_Purple            Danio-rerio-SHN.pep.txt             Danio-rerio-SHN.cds.txt               
+Gasterosteus-aculeatus_Red    Gasterosteus-aculeatus-SHN.pep.txt  Gasterosteus-aculeatus-SHN.cds.txt    
+Tetraodon-nigroviridis_Green  Tetraodon-nigroviridis-SHN.pep.txt  Tetraodon-nigroviridis-SHN.cds.txt    
+Oryzias-latipes_Blue          Oryzias-latipes-SHN.pep.txt         Oryzias-latipes-SHN.cds.txt           
 
 >SpeciesTree
 (Drosophila-melanogaster,(Ciona-intestinalis,((Xenopus-tropicalis,(Gallus-gallus,Homo-sapiens)Amniota)Tetrapoda,(Danio-rerio,((Tetraodon-nigroviridis,Gasterosteus-aculeatus)Eupercaria,Oryzias-latipes)Percomorpha)Clupeocephala)BonyVertebrates)Deuterostomia)Bilateria;
