@@ -10,15 +10,15 @@ Oryzias-latipes
 #Each line shows species names followed by an underscore and then database file names of amino acid and nucleotide
 # SpaciesName_color             Amino acide database     Nucleotide database
 >TaxonSampling
-Drosophila-melanogaster_Black   Drosophila.pep.txt       Drosophila.cds.txt
-Ciona-intestinalis_Black        Ciona.pep.txt            Ciona.cds.txt
-Xenopus-tropicalis_Magenta      Xenopus.pep.txt          Xenopus.cds.txt
-Gallus-gallus_Magenta           Chicken.pep.txt          Chicken.cds.txt
-Homo-sapiens_Magenta            Human.pep.txt            Human.cds.txt
-Danio-rerio_Purple              Zebra.pep.txt            Zebra.cds.txt
-Tetraodon-nigroviridis_Green    Tetraodon.pep.txt        Tetraodon.cds.txt
-Gasterosteus-aculeatus_Red      Stickleback.pep.txt      Stickleback.cds.txt
-Oryzias-latipes_Blue            Medaka.pep.txt           Medaka.cds.txt
+Drosophila-melanogaster_Black Drosophila-melanogaster.pep.txt Drosophila-melanogaster.cds.txt   
+Ciona-intestinalis_Black      Ciona-intestinalis.pep.txt      Ciona-intestinalis.cds.txt       
+Xenopus-tropicalis_Magenta    Xenopus-tropicalis.pep.txt      Xenopus-tropicalis.cds.txt        
+Gallus-gallus_Magenta         Gallus-gallus.pep.txt           Gallus-gallus.cds.txt             
+Homo-sapiens_Magenta          Homo-sapiens.pep.txt            Homo-sapiens.cds.txt              
+Danio-rerio_Purple            Danio-rerio.pep.txt             Danio-rerio.cds.txt               
+Tetraodon-nigroviridis_Green  Gasterosteus-aculeatus.pep.txt  Gasterosteus-aculeatus.cds.txt    
+Gasterosteus-aculeatus_Red    Tetraodon-nigroviridis.pep.txt  Tetraodon-nigroviridis.cds.txt    
+Oryzias-latipes_Blue          Oryzias-latipes.pep.txt         Oryzias-latipes.cds.txt           
 
 >SpeciesWithGeneFunction
 Homo-sapiens
