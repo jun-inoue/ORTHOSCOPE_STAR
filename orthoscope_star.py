@@ -2716,12 +2716,6 @@ eachDirAddress = outdir + "/" + queryID + "/"
 allNodes_speciesTree  = collect_nodes_from_speciesTree()
 
 test_querySpecies_is_in_speciesTree(taxonSamplingList, SpeciesTree)
-if not os.path.exists("speciesTree.pdf"):
-    print("##### SpeciesTree draw ######")
-    treePlot_speciesTree = "tools/Rscript scripts/treePlot.R control.txt " + " SpeciesTree dummy_rearranged_species_tree_newick Rooting speciesTree > speciesTree_log.txt"
-    print("treePlot_speciesTree: ", treePlot_speciesTree)
-    subprocess.call(treePlot_speciesTree, shell=True)
-
 
 if mode == "D":
     print("##### Tree draw ######")
@@ -2791,6 +2785,13 @@ if mode == "S":
     exit()
 
 dirFileMake(queryDatabase, name_querySpecies, queryID)
+
+if not os.path.exists(outdir + "/speciesTree.pdf"):
+    print("##### SpeciesTree draw ######")
+    treePlot_speciesTree = "tools/Rscript scripts/treePlot.R control.txt " + " SpeciesTree dummy_rearranged_species_tree_newick Rooting speciesTree > speciesTree.pdf"
+    #print("treePlot_speciesTree: ", treePlot_speciesTree)
+    subprocess.call(treePlot_speciesTree, shell=True)
+    new_path = shutil.move('./speciesTree.pdf', outdir)
 
 checkUplodedFileAsFastaForamt()
 
