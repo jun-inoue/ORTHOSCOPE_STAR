@@ -10,15 +10,15 @@ Oryzias-latipes
 #Each line shows species names followed by an underscore and then database file names of amino acid and nucleotide
 # SpaciesName_color             Amino acide database     Nucleotide database
 >TaxonSampling
-Drosophila-melanogaster_Black   Drosophila.pep.txt       Drosophila.cds.txt
-Ciona-intestinalis_Black        Ciona.pep.txt            Ciona.cds.txt
-Xenopus-tropicalis_Magenta      Xenopus.pep.txt          Xenopus.cds.txt
-Gallus-gallus_Magenta           Chicken.pep.txt          Chicken.cds.txt
-Homo-sapiens_Magenta            Human.pep.txt            Human.cds.txt
-Danio-rerio_Purple              Zebra.pep.txt            Zebra.cds.txt
-Tetraodon-nigroviridis_Green    Tetraodon.pep.txt        Tetraodon.cds.txt
-Gasterosteus-aculeatus_Red      Stickleback.pep.txt      Stickleback.cds.txt
-Oryzias-latipes_Blue            Medaka.pep.txt           Medaka.cds.txt
+Drosophila-melanogaster_Black   Drosophila-SHN.pep.txt       Drosophila-SHN.cds.txt
+Ciona-intestinalis_Black        Ciona-SHN.pep.txt            Ciona-SHN.cds.txt
+Xenopus-tropicalis_Magenta      Xenopus-SHN.pep.txt          Xenopus-SHN.cds.txt
+Gallus-gallus_Magenta           Chicken-SHN.pep.txt          Chicken-SHN.cds.txt
+Homo-sapiens_Magenta            Human-SHN.pep.txt            Human-SHN.cds.txt
+Danio-rerio_Purple              Zebra-SHN.pep.txt            Zebra-SHN.cds.txt
+Tetraodon-nigroviridis_Green    Tetraodon-SHN.pep.txt        Tetraodon-SHN.cds.txt
+Gasterosteus-aculeatus_Red      Stickleback-SHN.pep.txt      Stickleback-SHN.cds.txt
+Oryzias-latipes_Blue            Medaka-SHN.pep.txt           Medaka-SHN.cds.txt
 
 >SpeciesWithGeneFunction
 Homo-sapiens
