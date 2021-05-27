@@ -19,7 +19,7 @@ Tetraodon-nigroviridis_Green  Tetraodon-nigroviridis-SHN.pep.txt  Tetraodon-nigr
 Oryzias-latipes_Blue          Oryzias-latipes-SHN.pep.txt         Oryzias-latipes-SHN.cds.txt           
 
 >SpeciesTree
-(Drosophila-melanogaster,(Ciona-intestinalis,((Xenopus-tropicalis,(Gallus-gallus,Homo-sapiens)Amniota)Tetrapoda,(Danio-rerio,((Tetraodon-nigroviridis,Gasterosteus-aculeatus)Eupercaria,Oryzias-latipes)Percomorpha)Clupeocephala)BonyVertebrates)Deuterostomia)Bilateria;
+(Drosophila-melanogaster,(Ciona-intestinalis,((Xenopus-tropicalis,(Gallus-gallus,Homo-sapiens)Amniota)Tetrapoda,(Danio-rerio,((Tetraodon-nigroviridis,Gasterosteus-aculeatus)Eupercaria,Oryzias-latipes)Percomorpha)Teleostei)BonyVertebrates)Deuterostomia)Bilateria;
 
 
 >QuerySpecies
