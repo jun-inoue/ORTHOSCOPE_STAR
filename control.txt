@@ -21,13 +21,17 @@ Oryzias-latipes_Blue          Oryzias-latipes-SHN.pep.txt         Oryzias-latipe
 >SpeciesTree
 (Drosophila-melanogaster,(Ciona-intestinalis,((Xenopus-tropicalis,(Gallus-gallus,Homo-sapiens)Amniota)Tetrapoda,(Danio-rerio,((Tetraodon-nigroviridis,Gasterosteus-aculeatus)Eupercaria,Oryzias-latipes)Percomorpha)Teleostei)BonyVertebrates)Deuterostomia)Bilateria;
 
-
 >QuerySpecies
 Oryzias-latipes
 
 # This species node is used to find orthogroups within gene trees.
 >OrthogroupBasalNode
 BonyVertebrates
+
+>Outdir
+outdir
+
+#############################
 
 >SpeciesWithGeneFunction
 Homo-sapiens
@@ -53,9 +57,6 @@ Exclude3rd
 
 >RearrangementBSthreshold
 70
-
->Outdir
-outdir
 
 >Database
 database

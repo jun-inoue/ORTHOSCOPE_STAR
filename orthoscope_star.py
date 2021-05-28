@@ -409,32 +409,33 @@ resHTMLlines_incomplete = '''
 
 def check_toolsDirectory():
     dependencies = os.listdir(path='tools')
-    if not "blastp" in dependencies:
-        print("Error: Cannot find blastp in your tools directory.")
-        print("See the tutorial from https://github.com/jun-inoue/ORTHOSCOPE_STAR")
-        exit()
-    if not "makeblastdb" in dependencies:
-        print("Error: Cannot find makeblastdb in your tools directory.")
-        print("See the tutorial from https://github.com/jun-inoue/ORTHOSCOPE_STAR")
-        exit()
-    if not "mafft" in dependencies:
-        print("Error: Cannot find mafft in your tools directory.")
-        print("See the tutorial from https://github.com/jun-inoue/ORTHOSCOPE_STAR")
-        exit()
-    if not "trimal" in dependencies:
-        print("Error: Cannot find trimal in your tools directory.")
-        print("See the tutorial from https://github.com/jun-inoue/ORTHOSCOPE_STAR")
-        exit()
-    if not "pal2nal.pl" in dependencies:
-        print("Error: Cannot pal2nal.pl in your tools directory.")
-        print("See the tutorial from https://github.com/jun-inoue/ORTHOSCOPE_STAR")
-        exit()
+    if mode == "E":
+        if not "blastp" in dependencies:
+            print("Error: Cannot find blastp in your tools directory.")
+            print("See the tutorial from https://github.com/jun-inoue/ORTHOSCOPE_STAR")
+            exit()
+        if not "makeblastdb" in dependencies:
+            print("Error: Cannot find makeblastdb in your tools directory.")
+            print("See the tutorial from https://github.com/jun-inoue/ORTHOSCOPE_STAR")
+            exit()
+        if not "mafft" in dependencies:
+            print("Error: Cannot find mafft in your tools directory.")
+            print("See the tutorial from https://github.com/jun-inoue/ORTHOSCOPE_STAR")
+            exit()
+        if not "trimal" in dependencies:
+            print("Error: Cannot find trimal in your tools directory.")
+            print("See the tutorial from https://github.com/jun-inoue/ORTHOSCOPE_STAR")
+            exit()
+        if not "pal2nal.pl" in dependencies:
+            print("Error: Cannot pal2nal.pl in your tools directory.")
+            print("See the tutorial from https://github.com/jun-inoue/ORTHOSCOPE_STAR")
+            exit()
+        if not "Notung.jar" in dependencies:
+            print("Error: Cannot Notung.jar in your tools directory.")
+            print("See the tutorial from https://github.com/jun-inoue/ORTHOSCOPE_STAR")
+            exit()
     if not "Rscript" in dependencies:
         print("Error: Cannot Rscript in your tools directory.")
-        print("See the tutorial from https://github.com/jun-inoue/ORTHOSCOPE_STAR")
-        exit()
-    if not "Notung.jar" in dependencies:
-        print("Error: Cannot Notung.jar in your tools directory.")
         print("See the tutorial from https://github.com/jun-inoue/ORTHOSCOPE_STAR")
         exit()
 
@@ -618,8 +619,9 @@ def read_controlFile():
         if re.search(name_querySpecies + "_", dbLine[0]):
             queryDatabase = dbLine[2]
     if not queryDatabase:
-        print("Your >QuerySpecies", name_querySpecies,"cannot be found in >TaxonSampling. Stopped")
-        exit()
+        if mode == "E" or mode == "D":
+            print("Error: >QuerySpecies", name_querySpecies," cannot be found in >TaxonSampling. Stopped")
+            exit()
 
     return dbLines, taxonSamplingList, SpeciesTree, blastEvalue, \
 Number_of_hits_to_report_per_genome, Aligned_site_rate, dataset, RearrangementBSthreshold, \
@@ -2688,9 +2690,6 @@ def make_indexLine(first_line):
 
 startTime = time.time()
 
-check_toolsDirectory()
-
-
 
 #####
 
@@ -2700,8 +2699,12 @@ treeSearchMethod, num_rootSequences, orthogroupBasalNode, name_querySpecies, que
 dbAddress, outdir, mode, Switch_deleteIntermediateFiles, speciesWithGeneFunction\
 = read_controlFile()
 
+if mode == "E" or mode == "D":
+    check_toolsDirectory()
+
 
 check_mode()
+
 
 print("\n\n############### " + queryID + " ################\n\n")
 #print("sys.version", sys.version)
@@ -2748,7 +2751,9 @@ if mode == "D":
     #make_resHtml_link_form_outside()
     exit()
 
-makeblastdb_database()
+
+if mode == "E":
+    makeblastdb_database()
 
 orthogroup_speciesNode = identifiy_orthogroup_speciesNode()
 
@@ -2764,6 +2769,7 @@ childSpeciesNodes_orthogroup_including_querySpecies = collect_childNodesincludin
 #    name_targetSpeciesNode = make_nodeName_from_nodeLavel_NHXstyle(targetSpeciesNode[2])
 #    print("name_targetSpeciesNode2", name_targetSpeciesNode)
 #exit()
+
 
 if mode == "S":
     #print("Mode S")
