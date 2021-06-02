@@ -1,0 +1,205 @@
+################ Results: 1st analysis ################
+
+>QuerySequence
+Oryzias-latipes_ENSORLT00000015021.1_mapk3-mitogen-activated  <= [Identities = 389/389 (100%)] : Oryzias-latipes_ENSORLT00000015021.1
+
+>Number_of_blastHits
+Drosophila-melanogaster  10
+Ciona-intestinalis       10
+Xenopus-tropicalis       10
+Gallus-gallus            10
+Homo-sapiens             10
+Danio-rerio              10
+Gasterosteus-aculeatus   10
+Tetraodon-nigroviridis   10
+Oryzias-latipes          10
+
+>BS_of_orthogroupBasalNode
+r
+
+
+>Orthogroup
+Danio-rerio_ENSDART00000103746.5_mapk3-mitogen-activated-pro
+Gasterosteus-aculeatus_ENSGACT00000017379.1_mapk3-mitogen-ac
+Homo-sapiens_ENST00000263025.9_MAPK3-mitogen-activated
+Oryzias-latipes_ENSORLT00000015021.1_mapk3-mitogen-activated
+Tetraodon-nigroviridis_ENSTNIT00000014732.1_mapk3-mitogen-ac
+
+>GeneNumber_of_orthogroup
+Xenopus-tropicalis            0
+Gallus-gallus                 0
+Homo-sapiens                  1
+Danio-rerio                   1
+Tetraodon-nigroviridis        1
+Gasterosteus-aculeatus        1
+Oryzias-latipes               1
+
+>Rooting
+Gasterosteus-aculeatus_ENSGACT00000019087.1_mapk1-mitogen-ac
+
+
+>1st_rearranged_gene_tree_newick
+((((((((((((((((Gallus-gallus_ENSGALT00000056342.2_MAPK10-mitogen-activ,Xenopus-tropicalis_ENSXETT00000013630.3_mapk10-mitogen-activ)r_S=Tetrapoda_D=N,Oryzias-latipes_ENSORLT00000007885.1_mapk10-mitogen-activate)86_S=BonyVertebrates_D=N,Gallus-gallus_ENSGALT00000091236.1_MAPK8-mitogen-activa)91_S=BonyVertebrates_D=Y,Gallus-gallus_ENSGALT00000097968.1_MAPK9-mitogen-activa)100_S=BonyVertebrates_D=Y,Ciona-intestinalis_ENSCINT00000018935.3_jnk-c-jun-N-terminal)74_S=Deuterostomia_D=N,Drosophila-melanogaster_FBtr0080087_bsk-basket-DBNLINE-71)100_S=Bilateria_D=N,((((((((Gasterosteus-aculeatus_ENSGACT00000025315.1_mapk12b-mitogen-,Tetraodon-nigroviridis_ENSTNIT00000009880.1_mapk12b-mitogen-)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000011306.1_mapk12b-mitogen-activat)100_S=Percomorpha_D=N,Danio-rerio_ENSDART00000027304.7_mapk12b-mitogen-activated-p)98_S=Teleostei_D=N,(((Tetraodon-nigroviridis_ENSTNIT00000017099.1_mapk12a-mitogen-,Tetraodon-nigroviridis_ENSTNIT00000011380.1_mapk12a-mitogen-)100_S=Tetraodon-nigroviridis_D=Y,Gasterosteus-aculeatus_ENSGACT00000017772.1_mapk12a-mitogen-)97_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000020406.1_mapk12a-mitogen-activat)100_S=Percomorpha_D=N)94_S=Teleostei_D=Y,((Homo-sapiens_ENST00000215659.13_MAPK12-mitogen-activat,Gallus-gallus_ENSGALT00000014027.6_MAPK12-mitogen-activ)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000048167.3_mapk12-mitogen-activ)88_S=Tetrapoda_D=N)97_S=BonyVertebrates_D=N,(((((Gasterosteus-aculeatus_ENSGACT00000006515.1_mapk13-mitogen-a,Tetraodon-nigroviridis_ENSTNIT00000014013.1_mapk13-mitogen-a)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000000486.1_mapk13-mitogen-activate)100_S=Percomorpha_D=N,Danio-rerio_ENSDART00000081341.6_mapk13-mitogen-activated-pr)100_S=Teleostei_D=N,Xenopus-tropicalis_ENSXETT00000000923.3_mapk13-mitogen-activ)74_S=BonyVertebrates_D=N,Homo-sapiens_ENST00000211287.9_MAPK13-mitogen-activate)100_S=BonyVertebrates_D=Y)97_S=BonyVertebrates_D=Y,(Danio-rerio_ENSDART00000048073.6_zgc171775-zgc-171775,Xenopus-tropicalis_ENSXETT00000000876.3_mitogen-activated-pr)100_S=BonyVertebrates_D=N)r_S=BonyVertebrates_D=Y,(Drosophila-melanogaster_FBtr0080534_p38b-p38b-MAP-kinase-DB,Drosophila-melanogaster_FBtr0300572_p38a-p38a-MAP-kinase-DB)99_S=Drosophila-melanogaster_D=Y)r_S=Bilateria_D=N)r_S=Bilateria_D=Y,(((((Danio-rerio_ENSDART00000030921.7_mapk14b-mitogen-activated-p,Danio-rerio_ENSDART00000040362.4_mapk14a-mitogen-activated-p)82_S=Danio-rerio_D=Y,Homo-sapiens_ENST00000229795.7_MAPK14-mitogen-activate)91_S=BonyVertebrates_D=N,((Gallus-gallus_ENSGALT00000051770.2_MAPK14-mitogen-activ,Xenopus-tropicalis_ENSXETT00000000926.3_mapk14-mitogen-activ)86_S=Tetrapoda_D=N,((Oryzias-latipes_ENSORLT00000020177.1_NONE,Gasterosteus-aculeatus_ENSGACT00000010228.1_NONE)75_S=Percomorpha_D=N,((Gasterosteus-aculeatus_ENSGACT00000010831.1_mapk14a-mitogen-,Tetraodon-nigroviridis_ENSTNIT00000018397.1_mapk14a-mitogen-)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000008136.1_mapk14a-mitogen-activat)r_S=Percomorpha_D=N)92_S=Percomorpha_D=Y)r_S=BonyVertebrates_D=N)94_S=BonyVertebrates_D=Y,((((Tetraodon-nigroviridis_ENSTNIT00000009879.1_mapk11-mitogen-a,Gasterosteus-aculeatus_ENSGACT00000025312.1_mapk11-mitogen-a)100_S=Eupercaria_D=N,Danio-rerio_ENSDART00000032857.6_mapk11-mitogen-activated-pr)100_S=Teleostei_D=N,Homo-sapiens_ENST00000330651.11_MAPK11-mitogen-activat)99_S=BonyVertebrates_D=N,(Gallus-gallus_ENSGALT00000067030.3_MAPK11-mitogen-activ,Xenopus-tropicalis_ENSXETT00000048165.2_mapk11-mitogen-activ)99_S=Tetrapoda_D=N)100_S=BonyVertebrates_D=Y)100_S=BonyVertebrates_D=Y,Drosophila-melanogaster_FBtr0084582_p38c-p38c-MAP-kinase-DB)r_S=Bilateria_D=N)98_S=Bilateria_D=Y,((((Homo-sapiens_ENST00000407008.8_NLK-nemo-like-kinase,Gallus-gallus_ENSGALT00000100900.1_NLK-nemo-like-kinase)100_S=Amniota_D=N,Oryzias-latipes_ENSORLT00000018906.1_nlk2-nemo-like-kinase-t)100_S=BonyVertebrates_D=N,Drosophila-melanogaster_FBtr0076758_nmo-nemo-DBNLINE-1255)97_S=Bilateria_D=N,Ciona-intestinalis_ENSCINT00000011009.3_nemo-like-Nemo-Like-)100_S=Bilateria_D=Y)r_S=Bilateria_D=Y,(((((((Gasterosteus-aculeatus_ENSGACT00000019087.1_mapk1-mitogen-ac,Tetraodon-nigroviridis_ENSTNIT00000018641.1_mapk1-mitogen-ac)r_S=Eupercaria_D=N,Danio-rerio_ENSDART00000030213.5_mapk1-mitogen-activated-pro)97_S=Teleostei_D=N,((Homo-sapiens_ENST00000215832.11_MAPK1-mitogen-activate,Gallus-gallus_ENSGALT00000002280.4_MAPK3-mitogen-activa)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000063448.1_mapk1-mitogen-activa)100_S=Tetrapoda_D=N)100_S=BonyVertebrates_D=N,(Homo-sapiens_ENST00000263025.9_MAPK3-mitogen-activated,(((Tetraodon-nigroviridis_ENSTNIT00000014732.1_mapk3-mitogen-ac,Gasterosteus-aculeatus_ENSGACT00000017379.1_mapk3-mitogen-ac)81_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000015021.1_mapk3-mitogen-activated)r_S=Percomorpha_D=N,Danio-rerio_ENSDART00000103746.5_mapk3-mitogen-activated-pro)r_S=Teleostei_D=N)r_S=BonyVertebrates_D=N)95_S=BonyVertebrates_D=Y,Ciona-intestinalis_ENSCINT00000014552.3_mitogen-activated-pr)r_S=Deuterostomia_D=N,Drosophila-melanogaster_FBtr0113703_rl-rolled-DBNLINE-534)100_S=Bilateria_D=N,(((((Oryzias-latipes_ENSORLT00000008261.1_mapk7-mitogen-activated,Tetraodon-nigroviridis_ENSTNIT00000018484.1_mapk7-mitogen-ac)80_S=Percomorpha_D=N,Gasterosteus-aculeatus_ENSGACT00000010379.1_mapk7-mitogen-ac)87_S=Percomorpha_D=Y,Danio-rerio_ENSDART00000133675.3_mapk7-mitogen-activated-pro)99_S=Teleostei_D=N,((Homo-sapiens_ENST00000308406.9_MAPK7-mitogen-activated,Gallus-gallus_ENSGALT00000098431.1_uncharacterized-LOC1)77_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000013745.3_mapk7-mitogen-activa)83_S=Tetrapoda_D=N)100_S=BonyVertebrates_D=N,Ciona-intestinalis_ENSCINT00000019973.3_erk5-mitogen-activat)100_S=Deuterostomia_D=N)75_S=Bilateria_D=Y)r_S=Bilateria_D=Y,(((((Homo-sapiens_ENST00000261845.7_MAPK6-mitogen-activated,Gallus-gallus_ENSGALT00000061654.2_MAPK4-mitogen-activa)80_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000044832.2_mapk6-mitogen-activa)100_S=Tetrapoda_D=N,(((Tetraodon-nigroviridis_ENSTNIT00000001825.1_mapk6-mitogen-ac,Gasterosteus-aculeatus_ENSGACT00000019835.1_mapk6-mitogen-ac)83_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000003847.1_mapk6-mitogen-activated)97_S=Percomorpha_D=N,Danio-rerio_ENSDART00000029549.8_mapk6-mitogen-activated-pro)r_S=Teleostei_D=N)100_S=BonyVertebrates_D=N,(Homo-sapiens_ENST00000400384.7_MAPK4-mitogen-activated,Xenopus-tropicalis_ENSXETT00000048442.1_mapk4-mitogen-activa)100_S=Tetrapoda_D=N)100_S=BonyVertebrates_D=Y,Ciona-intestinalis_ENSCINT00000002522.3_erk3/4-mitogen-activ)98_S=Deuterostomia_D=N)79_S=Bilateria_D=Y,(Ciona-intestinalis_ENSCINT00000002924.3_NONE,Drosophila-melanogaster_FBtr0071329_Erk7-Extracellularly-re)100_S=Bilateria_D=N)100_S=Bilateria_D=Y,Drosophila-melanogaster_FBtr0299965_CG42366-NONE)81_S=Bilateria_D=Y,(Ciona-intestinalis_ENSCINT00000026254.3_NONE,Drosophila-melanogaster_FBtr0070756_Cdk7-Cyclin-dependent-k)100_S=Bilateria_D=N)r_S=Bilateria_D=Y,(Ciona-intestinalis_ENSCINT00000007900.3_NONE,(Ciona-intestinalis_ENSCINT00000007891.3_NONE,Ciona-intestinalis_ENSCINT00000000891.3_NONE)98_S=Ciona-intestinalis_D=Y)r_S=Ciona-intestinalis_D=Y)100_S=Bilateria_D=Y,Drosophila-melanogaster_FBtr0080051_Cdk1-Cyclin-dependent-k)100_S=Bilateria_D=Y;
+
+>1st_rearranged_gene_tree_NHX
+((((((((((((((((Gallus-gallus_ENSGALT00000056342.2_MAPK10-mitogen-activ:0.009939570393[&&NHX:S=Gallus-gallus],Xenopus-tropicalis_ENSXETT00000013630.3_mapk10-mitogen-activ:0.01509636812[&&NHX:S=Xenopus-tropicalis])r202[&&NHX:S=Tetrapoda:D=N],Oryzias-latipes_ENSORLT00000007885.1_mapk10-mitogen-activate:0.02274461105[&&NHX:S=Oryzias-latipes])n79:0.008188318352[&&NHX:S=BonyVertebrates:D=N:B=86.0],Gallus-gallus_ENSGALT00000091236.1_MAPK8-mitogen-activa:0.03560447569[&&NHX:S=Gallus-gallus])n81:0.01415892514[&&NHX:S=BonyVertebrates:D=Y:B=91.0],Gallus-gallus_ENSGALT00000097968.1_MAPK9-mitogen-activa:0.04377500928[&&NHX:S=Gallus-gallus])n83:0.02980118608[&&NHX:S=BonyVertebrates:D=Y:B=100.0],Ciona-intestinalis_ENSCINT00000018935.3_jnk-c-jun-N-terminal:0.1242794377[&&NHX:S=Ciona-intestinalis])n85:0.0127137163[&&NHX:S=Deuterostomia:D=N:B=74.0],Drosophila-melanogaster_FBtr0080087_bsk-basket-DBNLINE-71:0.0859336888[&&NHX:S=Drosophila-melanogaster])n87:0.1660991818[&&NHX:S=Bilateria:D=N:B=100.0],((((((((Gasterosteus-aculeatus_ENSGACT00000025315.1_mapk12b-mitogen-:0.02618684247[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000009880.1_mapk12b-mitogen-:0.05059426938[&&NHX:S=Tetraodon-nigroviridis])r210[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000011306.1_mapk12b-mitogen-activat:0.03169844307[&&NHX:S=Oryzias-latipes])n4:0.02806917101[&&NHX:S=Percomorpha:D=N:B=100.0],Danio-rerio_ENSDART00000027304.7_mapk12b-mitogen-activated-p:0.04748770456[&&NHX:S=Danio-rerio])n6:0.02321143661[&&NHX:S=Teleostei:D=N:B=98.0],(((Tetraodon-nigroviridis_ENSTNIT00000017099.1_mapk12a-mitogen-:0.0[&&NHX:S=Tetraodon-nigroviridis],Tetraodon-nigroviridis_ENSTNIT00000011380.1_mapk12a-mitogen-:0.0[&&NHX:S=Tetraodon-nigroviridis])n9:0.02938168284[&&NHX:S=Tetraodon-nigroviridis:D=Y:B=100.0],Gasterosteus-aculeatus_ENSGACT00000017772.1_mapk12a-mitogen-:0.04391246076[&&NHX:S=Gasterosteus-aculeatus])n11:0.0178956066[&&NHX:S=Eupercaria:D=N:B=97.0],Oryzias-latipes_ENSORLT00000020406.1_mapk12a-mitogen-activat:0.04277467146[&&NHX:S=Oryzias-latipes])n13:0.03152744929[&&NHX:S=Percomorpha:D=N:B=100.0])n14:0.02120307042[&&NHX:S=Teleostei:D=Y:B=94.0],((Homo-sapiens_ENST00000215659.13_MAPK12-mitogen-activat:0.06765431161[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000014027.6_MAPK12-mitogen-activ:0.05256171579[&&NHX:S=Gallus-gallus])r212[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000048167.3_mapk12-mitogen-activ:0.05659526447[&&NHX:S=Xenopus-tropicalis])n19:0.01400230236[&&NHX:S=Tetrapoda:D=N:B=88.0])n20:0.02145088774[&&NHX:S=BonyVertebrates:D=N:B=97.0],(((((Gasterosteus-aculeatus_ENSGACT00000006515.1_mapk13-mitogen-a:0.02535883661[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000014013.1_mapk13-mitogen-a:0.02193698922[&&NHX:S=Tetraodon-nigroviridis])r214[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000000486.1_mapk13-mitogen-activate:0.03916428255[&&NHX:S=Oryzias-latipes])n25:0.03110225051[&&NHX:S=Percomorpha:D=N:B=100.0],Danio-rerio_ENSDART00000081341.6_mapk13-mitogen-activated-pr:0.06401344048[&&NHX:S=Danio-rerio])n27:0.03789258679[&&NHX:S=Teleostei:D=N:B=100.0],Xenopus-tropicalis_ENSXETT00000000923.3_mapk13-mitogen-activ:0.07243330421[&&NHX:S=Xenopus-tropicalis])n29:0.009862714446[&&NHX:S=BonyVertebrates:D=N:B=74.0],Homo-sapiens_ENST00000211287.9_MAPK13-mitogen-activate:0.07485406939[&&NHX:S=Homo-sapiens])n31:0.02672029789[&&NHX:S=BonyVertebrates:D=Y:B=100.0])n32:0.0207807096[&&NHX:S=BonyVertebrates:D=Y:B=97.0],(Danio-rerio_ENSDART00000048073.6_zgc171775-zgc-171775:0.1509665727[&&NHX:S=Danio-rerio],Xenopus-tropicalis_ENSXETT00000000876.3_mitogen-activated-pr:0.1260255094[&&NHX:S=Xenopus-tropicalis])n35:0.05181413559[&&NHX:S=BonyVertebrates:D=N:B=100.0])r196[&&NHX:S=BonyVertebrates:D=Y],(Drosophila-melanogaster_FBtr0080534_p38b-p38b-MAP-kinase-DB:0.0416730805[&&NHX:S=Drosophila-melanogaster],Drosophila-melanogaster_FBtr0300572_p38a-p38a-MAP-kinase-DB:0.06170146476[&&NHX:S=Drosophila-melanogaster])n71:0.0255676339[&&NHX:S=Drosophila-melanogaster:D=Y:B=99.0])r194[&&NHX:S=Bilateria:D=N])r193[&&NHX:S=Bilateria:D=Y],(((((Danio-rerio_ENSDART00000030921.7_mapk14b-mitogen-activated-p:0.02525116313[&&NHX:S=Danio-rerio],Danio-rerio_ENSDART00000040362.4_mapk14a-mitogen-activated-p:0.02609977876[&&NHX:S=Danio-rerio])n52:0.007842189935[&&NHX:S=Danio-rerio:D=Y:B=82.0],Homo-sapiens_ENST00000229795.7_MAPK14-mitogen-activate:0.0361975188[&&NHX:S=Homo-sapiens])n54:0.02010503054[&&NHX:S=BonyVertebrates:D=N:B=91.0],((Gallus-gallus_ENSGALT00000051770.2_MAPK14-mitogen-activ:0.01447614563[&&NHX:S=Gallus-gallus],Xenopus-tropicalis_ENSXETT00000000926.3_mapk14-mitogen-activ:0.187812063[&&NHX:S=Xenopus-tropicalis])n48:0.01850441246[&&NHX:S=Tetrapoda:D=N:B=86.0],((Oryzias-latipes_ENSORLT00000020177.1_NONE:0.02786576193[&&NHX:S=Oryzias-latipes],Gasterosteus-aculeatus_ENSGACT00000010228.1_NONE:0.01439821595[&&NHX:S=Gasterosteus-aculeatus])n39:0.008551390298[&&NHX:S=Percomorpha:D=N:B=75.0],((Gasterosteus-aculeatus_ENSGACT00000010831.1_mapk14a-mitogen-:0.02553583124[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000018397.1_mapk14a-mitogen-:0.04493290345[&&NHX:S=Tetraodon-nigroviridis])r221[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000008136.1_mapk14a-mitogen-activat:0.02744805562[&&NHX:S=Oryzias-latipes])r220[&&NHX:S=Percomorpha:D=N])n45:0.01206880534[&&NHX:S=Percomorpha:D=Y:B=92.0])r216[&&NHX:S=BonyVertebrates:D=N])n55:0.02643156544[&&NHX:S=BonyVertebrates:D=Y:B=94.0],((((Tetraodon-nigroviridis_ENSTNIT00000009879.1_mapk11-mitogen-a:0.01282668138[&&NHX:S=Tetraodon-nigroviridis],Gasterosteus-aculeatus_ENSGACT00000025312.1_mapk11-mitogen-a:0.02276366038[&&NHX:S=Gasterosteus-aculeatus])n58:0.02327452631[&&NHX:S=Eupercaria:D=N:B=100.0],Danio-rerio_ENSDART00000032857.6_mapk11-mitogen-activated-pr:0.02320029016[&&NHX:S=Danio-rerio])n60:0.03005974622[&&NHX:S=Teleostei:D=N:B=100.0],Homo-sapiens_ENST00000330651.11_MAPK11-mitogen-activat:0.06345745686[&&NHX:S=Homo-sapiens])n62:0.01651651972[&&NHX:S=BonyVertebrates:D=N:B=99.0],(Gallus-gallus_ENSGALT00000067030.3_MAPK11-mitogen-activ:0.02541432846[&&NHX:S=Gallus-gallus],Xenopus-tropicalis_ENSXETT00000048165.2_mapk11-mitogen-activ:0.0302800931[&&NHX:S=Xenopus-tropicalis])n65:0.01938347865[&&NHX:S=Tetrapoda:D=N:B=99.0])n66:0.0248996502[&&NHX:S=BonyVertebrates:D=Y:B=100.0])n67:0.0408963981[&&NHX:S=BonyVertebrates:D=Y:B=100.0],Drosophila-melanogaster_FBtr0084582_p38c-p38c-MAP-kinase-DB:0.3234551013[&&NHX:S=Drosophila-melanogaster])r198[&&NHX:S=Bilateria:D=N])n88:0.06042733077[&&NHX:S=Bilateria:D=Y:B=98.0],((((Homo-sapiens_ENST00000407008.8_NLK-nemo-like-kinase:0.01189515488[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000100900.1_NLK-nemo-like-kinase:0.006812899538[&&NHX:S=Gallus-gallus])n91:0.0232738446[&&NHX:S=Amniota:D=N:B=100.0],Oryzias-latipes_ENSORLT00000018906.1_nlk2-nemo-like-kinase-t:0.01902736072[&&NHX:S=Oryzias-latipes])n93:0.04855629892[&&NHX:S=BonyVertebrates:D=N:B=100.0],Drosophila-melanogaster_FBtr0076758_nmo-nemo-DBNLINE-1255:0.07686232516[&&NHX:S=Drosophila-melanogaster])n95:0.02915317295[&&NHX:S=Bilateria:D=N:B=97.0],Ciona-intestinalis_ENSCINT00000011009.3_nemo-like-Nemo-Like-:0.1510911752[&&NHX:S=Ciona-intestinalis])n97:0.215226157[&&NHX:S=Bilateria:D=Y:B=100.0])r189[&&NHX:S=Bilateria:D=Y],(((((((Gasterosteus-aculeatus_ENSGACT00000019087.1_mapk1-mitogen-ac:0.01046120856[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000018641.1_mapk1-mitogen-ac:0.009913861848[&&NHX:S=Tetraodon-nigroviridis])r234[&&NHX:S=Eupercaria:D=N],Danio-rerio_ENSDART00000030213.5_mapk1-mitogen-activated-pro:0.01669733608[&&NHX:S=Danio-rerio])n103:0.01170483442[&&NHX:S=Teleostei:D=N:B=97.0],((Homo-sapiens_ENST00000215832.11_MAPK1-mitogen-activate:0.01417357602[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000002280.4_MAPK3-mitogen-activa:0.0391449193[&&NHX:S=Gallus-gallus])r237[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000063448.1_mapk1-mitogen-activa:0.01154645317[&&NHX:S=Xenopus-tropicalis])n108:0.02107492873[&&NHX:S=Tetrapoda:D=N:B=100.0])n109:0.02019152672[&&NHX:S=BonyVertebrates:D=N:B=100.0],(Homo-sapiens_ENST00000263025.9_MAPK3-mitogen-activated:0.05261237354[&&NHX:S=Homo-sapiens],(((Tetraodon-nigroviridis_ENSTNIT00000014732.1_mapk3-mitogen-ac:0.02000441099[&&NHX:S=Tetraodon-nigroviridis],Gasterosteus-aculeatus_ENSGACT00000017379.1_mapk3-mitogen-ac:0.05538229307[&&NHX:S=Gasterosteus-aculeatus])n112:0.01629353235[&&NHX:S=Eupercaria:D=N:B=81.0],Oryzias-latipes_ENSORLT00000015021.1_mapk3-mitogen-activated:0.01748946393[&&NHX:S=Oryzias-latipes])r231[&&NHX:S=Percomorpha:D=N],Danio-rerio_ENSDART00000103746.5_mapk3-mitogen-activated-pro:0.04262155567[&&NHX:S=Danio-rerio])r230[&&NHX:S=Teleostei:D=N])r225[&&NHX:S=BonyVertebrates:D=N])n119:0.02397808368[&&NHX:S=BonyVertebrates:D=Y:B=95.0],Ciona-intestinalis_ENSCINT00000014552.3_mitogen-activated-pr:0.08615886368[&&NHX:S=Ciona-intestinalis])r223[&&NHX:S=Deuterostomia:D=N],Drosophila-melanogaster_FBtr0113703_rl-rolled-DBNLINE-534:0.08892736648[&&NHX:S=Drosophila-melanogaster])n123:0.1137838028[&&NHX:S=Bilateria:D=N:B=100.0],(((((Oryzias-latipes_ENSORLT00000008261.1_mapk7-mitogen-activated:0.0208027804[&&NHX:S=Oryzias-latipes],Tetraodon-nigroviridis_ENSTNIT00000018484.1_mapk7-mitogen-ac:0.04472990576[&&NHX:S=Tetraodon-nigroviridis])n126:0.008154216639[&&NHX:S=Percomorpha:D=N:B=80.0],Gasterosteus-aculeatus_ENSGACT00000010379.1_mapk7-mitogen-ac:0.02856879143[&&NHX:S=Gasterosteus-aculeatus])n128:0.0173413861[&&NHX:S=Percomorpha:D=Y:B=87.0],Danio-rerio_ENSDART00000133675.3_mapk7-mitogen-activated-pro:0.07117055225[&&NHX:S=Danio-rerio])n130:0.03686577984[&&NHX:S=Teleostei:D=N:B=99.0],((Homo-sapiens_ENST00000308406.9_MAPK7-mitogen-activated:0.05148719062[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000098431.1_uncharacterized-LOC1:0.0799914932[&&NHX:S=Gallus-gallus])n133:0.01190183171[&&NHX:S=Amniota:D=N:B=77.0],Xenopus-tropicalis_ENSXETT00000013745.3_mapk7-mitogen-activa:0.06875421987[&&NHX:S=Xenopus-tropicalis])n135:0.01169121444[&&NHX:S=Tetrapoda:D=N:B=83.0])n136:0.05835889957[&&NHX:S=BonyVertebrates:D=N:B=100.0],Ciona-intestinalis_ENSCINT00000019973.3_erk5-mitogen-activat:0.1402031377[&&NHX:S=Ciona-intestinalis])n138:0.08066747734[&&NHX:S=Deuterostomia:D=N:B=100.0])n139:0.01984417747[&&NHX:S=Bilateria:D=Y:B=75.0])r188[&&NHX:S=Bilateria:D=Y],(((((Homo-sapiens_ENST00000261845.7_MAPK6-mitogen-activated:0.01197931307[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000061654.2_MAPK4-mitogen-activa:0.01244770037[&&NHX:S=Gallus-gallus])n143:0.006216002237[&&NHX:S=Amniota:D=N:B=80.0],Xenopus-tropicalis_ENSXETT00000044832.2_mapk6-mitogen-activa:0.02238391414[&&NHX:S=Xenopus-tropicalis])n145:0.03345472004[&&NHX:S=Tetrapoda:D=N:B=100.0],(((Tetraodon-nigroviridis_ENSTNIT00000001825.1_mapk6-mitogen-ac:0.00941021308[&&NHX:S=Tetraodon-nigroviridis],Gasterosteus-aculeatus_ENSGACT00000019835.1_mapk6-mitogen-ac:0.01114688067[&&NHX:S=Gasterosteus-aculeatus])n150:0.006482511195[&&NHX:S=Eupercaria:D=N:B=83.0],Oryzias-latipes_ENSORLT00000003847.1_mapk6-mitogen-activated:0.01821986905[&&NHX:S=Oryzias-latipes])n152:0.01422346962[&&NHX:S=Percomorpha:D=N:B=97.0],Danio-rerio_ENSDART00000029549.8_mapk6-mitogen-activated-pro:0.0245812368[&&NHX:S=Danio-rerio])r239[&&NHX:S=Teleostei:D=N])n153:0.034164308[&&NHX:S=BonyVertebrates:D=N:B=100.0],(Homo-sapiens_ENST00000400384.7_MAPK4-mitogen-activated:0.0557827464[&&NHX:S=Homo-sapiens],Xenopus-tropicalis_ENSXETT00000048442.1_mapk4-mitogen-activa:0.0411900871[&&NHX:S=Xenopus-tropicalis])n156:0.06992281628[&&NHX:S=Tetrapoda:D=N:B=100.0])n157:0.1677044676[&&NHX:S=BonyVertebrates:D=Y:B=100.0],Ciona-intestinalis_ENSCINT00000002522.3_erk3/4-mitogen-activ:0.2988674628[&&NHX:S=Ciona-intestinalis])n159:0.0932934694[&&NHX:S=Deuterostomia:D=N:B=98.0])n160:0.03484122778[&&NHX:S=Bilateria:D=Y:B=79.0],(Ciona-intestinalis_ENSCINT00000002924.3_NONE:0.1474741729[&&NHX:S=Ciona-intestinalis],Drosophila-melanogaster_FBtr0071329_Erk7-Extracellularly-re:0.2126616888[&&NHX:S=Drosophila-melanogaster])n163:0.1505465241[&&NHX:S=Bilateria:D=N:B=100.0])n164:0.09622591368[&&NHX:S=Bilateria:D=Y:B=100.0],Drosophila-melanogaster_FBtr0299965_CG42366-NONE:0.3657658815[&&NHX:S=Drosophila-melanogaster])n166:0.04236031755[&&NHX:S=Bilateria:D=Y:B=81.0],(Ciona-intestinalis_ENSCINT00000026254.3_NONE:0.1546831877[&&NHX:S=Ciona-intestinalis],Drosophila-melanogaster_FBtr0070756_Cdk7-Cyclin-dependent-k:0.1319298863[&&NHX:S=Drosophila-melanogaster])n169:0.1580315821[&&NHX:S=Bilateria:D=N:B=100.0])r181[&&NHX:S=Bilateria:D=Y],(Ciona-intestinalis_ENSCINT00000007900.3_NONE:0.3036024085[&&NHX:S=Ciona-intestinalis],(Ciona-intestinalis_ENSCINT00000007891.3_NONE:0.1936570012[&&NHX:S=Ciona-intestinalis],Ciona-intestinalis_ENSCINT00000000891.3_NONE:0.2884347868[&&NHX:S=Ciona-intestinalis])n175:0.08846443904[&&NHX:S=Ciona-intestinalis:D=Y:B=98.0])r185[&&NHX:S=Ciona-intestinalis:D=Y])n176:0.0[&&NHX:S=Bilateria:D=Y:B=100.0],Drosophila-melanogaster_FBtr0080051_Cdk1-Cyclin-dependent-k:0.2595977483[&&NHX:S=Drosophila-melanogaster])n178[&&NHX:S=Bilateria:D=Y:B=100.0];
+
+>1st_gene_tree_newick
+((((((((((((((((((Gasterosteus-aculeatus_ENSGACT00000025315.1_mapk12b-mitogen-:0.02618684247,Oryzias-latipes_ENSORLT00000011306.1_mapk12b-mitogen-activat:0.03169844307)63:0.004892314459,Tetraodon-nigroviridis_ENSTNIT00000009880.1_mapk12b-mitogen-:0.05059426938)100:0.02806917101,Danio-rerio_ENSDART00000027304.7_mapk12b-mitogen-activated-p:0.04748770456)98:0.02321143661,(((Tetraodon-nigroviridis_ENSTNIT00000011380.1_mapk12a-mitogen-:0,Tetraodon-nigroviridis_ENSTNIT00000017099.1_mapk12a-mitogen-:0)100:0.02938168284,Gasterosteus-aculeatus_ENSGACT00000017772.1_mapk12a-mitogen-:0.04391246076)97:0.0178956066,Oryzias-latipes_ENSORLT00000020406.1_mapk12a-mitogen-activat:0.04277467146)100:0.03152744929)94:0.02120307042,((Gallus-gallus_ENSGALT00000014027.6_MAPK12-mitogen-activ:0.05256171579,Homo-sapiens_ENST00000215659.13_MAPK12-mitogen-activat:0.06765431161)30:0.0005009553403,Xenopus-tropicalis_ENSXETT00000048167.3_mapk12-mitogen-activ:0.05659526447)88:0.01400230236)97:0.02145088774,(((((Gasterosteus-aculeatus_ENSGACT00000006515.1_mapk13-mitogen-a:0.02535883661,Tetraodon-nigroviridis_ENSTNIT00000014013.1_mapk13-mitogen-a:0.02193698922)55:0.004481126655,Oryzias-latipes_ENSORLT00000000486.1_mapk13-mitogen-activate:0.03916428255)100:0.03110225051,Danio-rerio_ENSDART00000081341.6_mapk13-mitogen-activated-pr:0.06401344048)100:0.03789258679,Xenopus-tropicalis_ENSXETT00000000923.3_mapk13-mitogen-activ:0.07243330421)74:0.009862714446,Homo-sapiens_ENST00000211287.9_MAPK13-mitogen-activate:0.07485406939)100:0.02672029789)97:0.0207807096,(Xenopus-tropicalis_ENSXETT00000000876.3_mitogen-activated-pr:0.1260255094,Danio-rerio_ENSDART00000048073.6_zgc171775-zgc-171775:0.1509665727)100:0.05181413559)60:0.02612538042,(((((((Gasterosteus-aculeatus_ENSGACT00000010228.1_NONE:0.01439821595,Oryzias-latipes_ENSORLT00000020177.1_NONE:0.02786576193)75:0.008551390298,Gasterosteus-aculeatus_ENSGACT00000010831.1_mapk14a-mitogen-:0.02553583124)62:0.006453346334,Oryzias-latipes_ENSORLT00000008136.1_mapk14a-mitogen-activat:0.02744805562)49:0.002872466917,Tetraodon-nigroviridis_ENSTNIT00000018397.1_mapk14a-mitogen-:0.04493290345)92:0.01206880534,(Xenopus-tropicalis_ENSXETT00000000926.3_mapk14-mitogen-activ:0.187812063,Gallus-gallus_ENSGALT00000051770.2_MAPK14-mitogen-activ:0.01447614563)86:0.01850441246)42:0.002667374318,((Danio-rerio_ENSDART00000040362.4_mapk14a-mitogen-activated-p:0.02609977876,Danio-rerio_ENSDART00000030921.7_mapk14b-mitogen-activated-p:0.02525116313)82:0.007842189935,Homo-sapiens_ENST00000229795.7_MAPK14-mitogen-activate:0.0361975188)91:0.02010503054)94:0.02643156544,((((Gasterosteus-aculeatus_ENSGACT00000025312.1_mapk11-mitogen-a:0.02276366038,Tetraodon-nigroviridis_ENSTNIT00000009879.1_mapk11-mitogen-a:0.01282668138)100:0.02327452631,Danio-rerio_ENSDART00000032857.6_mapk11-mitogen-activated-pr:0.02320029016)100:0.03005974622,Homo-sapiens_ENST00000330651.11_MAPK11-mitogen-activat:0.06345745686)99:0.01651651972,(Xenopus-tropicalis_ENSXETT00000048165.2_mapk11-mitogen-activ:0.0302800931,Gallus-gallus_ENSGALT00000067030.3_MAPK11-mitogen-activ:0.02541432846)99:0.01938347865)100:0.0248996502)100:0.0408963981)31:0.01890636404,((Drosophila-melanogaster_FBtr0300572_p38a-p38a-MAP-kinase-DB:0.06170146476,Drosophila-melanogaster_FBtr0080534_p38b-p38b-MAP-kinase-DB:0.0416730805)99:0.0255676339,Drosophila-melanogaster_FBtr0084582_p38c-p38c-MAP-kinase-DB:0.3234551013)53:0.03869138063)57:0.04923262687,((((((Xenopus-tropicalis_ENSXETT00000013630.3_mapk10-mitogen-activ:0.01509636812,Oryzias-latipes_ENSORLT00000007885.1_mapk10-mitogen-activate:0.02274461105)36:0.001312199945,Gallus-gallus_ENSGALT00000056342.2_MAPK10-mitogen-activ:0.009939570393)86:0.008188318352,Gallus-gallus_ENSGALT00000091236.1_MAPK8-mitogen-activa:0.03560447569)91:0.01415892514,Gallus-gallus_ENSGALT00000097968.1_MAPK9-mitogen-activa:0.04377500928)100:0.02980118608,Ciona-intestinalis_ENSCINT00000018935.3_jnk-c-jun-N-terminal:0.1242794377)74:0.0127137163,Drosophila-melanogaster_FBtr0080087_bsk-basket-DBNLINE-71:0.0859336888)100:0.1660991818)98:0.06042733077,((((Gallus-gallus_ENSGALT00000100900.1_NLK-nemo-like-kinase:0.006812899538,Homo-sapiens_ENST00000407008.8_NLK-nemo-like-kinase:0.01189515488)100:0.0232738446,Oryzias-latipes_ENSORLT00000018906.1_nlk2-nemo-like-kinase-t:0.01902736072)100:0.04855629892,Drosophila-melanogaster_FBtr0076758_nmo-nemo-DBNLINE-1255:0.07686232516)97:0.02915317295,Ciona-intestinalis_ENSCINT00000011009.3_nemo-like-Nemo-Like-:0.1510911752)100:0.215226157)42:0.01197671649,(((((((Gasterosteus-aculeatus_ENSGACT00000019087.1_mapk1-mitogen-ac:0.01046120856,Tetraodon-nigroviridis_ENSTNIT00000018641.1_mapk1-mitogen-ac:0.009913861848)57:0.002495855141,Danio-rerio_ENSDART00000030213.5_mapk1-mitogen-activated-pro:0.01669733608)97:0.01170483442,((Gallus-gallus_ENSGALT00000002280.4_MAPK3-mitogen-activa:0.0391449193,Homo-sapiens_ENST00000215832.11_MAPK1-mitogen-activate:0.01417357602)32:0.001565304519,Xenopus-tropicalis_ENSXETT00000063448.1_mapk1-mitogen-activa:0.01154645317)100:0.02107492873)100:0.02019152672,((((Gasterosteus-aculeatus_ENSGACT00000017379.1_mapk3-mitogen-ac:0.05538229307,Tetraodon-nigroviridis_ENSTNIT00000014732.1_mapk3-mitogen-ac:0.02000441099)81:0.01629353235,Oryzias-latipes_ENSORLT00000015021.1_mapk3-mitogen-activated:0.01748946393)59:0.009800556588,Danio-rerio_ENSDART00000103746.5_mapk3-mitogen-activated-pro:0.04262155567)24:0.003606107756,Homo-sapiens_ENST00000263025.9_MAPK3-mitogen-activated:0.05261237354)35:0.002582519659)95:0.02397808368,Ciona-intestinalis_ENSCINT00000014552.3_mitogen-activated-pr:0.08615886368)50:0.006929500847,Drosophila-melanogaster_FBtr0113703_rl-rolled-DBNLINE-534:0.08892736648)100:0.1137838028,(((((Tetraodon-nigroviridis_ENSTNIT00000018484.1_mapk7-mitogen-ac:0.04472990576,Oryzias-latipes_ENSORLT00000008261.1_mapk7-mitogen-activated:0.0208027804)80:0.008154216639,Gasterosteus-aculeatus_ENSGACT00000010379.1_mapk7-mitogen-ac:0.02856879143)87:0.0173413861,Danio-rerio_ENSDART00000133675.3_mapk7-mitogen-activated-pro:0.07117055225)99:0.03686577984,((Gallus-gallus_ENSGALT00000098431.1_uncharacterized-LOC1:0.0799914932,Homo-sapiens_ENST00000308406.9_MAPK7-mitogen-activated:0.05148719062)77:0.01190183171,Xenopus-tropicalis_ENSXETT00000013745.3_mapk7-mitogen-activa:0.06875421987)83:0.01169121444)100:0.05835889957,Ciona-intestinalis_ENSCINT00000019973.3_erk5-mitogen-activat:0.1402031377)100:0.08066747734)75:0.01984417747)66:0.02177040923,((((((Gallus-gallus_ENSGALT00000061654.2_MAPK4-mitogen-activa:0.01244770037,Homo-sapiens_ENST00000261845.7_MAPK6-mitogen-activated:0.01197931307)80:0.006216002237,Xenopus-tropicalis_ENSXETT00000044832.2_mapk6-mitogen-activa:0.02238391414)100:0.03345472004,Danio-rerio_ENSDART00000029549.8_mapk6-mitogen-activated-pro:0.0245812368)59:0.008523243476,((Gasterosteus-aculeatus_ENSGACT00000019835.1_mapk6-mitogen-ac:0.01114688067,Tetraodon-nigroviridis_ENSTNIT00000001825.1_mapk6-mitogen-ac:0.00941021308)83:0.006482511195,Oryzias-latipes_ENSORLT00000003847.1_mapk6-mitogen-activated:0.01821986905)97:0.01422346962)100:0.034164308,(Xenopus-tropicalis_ENSXETT00000048442.1_mapk4-mitogen-activa:0.0411900871,Homo-sapiens_ENST00000400384.7_MAPK4-mitogen-activated:0.0557827464)100:0.06992281628)100:0.1677044676,Ciona-intestinalis_ENSCINT00000002522.3_erk3/4-mitogen-activ:0.2988674628)98:0.0932934694)79:0.03484122778,(Drosophila-melanogaster_FBtr0071329_Erk7-Extracellularly-re:0.2126616888,Ciona-intestinalis_ENSCINT00000002924.3_NONE:0.1474741729)100:0.1505465241)100:0.09622591368,Drosophila-melanogaster_FBtr0299965_CG42366-NONE:0.3657658815)81:0.04236031755,((Drosophila-melanogaster_FBtr0070756_Cdk7-Cyclin-dependent-k:0.1319298863,Ciona-intestinalis_ENSCINT00000026254.3_NONE:0.1546831877)100:0.1580315821,Ciona-intestinalis_ENSCINT00000007900.3_NONE:0.3036024085)61:0.02717986485)64:0.03465650331,(Ciona-intestinalis_ENSCINT00000000891.3_NONE:0.2884347868,Ciona-intestinalis_ENSCINT00000007891.3_NONE:0.1936570012)98:0.08846443904)100:0,Drosophila-melanogaster_FBtr0080051_Cdk1-Cyclin-dependent-k:0.2595977483)100;
+
+>Aligned-site_rate
+Drosophila-melanogaster_FBtr0080051_Cdk1-Cyclin-dependent-k      0.956
+Drosophila-melanogaster_FBtr0299965_CG42366-NONE                 0.975
+Drosophila-melanogaster_FBtr0071329_Erk7-Extracellularly-re      1.0
+Drosophila-melanogaster_FBtr0070756_Cdk7-Cyclin-dependent-k      0.996
+Drosophila-melanogaster_FBtr0084582_p38c-p38c-MAP-kinase-DB      1.0
+Drosophila-melanogaster_FBtr0076758_nmo-nemo-DBNLINE-1255        1.0
+Drosophila-melanogaster_FBtr0080087_bsk-basket-DBNLINE-71        1.0
+Drosophila-melanogaster_FBtr0300572_p38a-p38a-MAP-kinase-DB      0.996
+Drosophila-melanogaster_FBtr0080534_p38b-p38b-MAP-kinase-DB      1.0
+Drosophila-melanogaster_FBtr0113703_rl-rolled-DBNLINE-534        1.0
+Ciona-intestinalis_ENSCINT00000000891.3_NONE                     1.0
+Ciona-intestinalis_ENSCINT00000007891.3_NONE                     1.0
+Ciona-intestinalis_ENSCINT00000026254.3_NONE                     0.996
+Ciona-intestinalis_ENSCINT00000007900.3_NONE                     1.0
+Ciona-intestinalis_ENSCINT00000011009.3_nemo-like-Nemo-Like-     0.967
+Ciona-intestinalis_ENSCINT00000002522.3_erk3/4-mitogen-activ     0.989
+Ciona-intestinalis_ENSCINT00000002924.3_NONE                     1.0
+Ciona-intestinalis_ENSCINT00000018935.3_jnk-c-jun-N-terminal     1.0
+Ciona-intestinalis_ENSCINT00000019973.3_erk5-mitogen-activat     1.0
+Ciona-intestinalis_ENSCINT00000014552.3_mitogen-activated-pr     1.0
+Xenopus-tropicalis_ENSXETT00000000926.3_mapk14-mitogen-activ     1.0
+Xenopus-tropicalis_ENSXETT00000013630.3_mapk10-mitogen-activ     1.0
+Xenopus-tropicalis_ENSXETT00000048442.1_mapk4-mitogen-activa     1.0
+Xenopus-tropicalis_ENSXETT00000044832.2_mapk6-mitogen-activa     1.0
+Xenopus-tropicalis_ENSXETT00000000876.3_mitogen-activated-pr     1.0
+Xenopus-tropicalis_ENSXETT00000000923.3_mapk13-mitogen-activ     1.0
+Xenopus-tropicalis_ENSXETT00000048167.3_mapk12-mitogen-activ     1.0
+Xenopus-tropicalis_ENSXETT00000013745.3_mapk7-mitogen-activa     1.0
+Xenopus-tropicalis_ENSXETT00000048165.2_mapk11-mitogen-activ     1.0
+Xenopus-tropicalis_ENSXETT00000063448.1_mapk1-mitogen-activa     1.0
+Gallus-gallus_ENSGALT00000091236.1_MAPK8-mitogen-activa          1.0
+Gallus-gallus_ENSGALT00000056342.2_MAPK10-mitogen-activ          1.0
+Gallus-gallus_ENSGALT00000097968.1_MAPK9-mitogen-activa          1.0
+Gallus-gallus_ENSGALT00000100900.1_NLK-nemo-like-kinase          1.0
+Gallus-gallus_ENSGALT00000061654.2_MAPK4-mitogen-activa          1.0
+Gallus-gallus_ENSGALT00000014027.6_MAPK12-mitogen-activ          1.0
+Gallus-gallus_ENSGALT00000098431.1_uncharacterized-LOC1          0.996
+Gallus-gallus_ENSGALT00000067030.3_MAPK11-mitogen-activ          0.996
+Gallus-gallus_ENSGALT00000051770.2_MAPK14-mitogen-activ          1.0
+Gallus-gallus_ENSGALT00000002280.4_MAPK3-mitogen-activa          1.0
+Homo-sapiens_ENST00000407008.8_NLK-nemo-like-kinase              1.0
+Homo-sapiens_ENST00000400384.7_MAPK4-mitogen-activated           1.0
+Homo-sapiens_ENST00000261845.7_MAPK6-mitogen-activated           1.0
+Homo-sapiens_ENST00000215659.13_MAPK12-mitogen-activat           1.0
+Homo-sapiens_ENST00000211287.9_MAPK13-mitogen-activate           1.0
+Homo-sapiens_ENST00000308406.9_MAPK7-mitogen-activated           1.0
+Homo-sapiens_ENST00000229795.7_MAPK14-mitogen-activate           1.0
+Homo-sapiens_ENST00000330651.11_MAPK11-mitogen-activat           1.0
+Homo-sapiens_ENST00000215832.11_MAPK1-mitogen-activate           1.0
+Homo-sapiens_ENST00000263025.9_MAPK3-mitogen-activated           1.0
+Danio-rerio_ENSDART00000048073.6_zgc171775-zgc-171775            1.0
+Danio-rerio_ENSDART00000081341.6_mapk13-mitogen-activated-pr     1.0
+Danio-rerio_ENSDART00000029549.8_mapk6-mitogen-activated-pro     1.0
+Danio-rerio_ENSDART00000027304.7_mapk12b-mitogen-activated-p     1.0
+Danio-rerio_ENSDART00000133675.3_mapk7-mitogen-activated-pro     1.0
+Danio-rerio_ENSDART00000032857.6_mapk11-mitogen-activated-pr     1.0
+Danio-rerio_ENSDART00000040362.4_mapk14a-mitogen-activated-p     1.0
+Danio-rerio_ENSDART00000030921.7_mapk14b-mitogen-activated-p     1.0
+Danio-rerio_ENSDART00000030213.5_mapk1-mitogen-activated-pro     1.0
+Danio-rerio_ENSDART00000103746.5_mapk3-mitogen-activated-pro     1.0
+Gasterosteus-aculeatus_ENSGACT00000006515.1_mapk13-mitogen-a     1.0
+Gasterosteus-aculeatus_ENSGACT00000019835.1_mapk6-mitogen-ac     1.0
+Gasterosteus-aculeatus_ENSGACT00000025315.1_mapk12b-mitogen-     0.993
+Gasterosteus-aculeatus_ENSGACT00000017772.1_mapk12a-mitogen-     1.0
+Gasterosteus-aculeatus_ENSGACT00000025312.1_mapk11-mitogen-a     1.0
+Gasterosteus-aculeatus_ENSGACT00000010831.1_mapk14a-mitogen-     1.0
+Gasterosteus-aculeatus_ENSGACT00000010228.1_NONE                 1.0
+Gasterosteus-aculeatus_ENSGACT00000010379.1_mapk7-mitogen-ac     1.0
+Gasterosteus-aculeatus_ENSGACT00000019087.1_mapk1-mitogen-ac     1.0
+Gasterosteus-aculeatus_ENSGACT00000017379.1_mapk3-mitogen-ac     1.0
+Tetraodon-nigroviridis_ENSTNIT00000001825.1_mapk6-mitogen-ac     1.0
+Tetraodon-nigroviridis_ENSTNIT00000014013.1_mapk13-mitogen-a     1.0
+Tetraodon-nigroviridis_ENSTNIT00000009880.1_mapk12b-mitogen-     1.0
+Tetraodon-nigroviridis_ENSTNIT00000011380.1_mapk12a-mitogen-     1.0
+Tetraodon-nigroviridis_ENSTNIT00000017099.1_mapk12a-mitogen-     1.0
+Tetraodon-nigroviridis_ENSTNIT00000018397.1_mapk14a-mitogen-     1.0
+Tetraodon-nigroviridis_ENSTNIT00000009879.1_mapk11-mitogen-a     1.0
+Tetraodon-nigroviridis_ENSTNIT00000018484.1_mapk7-mitogen-ac     1.0
+Tetraodon-nigroviridis_ENSTNIT00000018641.1_mapk1-mitogen-ac     1.0
+Tetraodon-nigroviridis_ENSTNIT00000014732.1_mapk3-mitogen-ac     1.0
+Oryzias-latipes_ENSORLT00000007885.1_mapk10-mitogen-activate     1.0
+Oryzias-latipes_ENSORLT00000018906.1_nlk2-nemo-like-kinase-t     1.0
+Oryzias-latipes_ENSORLT00000000486.1_mapk13-mitogen-activate     1.0
+Oryzias-latipes_ENSORLT00000003847.1_mapk6-mitogen-activated     1.0
+Oryzias-latipes_ENSORLT00000020177.1_NONE                        0.807
+Oryzias-latipes_ENSORLT00000011306.1_mapk12b-mitogen-activat     1.0
+Oryzias-latipes_ENSORLT00000020406.1_mapk12a-mitogen-activat     1.0
+Oryzias-latipes_ENSORLT00000008136.1_mapk14a-mitogen-activat     1.0
+Oryzias-latipes_ENSORLT00000008261.1_mapk7-mitogen-activated     1.0
+Oryzias-latipes_ENSORLT00000015021.1_mapk3-mitogen-activated     1.0
+
+
+################ Settings ################
+
+>NumberAssigned_querySequence
+Oryzias-latipes_ENSORLT00000015021.1
+ATGGCGGATTCGTGCAGCACTGCAGCGGTTGGGGCCGAGGGCTCCGACAGCGCTGCTGCTGCCGGGGCGGTTGGTGCTGTTGCGCAGAATGAAGCCGGAGGGTCCAAGCCCTGCTCGGAGTCGGTGAGGGGCCAGAATTTTGACGTTGGCCCCCGCTACACGAACCTGTCTTACATCGGCGAAGGAGCTTATGGAATGGTCTGCTCTGCCCTGGATAACTTGACAAATCAGCGCGTGGCCATCAAGAAAATCAGTCCATTCGAGCACCAGACGTACTGCCAGCGCACTCTGAGAGAAATCAAGATCCTGCTGCGCTTCAACCACGAGAACATCATCGGGATTAACGACATCCTGAGGGCGCGGCACATTGATAACATGAGGGATGTCTACATCGTGCAGACCCTGATGGAGACCGATCTGTACAAGCTGCTGAAGAGCCAGAGGCTAAGCAACGACCACGTCTGCTACTTCCTCTACCAGATCCTGCGAGGCCTCAAGTACATCCACTCTGCCAACGTGCTGCACCGTGACCTCAAGCCCTCCAACCTGCTCATCAACACCACCTGCGACCTCAAGATCTGTGACTTCGGCTTGGCTCGGATAGCTGATCCAGAGCACGACCACACCGGCTTCTTGACTGAGTATGTGGCCACTCGTTGGTACAGAGCTCCGGAAATCATGCTCAACTCAAAGGGTTACTCCAAGTCTATTGACATCTGGTCGGTGGGCTGCATCTTAGCTGAAATGCTGTCTAATAAGCCTATATTCCCTGGAAAGCACTACTTGGACCAGCTCAACCACATTCTAGGTGTTCTTGGCTCTCCATCTCAAGAAGATCTGAACAGCATCATAAACGTCAAGGCCAGGAACTATTTGCAGTCCCTGCCTGAGAAACCGAAGGTCCCCCTGGAGAAGCTCTTTGTCAAGGCAGATCCAAAAGCTCTGGATCTGTTGGGCCGCATGCTGACCTTTAACCCTGTTAAGCGCATCAGCGTTGAAGACGCACTGGCTCACCCTTACCTGGAGCAATACTATGACCCCAATGATGAGCCTGTAGCAGAGGAGCCTTTCACGTTCTCCATGGAACTGGATGATCTGCCCAAGGAGACGCTGAAGGAAATGATCTATGAAGAAACTGCTCGTTTCGTGAAAAACTACCAGGGATCATGA
+
+>SubstitutionModel
+F84 (Tamura and Nei 1993) + gamma
+
+>ShortSequence_threshold
+0.45
+
+>Dataset
+Exclude3rd
+
+>Rearrangement_BS_value_threshold
+70
+
+>TaxonSampling_color
+Drosophila-melanogaster_Black
+Ciona-intestinalis_Black
+Xenopus-tropicalis_Magenta
+Gallus-gallus_Magenta
+Homo-sapiens_Magenta
+Danio-rerio_Purple
+Gasterosteus-aculeatus_Red
+Tetraodon-nigroviridis_Green
+Oryzias-latipes_Blue
+
+################ Results: 2nd analysis ################
+
+>TreeSearchMethod
+NJ
+
+>2nd_rearranged_gene_tree_newick
+(((((Gasterosteus-aculeatus_ENSGACT00000017379.1_mapk3-mitogen-ac,Tetraodon-nigroviridis_ENSTNIT00000014732.1_mapk3-mitogen-ac)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000015021.1_mapk3-mitogen-activated)90_S=Percomorpha_D=N,Danio-rerio_ENSDART00000103746.5_mapk3-mitogen-activated-pro)83_S=Teleostei_D=N,Homo-sapiens_ENST00000263025.9_MAPK3-mitogen-activated)100_S=BonyVertebrates_D=N,Gasterosteus-aculeatus_ENSGACT00000019087.1_mapk1-mitogen-ac)100_S=BonyVertebrates_D=Y;
+
+>2nd_rearranged_gene_tree_NHX
+(((((Gasterosteus-aculeatus_ENSGACT00000017379.1_mapk3-mitogen-ac:0.02213306339[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000014732.1_mapk3-mitogen-ac:0.05151214382[&&NHX:S=Tetraodon-nigroviridis])r13[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000015021.1_mapk3-mitogen-activated:0.05629341621[&&NHX:S=Oryzias-latipes])n4:0.01814751759[&&NHX:S=Percomorpha:D=N:B=90.0],Danio-rerio_ENSDART00000103746.5_mapk3-mitogen-activated-pro:0.049559924[&&NHX:S=Danio-rerio])n6:0.01046386481[&&NHX:S=Teleostei:D=N:B=83.0],Homo-sapiens_ENST00000263025.9_MAPK3-mitogen-activated:0.073852307[&&NHX:S=Homo-sapiens])n8:0.0[&&NHX:S=BonyVertebrates:D=N:B=100.0],Gasterosteus-aculeatus_ENSGACT00000019087.1_mapk1-mitogen-ac:0.07367531532[&&NHX:S=Gasterosteus-aculeatus])n10[&&NHX:S=BonyVertebrates:D=Y:B=100.0];
+
+>2nd_gene_tree_newick
+(((((Tetraodon-nigroviridis_ENSTNIT00000014732.1_mapk3-mitogen-ac:0.05151214382,Gasterosteus-aculeatus_ENSGACT00000017379.1_mapk3-mitogen-ac:0.02213306339)53:0.004152614212,Oryzias-latipes_ENSORLT00000015021.1_mapk3-mitogen-activated:0.05629341621)90:0.01814751759,Danio-rerio_ENSDART00000103746.5_mapk3-mitogen-activated-pro:0.049559924)83:0.01046386481,Homo-sapiens_ENST00000263025.9_MAPK3-mitogen-activated:0.073852307)100:0,Gasterosteus-aculeatus_ENSGACT00000019087.1_mapk1-mitogen-ac:0.07367531532)100;
+
+>MonophyleticGeneGroups
+BonyVertebrates                 100  D=N
+Teleostei                       83  D=N
+Percomorpha                     90  D=N
+Oryzias-latipes                 leaf  leaf
+
+>SisterGeneGroups
+BonyVertebrates                 NONE   NoGeneNode
+Teleostei                       100   Homo-sapiens
+Percomorpha                     83   Danio-rerio
+Oryzias-latipes                 90   Eupercaria
+
+>Number_of_duplicatedNode
+BonyVertebrates                 0
+Teleostei                       0
+Percomorpha                     0
+Oryzias-latipes                 0
+
+>AnalysisTime
+9.4 seconds
