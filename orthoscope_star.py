@@ -427,15 +427,15 @@ def check_toolsDirectory():
             print("See the tutorial from https://github.com/jun-inoue/ORTHOSCOPE_STAR")
             exit()
         if not "pal2nal.pl" in dependencies:
-            print("Error: Cannot pal2nal.pl in your tools directory.")
+            print("Error: Cannot find pal2nal.pl in your tools directory.")
             print("See the tutorial from https://github.com/jun-inoue/ORTHOSCOPE_STAR")
             exit()
         if not "Notung.jar" in dependencies:
-            print("Error: Cannot Notung.jar in your tools directory.")
+            print("Error: Cannot find Notung.jar in your tools directory.")
             print("See the tutorial from https://github.com/jun-inoue/ORTHOSCOPE_STAR")
             exit()
     if not "Rscript" in dependencies:
-        print("Error: Cannot Rscript in your tools directory.")
+        print("Error: Cannot find Rscript in your tools directory.")
         print("See the tutorial from https://github.com/jun-inoue/ORTHOSCOPE_STAR")
         exit()
 
