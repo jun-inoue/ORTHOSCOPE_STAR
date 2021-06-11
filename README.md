@@ -14,7 +14,7 @@ The code is derived from the [ORTHOSCOPE web version](https://github.com/jun-ino
 
 ---
 
-## Tutorial
+## Instruction
 [http://www.fish-evol.org/orthoscopeStar/](http://www.fish-evol.org/orthoscopeStar/)
 
 
