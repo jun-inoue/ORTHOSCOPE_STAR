@@ -253,10 +253,10 @@ resHTMLlines_2steps = '''
         <td align="left" valign="top"><img src="EACHDIRADDRESS_115_1stGeneTree.png"></td>
       </tr>
 
-      <!-- <tr>
-        <td align="center" valign="top" name="REARRANGED2">Rearranged gene tree (<a href="115_1stRearranged_geneTree.pdf" target="_blank">PDF</a>)</td>
-        <td align="center" valign="top">NJ tree (<a href="115_1stGeneTree.pdf" target="_blank">PDF</a>)</td>
-      </tr> -->
+      <tr>
+        <td align="center" valign="top" name="REARRANGED2">Rearranged gene tree (<a href="EACHDIRADDRESS_115_1stRearranged_geneTree.pdf" target="_blank">PDF</a>)</td>
+        <td align="center" valign="top">NJ tree (<a href="EACHDIRADDRESS_115_1stGeneTree.pdf" target="_blank">PDF</a>)</td>
+      </tr>
 
     </table></td></tr>
 
