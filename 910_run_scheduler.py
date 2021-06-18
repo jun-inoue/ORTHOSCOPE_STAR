@@ -83,7 +83,7 @@ out.close()
 #    outlist.write(file + "\n")
 #outlist.close()
 
-out2 = open("920_arrayJobAA.slurm", "w")
+out2 = open("920_arrayJob.slurm", "w")
 file_sbatch1 = re.sub("NUM", str(countOutfile), file_sbatch)
 file_sbatch1 = re.sub("WORKDIR", os.getcwd(), file_sbatch1)
 out2.write(file_sbatch1)
