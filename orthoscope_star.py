@@ -9,6 +9,7 @@ import time
 
 
 AddintHeaderAfterAT = "D"   ## L:leave or D:Delete @xxxx for the summarize analysis
+draw_speciesTree = "Not"  ## Draw: Draw species tree in the .pdf file
 
 if len (sys.argv) < 2:
     print("Error. you need two arguments.")
@@ -2668,7 +2669,16 @@ def make_indexLine(first_line):
     indexLine_FN = re.sub("@$", "", indexLine_FN)
     return indexLine_FN
 
-
+def copy_alignment_orthogroup():
+    if os.path.exists(eachDirAddress + "180_aln_nucl_fas.txt"):
+        #print("Present")
+        recsTMP = readFasta_dict(eachDirAddress, "180_aln_nucl_fas.txt")
+        #print("queryID", queryID)
+        out = open(alignment_orthogroups + "/" + queryID + ".txt", "w")
+        for nameLine, seq in recsTMP.items():
+            out.write(nameLine + "\n")
+            out.write(seq + "\n")
+        out.close()
 
 
 
@@ -2784,12 +2794,13 @@ if mode == "S":
 
 dirFileMake(queryDatabase, name_querySpecies, queryID)
 
-if not os.path.exists(outdir + "/speciesTree.pdf"):
-    print("##### SpeciesTree draw ######")
-    treePlot_speciesTree = "tools/Rscript scripts/treePlot.R control.txt " + " SpeciesTree dummy_rearranged_species_tree_newick Rooting speciesTree > speciesTree.pdf"
-    #print("treePlot_speciesTree: ", treePlot_speciesTree)
-    subprocess.call(treePlot_speciesTree, shell=True)
-    new_path = shutil.move('./speciesTree.pdf', outdir)
+if draw_speciesTree == "Draw":
+    if not os.path.exists(outdir + "/speciesTree.pdf"):
+        print("##### SpeciesTree draw ######")
+        treePlot_speciesTree = "tools/Rscript scripts/treePlot.R control.txt " + " SpeciesTree dummy_rearranged_species_tree_newick Rooting speciesTree > speciesTree.pdf"
+        #print("treePlot_speciesTree: ", treePlot_speciesTree)
+        subprocess.call(treePlot_speciesTree, shell=True)
+        new_path = shutil.move('./speciesTree.pdf', outdir)
 
 checkUplodedFileAsFastaForamt()
 
@@ -3075,6 +3086,7 @@ if Switch_deleteIntermediateFiles == "L":
     subprocess.call(treePlotR, shell=True)
     make_resHtml2(resHTMLlines_2steps)
 
+copy_alignment_orthogroup()
 
 if Switch_deleteIntermediateFiles == "D":
     deleteFiles()
