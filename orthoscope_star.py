@@ -17,19 +17,7 @@ if len (sys.argv) < 2:
 
 queryID = sys.argv[1]
 
-
-#infile_query_dir = "/bucket/SatohU/inoue/appendicularia/human_yuraiParallelTEST/querySeqFiles"
-#infile_query_dir = "querySeqFiles"
-
 ###################
-#path_currentDirectory = os.path.dirname(os.path.abspath(__file__))
-#outdir = "/flash/SatohU/inoue/appendicularia/human_yuraiParallelTEST/020_outdir"
-#outdir = "/Users/inouejun/Desktop/j_human_yuraiParallelTEST/020_outdir"
-
-#num_species_in_gene_clade = 2
-
-
-
 geneticCode = {
             "CTA"                             : "L",
             "CTT"                             : "L",
@@ -590,6 +578,7 @@ def read_controlFile():
     name_querySpecies = check_pickup_parameter(resDict_SR, "QuerySpecies")
     speciesWithGeneFunction = check_pickup_parameter(resDict_SR, "SpeciesWithGeneFunction")
     outdir = check_pickup_parameter(resDict_SR, "Outdir")
+    alignment_orthogroups = check_pickup_parameter(resDict_SR, "Alignment_orthogroups")
     mode = check_pickup_parameter(resDict_SR, "Mode")
     if mode == "E" or mode == "D" or mode == "S":
         pass
@@ -626,7 +615,7 @@ def read_controlFile():
     return dbLines, taxonSamplingList, SpeciesTree, blastEvalue, \
 Number_of_hits_to_report_per_genome, Aligned_site_rate, dataset, RearrangementBSthreshold, \
 treeSearchMethod, num_rootSequences, orthogroupBasalNode, name_querySpecies, queryDatabase, \
-dbAddress, outdir, mode, Switch_deleteIntermediateFiles, speciesWithGeneFunction
+dbAddress, outdir, alignment_orthogroups, mode, Switch_deleteIntermediateFiles, speciesWithGeneFunction
 
 
 def dirFileMake(queryDatabase, name_querySpecies, queryID):
@@ -649,6 +638,9 @@ def dirFileMake(queryDatabase, name_querySpecies, queryID):
 
     if not os.path.exists(outdir):
         os.mkdir(outdir)
+
+    if not os.path.exists(alignment_orthogroups):
+        os.mkdir(alignment_orthogroups)
 
     if not os.path.exists(eachDirAddress):
         os.mkdir(eachDirAddress)
@@ -2696,7 +2688,7 @@ startTime = time.time()
 dbLines, taxonSamplingList, SpeciesTree, blastEvalue, \
 Number_of_hits_to_report_per_genome, Aligned_site_rate, dataset, RearrangementBSthreshold, \
 treeSearchMethod, num_rootSequences, orthogroupBasalNode, name_querySpecies, queryDatabase, \
-dbAddress, outdir, mode, Switch_deleteIntermediateFiles, speciesWithGeneFunction\
+dbAddress, outdir, alignment_orthogroups, mode, Switch_deleteIntermediateFiles, speciesWithGeneFunction\
 = read_controlFile()
 
 if mode == "E" or mode == "D":
