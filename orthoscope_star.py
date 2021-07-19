@@ -517,7 +517,7 @@ def check_pickup_taxonSampling(dbAddress, lines_taxonSampling):
 
 
 def check_controlFile(resDict_SR):
-    nameLines = [">QuerySpecies",">Mode",">TaxonSampling",">SpeciesTree",">Num_rootSequences",">OrthogroupBasalNode",">BLAST_Evalue_threshold_for_reported_sequences",">Number_of_hits_to_report_per_genome",">ShortSequence_threshold",">Dataset",">RearrangementBSthreshold",">Outdir",">Database"]
+    nameLines = [">QuerySpecies",">Mode",">TaxonSampling",">SpeciesTree",">Num_rootSequences",">KeyNode",">BLAST_Evalue_threshold_for_reported_sequences",">Number_of_hits_to_report_per_genome",">ShortSequence_threshold",">Dataset",">BSthreshold",">Outdir",">Database"]
     for nameLine in nameLines:
         if not nameLine in resDict_SR.keys():
             print("Error in your control file. Nameline", nameLine, "is not found.")
@@ -556,14 +556,14 @@ def read_controlFile():
         print("Your >Dataset is", dataset)
         exit()
 
-    RearrangementBSthreshold = check_pickup_parameter(resDict_SR, "RearrangementBSthreshold")
-    if re.search("[^\d]", RearrangementBSthreshold):
-        print("Error. >RearrangementBSthreshold should be integer.")
-        print("Your >RearrangementBSthreshold is", RearrangementBSthreshold)
+    BSthreshold = check_pickup_parameter(resDict_SR, "BSthreshold")
+    if re.search("[^\d]", BSthreshold):
+        print("Error. >BSthreshold should be integer.")
+        print("Your >BSthreshold is", BSthreshold)
         exit()
-    elif int(RearrangementBSthreshold) > 100 or int(RearrangementBSthreshold) < 50:
-        print("Error. >RearrangementBSthreshold should be less than 100 and more than 50.")
-        print("Your >RearrangementBSthreshold is", RearrangementBSthreshold)
+    elif int(BSthreshold) > 100 or int(BSthreshold) < 50:
+        print("Error. >BSthreshold should be less than 100 and more than 50.")
+        print("Your >BSthreshold is", BSthreshold)
         exit()
 
     #treeSearchMethod = check_pickup_parameter(resDict_SR, "TreeSearchMethod")
@@ -574,7 +574,7 @@ def read_controlFile():
         print("Your >Num_rootSequences is", num_rootSequences)
         exit()
 
-    orthogroupBasalNode = check_pickup_parameter(resDict_SR, "OrthogroupBasalNode")
+    keyNode = check_pickup_parameter(resDict_SR, "KeyNode")
     #name_querySpeciesNode = check_pickup_parameter(resDict_SR, "QuerySpeciesGroup")
     name_querySpecies = check_pickup_parameter(resDict_SR, "QuerySpecies")
     speciesWithGeneFunction = check_pickup_parameter(resDict_SR, "SpeciesWithGeneFunction")
@@ -614,8 +614,8 @@ def read_controlFile():
             exit()
 
     return dbLines, taxonSamplingList, SpeciesTree, blastEvalue, \
-Number_of_hits_to_report_per_genome, Aligned_site_rate, dataset, RearrangementBSthreshold, \
-treeSearchMethod, num_rootSequences, orthogroupBasalNode, name_querySpecies, queryDatabase, \
+Number_of_hits_to_report_per_genome, Aligned_site_rate, dataset, BSthreshold, \
+treeSearchMethod, num_rootSequences, keyNode, name_querySpecies, queryDatabase, \
 dbAddress, outdir, alignment_orthogroups, mode, Switch_deleteIntermediateFiles, speciesWithGeneFunction
 
 
@@ -843,10 +843,10 @@ def test_querySpecies_is_in_speciesTree(taxonSamplingList, SpeciesTree):
     speciesNames_in_speciesTree = ""
     for node in allNodes_speciesTree:
         #print("node", node)
-        if re.search("S=" + orthogroupBasalNode + ":", node[2]):
+        if re.search("S=" + keyNode + ":", node[2]):
             speciesNames_in_speciesTree = node[1]
     if not speciesNames_in_speciesTree:
-        print("Error: OrthogroupBasalNode, ", orthogroupBasalNode, ", is not found in the SpeciesTree:")
+        print("Error: KeyNode, ", keyNode, ", is not found in the SpeciesTree:")
         exit()
 
     allSpeciesNames_speciesTree = allNodes_speciesTree[0][1]
@@ -1021,7 +1021,7 @@ def identify_orthogroup(treeNHX):
     
     #print("nameLine_cds_blastTopHit", nameLine_cds_blastTopHit)
     #print("nameLine_cds_assigned_by_ID", nameLine_cds_assigned_by_ID)
-    #print("orthogroupBasalNode", orthogroupBasalNode)
+    #print("keyNode", keyNode)
     
     candidates_orthogroup = []
     for node in allGeneNodesSR:
@@ -1032,7 +1032,7 @@ def identify_orthogroup(treeNHX):
             #if re.search(nameLine_cds_blastTopHit[1:], leaf):
                 criterion += 1
 
-        if re.search("S=" + orthogroupBasalNode, node[2]):
+        if re.search("S=" + keyNode, node[2]):
             criterion += 1
 
         if criterion == 2:
@@ -1063,7 +1063,7 @@ def collect_speciesNames_in_orthogroup():
     orthoSpeciesGroup = ""
     speciesNames_in_orthogroup_FN = []
     for node in allNodes_speciesTree:
-        if re.search("S=" + orthogroupBasalNode, node[2]):
+        if re.search("S=" + keyNode, node[2]):
             orthoSpeciesGroup = node
             break
     for leaf_species in leaves_species:
@@ -1284,7 +1284,7 @@ def identify_parentNode(ancestralNodesDecrementSR, ancestralDepthSR, focalNodeSR
 #    #allNodes_speciesTree = collect_nodes_from_newick(SpeciesTree)
 #    ancestralDepth = 1
 #    ancestralSpeciesNodesDecrement = collect_ancestralNodes(allNodes_speciesTree, focalSpeciesNode)
-#    parentNode = identify_parentNode(ancestralSpeciesNodesDecrement, ancestralDepth, orthogroupBasalNode)
+#    parentNode = identify_parentNode(ancestralSpeciesNodesDecrement, ancestralDepth, keyNode)
 #    match = re.search("S=([^:]+):", parentNode[2])
 #    name_ancestralSpeciesNode = match.group(1)
 #    return name_ancestralSpeciesNode
@@ -1323,7 +1323,7 @@ def identify_sisterGeneNode(allGeneNodes_SR, targetGeneNode_FN):
 def identifiy_orthogroup_speciesNode():
     orthogroup_speciesNode = ""
     for node in allNodes_speciesTree:
-        if re.search("S=" + orthogroupBasalNode + ":", node[2]):
+        if re.search("S=" + keyNode + ":", node[2]):
             orthogroup_speciesNode = node
     return orthogroup_speciesNode
 
@@ -1773,8 +1773,8 @@ def makeSummary(outfile_summary):
     #fs.write(speciesTree)
     #fs.write("\n\n")
 
-    #fs.write(">OrthogroupBasalNode\n")
-    #fs.write(orthogroupBasalNode)
+    #fs.write(">KeyNode\n")
+    #fs.write(keyNode)
     #fs.write("\n\n")
 
     if dataset == "Exclude3rd":
@@ -1790,7 +1790,7 @@ def makeSummary(outfile_summary):
     fs.write("\n")
 
     fs.write(">Rearrangement_BS_value_threshold\n")
-    fs.write(str(RearrangementBSthreshold) + "\n")
+    fs.write(str(BSthreshold) + "\n")
     fs.write("\n")
 
 
@@ -2696,8 +2696,8 @@ startTime = time.time()
 #####
 
 dbLines, taxonSamplingList, SpeciesTree, blastEvalue, \
-Number_of_hits_to_report_per_genome, Aligned_site_rate, dataset, RearrangementBSthreshold, \
-treeSearchMethod, num_rootSequences, orthogroupBasalNode, name_querySpecies, queryDatabase, \
+Number_of_hits_to_report_per_genome, Aligned_site_rate, dataset, BSthreshold, \
+treeSearchMethod, num_rootSequences, keyNode, name_querySpecies, queryDatabase, \
 dbAddress, outdir, alignment_orthogroups, mode, Switch_deleteIntermediateFiles, speciesWithGeneFunction\
 = read_controlFile()
 
@@ -2932,7 +2932,7 @@ if not NJtreeFileCont:
     exit()
 
 print("\n\n##### 1st tree: NOTUNG ######\n\n")
-NOTUNG1stLine = "java -jar tools/Notung.jar -s " + eachDirAddress + "000_speciesTree.txt -g " + eachDirAddress + "085_NJBS1st.txt --outputdir " + eachDirAddress + " --rearrange --threshold " + str(RearrangementBSthreshold) + " --speciestag prefix  --maxtrees 5 --nolosses --treeoutput nhx > " + eachDirAddress + "085_NOTUNGlog.txt"
+NOTUNG1stLine = "java -jar tools/Notung.jar -s " + eachDirAddress + "000_speciesTree.txt -g " + eachDirAddress + "085_NJBS1st.txt --outputdir " + eachDirAddress + " --rearrange --threshold " + str(BSthreshold) + " --speciestag prefix  --maxtrees 5 --nolosses --treeoutput nhx > " + eachDirAddress + "085_NOTUNGlog.txt"
 #print("NOTUNG1stLine:", NOTUNG1stLine)
 subprocess.call(NOTUNG1stLine, shell=True)
 
@@ -3068,7 +3068,7 @@ rootBS100R = "tools/Rscript scripts/rootBS100.R " + eachDirAddress + "230_2ndtre
 subprocess.call(rootBS100R, shell=True)
 
 print("\n\n##### 2nd tree: NOTUNG ######\n\n")
-NOTUNG2ndLine = "java -jar tools/Notung.jar -s " + eachDirAddress + "000_speciesTree.txt -g " + eachDirAddress + "230_2ndtreeRootBS100.txt --outputdir " + eachDirAddress + " --rearrange --threshold " + str(RearrangementBSthreshold) + " --speciestag prefix  --maxtrees 5 --nolosses --treeoutput nhx > " + eachDirAddress + "230_NOTUNGlog.txt"
+NOTUNG2ndLine = "java -jar tools/Notung.jar -s " + eachDirAddress + "000_speciesTree.txt -g " + eachDirAddress + "230_2ndtreeRootBS100.txt --outputdir " + eachDirAddress + " --rearrange --threshold " + str(BSthreshold) + " --speciestag prefix  --maxtrees 5 --nolosses --treeoutput nhx > " + eachDirAddress + "230_NOTUNGlog.txt"
 #print("NOTUNG2ndLine:", NOTUNG2ndLine)
 subprocess.call(NOTUNG2ndLine, shell=True)
 #exit()
