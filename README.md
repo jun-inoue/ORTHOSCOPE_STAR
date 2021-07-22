@@ -1,12 +1,21 @@
-# ORTHOSCOPE_STAR   
+# ORTHOSCOPE_STAR    
 
-An analysis pipeline to infer orthologous/paralogous relationships for a focal gene.   
+13 MB
+
+ORTHOSCOPE* (star) is an analysis pipelie to infer evolutionary history of a gene. By estimating orthogroups and gene trees for a complete set of protein coding genes, ORTHOSCOPE* evaluates: 
+
+- gene duplication events on the species tree,
+- prensence/abnsence of genes in species lineages    
+ (including horizontal gene transfer).   
+  
+The code is derived from the [ORTHOSCOPE web version](https://github.com/jun-inoue/orthoscope). ORTHOSCOPE* is designed to employ supercomputers (High Performance Computers) for genome scale analyses.
 
 
 ---
 
-## Tutorial
-[http://yurai.aori.u-tokyo.ac.jp/orthoscopeStar/index.html](http://yurai.aori.u-tokyo.ac.jp/orthoscopeStar/index.html).
+## Instruction
+[http://www.fish-evol.org/orthoscopeStar/](http://www.fish-evol.org/orthoscopeStar/)
+
 
 <br />  
 

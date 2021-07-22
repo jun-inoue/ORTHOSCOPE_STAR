@@ -7,15 +7,15 @@ Oryzias-latipes_ENSORLT00000017407.1_aclyb-ATP-citrate-lyase  <= [Identities = 1
 Drosophila-melanogaster  4
 Ciona-intestinalis       6
 Xenopus-tropicalis       3
-Gallus-gallus            3
+Gallus-gallus            4
 Homo-sapiens             4
 Danio-rerio              3
+Gasterosteus-aculeatus   4
 Tetraodon-nigroviridis   7
-Gasterosteus-aculeatus   3
-Oryzias-latipes          3
+Oryzias-latipes          4
 
 >BS_of_orthogroupBasalNode
-100
+r
 
 
 >Orthogroup
@@ -28,8 +28,8 @@ Homo-sapiens_ENST00000352035.7_ACLY-ATP-citrate-lyase
 Oryzias-latipes_ENSORLT00000004629.1_aclya-ATP-citrate-lyase
 Oryzias-latipes_ENSORLT00000017407.1_aclyb-ATP-citrate-lyase
 Tetraodon-nigroviridis_ENSTNIT00000009568.1_NONE
-Tetraodon-nigroviridis_ENSTNIT00000009710.1_NONE
 Tetraodon-nigroviridis_ENSTNIT00000009718.1_aclya-ATP-citrat
+Tetraodon-nigroviridis_ENSTNIT00000009774.1_NONE
 Xenopus-tropicalis_ENSXETT00000004898.2_acly-ATP-citrate-lya
 
 >GeneNumber_of_orthogroup
@@ -42,55 +42,58 @@ Gasterosteus-aculeatus        2
 Oryzias-latipes               2
 
 >Rooting
-Drosophila-melanogaster_FBtr0300596_ATPCL-ATP-citrate-lyase
+Ciona-intestinalis_ENSCINT00000030220.1_NONE
 
 
 >1st_rearranged_gene_tree_newick
-((((Homo-sapiens_ENST00000352035.7_ACLY-ATP-citrate-lyase,Gallus-gallus_ENSGALT00000070919.3_ACLY-ATP-citrate-lya)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000004898.2_acly-ATP-citrate-lya)100_S=Tetrapoda_D=N,(((Oryzias-latipes_ENSORLT00000017407.1_aclyb-ATP-citrate-lyase,Gasterosteus-aculeatus_ENSGACT00000008268.1_aclyb-ATP-citrat)75_S=Percomorpha_D=N,Danio-rerio_ENSDART00000164663.1_aclya-ATP-citrate-lyase-a)r_S=Clupeocephala_D=N,(((Gasterosteus-aculeatus_ENSGACT00000011663.1_aclya-ATP-citrat,((Tetraodon-nigroviridis_ENSTNIT00000009718.1_aclya-ATP-citrat,Tetraodon-nigroviridis_ENSTNIT00000009568.1_NONE)r_S=Tetraodon-nigroviridis_D=Y,Tetraodon-nigroviridis_ENSTNIT00000009710.1_NONE)r_S=Tetraodon-nigroviridis_D=Y)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000004629.1_aclya-ATP-citrate-lyase)r_S=Percomorpha_D=N,Danio-rerio_ENSDART00000152522.2_aclyb-ATP-citrate-lyase-b)r_S=Clupeocephala_D=N)r_S=Clupeocephala_D=Y)100_S=BonyVertebrates_D=N,Drosophila-melanogaster_FBtr0300596_ATPCL-ATP-citrate-lyase)100_S=Bilateria_D=N;
+((((((((Homo-sapiens_ENST00000352035.7_ACLY-ATP-citrate-lyase,Gallus-gallus_ENSGALT00000070919.3_ACLY-ATP-citrate-lya)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000004898.2_acly-ATP-citrate-lya)r_S=Tetrapoda_D=N,((((Tetraodon-nigroviridis_ENSTNIT00000009568.1_NONE,Gasterosteus-aculeatus_ENSGACT00000008268.1_aclyb-ATP-citrat)70_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000017407.1_aclyb-ATP-citrate-lyase)81_S=Percomorpha_D=N,Danio-rerio_ENSDART00000152522.2_aclyb-ATP-citrate-lyase-b)r_S=Teleostei_D=N,((((Tetraodon-nigroviridis_ENSTNIT00000009718.1_aclya-ATP-citrat,Tetraodon-nigroviridis_ENSTNIT00000009774.1_NONE)77_S=Tetraodon-nigroviridis_D=Y,Gasterosteus-aculeatus_ENSGACT00000011663.1_aclya-ATP-citrat)75_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000004629.1_aclya-ATP-citrate-lyase)r_S=Percomorpha_D=N,Danio-rerio_ENSDART00000164663.1_aclya-ATP-citrate-lyase-a)r_S=Teleostei_D=N)r_S=Teleostei_D=Y)r_S=BonyVertebrates_D=N,Ciona-intestinalis_ENSCINT00000030220.1_NONE)r_S=Deuterostomia_D=N,Drosophila-melanogaster_FBtr0300596_ATPCL-ATP-citrate-lyase)93_S=Bilateria_D=N,((((((Homo-sapiens_ENST00000393868.7_SUCLG1-succinate-CoA-li,Gallus-gallus_ENSGALT00000032015.4_SUCLG1-succinate-CoA)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000003559.2_suclg1-succinate-CoA)r_S=Tetrapoda_D=N,(((Gasterosteus-aculeatus_ENSGACT00000023792.1_suclg1-succinate,Tetraodon-nigroviridis_ENSTNIT00000005348.1_suclg1-succinate)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000007664.1_suclg1-succinate-CoA-li)r_S=Percomorpha_D=N,Danio-rerio_ENSDART00000074609.4_suclg1-succinate-CoA-ligase)82_S=Teleostei_D=N)97_S=BonyVertebrates_D=N,Ciona-intestinalis_ENSCINT00000011271.3_NONE)83_S=Deuterostomia_D=N,Drosophila-melanogaster_FBtr0303096_Scsalpha-Succinyl-coenz)84_S=Bilateria_D=N,Drosophila-melanogaster_FBtr0083769_CG6255-NONE)100_S=Bilateria_D=Y)100_S=Bilateria_D=Y,(((((Homo-sapiens_ENST00000643023.1_SUCLA2-succinate-CoA-li,Gallus-gallus_ENSGALT00000027453.4_SUCLA2-succinate-CoA)89_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000001184.3_sucla2-succinate-CoA)75_S=Tetrapoda_D=N,(Gasterosteus-aculeatus_ENSGACT00000010679.1_sucla2-succinate,Oryzias-latipes_ENSORLT00000017626.1_sucla2-succinate-CoA-li)r_S=Percomorpha_D=N)100_S=BonyVertebrates_D=N,(Homo-sapiens_ENST00000493112.5_SUCLG2-succinate-CoA-li,Gallus-gallus_ENSGALT00000012394.5_SUCLG2-succinate-CoA)99_S=Amniota_D=N)r_S=BonyVertebrates_D=Y,Ciona-intestinalis_ENSCINT00000015047.3_NONE)r_S=Deuterostomia_D=N)100_S=Bilateria_D=Y,Drosophila-melanogaster_FBtr0077134_Sucb-NONE)100_S=Bilateria_D=Y;
 
 >1st_rearranged_gene_tree_NHX
-((((Homo-sapiens_ENST00000352035.7_ACLY-ATP-citrate-lyase:0.02325609678[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000070919.3_ACLY-ATP-citrate-lya:0.02023735797[&&NHX:S=Gallus-gallus])r35[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000004898.2_acly-ATP-citrate-lya:0.1224761889[&&NHX:S=Xenopus-tropicalis])n17:0.02636850669[&&NHX:S=Tetrapoda:D=N:B=100.0],(((Oryzias-latipes_ENSORLT00000017407.1_aclyb-ATP-citrate-lyase:0.02220210515[&&NHX:S=Oryzias-latipes],Gasterosteus-aculeatus_ENSGACT00000008268.1_aclyb-ATP-citrat:0.01897379895[&&NHX:S=Gasterosteus-aculeatus])n9:0.01132416539[&&NHX:S=Percomorpha:D=N:B=75.0],Danio-rerio_ENSDART00000164663.1_aclya-ATP-citrate-lyase-a:0.0361657342[&&NHX:S=Danio-rerio])r28[&&NHX:S=Clupeocephala:D=N],(((Gasterosteus-aculeatus_ENSGACT00000011663.1_aclya-ATP-citrat:0.01389498358[&&NHX:S=Gasterosteus-aculeatus],((Tetraodon-nigroviridis_ENSTNIT00000009718.1_aclya-ATP-citrat:0.02754554793[&&NHX:S=Tetraodon-nigroviridis],Tetraodon-nigroviridis_ENSTNIT00000009568.1_NONE:0.1039258794[&&NHX:S=Tetraodon-nigroviridis])r33[&&NHX:S=Tetraodon-nigroviridis:D=Y],Tetraodon-nigroviridis_ENSTNIT00000009710.1_NONE:0.0[&&NHX:S=Tetraodon-nigroviridis])r32[&&NHX:S=Tetraodon-nigroviridis:D=Y])r31[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000004629.1_aclya-ATP-citrate-lyase:0.03133377208[&&NHX:S=Oryzias-latipes])r30[&&NHX:S=Percomorpha:D=N],Danio-rerio_ENSDART00000152522.2_aclyb-ATP-citrate-lyase-b:0.05877433953[&&NHX:S=Danio-rerio])r29[&&NHX:S=Clupeocephala:D=N])r27[&&NHX:S=Clupeocephala:D=Y])n22:0.0[&&NHX:S=BonyVertebrates:D=N:B=100.0],Drosophila-melanogaster_FBtr0300596_ATPCL-ATP-citrate-lyase:0.2174132582[&&NHX:S=Drosophila-melanogaster])n24[&&NHX:S=Bilateria:D=N:B=100.0];
+((((((((Homo-sapiens_ENST00000352035.7_ACLY-ATP-citrate-lyase:0.04174606405[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000070919.3_ACLY-ATP-citrate-lya:0.02356282435[&&NHX:S=Gallus-gallus])r79[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000004898.2_acly-ATP-citrate-lya:0.13845502[&&NHX:S=Xenopus-tropicalis])r78[&&NHX:S=Tetrapoda:D=N],((((Tetraodon-nigroviridis_ENSTNIT00000009568.1_NONE:0.05748776156[&&NHX:S=Tetraodon-nigroviridis],Gasterosteus-aculeatus_ENSGACT00000008268.1_aclyb-ATP-citrat:0.0237389231[&&NHX:S=Gasterosteus-aculeatus])n9:0.007136705892[&&NHX:S=Eupercaria:D=N:B=70.0],Oryzias-latipes_ENSORLT00000017407.1_aclyb-ATP-citrate-lyase:0.02210601931[&&NHX:S=Oryzias-latipes])n11:0.01628523953[&&NHX:S=Percomorpha:D=N:B=81.0],Danio-rerio_ENSDART00000152522.2_aclyb-ATP-citrate-lyase-b:0.08963746883[&&NHX:S=Danio-rerio])r81[&&NHX:S=Teleostei:D=N],((((Tetraodon-nigroviridis_ENSTNIT00000009718.1_aclya-ATP-citrat:0.0[&&NHX:S=Tetraodon-nigroviridis],Tetraodon-nigroviridis_ENSTNIT00000009774.1_NONE:0.01660612837[&&NHX:S=Tetraodon-nigroviridis])n15:0.02977555893[&&NHX:S=Tetraodon-nigroviridis:D=Y:B=77.0],Gasterosteus-aculeatus_ENSGACT00000011663.1_aclya-ATP-citrat:0.008841981358[&&NHX:S=Gasterosteus-aculeatus])n17:0.01972049589[&&NHX:S=Eupercaria:D=N:B=75.0],Oryzias-latipes_ENSORLT00000004629.1_aclya-ATP-citrate-lyase:0.04979379966[&&NHX:S=Oryzias-latipes])r83[&&NHX:S=Percomorpha:D=N],Danio-rerio_ENSDART00000164663.1_aclya-ATP-citrate-lyase-a:0.04067055305[&&NHX:S=Danio-rerio])r82[&&NHX:S=Teleostei:D=N])r80[&&NHX:S=Teleostei:D=Y])r77[&&NHX:S=BonyVertebrates:D=N],Ciona-intestinalis_ENSCINT00000030220.1_NONE:0.2650258933[&&NHX:S=Ciona-intestinalis])r76[&&NHX:S=Deuterostomia:D=N],Drosophila-melanogaster_FBtr0300596_ATPCL-ATP-citrate-lyase:0.1513943217[&&NHX:S=Drosophila-melanogaster])n26:0.2873594951[&&NHX:S=Bilateria:D=N:B=93.0],((((((Homo-sapiens_ENST00000393868.7_SUCLG1-succinate-CoA-li:0.08784709579[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000032015.4_SUCLG1-succinate-CoA:0.02495796917[&&NHX:S=Gallus-gallus])r86[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000003559.2_suclg1-succinate-CoA:0.07047238643[&&NHX:S=Xenopus-tropicalis])r85[&&NHX:S=Tetrapoda:D=N],(((Gasterosteus-aculeatus_ENSGACT00000023792.1_suclg1-succinate:0.003612160186[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000005348.1_suclg1-succinate:0.06797430468[&&NHX:S=Tetraodon-nigroviridis])r89[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000007664.1_suclg1-succinate-CoA-li:0.03276074058[&&NHX:S=Oryzias-latipes])r88[&&NHX:S=Percomorpha:D=N],Danio-rerio_ENSDART00000074609.4_suclg1-succinate-CoA-ligase:0.0152663791[&&NHX:S=Danio-rerio])n33:0.01899808837[&&NHX:S=Teleostei:D=N:B=82.0])n39:0.07279697044[&&NHX:S=BonyVertebrates:D=N:B=97.0],Ciona-intestinalis_ENSCINT00000011271.3_NONE:0.1217198257[&&NHX:S=Ciona-intestinalis])n41:0.05822662768[&&NHX:S=Deuterostomia:D=N:B=83.0],Drosophila-melanogaster_FBtr0303096_Scsalpha-Succinyl-coenz:0.08593153567[&&NHX:S=Drosophila-melanogaster])n43:0.06048772858[&&NHX:S=Bilateria:D=N:B=84.0],Drosophila-melanogaster_FBtr0083769_CG6255-NONE:0.1640400326[&&NHX:S=Drosophila-melanogaster])n45:0.5091840527[&&NHX:S=Bilateria:D=Y:B=100.0])n46:0.6902082211[&&NHX:S=Bilateria:D=Y:B=100.0],(((((Homo-sapiens_ENST00000643023.1_SUCLA2-succinate-CoA-li:0.01357856637[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000027453.4_SUCLA2-succinate-CoA:0.03617860724[&&NHX:S=Gallus-gallus])n49:0.04808905069[&&NHX:S=Amniota:D=N:B=89.0],Xenopus-tropicalis_ENSXETT00000001184.3_sucla2-succinate-CoA:0.0[&&NHX:S=Xenopus-tropicalis])n51:0.0421904671[&&NHX:S=Tetrapoda:D=N:B=75.0],(Gasterosteus-aculeatus_ENSGACT00000010679.1_sucla2-succinate:0.02233469191[&&NHX:S=Gasterosteus-aculeatus],Oryzias-latipes_ENSORLT00000017626.1_sucla2-succinate-CoA-li:0.004153807054[&&NHX:S=Oryzias-latipes])r92[&&NHX:S=Percomorpha:D=N])n55:0.2258752137[&&NHX:S=BonyVertebrates:D=N:B=100.0],(Homo-sapiens_ENST00000493112.5_SUCLG2-succinate-CoA-li:0.08409344461[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000012394.5_SUCLG2-succinate-CoA:0.01214816365[&&NHX:S=Gallus-gallus])n59:0.1133871613[&&NHX:S=Amniota:D=N:B=99.0])r69[&&NHX:S=BonyVertebrates:D=Y],Ciona-intestinalis_ENSCINT00000015047.3_NONE:0.09807532635[&&NHX:S=Ciona-intestinalis])r68[&&NHX:S=Deuterostomia:D=N])n62:0.0[&&NHX:S=Bilateria:D=Y:B=100.0],Drosophila-melanogaster_FBtr0077134_Sucb-NONE:0.1457526663[&&NHX:S=Drosophila-melanogaster])n64[&&NHX:S=Bilateria:D=Y:B=100.0];
 
 >1st_gene_tree_newick
-(((((((Tetraodon-nigroviridis_ENSTNIT00000009718.1_aclya-ATP-citrat:0.02754554793,Gasterosteus-aculeatus_ENSGACT00000011663.1_aclya-ATP-citrat:0.01389498358)56:0.00731168399,Oryzias-latipes_ENSORLT00000004629.1_aclya-ATP-citrate-lyase:0.03133377208)60:0.01128166039,Danio-rerio_ENSDART00000164663.1_aclya-ATP-citrate-lyase-a:0.0361657342)56:0.00625994212,((Gasterosteus-aculeatus_ENSGACT00000008268.1_aclyb-ATP-citrat:0.01897379895,Oryzias-latipes_ENSORLT00000017407.1_aclyb-ATP-citrate-lyase:0.02220210515)75:0.01132416539,Danio-rerio_ENSDART00000152522.2_aclyb-ATP-citrate-lyase-b:0.05877433953)29:0.002804050354)19:0.0008173147688,((Xenopus-tropicalis_ENSXETT00000004898.2_acly-ATP-citrate-lya:0.1224761889,Gallus-gallus_ENSGALT00000070919.3_ACLY-ATP-citrate-lya:0.02023735797)33:0.001267071497,Homo-sapiens_ENST00000352035.7_ACLY-ATP-citrate-lyase:0.02325609678)100:0.02636850669)35:0.007266944836,(Tetraodon-nigroviridis_ENSTNIT00000009710.1_NONE:-0.02755056452,Tetraodon-nigroviridis_ENSTNIT00000009568.1_NONE:0.1039258794)60:0.02233613028)100:0,Drosophila-melanogaster_FBtr0300596_ATPCL-ATP-citrate-lyase:0.2174132582)100;
+(((((((((((Xenopus-tropicalis_ENSXETT00000004898.2_acly-ATP-citrate-lya:0.13845502,Homo-sapiens_ENST00000352035.7_ACLY-ATP-citrate-lyase:0.04174606405)20:0.00276941654,Gallus-gallus_ENSGALT00000070919.3_ACLY-ATP-citrate-lya:0.02356282435)51:0.02684378336,Danio-rerio_ENSDART00000152522.2_aclyb-ATP-citrate-lyase-b:0.08963746883)12:0.004136835513,((Gasterosteus-aculeatus_ENSGACT00000008268.1_aclyb-ATP-citrat:0.0237389231,Tetraodon-nigroviridis_ENSTNIT00000009568.1_NONE:0.05748776156)70:0.007136705892,Oryzias-latipes_ENSORLT00000017407.1_aclyb-ATP-citrate-lyase:0.02210601931)81:0.01628523953)13:0.01289782444,(((Tetraodon-nigroviridis_ENSTNIT00000009774.1_NONE:0.01660612837,Tetraodon-nigroviridis_ENSTNIT00000009718.1_aclya-ATP-citrat:-0.00920183845)77:0.02977555893,Gasterosteus-aculeatus_ENSGACT00000011663.1_aclya-ATP-citrat:0.008841981358)75:0.01972049589,Danio-rerio_ENSDART00000164663.1_aclya-ATP-citrate-lyase-a:0.04067055305)18:0.004054750108)18:0.009944243714,Oryzias-latipes_ENSORLT00000004629.1_aclya-ATP-citrate-lyase:0.04979379966)48:0.02569071726,(Drosophila-melanogaster_FBtr0300596_ATPCL-ATP-citrate-lyase:0.1513943217,Ciona-intestinalis_ENSCINT00000030220.1_NONE:0.2650258933)34:0.02203399609)93:0.2873594951,(((((((Gasterosteus-aculeatus_ENSGACT00000023792.1_suclg1-succinate:0.003612160186,Oryzias-latipes_ENSORLT00000007664.1_suclg1-succinate-CoA-li:0.03276074058)26:0.004212989249,Danio-rerio_ENSDART00000074609.4_suclg1-succinate-CoA-ligase:0.0152663791)54:-0.0005268893236,Tetraodon-nigroviridis_ENSTNIT00000005348.1_suclg1-succinate:0.06797430468)82:0.01899808837,((Gallus-gallus_ENSGALT00000032015.4_SUCLG1-succinate-CoA:0.02495796917,Homo-sapiens_ENST00000393868.7_SUCLG1-succinate-CoA-li:0.08784709579)62:0.02868773414,Xenopus-tropicalis_ENSXETT00000003559.2_suclg1-succinate-CoA:0.07047238643)36:0.01340089639)97:0.07279697044,Ciona-intestinalis_ENSCINT00000011271.3_NONE:0.1217198257)83:0.05822662768,Drosophila-melanogaster_FBtr0303096_Scsalpha-Succinyl-coenz:0.08593153567)84:0.06048772858,Drosophila-melanogaster_FBtr0083769_CG6255-NONE:0.1640400326)100:0.5091840527)100:0.6902082211,((((Gallus-gallus_ENSGALT00000027453.4_SUCLA2-succinate-CoA:0.03617860724,Homo-sapiens_ENST00000643023.1_SUCLA2-succinate-CoA-li:0.01357856637)89:0.04808905069,Xenopus-tropicalis_ENSXETT00000001184.3_sucla2-succinate-CoA:-0.007716815332)75:0.0421904671,Gasterosteus-aculeatus_ENSGACT00000010679.1_sucla2-succinate:0.02233469191)37:0.01215053792,Oryzias-latipes_ENSORLT00000017626.1_sucla2-succinate-CoA-li:0.004153807054)100:0.2258752137)31:-0.0004417201429,((Gallus-gallus_ENSGALT00000012394.5_SUCLG2-succinate-CoA:0.01214816365,Homo-sapiens_ENST00000493112.5_SUCLG2-succinate-CoA-li:0.08409344461)99:0.1133871613,Ciona-intestinalis_ENSCINT00000015047.3_NONE:0.09807532635)43:0.06494364703)100:0,Drosophila-melanogaster_FBtr0077134_Sucb-NONE:0.1457526663)100;
 
 >Aligned-site_rate
-== Removed ==> Drosophila-melanogaster_FBtr0077134_Sucb-NONE                    0.332
-== Removed ==> Drosophila-melanogaster_FBtr0303096_Scsalpha-Succinyl-coenz      0.296
-== Removed ==> Drosophila-melanogaster_FBtr0083769_CG6255-NONE                  0.308
-Drosophila-melanogaster_FBtr0300596_ATPCL-ATP-citrate-lyase      0.995
-== Removed ==> Ciona-intestinalis_ENSCINT00000015047.3_NONE                     0.349
-== Removed ==> Ciona-intestinalis_ENSCINT00000036267.1_NONE                     0.076
-== Removed ==> Ciona-intestinalis_ENSCINT00000011271.3_NONE                     0.304
-== Removed ==> Ciona-intestinalis_ENSCINT00000030483.1_NONE                     0.096
-== Removed ==> Ciona-intestinalis_ENSCINT00000030220.1_NONE                     0.228
-== Removed ==> Ciona-intestinalis_ENSCINT00000023537.2_NONE                     0.369
-== Removed ==> Xenopus-tropicalis_ENSXETT00000003559.2_suclg1-succinate-CoA     0.294
-== Removed ==> Xenopus-tropicalis_ENSXETT00000001184.3_sucla2-succinate-CoA     0.359
-Xenopus-tropicalis_ENSXETT00000004898.2_acly-ATP-citrate-lya     0.983
-== Removed ==> Gallus-gallus_ENSGALT00000027453.4_SUCLA2-succinate-CoA          0.359
-== Removed ==> Gallus-gallus_ENSGALT00000032015.4_SUCLG1-succinate-CoA          0.298
-Gallus-gallus_ENSGALT00000070919.3_ACLY-ATP-citrate-lya          0.995
-== Removed ==> Homo-sapiens_ENST00000493112.5_SUCLG2-succinate-CoA-li           0.35
-== Removed ==> Homo-sapiens_ENST00000643023.1_SUCLA2-succinate-CoA-li           0.361
-== Removed ==> Homo-sapiens_ENST00000393868.7_SUCLG1-succinate-CoA-li           0.312
-Homo-sapiens_ENST00000352035.7_ACLY-ATP-citrate-lyase            0.995
-== Removed ==> Danio-rerio_ENSDART00000074609.4_suclg1-succinate-CoA-ligase     0.292
-Danio-rerio_ENSDART00000152522.2_aclyb-ATP-citrate-lyase-b       0.995
-Danio-rerio_ENSDART00000164663.1_aclya-ATP-citrate-lyase-a       0.995
-== Removed ==> Tetraodon-nigroviridis_ENSTNIT00000005348.1_suclg1-succinate     0.292
-== Removed ==> Tetraodon-nigroviridis_ENSTNIT00000023272.1_NONE                 0.061
-== Removed ==> Tetraodon-nigroviridis_ENSTNIT00000014487.1_NONE                 0.087
-== Removed ==> Tetraodon-nigroviridis_ENSTNIT00000009774.1_NONE                 0.264
-Tetraodon-nigroviridis_ENSTNIT00000009710.1_NONE                 0.464
-Tetraodon-nigroviridis_ENSTNIT00000009718.1_aclya-ATP-citrat     0.536
-Tetraodon-nigroviridis_ENSTNIT00000009568.1_NONE                 0.883
-== Removed ==> Gasterosteus-aculeatus_ENSGACT00000023792.1_suclg1-succinate     0.297
-Gasterosteus-aculeatus_ENSGACT00000011663.1_aclya-ATP-citrat     0.995
-Gasterosteus-aculeatus_ENSGACT00000008268.1_aclyb-ATP-citrat     0.995
-== Removed ==> Oryzias-latipes_ENSORLT00000007664.1_suclg1-succinate-CoA-li     0.292
-Oryzias-latipes_ENSORLT00000004629.1_aclya-ATP-citrate-lyase     0.995
-Oryzias-latipes_ENSORLT00000017407.1_aclyb-ATP-citrate-lyase     0.985
+Drosophila-melanogaster_FBtr0077134_Sucb-NONE                    0.772
+Drosophila-melanogaster_FBtr0303096_Scsalpha-Succinyl-coenz      0.673
+Drosophila-melanogaster_FBtr0083769_CG6255-NONE                  0.675
+Drosophila-melanogaster_FBtr0300596_ATPCL-ATP-citrate-lyase      1.0
+Ciona-intestinalis_ENSCINT00000015047.3_NONE                     0.774
+== Removed ==> Ciona-intestinalis_ENSCINT00000036267.1_NONE                     0.044
+Ciona-intestinalis_ENSCINT00000011271.3_NONE                     0.684
+== Removed ==> Ciona-intestinalis_ENSCINT00000030483.1_NONE                     0.133
+Ciona-intestinalis_ENSCINT00000030220.1_NONE                     0.511
+== Removed ==> Ciona-intestinalis_ENSCINT00000023537.2_NONE                     0.232
+Xenopus-tropicalis_ENSXETT00000003559.2_suclg1-succinate-CoA     0.669
+Xenopus-tropicalis_ENSXETT00000001184.3_sucla2-succinate-CoA     0.81
+Xenopus-tropicalis_ENSXETT00000004898.2_acly-ATP-citrate-lya     0.998
+Gallus-gallus_ENSGALT00000012394.5_SUCLG2-succinate-CoA          0.776
+Gallus-gallus_ENSGALT00000027453.4_SUCLA2-succinate-CoA          0.81
+Gallus-gallus_ENSGALT00000032015.4_SUCLG1-succinate-CoA          0.679
+Gallus-gallus_ENSGALT00000070919.3_ACLY-ATP-citrate-lya          1.0
+Homo-sapiens_ENST00000493112.5_SUCLG2-succinate-CoA-li           0.787
+Homo-sapiens_ENST00000643023.1_SUCLA2-succinate-CoA-li           0.81
+Homo-sapiens_ENST00000393868.7_SUCLG1-succinate-CoA-li           0.711
+Homo-sapiens_ENST00000352035.7_ACLY-ATP-citrate-lyase            1.0
+Danio-rerio_ENSDART00000074609.4_suclg1-succinate-CoA-ligase     0.665
+Danio-rerio_ENSDART00000152522.2_aclyb-ATP-citrate-lyase-b       1.0
+Danio-rerio_ENSDART00000164663.1_aclya-ATP-citrate-lyase-a       1.0
+Gasterosteus-aculeatus_ENSGACT00000010679.1_sucla2-succinate     0.81
+Gasterosteus-aculeatus_ENSGACT00000023792.1_suclg1-succinate     0.677
+Gasterosteus-aculeatus_ENSGACT00000011663.1_aclya-ATP-citrat     1.0
+Gasterosteus-aculeatus_ENSGACT00000008268.1_aclyb-ATP-citrat     1.0
+Tetraodon-nigroviridis_ENSTNIT00000005348.1_suclg1-succinate     0.665
+== Removed ==> Tetraodon-nigroviridis_ENSTNIT00000023272.1_NONE                 0.0
+== Removed ==> Tetraodon-nigroviridis_ENSTNIT00000014487.1_NONE                 0.186
+Tetraodon-nigroviridis_ENSTNIT00000009774.1_NONE                 0.563
+== Removed ==> Tetraodon-nigroviridis_ENSTNIT00000009710.1_NONE                 0.43
+Tetraodon-nigroviridis_ENSTNIT00000009718.1_aclya-ATP-citrat     0.572
+Tetraodon-nigroviridis_ENSTNIT00000009568.1_NONE                 0.884
+Oryzias-latipes_ENSORLT00000017626.1_sucla2-succinate-CoA-li     0.81
+Oryzias-latipes_ENSORLT00000007664.1_suclg1-succinate-CoA-li     0.665
+Oryzias-latipes_ENSORLT00000004629.1_aclya-ATP-citrate-lyase     1.0
+Oryzias-latipes_ENSORLT00000017407.1_aclyb-ATP-citrate-lyase     1.0
 
 
 ################ Settings ################
@@ -118,8 +121,8 @@ Xenopus-tropicalis_Magenta
 Gallus-gallus_Magenta
 Homo-sapiens_Magenta
 Danio-rerio_Purple
-Tetraodon-nigroviridis_Green
 Gasterosteus-aculeatus_Red
+Tetraodon-nigroviridis_Green
 Oryzias-latipes_Blue
 
 ################ Results: 2nd analysis ################
@@ -128,31 +131,31 @@ Oryzias-latipes_Blue
 NJ
 
 >2nd_rearranged_gene_tree_newick
-((((Homo-sapiens_ENST00000352035.7_ACLY-ATP-citrate-lyase,Gallus-gallus_ENSGALT00000070919.3_ACLY-ATP-citrate-lya)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000004898.2_acly-ATP-citrate-lya)100_S=Tetrapoda_D=N,(((Oryzias-latipes_ENSORLT00000017407.1_aclyb-ATP-citrate-lyase,Gasterosteus-aculeatus_ENSGACT00000008268.1_aclyb-ATP-citrat)79_S=Percomorpha_D=N,Danio-rerio_ENSDART00000164663.1_aclya-ATP-citrate-lyase-a)r_S=Clupeocephala_D=N,(((Gasterosteus-aculeatus_ENSGACT00000011663.1_aclya-ATP-citrat,((Tetraodon-nigroviridis_ENSTNIT00000009718.1_aclya-ATP-citrat,Tetraodon-nigroviridis_ENSTNIT00000009710.1_NONE)r_S=Tetraodon-nigroviridis_D=Y,Tetraodon-nigroviridis_ENSTNIT00000009568.1_NONE)r_S=Tetraodon-nigroviridis_D=Y)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000004629.1_aclya-ATP-citrate-lyase)r_S=Percomorpha_D=N,Danio-rerio_ENSDART00000152522.2_aclyb-ATP-citrate-lyase-b)r_S=Clupeocephala_D=N)r_S=Clupeocephala_D=Y)100_S=BonyVertebrates_D=N,Drosophila-melanogaster_FBtr0300596_ATPCL-ATP-citrate-lyase)100_S=Bilateria_D=N;
+(((((((Tetraodon-nigroviridis_ENSTNIT00000009568.1_NONE,Gasterosteus-aculeatus_ENSGACT00000008268.1_aclyb-ATP-citrat)88_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000017407.1_aclyb-ATP-citrate-lyase)100_S=Percomorpha_D=N,Danio-rerio_ENSDART00000152522.2_aclyb-ATP-citrate-lyase-b)72_S=Teleostei_D=N,((((Tetraodon-nigroviridis_ENSTNIT00000009774.1_NONE,Tetraodon-nigroviridis_ENSTNIT00000009718.1_aclya-ATP-citrat)99_S=Tetraodon-nigroviridis_D=Y,Gasterosteus-aculeatus_ENSGACT00000011663.1_aclya-ATP-citrat)92_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000004629.1_aclya-ATP-citrate-lyase)90_S=Percomorpha_D=N,Danio-rerio_ENSDART00000164663.1_aclya-ATP-citrate-lyase-a)r_S=Teleostei_D=N)72_S=Teleostei_D=Y,(Homo-sapiens_ENST00000352035.7_ACLY-ATP-citrate-lyase,Gallus-gallus_ENSGALT00000070919.3_ACLY-ATP-citrate-lya)98_S=Amniota_D=N)90_S=BonyVertebrates_D=N,Xenopus-tropicalis_ENSXETT00000004898.2_acly-ATP-citrate-lya)100_S=BonyVertebrates_D=Y,Ciona-intestinalis_ENSCINT00000030220.1_NONE)100_S=Deuterostomia_D=N;
 
 >2nd_rearranged_gene_tree_NHX
-((((Homo-sapiens_ENST00000352035.7_ACLY-ATP-citrate-lyase:0.02325609678[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000070919.3_ACLY-ATP-citrate-lya:0.02023735797[&&NHX:S=Gallus-gallus])r35[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000004898.2_acly-ATP-citrate-lya:0.1224761889[&&NHX:S=Xenopus-tropicalis])n17:0.02636850669[&&NHX:S=Tetrapoda:D=N:B=100.0],(((Oryzias-latipes_ENSORLT00000017407.1_aclyb-ATP-citrate-lyase:0.02220210515[&&NHX:S=Oryzias-latipes],Gasterosteus-aculeatus_ENSGACT00000008268.1_aclyb-ATP-citrat:0.01897379895[&&NHX:S=Gasterosteus-aculeatus])n9:0.01132416539[&&NHX:S=Percomorpha:D=N:B=79.0],Danio-rerio_ENSDART00000164663.1_aclya-ATP-citrate-lyase-a:0.0361657342[&&NHX:S=Danio-rerio])r28[&&NHX:S=Clupeocephala:D=N],(((Gasterosteus-aculeatus_ENSGACT00000011663.1_aclya-ATP-citrat:0.01389498358[&&NHX:S=Gasterosteus-aculeatus],((Tetraodon-nigroviridis_ENSTNIT00000009718.1_aclya-ATP-citrat:0.02754554793[&&NHX:S=Tetraodon-nigroviridis],Tetraodon-nigroviridis_ENSTNIT00000009710.1_NONE:0.0[&&NHX:S=Tetraodon-nigroviridis])r33[&&NHX:S=Tetraodon-nigroviridis:D=Y],Tetraodon-nigroviridis_ENSTNIT00000009568.1_NONE:0.1039258794[&&NHX:S=Tetraodon-nigroviridis])r32[&&NHX:S=Tetraodon-nigroviridis:D=Y])r31[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000004629.1_aclya-ATP-citrate-lyase:0.03133377208[&&NHX:S=Oryzias-latipes])r30[&&NHX:S=Percomorpha:D=N],Danio-rerio_ENSDART00000152522.2_aclyb-ATP-citrate-lyase-b:0.05877433953[&&NHX:S=Danio-rerio])r29[&&NHX:S=Clupeocephala:D=N])r27[&&NHX:S=Clupeocephala:D=Y])n22:0.0[&&NHX:S=BonyVertebrates:D=N:B=100.0],Drosophila-melanogaster_FBtr0300596_ATPCL-ATP-citrate-lyase:0.2174132582[&&NHX:S=Drosophila-melanogaster])n24[&&NHX:S=Bilateria:D=N:B=100.0];
+(((((((Tetraodon-nigroviridis_ENSTNIT00000009568.1_NONE:0.1156705791[&&NHX:S=Tetraodon-nigroviridis],Gasterosteus-aculeatus_ENSGACT00000008268.1_aclyb-ATP-citrat:0.008425131603[&&NHX:S=Gasterosteus-aculeatus])n11:0.006801779459[&&NHX:S=Eupercaria:D=N:B=88.0],Oryzias-latipes_ENSORLT00000017407.1_aclyb-ATP-citrate-lyase:0.01887403458[&&NHX:S=Oryzias-latipes])n13:0.01452297346[&&NHX:S=Percomorpha:D=N:B=100.0],Danio-rerio_ENSDART00000152522.2_aclyb-ATP-citrate-lyase-b:0.05722570615[&&NHX:S=Danio-rerio])n15:0.00766376224[&&NHX:S=Teleostei:D=N:B=72.0],((((Tetraodon-nigroviridis_ENSTNIT00000009774.1_NONE:0.01289823689[&&NHX:S=Tetraodon-nigroviridis],Tetraodon-nigroviridis_ENSTNIT00000009718.1_aclya-ATP-citrat:0.0[&&NHX:S=Tetraodon-nigroviridis])n2:0.03188213261[&&NHX:S=Tetraodon-nigroviridis:D=Y:B=99.0],Gasterosteus-aculeatus_ENSGACT00000011663.1_aclya-ATP-citrat:0.006839787077[&&NHX:S=Gasterosteus-aculeatus])n4:0.01190121452[&&NHX:S=Eupercaria:D=N:B=92.0],Oryzias-latipes_ENSORLT00000004629.1_aclya-ATP-citrate-lyase:0.0337185049[&&NHX:S=Oryzias-latipes])n6:0.01019126386[&&NHX:S=Percomorpha:D=N:B=90.0],Danio-rerio_ENSDART00000164663.1_aclya-ATP-citrate-lyase-a:0.03477120241[&&NHX:S=Danio-rerio])r27[&&NHX:S=Teleostei:D=N])n16:0.009424373931[&&NHX:S=Teleostei:D=Y:B=72.0],(Homo-sapiens_ENST00000352035.7_ACLY-ATP-citrate-lyase:0.0250741798[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000070919.3_ACLY-ATP-citrate-lya:0.02211027123[&&NHX:S=Gallus-gallus])n19:0.01846065508[&&NHX:S=Amniota:D=N:B=98.0])n20:0.03709297789[&&NHX:S=BonyVertebrates:D=N:B=90.0],Xenopus-tropicalis_ENSXETT00000004898.2_acly-ATP-citrate-lya:0.09177579726[&&NHX:S=Xenopus-tropicalis])n22:0.0[&&NHX:S=BonyVertebrates:D=Y:B=100.0],Ciona-intestinalis_ENSCINT00000030220.1_NONE:0.3769718027[&&NHX:S=Ciona-intestinalis])n24[&&NHX:S=Deuterostomia:D=N:B=100.0];
 
 >2nd_gene_tree_newick
-(((((((Gasterosteus-aculeatus_ENSGACT00000011663.1_aclya-ATP-citrat:0.01389498358,Tetraodon-nigroviridis_ENSTNIT00000009718.1_aclya-ATP-citrat:0.02754554793)61:0.00731168399,Oryzias-latipes_ENSORLT00000004629.1_aclya-ATP-citrate-lyase:0.03133377208)67:0.01128166039,Danio-rerio_ENSDART00000164663.1_aclya-ATP-citrate-lyase-a:0.0361657342)63:0.00625994212,((Gasterosteus-aculeatus_ENSGACT00000008268.1_aclyb-ATP-citrat:0.01897379895,Oryzias-latipes_ENSORLT00000017407.1_aclyb-ATP-citrate-lyase:0.02220210515)79:0.01132416539,Danio-rerio_ENSDART00000152522.2_aclyb-ATP-citrate-lyase-b:0.05877433953)31:0.002804050354)21:0.0008173147688,((Gallus-gallus_ENSGALT00000070919.3_ACLY-ATP-citrate-lya:0.02023735797,Xenopus-tropicalis_ENSXETT00000004898.2_acly-ATP-citrate-lya:0.1224761889)33:0.001267071497,Homo-sapiens_ENST00000352035.7_ACLY-ATP-citrate-lyase:0.02325609678)100:0.02636850669)38:0.007266944836,(Tetraodon-nigroviridis_ENSTNIT00000009568.1_NONE:0.1039258794,Tetraodon-nigroviridis_ENSTNIT00000009710.1_NONE:-0.02755056452)65:0.02233613028)100:0,Drosophila-melanogaster_FBtr0300596_ATPCL-ATP-citrate-lyase:0.2174132582)100;
+((((((((Tetraodon-nigroviridis_ENSTNIT00000009718.1_aclya-ATP-citrat:-0.007742831291,Tetraodon-nigroviridis_ENSTNIT00000009774.1_NONE:0.01289823689)99:0.03188213261,Gasterosteus-aculeatus_ENSGACT00000011663.1_aclya-ATP-citrat:0.006839787077)92:0.01190121452,Oryzias-latipes_ENSORLT00000004629.1_aclya-ATP-citrate-lyase:0.0337185049)90:0.01019126386,Danio-rerio_ENSDART00000164663.1_aclya-ATP-citrate-lyase-a:0.03477120241)67:0.002910957928,(((Gasterosteus-aculeatus_ENSGACT00000008268.1_aclyb-ATP-citrat:0.008425131603,Tetraodon-nigroviridis_ENSTNIT00000009568.1_NONE:0.1156705791)88:0.006801779459,Oryzias-latipes_ENSORLT00000017407.1_aclyb-ATP-citrate-lyase:0.01887403458)100:0.01452297346,Danio-rerio_ENSDART00000152522.2_aclyb-ATP-citrate-lyase-b:0.05722570615)72:0.00766376224)72:0.009424373931,(Gallus-gallus_ENSGALT00000070919.3_ACLY-ATP-citrate-lya:0.02211027123,Homo-sapiens_ENST00000352035.7_ACLY-ATP-citrate-lyase:0.0250741798)98:0.01846065508)90:0.03709297789,Xenopus-tropicalis_ENSXETT00000004898.2_acly-ATP-citrate-lya:0.09177579726)100:0,Ciona-intestinalis_ENSCINT00000030220.1_NONE:0.3769718027)100;
 
 >MonophyleticGeneGroups
-BonyVertebrates                 100  D=N
-Clupeocephala                   r  D=Y
-Percomorpha                     79  D=N
+BonyVertebrates                 100  D=Y
+Teleostei                       72  D=Y
+Percomorpha                     100  D=N
 Oryzias-latipes                 leaf  leaf
 
 >SisterGeneGroups
-BonyVertebrates                 NONE   NoGeneNode
-Clupeocephala                   100   Tetrapoda
-Percomorpha                     r   Danio-rerio
-Oryzias-latipes                 79   Gasterosteus-aculeatus
+BonyVertebrates                 100   Xenopus-tropicalis
+Teleostei                       90   Amniota
+Percomorpha                     72   Danio-rerio
+Oryzias-latipes                 100   Eupercaria
 
 >Number_of_duplicatedNode
-BonyVertebrates                 0
-Clupeocephala                   0
+BonyVertebrates                 1
+Teleostei                       1
 Percomorpha                     0
 Oryzias-latipes                 0
 
 >AnalysisTime
-8.5 seconds
+5.2 seconds

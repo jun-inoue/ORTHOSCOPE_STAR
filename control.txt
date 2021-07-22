@@ -4,35 +4,49 @@
 >Mode
 E
 
+
+# Each line shows species names followed by an underscore and then database file names of amino acid and nucleotide
+# SpaciesName_color             Amino acide database     Nucleotide database
+>TaxonSampling
+Drosophila-melanogaster_Black Drosophila-melanogaster-SHN.pep.txt Drosophila-melanogaster-SHN.cds.txt   
+Ciona-intestinalis_Black      Ciona-intestinalis-SHN.pep.txt      Ciona-intestinalis-SHN.cds.txt       
+Xenopus-tropicalis_Magenta    Xenopus-tropicalis-SHN.pep.txt      Xenopus-tropicalis-SHN.cds.txt        
+Gallus-gallus_Magenta         Gallus-gallus-SHN.pep.txt           Gallus-gallus-SHN.cds.txt             
+Homo-sapiens_Magenta          Homo-sapiens-SHN.pep.txt            Homo-sapiens-SHN.cds.txt              
+Danio-rerio_Purple            Danio-rerio-SHN.pep.txt             Danio-rerio-SHN.cds.txt               
+Gasterosteus-aculeatus_Red    Gasterosteus-aculeatus-SHN.pep.txt  Gasterosteus-aculeatus-SHN.cds.txt    
+Tetraodon-nigroviridis_Green  Tetraodon-nigroviridis-SHN.pep.txt  Tetraodon-nigroviridis-SHN.cds.txt    
+Oryzias-latipes_Blue          Oryzias-latipes-SHN.pep.txt         Oryzias-latipes-SHN.cds.txt           
+
+>SpeciesTree
+(Drosophila-melanogaster,(Ciona-intestinalis,((Xenopus-tropicalis,(Gallus-gallus,Homo-sapiens)Amniota)Tetrapoda,(Danio-rerio,((Tetraodon-nigroviridis,Gasterosteus-aculeatus)Eupercaria,Oryzias-latipes)Percomorpha)Teleostei)BonyVertebrates)Deuterostomia)Bilateria;
+
 >QuerySpecies
 Oryzias-latipes
 
-# SpaciesName_color                 Amino acide database                                                                           Nucleotide database
->TaxonSampling
-Drosophila-melanogaster_Black   Drosophila.pep.txt       Drosophila.cds.txt
-Ciona-intestinalis_Black        Ciona.pep.txt            Ciona.cds.txt
-Xenopus-tropicalis_Magenta      Xenopus.pep.txt          Xenopus.cds.txt
-Gallus-gallus_Magenta           Chicken.pep.txt          Chicken.cds.txt
-Homo-sapiens_Magenta            Human.pep.txt            Human.cds.txt
-Danio-rerio_Purple              Zebra.pep.txt            Zebra.cds.txt
-Tetraodon-nigroviridis_Green    Tetraodon.pep.txt        Tetraodon.cds.txt
-Gasterosteus-aculeatus_Red      Stickleback.pep.txt      Stickleback.cds.txt
-Oryzias-latipes_Blue            Medaka.pep.txt           Medaka.cds.txt
+# This species node is used to find orthogroups within gene trees.
+>KeyNode
+BonyVertebrates
 
 >SpeciesWithGeneFunction
 Homo-sapiens
 
->SpeciesTree
-(Drosophila-melanogaster,(Ciona-intestinalis,((Xenopus-tropicalis,(Gallus-gallus,Homo-sapiens)Amniota)Tetrapoda,(Danio-rerio,((Tetraodon-nigroviridis,Gasterosteus-aculeatus)Eupercaria,Oryzias-latipes)Percomorpha)Clupeocephala)BonyVertebrates)Deuterostomia)Bilateria;
+>Outdir
+outdir
+
+>Alignment_orthogroups
+alignment_orthogroups
+
+>BSthreshold
+70
+
+
+#############################
 
 
 # Number of rooting sequences
 >Num_rootSequences
 1
-
-# This species node is used to find orthogroups within gene trees.
->OrthogroupBasalNode
-BonyVertebrates
 
 # Floating point expression such as 1e-3 and 1e-5, or just 1
 >BLAST_Evalue_threshold_for_reported_sequences
@@ -48,12 +62,6 @@ BonyVertebrates
 # Exclude3rd, Include3rd, or AminoAcid
 >Dataset
 Exclude3rd
-
->RearrangementBSthreshold
-70
-
->Outdir
-outdir
 
 >Database
 database
