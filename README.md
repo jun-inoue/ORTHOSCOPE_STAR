@@ -17,5 +17,9 @@ The code is derived from the [ORTHOSCOPE web version](https://github.com/jun-ino
 [http://www.fish-evol.org/orthoscopeStar/](http://www.fish-evol.org/orthoscopeStar/)
 
 
+## Citation
+Inoue J. 
+ORTHOSCOPE*: a phylogenetic pipeline for inferring gene histories from genome -wide data. Molecular Biology and Evolution, in press. [Link](https://academic.oup.com/mbe/advance-article/doi/10.1093/molbev/msab301/6400256). 
+
 <br />  
 
