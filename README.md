@@ -24,8 +24,8 @@ jinoueATg.ecc.u-tokyo.ac.jp
 
 
 ## Citation
-Inoue J. 
-ORTHOSCOPE*: a phylogenetic pipeline for inferring gene histories from genome -wide data. Molecular Biology and Evolution, in press. [Link](https://academic.oup.com/mbe/advance-article/doi/10.1093/molbev/msab301/6400256). 
+Inoue J. 2022.
+ORTHOSCOPE*: a phylogenetic pipeline for inferring gene histories from genome -wide data. Molecular Biology and Evolution, 39(1):msab301. [Link](https://academic.oup.com/mbe/advance-article/doi/10.1093/molbev/msab301/6400256). 
 
 <br />  
 
