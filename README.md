@@ -10,12 +10,24 @@ ORTHOSCOPE* (star) is an analysis pipelie to infer evolutionary history of a gen
   
 The code is derived from the [ORTHOSCOPE web version](https://github.com/jun-inoue/orthoscope). ORTHOSCOPE* is designed to employ supercomputers (High Performance Computers) for genome scale analyses.
 
+Japanese slide is derived from 
+<img src="images/orthoscope_star_slide.pdf">
 
 ---
 
 ## Instruction
-[http://www.fish-evol.org/orthoscopeStar/](http://www.fish-evol.org/orthoscopeStar/)
+[http://www.fish-evol.org/orthoscopeStar/](http://www.fish-evol.org/orthoscopeStar/).  
 
+Now I don't have a user group. So, please send me an email if you have questions.   
+jinoueATg.ecc.u-tokyo.ac.jp
+
+
+
+
+
+## Citation
+Inoue J. 2022.
+ORTHOSCOPE*: a phylogenetic pipeline for inferring gene histories from genome -wide data. Molecular Biology and Evolution, 39(1):msab301. [Link](https://academic.oup.com/mbe/advance-article/doi/10.1093/molbev/msab301/6400256). 
 
 <br />  
 
