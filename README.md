@@ -10,10 +10,6 @@ ORTHOSCOPE* (star) is an analysis pipelie to infer evolutionary history of a gen
   
 The code is derived from the [ORTHOSCOPE web version](https://github.com/jun-inoue/orthoscope). ORTHOSCOPE* is designed to employ supercomputers (High Performance Computers) for genome scale analyses.
 
-Japanese slide is derived from 
-<img src="images/orthoscope_star_slide.pdf">
-[images/orthoscope_star_slide.pdf](images/orthoscope_star_slide.pdf)
-
 ---
 
 ## Instruction
