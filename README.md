@@ -12,6 +12,7 @@ The code is derived from the [ORTHOSCOPE web version](https://github.com/jun-ino
 
 Japanese slide is derived from 
 <img src="images/orthoscope_star_slide.pdf">
+[images/orthoscope_star_slide.pdf](images/orthoscope_star_slide.pdf)
 
 ---
 
