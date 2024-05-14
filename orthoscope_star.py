@@ -2063,13 +2063,15 @@ def orderedDict2phyFile(recs, outfile):
     out.close()
 
 
-def read_TrimalHTMLout_dict(trimAAresult):
+def read_TrimalHTMLout_dict_v12(trimAAresult):
     f = open(eachDirAddress + trimAAresult)
     lines = list(f)
     f.close()
 
     recs_trimalHTMLout  = OrderedDict()
     for line in lines:
+        if re.search("    <span class=sel>Selected Sequences",line):
+            continue
         if line.startswith("    <span class=sel>"):
             line = line.rstrip("\n")
             match = re.search("<span class=sel>([^<]+)</span> +([^ ].*)$", line)
@@ -2081,13 +2083,34 @@ def read_TrimalHTMLout_dict(trimAAresult):
 
     return recs_trimalHTMLout
 
+def read_TrimalHTMLout_dict_v141(trimAAresult):
+    f = open(eachDirAddress + trimAAresult)
+    lines = list(f)
+    f.close()
 
-def trimaledFileMakerDNA(fastaFile, trimAAresult, outfile):
+    trimalMarkedSites = ""
+    for line in lines:
+        if line.startswith("    Selected Cols:"):
+            line = line.rstrip("\n")
+            sequence = re.sub(" +Selected Cols: +", "",line)
+            trimalMarkedSites += sequence
+
+    return trimalMarkedSites
+
+
+def trimaledFileMakerDNA_v12(fastaFile, trimAAresult, outfile):
     recs = readFasta_dict(eachDirAddress, fastaFile)
     
-    recs_trimalHTMLout    = read_TrimalHTMLout_dict(trimAAresult)
+    recs_trimalHTMLout = read_TrimalHTMLout_dict_v12(trimAAresult)
+    #print("recs_trimalHTMLout", recs_trimalHTMLout)
+    #exit()
+    
     trimalMarkedSites = list(recs_trimalHTMLout.values())[-1]
+    #print("trimalMarkedSites", trimalMarkedSites)
+    #exit()
     trimalMarkedSites = re.sub("<span class=sel>.</span>", "#", trimalMarkedSites)
+    print("trimalMarkedSites", trimalMarkedSites)
+    exit()
 
     recsTrimed = OrderedDict()
     for name,value in recs.items():
@@ -2098,6 +2121,31 @@ def trimaledFileMakerDNA(fastaFile, trimAAresult, outfile):
                 sequence += value[i*3] + value[i*3+1] + value[i*3+2]
         recsTrimed[name] = sequence
     orderedDict2phyFile(recsTrimed, outfile = outfile)
+
+
+def trimaledFileMakerDNA_v141(fastaFile, trimAAresult, outfile):
+    recs = readFasta_dict(eachDirAddress, fastaFile)
+    #print("fastaFile", fastaFile)
+    #exit()
+    
+    trimalMarkedSitesTMP = read_TrimalHTMLout_dict_v141(trimAAresult)
+    #print("trimalMarkedSitesTMP", trimalMarkedSitesTMP)
+    #exit()
+    trimalMarkedSites = re.sub("<span class=nsel> </span>", "-", trimalMarkedSitesTMP)
+    trimalMarkedSites = re.sub("<span class=sel> </span>", "#", trimalMarkedSites)
+    #print("trimalMarkedSites", trimalMarkedSites)
+    #exit()
+
+    recsTrimed = OrderedDict()
+    for name,value in recs.items():
+        sequence = ""
+        for i in range(len(trimalMarkedSites)):
+            if trimalMarkedSites[i] == "#":
+                #out.write(trimalMarkedSites[i])
+                sequence += value[i*3] + value[i*3+1] + value[i*3+2]
+        recsTrimed[name] = sequence
+    orderedDict2phyFile(recsTrimed, outfile = outfile)
+
 
 ### alignmentFile_PhyAnal End
 ###############################################################
@@ -2810,6 +2858,7 @@ make_treeFile("000_speciesTree.txt", SpeciesTree)
 '''
 '''
 
+
 aaSeqMaker()
 
 print("\n\n##### 1st tree: BLAST ######\n\n")
@@ -2884,7 +2933,9 @@ if not NJtreeFileCont:
         deleteFiles()
     exit()
 
-trimaledFileMakerDNA("054_p2nOutcDNAfas.txt", "052_AA.fas.trm.html", outfile="080_trimedCDNAPhy.txt")
+#trimaledFileMakerDNA_v12("054_p2nOutcDNAfas.txt", "052_AA.fas.trm.html", outfile="080_trimedCDNAPhy.txt")
+trimaledFileMakerDNA_v141("054_p2nOutcDNAfas.txt", "052_AA.fas.trm.html", outfile="080_trimedCDNAPhy.txt")
+#exit()
 
 fas2phy(fastaFileName="052_AA.fas.trm", outPhyFileName="080_trimedAAPhy.txt")
 
@@ -3010,7 +3061,8 @@ subprocess.call(pal2nalLine, shell=True)
 fas2phy(fastaFileName = "160_mafOut.txt", outPhyFileName = "190_aln_prot.txt")
 fas2phy(fastaFileName = "180_aln_nucl_fas.txt", outPhyFileName = "190_aln_nucl.txt")
 
-trimaledFileMakerDNA("180_aln_nucl_fas.txt", "170_aln_prot.html", outfile = "200_trimedCDNAPhy.txt")
+#trimaledFileMakerDNA_v12("180_aln_nucl_fas.txt", "170_aln_prot.html", outfile = "200_trimedCDNAPhy.txt")
+trimaledFileMakerDNA_v141("180_aln_nucl_fas.txt", "170_aln_prot.html", outfile = "200_trimedCDNAPhy.txt")
 fas2phy("170_trimedAAOutFas.txt", "200_trimedAAPhy.txt")
 
 phyCodonToBlock("200_trimedCDNAPhy.txt", 2, outfile="210_trimedBlockExc3rdPhy.txt")
