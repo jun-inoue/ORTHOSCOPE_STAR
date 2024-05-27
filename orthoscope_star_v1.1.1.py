@@ -8,6 +8,11 @@ import subprocess
 import time
 
 
+#####
+#For ShortSequence_threshold, the function compare_query2other and named compare_query2other_aliSiteRate_nogap.
+#This new script does not count gap sites of query sequence to calculate aligned-site rates.
+######
+
 AddintHeaderAfterAT = "D"   ## L:leave or D:Delete @xxxx for the summarize analysis
 draw_speciesTree = "Not"  ## Draw: Draw species tree in the .pdf file
 
