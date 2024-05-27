@@ -8,9 +8,9 @@ import subprocess
 import time
 
 
-#####
-#For ShortSequence_threshold, the function compare_query2other and named compare_query2other_aliSiteRate_nogap.
-#This new script does not count gap sites of query sequence to calculate aligned-site rates.
+##### v1.1.1 update
+# For ShortSequence_threshold, the function "compare_query2other" was updated and named "compare_query2other_aliSiteRate_nogap."
+# This new function does not count gap sites of the query sequence to calculate aligned-site rates.
 ######
 
 AddintHeaderAfterAT = "D"   ## L:leave or D:Delete @xxxx for the summarize analysis
