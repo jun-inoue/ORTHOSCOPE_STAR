@@ -602,7 +602,8 @@ def read_controlFile():
         print(dbAddress)
         exit()
     dbAddress = dbAddress + "/"
-    dbLines, taxonSamplingList = check_pickup_taxonSampling(dbAddress, resDict_SR[">TaxonSampling"])
+    dbLinesTMP, taxonSamplingListTMP = check_pickup_taxonSampling(dbAddress, resDict_SR[">TaxonSampling"])
+    dbLines, taxonSamplingList = reorder_dbLines(dbLinesTMP, taxonSamplingListTMP, name_querySpecies)
     queryDatabase = ""
 
     for dbLine in dbLines:
@@ -617,6 +618,31 @@ def read_controlFile():
 Number_of_hits_to_report_per_genome, Aligned_site_rate, dataset, BSthreshold, \
 treeSearchMethod, num_rootSequences, keyNode, name_querySpecies, queryDatabase, \
 dbAddress, outdir, alignment_orthogroups, mode, Switch_deleteIntermediateFiles, speciesWithGeneFunction
+
+
+def reorder_dbLines(dbLinesTMP, taxonSamplingListTMP, name_querySpecies):
+    #print("#### reorder_dbLines ####")
+    #print("name_querySpecies", name_querySpecies)
+
+    dbLines = []
+    for line in dbLinesTMP:
+        if not line[0] == name_querySpecies + "_":
+            dbLines.append(line)
+        #dbLinesTMP1.append(line)
+    for line in dbLinesTMP:
+        if line[0] == name_querySpecies + "_":
+            dbLines.append(line)
+
+    taxonSamplingList = []
+    for dbline in dbLines:
+        for line_ts in taxonSamplingListTMP:
+            if re.search(dbline[0], line_ts):
+                taxonSamplingList.append(line_ts)
+    #for line2 in taxonSamplingList:
+    #    print("line2", line2)
+    #exit()
+
+    return dbLines, taxonSamplingList
 
 
 def dirFileMake(queryDatabase, name_querySpecies, queryID):
@@ -1020,6 +1046,7 @@ def identify_orthogroup(treeNHX):
     nameLine_cds_assigned_by_ID = list(topHits.keys())[0]
     
     #print("nameLine_cds_blastTopHit", nameLine_cds_blastTopHit)
+    #exit()
     #print("nameLine_cds_assigned_by_ID", nameLine_cds_assigned_by_ID)
     #print("keyNode", keyNode)
     
@@ -1750,7 +1777,7 @@ def makeSummary(outfile_summary):
     
         if rec044_unambSiteRate:
             rec044_unambSiteRate = whiteSpaceAdd(rec044_unambSiteRate)
-            fs.write(">Aligned-site_rate\n")
+            fs.write(">Aligned-ShortSequence_threshold evaluation\n")
             for name, siteRate in rec044_unambSiteRate.items():
                 nameRate = name + "  " + str(siteRate)
                 if float(siteRate) > float(Aligned_site_rate):
@@ -1852,6 +1879,7 @@ def change_prohibitedExpression_in_nameLine(nameLine_FN):
 
 
 def hitRecPicker():
+    #print("#### hitRecPicker ####")
     blastResOut = open(eachDirAddress + "010_blastRes.txt", "w")
     AAout = open(eachDirAddress + "030_retrievedAAfas.txt",  "w")
     CDNAout = ""
@@ -1988,7 +2016,7 @@ def topHitPicker():
 
 ###############################################################
 ### delete_sequences_with_alignedSiteRate Start
-def compare2seqs(querySeq, otherSeq):
+def compare_query2other_aliSiteRate(querySeq, otherSeq):
     count = 0
     for i in range(len(querySeq)):
         if re.match("\w", querySeq[i]) and re.match("\w", otherSeq[i]):
@@ -1999,22 +2027,59 @@ def compare2seqs(querySeq, otherSeq):
             continue
     return round(float(count)/len(querySeq),3)
 
+def compare_query2other_aliSiteRate_nogap(querySeq, otherSeq):
+    count = 0
+    for i in range(len(querySeq)):
+        if re.match("-", querySeq[i]):
+            continue
+        if re.match("\w", otherSeq[i]):
+            count += 1
+        else:
+            continue
+    querySeq_noGap = re.sub("-", "", querySeq)
+    #print("querySeq", querySeq)
+    #print("querySeq_noGap", querySeq_noGap)
+    #exit()
+    return round(float(count)/len(querySeq_noGap),3)
+
 
 def calculate_nonGapSiteRate(trimledAAfile):
+    #print("#### calculate_nonGapSiteRate ####")
     recs_nonGapSiteRateFN = OrderedDict()
     recAA = readFasta_dict(eachDirAddress, trimledAAfile)
+    #print("trimledAAfile", trimledAAfile)
+    #exit()
+    #for name, seq in recAA.items():
+    #    print("name", name)
+    #exit(9)
 
     querySeq = list(recAA.values())[-1]
+    queryName = list(recAA.keys())[-1]
+    #print("queryName", queryName)
+    #exit()
     for otherName, otherSeq in recAA.items():
         protID = re.sub(" .*$","", otherName)
-        aaRate = compare2seqs(querySeq, otherSeq)
+        #aaRate = compare_query2other_aliSiteRate(querySeq, otherSeq)
+        aaRate = compare_query2other_aliSiteRate_nogap(querySeq, otherSeq)
+        #print("protID", protID)
+        #print("aaRate", aaRate)
+        #print("querySeq", querySeq)
+        #print("otherSeq", otherSeq)
         recs_nonGapSiteRateFN[protID] = aaRate
+    #exit()
     return recs_nonGapSiteRateFN
 
 
 def delete_sequences_with_alignedSiteRate():
+    #print("### Now fixing: delete_sequences_with_alignedSiteRate 1 ###")
 
     recs_nonGapSiteRate = calculate_nonGapSiteRate("042_AA.fas.trm")
+    #exit()
+    
+    #for name, rate in recs_nonGapSiteRate.items():
+    #    print("name1", name)
+    #    print("rate1", rate)
+    #print("### delete_sequences_with_alignedSiteRate 2 ###")
 
     file_overRateAA = open(eachDirAddress + "044_overRateAA.fas", "w")
     file_overRateDNA = ""
@@ -2033,9 +2098,12 @@ def delete_sequences_with_alignedSiteRate():
             file_overRateDNA.write(list(recDNA.keys())[i]   + "\n")
             file_overRateDNA.write(list(recDNA.values())[i] + "\n")
         file_unambSiteRatefile.write(name + "\n" + str(rate) + "\n")
+        #print("name2", name)
+        #print("rate2", rate)
     file_overRateAA.close()
     file_overRateDNA.close()
     file_unambSiteRatefile.close()
+    #exit()
 
 ### delete_sequences_with_alignedSiteRate End
 ###############################################################
@@ -2109,8 +2177,8 @@ def trimaledFileMakerDNA_v12(fastaFile, trimAAresult, outfile):
     #print("trimalMarkedSites", trimalMarkedSites)
     #exit()
     trimalMarkedSites = re.sub("<span class=sel>.</span>", "#", trimalMarkedSites)
-    print("trimalMarkedSites", trimalMarkedSites)
-    exit()
+    #print("trimalMarkedSites", trimalMarkedSites)
+    #exit()
 
     recsTrimed = OrderedDict()
     for name,value in recs.items():
@@ -2858,13 +2926,13 @@ make_treeFile("000_speciesTree.txt", SpeciesTree)
 '''
 '''
 
-
 aaSeqMaker()
 
 print("\n\n##### 1st tree: BLAST ######\n\n")
 blastpSearch()
 
 hitRecPicker()
+#exit()
 
 print("\n\n##### 1st tree: MAFFT 1st round ######\n\n")
 maffLine1 = "tools/mafft " + eachDirAddress + "030_retrievedAAfas.txt > " + eachDirAddress + "040_mafOutAA.txt"
@@ -2901,8 +2969,11 @@ if " 0 bp" in fTrimOut[0]:
      error_resHtmlMaker(result)
      exit()
 
+
+
 print("\n\n##### 1st tree: calcilation for ShortSequence_threshold ######\n\n")
 delete_sequences_with_alignedSiteRate()
+#exit()
 
 
 print("\n\n##### 1st tree: MAFFT 2nd round ######\n\n")
@@ -2933,8 +3004,8 @@ if not NJtreeFileCont:
         deleteFiles()
     exit()
 
-#trimaledFileMakerDNA_v12("054_p2nOutcDNAfas.txt", "052_AA.fas.trm.html", outfile="080_trimedCDNAPhy.txt")
-trimaledFileMakerDNA_v141("054_p2nOutcDNAfas.txt", "052_AA.fas.trm.html", outfile="080_trimedCDNAPhy.txt")
+trimaledFileMakerDNA_v12("054_p2nOutcDNAfas.txt", "052_AA.fas.trm.html", outfile="080_trimedCDNAPhy.txt")
+#trimaledFileMakerDNA_v141("054_p2nOutcDNAfas.txt", "052_AA.fas.trm.html", outfile="080_trimedCDNAPhy.txt")
 #exit()
 
 fas2phy(fastaFileName="052_AA.fas.trm", outPhyFileName="080_trimedAAPhy.txt")
@@ -2995,7 +3066,7 @@ if not os.path.isfile(eachDirAddress + "085_NJBS1st.txt.rearrange.0"):
 
 print("\n\n##### 1st tree: Making summary ######\n\n")
 makeSummary(outfile_summary = "100_analysisSummary.txt")
-
+#exit()
 
 
 if Switch_deleteIntermediateFiles == "L":
@@ -3061,8 +3132,8 @@ subprocess.call(pal2nalLine, shell=True)
 fas2phy(fastaFileName = "160_mafOut.txt", outPhyFileName = "190_aln_prot.txt")
 fas2phy(fastaFileName = "180_aln_nucl_fas.txt", outPhyFileName = "190_aln_nucl.txt")
 
-#trimaledFileMakerDNA_v12("180_aln_nucl_fas.txt", "170_aln_prot.html", outfile = "200_trimedCDNAPhy.txt")
-trimaledFileMakerDNA_v141("180_aln_nucl_fas.txt", "170_aln_prot.html", outfile = "200_trimedCDNAPhy.txt")
+trimaledFileMakerDNA_v12("180_aln_nucl_fas.txt", "170_aln_prot.html", outfile = "200_trimedCDNAPhy.txt")
+#trimaledFileMakerDNA_v141("180_aln_nucl_fas.txt", "170_aln_prot.html", outfile = "200_trimedCDNAPhy.txt")
 fas2phy("170_trimedAAOutFas.txt", "200_trimedAAPhy.txt")
 
 phyCodonToBlock("200_trimedCDNAPhy.txt", 2, outfile="210_trimedBlockExc3rdPhy.txt")
