@@ -2022,6 +2022,7 @@ def topHitPicker():
 ###############################################################
 ### delete_sequences_with_alignedSiteRate Start
 def compare_query2other_aliSiteRate(querySeq, otherSeq):
+    # This function is not used and replaced with compare_query2other_aliSiteRate_nogap.
     count = 0
     for i in range(len(querySeq)):
         if re.match("\w", querySeq[i]) and re.match("\w", otherSeq[i]):
