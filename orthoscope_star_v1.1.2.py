@@ -1824,6 +1824,10 @@ def makeSummary(outfile_summary):
         fs.write(seq + "\n")
     fs.write("\n")
 
+    fs.write(">SpeciesTree\n")
+    fs.write(SpeciesTree + "\n")
+    fs.write("\n")
+
     #fs.write(">SpeciesTree\n")
     #fs.write(speciesTree)
     #fs.write("\n\n")
@@ -2865,8 +2869,9 @@ if not os.path.exists(dbAddress):
 eachDirAddress = outdir + "/" + queryID + "/"
 #outdir = path_currentDirectory + "/" + outdir
 
+dirFileMake(queryDatabase, name_querySpecies, queryID)
 
-# reorder dbLines taxonSamplingList along with species tree
+#### Reorder dbLines taxonSamplingList along with species tree
 make_treeFile("000_speciesTreeTMP.txt", SpeciesTreeTMP)
 #exit()
 laderrizedTree = "tools/Rscript scripts/ladderizeTree.R " + eachDirAddress + "000_speciesTreeTMP.txt " + eachDirAddress + "000_speciesTree.txt"
@@ -2954,7 +2959,6 @@ if mode == "S":
     print_csv(lines_atmarkSeparated)
     exit()
 
-dirFileMake(queryDatabase, name_querySpecies, queryID)
 
 if draw_speciesTree == "Draw":
     if not os.path.exists(outdir + "/speciesTree.pdf"):
