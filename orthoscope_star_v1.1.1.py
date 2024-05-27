@@ -3009,8 +3009,8 @@ if not NJtreeFileCont:
         deleteFiles()
     exit()
 
-trimaledFileMakerDNA_v12("054_p2nOutcDNAfas.txt", "052_AA.fas.trm.html", outfile="080_trimedCDNAPhy.txt")
-#trimaledFileMakerDNA_v141("054_p2nOutcDNAfas.txt", "052_AA.fas.trm.html", outfile="080_trimedCDNAPhy.txt")
+#trimaledFileMakerDNA_v12("054_p2nOutcDNAfas.txt", "052_AA.fas.trm.html", outfile="080_trimedCDNAPhy.txt")
+trimaledFileMakerDNA_v141("054_p2nOutcDNAfas.txt", "052_AA.fas.trm.html", outfile="080_trimedCDNAPhy.txt")
 #exit()
 
 fas2phy(fastaFileName="052_AA.fas.trm", outPhyFileName="080_trimedAAPhy.txt")
@@ -3137,8 +3137,8 @@ subprocess.call(pal2nalLine, shell=True)
 fas2phy(fastaFileName = "160_mafOut.txt", outPhyFileName = "190_aln_prot.txt")
 fas2phy(fastaFileName = "180_aln_nucl_fas.txt", outPhyFileName = "190_aln_nucl.txt")
 
-trimaledFileMakerDNA_v12("180_aln_nucl_fas.txt", "170_aln_prot.html", outfile = "200_trimedCDNAPhy.txt")
-#trimaledFileMakerDNA_v141("180_aln_nucl_fas.txt", "170_aln_prot.html", outfile = "200_trimedCDNAPhy.txt")
+#trimaledFileMakerDNA_v12("180_aln_nucl_fas.txt", "170_aln_prot.html", outfile = "200_trimedCDNAPhy.txt")
+trimaledFileMakerDNA_v141("180_aln_nucl_fas.txt", "170_aln_prot.html", outfile = "200_trimedCDNAPhy.txt")
 fas2phy("170_trimedAAOutFas.txt", "200_trimedAAPhy.txt")
 
 phyCodonToBlock("200_trimedCDNAPhy.txt", 2, outfile="210_trimedBlockExc3rdPhy.txt")
