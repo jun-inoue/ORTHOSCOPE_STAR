@@ -8,9 +8,9 @@ import subprocess
 import time
 
 
-##### v1.1.1 update
-# For ShortSequence_threshold, the function "compare_query2other" was updated and named "compare_query2other_aliSiteRate_nogap."
-# This new function does not count gap sites of the query sequence to calculate aligned-site rates.
+##### v1.1.2 update
+# The assigne order of taxon sampling in >TaxonSampling is reordered according to the ladder-rized species tree (rooting is placed the top).  
+# See the "subprocess.call(laderrizedTree, shell=True)" line and the additional R script, ladderizeTree.R
 ######
 
 AddintHeaderAfterAT = "D"   ## L:leave or D:Delete @xxxx for the summarize analysis
@@ -608,10 +608,9 @@ def read_controlFile():
         exit()
     dbAddress = dbAddress + "/"
     dbLinesTMP, taxonSamplingListTMP = check_pickup_taxonSampling(dbAddress, resDict_SR[">TaxonSampling"])
-    dbLines, taxonSamplingList = reorder_dbLines(dbLinesTMP, taxonSamplingListTMP, name_querySpecies)
     queryDatabase = ""
 
-    for dbLine in dbLines:
+    for dbLine in dbLinesTMP:
         if re.search(name_querySpecies + "_", dbLine[0]):
             queryDatabase = dbLine[2]
     if not queryDatabase:
@@ -619,25 +618,44 @@ def read_controlFile():
             print("Error: >QuerySpecies", name_querySpecies," cannot be found in >TaxonSampling. Stopped")
             exit()
 
-    return dbLines, taxonSamplingList, SpeciesTree, blastEvalue, \
+    return dbLinesTMP, taxonSamplingListTMP, SpeciesTree, blastEvalue, \
 Number_of_hits_to_report_per_genome, Aligned_site_rate, dataset, BSthreshold, \
 treeSearchMethod, num_rootSequences, keyNode, name_querySpecies, queryDatabase, \
 dbAddress, outdir, alignment_orthogroups, mode, Switch_deleteIntermediateFiles, speciesWithGeneFunction
 
 
-def reorder_dbLines(dbLinesTMP, taxonSamplingListTMP, name_querySpecies):
+def reorder_dbLines(dbLinesTMP, taxonSamplingListTMP, name_querySpecies, treeFileName):
     #print("#### reorder_dbLines ####")
     #print("name_querySpecies", name_querySpecies)
+    leaves = collect_leaves_InOrderFrom_bothNHXnewick(treeFileName)
 
+    # dbLines
+    dbLines_treeOrder = []
+    for leaf in leaves:
+        #print("leaf", leaf)
+        for dbLine in dbLinesTMP:
+            #print("dbLine[0]", dbLine[0])
+            if dbLine[0] == leaf + "_":
+               dbLines_treeOrder.append(dbLine)
+        #exit()
+    #for dbLine in dbLines_treeOrder:
+    #    print("dbLine[0]1", dbLine[0])
+    #exit()
+       
     dbLines = []
-    for line in dbLinesTMP:
+    for line in dbLines_treeOrder:
         if not line[0] == name_querySpecies + "_":
             dbLines.append(line)
         #dbLinesTMP1.append(line)
     for line in dbLinesTMP:
         if line[0] == name_querySpecies + "_":
             dbLines.append(line)
+    #for dbLine in dbLines:
+    #    print("dbLine[0]2", dbLine[0])
+    #exit()
 
+
+    # taxonSamplingList
     taxonSamplingList = []
     for dbline in dbLines:
         for line_ts in taxonSamplingListTMP:
@@ -1801,6 +1819,10 @@ def makeSummary(outfile_summary):
         fs.write(seq + "\n")
     fs.write("\n")
 
+    fs.write(">SpeciesTree\n")
+    fs.write(SpeciesTree + "\n")
+    fs.write("\n")
+
     #fs.write(">SpeciesTree\n")
     #fs.write(speciesTree)
     #fs.write("\n\n")
@@ -2172,7 +2194,7 @@ def read_TrimalHTMLout_dict_v141(trimAAresult):
     return trimalMarkedSites
 
 
-def trimaledFileMakerDNA_v12(fastaFile, trimAAresult, outfile):
+def trimaledv12_FileMakerDNA(fastaFile, trimAAresult, outfile):
     recs = readFasta_dict(eachDirAddress, fastaFile)
     
     recs_trimalHTMLout = read_TrimalHTMLout_dict_v12(trimAAresult)
@@ -2197,7 +2219,7 @@ def trimaledFileMakerDNA_v12(fastaFile, trimAAresult, outfile):
     orderedDict2phyFile(recsTrimed, outfile = outfile)
 
 
-def trimaledFileMakerDNA_v141(fastaFile, trimAAresult, outfile):
+def trimaledv141_FileMakerDNA(fastaFile, trimAAresult, outfile):
     recs = readFasta_dict(eachDirAddress, fastaFile)
     #print("fastaFile", fastaFile)
     #exit()
@@ -2817,11 +2839,13 @@ startTime = time.time()
 
 #####
 
-dbLines, taxonSamplingList, SpeciesTree, blastEvalue, \
+dbLinesTMP, taxonSamplingListTMP, SpeciesTreeTMP, blastEvalue, \
 Number_of_hits_to_report_per_genome, Aligned_site_rate, dataset, BSthreshold, \
 treeSearchMethod, num_rootSequences, keyNode, name_querySpecies, queryDatabase, \
 dbAddress, outdir, alignment_orthogroups, mode, Switch_deleteIntermediateFiles, speciesWithGeneFunction\
 = read_controlFile()
+
+
 
 if mode == "E" or mode == "D":
     check_toolsDirectory()
@@ -2840,9 +2864,23 @@ if not os.path.exists(dbAddress):
 eachDirAddress = outdir + "/" + queryID + "/"
 #outdir = path_currentDirectory + "/" + outdir
 
+dirFileMake(queryDatabase, name_querySpecies, queryID)
+
+#### Reorder dbLines taxonSamplingList along with species tree
+make_treeFile("000_speciesTreeTMP.txt", SpeciesTreeTMP)
+#exit()
+laderrizedTree = "tools/Rscript scripts/ladderizeTree.R " + eachDirAddress + "000_speciesTreeTMP.txt " + eachDirAddress + "000_speciesTree.txt"
+#print("laderrizedTree: ", laderrizedTree)
+subprocess.call(laderrizedTree, shell=True)
+fs_SpeciesTree = open(eachDirAddress + "000_speciesTree.txt")
+SpeciesTree = list(fs_SpeciesTree)[0]
+fs_SpeciesTree.close()
+SpeciesTree = SpeciesTree.rstrip("\n")
+dbLines, taxonSamplingList = reorder_dbLines(dbLinesTMP, taxonSamplingListTMP, name_querySpecies, "000_speciesTree.txt")
+
+
 allNodes_speciesTree  = collect_nodes_from_speciesTree()
 
-test_querySpecies_is_in_speciesTree(taxonSamplingList, SpeciesTree)
 
 if mode == "D":
     print("##### Tree draw ######")
@@ -2888,6 +2926,8 @@ speciesNodes_including_querySpecies = collect_ancestralNodes(allNodes_speciesTre
 #    name_targetSpeciesNode = make_nodeName_from_nodeLavel_NHXstyle(targetSpeciesNode[2])
 #    print("name_targetSpeciesNode1", name_targetSpeciesNode)
 
+
+
 childSpeciesNodes_orthogroup_including_querySpecies = collect_childNodesincluding_querySpecies(allNodes_speciesTree, orthogroup_speciesNode)
 #for targetSpeciesNode in childSpeciesNodes_orthogroup_including_querySpecies:
 #    name_targetSpeciesNode = make_nodeName_from_nodeLavel_NHXstyle(targetSpeciesNode[2])
@@ -2914,7 +2954,6 @@ if mode == "S":
     print_csv(lines_atmarkSeparated)
     exit()
 
-dirFileMake(queryDatabase, name_querySpecies, queryID)
 
 if draw_speciesTree == "Draw":
     if not os.path.exists(outdir + "/speciesTree.pdf"):
@@ -2926,8 +2965,6 @@ if draw_speciesTree == "Draw":
 
 checkUplodedFileAsFastaForamt()
 
-make_treeFile("000_speciesTree.txt", SpeciesTree)
-
 
 '''
 '''
@@ -2936,6 +2973,7 @@ aaSeqMaker()
 
 print("\n\n##### 1st tree: BLAST ######\n\n")
 blastpSearch()
+
 
 hitRecPicker()
 #exit()
@@ -3010,8 +3048,8 @@ if not NJtreeFileCont:
         deleteFiles()
     exit()
 
-#trimaledFileMakerDNA_v12("054_p2nOutcDNAfas.txt", "052_AA.fas.trm.html", outfile="080_trimedCDNAPhy.txt")
-trimaledFileMakerDNA_v141("054_p2nOutcDNAfas.txt", "052_AA.fas.trm.html", outfile="080_trimedCDNAPhy.txt")
+#trimaledv12_FileMakerDNA("054_p2nOutcDNAfas.txt", "052_AA.fas.trm.html", outfile="080_trimedCDNAPhy.txt")
+trimaledv141_FileMakerDNA("054_p2nOutcDNAfas.txt", "052_AA.fas.trm.html", outfile="080_trimedCDNAPhy.txt")
 #exit()
 
 fas2phy(fastaFileName="052_AA.fas.trm", outPhyFileName="080_trimedAAPhy.txt")
@@ -3138,8 +3176,8 @@ subprocess.call(pal2nalLine, shell=True)
 fas2phy(fastaFileName = "160_mafOut.txt", outPhyFileName = "190_aln_prot.txt")
 fas2phy(fastaFileName = "180_aln_nucl_fas.txt", outPhyFileName = "190_aln_nucl.txt")
 
-#trimaledFileMakerDNA_v12("180_aln_nucl_fas.txt", "170_aln_prot.html", outfile = "200_trimedCDNAPhy.txt")
-trimaledFileMakerDNA_v141("180_aln_nucl_fas.txt", "170_aln_prot.html", outfile = "200_trimedCDNAPhy.txt")
+#trimaledv12_FileMakerDNA("180_aln_nucl_fas.txt", "170_aln_prot.html", outfile = "200_trimedCDNAPhy.txt")
+trimaledv141_FileMakerDNA("180_aln_nucl_fas.txt", "170_aln_prot.html", outfile = "200_trimedCDNAPhy.txt")
 fas2phy("170_trimedAAOutFas.txt", "200_trimedAAPhy.txt")
 
 phyCodonToBlock("200_trimedCDNAPhy.txt", 2, outfile="210_trimedBlockExc3rdPhy.txt")
