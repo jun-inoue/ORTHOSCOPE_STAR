@@ -13,5 +13,6 @@ tr <- read.tree(MyTree)
 tr.ladderrize <- ladderize(tr, FALSE)
 ### The rooting species branches off from top left
 #tr.ladderrize <- ladderize(tr)
+
 write.tree(tr.ladderrize, file=outfile)
 
