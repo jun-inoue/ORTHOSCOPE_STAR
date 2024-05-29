@@ -13,6 +13,11 @@ import time
 # See the "subprocess.call(laderrizedTree, shell=True)" line and the additional R script, ladderizeTree.R
 ######
 
+##### v1.1.1 update
+# For ShortSequence_threshold, the function "compare_query2other" was updated and named "compare_query2other_aliSiteRate_nogap."
+# This new function does not count gap sites of the query sequence to calculate aligned-site rates.
+######
+
 AddintHeaderAfterAT = "D"   ## L:leave or D:Delete @xxxx for the summarize analysis
 draw_speciesTree = "Not"  ## Draw: Draw species tree in the .pdf file
 
@@ -681,9 +686,7 @@ def dirFileMake(queryDatabase, name_querySpecies, queryID):
             break
     if not nameline_query:
         print("Error in your control file.")
-        print(queryID)
-        print("is not found in ")
-        print(queryDatabase)
+        print(queryID, "is not found in", queryDatabase)
         exit()
 
     if not os.path.exists(outdir):
@@ -2847,26 +2850,31 @@ dbAddress, outdir, alignment_orthogroups, mode, Switch_deleteIntermediateFiles, 
 
 
 
-if mode == "E" or mode == "D":
-    check_toolsDirectory()
-
 
 check_mode()
 
+eachDirAddress = ""
+if mode == "E" or mode == "D":
+    check_toolsDirectory()
 
-print("\n\n############### " + queryID + " ################\n\n")
-#print("sys.version", sys.version)
+    print("\n\n############### " + queryID + " ################\n\n")
+    #print("sys.version", sys.version)
+    
+    
+    if not os.path.exists(dbAddress):
+        print("Chack your database address. Stop.")
+        print("Exit.")
+    eachDirAddress = outdir + "/" + queryID + "/"
+    #outdir = path_currentDirectory + "/" + outdir
+    
+    dirFileMake(queryDatabase, name_querySpecies, queryID)
+
+else:
+    eachDirAddress = "./"
 
 
-if not os.path.exists(dbAddress):
-    print("Chack your database address. Stop.")
-    print("Exit.")
-eachDirAddress = outdir + "/" + queryID + "/"
-#outdir = path_currentDirectory + "/" + outdir
-
-dirFileMake(queryDatabase, name_querySpecies, queryID)
-
-#### Reorder dbLines taxonSamplingList along with species tree
+#### Species Tree raddrrize (Top left)
+#print("eachDirAddress",eachDirAddress)
 make_treeFile("000_speciesTreeTMP.txt", SpeciesTreeTMP)
 #exit()
 laderrizedTree = "tools/Rscript scripts/ladderizeTree.R " + eachDirAddress + "000_speciesTreeTMP.txt " + eachDirAddress + "000_speciesTree.txt"
@@ -2876,11 +2884,13 @@ fs_SpeciesTree = open(eachDirAddress + "000_speciesTree.txt")
 SpeciesTree = list(fs_SpeciesTree)[0]
 fs_SpeciesTree.close()
 SpeciesTree = SpeciesTree.rstrip("\n")
+
+
+#### Reorder dbLines taxonSamplingList along with species tree
 dbLines, taxonSamplingList = reorder_dbLines(dbLinesTMP, taxonSamplingListTMP, name_querySpecies, "000_speciesTree.txt")
 
 
 allNodes_speciesTree  = collect_nodes_from_speciesTree()
-
 
 if mode == "D":
     print("##### Tree draw ######")
@@ -2952,6 +2962,11 @@ if mode == "S":
     
     lines_atmarkSeparated = make_lines_atmarkSeparated(geneIDs)
     print_csv(lines_atmarkSeparated)
+
+    address_file = eachDirAddress + "000_speciesTreeTMP.txt"
+    line_rm = "rm " + address_file
+    #print("line_rm", line_rm)
+    subprocess.call(line_rm, shell=True)
     exit()
 
 
