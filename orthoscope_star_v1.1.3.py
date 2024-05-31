@@ -8,15 +8,11 @@ import subprocess
 import time
 
 
-##### v1.1.2 update
-# The assigne order of taxon sampling in >TaxonSampling is reordered according to the ladder-rized species tree (rooting is placed the top).  
-# See the "subprocess.call(laderrizedTree, shell=True)" line and the additional R script, ladderizeTree.R
+##### v1.1.3 update
+# Name lengths of query sequences were not properly shortened. This prevented proper orthogroup identification. 
+# The shorten_nameLine function is newly made to shorten name length consistently.
 ######
 
-##### v1.1.1 update
-# For ShortSequence_threshold, the function "compare_query2other" was updated and named "compare_query2other_aliSiteRate_nogap."
-# This new function does not count gap sites of the query sequence to calculate aligned-site rates.
-######
 
 AddintHeaderAfterAT = "D"   ## L:leave or D:Delete @xxxx for the summarize analysis
 draw_speciesTree = "Not"  ## Draw: Draw species tree in the .pdf file
