@@ -686,7 +686,7 @@ def dirFileMake(queryDatabase, name_querySpecies, queryID):
             break
     if not nameline_query:
         print("Error in your control file.")
-        print(queryID, "is not found in", queryDatabase)
+        print(queryID, "is not found in", dbAddress + queryDatabase)
         exit()
 
     if not os.path.exists(outdir):
@@ -1058,7 +1058,7 @@ def collect_nodes_from_NHX(treeFN):
 
 
 def identify_orthogroup(treeNHX):
-
+    #print("### identify_orthogroup ###")
     #f = open(eachDirAddress + "000_speciesTree.txt")
     #speciesTree = "".join(list(f))
     #speciesTree = re.sub("[ \n]", "", speciesTree)
@@ -1068,6 +1068,7 @@ def identify_orthogroup(treeNHX):
 
     topHits = topHitPicker()
     #print("topHits", topHits)
+    #exit()
     nameLine_cds_blastTopHit = list(topHits.values())[0][0]
     nameLine_cds_assigned_by_ID = list(topHits.keys())[0]
     
@@ -1077,13 +1078,17 @@ def identify_orthogroup(treeNHX):
     #print("keyNode", keyNode)
     
     candidates_orthogroup = []
+    #print("nameLine_cds_blastTopHit[1:]", nameLine_cds_blastTopHit[1:])
     for node in allGeneNodesSR:
+        #print("node", node)
+        #exit()        
         criterion = 0
-
         for leaf in node[1]:
+            #print("leaf", leaf)
             if leaf == nameLine_cds_blastTopHit[1:]:
             #if re.search(nameLine_cds_blastTopHit[1:], leaf):
                 criterion += 1
+
 
         if re.search("S=" + keyNode, node[2]):
             criterion += 1
@@ -1091,12 +1096,15 @@ def identify_orthogroup(treeNHX):
         if criterion == 2:
            candidates_orthogroup.append(node)
 
+    #print("")
+
     orthogroupSR = []
     if not candidates_orthogroup:
         orthogroupSR = [0, 0, "No_candidates_orthogroup"]
     else:
         orthogroupSR = candidates_orthogroup.pop()
         #print("orthogroupSR", orthogroupSR)
+
     return orthogroupSR
 
 
@@ -1907,6 +1915,9 @@ def change_prohibitedExpression_in_nameLine(nameLine_FN):
     nameLine_FN = re.sub("-+", "-", nameLine_FN)
     return nameLine_FN
 
+def shorten_nameLine(nameLineTMP):
+    nameLine = re.sub("(>.{60}).*", r"\1", nameLineTMP)
+    return nameLine
 
 def hitRecPicker():
     #print("#### hitRecPicker ####")
@@ -1949,7 +1960,10 @@ def hitRecPicker():
             nameLine = change_prohibitedExpression_in_nameLine(nameLine)
             nameLine = re.sub(">", ">" + dbline[0][:-1] + "_", nameLine)
             #print("nameLine",nameLine)
-            nameLine = re.sub("(>.{60}).*", r"\1", nameLine)
+            
+            #nameLine = re.sub("(>.{60}).*", r"\1", nameLine)
+            nameLine = shorten_nameLine(nameLine)
+            
             #print("nameLine",nameLine)
             #print("")
             AAout.write(nameLine + "\n")
@@ -2036,6 +2050,7 @@ def topHitPicker():
             blastTopHitNameLine = re.sub(">", ">" + querySpecies_SR + "_", blastTopHitNameLine)
             blastTopHitIdentity = identity_blasthit
             break
+        blastTopHitNameLine = shorten_nameLine(blastTopHitNameLine)
         topHits[nameLine_cds_assigned_by_ID] = [blastTopHitNameLine, blastTopHitIdentity.rstrip("\n")]
     return topHits
 
@@ -2487,7 +2502,9 @@ def moveRAxMLfiles(outfile):
 def error_resHtmlMaker(resultFN):
     topHits = topHitPicker()
     topHitName_1stQuery = list(topHits.values())[0]
-    resHTMLlines1 = re.sub('FIRSTQUERY', topHitName_1stQuery[0][1:], resHTMLlines_incomplete)
+    firstQueryTMP = topHitName_1stQuery[0][1:]
+    firstQueryTMP = shorten_nameLine(firstQueryTMP)
+    resHTMLlines1 = re.sub('FIRSTQUERY', firstQueryTMP, resHTMLlines_incomplete)
     resHTMLlines1 = re.sub('BSVALUE_orthogroup_1STTREE', resultFN, resHTMLlines1)
     resHTMLlines1 = re.sub('EACHDIRADDRESS_', eachDirAddress, resHTMLlines1)
 
@@ -2533,7 +2550,7 @@ def make_resHtml2(resHTMLlinesFN):
     resDict_1st = readRes_dict(eachDirAddress + "/100_analysisSummary.txt")
     topHitName_1stQuery = resDict_1st[">QuerySequence"][0]
     topHitName_1stQuery = re.sub(" +.*", "", topHitName_1stQuery)
-
+    firstQueryTMP = shorten_nameLine(topHitName_1stQuery)
     resHTMLlines1 = re.sub('FIRSTQUERY', topHitName_1stQuery, resHTMLlinesFN)
 
     #f1stTree = open(eachDirAddress + "085_NJBS1st.txt.rearrange.0")
@@ -3121,6 +3138,7 @@ if not os.path.isfile(eachDirAddress + "085_NJBS1st.txt.rearrange.0"):
     print ("Error in NOTUNG: Cannot compare the NJ and species tree.<br>")
     print ("Check your species tree.<br>")
     exit()
+
 
 
 print("\n\n##### 1st tree: Making summary ######\n\n")
