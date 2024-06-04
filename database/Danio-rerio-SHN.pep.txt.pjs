@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "Danio-rerio-SHN.pep.txt",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "database/Danio-rerio-SHN.pep.txt",
+  "number-of-letters": 306338,
+  "number-of-sequences": 395,
+  "last-updated": "2024-05-27T17:58:00",
+  "number-of-volumes": 1,
+  "bytes-total": 484259,
+  "bytes-to-cache": 310022,
+  "files": [
+    "Danio-rerio-SHN.pep.txt.pdb",
+    "Danio-rerio-SHN.pep.txt.phr",
+    "Danio-rerio-SHN.pep.txt.pin",
+    "Danio-rerio-SHN.pep.txt.pot",
+    "Danio-rerio-SHN.pep.txt.psq",
+    "Danio-rerio-SHN.pep.txt.ptf",
+    "Danio-rerio-SHN.pep.txt.pto"
+  ]
+}

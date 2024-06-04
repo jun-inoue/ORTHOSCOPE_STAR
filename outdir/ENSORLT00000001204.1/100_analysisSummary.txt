@@ -10,88 +10,83 @@ Xenopus-tropicalis       3
 Gallus-gallus            3
 Homo-sapiens             3
 Danio-rerio              4
-Gasterosteus-aculeatus   4
 Tetraodon-nigroviridis   4
+Gasterosteus-aculeatus   4
 Oryzias-latipes          4
 
 >BS_of_orthogroupBasalNode
-70
+88
 
 
 >Orthogroup
 Danio-rerio_ENSDART00000022242.9_ogdha-oxoglutarate-alpha-ke
-Danio-rerio_ENSDART00000113009.4_ogdhl-oxoglutarate-dehydrog
 Danio-rerio_ENSDART00000172621.1_ogdhb-oxoglutarate-alpha-ke
-Gallus-gallus_ENSGALT00000003553.6_OGDHL-oxoglutarate-d
 Gallus-gallus_ENSGALT00000094484.1_OGDH-oxoglutarate-de
 Gasterosteus-aculeatus_ENSGACT00000000295.1_ogdhb-oxoglutara
 Gasterosteus-aculeatus_ENSGACT00000001428.1_ogdhb-oxoglutara
-Gasterosteus-aculeatus_ENSGACT00000010911.1_ogdhl-oxoglutara
-Homo-sapiens_ENST00000374103.9_OGDHL-oxoglutarate-dehy
 Homo-sapiens_ENST00000444676.5_OGDH-oxoglutarate-dehyd
 Oryzias-latipes_ENSORLT00000001204.1_ogdhb-oxoglutarate-alph
 Oryzias-latipes_ENSORLT00000021895.1_ogdhb-oxoglutarate-alph
 Tetraodon-nigroviridis_ENSTNIT00000008746.1_ogdhb-oxoglutara
-Tetraodon-nigroviridis_ENSTNIT00000011681.1_ogdhl-oxoglutara
-Xenopus-tropicalis_ENSXETT00000012378.2_ogdhl-oxoglutarate-d
+Tetraodon-nigroviridis_ENSTNIT00000016780.1_ogdhb-oxoglutara
 Xenopus-tropicalis_ENSXETT00000041196.2_ogdh-oxoglutarate-al
 
 >GeneNumber_of_orthogroup
-Xenopus-tropicalis            2
-Gallus-gallus                 2
-Homo-sapiens                  2
-Danio-rerio                   3
-Tetraodon-nigroviridis        2
-Gasterosteus-aculeatus        3
+Xenopus-tropicalis            1
+Gallus-gallus                 1
+Homo-sapiens                  1
+Danio-rerio                   2
 Oryzias-latipes               2
+Tetraodon-nigroviridis        2
+Gasterosteus-aculeatus        2
 
 >Rooting
-Tetraodon-nigroviridis_ENSTNIT00000016780.1_ogdhb-oxoglutara
+Homo-sapiens_ENST00000374103.9_OGDHL-oxoglutarate-dehy
 
 
 >1st_rearranged_gene_tree_newick
-((((((((((Gasterosteus-aculeatus_ENSGACT00000001428.1_ogdhb-oxoglutara,Tetraodon-nigroviridis_ENSTNIT00000008746.1_ogdhb-oxoglutara)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000021895.1_ogdhb-oxoglutarate-alph)100_S=Percomorpha_D=N,(Danio-rerio_ENSDART00000172621.1_ogdhb-oxoglutarate-alpha-ke,Danio-rerio_ENSDART00000022242.9_ogdha-oxoglutarate-alpha-ke)r_S=Danio-rerio_D=Y)92_S=Teleostei_D=N,((Homo-sapiens_ENST00000444676.5_OGDH-oxoglutarate-dehyd,Gallus-gallus_ENSGALT00000094484.1_OGDH-oxoglutarate-de)100_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000041196.2_ogdh-oxoglutarate-al)100_S=Tetrapoda_D=N)86_S=BonyVertebrates_D=N,(((Homo-sapiens_ENST00000374103.9_OGDHL-oxoglutarate-dehy,Gallus-gallus_ENSGALT00000003553.6_OGDHL-oxoglutarate-d)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000012378.2_ogdhl-oxoglutarate-d)100_S=Tetrapoda_D=N,((Tetraodon-nigroviridis_ENSTNIT00000011681.1_ogdhl-oxoglutara,Gasterosteus-aculeatus_ENSGACT00000010911.1_ogdhl-oxoglutara)100_S=Eupercaria_D=N,Danio-rerio_ENSDART00000113009.4_ogdhl-oxoglutarate-dehydrog)100_S=Teleostei_D=N)94_S=BonyVertebrates_D=N)r_S=BonyVertebrates_D=Y,(Oryzias-latipes_ENSORLT00000001204.1_ogdhb-oxoglutarate-alph,Gasterosteus-aculeatus_ENSGACT00000000295.1_ogdhb-oxoglutara)100_S=Percomorpha_D=N)70_S=BonyVertebrates_D=Y,Tetraodon-nigroviridis_ENSTNIT00000016780.1_ogdhb-oxoglutara)100_S=BonyVertebrates_D=Y,(Drosophila-melanogaster_FBtr0112860_Nc73EF-Neural-conserved,Drosophila-melanogaster_FBtr0091795_CG33791-NONE)r_S=Drosophila-melanogaster_D=Y)98_S=Bilateria_D=N,((((((Oryzias-latipes_ENSORLT00000004901.1_dhtkd1-dehydrogenase-E1,Tetraodon-nigroviridis_ENSTNIT00000019327.1_dhtkd1-dehydroge)76_S=Percomorpha_D=N,Gasterosteus-aculeatus_ENSGACT00000005915.1_dhtkd1-dehydroge)99_S=Percomorpha_D=Y,Danio-rerio_ENSDART00000003252.7_dhtkd1-dehydrogenase-E1-and)100_S=Teleostei_D=N,((Gallus-gallus_ENSGALT00000005822.6_DHTKD1-dehydrogenase,Xenopus-tropicalis_ENSXETT00000047526.3_dhtkd1-dehydrogenase)93_S=Tetrapoda_D=N,Homo-sapiens_ENST00000263035.9_DHTKD1-dehydrogenase-E1)99_S=Tetrapoda_D=Y)100_S=BonyVertebrates_D=N,Ciona-intestinalis_ENSCINT00000019191.3_NONE)99_S=Deuterostomia_D=N,Drosophila-melanogaster_FBtr0085755_CG1544-NONE)87_S=Bilateria_D=N)100_S=Bilateria_D=Y,Drosophila-melanogaster_FBtr0070711_l1G0334-lethal-1-G0334-)100_S=Bilateria_D=Y;
+((((((((((Gasterosteus-aculeatus_ENSGACT00000001428.1_ogdhb-oxoglutara,Tetraodon-nigroviridis_ENSTNIT00000008746.1_ogdhb-oxoglutara)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000021895.1_ogdhb-oxoglutarate-alph)100_S=Percomorpha_D=N,Danio-rerio_ENSDART00000172621.1_ogdhb-oxoglutarate-alpha-ke)72_S=Teleostei_D=N,Danio-rerio_ENSDART00000022242.9_ogdha-oxoglutarate-alpha-ke)98_S=Teleostei_D=Y,((Homo-sapiens_ENST00000444676.5_OGDH-oxoglutarate-dehyd,Gallus-gallus_ENSGALT00000094484.1_OGDH-oxoglutarate-de)99_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000041196.2_ogdh-oxoglutarate-al)100_S=Tetrapoda_D=N)97_S=BonyVertebrates_D=N,((Oryzias-latipes_ENSORLT00000001204.1_ogdhb-oxoglutarate-alph,Gasterosteus-aculeatus_ENSGACT00000000295.1_ogdhb-oxoglutara)92_S=Percomorpha_D=N,Tetraodon-nigroviridis_ENSTNIT00000016780.1_ogdhb-oxoglutara)91_S=Percomorpha_D=Y)88_S=BonyVertebrates_D=Y,(((Homo-sapiens_ENST00000374103.9_OGDHL-oxoglutarate-dehy,Gallus-gallus_ENSGALT00000003553.6_OGDHL-oxoglutarate-d)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000012378.2_ogdhl-oxoglutarate-d)100_S=Tetrapoda_D=N,((Gasterosteus-aculeatus_ENSGACT00000010911.1_ogdhl-oxoglutara,Tetraodon-nigroviridis_ENSTNIT00000011681.1_ogdhl-oxoglutara)100_S=Eupercaria_D=N,Danio-rerio_ENSDART00000113009.4_ogdhl-oxoglutarate-dehydrog)100_S=Teleostei_D=N)93_S=BonyVertebrates_D=N)100_S=BonyVertebrates_D=Y,(Drosophila-melanogaster_FBtr0112860_Nc73EF-Neural-conserved,Drosophila-melanogaster_FBtr0091795_CG33791-NONE)84_S=Drosophila-melanogaster_D=Y)100_S=Bilateria_D=N,(((((Gasterosteus-aculeatus_ENSGACT00000005915.1_dhtkd1-dehydroge,Tetraodon-nigroviridis_ENSTNIT00000019327.1_dhtkd1-dehydroge)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000004901.1_dhtkd1-dehydrogenase-E1)100_S=Percomorpha_D=N,Danio-rerio_ENSDART00000003252.7_dhtkd1-dehydrogenase-E1-and)100_S=Teleostei_D=N,((Homo-sapiens_ENST00000263035.9_DHTKD1-dehydrogenase-E1,Gallus-gallus_ENSGALT00000005822.6_DHTKD1-dehydrogenase)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000047526.3_dhtkd1-dehydrogenase)98_S=Tetrapoda_D=N)100_S=BonyVertebrates_D=N,Ciona-intestinalis_ENSCINT00000019191.3_NONE)96_S=Deuterostomia_D=N)100_S=Bilateria_D=Y,Drosophila-melanogaster_FBtr0085755_CG1544-NONE)100_S=Bilateria_D=Y;
 
 >1st_rearranged_gene_tree_NHX
-((((((((((Gasterosteus-aculeatus_ENSGACT00000001428.1_ogdhb-oxoglutara:0.01815205398[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000008746.1_ogdhb-oxoglutara:0.0271996075[&&NHX:S=Tetraodon-nigroviridis])r71[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000021895.1_ogdhb-oxoglutarate-alph:0.01304122714[&&NHX:S=Oryzias-latipes])n4:0.01633808866[&&NHX:S=Percomorpha:D=N:B=100.0],(Danio-rerio_ENSDART00000172621.1_ogdhb-oxoglutarate-alpha-ke:0.03457076549[&&NHX:S=Danio-rerio],Danio-rerio_ENSDART00000022242.9_ogdha-oxoglutarate-alpha-ke:0.03348705092[&&NHX:S=Danio-rerio])r69[&&NHX:S=Danio-rerio:D=Y])n8:0.007570279879[&&NHX:S=Teleostei:D=N:B=92.0],((Homo-sapiens_ENST00000444676.5_OGDH-oxoglutarate-dehyd:0.02189291823[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000094484.1_OGDH-oxoglutarate-de:0.02005181672[&&NHX:S=Gallus-gallus])n11:0.0107854256[&&NHX:S=Amniota:D=N:B=100.0],Xenopus-tropicalis_ENSXETT00000041196.2_ogdh-oxoglutarate-al:0.04385106441[&&NHX:S=Xenopus-tropicalis])n13:0.01603171529[&&NHX:S=Tetrapoda:D=N:B=100.0])n14:0.006622518721[&&NHX:S=BonyVertebrates:D=N:B=86.0],(((Homo-sapiens_ENST00000374103.9_OGDHL-oxoglutarate-dehy:0.04367825586[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000003553.6_OGDHL-oxoglutarate-d:0.04005326105[&&NHX:S=Gallus-gallus])r73[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000012378.2_ogdhl-oxoglutarate-d:0.05054021729[&&NHX:S=Xenopus-tropicalis])n19:0.01986661943[&&NHX:S=Tetrapoda:D=N:B=100.0],((Tetraodon-nigroviridis_ENSTNIT00000011681.1_ogdhl-oxoglutara:0.04283752249[&&NHX:S=Tetraodon-nigroviridis],Gasterosteus-aculeatus_ENSGACT00000010911.1_ogdhl-oxoglutara:0.04064565623[&&NHX:S=Gasterosteus-aculeatus])n22:0.0207862118[&&NHX:S=Eupercaria:D=N:B=100.0],Danio-rerio_ENSDART00000113009.4_ogdhl-oxoglutarate-dehydrog:0.05530236125[&&NHX:S=Danio-rerio])n24:0.02066862411[&&NHX:S=Teleostei:D=N:B=100.0])n25:0.02772716741[&&NHX:S=BonyVertebrates:D=N:B=94.0])r63[&&NHX:S=BonyVertebrates:D=Y],(Oryzias-latipes_ENSORLT00000001204.1_ogdhb-oxoglutarate-alph:0.0544025296[&&NHX:S=Oryzias-latipes],Gasterosteus-aculeatus_ENSGACT00000000295.1_ogdhb-oxoglutara:0.05817257292[&&NHX:S=Gasterosteus-aculeatus])n29:0.01465465028[&&NHX:S=Percomorpha:D=N:B=100.0])n30:0.01039651038[&&NHX:S=BonyVertebrates:D=Y:B=70.0],Tetraodon-nigroviridis_ENSTNIT00000016780.1_ogdhb-oxoglutara:0.06872674706[&&NHX:S=Tetraodon-nigroviridis])n32:0.1084059301[&&NHX:S=BonyVertebrates:D=Y:B=100.0],(Drosophila-melanogaster_FBtr0112860_Nc73EF-Neural-conserved:0.1029346384[&&NHX:S=Drosophila-melanogaster],Drosophila-melanogaster_FBtr0091795_CG33791-NONE:0.1988289438[&&NHX:S=Drosophila-melanogaster])r61[&&NHX:S=Drosophila-melanogaster:D=Y])n36:0.1777972558[&&NHX:S=Bilateria:D=N:B=98.0],((((((Oryzias-latipes_ENSORLT00000004901.1_dhtkd1-dehydrogenase-E1:0.07679597653[&&NHX:S=Oryzias-latipes],Tetraodon-nigroviridis_ENSTNIT00000019327.1_dhtkd1-dehydroge:0.03508241112[&&NHX:S=Tetraodon-nigroviridis])n39:0.009598664443[&&NHX:S=Percomorpha:D=N:B=76.0],Gasterosteus-aculeatus_ENSGACT00000005915.1_dhtkd1-dehydroge:0.03952284043[&&NHX:S=Gasterosteus-aculeatus])n41:0.02238582513[&&NHX:S=Percomorpha:D=Y:B=99.0],Danio-rerio_ENSDART00000003252.7_dhtkd1-dehydrogenase-E1-and:0.07954382103[&&NHX:S=Danio-rerio])n43:0.03493420083[&&NHX:S=Teleostei:D=N:B=100.0],((Gallus-gallus_ENSGALT00000005822.6_DHTKD1-dehydrogenase:0.05748883028[&&NHX:S=Gallus-gallus],Xenopus-tropicalis_ENSXETT00000047526.3_dhtkd1-dehydrogenase:0.1582763537[&&NHX:S=Xenopus-tropicalis])n46:0.02106851277[&&NHX:S=Tetrapoda:D=N:B=93.0],Homo-sapiens_ENST00000263035.9_DHTKD1-dehydrogenase-E1:0.06461079067[&&NHX:S=Homo-sapiens])n48:0.02583859718[&&NHX:S=Tetrapoda:D=Y:B=99.0])n49:0.08551524473[&&NHX:S=BonyVertebrates:D=N:B=100.0],Ciona-intestinalis_ENSCINT00000019191.3_NONE:0.27500735[&&NHX:S=Ciona-intestinalis])n51:0.04582594267[&&NHX:S=Deuterostomia:D=N:B=99.0],Drosophila-melanogaster_FBtr0085755_CG1544-NONE:0.2851137249[&&NHX:S=Drosophila-melanogaster])n53:0.1005917206[&&NHX:S=Bilateria:D=N:B=87.0])n54:0.0[&&NHX:S=Bilateria:D=Y:B=100.0],Drosophila-melanogaster_FBtr0070711_l1G0334-lethal-1-G0334-:0.9257436888[&&NHX:S=Drosophila-melanogaster])n56[&&NHX:S=Bilateria:D=Y:B=100.0];
+((((((((((Gasterosteus-aculeatus_ENSGACT00000001428.1_ogdhb-oxoglutara:0.01562047122[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000008746.1_ogdhb-oxoglutara:0.02587550138[&&NHX:S=Tetraodon-nigroviridis])r57[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000021895.1_ogdhb-oxoglutarate-alph:0.01393921111[&&NHX:S=Oryzias-latipes])n4:0.0167056722[&&NHX:S=Percomorpha:D=N:B=100.0],Danio-rerio_ENSDART00000172621.1_ogdhb-oxoglutarate-alpha-ke:0.03399430425[&&NHX:S=Danio-rerio])n6:0.003451139106[&&NHX:S=Teleostei:D=N:B=72.0],Danio-rerio_ENSDART00000022242.9_ogdha-oxoglutarate-alpha-ke:0.03456866944[&&NHX:S=Danio-rerio])n8:0.007027089073[&&NHX:S=Teleostei:D=Y:B=98.0],((Homo-sapiens_ENST00000444676.5_OGDH-oxoglutarate-dehyd:0.02206608342[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000094484.1_OGDH-oxoglutarate-de:0.01943496314[&&NHX:S=Gallus-gallus])n11:0.01142054722[&&NHX:S=Amniota:D=N:B=99.0],Xenopus-tropicalis_ENSXETT00000041196.2_ogdh-oxoglutarate-al:0.04687739107[&&NHX:S=Xenopus-tropicalis])n13:0.01706672823[&&NHX:S=Tetrapoda:D=N:B=100.0])n14:0.01149150927[&&NHX:S=BonyVertebrates:D=N:B=97.0],((Oryzias-latipes_ENSORLT00000001204.1_ogdhb-oxoglutarate-alph:0.05447383964[&&NHX:S=Oryzias-latipes],Gasterosteus-aculeatus_ENSGACT00000000295.1_ogdhb-oxoglutara:0.05616926884[&&NHX:S=Gasterosteus-aculeatus])n17:0.006679729002[&&NHX:S=Percomorpha:D=N:B=92.0],Tetraodon-nigroviridis_ENSTNIT00000016780.1_ogdhb-oxoglutara:0.08154238291[&&NHX:S=Tetraodon-nigroviridis])n19:0.01210273945[&&NHX:S=Percomorpha:D=Y:B=91.0])n20:0.01751854706[&&NHX:S=BonyVertebrates:D=Y:B=88.0],(((Homo-sapiens_ENST00000374103.9_OGDHL-oxoglutarate-dehy:0.03930552569[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000003553.6_OGDHL-oxoglutarate-d:0.04291998365[&&NHX:S=Gallus-gallus])r59[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000012378.2_ogdhl-oxoglutarate-d:0.0502989495[&&NHX:S=Xenopus-tropicalis])n25:0.01917152307[&&NHX:S=Tetrapoda:D=N:B=100.0],((Gasterosteus-aculeatus_ENSGACT00000010911.1_ogdhl-oxoglutara:0.03771487467[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000011681.1_ogdhl-oxoglutara:0.04229770347[&&NHX:S=Tetraodon-nigroviridis])n28:0.02128831986[&&NHX:S=Eupercaria:D=N:B=100.0],Danio-rerio_ENSDART00000113009.4_ogdhl-oxoglutarate-dehydrog:0.05653519654[&&NHX:S=Danio-rerio])n30:0.02037662025[&&NHX:S=Teleostei:D=N:B=100.0])n31:0.00901054948[&&NHX:S=BonyVertebrates:D=N:B=93.0])n32:0.08594278539[&&NHX:S=BonyVertebrates:D=Y:B=100.0],(Drosophila-melanogaster_FBtr0112860_Nc73EF-Neural-conserved:0.1001826724[&&NHX:S=Drosophila-melanogaster],Drosophila-melanogaster_FBtr0091795_CG33791-NONE:0.1952553145[&&NHX:S=Drosophila-melanogaster])n35:0.03329307418[&&NHX:S=Drosophila-melanogaster:D=Y:B=84.0])n36:0.3052319895[&&NHX:S=Bilateria:D=N:B=100.0],(((((Gasterosteus-aculeatus_ENSGACT00000005915.1_dhtkd1-dehydroge:0.04540752717[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000019327.1_dhtkd1-dehydroge:0.03875435865[&&NHX:S=Tetraodon-nigroviridis])r61[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000004901.1_dhtkd1-dehydrogenase-E1:0.06918513424[&&NHX:S=Oryzias-latipes])n41:0.02574084413[&&NHX:S=Percomorpha:D=N:B=100.0],Danio-rerio_ENSDART00000003252.7_dhtkd1-dehydrogenase-E1-and:0.0776050533[&&NHX:S=Danio-rerio])n43:0.03625157233[&&NHX:S=Teleostei:D=N:B=100.0],((Homo-sapiens_ENST00000263035.9_DHTKD1-dehydrogenase-E1:0.06517219465[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000005822.6_DHTKD1-dehydrogenase:0.06455929076[&&NHX:S=Gallus-gallus])r63[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000047526.3_dhtkd1-dehydrogenase:0.1505176192[&&NHX:S=Xenopus-tropicalis])n48:0.02422809675[&&NHX:S=Tetrapoda:D=N:B=98.0])n49:0.0791628118[&&NHX:S=BonyVertebrates:D=N:B=100.0],Ciona-intestinalis_ENSCINT00000019191.3_NONE:0.2644076656[&&NHX:S=Ciona-intestinalis])n51:0.03745336339[&&NHX:S=Deuterostomia:D=N:B=96.0])n52:0.0[&&NHX:S=Bilateria:D=Y:B=100.0],Drosophila-melanogaster_FBtr0085755_CG1544-NONE:0.2887512323[&&NHX:S=Drosophila-melanogaster])n54[&&NHX:S=Bilateria:D=Y:B=100.0];
 
 >1st_gene_tree_newick
-((((((((((((Tetraodon-nigroviridis_ENSTNIT00000008746.1_ogdhb-oxoglutara:0.0271996075,Gasterosteus-aculeatus_ENSGACT00000001428.1_ogdhb-oxoglutara:0.01815205398)59:0.001964877095,Oryzias-latipes_ENSORLT00000021895.1_ogdhb-oxoglutarate-alph:0.01304122714)100:0.01633808866,Danio-rerio_ENSDART00000172621.1_ogdhb-oxoglutarate-alpha-ke:0.03457076549)69:0.003169450789,Danio-rerio_ENSDART00000022242.9_ogdha-oxoglutarate-alpha-ke:0.03348705092)92:0.007570279879,((Gallus-gallus_ENSGALT00000094484.1_OGDH-oxoglutarate-de:0.02005181672,Homo-sapiens_ENST00000444676.5_OGDH-oxoglutarate-dehyd:0.02189291823)100:0.0107854256,Xenopus-tropicalis_ENSXETT00000041196.2_ogdh-oxoglutarate-al:0.04385106441)100:0.01603171529)86:0.006622518721,(((Gallus-gallus_ENSGALT00000003553.6_OGDHL-oxoglutarate-d:0.04005326105,Homo-sapiens_ENST00000374103.9_OGDHL-oxoglutarate-dehy:0.04367825586)47:0.001932047098,Xenopus-tropicalis_ENSXETT00000012378.2_ogdhl-oxoglutarate-d:0.05054021729)100:0.01986661943,((Gasterosteus-aculeatus_ENSGACT00000010911.1_ogdhl-oxoglutara:0.04064565623,Tetraodon-nigroviridis_ENSTNIT00000011681.1_ogdhl-oxoglutara:0.04283752249)100:0.0207862118,Danio-rerio_ENSDART00000113009.4_ogdhl-oxoglutarate-dehydrog:0.05530236125)100:0.02066862411)94:0.02772716741)59:0.008264054509,(Gasterosteus-aculeatus_ENSGACT00000000295.1_ogdhb-oxoglutara:0.05817257292,Oryzias-latipes_ENSORLT00000001204.1_ogdhb-oxoglutarate-alph:0.0544025296)100:0.01465465028)70:0.01039651038,Tetraodon-nigroviridis_ENSTNIT00000016780.1_ogdhb-oxoglutara:0.06872674706)100:0.1084059301,Drosophila-melanogaster_FBtr0112860_Nc73EF-Neural-conserved:0.1029346384)43:0.018594817,Drosophila-melanogaster_FBtr0091795_CG33791-NONE:0.1988289438)98:0.1777972558,((((((Tetraodon-nigroviridis_ENSTNIT00000019327.1_dhtkd1-dehydroge:0.03508241112,Oryzias-latipes_ENSORLT00000004901.1_dhtkd1-dehydrogenase-E1:0.07679597653)76:0.009598664443,Gasterosteus-aculeatus_ENSGACT00000005915.1_dhtkd1-dehydroge:0.03952284043)99:0.02238582513,Danio-rerio_ENSDART00000003252.7_dhtkd1-dehydrogenase-E1-and:0.07954382103)100:0.03493420083,((Xenopus-tropicalis_ENSXETT00000047526.3_dhtkd1-dehydrogenase:0.1582763537,Gallus-gallus_ENSGALT00000005822.6_DHTKD1-dehydrogenase:0.05748883028)93:0.02106851277,Homo-sapiens_ENST00000263035.9_DHTKD1-dehydrogenase-E1:0.06461079067)99:0.02583859718)100:0.08551524473,Ciona-intestinalis_ENSCINT00000019191.3_NONE:0.27500735)99:0.04582594267,Drosophila-melanogaster_FBtr0085755_CG1544-NONE:0.2851137249)87:0.1005917206)100:0,Drosophila-melanogaster_FBtr0070711_l1G0334-lethal-1-G0334-:0.9257436888)100;
+((((((((((Oryzias-latipes_ENSORLT00000021895.1_ogdhb-oxoglutarate-alph:0.01393921111,Gasterosteus-aculeatus_ENSGACT00000001428.1_ogdhb-oxoglutara:0.01562047122)58:0.001343122106,Tetraodon-nigroviridis_ENSTNIT00000008746.1_ogdhb-oxoglutara:0.02587550138)100:0.0167056722,Danio-rerio_ENSDART00000172621.1_ogdhb-oxoglutarate-alpha-ke:0.03399430425)72:0.003451139106,Danio-rerio_ENSDART00000022242.9_ogdha-oxoglutarate-alpha-ke:0.03456866944)98:0.007027089073,((Gallus-gallus_ENSGALT00000094484.1_OGDH-oxoglutarate-de:0.01943496314,Homo-sapiens_ENST00000444676.5_OGDH-oxoglutarate-dehyd:0.02206608342)99:0.01142054722,Xenopus-tropicalis_ENSXETT00000041196.2_ogdh-oxoglutarate-al:0.04687739107)100:0.01706672823)97:0.01149150927,((Gasterosteus-aculeatus_ENSGACT00000000295.1_ogdhb-oxoglutara:0.05616926884,Oryzias-latipes_ENSORLT00000001204.1_ogdhb-oxoglutarate-alph:0.05447383964)92:0.006679729002,Tetraodon-nigroviridis_ENSTNIT00000016780.1_ogdhb-oxoglutara:0.08154238291)91:0.01210273945)88:0.01751854706,(((Gallus-gallus_ENSGALT00000003553.6_OGDHL-oxoglutarate-d:0.04291998365,Homo-sapiens_ENST00000374103.9_OGDHL-oxoglutarate-dehy:0.03930552569)59:0.003148890333,Xenopus-tropicalis_ENSXETT00000012378.2_ogdhl-oxoglutarate-d:0.0502989495)100:0.01917152307,((Tetraodon-nigroviridis_ENSTNIT00000011681.1_ogdhl-oxoglutara:0.04229770347,Gasterosteus-aculeatus_ENSGACT00000010911.1_ogdhl-oxoglutara:0.03771487467)100:0.02128831986,Danio-rerio_ENSDART00000113009.4_ogdhl-oxoglutarate-dehydrog:0.05653519654)100:0.02037662025)93:0.00901054948)100:0.08594278539,(Drosophila-melanogaster_FBtr0091795_CG33791-NONE:0.1952553145,Drosophila-melanogaster_FBtr0112860_Nc73EF-Neural-conserved:0.1001826724)84:0.03329307418)100:0.3052319895,(((((Tetraodon-nigroviridis_ENSTNIT00000019327.1_dhtkd1-dehydroge:0.03875435865,Oryzias-latipes_ENSORLT00000004901.1_dhtkd1-dehydrogenase-E1:0.06918513424)54:0.002805626832,Gasterosteus-aculeatus_ENSGACT00000005915.1_dhtkd1-dehydroge:0.04540752717)100:0.02574084413,Danio-rerio_ENSDART00000003252.7_dhtkd1-dehydrogenase-E1-and:0.0776050533)100:0.03625157233,((Xenopus-tropicalis_ENSXETT00000047526.3_dhtkd1-dehydrogenase:0.1505176192,Gallus-gallus_ENSGALT00000005822.6_DHTKD1-dehydrogenase:0.06455929076)69:0.01259216153,Homo-sapiens_ENST00000263035.9_DHTKD1-dehydrogenase-E1:0.06517219465)98:0.02422809675)100:0.0791628118,Ciona-intestinalis_ENSCINT00000019191.3_NONE:0.2644076656)96:0.03745336339)100:0,Drosophila-melanogaster_FBtr0085755_CG1544-NONE:0.2887512323)100;
 
->Aligned-site_rate
-Drosophila-melanogaster_FBtr0070711_l1G0334-lethal-1-G0334-      0.462
-Drosophila-melanogaster_FBtr0085755_CG1544-NONE                  0.99
-Drosophila-melanogaster_FBtr0091795_CG33791-NONE                 0.993
-Drosophila-melanogaster_FBtr0112860_Nc73EF-Neural-conserved      0.987
-== Removed ==> Ciona-intestinalis_ENSCINT00000012352.3_NONE                     0.42
-== Removed ==> Ciona-intestinalis_ENSCINT00000012074.3_NONE                     0.174
-== Removed ==> Ciona-intestinalis_ENSCINT00000012048.3_NONE                     0.174
-Ciona-intestinalis_ENSCINT00000019191.3_NONE                     0.83
-Xenopus-tropicalis_ENSXETT00000047526.3_dhtkd1-dehydrogenase     0.943
-Xenopus-tropicalis_ENSXETT00000012378.2_ogdhl-oxoglutarate-d     0.996
-Xenopus-tropicalis_ENSXETT00000041196.2_ogdh-oxoglutarate-al     0.997
-Gallus-gallus_ENSGALT00000005822.6_DHTKD1-dehydrogenase          0.947
-Gallus-gallus_ENSGALT00000003553.6_OGDHL-oxoglutarate-d          0.996
+>Aligned-ShortSequence_threshold evaluation
+== Removed ==> Drosophila-melanogaster_FBtr0070711_l1G0334-lethal-1-G0334-      0.38
+Drosophila-melanogaster_FBtr0085755_CG1544-NONE                  0.988
+Drosophila-melanogaster_FBtr0091795_CG33791-NONE                 0.995
+Drosophila-melanogaster_FBtr0112860_Nc73EF-Neural-conserved      0.991
+== Removed ==> Ciona-intestinalis_ENSCINT00000012352.3_NONE                     0.367
+== Removed ==> Ciona-intestinalis_ENSCINT00000012074.3_NONE                     0.18
+== Removed ==> Ciona-intestinalis_ENSCINT00000012048.3_NONE                     0.18
+Ciona-intestinalis_ENSCINT00000019191.3_NONE                     0.847
+Xenopus-tropicalis_ENSXETT00000047526.3_dhtkd1-dehydrogenase     0.935
+Xenopus-tropicalis_ENSXETT00000012378.2_ogdhl-oxoglutarate-d     0.999
+Xenopus-tropicalis_ENSXETT00000041196.2_ogdh-oxoglutarate-al     1.0
+Gallus-gallus_ENSGALT00000005822.6_DHTKD1-dehydrogenase          0.937
+Gallus-gallus_ENSGALT00000003553.6_OGDHL-oxoglutarate-d          0.992
 Gallus-gallus_ENSGALT00000094484.1_OGDH-oxoglutarate-de          0.999
-Homo-sapiens_ENST00000263035.9_DHTKD1-dehydrogenase-E1           0.992
+Homo-sapiens_ENST00000263035.9_DHTKD1-dehydrogenase-E1           0.983
 Homo-sapiens_ENST00000374103.9_OGDHL-oxoglutarate-dehy           0.998
 Homo-sapiens_ENST00000444676.5_OGDH-oxoglutarate-dehyd           1.0
-Danio-rerio_ENSDART00000003252.7_dhtkd1-dehydrogenase-E1-and     0.988
-Danio-rerio_ENSDART00000113009.4_ogdhl-oxoglutarate-dehydrog     0.998
+Danio-rerio_ENSDART00000003252.7_dhtkd1-dehydrogenase-E1-and     0.987
+Danio-rerio_ENSDART00000113009.4_ogdhl-oxoglutarate-dehydrog     0.999
 Danio-rerio_ENSDART00000172621.1_ogdhb-oxoglutarate-alpha-ke     1.0
 Danio-rerio_ENSDART00000022242.9_ogdha-oxoglutarate-alpha-ke     1.0
-Gasterosteus-aculeatus_ENSGACT00000005915.1_dhtkd1-dehydroge     0.989
-Gasterosteus-aculeatus_ENSGACT00000010911.1_ogdhl-oxoglutara     0.993
-Gasterosteus-aculeatus_ENSGACT00000000295.1_ogdhb-oxoglutara     0.981
-Gasterosteus-aculeatus_ENSGACT00000001428.1_ogdhb-oxoglutara     0.991
-Tetraodon-nigroviridis_ENSTNIT00000019327.1_dhtkd1-dehydroge     0.997
-Tetraodon-nigroviridis_ENSTNIT00000011681.1_ogdhl-oxoglutara     1.0
-Tetraodon-nigroviridis_ENSTNIT00000016780.1_ogdhb-oxoglutara     0.958
+Tetraodon-nigroviridis_ENSTNIT00000019327.1_dhtkd1-dehydroge     0.991
+Tetraodon-nigroviridis_ENSTNIT00000011681.1_ogdhl-oxoglutara     0.998
+Tetraodon-nigroviridis_ENSTNIT00000016780.1_ogdhb-oxoglutara     0.981
 Tetraodon-nigroviridis_ENSTNIT00000008746.1_ogdhb-oxoglutara     1.0
-== Removed ==> Oryzias-latipes_ENSORLT00000003224.1_pdha1b-pyruvate-dehydro     0.429
-Oryzias-latipes_ENSORLT00000004901.1_dhtkd1-dehydrogenase-E1     0.997
-Oryzias-latipes_ENSORLT00000021895.1_ogdhb-oxoglutarate-alph     0.909
-Oryzias-latipes_ENSORLT00000001204.1_ogdhb-oxoglutarate-alph     0.997
+Gasterosteus-aculeatus_ENSGACT00000005915.1_dhtkd1-dehydroge     0.99
+Gasterosteus-aculeatus_ENSGACT00000010911.1_ogdhl-oxoglutara     0.995
+Gasterosteus-aculeatus_ENSGACT00000000295.1_ogdhb-oxoglutara     0.991
+Gasterosteus-aculeatus_ENSGACT00000001428.1_ogdhb-oxoglutara     0.997
+== Removed ==> Oryzias-latipes_ENSORLT00000003224.1_pdha1b-pyruvate-dehydro     0.368
+Oryzias-latipes_ENSORLT00000004901.1_dhtkd1-dehydrogenase-E1     0.99
+Oryzias-latipes_ENSORLT00000021895.1_ogdhb-oxoglutarate-alph     0.937
+Oryzias-latipes_ENSORLT00000001204.1_ogdhb-oxoglutarate-alph     1.0
 
 
 ################ Settings ################
@@ -99,6 +94,9 @@ Oryzias-latipes_ENSORLT00000001204.1_ogdhb-oxoglutarate-alph     0.997
 >NumberAssigned_querySequence
 Oryzias-latipes_ENSORLT00000001204.1
 ATGCATCACCTGAGAACAACAGTTTTACGGCTTCGGCCTTTGACGGCGGCGCAGGCGATCCAGAGCGCGTCGCCCGGCCGATTGGCGGGACTGGAAGGAACGCCTCCATCCGCGAGGTTCCTGAAGACGACGGCGGCTCCAGAGCCGTCCTTTAATGGAACCGGCTCCAACTATGTGGAGGAAATGTACGCGGCGTGGCTGGAAGACCCCAGGAGTGTTCACAAGTCCTGGGATGTATATTTCCAGAACGCTACCGCTGGATCTTCAATGGGTGTGACCTACCAGAGCCCCCCATCCATGAGTGGGTCCTCTGAGGGGCAGTTCGCTGTGCAGCCGCTGGTGGGGGCTCAGCCCAGTGTGGAGAAGCTGGTGGAGGATCATCTGGCAGTGCAGTCCCTGATCCGAGCCTACCAGGTACGAGGGCACCACATGGCCCAGCTGGACCCTCTGGGCATCAGCTGTGTGGATTTTGACGACACGCCGTGTCCCATTGGCCTCCAGAACGTCGAAGAATTGATGATGAAGAGTCAGCAACAGGTTTTAGGAGTCTCTAGTTTGTATTTTTTAACATCAGAAACTCTAAACATGGACCGAATGTTCCGGATTCCCAAAACCACTTTCATTGGTGGGAAGGAGAGCGTTTTGACTCTCAGAGAGATCATCCGCCGTCTCGAGATGGCGTACTGCCAGCACATCGGAGTGGAGTTCATGTTCATCAATGACGTGGAGCAGTGCCAGTGGATCAGGCAGAGGTTTGAGACCCCGGGAATCATGCAGTTCACGGTGGAGGAGAAGAGGACTCTGCTGGCCAGAATGATCCGATCCACCAGGTTTGAGGAGTTTCTCCAGAGGAAGTGGTCTTCAGAGAAACGCTTCGGCCTGGAGGGCTGTGAGTCCCTCATCCCGGCTCTGAAGACCATCATCGACAGGTCCAGTCAGAACGGGGTGGAGAGCGTGATCATGGGGATGCCCCACAGAGGTCGACTGAATGTCTTGGCTAATGTGGTCCGGAAGGATCTGGACCAAATCTTCTGCCAGTTTGACTCAAAGTTGGAGGCTGCAGACGAGGGTTCTGGCGATGTGAAATATCACCTGGGGATGTATCACAAGCGGATGAACCGGGTCAGCGACAAGCAGATCACAATCTCTCTCATGGCAAACCCGTCCCACCTGGAGGCCGTGGACCCCGTGGTTCAGGGGAAGACCAAGGCCGAACAGTTCTACTCTGGAGACTCCGAGGGCAAAAAGGTGATGCCGATTCTTCTTCACGGTGACGCTGCATTTGCAGGTCAGGGGGTCGTGTATGAGACCTTTCACCTGTCGGATCTACCATCGTACACCACCCATGGGACCGTCCATGTGGTGGTCAACAACCAGATCGGTTTTACCACAGACCCCAGGATGGCTCGTTCGTCTCCGTACCCCACAGATATCGCTCGGGTGGTCAACGCCCCCATCTTTCACGTCAACGGGGACGACCCAGAAGCTGTGATGTATGTGTGCGGCGTGGCGGCCGACTGGAGGAACACCTTCCACAAAGATGTGGTGGTAGATCTGGTGTGTTACAGACGGAACGGACATAACGAGATGGACGAGCCCATGTTCACCCAGCCGCTCATGTACAAGCAGATCAAGAAGCAGAAAGGAGTCCTGCAGAAGTTTGCTGAGAAACTCATTACTGAAGGTGTCGTGACGACACAAGAGTATGAGGAACAAATTGCAGCGTACGACAAAATCTGTGAGGACGCCTACGCTCACTCCAAAGATGAGAAGATTCTGCACATCAAGCACTGGCTTGACTCTCCATGGCCAGATTTTTTCACACTGGATGGTCAGCCCAAAACTATGAGCTGCCCTTCGACTGGTATTAGCGAAGACGAGCTTAACCACATCGGAAGCATCGCCGCCTCCGTCCCTATGGAAGATTTCACCATACATGGAGGCCTGAGCCGAATTCTGAAGGGGCGTTCCATCATGGTGGCCCAGCGGGTGTGCGACTGGGCTCTGGCTGAGTACATGGCATTCGGCTCTTTGCTCAAACAGGGGGTCCATGTGCGCCTCAGTGGGCAGGATGTGGAGAGAGGCACATTCAGCCACCGGCACCACGTCCTTCACGACCAGAACGTGGACAAGAGGATCTGCATCCCGATGAACTTTATCAGCCCCGACCAGGCTTCTTACACTGTCTGCAACAGCCCCCTGTCCGAGTACAGCGTGCTAGGTTTTGAACTCGGCTTTGCCATGGCCAGCCCCAACGCGCTGGTTCTGTGGGAGGCCCAGTTTGGAGACTTTAACAACACAGCCCAGTGCATCATCGACCAGTTCATCAGCTCGGGTCAGGCCAAGTGGGTCAGGCAGAACGGGATCGTTCTTCTGCTTCCACATGGTTTGGAGGGGATGGGTCCAGAACACTCGTCTGGCCGGCCTGAGAGGTTTCTGCAGATGTGCAATGATGACCCAGATGTTTTCCCTTTTACCCAGAAACCTTCGGAAGACTTTGCGGAGCATCAGCTGTACGACTGTAACTGGATCGTGGTGAACTGCTCGACTCCTGCGAACTACTTCCATGTTCTGCGCAGGCAGATGCTGCTGTCCTTCAGGAAGCCGTTGGTGATTTTTACGCCAAAGTCGCTGCTGCGCCACCCTGAGGCCAAGTCCAGCTTTGACGACATGCTGCCGGGGACGCACTTCCAGCGCATCATCGTGGACAACGGGCCTGCAGGCGCCAGGCCGGAGAGCGTGAAGAGAGTGGTGCTCTGCACTGGAAAGGTTTACTACGAACTGACTCGGGAACGCAGGAACAGAGGCTTGGACGGCGACATAGCCGTCATACGAATCGAGCAGCTTTCCCCGTTCCCCTTCGATCTGGTGAAATCAGAGACGGATCGTTTCCCGAATGCTGAGCTGGTCTGGTGTCAGGAAGAACACAAGAACCAGGGTTACTATGACTACGTCAAGCCCCGCCTCCAGACCACCGTCGGCTACAGTCGTCCCATCTGGTATGCGGGTCGTGAACCCGCAGCTGCTCCGGCCACCGGAAACAAGCAGGCTCACGTCTGCGAGCTGCAGCGCCTGCTGGACACCGCGCTCGACCTCCACGTCTTTTCTGGGAGAGTATGA
+
+>SpeciesTree
+(Drosophila-melanogaster,(Ciona-intestinalis,((Xenopus-tropicalis,(Gallus-gallus,Homo-sapiens)Amniota)Tetrapoda,(Danio-rerio,(Oryzias-latipes,(Tetraodon-nigroviridis,Gasterosteus-aculeatus)Eupercaria)Percomorpha)Teleostei)BonyVertebrates)Deuterostomia)Bilateria;
 
 >SubstitutionModel
 F84 (Tamura and Nei 1993) + gamma
@@ -119,8 +117,8 @@ Xenopus-tropicalis_Magenta
 Gallus-gallus_Magenta
 Homo-sapiens_Magenta
 Danio-rerio_Purple
-Gasterosteus-aculeatus_Red
 Tetraodon-nigroviridis_Green
+Gasterosteus-aculeatus_Red
 Oryzias-latipes_Blue
 
 ################ Results: 2nd analysis ################
@@ -129,31 +127,31 @@ Oryzias-latipes_Blue
 NJ
 
 >2nd_rearranged_gene_tree_newick
-((((((Xenopus-tropicalis_ENSXETT00000012378.2_ogdhl-oxoglutarate-d,Gallus-gallus_ENSGALT00000003553.6_OGDHL-oxoglutarate-d)73_S=Tetrapoda_D=N,Homo-sapiens_ENST00000374103.9_OGDHL-oxoglutarate-dehy)100_S=Tetrapoda_D=Y,((Tetraodon-nigroviridis_ENSTNIT00000011681.1_ogdhl-oxoglutara,Gasterosteus-aculeatus_ENSGACT00000010911.1_ogdhl-oxoglutara)100_S=Eupercaria_D=N,Danio-rerio_ENSDART00000113009.4_ogdhl-oxoglutarate-dehydrog)100_S=Teleostei_D=N)100_S=BonyVertebrates_D=N,(((Homo-sapiens_ENST00000444676.5_OGDH-oxoglutarate-dehyd,Gallus-gallus_ENSGALT00000094484.1_OGDH-oxoglutarate-de)100_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000041196.2_ogdh-oxoglutarate-al)100_S=Tetrapoda_D=N,((((Gasterosteus-aculeatus_ENSGACT00000001428.1_ogdhb-oxoglutara,Tetraodon-nigroviridis_ENSTNIT00000008746.1_ogdhb-oxoglutara)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000021895.1_ogdhb-oxoglutarate-alph)100_S=Percomorpha_D=N,Danio-rerio_ENSDART00000172621.1_ogdhb-oxoglutarate-alpha-ke)79_S=Teleostei_D=N,Danio-rerio_ENSDART00000022242.9_ogdha-oxoglutarate-alpha-ke)99_S=Teleostei_D=Y)r_S=BonyVertebrates_D=N)100_S=BonyVertebrates_D=Y,(Oryzias-latipes_ENSORLT00000001204.1_ogdhb-oxoglutarate-alph,Gasterosteus-aculeatus_ENSGACT00000000295.1_ogdhb-oxoglutara)96_S=Percomorpha_D=N)100_S=BonyVertebrates_D=Y,Tetraodon-nigroviridis_ENSTNIT00000016780.1_ogdhb-oxoglutara)100_S=BonyVertebrates_D=Y;
+((((Homo-sapiens_ENST00000444676.5_OGDH-oxoglutarate-dehyd,Gallus-gallus_ENSGALT00000094484.1_OGDH-oxoglutarate-de)100_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000041196.2_ogdh-oxoglutarate-al)100_S=Tetrapoda_D=N,((((Gasterosteus-aculeatus_ENSGACT00000001428.1_ogdhb-oxoglutara,Tetraodon-nigroviridis_ENSTNIT00000008746.1_ogdhb-oxoglutara)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000021895.1_ogdhb-oxoglutarate-alph)100_S=Percomorpha_D=N,(Danio-rerio_ENSDART00000022242.9_ogdha-oxoglutarate-alpha-ke,Danio-rerio_ENSDART00000172621.1_ogdhb-oxoglutarate-alpha-ke)r_S=Danio-rerio_D=Y)89_S=Teleostei_D=N,((Oryzias-latipes_ENSORLT00000001204.1_ogdhb-oxoglutarate-alph,Gasterosteus-aculeatus_ENSGACT00000000295.1_ogdhb-oxoglutara)85_S=Percomorpha_D=N,Tetraodon-nigroviridis_ENSTNIT00000016780.1_ogdhb-oxoglutara)100_S=Percomorpha_D=Y)r_S=Teleostei_D=Y)100_S=BonyVertebrates_D=N,Homo-sapiens_ENST00000374103.9_OGDHL-oxoglutarate-dehy)100_S=BonyVertebrates_D=Y;
 
 >2nd_rearranged_gene_tree_NHX
-((((((Xenopus-tropicalis_ENSXETT00000012378.2_ogdhl-oxoglutarate-d:0.06002727244[&&NHX:S=Xenopus-tropicalis],Gallus-gallus_ENSGALT00000003553.6_OGDHL-oxoglutarate-d:0.04581233091[&&NHX:S=Gallus-gallus])n17:0.004418008513[&&NHX:S=Tetrapoda:D=N:B=73.0],Homo-sapiens_ENST00000374103.9_OGDHL-oxoglutarate-dehy:0.05811003489[&&NHX:S=Homo-sapiens])n19:0.01976387256[&&NHX:S=Tetrapoda:D=Y:B=100.0],((Tetraodon-nigroviridis_ENSTNIT00000011681.1_ogdhl-oxoglutara:0.0454696534[&&NHX:S=Tetraodon-nigroviridis],Gasterosteus-aculeatus_ENSGACT00000010911.1_ogdhl-oxoglutara:0.04508556132[&&NHX:S=Gasterosteus-aculeatus])n22:0.02885320152[&&NHX:S=Eupercaria:D=N:B=100.0],Danio-rerio_ENSDART00000113009.4_ogdhl-oxoglutarate-dehydrog:0.06343354641[&&NHX:S=Danio-rerio])n24:0.02906287185[&&NHX:S=Teleostei:D=N:B=100.0])n25:0.03856155251[&&NHX:S=BonyVertebrates:D=N:B=100.0],(((Homo-sapiens_ENST00000444676.5_OGDH-oxoglutarate-dehyd:0.02693999305[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000094484.1_OGDH-oxoglutarate-de:0.02675498567[&&NHX:S=Gallus-gallus])n11:0.01152503229[&&NHX:S=Amniota:D=N:B=100.0],Xenopus-tropicalis_ENSXETT00000041196.2_ogdh-oxoglutarate-al:0.05357643006[&&NHX:S=Xenopus-tropicalis])n13:0.01740810912[&&NHX:S=Tetrapoda:D=N:B=100.0],((((Gasterosteus-aculeatus_ENSGACT00000001428.1_ogdhb-oxoglutara:0.02087696653[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000008746.1_ogdhb-oxoglutara:0.02549907759[&&NHX:S=Tetraodon-nigroviridis])r37[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000021895.1_ogdhb-oxoglutarate-alph:0.01375270555[&&NHX:S=Oryzias-latipes])n4:0.02131128295[&&NHX:S=Percomorpha:D=N:B=100.0],Danio-rerio_ENSDART00000172621.1_ogdhb-oxoglutarate-alpha-ke:0.03939281836[&&NHX:S=Danio-rerio])n6:0.004702575506[&&NHX:S=Teleostei:D=N:B=79.0],Danio-rerio_ENSDART00000022242.9_ogdha-oxoglutarate-alpha-ke:0.03739275185[&&NHX:S=Danio-rerio])n8:0.008732839242[&&NHX:S=Teleostei:D=Y:B=99.0])r35[&&NHX:S=BonyVertebrates:D=N])n26:0.02020100686[&&NHX:S=BonyVertebrates:D=Y:B=100.0],(Oryzias-latipes_ENSORLT00000001204.1_ogdhb-oxoglutarate-alph:0.07476980542[&&NHX:S=Oryzias-latipes],Gasterosteus-aculeatus_ENSGACT00000000295.1_ogdhb-oxoglutara:0.06753600061[&&NHX:S=Gasterosteus-aculeatus])n29:0.008676521936[&&NHX:S=Percomorpha:D=N:B=96.0])n30:0.0[&&NHX:S=BonyVertebrates:D=Y:B=100.0],Tetraodon-nigroviridis_ENSTNIT00000016780.1_ogdhb-oxoglutara:0.08359794033[&&NHX:S=Tetraodon-nigroviridis])n32[&&NHX:S=BonyVertebrates:D=Y:B=100.0];
+((((Homo-sapiens_ENST00000444676.5_OGDH-oxoglutarate-dehyd:0.02665993178[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000094484.1_OGDH-oxoglutarate-de:0.02550249832[&&NHX:S=Gallus-gallus])n11:0.0122797696[&&NHX:S=Amniota:D=N:B=100.0],Xenopus-tropicalis_ENSXETT00000041196.2_ogdh-oxoglutarate-al:0.05438880091[&&NHX:S=Xenopus-tropicalis])n13:0.01811996572[&&NHX:S=Tetrapoda:D=N:B=100.0],((((Gasterosteus-aculeatus_ENSGACT00000001428.1_ogdhb-oxoglutara:0.02064726833[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000008746.1_ogdhb-oxoglutara:0.02653642949[&&NHX:S=Tetraodon-nigroviridis])r31[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000021895.1_ogdhb-oxoglutarate-alph:0.01403005339[&&NHX:S=Oryzias-latipes])n4:0.02368531356[&&NHX:S=Percomorpha:D=N:B=100.0],(Danio-rerio_ENSDART00000022242.9_ogdha-oxoglutarate-alpha-ke:0.03890988646[&&NHX:S=Danio-rerio],Danio-rerio_ENSDART00000172621.1_ogdhb-oxoglutarate-alpha-ke:0.04346116728[&&NHX:S=Danio-rerio])r29[&&NHX:S=Danio-rerio:D=Y])n8:0.007520565118[&&NHX:S=Teleostei:D=N:B=89.0],((Oryzias-latipes_ENSORLT00000001204.1_ogdhb-oxoglutarate-alph:0.08039041905[&&NHX:S=Oryzias-latipes],Gasterosteus-aculeatus_ENSGACT00000000295.1_ogdhb-oxoglutara:0.06967759526[&&NHX:S=Gasterosteus-aculeatus])n17:0.008544787105[&&NHX:S=Percomorpha:D=N:B=85.0],Tetraodon-nigroviridis_ENSTNIT00000016780.1_ogdhb-oxoglutara:0.08599261947[&&NHX:S=Tetraodon-nigroviridis])n19:0.02324393195[&&NHX:S=Percomorpha:D=Y:B=100.0])r25[&&NHX:S=Teleostei:D=Y])n20:0.0[&&NHX:S=BonyVertebrates:D=N:B=100.0],Homo-sapiens_ENST00000374103.9_OGDHL-oxoglutarate-dehy:0.1164841532[&&NHX:S=Homo-sapiens])n22[&&NHX:S=BonyVertebrates:D=Y:B=100.0];
 
 >2nd_gene_tree_newick
-((((((((Gasterosteus-aculeatus_ENSGACT00000001428.1_ogdhb-oxoglutara:0.02087696653,Tetraodon-nigroviridis_ENSTNIT00000008746.1_ogdhb-oxoglutara:0.02549907759)57:0.002884389911,Oryzias-latipes_ENSORLT00000021895.1_ogdhb-oxoglutarate-alph:0.01375270555)100:0.02131128295,Danio-rerio_ENSDART00000172621.1_ogdhb-oxoglutarate-alpha-ke:0.03939281836)79:0.004702575506,Danio-rerio_ENSDART00000022242.9_ogdha-oxoglutarate-alpha-ke:0.03739275185)99:0.008732839242,((Gallus-gallus_ENSGALT00000094484.1_OGDH-oxoglutarate-de:0.02675498567,Homo-sapiens_ENST00000444676.5_OGDH-oxoglutarate-dehyd:0.02693999305)100:0.01152503229,Xenopus-tropicalis_ENSXETT00000041196.2_ogdh-oxoglutarate-al:0.05357643006)100:0.01740810912)64:0.006121112885,(((Gallus-gallus_ENSGALT00000003553.6_OGDHL-oxoglutarate-d:0.04581233091,Xenopus-tropicalis_ENSXETT00000012378.2_ogdhl-oxoglutarate-d:0.06002727244)73:0.004418008513,Homo-sapiens_ENST00000374103.9_OGDHL-oxoglutarate-dehy:0.05811003489)100:0.01976387256,((Gasterosteus-aculeatus_ENSGACT00000010911.1_ogdhl-oxoglutara:0.04508556132,Tetraodon-nigroviridis_ENSTNIT00000011681.1_ogdhl-oxoglutara:0.0454696534)100:0.02885320152,Danio-rerio_ENSDART00000113009.4_ogdhl-oxoglutarate-dehydrog:0.06343354641)100:0.02906287185)100:0.03856155251)100:0.02020100686,(Gasterosteus-aculeatus_ENSGACT00000000295.1_ogdhb-oxoglutara:0.06753600061,Oryzias-latipes_ENSORLT00000001204.1_ogdhb-oxoglutarate-alph:0.07476980542)96:0.008676521936)100:0,Tetraodon-nigroviridis_ENSTNIT00000016780.1_ogdhb-oxoglutara:0.08359794033)100;
+((((((Gasterosteus-aculeatus_ENSGACT00000001428.1_ogdhb-oxoglutara:0.02064726833,Oryzias-latipes_ENSORLT00000021895.1_ogdhb-oxoglutarate-alph:0.01403005339)50:0.002295726763,Tetraodon-nigroviridis_ENSTNIT00000008746.1_ogdhb-oxoglutara:0.02653642949)100:0.02368531356,(Danio-rerio_ENSDART00000172621.1_ogdhb-oxoglutarate-alpha-ke:0.04346116728,Danio-rerio_ENSDART00000022242.9_ogdha-oxoglutarate-alpha-ke:0.03890988646)50:0.001794957615)89:0.007520565118,((Gallus-gallus_ENSGALT00000094484.1_OGDH-oxoglutarate-de:0.02550249832,Homo-sapiens_ENST00000444676.5_OGDH-oxoglutarate-dehyd:0.02665993178)100:0.0122797696,Xenopus-tropicalis_ENSXETT00000041196.2_ogdh-oxoglutarate-al:0.05438880091)100:0.01811996572)60:0.005148783001,((Gasterosteus-aculeatus_ENSGACT00000000295.1_ogdhb-oxoglutara:0.06967759526,Oryzias-latipes_ENSORLT00000001204.1_ogdhb-oxoglutarate-alph:0.08039041905)85:0.008544787105,Tetraodon-nigroviridis_ENSTNIT00000016780.1_ogdhb-oxoglutara:0.08599261947)100:0.02324393195)100:0,Homo-sapiens_ENST00000374103.9_OGDHL-oxoglutarate-dehy:0.1164841532)100;
 
 >MonophyleticGeneGroups
-BonyVertebrates                 100  D=Y
-Teleostei                       NoGeneNode  NONE
-Percomorpha                     96  D=N
+BonyVertebrates                 100  D=N
+Teleostei                       r  D=Y
+Percomorpha                     100  D=Y
 Oryzias-latipes                 leaf  leaf
 
 >SisterGeneGroups
 BonyVertebrates                 NONE   NoGeneNode
-Teleostei                       NONE   NoGeneNode
-Percomorpha                     100   BonyVertebrates(Teleostei;Tetrapoda)
-Oryzias-latipes                 96   Gasterosteus-aculeatus
+Teleostei                       100   Tetrapoda
+Percomorpha                     r   Teleostei(Eupercaria;Oryzias-latipes;Danio-rerio)
+Oryzias-latipes                 85   Gasterosteus-aculeatus
 
 >Number_of_duplicatedNode
-BonyVertebrates                 1
+BonyVertebrates                 0
 Teleostei                       0
-Percomorpha                     0
+Percomorpha                     1
 Oryzias-latipes                 0
 
 >AnalysisTime
-4.9 seconds
+19.2 seconds

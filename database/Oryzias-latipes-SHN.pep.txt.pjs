@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "Oryzias-latipes-SHN.pep.txt",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "database/Oryzias-latipes-SHN.pep.txt",
+  "number-of-letters": 286004,
+  "number-of-sequences": 381,
+  "last-updated": "2024-05-27T17:58:00",
+  "number-of-volumes": 1,
+  "bytes-total": 455910,
+  "bytes-to-cache": 289570,
+  "files": [
+    "Oryzias-latipes-SHN.pep.txt.pdb",
+    "Oryzias-latipes-SHN.pep.txt.phr",
+    "Oryzias-latipes-SHN.pep.txt.pin",
+    "Oryzias-latipes-SHN.pep.txt.pot",
+    "Oryzias-latipes-SHN.pep.txt.psq",
+    "Oryzias-latipes-SHN.pep.txt.ptf",
+    "Oryzias-latipes-SHN.pep.txt.pto"
+  ]
+}
