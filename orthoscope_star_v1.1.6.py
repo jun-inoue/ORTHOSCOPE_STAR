@@ -8,6 +8,11 @@ import subprocess
 import time
 
 
+##### v1.1.5 update
+# TRIMAL v1.4 delete sequences with only gaps for unambiguously aligned sites.
+# v1.1.5 handles this problem by the function, delete_sequences_with_alignedSiteRate
+######
+
 ##### v1.1.4 update
 # Output one of two type of no_orthogroup: noOrthogroup_noKeynode or noOrthogroup_noQuerySequence
 ######
@@ -763,7 +768,7 @@ def ckeck_cDNAsequence(recsFN):
 def readPhy_dict(phyFileName):
     phyFile = open(eachDirAddress + phyFileName, "r")
     lines = list(phyFile)
-    seqDictFN  = OrderedDict()
+    seqDictFN = OrderedDict()
     for line in lines[1:]:
         name,seq = re.split(" +", line)
         seq = seq.rstrip("\n")
@@ -1615,6 +1620,7 @@ def check_sisterGroupName_included_in_ancestralSpeciesNodeNames(allGeneNodesSR, 
 
 
 def add_makeSummary(outfile_summary2):
+    #print("#### add_makeSummary ####")
     fSum = open(eachDirAddress + outfile_summary2, "a")
 
     resDict_1stSummary = readRes_dict(eachDirAddress + "100_analysisSummary.txt")
@@ -1716,6 +1722,7 @@ def add_makeSummary(outfile_summary2):
 
 
 def makeSummary(outfile_summary):
+    #print("#### makeSummary ####")
     recs_cds_assigned_by_ID = readFasta_dict(eachDirAddress, "000_cds_assigned_by_ID.txt")
     #cDNAfn = ""
     #cDNAfn = readFasta_dict(eachDirAddress, "000_cds_assigned_by_ID.txt")
@@ -1740,6 +1747,8 @@ def makeSummary(outfile_summary):
 
     fs.write(">Number_of_blastHits\n")
     rec_blastHits = count_blastHits(infile = "010_blastRes.txt")
+    #print("rec_blastHits", rec_blastHits)
+    #exit()
     rec_blastHits = whiteSpaceAdd(rec_blastHits)
     for name, num in rec_blastHits.items():
         fs.write(name + str(num) + "\n")
@@ -1798,13 +1807,22 @@ def makeSummary(outfile_summary):
     
             fs.write(">GeneNumber_of_orthogroup\n")
             speciesNames_in_orthogroup = collect_speciesNames_in_orthogroup()
+            #print("speciesNames_in_orthogroup", speciesNames_in_orthogroup)
+            #exit()
+            recs_geneNumber_of_orthogroup = OrderedDict()
             for species in speciesNames_in_orthogroup:
                 count_hit = 0
                 for leaf_gene in orthogroup[1]:
                     if re.search(species + "_", leaf_gene):
                         count_hit += 1
-                whiteSpece = " " * (30 - len(species))
-                fs.write(species + whiteSpece + str(count_hit) + "\n")
+                recs_geneNumber_of_orthogroup[species] = count_hit
+                #whiteSpece = " " * (30 - len(species))
+                #fs.write(species + whiteSpece + str(count_hit) + "\n")
+            #fs.write("\n")
+            #print("recs_geneNumber_of_orthogroup", recs_geneNumber_of_orthogroup)
+            recs_geneNumber_of_orthogroup = whiteSpaceAdd(recs_geneNumber_of_orthogroup)
+            for species, count_hit in recs_geneNumber_of_orthogroup.items():
+                fs.write(species + str(count_hit) + "\n")
             fs.write("\n")
     
             fs.write(">Rooting\n")
@@ -2159,17 +2177,55 @@ def delete_sequences_with_alignedSiteRate():
     recAA = readFasta_dict(eachDirAddress, "030_retrievedAAfas.txt")
     recDNA = ""
     recDNA = readFasta_dict(eachDirAddress, "030_retrievedDNAfas.txt")
-    for i in range (len(recs_nonGapSiteRate)):
-        name = list(recs_nonGapSiteRate.keys())[i]
-        rate = list(recs_nonGapSiteRate.values())[i]
-        if rate > float(Aligned_site_rate):
-            file_overRateAA.write  (list(recAA.keys())[i]    + "\n")
-            file_overRateAA.write  (list(recAA.values())[i]  + "\n")
-            file_overRateDNA.write(list(recDNA.keys())[i]   + "\n")
-            file_overRateDNA.write(list(recDNA.values())[i] + "\n")
-        file_unambSiteRatefile.write(name + "\n" + str(rate) + "\n")
-        #print("name2", name)
-        #print("rate2", rate)
+
+    #print("len(recs_nonGapSiteRate)", len(recs_nonGapSiteRate))
+    #print("len(recAA)",len(recAA))
+    #exit()
+    if len(recs_nonGapSiteRate) == len(recAA):
+        for i in range (len(recs_nonGapSiteRate)):
+            name = list(recs_nonGapSiteRate.keys())[i]
+            rate = list(recs_nonGapSiteRate.values())[i]
+            #print("name1", name)
+            #print("rate1", rate)
+            #print("Aligned_site_rate", float(Aligned_site_rate))
+            if rate > float(Aligned_site_rate):
+                #print("rate > aligned_site_rate")
+                #print("(list(recDNA.keys())[i]", list(recAA.keys())[i])
+                file_overRateAA.write  (list(recAA.keys())[i]    + "\n")
+                file_overRateAA.write  (list(recAA.values())[i]  + "\n")
+     
+                #print("(list(recDNA.keys())[i]", list(recDNA.keys())[i])
+                file_overRateDNA.write(list(recDNA.keys())[i]   + "\n")
+                file_overRateDNA.write(list(recDNA.values())[i] + "\n")
+    
+            file_unambSiteRatefile.write(name + "\n" + str(rate) + "\n")
+            #print("")
+    else:
+        ### 042_AA.fas.trm  : Only gap sequence is moved by TRIMAL1.4
+        for name_siterate, rate_siterate in recs_nonGapSiteRate.items():
+            #print("name_siterate", name_siterate)
+            match_nsr = re.search("^[^_]+_([^_]+)_", name_siterate)
+            name_siterate_geneID = match_nsr.group(1)
+            #print("name_siterate_geneID", name_siterate_geneID)
+            #print("rate_siterate", rate_siterate)
+            if float(rate_siterate) > float(Aligned_site_rate):
+                
+                for name_AA, seq_AA in recAA.items():
+                    #print("name_AA", name_AA)
+                    if re.search("_" + name_siterate_geneID + "_", name_AA):
+                        file_overRateAA.write(name_AA + "\n")
+                        file_overRateAA.write(seq_AA + "\n")
+                        break
+
+                for name_DNA, seq_DNA in recDNA.items():
+                    #print("name_DNA", name_DNA)
+                    if re.search(">" + name_siterate_geneID + " ", name_DNA):
+                        file_overRateDNA.write(name_DNA + "\n")
+                        file_overRateDNA.write(seq_DNA + "\n")
+                        break
+    
+            file_unambSiteRatefile.write(name_siterate + "\n" + str(rate_siterate) + "\n")
+            #print("")
     file_overRateAA.close()
     file_overRateDNA.close()
     file_unambSiteRatefile.close()
@@ -2533,7 +2589,7 @@ def error_resHtmlMaker(resultFN):
         resultFN = resultFN + ": " + firstQueryTMP
     elif resultFN == "noOrthogroup_noKeynode":
         resultFN = resultFN + ": " + keyNode
-    print("resultFN111", resultFN)
+    #print("resultFN111", resultFN)
     resHTMLlines1 = re.sub('BSVALUE_orthogroup_1STTREE', resultFN, resHTMLlines1)
     resHTMLlines1 = re.sub('EACHDIRADDRESS_', eachDirAddress, resHTMLlines1)
 
@@ -3041,9 +3097,9 @@ hitRecPicker()
 
 print("\n\n##### 1st tree: MAFFT 1st round ######\n\n")
 maffLine1 = "tools/mafft " + eachDirAddress + "030_retrievedAAfas.txt > " + eachDirAddress + "040_mafOutAA.txt"
-#print("maffLine1", maffLine1)
+print("maffLine1", maffLine1)
 subprocess.call(maffLine1, shell=True)
-##print("<br>")
+#exit()
 
 
 fTMP = open(eachDirAddress + "040_mafOutAA.txt")
@@ -3059,6 +3115,7 @@ if not fMafOut:
         deleteFiles()
     exit()
 
+
 print("\n\n##### 1st tree: TRIMAL 1st round ######\n\n")
 trimLine1 = "tools/trimal -out " + eachDirAddress + "042_AA.fas.trm -htmlout " + eachDirAddress + "042_AA.fas.trm.html -in " + eachDirAddress + "040_mafOutAA.txt -gappyout"
 #print("trimLine1:", trimLine1, "\n");
@@ -3073,7 +3130,6 @@ if " 0 bp" in fTrimOut[0]:
      print (result + " <br>")
      error_resHtmlMaker(result)
      exit()
-
 
 
 print("\n\n##### 1st tree: calcilation for ShortSequence_threshold ######\n\n")
