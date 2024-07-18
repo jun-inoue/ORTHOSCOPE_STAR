@@ -11,6 +11,9 @@ import time
 ##### v1.1.7 update
 # Presence or abusence of databases are checked only on mode E.
 # The function check_presense_of_databases was modified.
+
+# The BHnum_Xxxxx-xxx columns in the result.csv index line are now made from taxon sapling list.
+# The function make_lines_atmarkSeparated was modified.
 ######
 
 ##### v1.1.6 update
@@ -2832,6 +2835,13 @@ def make_lines_atmarkSeparated(geneIDs_fn):
                 node = match.group(1)
                 num = match.group(2)
                 line_FN += "BHnum_" + node + "@" + num + ","
+        else:
+            #for speciesName_in_orthogroup in speciesNames_in_orthogroup:
+            for dbLine in dbLines:
+                speciesName = dbLine[0]
+                #print("speciesName_in_orthogroup", speciesName_in_orthogroup)
+                #print("speciesName", speciesName[:-1])
+                line_FN += "BHnum_" + speciesName[:-1] + "@" + ","
 
         if ">GeneNumber_of_orthogroup" in  seqDict.keys():
             for node_num in seqDict[">GeneNumber_of_orthogroup"]:
