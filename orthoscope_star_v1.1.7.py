@@ -8,6 +8,11 @@ import subprocess
 import time
 
 
+##### v1.1.7 update
+# Presence or abusence of databases are checked only on mode E.
+# The function check_presense_of_databases was modified.
+######
+
 ##### v1.1.6 update
 # Lengths of species names are imposed a limitation. It should be less than or equal to 38.
 # The function check_pickup_taxonSampling was modified.
@@ -513,6 +518,17 @@ def check_pickup_taxonSampling(dbAddress, lines_taxonSampling):
             print("Assigned colors should be : Black, Green, Purple, Orange, Magenta, Blue, or Red.")
             exit()
 
+        dbLines.append([speciesName + "_", name_protDB_file, name_nuclDB_file])
+        taxonSamplingList.append(speciesName_color)
+
+    return dbLines, taxonSamplingList
+
+
+def check_presense_of_databases():
+    for dbLine in dbLines:
+        #print("dbLine", dbLine)
+        name_protDB_file = dbLine[1]
+        name_nuclDB_file = dbLine[2]
         if not os.path.isfile(dbAddress + name_protDB_file):
             print("Error in your directory:", dbAddress[:-1])
             print(name_protDB_file)
@@ -523,11 +539,6 @@ def check_pickup_taxonSampling(dbAddress, lines_taxonSampling):
             print(name_nuclDB_file)
             print("is not found.")
             exit()
-
-        dbLines.append([speciesName + "_", name_protDB_file, name_nuclDB_file])
-        taxonSamplingList.append(speciesName_color)
-
-    return dbLines, taxonSamplingList
 
 
 def check_controlFile(resDict_SR):
@@ -2980,7 +2991,6 @@ else:
 #### Species Tree raddrrize (Top left)
 #print("eachDirAddress",eachDirAddress)
 make_treeFile("000_speciesTreeTMP.txt", SpeciesTreeTMP)
-#exit()
 laderrizedTree = "tools/Rscript scripts/ladderizeTree.R " + eachDirAddress + "000_speciesTreeTMP.txt " + eachDirAddress + "000_speciesTree.txt"
 #print("laderrizedTree: ", laderrizedTree)
 subprocess.call(laderrizedTree, shell=True)
@@ -3029,6 +3039,7 @@ if mode == "D":
 
 
 if mode == "E":
+    check_presense_of_databases()
     makeblastdb_database()
 
 orthogroup_speciesNode = identifiy_orthogroup_speciesNode()
@@ -3081,6 +3092,7 @@ if draw_speciesTree == "Draw":
         #print("treePlot_speciesTree: ", treePlot_speciesTree)
         subprocess.call(treePlot_speciesTree, shell=True)
         new_path = shutil.move('./speciesTree.pdf', outdir)
+
 
 checkUplodedFileAsFastaForamt()
 
