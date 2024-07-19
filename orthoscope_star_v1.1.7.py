@@ -21,8 +21,8 @@ import time
 # The function check_pickup_taxonSampling was modified.
 ######
 
-AddintHeaderAfterAT = "D"   ## L:leave or D:Delete @xxxx for the summarize analysis
-draw_speciesTree = "Not"  ## Draw: Draw species tree in the .pdf file
+AddintHeaderAfterAT = "D"   ## L:leave or D:Delete @xxxx for the summarize analysis.
+draw_speciesTree = "Not"  ## Draw: Draw species tree in the .pdf file. or Not:
 
 if len (sys.argv) < 2:
     print("Error. you need two arguments.")
@@ -2794,10 +2794,15 @@ def make_lines_atmarkSeparated(geneIDs_fn):
 
         line_FN += "SpeciesWithGeneFunction@"
         if ">Orthogroup" in  seqDict.keys():
+            flagTMP = 0
             for geneLeaf in seqDict[">Orthogroup"]:
                 if re.search("^" + speciesWithGeneFunction + "_", geneLeaf):
+                    flagTMP += 1
                     line_FN += geneLeaf + " "
-            line_FN +=  ","
+            if flagTMP < 1:
+                line_FN += "NONE,"
+            else:
+                line_FN += ","
             #exit()
         else:
             line_FN += "NONE" + ","
@@ -2841,7 +2846,7 @@ def make_lines_atmarkSeparated(geneIDs_fn):
                 speciesName = dbLine[0]
                 #print("speciesName_in_orthogroup", speciesName_in_orthogroup)
                 #print("speciesName", speciesName[:-1])
-                line_FN += "BHnum_" + speciesName[:-1] + "@" + ","
+                line_FN += "BHnum_" + speciesName[:-1] + "@NONE" + ","
 
         if ">GeneNumber_of_orthogroup" in  seqDict.keys():
             for node_num in seqDict[">GeneNumber_of_orthogroup"]:
@@ -2853,7 +2858,7 @@ def make_lines_atmarkSeparated(geneIDs_fn):
             for speciesName_in_orthogroup in speciesNames_in_orthogroup:
                 #line_FN += "OGnum_" + speciesName_in_orthogroup + "@NONE" + ","
                 #line_FN += "OGnum_" + speciesName_in_orthogroup + "@" + " " + ","
-                line_FN += "OGnum_" + speciesName_in_orthogroup + "@" + ","
+                line_FN += "OGnum_" + speciesName_in_orthogroup + "@NONE" + ","
 
         if ">MonophyleticGeneGroups" in  seqDict.keys():
             #print("seqDict[>Number_of_duplicatedNode]", seqDict[">Number_of_duplicatedNode"])
@@ -2871,8 +2876,8 @@ def make_lines_atmarkSeparated(geneIDs_fn):
             for targetSpeciesNode in childSpeciesNodes_orthogroup_including_querySpecies:
                 name_targetSpeciesNode = make_nodeName_from_nodeLavel_NHXstyle(targetSpeciesNode[2])
                 #print("name_targetSpeciesNode", name_targetSpeciesNode)
-                line_FN += "BS_of_" + name_targetSpeciesNode + "_monophyly@" + ","
-                line_FN += "dupStatus_" + name_targetSpeciesNode + "@" + ","
+                line_FN += "BS_of_" + name_targetSpeciesNode + "_monophyly@NONE" + ","
+                line_FN += "dupStatus_" + name_targetSpeciesNode + "@NONE" + ","
 
         if ">SisterGeneGroups" in  seqDict.keys():
             #print("seqDict[>Number_of_duplicatedNode]", seqDict[">Number_of_duplicatedNode"])
@@ -2890,8 +2895,8 @@ def make_lines_atmarkSeparated(geneIDs_fn):
             for targetSpeciesNode in childSpeciesNodes_orthogroup_including_querySpecies:
                 name_targetSpeciesNode = make_nodeName_from_nodeLavel_NHXstyle(targetSpeciesNode[2])
                 #print("name_targetSpeciesNode", name_targetSpeciesNode)
-                line_FN += "Sister_of_" + name_targetSpeciesNode + "@" + ","
-                line_FN += "BS_with_" + name_targetSpeciesNode + "@" + ","
+                line_FN += "Sister_of_" + name_targetSpeciesNode + "@NONE" + ","
+                line_FN += "BS_with_" + name_targetSpeciesNode + "@NONE" + ","
 
         #if ">Number_of_duplicatedNode" in  seqDict.keys():
         #    #print("seqDict[>Number_of_duplicatedNode]", seqDict[">Number_of_duplicatedNode"])
@@ -3086,6 +3091,9 @@ if mode == "S":
     geneIDsTMP.close()
     
     lines_atmarkSeparated = make_lines_atmarkSeparated(geneIDs)
+    #for line in lines_atmarkSeparated:
+    #    print("line", line)
+    #exit()
     print_csv(lines_atmarkSeparated)
 
     address_file = eachDirAddress + "000_speciesTreeTMP.txt"
