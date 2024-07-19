@@ -2,7 +2,7 @@
 # S: Summarize results.
 # D: Draw phylogenetic trees.
 >Mode
-S
+E
 
 
 # Each line shows species names followed by an underscore and then database file names of amino acid and nucleotide
