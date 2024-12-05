@@ -10,6 +10,7 @@ import time
 ##### v1.1.9 updates
 # In Database files, deleted DBNLINE|*| from their name lines.
 # In delete_sequences_with_alignedSiteRate(), keys of dic_nonGapSiteRate were used for dic_AA and dic_DNA because those dictionaries share same keys from v1.1.9
+# Among recent updates, results were compared in the results_versions.xlsx. file.
 ######
 
 
