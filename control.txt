@@ -2,7 +2,7 @@
 # S: Summarize results.
 # D: Draw phylogenetic trees.
 >Mode
-E
+S
 
 
 # Each line shows species names followed by an underscore and then database file names of amino acid and nucleotide
@@ -32,7 +32,7 @@ BonyVertebrates
 Homo-sapiens
 
 >Outdir
-outdir
+outdir119
 
 >Alignment_orthogroups
 alignment_orthogroups
@@ -64,7 +64,7 @@ alignment_orthogroups
 Exclude3rd
 
 >Database
-database
+database119
 
 # D: Delete these files
 # L: Leave intermediate process
