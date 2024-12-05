@@ -1,0 +1,211 @@
+################ Results: 1st analysis ################
+
+>QuerySequence
+Oryzias-latipes_ENSORLT00000002910.1_wdr92-WD-repeat-domain-  <= [Identities = 703/703 (100%)] : Oryzias-latipes_ENSORLT00000002910.1_wdr92-WD-repeat-domain-
+
+>Number_of_blastHits
+Drosophila-melanogaster  10
+Ciona-intestinalis       10
+Xenopus-tropicalis       10
+Gallus-gallus            10
+Homo-sapiens             10
+Danio-rerio              10
+Tetraodon-nigroviridis   10
+Gasterosteus-aculeatus   10
+Oryzias-latipes          10
+
+>BS_of_orthogroupBasalNode
+r
+
+
+>Orthogroup
+Danio-rerio_ENSDART00000054318.4_wdr92-WD-repeat-domain-92
+Gallus-gallus_ENSGALT00000039435.4_WDR92-WD-repeat-doma
+Gasterosteus-aculeatus_ENSGACT00000015958.1_wdr92-WD-repeat-
+Homo-sapiens_ENST00000295121.11_WDR92-WD-repeat-domain
+Homo-sapiens_ENST00000406334.3_AC017083.3-novel-protei
+Oryzias-latipes_ENSORLT00000002910.1_wdr92-WD-repeat-domain-
+Tetraodon-nigroviridis_ENSTNIT00000012907.1_wdr92-WD-repeat-
+Xenopus-tropicalis_ENSXETT00000037777.3_wdr92-WD-repeat-doma
+
+>GeneNumber_of_orthogroup
+Xenopus-tropicalis      1
+Gallus-gallus           1
+Homo-sapiens            2
+Danio-rerio             1
+Oryzias-latipes         1
+Tetraodon-nigroviridis  1
+Gasterosteus-aculeatus  1
+
+>Rooting
+Ciona-intestinalis_ENSCINT00000036239.1_NONE
+
+
+>1st_rearranged_gene_tree_newick
+((((((Homo-sapiens_ENST00000295121.11_WDR92-WD-repeat-domain,Homo-sapiens_ENST00000406334.3_AC017083.3-novel-protei)r_S=Homo-sapiens_D=Y,Gallus-gallus_ENSGALT00000039435.4_WDR92-WD-repeat-doma)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000037777.3_wdr92-WD-repeat-doma)r_S=Tetrapoda_D=N,(((Gasterosteus-aculeatus_ENSGACT00000015958.1_wdr92-WD-repeat-,Tetraodon-nigroviridis_ENSTNIT00000012907.1_wdr92-WD-repeat-)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000002910.1_wdr92-WD-repeat-domain-)r_S=Percomorpha_D=N,Danio-rerio_ENSDART00000054318.4_wdr92-WD-repeat-domain-92)r_S=Teleostei_D=N)r_S=BonyVertebrates_D=N,Ciona-intestinalis_ENSCINT00000036239.1_NONE)100_S=Deuterostomia_D=N,Drosophila-melanogaster_FBtr0075144_CG14353-NONE)100_S=Bilateria_D=N;
+
+>1st_rearranged_gene_tree_NHX
+((((((Homo-sapiens_ENST00000295121.11_WDR92-WD-repeat-domain:0.04782901522[&&NHX:S=Homo-sapiens],Homo-sapiens_ENST00000406334.3_AC017083.3-novel-protei:0.9608390741[&&NHX:S=Homo-sapiens])r24[&&NHX:S=Homo-sapiens:D=Y],Gallus-gallus_ENSGALT00000039435.4_WDR92-WD-repeat-doma:0.07752929349[&&NHX:S=Gallus-gallus])r23[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000037777.3_wdr92-WD-repeat-doma:0.08208282785[&&NHX:S=Xenopus-tropicalis])r22[&&NHX:S=Tetrapoda:D=N],(((Gasterosteus-aculeatus_ENSGACT00000015958.1_wdr92-WD-repeat-:0.02211945698[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000012907.1_wdr92-WD-repeat-:0.03642586076[&&NHX:S=Tetraodon-nigroviridis])r27[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000002910.1_wdr92-WD-repeat-domain-:0.0574891951[&&NHX:S=Oryzias-latipes])r26[&&NHX:S=Percomorpha:D=N],Danio-rerio_ENSDART00000054318.4_wdr92-WD-repeat-domain-92:0.0429720582[&&NHX:S=Danio-rerio])r25[&&NHX:S=Teleostei:D=N])r21[&&NHX:S=BonyVertebrates:D=N],Ciona-intestinalis_ENSCINT00000036239.1_NONE:0.1471790658[&&NHX:S=Ciona-intestinalis])n16:0.0[&&NHX:S=Deuterostomia:D=N:B=100.0],Drosophila-melanogaster_FBtr0075144_CG14353-NONE:0.2613333438[&&NHX:S=Drosophila-melanogaster])n18[&&NHX:S=Bilateria:D=N:B=100.0];
+
+>1st_gene_tree_newick
+(((((((Danio-rerio_ENSDART00000054318.4_wdr92-WD-repeat-domain-92:0.0429720582,Oryzias-latipes_ENSORLT00000002910.1_wdr92-WD-repeat-domain-:0.0574891951)20:0.005919535119,Tetraodon-nigroviridis_ENSTNIT00000012907.1_wdr92-WD-repeat-:0.03642586076)9:0.00619227579,Gasterosteus-aculeatus_ENSGACT00000015958.1_wdr92-WD-repeat-:0.02211945698)59:0.01692003893,((Gallus-gallus_ENSGALT00000039435.4_WDR92-WD-repeat-doma:0.07752929349,Homo-sapiens_ENST00000295121.11_WDR92-WD-repeat-domain:0.04782901522)49:0.01428309401,Xenopus-tropicalis_ENSXETT00000037777.3_wdr92-WD-repeat-doma:0.08208282785)34:0.008259548282)60:0.03847664762,Homo-sapiens_ENST00000406334.3_AC017083.3-novel-protei:0.9608390741)36:0.01689098397,Ciona-intestinalis_ENSCINT00000036239.1_NONE:0.1471790658)100:0,Drosophila-melanogaster_FBtr0075144_CG14353-NONE:0.2613333438)100;
+
+>Aligned-ShortSequence_threshold evaluation
+== Removed ==> Drosophila-melanogaster_FBtr0074545_Frq1-Frequenin-1-DBNLIN      0.325
+== Removed ==> Drosophila-melanogaster_FBtr0084904_Acam-Androcam-DBNLINE-1      0.267
+== Removed ==> Drosophila-melanogaster_FBtr0088184_TpnC47D-Troponin-C-at-4      0.272
+== Removed ==> Drosophila-melanogaster_FBtr0074902_Nca-Neurocalcin-DBNLINE      0.331
+== Removed ==> Drosophila-melanogaster_FBtr0304964_Cam-Calmodulin-DBNLINE-      0.268
+== Removed ==> Drosophila-melanogaster_FBtr0304717_Cib2-Calcium-and-integr      0.331
+== Removed ==> Drosophila-melanogaster_FBtr0334953_elm-ethanol-sensitive-w      0.333
+== Removed ==> Drosophila-melanogaster_FBtr0308348_CanB-Calcineurin-B-DBNL      0.329
+== Removed ==> Drosophila-melanogaster_FBtr0309866_CanB2-Calcineurin-B2-DB      0.329
+Drosophila-melanogaster_FBtr0075144_CG14353-NONE                 0.687
+== Removed ==> Ciona-intestinalis_ENSCINT00000018417.3_NONE                     0.278
+== Removed ==> Ciona-intestinalis_ENSCINT00000037277.1_NONE                     0.22
+== Removed ==> Ciona-intestinalis_ENSCINT00000025456.2_NONE                     0.34
+== Removed ==> Ciona-intestinalis_ENSCINT00000033136.1_NONE                     0.331
+== Removed ==> Ciona-intestinalis_ENSCINT00000017572.3_cam-calmodulin           0.268
+== Removed ==> Ciona-intestinalis_ENSCINT00000017574.3_NONE                     0.268
+== Removed ==> Ciona-intestinalis_ENSCINT00000030458.1_NONE                     0.309
+== Removed ==> Ciona-intestinalis_ENSCINT00000034048.1_NONE                     0.333
+== Removed ==> Ciona-intestinalis_ENSCINT00000036421.1_NONE                     0.329
+Ciona-intestinalis_ENSCINT00000036239.1_NONE                     0.693
+== Removed ==> Xenopus-tropicalis_ENSXETT00000002188.3_hpca-hippocalcin-hpc     0.337
+== Removed ==> Xenopus-tropicalis_ENSXETT00000028401.3_cib1-calcium-and-int     0.327
+== Removed ==> Xenopus-tropicalis_ENSXETT00000007606.3_hpcal1-hippocalcin-l     0.337
+== Removed ==> Xenopus-tropicalis_ENSXETT00000034284.2_calm1-calmodulin-2-p     0.284
+== Removed ==> Xenopus-tropicalis_ENSXETT00000009928.3_cib2-calcium-and-int     0.329
+== Removed ==> Xenopus-tropicalis_ENSXETT00000000663.2_calm2-calmodulin-2-p     0.268
+== Removed ==> Xenopus-tropicalis_ENSXETT00000019149.3_cib3-calcium-and-int     0.366
+== Removed ==> Xenopus-tropicalis_ENSXETT00000057366.2_chp1-calcineurin-lik     0.331
+== Removed ==> Xenopus-tropicalis_ENSXETT00000037793.3_ppp3r1-protein-phosp     0.329
+Xenopus-tropicalis_ENSXETT00000037777.3_wdr92-WD-repeat-doma     0.519
+== Removed ==> Gallus-gallus_ENSGALT00000079087.2_NCALD-neurocalcin-de          0.337
+== Removed ==> Gallus-gallus_ENSGALT00000064786.2_HPCAL1-hippocalcin-l          0.397
+== Removed ==> Gallus-gallus_ENSGALT00000040245.5_CALML3-calmodulin-li          0.268
+== Removed ==> Gallus-gallus_ENSGALT00000093006.1_CIB3-calcium-and-int          0.321
+== Removed ==> Gallus-gallus_ENSGALT00000046884.2_CIB2-calcium-and-int          0.329
+== Removed ==> Gallus-gallus_ENSGALT00000059207.2_CALM2-calmodulin-2            0.272
+== Removed ==> Gallus-gallus_ENSGALT00000103438.1_CALM1-calmodulin-1-p          0.272
+== Removed ==> Gallus-gallus_ENSGALT00000032642.3_CHP1-calcineurin-lik          0.333
+== Removed ==> Gallus-gallus_ENSGALT00000014249.4_PPP3R1-protein-phosp          0.329
+Gallus-gallus_ENSGALT00000039435.4_WDR92-WD-repeat-doma          0.695
+== Removed ==> Homo-sapiens_ENST00000409563.5_CALM2-calmodulin-2                0.3
+== Removed ==> Homo-sapiens_ENST00000258930.8_CIB2-calcium-and-integr           0.329
+== Removed ==> Homo-sapiens_ENST00000291295.14_CALM3-calmodulin-3               0.268
+== Removed ==> Homo-sapiens_ENST00000356978.9_CALM1-calmodulin-1                0.268
+== Removed ==> Homo-sapiens_ENST00000300113.3_CHP2-calcineurin-like-E           0.333
+== Removed ==> Homo-sapiens_ENST00000334660.10_CHP1-calcineurin-like-           0.333
+== Removed ==> Homo-sapiens_ENST00000374806.2_PPP3R2-protein-phosphat           0.329
+== Removed ==> Homo-sapiens_ENST00000409752.5_PPP3R1-protein-phosphat           0.329
+Homo-sapiens_ENST00000406334.3_AC017083.3-novel-protei           0.595
+Homo-sapiens_ENST00000295121.11_WDR92-WD-repeat-domain           0.693
+== Removed ==> Danio-rerio_ENSDART00000021083.9_calm2a-calmodulin-2a-phosph     0.268
+== Removed ==> Danio-rerio_ENSDART00000034580.7_calm1a-calmodulin-1a            0.268
+== Removed ==> Danio-rerio_ENSDART00000050308.8_calm1b-calmodulin-1b            0.268
+== Removed ==> Danio-rerio_ENSDART00000065392.5_calm3b-calmodulin-3b-phosph     0.268
+== Removed ==> Danio-rerio_ENSDART00000172114.1_calm3a-calmodulin-3a-phosph     0.268
+== Removed ==> Danio-rerio_ENSDART00000008589.7_chp2-calcineurin-like-EF-ha     0.331
+== Removed ==> Danio-rerio_ENSDART00000130467.3_chp1-calcineurin-like-EF-ha     0.333
+== Removed ==> Danio-rerio_ENSDART00000139560.2_ppp3r1a-protein-phosphatase     0.329
+== Removed ==> Danio-rerio_ENSDART00000100869.3_ppp3r1b-protein-phosphatase     0.329
+Danio-rerio_ENSDART00000054318.4_wdr92-WD-repeat-domain-92       0.695
+== Removed ==> Tetraodon-nigroviridis_ENSTNIT00000011421.1_cib2-calcium-and     0.329
+== Removed ==> Tetraodon-nigroviridis_ENSTNIT00000020463.1_NONE                 0.261
+== Removed ==> Tetraodon-nigroviridis_ENSTNIT00000018162.1_cib3-calcium-and     0.329
+== Removed ==> Tetraodon-nigroviridis_ENSTNIT00000006594.1_NONE                 0.268
+== Removed ==> Tetraodon-nigroviridis_ENSTNIT00000010749.1_NONE                 0.268
+== Removed ==> Tetraodon-nigroviridis_ENSTNIT00000012778.1_CALM3-calmodulin     0.268
+== Removed ==> Tetraodon-nigroviridis_ENSTNIT00000022795.1_chp1-calcineurin     0.333
+== Removed ==> Tetraodon-nigroviridis_ENSTNIT00000007311.1_NONE                 0.329
+== Removed ==> Tetraodon-nigroviridis_ENSTNIT00000012905.1_ppp3r1a-protein-     0.329
+Tetraodon-nigroviridis_ENSTNIT00000012907.1_wdr92-WD-repeat-     0.695
+== Removed ==> Gasterosteus-aculeatus_ENSGACT00000003428.1_calm3b-calmoduli     0.27
+== Removed ==> Gasterosteus-aculeatus_ENSGACT00000012693.1_NONE                 0.27
+== Removed ==> Gasterosteus-aculeatus_ENSGACT00000016710.1_NONE                 0.272
+== Removed ==> Gasterosteus-aculeatus_ENSGACT00000013544.1_cib2-calcium-and     0.329
+== Removed ==> Gasterosteus-aculeatus_ENSGACT00000006828.1_NONE                 0.268
+== Removed ==> Gasterosteus-aculeatus_ENSGACT00000023189.1_NONE                 0.329
+== Removed ==> Gasterosteus-aculeatus_ENSGACT00000022292.1_cib3-calcium-and     0.329
+== Removed ==> Gasterosteus-aculeatus_ENSGACT00000016148.1_chp1-calcineurin     0.333
+== Removed ==> Gasterosteus-aculeatus_ENSGACT00000026043.1_ppp3r1b-protein-     0.329
+Gasterosteus-aculeatus_ENSGACT00000015958.1_wdr92-WD-repeat-     0.996
+== Removed ==> Oryzias-latipes_ENSORLT00000015869.1_hpcal1-hippocalcin-like     0.337
+== Removed ==> Oryzias-latipes_ENSORLT00000023696.1_CIB2-calcium-and-integr     0.368
+== Removed ==> Oryzias-latipes_ENSORLT00000022575.1_cib3-calcium-and-integr     0.368
+== Removed ==> Oryzias-latipes_ENSORLT00000001798.1_NONE                        0.268
+== Removed ==> Oryzias-latipes_ENSORLT00000008599.1_NONE                        0.268
+== Removed ==> Oryzias-latipes_ENSORLT00000022188.1_CALM1-calmodulin-1          0.268
+== Removed ==> Oryzias-latipes_ENSORLT00000009325.1_cib2-calcium-and-integr     0.329
+== Removed ==> Oryzias-latipes_ENSORLT00000000503.1_chp2-calcineurin-like-E     0.331
+== Removed ==> Oryzias-latipes_ENSORLT00000011998.1_chp1-calcineurin-like-E     0.333
+Oryzias-latipes_ENSORLT00000002910.1_wdr92-WD-repeat-domain-     1.0
+
+
+################ Settings ################
+
+>NumberAssigned_querySequence
+Oryzias-latipes_ENSORLT00000002910.1_wdr92-WD-repeat-domain-
+GNEASYPLEMCSHFDADEIKRLGKRFKKLDLDNSGSLSVEEFMSLPELQQNPLVQRVIDIFDTDGNGEVDFKEFIEGVSQFSVKGDKEQKLRFAFRIYDMDKDGYISNGELFQVLKMMVGNNLKDTQLQQIVDKTIINADKDGDGRISFEEFCAAETGLLVCGTLDISVKYKAAPSEFSSCCSTNQSFIKKTNNPLVYTWMVKPDLKLQVLHDGSEDLQPVLLQRRVPMSRDGNLPHLIRTLEHTKKNSRRFIKKSEAEQMHICGQLIVVAVATGKGVRNVNVLNRQAQSGQEEVKHEPGGPTADQRTTEAQHSIESRMIFLSSGITDQFFNALGVDFKFSASVNMSSSLSKPQIIAHAHTGLNFTVFDCKWIPCSAKFVCLGNFPRGTGVIQIHELQHGEVQLVKELEKPKPIKCGTFGASSLQTRHIATGDFDGNLNIWNLEAADVPVYSVKAHKEIVNSIDGVGGLGIGEGAPEIVTGSRDGTVKVWDPRQRDWPVANMEPLEGETRRDCWTVAFGHAFNQEDRCVCAGYDNGDVKLFDLRNMSLRWETNIKNGVCCVEFDRKDINMNKLVATSLEGRFHVFDMRTQHHTKGFASVSEKAHKSTIWQVRHLPQSRDVFMTTGGSGNLHLWKYEYPAQRSEKDCEGVAGGVAGSLSLLQNVTLSTQPITSLDWSPDKQGLCVCSAFDQSVRVLIVTKLNTV
+
+>SpeciesTree
+(Drosophila-melanogaster,(Ciona-intestinalis,((Xenopus-tropicalis,(Gallus-gallus,Homo-sapiens)Amniota)Tetrapoda,(Danio-rerio,(Oryzias-latipes,(Tetraodon-nigroviridis,Gasterosteus-aculeatus)Eupercaria)Percomorpha)Teleostei)BonyVertebrates)Deuterostomia)Bilateria;
+
+>SubstitutionModel
+F84 (Tamura and Nei 1993) + gamma
+
+>ShortSequence_threshold
+0.45
+
+>Dataset
+Exclude3rd
+
+>Rearrangement_BS_value_threshold
+70
+
+>TaxonSampling_color
+Drosophila-melanogaster_Black
+Ciona-intestinalis_Black
+Xenopus-tropicalis_Magenta
+Gallus-gallus_Magenta
+Homo-sapiens_Magenta
+Danio-rerio_Purple
+Tetraodon-nigroviridis_Green
+Gasterosteus-aculeatus_Red
+Oryzias-latipes_Blue
+
+################ Results: 2nd analysis ################
+
+>TreeSearchMethod
+NJ
+
+>2nd_rearranged_gene_tree_newick
+(((((Homo-sapiens_ENST00000295121.11_WDR92-WD-repeat-domain,Homo-sapiens_ENST00000406334.3_AC017083.3-novel-protei)r_S=Homo-sapiens_D=Y,Gallus-gallus_ENSGALT00000039435.4_WDR92-WD-repeat-doma)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000037777.3_wdr92-WD-repeat-doma)r_S=Tetrapoda_D=N,(((Gasterosteus-aculeatus_ENSGACT00000015958.1_wdr92-WD-repeat-,Tetraodon-nigroviridis_ENSTNIT00000012907.1_wdr92-WD-repeat-)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000002910.1_wdr92-WD-repeat-domain-)r_S=Percomorpha_D=N,Danio-rerio_ENSDART00000054318.4_wdr92-WD-repeat-domain-92)r_S=Teleostei_D=N)100_S=BonyVertebrates_D=N,Ciona-intestinalis_ENSCINT00000036239.1_NONE)100_S=Deuterostomia_D=N;
+
+>2nd_rearranged_gene_tree_NHX
+(((((Homo-sapiens_ENST00000295121.11_WDR92-WD-repeat-domain:0.04657331785[&&NHX:S=Homo-sapiens],Homo-sapiens_ENST00000406334.3_AC017083.3-novel-protei:1.037881644[&&NHX:S=Homo-sapiens])r21[&&NHX:S=Homo-sapiens:D=Y],Gallus-gallus_ENSGALT00000039435.4_WDR92-WD-repeat-doma:0.07783791427[&&NHX:S=Gallus-gallus])r20[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000037777.3_wdr92-WD-repeat-doma:0.07941401512[&&NHX:S=Xenopus-tropicalis])r19[&&NHX:S=Tetrapoda:D=N],(((Gasterosteus-aculeatus_ENSGACT00000015958.1_wdr92-WD-repeat-:0.02525038711[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000012907.1_wdr92-WD-repeat-:0.03611305833[&&NHX:S=Tetraodon-nigroviridis])r24[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000002910.1_wdr92-WD-repeat-domain-:0.05745306992[&&NHX:S=Oryzias-latipes])r23[&&NHX:S=Percomorpha:D=N],Danio-rerio_ENSDART00000054318.4_wdr92-WD-repeat-domain-92:0.04244943385[&&NHX:S=Danio-rerio])r22[&&NHX:S=Teleostei:D=N])n14:0.0[&&NHX:S=BonyVertebrates:D=N:B=100.0],Ciona-intestinalis_ENSCINT00000036239.1_NONE:0.1566889701[&&NHX:S=Ciona-intestinalis])n16[&&NHX:S=Deuterostomia:D=N:B=100.0];
+
+>2nd_gene_tree_newick
+(((((((Tetraodon-nigroviridis_ENSTNIT00000012907.1_wdr92-WD-repeat-:0.03611305833,Gasterosteus-aculeatus_ENSGACT00000015958.1_wdr92-WD-repeat-:0.02525038711)32:0.005264868867,Oryzias-latipes_ENSORLT00000002910.1_wdr92-WD-repeat-domain-:0.05745306992)28:0.006138133541,Danio-rerio_ENSDART00000054318.4_wdr92-WD-repeat-domain-92:0.04244943385)37:0.01215550565,(Gallus-gallus_ENSGALT00000039435.4_WDR92-WD-repeat-doma:0.07783791427,Homo-sapiens_ENST00000295121.11_WDR92-WD-repeat-domain:0.04657331785)56:0.0237254614)23:0.01296875554,Xenopus-tropicalis_ENSXETT00000037777.3_wdr92-WD-repeat-doma:0.07941401512)57:0.03618310829,Homo-sapiens_ENST00000406334.3_AC017083.3-novel-protei:1.037881644)100:0,Ciona-intestinalis_ENSCINT00000036239.1_NONE:0.1566889701)100;
+
+>MonophyleticGeneGroups
+BonyVertebrates                 100  D=N
+Teleostei                       r  D=N
+Percomorpha                     r  D=N
+Oryzias-latipes                 leaf  leaf
+
+>SisterGeneGroups
+BonyVertebrates                 NONE   NoGeneNode
+Teleostei                       100   Tetrapoda
+Percomorpha                     r   Danio-rerio
+Oryzias-latipes                 r   Eupercaria
+
+>Number_of_duplicatedNode
+BonyVertebrates                 0
+Teleostei                       0
+Percomorpha                     0
+Oryzias-latipes                 0
+
+>AnalysisTime
+11.0 seconds

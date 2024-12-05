@@ -1,0 +1,210 @@
+################ Results: 1st analysis ################
+
+>QuerySequence
+Oryzias-latipes_ENSORLT00000017805.1_grm1a-glutamate-recepto  <= [Identities = 1207/1207 (100%)] : Oryzias-latipes_ENSORLT00000017805.1_grm1a-glutamate-recepto
+
+>Number_of_blastHits
+Drosophila-melanogaster  10
+Ciona-intestinalis       6
+Xenopus-tropicalis       10
+Gallus-gallus            10
+Homo-sapiens             10
+Danio-rerio              10
+Tetraodon-nigroviridis   10
+Gasterosteus-aculeatus   10
+Oryzias-latipes          10
+
+>BS_of_orthogroupBasalNode
+100
+
+
+>Orthogroup
+Danio-rerio_ENSDART00000142653.3_grm1a-glutamate-receptor-me
+Danio-rerio_ENSDART00000162002.1_grm1b-glutamate-receptor-me
+Gallus-gallus_ENSGALT00000020095.6_GRM1-glutamate-metab
+Gasterosteus-aculeatus_ENSGACT00000015371.1_grm1b-glutamate-
+Gasterosteus-aculeatus_ENSGACT00000015438.1_grm1a-glutamate-
+Homo-sapiens_ENST00000282753.6_GRM1-glutamate-metabotr
+Oryzias-latipes_ENSORLT00000017805.1_grm1a-glutamate-recepto
+Oryzias-latipes_ENSORLT00000023505.1_NONE
+Tetraodon-nigroviridis_ENSTNIT00000015426.1_grm1a-glutamate-
+Tetraodon-nigroviridis_ENSTNIT00000022748.1_grm1b-glutamate-
+Xenopus-tropicalis_ENSXETT00000017310.3_grm1-glutamate-recep
+
+>GeneNumber_of_orthogroup
+Xenopus-tropicalis      1
+Gallus-gallus           1
+Homo-sapiens            1
+Danio-rerio             2
+Oryzias-latipes         2
+Tetraodon-nigroviridis  2
+Gasterosteus-aculeatus  2
+
+>Rooting
+Oryzias-latipes_ENSORLT00000005681.1_GRM5-glutamate-metabotr
+
+
+>1st_rearranged_gene_tree_newick
+((((((((((Homo-sapiens_ENST00000395052.8_GRM2-glutamate-metabotr,Gallus-gallus_ENSGALT00000006095.6_GRM2-glutamate-metab)88_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000062176.1_GRM2-glutamate-metab)r_S=Tetrapoda_D=N,((((Gasterosteus-aculeatus_ENSGACT00000001166.1_grm2a-glutamate-,Tetraodon-nigroviridis_ENSTNIT00000017870.1_grm2a-glutamate-)79_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000000938.1_grm2a-glutamate-recepto)100_S=Percomorpha_D=N,((Oryzias-latipes_ENSORLT00000004140.1_grm2b-glutamate-recepto,Gasterosteus-aculeatus_ENSGACT00000013817.1_grm2b-glutamate-)83_S=Percomorpha_D=N,Tetraodon-nigroviridis_ENSTNIT00000018000.1_grm2b-glutamate-)100_S=Percomorpha_D=Y)83_S=Percomorpha_D=Y,Danio-rerio_ENSDART00000085472.5_grm2a-glutamate-receptor-me)100_S=Teleostei_D=N)95_S=BonyVertebrates_D=N,((((Oryzias-latipes_ENSORLT00000011817.1_grm3-glutamate-receptor,Gasterosteus-aculeatus_ENSGACT00000016862.1_grm3-glutamate-r)70_S=Percomorpha_D=N,Tetraodon-nigroviridis_ENSTNIT00000022638.1_grm3-glutamate-r)100_S=Percomorpha_D=Y,Danio-rerio_ENSDART00000134224.2_grm3-glutamate-receptor-met)100_S=Teleostei_D=N,((Homo-sapiens_ENST00000361669.6_GRM3-glutamate-metabotr,Gallus-gallus_ENSGALT00000100188.1_GRM3-glutamate-metab)92_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000011950.4_grm3-glutamate-recep)100_S=Tetrapoda_D=N)100_S=BonyVertebrates_D=N)100_S=BonyVertebrates_D=Y,Drosophila-melanogaster_FBtr0089184_mGluR-metabotropic-Glut)87_S=Bilateria_D=N,((((((((Tetraodon-nigroviridis_ENSTNIT00000021897.1_grm8a-glutamate-,(Danio-rerio_ENSDART00000109044.4_grm8a-glutamate-receptor-me,Danio-rerio_ENSDART00000155949.1_grm8b-glutamate-receptor-me)r_S=Danio-rerio_D=Y)100_S=Teleostei_D=N,Tetraodon-nigroviridis_ENSTNIT00000013504.1_grm8b-glutamate-)86_S=Teleostei_D=Y,((Homo-sapiens_ENST00000339582.7_GRM8-glutamate-metabotr,Gallus-gallus_ENSGALT00000065046.2_GRM8-glutamate-metab)82_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000045885.2_grm6-glutamate-recep)100_S=Tetrapoda_D=N)96_S=BonyVertebrates_D=N,(((Gasterosteus-aculeatus_ENSGACT00000016021.1_grm6b-glutamate-,Tetraodon-nigroviridis_ENSTNIT00000010315.1_grm6b-glutamate-)100_S=Eupercaria_D=N,Danio-rerio_ENSDART00000033657.6_grm6b-glutamate-receptor-me)100_S=Teleostei_D=N,(Homo-sapiens_ENST00000517717.3_GRM6-glutamate-metabotr,Xenopus-tropicalis_ENSXETT00000014728.3_GRM6-glutamate-metab)75_S=Tetrapoda_D=N)100_S=BonyVertebrates_D=N)r_S=BonyVertebrates_D=Y,(((Homo-sapiens_ENST00000467425.5_GRM7-glutamate-metabotr,Gallus-gallus_ENSGALT00000107227.1_glutamate-metabotrop)100_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000034312.3_grm7-glutamate-recep)100_S=Tetrapoda_D=N,(Oryzias-latipes_ENSORLT00000012378.1_NONE,Tetraodon-nigroviridis_ENSTNIT00000021277.1_GRM7-glutamate-m)100_S=Percomorpha_D=N)100_S=BonyVertebrates_D=N)79_S=BonyVertebrates_D=Y,(((((Oryzias-latipes_ENSORLT00000009080.1_grm4-glutamate-receptor,Gasterosteus-aculeatus_ENSGACT00000006597.1_grm4-glutamate-r)100_S=Percomorpha_D=N,Danio-rerio_ENSDART00000058736.6_grm4-glutamate-receptor-met)78_S=Teleostei_D=N,(Oryzias-latipes_ENSORLT00000016624.1_NONE,Gasterosteus-aculeatus_ENSGACT00000004381.1_NONE)100_S=Percomorpha_D=N)100_S=Teleostei_D=Y,(Homo-sapiens_ENST00000538487.7_GRM4-glutamate-metabotr,Gallus-gallus_ENSGALT00000004481.6_GRM4-glutamate-recep)100_S=Amniota_D=N)75_S=BonyVertebrates_D=N,Xenopus-tropicalis_ENSXETT00000040566.3_grm4-glutamate-recep)96_S=BonyVertebrates_D=Y)100_S=BonyVertebrates_D=Y,((((((Oryzias-latipes_ENSORLT00000017805.1_grm1a-glutamate-recepto,Gasterosteus-aculeatus_ENSGACT00000015438.1_grm1a-glutamate-)77_S=Percomorpha_D=N,Tetraodon-nigroviridis_ENSTNIT00000015426.1_grm1a-glutamate-)100_S=Percomorpha_D=Y,Danio-rerio_ENSDART00000142653.3_grm1a-glutamate-receptor-me)96_S=Teleostei_D=N,(((Gasterosteus-aculeatus_ENSGACT00000015371.1_grm1b-glutamate-,Tetraodon-nigroviridis_ENSTNIT00000022748.1_grm1b-glutamate-)100_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000023505.1_NONE)85_S=Percomorpha_D=N,Danio-rerio_ENSDART00000162002.1_grm1b-glutamate-receptor-me)r_S=Teleostei_D=N)89_S=Teleostei_D=Y,((Homo-sapiens_ENST00000282753.6_GRM1-glutamate-metabotr,Gallus-gallus_ENSGALT00000020095.6_GRM1-glutamate-metab)99_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000017310.3_grm1-glutamate-recep)100_S=Tetrapoda_D=N)100_S=BonyVertebrates_D=N,(((((Oryzias-latipes_ENSORLT00000005681.1_GRM5-glutamate-metabotr,Gasterosteus-aculeatus_ENSGACT00000027276.1_GRM5-glutamate-m)98_S=Percomorpha_D=N,Tetraodon-nigroviridis_ENSTNIT00000002504.1_GRM5-glutamate-m)100_S=Percomorpha_D=Y,Danio-rerio_ENSDART00000042767.7_grm5a-glutamate-receptor-me)71_S=Teleostei_D=N,((Oryzias-latipes_ENSORLT00000013640.1_GRM5-glutamate-metabotr,Gasterosteus-aculeatus_ENSGACT00000010587.1_GRM5-glutamate-m)100_S=Percomorpha_D=N,Danio-rerio_ENSDART00000170398.1_grm5b-glutamate-receptor-me)r_S=Teleostei_D=N)100_S=Teleostei_D=Y,((Homo-sapiens_ENST00000305447.4_GRM5-glutamate-metabotr,Gallus-gallus_ENSGALT00000027866.4_GRM5-glutamate-recep)100_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000025700.3_grm5-glutamate-recep)100_S=Tetrapoda_D=N)100_S=BonyVertebrates_D=N)100_S=BonyVertebrates_D=Y)r_S=BonyVertebrates_D=Y,Drosophila-melanogaster_FBtr0330608_mtt-mangetout-DBNLINE-1)r_S=Bilateria_D=N)88_S=Bilateria_D=Y,(((((Homo-sapiens_ENST00000498619.4_CASR-calcium-sensing-re,Gallus-gallus_ENSGALT00000055986.2_CASR-calcium-sensing)100_S=Amniota_D=N,Ciona-intestinalis_ENSCINT00000004243.3_NONE)86_S=Deuterostomia_D=N,((Homo-sapiens_ENST00000310357.8_GPRC6A-G-protein-couple,Gallus-gallus_ENSGALT00000024075.6_GPRC6A-G-protein-cou)100_S=Amniota_D=N,(Xenopus-tropicalis_ENSXETT00000057701.2_vn2r1p-vomeronasal-2,Xenopus-tropicalis_ENSXETT00000023177.2_tas1r1-taste-1-recep)90_S=Xenopus-tropicalis_D=Y)r_S=Tetrapoda_D=N)100_S=Deuterostomia_D=Y,((Ciona-intestinalis_ENSCINT00000005140.3_NONE,Ciona-intestinalis_ENSCINT00000011016.3_NONE)89_S=Ciona-intestinalis_D=Y,Ciona-intestinalis_ENSCINT00000025660.2_NONE)r_S=Ciona-intestinalis_D=Y)r_S=Deuterostomia_D=Y,Drosophila-melanogaster_FBtr0331989_CG43795-NONE)r_S=Bilateria_D=N)71_S=Bilateria_D=Y,((Gallus-gallus_ENSGALT00000046850.2_GABBR2-gamma-aminobu,Drosophila-melanogaster_FBtr0339154_GABA-B-R2-metabotropic-)100_S=Bilateria_D=N,(Ciona-intestinalis_ENSCINT00000006905.3_NONE,Drosophila-melanogaster_FBtr0304732_GABA-B-R1-metabotropic-)100_S=Bilateria_D=N)100_S=Bilateria_D=Y)100_S=Bilateria_D=Y,(((Drosophila-melanogaster_FBtr0333879_Gyc76C-Guanylyl-cyclase,Drosophila-melanogaster_FBtr0302277_CG42637-NONE)100_S=Drosophila-melanogaster_D=Y,Drosophila-melanogaster_FBtr0112856_Gyc32E-Guanyl-cyclase-a)r_S=Drosophila-melanogaster_D=Y,Drosophila-melanogaster_FBtr0302488_CG10738-NONE)94_S=Drosophila-melanogaster_D=Y)100_S=Bilateria_D=Y,Drosophila-melanogaster_FBtr0273396_CG3216-NONE)100_S=Bilateria_D=Y;
+
+>1st_rearranged_gene_tree_NHX
+((((((((((Homo-sapiens_ENST00000395052.8_GRM2-glutamate-metabotr:0.08707759138[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000006095.6_GRM2-glutamate-metab:0.06663297906[&&NHX:S=Gallus-gallus])n64:0.0120093958[&&NHX:S=Amniota:D=N:B=88.0],Xenopus-tropicalis_ENSXETT00000062176.1_GRM2-glutamate-metab:0.08451262261[&&NHX:S=Xenopus-tropicalis])r182[&&NHX:S=Tetrapoda:D=N],((((Gasterosteus-aculeatus_ENSGACT00000001166.1_grm2a-glutamate-:0.02054943502[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000017870.1_grm2a-glutamate-:0.01631867846[&&NHX:S=Tetraodon-nigroviridis])n51:0.00562816505[&&NHX:S=Eupercaria:D=N:B=79.0],Oryzias-latipes_ENSORLT00000000938.1_grm2a-glutamate-recepto:0.01890742317[&&NHX:S=Oryzias-latipes])n53:0.02585083874[&&NHX:S=Percomorpha:D=N:B=100.0],((Oryzias-latipes_ENSORLT00000004140.1_grm2b-glutamate-recepto:0.01943863554[&&NHX:S=Oryzias-latipes],Gasterosteus-aculeatus_ENSGACT00000013817.1_grm2b-glutamate-:0.0192760433[&&NHX:S=Gasterosteus-aculeatus])n56:0.005628127749[&&NHX:S=Percomorpha:D=N:B=83.0],Tetraodon-nigroviridis_ENSTNIT00000018000.1_grm2b-glutamate-:0.02315867508[&&NHX:S=Tetraodon-nigroviridis])n58:0.03999973894[&&NHX:S=Percomorpha:D=Y:B=100.0])n59:0.01044274278[&&NHX:S=Percomorpha:D=Y:B=83.0],Danio-rerio_ENSDART00000085472.5_grm2a-glutamate-receptor-me:0.04845184988[&&NHX:S=Danio-rerio])n61:0.05061118961[&&NHX:S=Teleostei:D=N:B=100.0])n67:0.01496779664[&&NHX:S=BonyVertebrates:D=N:B=95.0],((((Oryzias-latipes_ENSORLT00000011817.1_grm3-glutamate-receptor:0.02003144693[&&NHX:S=Oryzias-latipes],Gasterosteus-aculeatus_ENSGACT00000016862.1_grm3-glutamate-r:0.023834422[&&NHX:S=Gasterosteus-aculeatus])n70:0.005969715664[&&NHX:S=Percomorpha:D=N:B=70.0],Tetraodon-nigroviridis_ENSTNIT00000022638.1_grm3-glutamate-r:0.02854388335[&&NHX:S=Tetraodon-nigroviridis])n72:0.03635530046[&&NHX:S=Percomorpha:D=Y:B=100.0],Danio-rerio_ENSDART00000134224.2_grm3-glutamate-receptor-met:0.06510936898[&&NHX:S=Danio-rerio])n74:0.02555704275[&&NHX:S=Teleostei:D=N:B=100.0],((Homo-sapiens_ENST00000361669.6_GRM3-glutamate-metabotr:0.0481800725[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000100188.1_GRM3-glutamate-metab:0.02691210178[&&NHX:S=Gallus-gallus])n77:0.007473938068[&&NHX:S=Amniota:D=N:B=92.0],Xenopus-tropicalis_ENSXETT00000011950.4_grm3-glutamate-recep:0.05099501657[&&NHX:S=Xenopus-tropicalis])n79:0.03770499931[&&NHX:S=Tetrapoda:D=N:B=100.0])n80:0.04237260203[&&NHX:S=BonyVertebrates:D=N:B=100.0])n81:0.137280531[&&NHX:S=BonyVertebrates:D=Y:B=100.0],Drosophila-melanogaster_FBtr0089184_mGluR-metabotropic-Glut:0.2343838485[&&NHX:S=Drosophila-melanogaster])n83:0.0462670278[&&NHX:S=Bilateria:D=N:B=87.0],((((((((Tetraodon-nigroviridis_ENSTNIT00000021897.1_grm8a-glutamate-:0.05313750694[&&NHX:S=Tetraodon-nigroviridis],(Danio-rerio_ENSDART00000109044.4_grm8a-glutamate-receptor-me:0.0380971462[&&NHX:S=Danio-rerio],Danio-rerio_ENSDART00000155949.1_grm8b-glutamate-receptor-me:0.0437729013[&&NHX:S=Danio-rerio])r190[&&NHX:S=Danio-rerio:D=Y])n4:0.01517682273[&&NHX:S=Teleostei:D=N:B=100.0],Tetraodon-nigroviridis_ENSTNIT00000013504.1_grm8b-glutamate-:0.1203221706[&&NHX:S=Tetraodon-nigroviridis])n6:0.02090973184[&&NHX:S=Teleostei:D=Y:B=86.0],((Homo-sapiens_ENST00000339582.7_GRM8-glutamate-metabotr:0.02061167329[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000065046.2_GRM8-glutamate-metab:0.02560487387[&&NHX:S=Gallus-gallus])n9:0.004611097234[&&NHX:S=Amniota:D=N:B=82.0],Xenopus-tropicalis_ENSXETT00000045885.2_grm6-glutamate-recep:0.08417342521[&&NHX:S=Xenopus-tropicalis])n11:0.041437803[&&NHX:S=Tetrapoda:D=N:B=100.0])n12:0.01930803569[&&NHX:S=BonyVertebrates:D=N:B=96.0],(((Gasterosteus-aculeatus_ENSGACT00000016021.1_grm6b-glutamate-:0.02156764751[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000010315.1_grm6b-glutamate-:0.01749472153[&&NHX:S=Tetraodon-nigroviridis])n15:0.01579595479[&&NHX:S=Eupercaria:D=N:B=100.0],Danio-rerio_ENSDART00000033657.6_grm6b-glutamate-receptor-me:0.03696603161[&&NHX:S=Danio-rerio])n17:0.04180531851[&&NHX:S=Teleostei:D=N:B=100.0],(Homo-sapiens_ENST00000517717.3_GRM6-glutamate-metabotr:0.1035504539[&&NHX:S=Homo-sapiens],Xenopus-tropicalis_ENSXETT00000014728.3_GRM6-glutamate-metab:0.06735353429[&&NHX:S=Xenopus-tropicalis])n20:0.006517633383[&&NHX:S=Tetrapoda:D=N:B=75.0])n21:0.02586568557[&&NHX:S=BonyVertebrates:D=N:B=100.0])r184[&&NHX:S=BonyVertebrates:D=Y],(((Homo-sapiens_ENST00000467425.5_GRM7-glutamate-metabotr:0.03198309876[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000107227.1_glutamate-metabotrop:0.01751023906[&&NHX:S=Gallus-gallus])n25:0.01585542754[&&NHX:S=Amniota:D=N:B=100.0],Xenopus-tropicalis_ENSXETT00000034312.3_grm7-glutamate-recep:0.08495995347[&&NHX:S=Xenopus-tropicalis])n27:0.02206335859[&&NHX:S=Tetrapoda:D=N:B=100.0],(Oryzias-latipes_ENSORLT00000012378.1_NONE:0.01929994427[&&NHX:S=Oryzias-latipes],Tetraodon-nigroviridis_ENSTNIT00000021277.1_GRM7-glutamate-m:0.01938843768[&&NHX:S=Tetraodon-nigroviridis])n30:0.06022958571[&&NHX:S=Percomorpha:D=N:B=100.0])n31:0.02684644016[&&NHX:S=BonyVertebrates:D=N:B=100.0])n32:0.01193873778[&&NHX:S=BonyVertebrates:D=Y:B=79.0],(((((Oryzias-latipes_ENSORLT00000009080.1_grm4-glutamate-receptor:0.02366047457[&&NHX:S=Oryzias-latipes],Gasterosteus-aculeatus_ENSGACT00000006597.1_grm4-glutamate-r:0.01711183078[&&NHX:S=Gasterosteus-aculeatus])n35:0.01862916607[&&NHX:S=Percomorpha:D=N:B=100.0],Danio-rerio_ENSDART00000058736.6_grm4-glutamate-receptor-met:0.03452113609[&&NHX:S=Danio-rerio])n37:0.005116435068[&&NHX:S=Teleostei:D=N:B=78.0],(Oryzias-latipes_ENSORLT00000016624.1_NONE:0.01722987865[&&NHX:S=Oryzias-latipes],Gasterosteus-aculeatus_ENSGACT00000004381.1_NONE:0.0169123245[&&NHX:S=Gasterosteus-aculeatus])n40:0.01748304229[&&NHX:S=Percomorpha:D=N:B=100.0])n41:0.02889947221[&&NHX:S=Teleostei:D=Y:B=100.0],(Homo-sapiens_ENST00000538487.7_GRM4-glutamate-metabotr:0.04170183732[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000004481.6_GRM4-glutamate-recep:0.03032085502[&&NHX:S=Gallus-gallus])n44:0.01871265454[&&NHX:S=Amniota:D=N:B=100.0])n45:0.007364005731[&&NHX:S=BonyVertebrates:D=N:B=75.0],Xenopus-tropicalis_ENSXETT00000040566.3_grm4-glutamate-recep:0.09503342942[&&NHX:S=Xenopus-tropicalis])n47:0.02265524606[&&NHX:S=BonyVertebrates:D=Y:B=96.0])n48:0.1669871959[&&NHX:S=BonyVertebrates:D=Y:B=100.0],((((((Oryzias-latipes_ENSORLT00000017805.1_grm1a-glutamate-recepto:0.02067473833[&&NHX:S=Oryzias-latipes],Gasterosteus-aculeatus_ENSGACT00000015438.1_grm1a-glutamate-:0.02239151438[&&NHX:S=Gasterosteus-aculeatus])n89:0.004354021878[&&NHX:S=Percomorpha:D=N:B=77.0],Tetraodon-nigroviridis_ENSTNIT00000015426.1_grm1a-glutamate-:0.01915966264[&&NHX:S=Tetraodon-nigroviridis])n91:0.02188028826[&&NHX:S=Percomorpha:D=Y:B=100.0],Danio-rerio_ENSDART00000142653.3_grm1a-glutamate-receptor-me:0.0397751417[&&NHX:S=Danio-rerio])n93:0.01026867091[&&NHX:S=Teleostei:D=N:B=96.0],(((Gasterosteus-aculeatus_ENSGACT00000015371.1_grm1b-glutamate-:0.02133744436[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000022748.1_grm1b-glutamate-:0.01738293775[&&NHX:S=Tetraodon-nigroviridis])n98:0.01469438502[&&NHX:S=Eupercaria:D=N:B=100.0],Oryzias-latipes_ENSORLT00000023505.1_NONE:0.03731091801[&&NHX:S=Oryzias-latipes])n100:0.01657069877[&&NHX:S=Percomorpha:D=N:B=85.0],Danio-rerio_ENSDART00000162002.1_grm1b-glutamate-receptor-me:0.04418877979[&&NHX:S=Danio-rerio])r192[&&NHX:S=Teleostei:D=N])n101:0.01163002264[&&NHX:S=Teleostei:D=Y:B=89.0],((Homo-sapiens_ENST00000282753.6_GRM1-glutamate-metabotr:0.030193087[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000020095.6_GRM1-glutamate-metab:0.02411421647[&&NHX:S=Gallus-gallus])n104:0.009533508883[&&NHX:S=Amniota:D=N:B=99.0],Xenopus-tropicalis_ENSXETT00000017310.3_grm1-glutamate-recep:0.0466996378[&&NHX:S=Xenopus-tropicalis])n106:0.02804230939[&&NHX:S=Tetrapoda:D=N:B=100.0])n107:0.04562611487[&&NHX:S=BonyVertebrates:D=N:B=100.0],(((((Oryzias-latipes_ENSORLT00000005681.1_GRM5-glutamate-metabotr:0.01590944898[&&NHX:S=Oryzias-latipes],Gasterosteus-aculeatus_ENSGACT00000027276.1_GRM5-glutamate-m:0.02160077774[&&NHX:S=Gasterosteus-aculeatus])n110:0.007884883265[&&NHX:S=Percomorpha:D=N:B=98.0],Tetraodon-nigroviridis_ENSTNIT00000002504.1_GRM5-glutamate-m:0.02129680677[&&NHX:S=Tetraodon-nigroviridis])n112:0.03632664038[&&NHX:S=Percomorpha:D=Y:B=100.0],Danio-rerio_ENSDART00000042767.7_grm5a-glutamate-receptor-me:0.03789538433[&&NHX:S=Danio-rerio])n114:0.008243651471[&&NHX:S=Teleostei:D=N:B=71.0],((Oryzias-latipes_ENSORLT00000013640.1_GRM5-glutamate-metabotr:0.01481598215[&&NHX:S=Oryzias-latipes],Gasterosteus-aculeatus_ENSGACT00000010587.1_GRM5-glutamate-m:0.02048321824[&&NHX:S=Gasterosteus-aculeatus])n117:0.03175010954[&&NHX:S=Percomorpha:D=N:B=100.0],Danio-rerio_ENSDART00000170398.1_grm5b-glutamate-receptor-me:0.03499282319[&&NHX:S=Danio-rerio])r194[&&NHX:S=Teleostei:D=N])n120:0.01617992769[&&NHX:S=Teleostei:D=Y:B=100.0],((Homo-sapiens_ENST00000305447.4_GRM5-glutamate-metabotr:0.01916292525[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000027866.4_GRM5-glutamate-recep:0.01661025612[&&NHX:S=Gallus-gallus])n123:0.02445635628[&&NHX:S=Amniota:D=N:B=100.0],Xenopus-tropicalis_ENSXETT00000025700.3_grm5-glutamate-recep:0.0308323463[&&NHX:S=Xenopus-tropicalis])n125:0.02226426487[&&NHX:S=Tetrapoda:D=N:B=100.0])n126:0.04138328867[&&NHX:S=BonyVertebrates:D=N:B=100.0])n127:0.2239787166[&&NHX:S=BonyVertebrates:D=Y:B=100.0])r179[&&NHX:S=BonyVertebrates:D=Y],Drosophila-melanogaster_FBtr0330608_mtt-mangetout-DBNLINE-1:0.3236419594[&&NHX:S=Drosophila-melanogaster])r177[&&NHX:S=Bilateria:D=N])n128:0.05026522819[&&NHX:S=Bilateria:D=Y:B=88.0],(((((Homo-sapiens_ENST00000498619.4_CASR-calcium-sensing-re:0.02449856615[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000055986.2_CASR-calcium-sensing:0.02249342909[&&NHX:S=Gallus-gallus])n138:0.2008269873[&&NHX:S=Amniota:D=N:B=100.0],Ciona-intestinalis_ENSCINT00000004243.3_NONE:0.3356915455[&&NHX:S=Ciona-intestinalis])n140:0.03559049825[&&NHX:S=Deuterostomia:D=N:B=86.0],((Homo-sapiens_ENST00000310357.8_GPRC6A-G-protein-couple:0.1355764681[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000024075.6_GPRC6A-G-protein-cou:0.1127917659[&&NHX:S=Gallus-gallus])n134:0.3046319875[&&NHX:S=Amniota:D=N:B=100.0],(Xenopus-tropicalis_ENSXETT00000057701.2_vn2r1p-vomeronasal-2:0.2709335785[&&NHX:S=Xenopus-tropicalis],Xenopus-tropicalis_ENSXETT00000023177.2_tas1r1-taste-1-recep:0.3211298832[&&NHX:S=Xenopus-tropicalis])n131:0.0468546736[&&NHX:S=Xenopus-tropicalis:D=Y:B=90.0])r198[&&NHX:S=Tetrapoda:D=N])n141:0.2259193697[&&NHX:S=Deuterostomia:D=Y:B=100.0],((Ciona-intestinalis_ENSCINT00000005140.3_NONE:0.4280386071[&&NHX:S=Ciona-intestinalis],Ciona-intestinalis_ENSCINT00000011016.3_NONE:0.3348214143[&&NHX:S=Ciona-intestinalis])n146:0.1023960547[&&NHX:S=Ciona-intestinalis:D=Y:B=89.0],Ciona-intestinalis_ENSCINT00000025660.2_NONE:0.3919220547[&&NHX:S=Ciona-intestinalis])r175[&&NHX:S=Ciona-intestinalis:D=Y])r172[&&NHX:S=Deuterostomia:D=Y],Drosophila-melanogaster_FBtr0331989_CG43795-NONE:0.9903609273[&&NHX:S=Drosophila-melanogaster])r171[&&NHX:S=Bilateria:D=N])n150:0.1515478552[&&NHX:S=Bilateria:D=Y:B=71.0],((Gallus-gallus_ENSGALT00000046850.2_GABBR2-gamma-aminobu:0.2514970354[&&NHX:S=Gallus-gallus],Drosophila-melanogaster_FBtr0339154_GABA-B-R2-metabotropic-:0.3180244665[&&NHX:S=Drosophila-melanogaster])n153:0.09054172945[&&NHX:S=Bilateria:D=N:B=100.0],(Ciona-intestinalis_ENSCINT00000006905.3_NONE:0.3059345374[&&NHX:S=Ciona-intestinalis],Drosophila-melanogaster_FBtr0304732_GABA-B-R1-metabotropic-:0.2469579186[&&NHX:S=Drosophila-melanogaster])n156:0.1402804432[&&NHX:S=Bilateria:D=N:B=100.0])n157:0.334173985[&&NHX:S=Bilateria:D=Y:B=100.0])n158:0.5792451649[&&NHX:S=Bilateria:D=Y:B=100.0],(((Drosophila-melanogaster_FBtr0333879_Gyc76C-Guanylyl-cyclase:0.0[&&NHX:S=Drosophila-melanogaster],Drosophila-melanogaster_FBtr0302277_CG42637-NONE:0.0[&&NHX:S=Drosophila-melanogaster])n161:0.2767354058[&&NHX:S=Drosophila-melanogaster:D=Y:B=100.0],Drosophila-melanogaster_FBtr0112856_Gyc32E-Guanyl-cyclase-a:0.3344404799[&&NHX:S=Drosophila-melanogaster])r202[&&NHX:S=Drosophila-melanogaster:D=Y],Drosophila-melanogaster_FBtr0302488_CG10738-NONE:0.2598178669[&&NHX:S=Drosophila-melanogaster])n165:0.07717918627[&&NHX:S=Drosophila-melanogaster:D=Y:B=94.0])n166:0.0[&&NHX:S=Bilateria:D=Y:B=100.0],Drosophila-melanogaster_FBtr0273396_CG3216-NONE:0.3891114256[&&NHX:S=Drosophila-melanogaster])n168[&&NHX:S=Bilateria:D=Y:B=100.0];
+
+>1st_gene_tree_newick
+(((((((((((((((Danio-rerio_ENSDART00000109044.4_grm8a-glutamate-receptor-me:0.0380971462,Tetraodon-nigroviridis_ENSTNIT00000021897.1_grm8a-glutamate-:0.05313750694)65:0.00866955283,Danio-rerio_ENSDART00000155949.1_grm8b-glutamate-receptor-me:0.0437729013)100:0.01517682273,Tetraodon-nigroviridis_ENSTNIT00000013504.1_grm8b-glutamate-:0.1203221706)86:0.02090973184,((Gallus-gallus_ENSGALT00000065046.2_GRM8-glutamate-metab:0.02560487387,Homo-sapiens_ENST00000339582.7_GRM8-glutamate-metabotr:0.02061167329)82:0.004611097234,Xenopus-tropicalis_ENSXETT00000045885.2_grm6-glutamate-recep:0.08417342521)100:0.041437803)96:0.01930803569,(((Tetraodon-nigroviridis_ENSTNIT00000010315.1_grm6b-glutamate-:0.01749472153,Gasterosteus-aculeatus_ENSGACT00000016021.1_grm6b-glutamate-:0.02156764751)100:0.01579595479,Danio-rerio_ENSDART00000033657.6_grm6b-glutamate-receptor-me:0.03696603161)100:0.04180531851,(Xenopus-tropicalis_ENSXETT00000014728.3_GRM6-glutamate-metab:0.06735353429,Homo-sapiens_ENST00000517717.3_GRM6-glutamate-metabotr:0.1035504539)75:0.006517633383)100:0.02586568557)40:0.001902482681,(((Gallus-gallus_ENSGALT00000107227.1_glutamate-metabotrop:0.01751023906,Homo-sapiens_ENST00000467425.5_GRM7-glutamate-metabotr:0.03198309876)100:0.01585542754,Xenopus-tropicalis_ENSXETT00000034312.3_grm7-glutamate-recep:0.08495995347)100:0.02206335859,(Tetraodon-nigroviridis_ENSTNIT00000021277.1_GRM7-glutamate-m:0.01938843768,Oryzias-latipes_ENSORLT00000012378.1_NONE:0.01929994427)100:0.06022958571)100:0.02684644016)79:0.01193873778,(((((Gasterosteus-aculeatus_ENSGACT00000006597.1_grm4-glutamate-r:0.01711183078,Oryzias-latipes_ENSORLT00000009080.1_grm4-glutamate-receptor:0.02366047457)100:0.01862916607,Danio-rerio_ENSDART00000058736.6_grm4-glutamate-receptor-met:0.03452113609)78:0.005116435068,(Gasterosteus-aculeatus_ENSGACT00000004381.1_NONE:0.0169123245,Oryzias-latipes_ENSORLT00000016624.1_NONE:0.01722987865)100:0.01748304229)100:0.02889947221,(Gallus-gallus_ENSGALT00000004481.6_GRM4-glutamate-recep:0.03032085502,Homo-sapiens_ENST00000538487.7_GRM4-glutamate-metabotr:0.04170183732)100:0.01871265454)75:0.007364005731,Xenopus-tropicalis_ENSXETT00000040566.3_grm4-glutamate-recep:0.09503342942)96:0.02265524606)100:0.1669871959,(((((((Tetraodon-nigroviridis_ENSTNIT00000017870.1_grm2a-glutamate-:0.01631867846,Gasterosteus-aculeatus_ENSGACT00000001166.1_grm2a-glutamate-:0.02054943502)79:0.00562816505,Oryzias-latipes_ENSORLT00000000938.1_grm2a-glutamate-recepto:0.01890742317)100:0.02585083874,((Gasterosteus-aculeatus_ENSGACT00000013817.1_grm2b-glutamate-:0.0192760433,Oryzias-latipes_ENSORLT00000004140.1_grm2b-glutamate-recepto:0.01943863554)83:0.005628127749,Tetraodon-nigroviridis_ENSTNIT00000018000.1_grm2b-glutamate-:0.02315867508)100:0.03999973894)83:0.01044274278,Danio-rerio_ENSDART00000085472.5_grm2a-glutamate-receptor-me:0.04845184988)100:0.05061118961,((Gallus-gallus_ENSGALT00000006095.6_GRM2-glutamate-metab:0.06663297906,Homo-sapiens_ENST00000395052.8_GRM2-glutamate-metabotr:0.08707759138)88:0.0120093958,Xenopus-tropicalis_ENSXETT00000062176.1_GRM2-glutamate-metab:0.08451262261)64:0.009883112438)95:0.01496779664,((((Gasterosteus-aculeatus_ENSGACT00000016862.1_grm3-glutamate-r:0.023834422,Oryzias-latipes_ENSORLT00000011817.1_grm3-glutamate-receptor:0.02003144693)70:0.005969715664,Tetraodon-nigroviridis_ENSTNIT00000022638.1_grm3-glutamate-r:0.02854388335)100:0.03635530046,Danio-rerio_ENSDART00000134224.2_grm3-glutamate-receptor-met:0.06510936898)100:0.02555704275,((Gallus-gallus_ENSGALT00000100188.1_GRM3-glutamate-metab:0.02691210178,Homo-sapiens_ENST00000361669.6_GRM3-glutamate-metabotr:0.0481800725)92:0.007473938068,Xenopus-tropicalis_ENSXETT00000011950.4_grm3-glutamate-recep:0.05099501657)100:0.03770499931)100:0.04237260203)100:0.137280531,Drosophila-melanogaster_FBtr0089184_mGluR-metabotropic-Glut:0.2343838485)87:0.0462670278)43:0.007712127259,Drosophila-melanogaster_FBtr0330608_mtt-mangetout-DBNLINE-1:0.3236419594)57:0.02189505151,(((((((Gasterosteus-aculeatus_ENSGACT00000015438.1_grm1a-glutamate-:0.02239151438,Oryzias-latipes_ENSORLT00000017805.1_grm1a-glutamate-recepto:0.02067473833)77:0.004354021878,Tetraodon-nigroviridis_ENSTNIT00000015426.1_grm1a-glutamate-:0.01915966264)100:0.02188028826,Danio-rerio_ENSDART00000142653.3_grm1a-glutamate-receptor-me:0.0397751417)96:0.01026867091,Danio-rerio_ENSDART00000162002.1_grm1b-glutamate-receptor-me:0.04418877979)37:0.006329375922,((Tetraodon-nigroviridis_ENSTNIT00000022748.1_grm1b-glutamate-:0.01738293775,Gasterosteus-aculeatus_ENSGACT00000015371.1_grm1b-glutamate-:0.02133744436)100:0.01469438502,Oryzias-latipes_ENSORLT00000023505.1_NONE:0.03731091801)85:0.01657069877)89:0.01163002264,((Gallus-gallus_ENSGALT00000020095.6_GRM1-glutamate-metab:0.02411421647,Homo-sapiens_ENST00000282753.6_GRM1-glutamate-metabotr:0.030193087)99:0.009533508883,Xenopus-tropicalis_ENSXETT00000017310.3_grm1-glutamate-recep:0.0466996378)100:0.02804230939)100:0.04562611487,(((((Gasterosteus-aculeatus_ENSGACT00000027276.1_GRM5-glutamate-m:0.02160077774,Oryzias-latipes_ENSORLT00000005681.1_GRM5-glutamate-metabotr:0.01590944898)98:0.007884883265,Tetraodon-nigroviridis_ENSTNIT00000002504.1_GRM5-glutamate-m:0.02129680677)100:0.03632664038,Danio-rerio_ENSDART00000042767.7_grm5a-glutamate-receptor-me:0.03789538433)71:0.008243651471,((Gasterosteus-aculeatus_ENSGACT00000010587.1_GRM5-glutamate-m:0.02048321824,Oryzias-latipes_ENSORLT00000013640.1_GRM5-glutamate-metabotr:0.01481598215)100:0.03175010954,Danio-rerio_ENSDART00000170398.1_grm5b-glutamate-receptor-me:0.03499282319)69:0.005547466708)100:0.01617992769,((Gallus-gallus_ENSGALT00000027866.4_GRM5-glutamate-recep:0.01661025612,Homo-sapiens_ENST00000305447.4_GRM5-glutamate-metabotr:0.01916292525)100:0.02445635628,Xenopus-tropicalis_ENSXETT00000025700.3_grm5-glutamate-recep:0.0308323463)100:0.02226426487)100:0.04138328867)100:0.2239787166)88:0.05026522819,(((((Xenopus-tropicalis_ENSXETT00000023177.2_tas1r1-taste-1-recep:0.3211298832,Xenopus-tropicalis_ENSXETT00000057701.2_vn2r1p-vomeronasal-2:0.2709335785)90:0.0468546736,(Gallus-gallus_ENSGALT00000024075.6_GPRC6A-G-protein-cou:0.1127917659,Homo-sapiens_ENST00000310357.8_GPRC6A-G-protein-couple:0.1355764681)100:0.3046319875)42:0.0123383384,((Gallus-gallus_ENSGALT00000055986.2_CASR-calcium-sensing:0.02249342909,Homo-sapiens_ENST00000498619.4_CASR-calcium-sensing-re:0.02449856615)100:0.2008269873,Ciona-intestinalis_ENSCINT00000004243.3_NONE:0.3356915455)86:0.03559049825)100:0.2259193697,Drosophila-melanogaster_FBtr0331989_CG43795-NONE:0.9903609273)34:0.03428397284,(Ciona-intestinalis_ENSCINT00000011016.3_NONE:0.3348214143,Ciona-intestinalis_ENSCINT00000005140.3_NONE:0.4280386071)89:0.1023960547)21:0.02139376918)46:0.0606861209,Ciona-intestinalis_ENSCINT00000025660.2_NONE:0.3919220547)71:0.1515478552,((Drosophila-melanogaster_FBtr0339154_GABA-B-R2-metabotropic-:0.3180244665,Gallus-gallus_ENSGALT00000046850.2_GABBR2-gamma-aminobu:0.2514970354)100:0.09054172945,(Drosophila-melanogaster_FBtr0304732_GABA-B-R1-metabotropic-:0.2469579186,Ciona-intestinalis_ENSCINT00000006905.3_NONE:0.3059345374)100:0.1402804432)100:0.334173985)100:0.5792451649,(((Drosophila-melanogaster_FBtr0302277_CG42637-NONE:0,Drosophila-melanogaster_FBtr0333879_Gyc76C-Guanylyl-cyclase:0)100:0.2767354058,Drosophila-melanogaster_FBtr0112856_Gyc32E-Guanyl-cyclase-a:0.3344404799)42:0.03444078366,Drosophila-melanogaster_FBtr0302488_CG10738-NONE:0.2598178669)94:0.07717918627)100:0,Drosophila-melanogaster_FBtr0273396_CG3216-NONE:0.3891114256)100;
+
+>Aligned-ShortSequence_threshold evaluation
+Drosophila-melanogaster_FBtr0273396_CG3216-NONE                  0.819
+Drosophila-melanogaster_FBtr0302277_CG42637-NONE                 0.851
+Drosophila-melanogaster_FBtr0333879_Gyc76C-Guanylyl-cyclase      0.851
+Drosophila-melanogaster_FBtr0304732_GABA-B-R1-metabotropic-      0.782
+Drosophila-melanogaster_FBtr0112856_Gyc32E-Guanyl-cyclase-a      0.854
+Drosophila-melanogaster_FBtr0302488_CG10738-NONE                 0.846
+Drosophila-melanogaster_FBtr0331989_CG43795-NONE                 0.883
+Drosophila-melanogaster_FBtr0339154_GABA-B-R2-metabotropic-      0.798
+Drosophila-melanogaster_FBtr0330608_mtt-mangetout-DBNLINE-1      0.988
+Drosophila-melanogaster_FBtr0089184_mGluR-metabotropic-Glut      0.989
+Ciona-intestinalis_ENSCINT00000006905.3_NONE                     0.749
+== Removed ==> Ciona-intestinalis_ENSCINT00000036898.1_NONE                     0.33
+Ciona-intestinalis_ENSCINT00000004243.3_NONE                     0.957
+Ciona-intestinalis_ENSCINT00000011016.3_NONE                     0.898
+Ciona-intestinalis_ENSCINT00000005140.3_NONE                     0.861
+Ciona-intestinalis_ENSCINT00000025660.2_NONE                     0.839
+Xenopus-tropicalis_ENSXETT00000023177.2_tas1r1-taste-1-recep     0.918
+Xenopus-tropicalis_ENSXETT00000057701.2_vn2r1p-vomeronasal-2     0.946
+Xenopus-tropicalis_ENSXETT00000040566.3_grm4-glutamate-recep     0.494
+Xenopus-tropicalis_ENSXETT00000045885.2_grm6-glutamate-recep     0.746
+Xenopus-tropicalis_ENSXETT00000034312.3_grm7-glutamate-recep     0.763
+Xenopus-tropicalis_ENSXETT00000011950.4_grm3-glutamate-recep     0.986
+Xenopus-tropicalis_ENSXETT00000014728.3_GRM6-glutamate-metab     0.982
+Xenopus-tropicalis_ENSXETT00000062176.1_GRM2-glutamate-metab     0.976
+Xenopus-tropicalis_ENSXETT00000025700.3_grm5-glutamate-recep     0.999
+Xenopus-tropicalis_ENSXETT00000017310.3_grm1-glutamate-recep     1.0
+Gallus-gallus_ENSGALT00000046850.2_GABBR2-gamma-aminobu          0.788
+Gallus-gallus_ENSGALT00000024075.6_GPRC6A-G-protein-cou          0.931
+Gallus-gallus_ENSGALT00000055986.2_CASR-calcium-sensing          0.97
+Gallus-gallus_ENSGALT00000107227.1_glutamate-metabotrop          0.996
+Gallus-gallus_ENSGALT00000065046.2_GRM8-glutamate-metab          0.999
+Gallus-gallus_ENSGALT00000004481.6_GRM4-glutamate-recep          0.999
+Gallus-gallus_ENSGALT00000100188.1_GRM3-glutamate-metab          0.986
+Gallus-gallus_ENSGALT00000006095.6_GRM2-glutamate-metab          0.977
+Gallus-gallus_ENSGALT00000027866.4_GRM5-glutamate-recep          0.999
+Gallus-gallus_ENSGALT00000020095.6_GRM1-glutamate-metab          1.0
+Homo-sapiens_ENST00000310357.8_GPRC6A-G-protein-couple           0.927
+Homo-sapiens_ENST00000498619.4_CASR-calcium-sensing-re           0.975
+Homo-sapiens_ENST00000517717.3_GRM6-glutamate-metabotr           0.982
+Homo-sapiens_ENST00000339582.7_GRM8-glutamate-metabotr           0.999
+Homo-sapiens_ENST00000467425.5_GRM7-glutamate-metabotr           0.999
+Homo-sapiens_ENST00000538487.7_GRM4-glutamate-metabotr           0.999
+Homo-sapiens_ENST00000361669.6_GRM3-glutamate-metabotr           0.986
+Homo-sapiens_ENST00000395052.8_GRM2-glutamate-metabotr           0.982
+Homo-sapiens_ENST00000305447.4_GRM5-glutamate-metabotr           0.999
+Homo-sapiens_ENST00000282753.6_GRM1-glutamate-metabotr           1.0
+Danio-rerio_ENSDART00000109044.4_grm8a-glutamate-receptor-me     1.0
+Danio-rerio_ENSDART00000155949.1_grm8b-glutamate-receptor-me     0.999
+Danio-rerio_ENSDART00000033657.6_grm6b-glutamate-receptor-me     0.993
+Danio-rerio_ENSDART00000058736.6_grm4-glutamate-receptor-met     0.999
+Danio-rerio_ENSDART00000134224.2_grm3-glutamate-receptor-met     0.984
+Danio-rerio_ENSDART00000085472.5_grm2a-glutamate-receptor-me     0.978
+Danio-rerio_ENSDART00000042767.7_grm5a-glutamate-receptor-me     0.992
+Danio-rerio_ENSDART00000170398.1_grm5b-glutamate-receptor-me     0.989
+Danio-rerio_ENSDART00000162002.1_grm1b-glutamate-receptor-me     0.998
+Danio-rerio_ENSDART00000142653.3_grm1a-glutamate-receptor-me     1.0
+Tetraodon-nigroviridis_ENSTNIT00000021897.1_grm8a-glutamate-     0.748
+Tetraodon-nigroviridis_ENSTNIT00000013504.1_grm8b-glutamate-     0.994
+Tetraodon-nigroviridis_ENSTNIT00000021277.1_GRM7-glutamate-m     0.999
+Tetraodon-nigroviridis_ENSTNIT00000010315.1_grm6b-glutamate-     0.993
+Tetraodon-nigroviridis_ENSTNIT00000017870.1_grm2a-glutamate-     0.978
+Tetraodon-nigroviridis_ENSTNIT00000018000.1_grm2b-glutamate-     0.978
+Tetraodon-nigroviridis_ENSTNIT00000022638.1_grm3-glutamate-r     0.977
+Tetraodon-nigroviridis_ENSTNIT00000002504.1_GRM5-glutamate-m     0.999
+Tetraodon-nigroviridis_ENSTNIT00000022748.1_grm1b-glutamate-     0.996
+Tetraodon-nigroviridis_ENSTNIT00000015426.1_grm1a-glutamate-     1.0
+Gasterosteus-aculeatus_ENSGACT00000006597.1_grm4-glutamate-r     0.999
+Gasterosteus-aculeatus_ENSGACT00000004381.1_NONE                 0.999
+Gasterosteus-aculeatus_ENSGACT00000001166.1_grm2a-glutamate-     0.978
+Gasterosteus-aculeatus_ENSGACT00000016021.1_grm6b-glutamate-     0.99
+Gasterosteus-aculeatus_ENSGACT00000013817.1_grm2b-glutamate-     0.978
+Gasterosteus-aculeatus_ENSGACT00000016862.1_grm3-glutamate-r     0.981
+Gasterosteus-aculeatus_ENSGACT00000010587.1_GRM5-glutamate-m     0.999
+Gasterosteus-aculeatus_ENSGACT00000027276.1_GRM5-glutamate-m     1.0
+Gasterosteus-aculeatus_ENSGACT00000015371.1_grm1b-glutamate-     0.999
+Gasterosteus-aculeatus_ENSGACT00000015438.1_grm1a-glutamate-     1.0
+Oryzias-latipes_ENSORLT00000016624.1_NONE                        0.999
+Oryzias-latipes_ENSORLT00000000938.1_grm2a-glutamate-recepto     0.978
+Oryzias-latipes_ENSORLT00000012378.1_NONE                        0.999
+Oryzias-latipes_ENSORLT00000009080.1_grm4-glutamate-receptor     0.999
+Oryzias-latipes_ENSORLT00000004140.1_grm2b-glutamate-recepto     0.978
+Oryzias-latipes_ENSORLT00000011817.1_grm3-glutamate-receptor     0.981
+Oryzias-latipes_ENSORLT00000005681.1_GRM5-glutamate-metabotr     0.993
+Oryzias-latipes_ENSORLT00000013640.1_GRM5-glutamate-metabotr     0.99
+Oryzias-latipes_ENSORLT00000023505.1_NONE                        0.955
+Oryzias-latipes_ENSORLT00000017805.1_grm1a-glutamate-recepto     1.0
+
+
+################ Settings ################
+
+>NumberAssigned_querySequence
+Oryzias-latipes_ENSORLT00000017805.1_grm1a-glutamate-recepto
+RSVARMDGDVIIGALFSVHHQPSAEKVAERKCGDVREQYGIQRVEAMFHTLDRINADPNLLPNISLGCEIRDSCWHSSVALEQSIEFIRDSLISIRDDKDGSKWCIDGTPSNHPPPSKKPIAGVIGPGSSSVAIQVQNLLQLFNIPQIAYSATSIDLSDKTLYKYFLRVVPSDTLQARAMLDIVKRYNWTYVSAVHTEGNYGESGMEAFKELASQEGLCIAHSDKIYSNAGEKHFDRLLRKLRERLPKARVVVCFCEGMTVRGLLMAMRRLGVHGEFLLVGSDGWADRYEVVEGYELEAEGGITMKLQSAVVKSFNDYYLKLRLDTNTRNPWFAEFWQHRFQCRLAHHPQENKNYENVCSGNESLQENYIQDSKMGFVINAIYAMAHGLHDMHKELCPGQPGLCEAMDPIDGSKLLDYLLKTSFRGVSGEEIYFDQNGDTPGRYDIMNLQSEGEDRYDYLKVGSWHEGILSIDDSKLWINSSDMVRSVCSEPCSKGQIKVIRKGEVSCCWICTTCKDNEYVQDEFTCKACELGWWPDEELEDCQPLPLKYVDWADVESVVAVAFSCVGILITSFVTFVFIQYRDTPVVKSSSRELCYIILAGIFLGYICPFTLIARPTVASCYLQRLLVGLSSAMCYSALVTKTNRIARILAGSKKKICTRKPRFMSAWAQVVIAFMLISVQLTLEITLIILEPPEPIKSYPSIREVYLICNTSNVGMVAPLGYNGLLIMSCTYYAFKTRNVPANFNEAKYIAFTMYTTCIIWLAFVPIYFGSDYKIITTSFSVSLSVTVALSCMFTPKMYIIIAKPERNVRSAFTTSDVVRMHVGDGKAAAQCGSNSFFNIFRRKKAISEKLQTSNILLPYHDGTIAVFNPLTPKAGAGNRKKHALFELTKLHVVFVNSCEQSATITQRSAPHLDEKKLLFTSNCLKLCFSNCHCDLYDLLVCSNGKSVSWSESGPRHPPKGGNVWHRLSVHVRKQEAGLNQTAVIRPLTNTPDPHSCEPSTGNLGTDPHHHQAPPGPKHLSNLTEEDDEAEAQRPLCSQTPSEQIQGLKSDLDEQAYVPYTLTEPTAECLQRSVMDPHGFHVQAQNTRTAREAKSAPFQPPSTPQVGMFEEEGPEDEELDLLHSYMYDAKDEREGKNGEAEDLTRNKPSLEHSFALSPPSPFRDSVCSGESINGSPVIEPMLGSPPSSVYTSDMLRDFAHSSSTL
+
+>SpeciesTree
+(Drosophila-melanogaster,(Ciona-intestinalis,((Xenopus-tropicalis,(Gallus-gallus,Homo-sapiens)Amniota)Tetrapoda,(Danio-rerio,(Oryzias-latipes,(Tetraodon-nigroviridis,Gasterosteus-aculeatus)Eupercaria)Percomorpha)Teleostei)BonyVertebrates)Deuterostomia)Bilateria;
+
+>SubstitutionModel
+F84 (Tamura and Nei 1993) + gamma
+
+>ShortSequence_threshold
+0.45
+
+>Dataset
+Exclude3rd
+
+>Rearrangement_BS_value_threshold
+70
+
+>TaxonSampling_color
+Drosophila-melanogaster_Black
+Ciona-intestinalis_Black
+Xenopus-tropicalis_Magenta
+Gallus-gallus_Magenta
+Homo-sapiens_Magenta
+Danio-rerio_Purple
+Tetraodon-nigroviridis_Green
+Gasterosteus-aculeatus_Red
+Oryzias-latipes_Blue
+
+################ Results: 2nd analysis ################
+
+>TreeSearchMethod
+NJ
+
+>2nd_rearranged_gene_tree_newick
+((((((Oryzias-latipes_ENSORLT00000017805.1_grm1a-glutamate-recepto,Gasterosteus-aculeatus_ENSGACT00000015438.1_grm1a-glutamate-)94_S=Percomorpha_D=N,Tetraodon-nigroviridis_ENSTNIT00000015426.1_grm1a-glutamate-)100_S=Percomorpha_D=Y,Danio-rerio_ENSDART00000142653.3_grm1a-glutamate-receptor-me)100_S=Teleostei_D=N,(((Tetraodon-nigroviridis_ENSTNIT00000022748.1_grm1b-glutamate-,Gasterosteus-aculeatus_ENSGACT00000015371.1_grm1b-glutamate-)100_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000023505.1_NONE)87_S=Percomorpha_D=N,Danio-rerio_ENSDART00000162002.1_grm1b-glutamate-receptor-me)99_S=Teleostei_D=N)98_S=Teleostei_D=Y,((Homo-sapiens_ENST00000282753.6_GRM1-glutamate-metabotr,Gallus-gallus_ENSGALT00000020095.6_GRM1-glutamate-metab)91_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000017310.3_grm1-glutamate-recep)100_S=Tetrapoda_D=N)100_S=BonyVertebrates_D=N,Oryzias-latipes_ENSORLT00000005681.1_GRM5-glutamate-metabotr)100_S=BonyVertebrates_D=Y;
+
+>2nd_rearranged_gene_tree_NHX
+((((((Oryzias-latipes_ENSORLT00000017805.1_grm1a-glutamate-recepto:0.03157228763[&&NHX:S=Oryzias-latipes],Gasterosteus-aculeatus_ENSGACT00000015438.1_grm1a-glutamate-:0.03469288556[&&NHX:S=Gasterosteus-aculeatus])n2:0.007046322661[&&NHX:S=Percomorpha:D=N:B=94.0],Tetraodon-nigroviridis_ENSTNIT00000015426.1_grm1a-glutamate-:0.03925640535[&&NHX:S=Tetraodon-nigroviridis])n4:0.02336612808[&&NHX:S=Percomorpha:D=Y:B=100.0],Danio-rerio_ENSDART00000142653.3_grm1a-glutamate-receptor-me:0.07645497837[&&NHX:S=Danio-rerio])n6:0.02213520015[&&NHX:S=Teleostei:D=N:B=100.0],(((Tetraodon-nigroviridis_ENSTNIT00000022748.1_grm1b-glutamate-:0.03524832751[&&NHX:S=Tetraodon-nigroviridis],Gasterosteus-aculeatus_ENSGACT00000015371.1_grm1b-glutamate-:0.02801522219[&&NHX:S=Gasterosteus-aculeatus])n9:0.01711004078[&&NHX:S=Eupercaria:D=N:B=100.0],Oryzias-latipes_ENSORLT00000023505.1_NONE:0.02496840301[&&NHX:S=Oryzias-latipes])n11:0.01478963528[&&NHX:S=Percomorpha:D=N:B=87.0],Danio-rerio_ENSDART00000162002.1_grm1b-glutamate-receptor-me:0.05611826604[&&NHX:S=Danio-rerio])n13:0.008916598074[&&NHX:S=Teleostei:D=N:B=99.0])n14:0.01512163572[&&NHX:S=Teleostei:D=Y:B=98.0],((Homo-sapiens_ENST00000282753.6_GRM1-glutamate-metabotr:0.03788547594[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000020095.6_GRM1-glutamate-metab:0.03439037746[&&NHX:S=Gallus-gallus])n17:0.0083320245[&&NHX:S=Amniota:D=N:B=91.0],Xenopus-tropicalis_ENSXETT00000017310.3_grm1-glutamate-recep:0.0614218808[&&NHX:S=Xenopus-tropicalis])n19:0.03350303977[&&NHX:S=Tetrapoda:D=N:B=100.0])n20:0.0[&&NHX:S=BonyVertebrates:D=N:B=100.0],Oryzias-latipes_ENSORLT00000005681.1_GRM5-glutamate-metabotr:0.2043829593[&&NHX:S=Oryzias-latipes])n22[&&NHX:S=BonyVertebrates:D=Y:B=100.0];
+
+>2nd_gene_tree_newick
+((((((Gasterosteus-aculeatus_ENSGACT00000015438.1_grm1a-glutamate-:0.03469288556,Oryzias-latipes_ENSORLT00000017805.1_grm1a-glutamate-recepto:0.03157228763)94:0.007046322661,Tetraodon-nigroviridis_ENSTNIT00000015426.1_grm1a-glutamate-:0.03925640535)100:0.02336612808,Danio-rerio_ENSDART00000142653.3_grm1a-glutamate-receptor-me:0.07645497837)100:0.02213520015,(((Gasterosteus-aculeatus_ENSGACT00000015371.1_grm1b-glutamate-:0.02801522219,Tetraodon-nigroviridis_ENSTNIT00000022748.1_grm1b-glutamate-:0.03524832751)100:0.01711004078,Oryzias-latipes_ENSORLT00000023505.1_NONE:0.02496840301)87:0.01478963528,Danio-rerio_ENSDART00000162002.1_grm1b-glutamate-receptor-me:0.05611826604)99:0.008916598074)98:0.01512163572,((Gallus-gallus_ENSGALT00000020095.6_GRM1-glutamate-metab:0.03439037746,Homo-sapiens_ENST00000282753.6_GRM1-glutamate-metabotr:0.03788547594)91:0.0083320245,Xenopus-tropicalis_ENSXETT00000017310.3_grm1-glutamate-recep:0.0614218808)100:0.03350303977)100:0,Oryzias-latipes_ENSORLT00000005681.1_GRM5-glutamate-metabotr:0.2043829593)100;
+
+>MonophyleticGeneGroups
+BonyVertebrates                 100  D=N
+Teleostei                       98  D=Y
+Percomorpha                     100  D=Y
+Oryzias-latipes                 leaf  leaf
+
+>SisterGeneGroups
+BonyVertebrates                 NONE   NoGeneNode
+Teleostei                       100   Tetrapoda
+Percomorpha                     100   Danio-rerio
+Oryzias-latipes                 94   Gasterosteus-aculeatus
+
+>Number_of_duplicatedNode
+BonyVertebrates                 0
+Teleostei                       1
+Percomorpha                     1
+Oryzias-latipes                 0
+
+>AnalysisTime
+22.0 seconds

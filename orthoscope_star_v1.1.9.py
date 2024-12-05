@@ -11,8 +11,9 @@ import time
 # In Database files, deleted DBNLINE|*| from their name lines.
 # In delete_sequences_with_alignedSiteRate(), keys of dic_nonGapSiteRate were used for dic_AA and dic_DNA because those dictionaries share same keys from v1.1.9
 # Among recent updates, results were compared in the results_versions.xlsx. file.
-######
+# In 1st tree estimation, compare_numSeqs() skips 2nd-round MAFFT/trimal when rec numbers are same between 040_mafOutAA.txt and "044_overRateAA.fas.
 
+######
 
 AddintHeaderAfterAT = "D"   ## L:leave or D:Delete @xxxx for the summarize analysis.
 draw_speciesTree = "Not"  ## Draw: Draw species tree in the .pdf file. or Not:
@@ -2246,27 +2247,27 @@ def delete_sequences_with_alignedSiteRate(outFile_AA, outFile_DNA, outFile_siteR
     #        #print("")
 
     for name_siterate, rate_siterate in dic_nonGapSiteRate.items():
-        print("name_siterate")
-        print("|", name_siterate, "|")
+        #print("name_siterate")
+        #print("|", name_siterate, "|")
         #match_nsr = re.search(r"^[^_]+_([^_]+)_", name_siterate)
         #name_siterate_geneID = match_nsr.group(1)
         #print("name_siterate_geneID", name_siterate_geneID)
         #print("rate_siterate", rate_siterate)
         if float(rate_siterate) > float(Aligned_site_rate):
             
-            for name_AA, seq_AA in dic_AA.items():
-                print("name_AA")
-                print("|", name_AA, "|")
-                #if re.search(r"_" + name_siterate_geneID + "_", name_AA):
-                #    #print("name_AA", name_AA)
-                #    file_overRateAA.write(name_AA + "\n")
-                #    file_overRateAA.write(seq_AA + "\n")
-                #     break
-                if name_siterate.rstrip("\n") == name_AA.rstrip("\n"):
-                    print("same")
-                else:
-                    print("diff")
-                #print("")
+            #for name_AA, seq_AA in dic_AA.items():
+            #    print("name_AA")
+            #    print("|", name_AA, "|")
+            #    #if re.search(r"_" + name_siterate_geneID + "_", name_AA):
+            #    #    #print("name_AA", name_AA)
+            #    #    file_overRateAA.write(name_AA + "\n")
+            #    #    file_overRateAA.write(seq_AA + "\n")
+            #    #     break
+            #    if name_siterate.rstrip("\n") == name_AA.rstrip("\n"):
+            #        print("same")
+            #    else:
+            #        print("diff")
+            #    #print("")
             file_overRateAA.write(name_siterate + "\n")
             file_overRateAA.write(dic_AA[name_siterate] + "\n")
 
@@ -2287,6 +2288,23 @@ def delete_sequences_with_alignedSiteRate(outFile_AA, outFile_DNA, outFile_siteR
     file_overRateDNA.close()
     file_unambSiteRatefile.close()
     #exit()
+
+def compare_numSeqs(file_mafOutAA, file_overRateAA):
+    #print("### compare_numSeqs() ###")
+    #print("eachDirAddress", eachDirAddress)
+    #print("file_mafOutAA", file_mafOutAA)
+    #print("file_overRateAA", file_overRateAA)
+    dic_mafOutAA = readFasta_dict(eachDirAddress, file_mafOutAA)
+    dic_overRateAA = readFasta_dict(eachDirAddress, file_overRateAA)
+    #for name, seq in dic_overRateAA.items():
+    #    print("name", name)
+    #    print("seq", seq)
+    if len(dic_mafOutAA) == len(dic_overRateAA):
+        return "Equal"
+    else:
+        return "NotEqual"
+    exit()
+    
 
 ### delete_sequences_with_alignedSiteRate End
 ###############################################################
@@ -3211,19 +3229,28 @@ delete_sequences_with_alignedSiteRate("044_overRateAA.fas", "044_overRateDNA.fas
 #exit()
 
 
+print("\n\n##### 1st tree: 2nd round MAFFT/trimal ######\n\n")
+res_compare_numSeqs = compare_numSeqs("040_mafOutAA.txt", "044_overRateAA.fas")
+#print("res_compare_numSeqs", res_compare_numSeqs)
+if res_compare_numSeqs == "Equal":
+    print("\n\n##### 2nd-round MAFFT/trimal skip and just copy files ######\n\n")
+    shutil.copy(eachDirAddress + '040_mafOutAA.txt', eachDirAddress + '050_mafOutAA.txt')
+    shutil.copy(eachDirAddress + '042_AA.fas.trm', eachDirAddress + '052_AA.fas.trm')
+    shutil.copy(eachDirAddress + '042_AA.fas.trm.html', eachDirAddress + '052_AA.fas.trm.html')
+else:
+    print("\n\n##### 1st tree: MAFFT 2nd round ######\n\n")
+    maffLine2 = "tools/mafft " + eachDirAddress + "044_overRateAA.fas > " + eachDirAddress + "050_mafOutAA.txt"
+    ##print(maffLine2)
+    subprocess.call(maffLine2, shell=True)
+    
+    print("\n\n##### 1st tree: TRIMAL 2nd round ######\n\n")
+    trimLine2 = "tools/trimal -out " + eachDirAddress + "052_AA.fas.trm -htmlout " + eachDirAddress + "052_AA.fas.trm.html -in " + eachDirAddress + "050_mafOutAA.txt -gappyout"
+    #print(trimLine2, "\n");
+    subprocess.call(trimLine2, shell=True)
 
-print("\n\n##### 1st tree: MAFFT 2nd round ######\n\n")
-maffLine2 = "tools/mafft " + eachDirAddress + "044_overRateAA.fas > " + eachDirAddress + "050_retAAseqs.maf"
-##print(maffLine2)
-subprocess.call(maffLine2, shell=True)
-
-print("\n\n##### 1st tree: TRIMAL 2nd round ######\n\n")
-trimLine2 = "tools/trimal -out " + eachDirAddress + "052_AA.fas.trm -htmlout " + eachDirAddress + "052_AA.fas.trm.html -in " + eachDirAddress + "050_retAAseqs.maf -gappyout"
-#print(trimLine2, "\n");
-subprocess.call(trimLine2, shell=True)
 
 print("\n\n##### 1st tree: PAL2NAL ######\n\n")
-pal2nalLine = "tools/pal2nal.pl " + eachDirAddress + "050_retAAseqs.maf " + eachDirAddress + "044_overRateDNA.fas -output fasta > " + eachDirAddress +"054_p2nOutcDNAfas.txt"
+pal2nalLine = "tools/pal2nal.pl " + eachDirAddress + "050_mafOutAA.txt " + eachDirAddress + "044_overRateDNA.fas -output fasta > " + eachDirAddress +"054_p2nOutcDNAfas.txt"
 #print (pal2nalLine)
 subprocess.call(pal2nalLine, shell=True)
 #print("<br>")

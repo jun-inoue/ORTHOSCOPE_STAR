@@ -1,0 +1,210 @@
+################ Results: 1st analysis ################
+
+>QuerySequence
+Oryzias-latipes_ENSORLT00000007953.1_prkg1-Oryzias-latipes-p  <= [Identities = 684/684 (100%)] : Oryzias-latipes_ENSORLT00000007953.1_prkg1-Oryzias-latipes-p
+
+>Number_of_blastHits
+Drosophila-melanogaster  10
+Ciona-intestinalis       10
+Xenopus-tropicalis       10
+Gallus-gallus            10
+Homo-sapiens             10
+Danio-rerio              10
+Tetraodon-nigroviridis   10
+Gasterosteus-aculeatus   10
+Oryzias-latipes          10
+
+>BS_of_orthogroupBasalNode
+93
+
+
+>Orthogroup
+Danio-rerio_ENSDART00000016960.8_prkg1a-protein-kinase-cGMP-
+Danio-rerio_ENSDART00000043236.6_prkg1b-protein-kinase-cGMP-
+Gallus-gallus_ENSGALT00000074115.2_protein-kinase-cGMP-
+Gasterosteus-aculeatus_ENSGACT00000012119.1_prkg1a-protein-k
+Homo-sapiens_ENST00000373980.11_PRKG1-protein-kinase-c
+Oryzias-latipes_ENSORLT00000007953.1_prkg1-Oryzias-latipes-p
+Tetraodon-nigroviridis_ENSTNIT00000011642.1_prkg1a-protein-k
+Xenopus-tropicalis_ENSXETT00000064661.1_PRKG1-protein-kinase
+
+>GeneNumber_of_orthogroup
+Xenopus-tropicalis      1
+Gallus-gallus           1
+Homo-sapiens            1
+Danio-rerio             2
+Oryzias-latipes         1
+Tetraodon-nigroviridis  1
+Gasterosteus-aculeatus  1
+
+>Rooting
+Gasterosteus-aculeatus_ENSGACT00000013565.1_prkg1b-protein-k
+
+
+>1st_rearranged_gene_tree_newick
+((((((((((((((((Homo-sapiens_ENST00000373980.11_PRKG1-protein-kinase-c,Gallus-gallus_ENSGALT00000074115.2_protein-kinase-cGMP-)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000064661.1_PRKG1-protein-kinase)86_S=Tetrapoda_D=N,(((Gasterosteus-aculeatus_ENSGACT00000012119.1_prkg1a-protein-k,Tetraodon-nigroviridis_ENSTNIT00000011642.1_prkg1a-protein-k)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000007953.1_prkg1-Oryzias-latipes-p)71_S=Percomorpha_D=N,(Danio-rerio_ENSDART00000043236.6_prkg1b-protein-kinase-cGMP-,Danio-rerio_ENSDART00000016960.8_prkg1a-protein-kinase-cGMP-)r_S=Danio-rerio_D=Y)r_S=Teleostei_D=N)93_S=BonyVertebrates_D=N,(Gasterosteus-aculeatus_ENSGACT00000013565.1_prkg1b-protein-k,Tetraodon-nigroviridis_ENSTNIT00000006319.1_NONE)92_S=Eupercaria_D=N)100_S=BonyVertebrates_D=Y,Ciona-intestinalis_ENSCINT00000007398.3_NONE)r_S=Deuterostomia_D=N,(((((Homo-sapiens_ENST00000395578.3_PRKG2-protein-kinase-cG,Gallus-gallus_ENSGALT00000017742.6_PRKG2-protein-kinase)98_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000046551.3_prkg2-protein-kinase)r_S=Tetrapoda_D=N,((Oryzias-latipes_ENSORLT00000022255.1_prkg2-protein-kinase-cG,Gasterosteus-aculeatus_ENSGACT00000002409.1_prkg2-protein-ki)100_S=Percomorpha_D=N,Danio-rerio_ENSDART00000179194.1_prkg2-protein-kinase-cGMP-d)r_S=Teleostei_D=N)99_S=BonyVertebrates_D=N,(((Tetraodon-nigroviridis_ENSTNIT00000006813.1_prkg2l-protein-k,Oryzias-latipes_ENSORLT00000001302.1_prkg2l-protein-kinase-c)r_S=Percomorpha_D=N,Danio-rerio_ENSDART00000091271.5_prkg2l-protein-kinase-cGMP-)99_S=Teleostei_D=N,Xenopus-tropicalis_ENSXETT00000014175.3_NONE)100_S=BonyVertebrates_D=N)88_S=BonyVertebrates_D=Y,Ciona-intestinalis_ENSCINT00000025978.2_NONE)r_S=Deuterostomia_D=N)r_S=Deuterostomia_D=Y,(((Oryzias-latipes_ENSORLT00000013874.1_NONE,Gasterosteus-aculeatus_ENSGACT00000014412.1_NONE)99_S=Percomorpha_D=N,Danio-rerio_ENSDART00000098135.5_FO704819.1-NONE)81_S=Teleostei_D=N,Ciona-intestinalis_ENSCINT00000000752.3_NONE)r_S=Deuterostomia_D=N)r_S=Deuterostomia_D=Y,Drosophila-melanogaster_FBtr0089312_for-foraging-DBNLINE-21)r_S=Bilateria_D=N,(((((Gasterosteus-aculeatus_ENSGACT00000013515.1_sidkey-121j17.5-,Tetraodon-nigroviridis_ENSTNIT00000019699.1_sidkey-121j17.5-)81_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000021689.1_sidkey-121j17.5-sidkey-)97_S=Percomorpha_D=N,Danio-rerio_ENSDART00000160454.1_sidkey-121j17.5-si-dkey-121)100_S=Teleostei_D=N,Ciona-intestinalis_ENSCINT00000036000.1_NONE)r_S=Deuterostomia_D=N,Drosophila-melanogaster_FBtr0078042_Pkg21D-Protein-kinase-c)r_S=Bilateria_D=N)r_S=Bilateria_D=Y,((((Gasterosteus-aculeatus_ENSGACT00000020516.1_NONE,Tetraodon-nigroviridis_ENSTNIT00000016808.1_NONE)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000000450.1_NONE)97_S=Percomorpha_D=N,Ciona-intestinalis_ENSCINT00000010430.3_NONE)r_S=Deuterostomia_D=N,Drosophila-melanogaster_FBtr0079943_CG4839-NONE)r_S=Bilateria_D=N)95_S=Bilateria_D=Y,(((((((Gallus-gallus_ENSGALT00000052145.2_RPS6KA3-ribosomal-pr,Gallus-gallus_ENSGALT00000011490.6_RPS6KA6-ribosomal-pr)r_S=Gallus-gallus_D=Y,Gallus-gallus_ENSGALT00000093334.1_RPS6KA2-ribosomal-pr)r_S=Gallus-gallus_D=Y,Xenopus-tropicalis_ENSXETT00000065050.1_rps6ka1-ribosomal-pr)99_S=Tetrapoda_D=N,Ciona-intestinalis_ENSCINT00000011573.3_NONE)99_S=Deuterostomia_D=N,Drosophila-melanogaster_FBtr0077360_S6kII-Ribosomal-protein)100_S=Bilateria_D=N,((((Homo-sapiens_ENST00000225577.9_RPS6KB1-ribosomal-prote,Gallus-gallus_ENSGALT00000008348.4_RPS6KB1-ribosomal-pr)88_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000023476.3_rps6kb1-ribosomal-pr)100_S=Tetrapoda_D=N,(Homo-sapiens_ENST00000312629.10_RPS6KB2-ribosomal-prot,Gallus-gallus_ENSGALT00000080874.2_RPS6KB2-ribosomal-pr)100_S=Amniota_D=N)96_S=Tetrapoda_D=Y,Drosophila-melanogaster_FBtr0077114_S6k-Ribosomal-protein-S)100_S=Bilateria_D=N)100_S=Bilateria_D=Y,((Ciona-intestinalis_ENSCINT00000016461.3_NONE,Drosophila-melanogaster_FBtr0083228_Akt1-NONE)100_S=Bilateria_D=N,Xenopus-tropicalis_ENSXETT00000000246.2_sgk1-serum-glucocort)97_S=Bilateria_D=Y)85_S=Bilateria_D=Y)r_S=Bilateria_D=Y,(((((Gallus-gallus_ENSGALT00000055324.2_protein-kinase-X-lin,Xenopus-tropicalis_ENSXETT00000010923.2_prkx-protein-kinase-)97_S=Tetrapoda_D=N,(Homo-sapiens_ENST00000262848.6_PRKX-protein-kinase-X-l,Homo-sapiens_ENST00000533551.5_PRKY-protein-kinase-Y-l)98_S=Homo-sapiens_D=Y)92_S=Tetrapoda_D=Y,(((Gasterosteus-aculeatus_ENSGACT00000020097.1_prkx-protein-kin,Tetraodon-nigroviridis_ENSTNIT00000017733.1_prkx-protein-kin)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000025579.1_prkx-protein-kinase-X-l)98_S=Percomorpha_D=N,Danio-rerio_ENSDART00000136761.2_prkx-protein-kinase-X-linke)100_S=Teleostei_D=N)100_S=BonyVertebrates_D=N,Ciona-intestinalis_ENSCINT00000034648.1_NONE)70_S=Deuterostomia_D=N,Drosophila-melanogaster_FBtr0075528_Pka-C3-Protein-kinase-c)97_S=Bilateria_D=N)r_S=Bilateria_D=Y,((((((Gallus-gallus_ENSGALT00000043862.3_protein-kinase-cAMP-,Xenopus-tropicalis_ENSXETT00000018929.3_prkacb-protein-kinas)90_S=Tetrapoda_D=N,Homo-sapiens_ENST00000370685.7_PRKACB-protein-kinase-c)82_S=Tetrapoda_D=Y,(((((Gasterosteus-aculeatus_ENSGACT00000012717.1_PRKACB-protein-k,Tetraodon-nigroviridis_ENSTNIT00000015340.1_PRKACB-protein-k)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000007944.1_PRKACB-protein-kinase-c)81_S=Percomorpha_D=N,((Gasterosteus-aculeatus_ENSGACT00000023625.1_PRKACB-protein-k,Tetraodon-nigroviridis_ENSTNIT00000011540.1_prkacbb-protein-)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000021648.1_PRKACB-protein-kinase-c)87_S=Percomorpha_D=N)r_S=Percomorpha_D=Y,Danio-rerio_ENSDART00000171639.1_prkacbb-protein-kinase-cAMP)r_S=Teleostei_D=N,(((Gasterosteus-aculeatus_ENSGACT00000013847.1_prkacaa-protein-,Tetraodon-nigroviridis_ENSTNIT00000013543.1_prkacaa-protein-)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000008833.1_prkacaa-protein-kinase-)92_S=Percomorpha_D=N,Danio-rerio_ENSDART00000082143.5_prkacbb-protein-kinase-cAMP)r_S=Teleostei_D=N)r_S=Teleostei_D=Y)r_S=BonyVertebrates_D=N,((((Homo-sapiens_ENST00000308677.9_PRKACA-protein-kinase-c,Homo-sapiens_ENST00000673550.1_PRKACA-protein-kinase-c)r_S=Homo-sapiens_D=Y,Homo-sapiens_ENST00000377276.5_PRKACG-protein-kinase-c)r_S=Homo-sapiens_D=Y,Xenopus-tropicalis_ENSXETT00000049427.1_prkaca-protein-kinas)r_S=Tetrapoda_D=N,(Tetraodon-nigroviridis_ENSTNIT00000017264.1_prkacab-protein-,Danio-rerio_ENSDART00000168108.1_prkacaa-protein-kinase-cAMP)r_S=Teleostei_D=N)r_S=BonyVertebrates_D=N)r_S=BonyVertebrates_D=Y,Ciona-intestinalis_ENSCINT00000013406.3_NONE)r_S=Deuterostomia_D=N,Drosophila-melanogaster_FBtr0079852_Pka-C1-Protein-kinase-c)100_S=Bilateria_D=N)r_S=Bilateria_D=Y,Ciona-intestinalis_ENSCINT00000009532.3_NONE)100_S=Bilateria_D=Y,Drosophila-melanogaster_FBtr0085728_CG12069-NONE)100_S=Bilateria_D=Y,Drosophila-melanogaster_FBtr0085727_Pka-C2-Protein-kinase-c)100_S=Bilateria_D=Y;
+
+>1st_rearranged_gene_tree_NHX
+((((((((((((((((Homo-sapiens_ENST00000373980.11_PRKG1-protein-kinase-c:0.0[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000074115.2_protein-kinase-cGMP-:0.005197614062[&&NHX:S=Gallus-gallus])r208[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000064661.1_PRKG1-protein-kinase:0.1524679531[&&NHX:S=Xenopus-tropicalis])n4:0.01029633848[&&NHX:S=Tetrapoda:D=N:B=86.0],(((Gasterosteus-aculeatus_ENSGACT00000012119.1_prkg1a-protein-k:0.003560096925[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000011642.1_prkg1a-protein-k:0.006727680007[&&NHX:S=Tetraodon-nigroviridis])r210[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000007953.1_prkg1-Oryzias-latipes-p:0.01027380747[&&NHX:S=Oryzias-latipes])n11:0.005383763193[&&NHX:S=Percomorpha:D=N:B=71.0],(Danio-rerio_ENSDART00000043236.6_prkg1b-protein-kinase-cGMP-:0.0196511533[&&NHX:S=Danio-rerio],Danio-rerio_ENSDART00000016960.8_prkg1a-protein-kinase-cGMP-:0.01259036116[&&NHX:S=Danio-rerio])r206[&&NHX:S=Danio-rerio:D=Y])r205[&&NHX:S=Teleostei:D=N])n14:0.01131295812[&&NHX:S=BonyVertebrates:D=N:B=93.0],(Gasterosteus-aculeatus_ENSGACT00000013565.1_prkg1b-protein-k:0.02889484013[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000006319.1_NONE:0.01773013205[&&NHX:S=Tetraodon-nigroviridis])n17:0.01209688794[&&NHX:S=Eupercaria:D=N:B=92.0])n18:0.03084684435[&&NHX:S=BonyVertebrates:D=Y:B=100.0],Ciona-intestinalis_ENSCINT00000007398.3_NONE:0.1016489866[&&NHX:S=Ciona-intestinalis])r189[&&NHX:S=Deuterostomia:D=N],(((((Homo-sapiens_ENST00000395578.3_PRKG2-protein-kinase-cG:0.03340227377[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000017742.6_PRKG2-protein-kinase:0.06599910977[&&NHX:S=Gallus-gallus])n42:0.01921551414[&&NHX:S=Amniota:D=N:B=98.0],Xenopus-tropicalis_ENSXETT00000046551.3_prkg2-protein-kinase:0.0801356763[&&NHX:S=Xenopus-tropicalis])r212[&&NHX:S=Tetrapoda:D=N],((Oryzias-latipes_ENSORLT00000022255.1_prkg2-protein-kinase-cG:0.02725614445[&&NHX:S=Oryzias-latipes],Gasterosteus-aculeatus_ENSGACT00000002409.1_prkg2-protein-ki:0.03235264397[&&NHX:S=Gasterosteus-aculeatus])n37:0.02762393431[&&NHX:S=Percomorpha:D=N:B=100.0],Danio-rerio_ENSDART00000179194.1_prkg2-protein-kinase-cGMP-d:0.0603321261[&&NHX:S=Danio-rerio])r213[&&NHX:S=Teleostei:D=N])n45:0.04143945687[&&NHX:S=BonyVertebrates:D=N:B=99.0],(((Tetraodon-nigroviridis_ENSTNIT00000006813.1_prkg2l-protein-k:0.04739859312[&&NHX:S=Tetraodon-nigroviridis],Oryzias-latipes_ENSORLT00000001302.1_prkg2l-protein-kinase-c:0.03673260023[&&NHX:S=Oryzias-latipes])r215[&&NHX:S=Percomorpha:D=N],Danio-rerio_ENSDART00000091271.5_prkg2l-protein-kinase-cGMP-:0.04884908383[&&NHX:S=Danio-rerio])n50:0.03012919464[&&NHX:S=Teleostei:D=N:B=99.0],Xenopus-tropicalis_ENSXETT00000014175.3_NONE:0.08267042398[&&NHX:S=Xenopus-tropicalis])n52:0.03670327007[&&NHX:S=BonyVertebrates:D=N:B=100.0])n53:0.02748424621[&&NHX:S=BonyVertebrates:D=Y:B=88.0],Ciona-intestinalis_ENSCINT00000025978.2_NONE:0.1689676349[&&NHX:S=Ciona-intestinalis])r190[&&NHX:S=Deuterostomia:D=N])r188[&&NHX:S=Deuterostomia:D=Y],(((Oryzias-latipes_ENSORLT00000013874.1_NONE:0.1312815712[&&NHX:S=Oryzias-latipes],Gasterosteus-aculeatus_ENSGACT00000014412.1_NONE:0.2977477243[&&NHX:S=Gasterosteus-aculeatus])n29:0.09965560975[&&NHX:S=Percomorpha:D=N:B=99.0],Danio-rerio_ENSDART00000098135.5_FO704819.1-NONE:0.2367472056[&&NHX:S=Danio-rerio])n31:0.03571521538[&&NHX:S=Teleostei:D=N:B=81.0],Ciona-intestinalis_ENSCINT00000000752.3_NONE:0.2924989921[&&NHX:S=Ciona-intestinalis])r191[&&NHX:S=Deuterostomia:D=N])r187[&&NHX:S=Deuterostomia:D=Y],Drosophila-melanogaster_FBtr0089312_for-foraging-DBNLINE-21:0.1330215852[&&NHX:S=Drosophila-melanogaster])r186[&&NHX:S=Bilateria:D=N],(((((Gasterosteus-aculeatus_ENSGACT00000013515.1_sidkey-121j17.5-:0.03268258248[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000019699.1_sidkey-121j17.5-:0.02534660469[&&NHX:S=Tetraodon-nigroviridis])n69:0.01045239033[&&NHX:S=Eupercaria:D=N:B=81.0],Oryzias-latipes_ENSORLT00000021689.1_sidkey-121j17.5-sidkey-:0.03004482708[&&NHX:S=Oryzias-latipes])n71:0.03715356529[&&NHX:S=Percomorpha:D=N:B=97.0],Danio-rerio_ENSDART00000160454.1_sidkey-121j17.5-si-dkey-121:0.06529236688[&&NHX:S=Danio-rerio])n73:0.1606071637[&&NHX:S=Teleostei:D=N:B=100.0],Ciona-intestinalis_ENSCINT00000036000.1_NONE:0.3915062875[&&NHX:S=Ciona-intestinalis])r195[&&NHX:S=Deuterostomia:D=N],Drosophila-melanogaster_FBtr0078042_Pkg21D-Protein-kinase-c:0.164891162[&&NHX:S=Drosophila-melanogaster])r194[&&NHX:S=Bilateria:D=N])r185[&&NHX:S=Bilateria:D=Y],((((Gasterosteus-aculeatus_ENSGACT00000020516.1_NONE:0.0908686237[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000016808.1_NONE:0.05308802804[&&NHX:S=Tetraodon-nigroviridis])r219[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000000450.1_NONE:0.1170051276[&&NHX:S=Oryzias-latipes])n25:0.05619335282[&&NHX:S=Percomorpha:D=N:B=97.0],Ciona-intestinalis_ENSCINT00000010430.3_NONE:0.2473333236[&&NHX:S=Ciona-intestinalis])r199[&&NHX:S=Deuterostomia:D=N],Drosophila-melanogaster_FBtr0079943_CG4839-NONE:0.2511432547[&&NHX:S=Drosophila-melanogaster])r198[&&NHX:S=Bilateria:D=N])n74:0.1165693364[&&NHX:S=Bilateria:D=Y:B=95.0],(((((((Gallus-gallus_ENSGALT00000052145.2_RPS6KA3-ribosomal-pr:0.03864306464[&&NHX:S=Gallus-gallus],Gallus-gallus_ENSGALT00000011490.6_RPS6KA6-ribosomal-pr:0.03480209395[&&NHX:S=Gallus-gallus])r224[&&NHX:S=Gallus-gallus:D=Y],Gallus-gallus_ENSGALT00000093334.1_RPS6KA2-ribosomal-pr:0.05346068489[&&NHX:S=Gallus-gallus])r223[&&NHX:S=Gallus-gallus:D=Y],Xenopus-tropicalis_ENSXETT00000065050.1_rps6ka1-ribosomal-pr:0.05846780973[&&NHX:S=Xenopus-tropicalis])n81:0.03342690507[&&NHX:S=Tetrapoda:D=N:B=99.0],Ciona-intestinalis_ENSCINT00000011573.3_NONE:0.07831493006[&&NHX:S=Ciona-intestinalis])n83:0.04064378931[&&NHX:S=Deuterostomia:D=N:B=99.0],Drosophila-melanogaster_FBtr0077360_S6kII-Ribosomal-protein:0.1329759274[&&NHX:S=Drosophila-melanogaster])n85:0.0882534[&&NHX:S=Bilateria:D=N:B=100.0],((((Homo-sapiens_ENST00000225577.9_RPS6KB1-ribosomal-prote:0.004764866714[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000008348.4_RPS6KB1-ribosomal-pr:0.007207763156[&&NHX:S=Gallus-gallus])n88:0.009583293829[&&NHX:S=Amniota:D=N:B=88.0],Xenopus-tropicalis_ENSXETT00000023476.3_rps6kb1-ribosomal-pr:0.0172533526[&&NHX:S=Xenopus-tropicalis])n90:0.05516837464[&&NHX:S=Tetrapoda:D=N:B=100.0],(Homo-sapiens_ENST00000312629.10_RPS6KB2-ribosomal-prot:0.03010434871[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000080874.2_RPS6KB2-ribosomal-pr:0.01655825133[&&NHX:S=Gallus-gallus])n93:0.04415859346[&&NHX:S=Amniota:D=N:B=100.0])n94:0.02376092106[&&NHX:S=Tetrapoda:D=Y:B=96.0],Drosophila-melanogaster_FBtr0077114_S6k-Ribosomal-protein-S:0.09743303723[&&NHX:S=Drosophila-melanogaster])n96:0.1068148307[&&NHX:S=Bilateria:D=N:B=100.0])n97:0.1008073756[&&NHX:S=Bilateria:D=Y:B=100.0],((Ciona-intestinalis_ENSCINT00000016461.3_NONE:0.1303656405[&&NHX:S=Ciona-intestinalis],Drosophila-melanogaster_FBtr0083228_Akt1-NONE:0.116447607[&&NHX:S=Drosophila-melanogaster])n100:0.1204328363[&&NHX:S=Bilateria:D=N:B=100.0],Xenopus-tropicalis_ENSXETT00000000246.2_sgk1-serum-glucocort:0.1923482072[&&NHX:S=Xenopus-tropicalis])n102:0.04109989158[&&NHX:S=Bilateria:D=Y:B=97.0])n103:0.03535880103[&&NHX:S=Bilateria:D=Y:B=85.0])r179[&&NHX:S=Bilateria:D=Y],(((((Gallus-gallus_ENSGALT00000055324.2_protein-kinase-X-lin:0.02415384224[&&NHX:S=Gallus-gallus],Xenopus-tropicalis_ENSXETT00000010923.2_prkx-protein-kinase-:0.03196402949[&&NHX:S=Xenopus-tropicalis])n109:0.02062710635[&&NHX:S=Tetrapoda:D=N:B=97.0],(Homo-sapiens_ENST00000262848.6_PRKX-protein-kinase-X-l:0.01628538433[&&NHX:S=Homo-sapiens],Homo-sapiens_ENST00000533551.5_PRKY-protein-kinase-Y-l:0.002208467768[&&NHX:S=Homo-sapiens])n112:0.02083645996[&&NHX:S=Homo-sapiens:D=Y:B=98.0])n113:0.01466540211[&&NHX:S=Tetrapoda:D=Y:B=92.0],(((Gasterosteus-aculeatus_ENSGACT00000020097.1_prkx-protein-kin:0.01953386234[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000017733.1_prkx-protein-kin:0.023571347[&&NHX:S=Tetraodon-nigroviridis])r226[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000025579.1_prkx-protein-kinase-X-l:0.02944616173[&&NHX:S=Oryzias-latipes])n118:0.01573608626[&&NHX:S=Percomorpha:D=N:B=98.0],Danio-rerio_ENSDART00000136761.2_prkx-protein-kinase-X-linke:0.04480357479[&&NHX:S=Danio-rerio])n120:0.0387657421[&&NHX:S=Teleostei:D=N:B=100.0])n121:0.05799594804[&&NHX:S=BonyVertebrates:D=N:B=100.0],Ciona-intestinalis_ENSCINT00000034648.1_NONE:0.1422910432[&&NHX:S=Ciona-intestinalis])n123:0.04502140793[&&NHX:S=Deuterostomia:D=N:B=70.0],Drosophila-melanogaster_FBtr0075528_Pka-C3-Protein-kinase-c:0.1720019771[&&NHX:S=Drosophila-melanogaster])n125:0.06256958647[&&NHX:S=Bilateria:D=N:B=97.0])r178[&&NHX:S=Bilateria:D=Y],((((((Gallus-gallus_ENSGALT00000043862.3_protein-kinase-cAMP-:0.008531442805[&&NHX:S=Gallus-gallus],Xenopus-tropicalis_ENSXETT00000018929.3_prkacb-protein-kinas:0.01545967869[&&NHX:S=Xenopus-tropicalis])n138:0.007315068745[&&NHX:S=Tetrapoda:D=N:B=90.0],Homo-sapiens_ENST00000370685.7_PRKACB-protein-kinase-c:0.0171520937[&&NHX:S=Homo-sapiens])n140:0.007228840175[&&NHX:S=Tetrapoda:D=Y:B=82.0],(((((Gasterosteus-aculeatus_ENSGACT00000012717.1_PRKACB-protein-k:0.01040077754[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000015340.1_PRKACB-protein-k:0.01794556871[&&NHX:S=Tetraodon-nigroviridis])r247[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000007944.1_PRKACB-protein-kinase-c:0.02184322531[&&NHX:S=Oryzias-latipes])n131:0.009511636829[&&NHX:S=Percomorpha:D=N:B=81.0],((Gasterosteus-aculeatus_ENSGACT00000023625.1_PRKACB-protein-k:0.01491349579[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000011540.1_prkacbb-protein-:0.01135239775[&&NHX:S=Tetraodon-nigroviridis])r249[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000021648.1_PRKACB-protein-kinase-c:0.01524841082[&&NHX:S=Oryzias-latipes])n146:0.006334014749[&&NHX:S=Percomorpha:D=N:B=87.0])r233[&&NHX:S=Percomorpha:D=Y],Danio-rerio_ENSDART00000171639.1_prkacbb-protein-kinase-cAMP:0.02102880531[&&NHX:S=Danio-rerio])r232[&&NHX:S=Teleostei:D=N],(((Gasterosteus-aculeatus_ENSGACT00000013847.1_prkacaa-protein-:0.009114303505[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000013543.1_prkacaa-protein-:0.006728077906[&&NHX:S=Tetraodon-nigroviridis])r251[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000008833.1_prkacaa-protein-kinase-:0.008507024715[&&NHX:S=Oryzias-latipes])n152:0.01014339436[&&NHX:S=Percomorpha:D=N:B=92.0],Danio-rerio_ENSDART00000082143.5_prkacbb-protein-kinase-cAMP:0.02102880531[&&NHX:S=Danio-rerio])r234[&&NHX:S=Teleostei:D=N])r231[&&NHX:S=Teleostei:D=Y])r230[&&NHX:S=BonyVertebrates:D=N],((((Homo-sapiens_ENST00000308677.9_PRKACA-protein-kinase-c:0.01428664536[&&NHX:S=Homo-sapiens],Homo-sapiens_ENST00000673550.1_PRKACA-protein-kinase-c:0.01428664536[&&NHX:S=Homo-sapiens])r239[&&NHX:S=Homo-sapiens:D=Y],Homo-sapiens_ENST00000377276.5_PRKACG-protein-kinase-c:0.0683286076[&&NHX:S=Homo-sapiens])r238[&&NHX:S=Homo-sapiens:D=Y],Xenopus-tropicalis_ENSXETT00000049427.1_prkaca-protein-kinas:0.03919030931[&&NHX:S=Xenopus-tropicalis])r236[&&NHX:S=Tetrapoda:D=N],(Tetraodon-nigroviridis_ENSTNIT00000017264.1_prkacab-protein-:0.02706735618[&&NHX:S=Tetraodon-nigroviridis],Danio-rerio_ENSDART00000168108.1_prkacaa-protein-kinase-cAMP:0.01102995751[&&NHX:S=Danio-rerio])r241[&&NHX:S=Teleostei:D=N])r235[&&NHX:S=BonyVertebrates:D=N])r229[&&NHX:S=BonyVertebrates:D=Y],Ciona-intestinalis_ENSCINT00000013406.3_NONE:0.07416151115[&&NHX:S=Ciona-intestinalis])r228[&&NHX:S=Deuterostomia:D=N],Drosophila-melanogaster_FBtr0079852_Pka-C1-Protein-kinase-c:0.05387097424[&&NHX:S=Drosophila-melanogaster])n169:0.1062212371[&&NHX:S=Bilateria:D=N:B=100.0])r177[&&NHX:S=Bilateria:D=Y],Ciona-intestinalis_ENSCINT00000009532.3_NONE:0.3588865499[&&NHX:S=Ciona-intestinalis])n170:0.1092153422[&&NHX:S=Bilateria:D=Y:B=100.0],Drosophila-melanogaster_FBtr0085728_CG12069-NONE:0.2043235956[&&NHX:S=Drosophila-melanogaster])n172:0.0[&&NHX:S=Bilateria:D=Y:B=100.0],Drosophila-melanogaster_FBtr0085727_Pka-C2-Protein-kinase-c:0.2030074954[&&NHX:S=Drosophila-melanogaster])n174[&&NHX:S=Bilateria:D=Y:B=100.0];
+
+>1st_gene_tree_newick
+((((((((((((((((((Xenopus-tropicalis_ENSXETT00000064661.1_PRKG1-protein-kinase:0.1524679531,Homo-sapiens_ENST00000373980.11_PRKG1-protein-kinase-c:-0.0033572269)55:0.00588570429,Gallus-gallus_ENSGALT00000074115.2_protein-kinase-cGMP-:0.005197614062)86:0.01029633848,Danio-rerio_ENSDART00000043236.6_prkg1b-protein-kinase-cGMP-:0.0196511533)38:0.003178665879,(((Gasterosteus-aculeatus_ENSGACT00000012119.1_prkg1a-protein-k:0.003560096925,Oryzias-latipes_ENSORLT00000007953.1_prkg1-Oryzias-latipes-p:0.01027380747)65:0.005273717054,Tetraodon-nigroviridis_ENSTNIT00000011642.1_prkg1a-protein-k:0.006727680007)71:0.005383763193,Danio-rerio_ENSDART00000016960.8_prkg1a-protein-kinase-cGMP-:0.01259036116)63:0.00386956444)93:0.01131295812,(Tetraodon-nigroviridis_ENSTNIT00000006319.1_NONE:0.01773013205,Gasterosteus-aculeatus_ENSGACT00000013565.1_prkg1b-protein-k:0.02889484013)92:0.01209688794)100:0.03084684435,Ciona-intestinalis_ENSCINT00000007398.3_NONE:0.1016489866)49:0.01166121873,((Tetraodon-nigroviridis_ENSTNIT00000016808.1_NONE:0.05308802804,Gasterosteus-aculeatus_ENSGACT00000020516.1_NONE:0.0908686237)32:0.008747146255,Oryzias-latipes_ENSORLT00000000450.1_NONE:0.1170051276)97:0.05619335282)30:0.01169810838,((Gasterosteus-aculeatus_ENSGACT00000014412.1_NONE:0.2977477243,Oryzias-latipes_ENSORLT00000013874.1_NONE:0.1312815712)99:0.09965560975,Danio-rerio_ENSDART00000098135.5_FO704819.1-NONE:0.2367472056)81:0.03571521538)35:0.02717333635,Drosophila-melanogaster_FBtr0089312_for-foraging-DBNLINE-21:0.1330215852)43:0.01636833173,((((((Gasterosteus-aculeatus_ENSGACT00000002409.1_prkg2-protein-ki:0.03235264397,Oryzias-latipes_ENSORLT00000022255.1_prkg2-protein-kinase-cG:0.02725614445)100:0.02762393431,Danio-rerio_ENSDART00000179194.1_prkg2-protein-kinase-cGMP-d:0.0603321261)62:0.009115763704,((Gallus-gallus_ENSGALT00000017742.6_PRKG2-protein-kinase:0.06599910977,Homo-sapiens_ENST00000395578.3_PRKG2-protein-kinase-cG:0.03340227377)98:0.01921551414,Xenopus-tropicalis_ENSXETT00000046551.3_prkg2-protein-kinase:0.0801356763)61:0.0116594025)99:0.04143945687,(((Danio-rerio_ENSDART00000091271.5_prkg2l-protein-kinase-cGMP-:0.04884908383,Oryzias-latipes_ENSORLT00000001302.1_prkg2l-protein-kinase-c:0.03673260023)64:0.01122994174,Tetraodon-nigroviridis_ENSTNIT00000006813.1_prkg2l-protein-k:0.04739859312)99:0.03012919464,Xenopus-tropicalis_ENSXETT00000014175.3_NONE:0.08267042398)100:0.03670327007)88:0.02748424621,Drosophila-melanogaster_FBtr0078042_Pkg21D-Protein-kinase-c:0.164891162)29:0.01202881282,Ciona-intestinalis_ENSCINT00000025978.2_NONE:0.1689676349)20:0.005879442517)34:0.02727869092,((Ciona-intestinalis_ENSCINT00000036000.1_NONE:0.3915062875,Ciona-intestinalis_ENSCINT00000000752.3_NONE:0.2924989921)28:0.01927649493,Ciona-intestinalis_ENSCINT00000010430.3_NONE:0.2473333236)20:0.0251267245)10:0.008536855024,Drosophila-melanogaster_FBtr0079943_CG4839-NONE:0.2511432547)32:0.02681783969,(((Tetraodon-nigroviridis_ENSTNIT00000019699.1_sidkey-121j17.5-:0.02534660469,Gasterosteus-aculeatus_ENSGACT00000013515.1_sidkey-121j17.5-:0.03268258248)81:0.01045239033,Oryzias-latipes_ENSORLT00000021689.1_sidkey-121j17.5-sidkey-:0.03004482708)97:0.03715356529,Danio-rerio_ENSDART00000160454.1_sidkey-121j17.5-si-dkey-121:0.06529236688)100:0.1606071637)95:0.1165693364,(((((((Gallus-gallus_ENSGALT00000011490.6_RPS6KA6-ribosomal-pr:0.03480209395,Gallus-gallus_ENSGALT00000052145.2_RPS6KA3-ribosomal-pr:0.03864306464)60:0.009631297506,(Xenopus-tropicalis_ENSXETT00000065050.1_rps6ka1-ribosomal-pr:0.05846780973,Gallus-gallus_ENSGALT00000093334.1_RPS6KA2-ribosomal-pr:0.05346068489)69:0.01217680094)99:0.03342690507,Ciona-intestinalis_ENSCINT00000011573.3_NONE:0.07831493006)99:0.04064378931,Drosophila-melanogaster_FBtr0077360_S6kII-Ribosomal-protein:0.1329759274)100:0.0882534,((((Gallus-gallus_ENSGALT00000008348.4_RPS6KB1-ribosomal-pr:0.007207763156,Homo-sapiens_ENST00000225577.9_RPS6KB1-ribosomal-prote:0.004764866714)88:0.009583293829,Xenopus-tropicalis_ENSXETT00000023476.3_rps6kb1-ribosomal-pr:0.0172533526)100:0.05516837464,(Gallus-gallus_ENSGALT00000080874.2_RPS6KB2-ribosomal-pr:0.01655825133,Homo-sapiens_ENST00000312629.10_RPS6KB2-ribosomal-prot:0.03010434871)100:0.04415859346)96:0.02376092106,Drosophila-melanogaster_FBtr0077114_S6k-Ribosomal-protein-S:0.09743303723)100:0.1068148307)100:0.1008073756,((Drosophila-melanogaster_FBtr0083228_Akt1-NONE:0.116447607,Ciona-intestinalis_ENSCINT00000016461.3_NONE:0.1303656405)100:0.1204328363,Xenopus-tropicalis_ENSXETT00000000246.2_sgk1-serum-glucocort:0.1923482072)97:0.04109989158)85:0.03535880103,Ciona-intestinalis_ENSCINT00000009532.3_NONE:0.3588865499)56:0.02485756366)69:0.0451102384,(((((Xenopus-tropicalis_ENSXETT00000010923.2_prkx-protein-kinase-:0.03196402949,Gallus-gallus_ENSGALT00000055324.2_protein-kinase-X-lin:0.02415384224)97:0.02062710635,(Homo-sapiens_ENST00000533551.5_PRKY-protein-kinase-Y-l:0.002208467768,Homo-sapiens_ENST00000262848.6_PRKX-protein-kinase-X-l:0.01628538433)98:0.02083645996)92:0.01466540211,(((Gasterosteus-aculeatus_ENSGACT00000020097.1_prkx-protein-kin:0.01953386234,Oryzias-latipes_ENSORLT00000025579.1_prkx-protein-kinase-X-l:0.02944616173)69:0.007425725466,Tetraodon-nigroviridis_ENSTNIT00000017733.1_prkx-protein-kin:0.023571347)98:0.01573608626,Danio-rerio_ENSDART00000136761.2_prkx-protein-kinase-X-linke:0.04480357479)100:0.0387657421)100:0.05799594804,Ciona-intestinalis_ENSCINT00000034648.1_NONE:0.1422910432)70:0.04502140793,Drosophila-melanogaster_FBtr0075528_Pka-C3-Protein-kinase-c:0.1720019771)97:0.06256958647)68:0.02044088798,(((((((((((Gasterosteus-aculeatus_ENSGACT00000012717.1_PRKACB-protein-k:0.01040077754,Oryzias-latipes_ENSORLT00000007944.1_PRKACB-protein-kinase-c:0.02184322531)18:0.002524550143,Tetraodon-nigroviridis_ENSTNIT00000015340.1_PRKACB-protein-k:0.01794556871)81:0.009511636829,Danio-rerio_ENSDART00000171639.1_prkacbb-protein-kinase-cAMP:0.02102880531)0:0,Danio-rerio_ENSDART00000082143.5_prkacbb-protein-kinase-cAMP:0.02102880531)40:0.003556269776,((Xenopus-tropicalis_ENSXETT00000018929.3_prkacb-protein-kinas:0.01545967869,Gallus-gallus_ENSGALT00000043862.3_protein-kinase-cAMP-:0.008531442805)90:0.007315068745,Homo-sapiens_ENST00000370685.7_PRKACB-protein-kinase-c:0.0171520937)82:0.007228840175)21:0.00297151585,((Gasterosteus-aculeatus_ENSGACT00000023625.1_PRKACB-protein-k:0.01491349579,Oryzias-latipes_ENSORLT00000021648.1_PRKACB-protein-kinase-c:0.01524841082)50:0.002944185005,Tetraodon-nigroviridis_ENSTNIT00000011540.1_prkacbb-protein-:0.01135239775)87:0.006334014749)54:0.01028070585,((((((Tetraodon-nigroviridis_ENSTNIT00000013543.1_prkacaa-protein-:0.006728077906,Gasterosteus-aculeatus_ENSGACT00000013847.1_prkacaa-protein-:0.009114303505)67:0.003477106934,Oryzias-latipes_ENSORLT00000008833.1_prkacaa-protein-kinase-:0.008507024715)92:0.01014339436,Danio-rerio_ENSDART00000168108.1_prkacaa-protein-kinase-cAMP:0.01102995751)40:0.002652413429,Tetraodon-nigroviridis_ENSTNIT00000017264.1_prkacab-protein-:0.02706735618)41:0.003095331009,Xenopus-tropicalis_ENSXETT00000049427.1_prkaca-protein-kinas:0.03919030931)63:0.005709167043,Ciona-intestinalis_ENSCINT00000013406.3_NONE:0.07416151115)9:0.004242066843)6:0.002764723392,Homo-sapiens_ENST00000308677.9_PRKACA-protein-kinase-c:0.01428664536)0:0,Homo-sapiens_ENST00000673550.1_PRKACA-protein-kinase-c:0.01428664536)33:0.01514016403,Homo-sapiens_ENST00000377276.5_PRKACG-protein-kinase-c:0.0683286076)21:0.008526261047,Drosophila-melanogaster_FBtr0079852_Pka-C1-Protein-kinase-c:0.05387097424)100:0.1062212371)100:0.1092153422,Drosophila-melanogaster_FBtr0085728_CG12069-NONE:0.2043235956)100:0,Drosophila-melanogaster_FBtr0085727_Pka-C2-Protein-kinase-c:0.2030074954)100;
+
+>Aligned-ShortSequence_threshold evaluation
+Drosophila-melanogaster_FBtr0085727_Pka-C2-Protein-kinase-c      1.0
+Drosophila-melanogaster_FBtr0077360_S6kII-Ribosomal-protein      0.993
+Drosophila-melanogaster_FBtr0083228_Akt1-NONE                    1.0
+Drosophila-melanogaster_FBtr0077114_S6k-Ribosomal-protein-S      1.0
+Drosophila-melanogaster_FBtr0085728_CG12069-NONE                 1.0
+Drosophila-melanogaster_FBtr0079852_Pka-C1-Protein-kinase-c      1.0
+Drosophila-melanogaster_FBtr0075528_Pka-C3-Protein-kinase-c      1.0
+Drosophila-melanogaster_FBtr0079943_CG4839-NONE                  0.99
+Drosophila-melanogaster_FBtr0078042_Pkg21D-Protein-kinase-c      1.0
+Drosophila-melanogaster_FBtr0089312_for-foraging-DBNLINE-21      1.0
+Ciona-intestinalis_ENSCINT00000011573.3_NONE                     1.0
+Ciona-intestinalis_ENSCINT00000009532.3_NONE                     0.963
+Ciona-intestinalis_ENSCINT00000016461.3_NONE                     1.0
+Ciona-intestinalis_ENSCINT00000036000.1_NONE                     0.906
+Ciona-intestinalis_ENSCINT00000013406.3_NONE                     1.0
+Ciona-intestinalis_ENSCINT00000034648.1_NONE                     1.0
+Ciona-intestinalis_ENSCINT00000000752.3_NONE                     1.0
+Ciona-intestinalis_ENSCINT00000010430.3_NONE                     1.0
+Ciona-intestinalis_ENSCINT00000025978.2_NONE                     1.0
+Ciona-intestinalis_ENSCINT00000007398.3_NONE                     1.0
+Xenopus-tropicalis_ENSXETT00000000246.2_sgk1-serum-glucocort     0.99
+Xenopus-tropicalis_ENSXETT00000065050.1_rps6ka1-ribosomal-pr     1.0
+Xenopus-tropicalis_ENSXETT00000023476.3_rps6kb1-ribosomal-pr     1.0
+Xenopus-tropicalis_ENSXETT00000049427.1_prkaca-protein-kinas     0.912
+Xenopus-tropicalis_ENSXETT00000018929.3_prkacb-protein-kinas     1.0
+Xenopus-tropicalis_ENSXETT00000010923.2_prkx-protein-kinase-     0.973
+Xenopus-tropicalis_ENSXETT00000064661.1_PRKG1-protein-kinase     0.987
+Xenopus-tropicalis_ENSXETT00000014175.3_NONE                     1.0
+Xenopus-tropicalis_ENSXETT00000046551.3_prkg2-protein-kinase     1.0
+Gallus-gallus_ENSGALT00000080874.2_RPS6KB2-ribosomal-pr          1.0
+Gallus-gallus_ENSGALT00000093334.1_RPS6KA2-ribosomal-pr          1.0
+Gallus-gallus_ENSGALT00000011490.6_RPS6KA6-ribosomal-pr          1.0
+Gallus-gallus_ENSGALT00000052145.2_RPS6KA3-ribosomal-pr          1.0
+Gallus-gallus_ENSGALT00000008348.4_RPS6KB1-ribosomal-pr          1.0
+Gallus-gallus_ENSGALT00000043862.3_protein-kinase-cAMP-          1.0
+Gallus-gallus_ENSGALT00000055324.2_protein-kinase-X-lin          1.0
+== Removed ==> Gallus-gallus_ENSGALT00000091034.1_NONE                          0.02
+Gallus-gallus_ENSGALT00000017742.6_PRKG2-protein-kinase          0.97
+Gallus-gallus_ENSGALT00000074115.2_protein-kinase-cGMP-          1.0
+Homo-sapiens_ENST00000533551.5_PRKY-protein-kinase-Y-l           0.781
+Homo-sapiens_ENST00000225577.9_RPS6KB1-ribosomal-prote           1.0
+Homo-sapiens_ENST00000312629.10_RPS6KB2-ribosomal-prot           1.0
+Homo-sapiens_ENST00000377276.5_PRKACG-protein-kinase-c           1.0
+Homo-sapiens_ENST00000370685.7_PRKACB-protein-kinase-c           1.0
+Homo-sapiens_ENST00000308677.9_PRKACA-protein-kinase-c           1.0
+Homo-sapiens_ENST00000673550.1_PRKACA-protein-kinase-c           1.0
+Homo-sapiens_ENST00000262848.6_PRKX-protein-kinase-X-l           1.0
+Homo-sapiens_ENST00000395578.3_PRKG2-protein-kinase-cG           1.0
+Homo-sapiens_ENST00000373980.11_PRKG1-protein-kinase-c           1.0
+Danio-rerio_ENSDART00000082143.5_prkacbb-protein-kinase-cAMP     1.0
+Danio-rerio_ENSDART00000171639.1_prkacbb-protein-kinase-cAMP     1.0
+Danio-rerio_ENSDART00000168108.1_prkacaa-protein-kinase-cAMP     1.0
+Danio-rerio_ENSDART00000136761.2_prkx-protein-kinase-X-linke     1.0
+Danio-rerio_ENSDART00000160454.1_sidkey-121j17.5-si-dkey-121     0.993
+Danio-rerio_ENSDART00000091271.5_prkg2l-protein-kinase-cGMP-     1.0
+Danio-rerio_ENSDART00000098135.5_FO704819.1-NONE                 0.997
+Danio-rerio_ENSDART00000179194.1_prkg2-protein-kinase-cGMP-d     1.0
+Danio-rerio_ENSDART00000016960.8_prkg1a-protein-kinase-cGMP-     1.0
+Danio-rerio_ENSDART00000043236.6_prkg1b-protein-kinase-cGMP-     1.0
+Tetraodon-nigroviridis_ENSTNIT00000017264.1_prkacab-protein-     0.993
+Tetraodon-nigroviridis_ENSTNIT00000013543.1_prkacaa-protein-     1.0
+Tetraodon-nigroviridis_ENSTNIT00000015340.1_PRKACB-protein-k     1.0
+Tetraodon-nigroviridis_ENSTNIT00000011540.1_prkacbb-protein-     1.0
+Tetraodon-nigroviridis_ENSTNIT00000017733.1_prkx-protein-kin     0.966
+Tetraodon-nigroviridis_ENSTNIT00000006813.1_prkg2l-protein-k     0.929
+Tetraodon-nigroviridis_ENSTNIT00000019699.1_sidkey-121j17.5-     0.993
+Tetraodon-nigroviridis_ENSTNIT00000016808.1_NONE                 1.0
+Tetraodon-nigroviridis_ENSTNIT00000006319.1_NONE                 1.0
+Tetraodon-nigroviridis_ENSTNIT00000011642.1_prkg1a-protein-k     1.0
+Gasterosteus-aculeatus_ENSGACT00000023625.1_PRKACB-protein-k     1.0
+Gasterosteus-aculeatus_ENSGACT00000013847.1_prkacaa-protein-     1.0
+Gasterosteus-aculeatus_ENSGACT00000012717.1_PRKACB-protein-k     1.0
+Gasterosteus-aculeatus_ENSGACT00000020097.1_prkx-protein-kin     0.963
+Gasterosteus-aculeatus_ENSGACT00000014412.1_NONE                 0.919
+Gasterosteus-aculeatus_ENSGACT00000013515.1_sidkey-121j17.5-     0.993
+Gasterosteus-aculeatus_ENSGACT00000002409.1_prkg2-protein-ki     1.0
+Gasterosteus-aculeatus_ENSGACT00000020516.1_NONE                 0.865
+Gasterosteus-aculeatus_ENSGACT00000013565.1_prkg1b-protein-k     1.0
+Gasterosteus-aculeatus_ENSGACT00000012119.1_prkg1a-protein-k     1.0
+Oryzias-latipes_ENSORLT00000008833.1_prkacaa-protein-kinase-     1.0
+Oryzias-latipes_ENSORLT00000007944.1_PRKACB-protein-kinase-c     1.0
+Oryzias-latipes_ENSORLT00000021648.1_PRKACB-protein-kinase-c     1.0
+Oryzias-latipes_ENSORLT00000025579.1_prkx-protein-kinase-X-l     1.0
+Oryzias-latipes_ENSORLT00000021689.1_sidkey-121j17.5-sidkey-     0.997
+Oryzias-latipes_ENSORLT00000022255.1_prkg2-protein-kinase-cG     1.0
+Oryzias-latipes_ENSORLT00000013874.1_NONE                        0.939
+Oryzias-latipes_ENSORLT00000001302.1_prkg2l-protein-kinase-c     1.0
+Oryzias-latipes_ENSORLT00000000450.1_NONE                        1.0
+Oryzias-latipes_ENSORLT00000007953.1_prkg1-Oryzias-latipes-p     1.0
+
+
+################ Settings ################
+
+>NumberAssigned_querySequence
+Oryzias-latipes_ENSORLT00000007953.1_prkg1-Oryzias-latipes-p
+MGTLRDLQYALQEKIEELRQRDALIDELELELDQKDELIQRLQNELDKYRSVIKPATQQVHKQNELHEQQRTKRQAISAEPTAFDIQDLSHVTLPFYPKSPQSKDLIKEAILDNDFMKNLELSQIQEIVDCMYPVEYGKDSCIIKEGDVGSLVYVMEDGKVEVTKENLKLCTMGPGKVFGELAILYNCTRTATVKTLTNVKLWAIDRQCFQTIMMRTGLIKHTEYMDFLKSVPTFHDLQEDILSKLADVLEETHYAGGEYIIRQGARGDTFFIISKGKVNVTREDLPNGEPVYLRSLGKGDWFGEKALQGEDIRTASVIAAEAVTCLVIDRDSFKHLIGGLEDVSSKGHDDADAKAKYEAENAFFFSLNLADFNIIDTLGVGGFGRVELVQLKSDENKTFAMKILKKRHIVDTRQQEHIRSEKLIMQEAHSDFIVRLYRTFKDSKYLYMLMEACLGGELWTILRDRGSFEDSTTRFYTACVVEAFAYLHSKGIIYRDLKPENLILDHRGYAKLVDFGFAKKIGFGKKTWTFCGTPEYVAPEIILNKGHDISADYWSLGILMFELLTGSPPFSGPDPMKTYNIILRGIDMIEFPKKITKNAGNLIKKLCRDNPCERLGNLKNGVKDIQKHKWFEGFNWEGLKKGTLTPPIIPNVTSPVDTSNFDSFPEDNEDPPPDDNSGWDVDF
+
+>SpeciesTree
+(Drosophila-melanogaster,(Ciona-intestinalis,((Xenopus-tropicalis,(Gallus-gallus,Homo-sapiens)Amniota)Tetrapoda,(Danio-rerio,(Oryzias-latipes,(Tetraodon-nigroviridis,Gasterosteus-aculeatus)Eupercaria)Percomorpha)Teleostei)BonyVertebrates)Deuterostomia)Bilateria;
+
+>SubstitutionModel
+F84 (Tamura and Nei 1993) + gamma
+
+>ShortSequence_threshold
+0.45
+
+>Dataset
+Exclude3rd
+
+>Rearrangement_BS_value_threshold
+70
+
+>TaxonSampling_color
+Drosophila-melanogaster_Black
+Ciona-intestinalis_Black
+Xenopus-tropicalis_Magenta
+Gallus-gallus_Magenta
+Homo-sapiens_Magenta
+Danio-rerio_Purple
+Tetraodon-nigroviridis_Green
+Gasterosteus-aculeatus_Red
+Oryzias-latipes_Blue
+
+################ Results: 2nd analysis ################
+
+>TreeSearchMethod
+NJ
+
+>2nd_rearranged_gene_tree_newick
+((((Homo-sapiens_ENST00000373980.11_PRKG1-protein-kinase-c,Gallus-gallus_ENSGALT00000074115.2_protein-kinase-cGMP-)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000064661.1_PRKG1-protein-kinase)r_S=Tetrapoda_D=N,((((Gasterosteus-aculeatus_ENSGACT00000012119.1_prkg1a-protein-k,Tetraodon-nigroviridis_ENSTNIT00000011642.1_prkg1a-protein-k)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000007953.1_prkg1-Oryzias-latipes-p)100_S=Percomorpha_D=N,Danio-rerio_ENSDART00000043236.6_prkg1b-protein-kinase-cGMP-)100_S=Teleostei_D=N,Danio-rerio_ENSDART00000016960.8_prkg1a-protein-kinase-cGMP-)r_S=Teleostei_D=Y)100_S=BonyVertebrates_D=N,Gasterosteus-aculeatus_ENSGACT00000013565.1_prkg1b-protein-k)100_S=BonyVertebrates_D=Y;
+
+>2nd_rearranged_gene_tree_NHX
+((((Homo-sapiens_ENST00000373980.11_PRKG1-protein-kinase-c:0.01269602415[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000074115.2_protein-kinase-cGMP-:0.006331709256[&&NHX:S=Gallus-gallus])r20[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000064661.1_PRKG1-protein-kinase:0.1055851374[&&NHX:S=Xenopus-tropicalis])r19[&&NHX:S=Tetrapoda:D=N],((((Gasterosteus-aculeatus_ENSGACT00000012119.1_prkg1a-protein-k:0.008214520369[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000011642.1_prkg1a-protein-k:0.007185951068[&&NHX:S=Tetraodon-nigroviridis])r25[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000007953.1_prkg1-Oryzias-latipes-p:0.01190892723[&&NHX:S=Oryzias-latipes])n4:0.01617215981[&&NHX:S=Percomorpha:D=N:B=100.0],Danio-rerio_ENSDART00000043236.6_prkg1b-protein-kinase-cGMP-:0.0267391895[&&NHX:S=Danio-rerio])n6:0.01406419838[&&NHX:S=Teleostei:D=N:B=100.0],Danio-rerio_ENSDART00000016960.8_prkg1a-protein-kinase-cGMP-:0.05650708331[&&NHX:S=Danio-rerio])r21[&&NHX:S=Teleostei:D=Y])n14:0.0[&&NHX:S=BonyVertebrates:D=N:B=100.0],Gasterosteus-aculeatus_ENSGACT00000013565.1_prkg1b-protein-k:0.05142235788[&&NHX:S=Gasterosteus-aculeatus])n16[&&NHX:S=BonyVertebrates:D=Y:B=100.0];
+
+>2nd_gene_tree_newick
+((((((Gasterosteus-aculeatus_ENSGACT00000012119.1_prkg1a-protein-k:0.008214520369,Oryzias-latipes_ENSORLT00000007953.1_prkg1-Oryzias-latipes-p:0.01190892723)63:0.00216387937,Tetraodon-nigroviridis_ENSTNIT00000011642.1_prkg1a-protein-k:0.007185951068)100:0.01617215981,Danio-rerio_ENSDART00000043236.6_prkg1b-protein-kinase-cGMP-:0.0267391895)100:0.01406419838,((Gallus-gallus_ENSGALT00000074115.2_protein-kinase-cGMP-:0.006331709256,Homo-sapiens_ENST00000373980.11_PRKG1-protein-kinase-c:0.01269602415)51:0.004036655828,Xenopus-tropicalis_ENSXETT00000064661.1_PRKG1-protein-kinase:0.1055851374)56:0.009798784142)54:0.01443552669,Danio-rerio_ENSDART00000016960.8_prkg1a-protein-kinase-cGMP-:0.05650708331)100:0,Gasterosteus-aculeatus_ENSGACT00000013565.1_prkg1b-protein-k:0.05142235788)100;
+
+>MonophyleticGeneGroups
+BonyVertebrates                 100  D=N
+Teleostei                       r  D=Y
+Percomorpha                     100  D=N
+Oryzias-latipes                 leaf  leaf
+
+>SisterGeneGroups
+BonyVertebrates                 NONE   NoGeneNode
+Teleostei                       100   Tetrapoda
+Percomorpha                     100   Danio-rerio
+Oryzias-latipes                 100   Eupercaria
+
+>Number_of_duplicatedNode
+BonyVertebrates                 0
+Teleostei                       0
+Percomorpha                     0
+Oryzias-latipes                 0
+
+>AnalysisTime
+15.6 seconds
