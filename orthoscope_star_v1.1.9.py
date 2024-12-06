@@ -3233,7 +3233,7 @@ print("\n\n##### 1st tree: 2nd round MAFFT/trimal ######\n\n")
 res_compare_numSeqs = compare_numSeqs("040_mafOutAA.txt", "044_overRateAA.fas")
 #print("res_compare_numSeqs", res_compare_numSeqs)
 if res_compare_numSeqs == "Equal":
-    print("\n\n##### 2nd-round MAFFT/trimal skip and just copy files ######\n\n")
+    print("\n\n##### Skip 2nd-round MAFFT/trimal and just copy maft/trimal out files ######\n\n")
     shutil.copy(eachDirAddress + '040_mafOutAA.txt', eachDirAddress + '050_mafOutAA.txt')
     shutil.copy(eachDirAddress + '042_AA.fas.trm', eachDirAddress + '052_AA.fas.trm')
     shutil.copy(eachDirAddress + '042_AA.fas.trm.html', eachDirAddress + '052_AA.fas.trm.html')
