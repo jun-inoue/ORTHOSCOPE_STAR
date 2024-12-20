@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "Tetraodon-nigroviridis-SHN.pep.txt",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "database119/Tetraodon-nigroviridis-SHN.pep.txt",
+  "number-of-letters": 277070,
+  "number-of-sequences": 393,
+  "last-updated": "2024-12-05T12:35:00",
+  "number-of-volumes": 1,
+  "bytes-total": 450028,
+  "bytes-to-cache": 280768,
+  "files": [
+    "Tetraodon-nigroviridis-SHN.pep.txt.pdb",
+    "Tetraodon-nigroviridis-SHN.pep.txt.phr",
+    "Tetraodon-nigroviridis-SHN.pep.txt.pin",
+    "Tetraodon-nigroviridis-SHN.pep.txt.pot",
+    "Tetraodon-nigroviridis-SHN.pep.txt.psq",
+    "Tetraodon-nigroviridis-SHN.pep.txt.ptf",
+    "Tetraodon-nigroviridis-SHN.pep.txt.pto"
+  ]
+}

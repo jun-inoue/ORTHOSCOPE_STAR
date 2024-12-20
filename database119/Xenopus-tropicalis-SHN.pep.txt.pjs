@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "Xenopus-tropicalis-SHN.pep.txt",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "database119/Xenopus-tropicalis-SHN.pep.txt",
+  "number-of-letters": 236138,
+  "number-of-sequences": 343,
+  "last-updated": "2024-12-05T12:35:00",
+  "number-of-volumes": 1,
+  "bytes-total": 393836,
+  "bytes-to-cache": 239378,
+  "files": [
+    "Xenopus-tropicalis-SHN.pep.txt.pdb",
+    "Xenopus-tropicalis-SHN.pep.txt.phr",
+    "Xenopus-tropicalis-SHN.pep.txt.pin",
+    "Xenopus-tropicalis-SHN.pep.txt.pot",
+    "Xenopus-tropicalis-SHN.pep.txt.psq",
+    "Xenopus-tropicalis-SHN.pep.txt.ptf",
+    "Xenopus-tropicalis-SHN.pep.txt.pto"
+  ]
+}

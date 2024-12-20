@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "Homo-sapiens-SHN.pep.txt",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "database119/Homo-sapiens-SHN.pep.txt",
+  "number-of-letters": 266422,
+  "number-of-sequences": 350,
+  "last-updated": "2024-12-05T12:35:00",
+  "number-of-volumes": 1,
+  "bytes-total": 452574,
+  "bytes-to-cache": 269709,
+  "files": [
+    "Homo-sapiens-SHN.pep.txt.pdb",
+    "Homo-sapiens-SHN.pep.txt.phr",
+    "Homo-sapiens-SHN.pep.txt.pin",
+    "Homo-sapiens-SHN.pep.txt.pot",
+    "Homo-sapiens-SHN.pep.txt.psq",
+    "Homo-sapiens-SHN.pep.txt.ptf",
+    "Homo-sapiens-SHN.pep.txt.pto"
+  ]
+}

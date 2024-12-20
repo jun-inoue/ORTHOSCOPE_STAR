@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "Ciona-intestinalis-SHN.pep.txt",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "database119/Ciona-intestinalis-SHN.pep.txt",
+  "number-of-letters": 141985,
+  "number-of-sequences": 277,
+  "last-updated": "2024-12-05T12:34:00",
+  "number-of-volumes": 1,
+  "bytes-total": 265337,
+  "bytes-to-cache": 144631,
+  "files": [
+    "Ciona-intestinalis-SHN.pep.txt.pdb",
+    "Ciona-intestinalis-SHN.pep.txt.phr",
+    "Ciona-intestinalis-SHN.pep.txt.pin",
+    "Ciona-intestinalis-SHN.pep.txt.pot",
+    "Ciona-intestinalis-SHN.pep.txt.psq",
+    "Ciona-intestinalis-SHN.pep.txt.ptf",
+    "Ciona-intestinalis-SHN.pep.txt.pto"
+  ]
+}
