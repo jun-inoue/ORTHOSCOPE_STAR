@@ -32,7 +32,7 @@ BonyVertebrates
 Homo-sapiens
 
 >Outdir
-outdir119
+outdir
 
 >Alignment_orthogroups
 alignment_orthogroups
@@ -64,7 +64,7 @@ alignment_orthogroups
 Exclude3rd
 
 >Database
-database119
+database
 
 # D: Delete these files
 # L: Leave intermediate process

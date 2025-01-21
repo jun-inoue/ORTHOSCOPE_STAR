@@ -21,6 +21,8 @@ outfile.nwk     <- args[8]
 
 #outfile.nwk <- paste(outfile, '.nwk', sep = '')
 
+set.seed(123)
+
 ## Open the 'infile' file
 if(file.access(infile) != 0){
   print (paste(infile,' does not exist.'))
