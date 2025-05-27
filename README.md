@@ -1,7 +1,5 @@
 # ORTHOSCOPE_STAR    
 
-13 MB
-
 ORTHOSCOPE* (star) is an analysis pipelie to infer evolutionary history of a gene. By estimating orthogroups and gene trees for a complete set of protein coding genes, ORTHOSCOPE* evaluates: 
 
 - gene duplication events on the species tree,
