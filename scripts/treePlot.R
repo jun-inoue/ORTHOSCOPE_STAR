@@ -12,8 +12,6 @@ outfileName                 <- args[10]      # 115_1st
 #print(outfileName)
 #q()
 
-
-
 #print("groupName_for_highlight")
 #print(groupName_for_highlight)
 
@@ -394,9 +392,9 @@ PDF_treeDrawing <- function (tr, prefix)
   pdf(pdf.file, width = pdfWidth, height = pdfHeight)
   plot      (tr, no.margin=TRUE, underscore = TRUE, use.edge.length=TRUE, cex = 0.9, font = tipFontNums, tip.col = tipColorNums, edge.width = edgeWidths_for_eachBranch)
   nodelabels(tr$node.label, adj = c(-0.05,0.5), frame = "n", col = nodeLabelFontColorNums)
-  if(!is.null(Num_allQueries)){
-    tiplabels (tr$tip.label[Num_allQueries], Num_allQueries, cex=1.0, adj = 0, bg = "gray40", col="white")
-  }
+  #if(!is.null(Num_allQueries)){
+  #  tiplabels (tr$tip.label[Num_allQueries], Num_allQueries, cex=1.0, adj = 0, bg = "gray40", col="white")
+  #}
   if(!is.null(Num_1stQuery)){
     tiplabels (tr$tip.label[Num_1stQuery],   Num_1stQuery, cex=1.0,   adj = 0, bg = "navyblue", col="white")
   }

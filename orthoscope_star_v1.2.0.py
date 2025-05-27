@@ -405,6 +405,8 @@ resHTMLlines_incomplete = '''
 
 def check_toolsDirectory():
     dependencies = os.listdir(path='tools')
+    #print("dependencies", dependencies)
+    #exit()
     if mode == "E":
         if not "blastp" in dependencies:
             print("Error: Cannot find blastp in your tools directory.")
@@ -418,10 +420,16 @@ def check_toolsDirectory():
             print("Error: Cannot find mafft in your tools directory.")
             print("See the tutorial from https://github.com/jun-inoue/ORTHOSCOPE_STAR")
             exit()
-        if not "trimal" in dependencies:
+        if "trimal" not in dependencies:
             print("Error: Cannot find trimal in your tools directory.")
             print("See the tutorial from https://github.com/jun-inoue/ORTHOSCOPE_STAR")
             exit()
+        if dataset == "AminoAcid":
+            if not "fastme" in dependencies:
+                print("Error: Cannot find fastme in your tools directory.")
+                print(f"Dataset {dataset} selected in the control.txt file.")
+                print("See the tutorial from https://github.com/jun-inoue/ORTHOSCOPE_STAR")
+                sys.exit()
         if not "pal2nal.pl" in dependencies:
             print("Error: Cannot find pal2nal.pl in your tools directory.")
             print("See the tutorial from https://github.com/jun-inoue/ORTHOSCOPE_STAR")
@@ -1041,6 +1049,7 @@ def collect_nodes_from_speciesTree():
 
 
 def collect_nodes_from_NHX(treeFN):
+    #print("### collect_nodes_from_NHX() ###")
     clades = []     # 2D array for clades
     expReg = r"\[.*?\]"
     cladeReg = r"\(([^\(\)]+)\)(.*?\[.*?\])"
@@ -1050,12 +1059,16 @@ def collect_nodes_from_NHX(treeFN):
         leavesString = match.group(1)
         exp = match.group(2)
         leavesString = re.sub(r"\[.*?\]", "", leavesString)   # Delete exp [...] of internal branches
-        leavesString = re.sub(r":\d+\.\d+E-\d*", "", leavesString)   # Delete blanch lengths with E-
-        leavesString = re.sub(r":\d+\.\d+", "", leavesString)       # Delete blanch lengths of internal branches
-        #leaves = set(leavesString.split(","))
+        leavesString = re.sub(r":\d+\.\d+E-\d*", "", leavesString)   # Delete blanch lengths including E-
+        leavesString = re.sub(r":\d+\.\d+", "", leavesString)       # Delete blanch lengths:  :0.013547
+        leavesString = re.sub(r":-\d+\.\d+", "", leavesString) # Delete blanch lengths::-0.0
+        #print("leavesString", leavesString)
         leaves = leavesString.split(",")
         treeFN = re.sub(cladeReg, r"\1", treeFN, 1)                # Delete the outer parentheses from the analyzed clade
+        #print("leaves", leaves)
         clades.append([len(leaves), leaves, exp])
+    #print("### Exit point 1068 ###")
+    #exit()
 
     sortedClades = sorted(clades, key=lambda x:x[0], reverse=True)
 
@@ -1073,7 +1086,8 @@ def collect_nodes_from_NHX(treeFN):
 
 
 def identify_orthogroup(treeNHX):
-    #print("### identify_orthogroup ###")
+    print("### identify_orthogroup() ###")
+    #print("keyNode", keyNode)
     #print("treeNHX", treeNHX)
     #f = open(eachDirAddress + "000_speciesTree.txt")
     #speciesTree = "".join(list(f))
@@ -1101,16 +1115,19 @@ def identify_orthogroup(treeNHX):
         criterion = 0
         for leaf in node[1]:
             #print("leaf", leaf)
+            #print("nameLine_cds_blastTopHit[1:]", nameLine_cds_blastTopHit[1:])
             if leaf == nameLine_cds_blastTopHit[1:]:
             #if re.search(nameLine_cds_blastTopHit[1:], leaf):
                 criterion += 1
-
-
+        #print("node[2]", node[2])
         if re.search(r"S=" + keyNode, node[2]):
+            #print(" keyNode found")
             criterion += 1
 
         if criterion == 2:
            candidates_orthogroup.append(node)
+           
+        #print("   return")
 
     #print("")
 
@@ -1131,6 +1148,8 @@ def identify_orthogroup(treeNHX):
         orthogroupSR = candidates_orthogroup.pop()
         #print("orthogroupSR", orthogroupSR)
 
+    #print("orthogroupSR", orthogroupSR)
+    #exit()
     return orthogroupSR
 
 
@@ -2145,6 +2164,7 @@ def compare_query2other_aliSiteRate_nogap(querySeq, otherSeq):
 
 def calculate_nonGapSiteRate(trimledAAfile):
     #print("#### calculate_nonGapSiteRate ####")
+    ## trimledAAfile 042_AA.fas.trm
     recs_nonGapSiteRateFN = OrderedDict()
     recAA = readFasta_dict(eachDirAddress, trimledAAfile)
     #print("trimledAAfile", trimledAAfile)
@@ -2282,7 +2302,7 @@ def delete_sequences_with_alignedSiteRate(outFile_AA, outFile_DNA, outFile_siteR
             file_overRateDNA.write(dic_DNA[name_siterate] + "\n")
 
         file_unambSiteRatefile.write(name_siterate + "\n" + str(rate_siterate) + "\n")
-        print("")
+        #print("")
 
     file_overRateAA.close()
     file_overRateDNA.close()
@@ -2313,7 +2333,7 @@ def compare_numSeqs(file_mafOutAA, file_overRateAA):
 ###############################################################
 ### alignmentFile_PhyAnal Start
 def orderedDict2FasFile(recs, outfile):
-    out           = open(eachDirAddress + outfile, "w")
+    out = open(eachDirAddress + outfile, "w")
     for name,value in recs.items():
         out.write(name + "\n")
         out.write(value + "\n")
@@ -2439,7 +2459,7 @@ def reorderSeqByTree(recsFN, treeFileName):
 
 
 def delete_nameSpaceSeqBp(recsFN):
-    recsFN2        = OrderedDict()
+    recsFN2 = OrderedDict()
     for name, seq in recsFN.items():
         if re.search(r" \d+ bp$", name):
             name = re.sub(r" \d+ bp$", "", name)
@@ -2502,6 +2522,9 @@ def fas2phy(fastaFileName, outPhyFileName):
     recs = delete_nameSpaceSeqBp(recs)
     orderedDict2phyFile(recs, outfile = outPhyFileName)
 
+def phy2fas(infile_phy, outfile_fas):
+    recs = readPhy_dict(infile_phy)  # PHYLIPファイルを読み込む
+    orderedDict2FasFile(recs, outfile_fas)
 
 def reorderFas2PhyByTree(fastaFileName, tree4leafOrder, outPhyFileName):
     recs = readFasta_dict(eachDirAddress,fastaFileName) 
@@ -3006,15 +3029,26 @@ def make_indexLine(first_line):
     return indexLine_FN
 
 def copy_alignment_orthogroup():
-    if os.path.exists(eachDirAddress + "180_aln_nucl_fas.txt"):
-        #print("Present")
-        recsTMP = readFasta_dict(eachDirAddress, "180_aln_nucl_fas.txt")
-        #print("queryID", queryID)
-        out = open(alignment_orthogroups + "/" + queryID + ".txt", "w")
-        for nameLine, seq in recsTMP.items():
-            out.write(nameLine + "\n")
-            out.write(seq + "\n")
-        out.close()
+    if dataset == "Exclude3rd" or dataset == "Include3rd":
+        if os.path.exists(eachDirAddress + "180_aln_nucl_fas.txt"):
+            #print("Present")
+            recsTMP = readFasta_dict(eachDirAddress, "180_aln_nucl_fas.txt")
+            #print("queryID", queryID)
+            out = open(alignment_orthogroups + "/" + queryID + ".txt", "w")
+            for nameLine, seq in recsTMP.items():
+                out.write(nameLine + "\n")
+                out.write(seq + "\n")
+            out.close()
+    else:
+        if os.path.exists(eachDirAddress + "190_aln_prot_fas.txt"):
+            #print("Present")
+            recsTMP = readFasta_dict(eachDirAddress, "190_aln_prot_fas.txt")
+            #print("queryID", queryID)
+            out = open(alignment_orthogroups + "/" + queryID + ".txt", "w")
+            for nameLine, seq in recsTMP.items():
+                out.write(nameLine + "\n")
+                out.write(seq + "\n")
+            out.close()
 
 
 
@@ -3177,6 +3211,7 @@ checkUplodedFileAsFastaForamt()
 '''
 '''
 
+
 aaSeqMaker()
 
 print("\n\n##### 1st tree: BLAST ######\n\n")
@@ -3233,7 +3268,7 @@ print("\n\n##### 1st tree: 2nd round MAFFT/trimal ######\n\n")
 res_compare_numSeqs = compare_numSeqs("040_mafOutAA.txt", "044_overRateAA.fas")
 #print("res_compare_numSeqs", res_compare_numSeqs)
 if res_compare_numSeqs == "Equal":
-    print("\n\n##### Skip 2nd-round MAFFT/trimal and just copy maft/trimal out files ######\n\n")
+    print("\n\n##### 2nd-round MAFFT/trimal skip and just copy files ######\n\n")
     shutil.copy(eachDirAddress + '040_mafOutAA.txt', eachDirAddress + '050_mafOutAA.txt')
     shutil.copy(eachDirAddress + '042_AA.fas.trm', eachDirAddress + '052_AA.fas.trm')
     shutil.copy(eachDirAddress + '042_AA.fas.trm.html', eachDirAddress + '052_AA.fas.trm.html')
@@ -3269,30 +3304,32 @@ if not NJtreeFileCont:
 
 #trimaledv12_FileMakerDNA("054_p2nOutcDNAfas.txt", "052_AA.fas.trm.html", outfile="080_trimedCDNAPhy.txt")
 trimaledv141_FileMakerDNA("054_p2nOutcDNAfas.txt", "052_AA.fas.trm.html", outfile="080_trimedCDNAPhy.txt")
-#exit()
 
 fas2phy(fastaFileName="052_AA.fas.trm", outPhyFileName="080_trimedAAPhy.txt")
 
-print("\n\n##### 1st tree: APE (tree search) ######\n\n")
+print("\n\n##### 1st tree: (tree search) ######")
 ### NJ
 outgroup1 = outGroupSelect("080_trimedAAPhy.txt")
 if dataset == "Exclude3rd":
+    print("##### APE\n\n")
     print("The 1st gene tree is estimated by excluding 3rd codon positions.")
-    #NJBSline1 = "tools/fastme -i " + eachDirAddress + "082_trimedBlockExc3rdFastmePhy.txt -d F84 -m BioNJ -b 100 -v 3 -o " + eachDirAddress + "085_NJBS1st.txt > " + eachDirAddress + "085_fastmelog.txt"
     phyCodonToBlock("080_trimedCDNAPhy.txt", 2, outfile="082_trimedBlockExc3rdPhy.txt")
     NJBSline1 = "tools/Rscript scripts/NJBS.R " + eachDirAddress + "082_trimedBlockExc3rdPhy.txt " + outgroup1 + " " + eachDirAddress + "085_NJBS1st.txt > " + eachDirAddress + "085_log.txt"
 elif dataset == "Include3rd":
-    #NJBSline1 = "scripts/fastme -i " + eachDirAddress + "082_trimedBlockInc3rdFastmePhy.txt -d F84 -m BioNJ -b 100 -v 3 -o " + eachDirAddress + "085_NJBS1st.txt > " + eachDirAddress + "085_fastmelog.txt"
+    print("##### APE\n\n")
     print("The 1st gene tree is estimated by including 3rd codon positions.")
     phyCodonToBlock("080_trimedCDNAPhy.txt", 3, outfile="082_trimedBlockInc3rdPhy.txt")
     NJBSline1 = "tools/Rscript scripts/NJBS.R " + eachDirAddress + "082_trimedBlockInc3rdPhy.txt " + outgroup1 + " " + eachDirAddress + "085_NJBS1st.txt > " + eachDirAddress + "085_log.txt"
 else:
+    print("##### fastme\n\n")
     print("The 1st gene tree is estimated using amino acid sequences.")
     phy2fastmePhy(phyFileName="080_trimedAAPhy.txt", outFastmePhyFileName="082_trimedAAFastmePhy.txt")
     NJBSline1 = "tools/fastme -i " + eachDirAddress + "082_trimedAAFastmePhy.txt --protein=WAG -m NJ -b 100 -v 3 -o " + eachDirAddress + "085_NJBS1st.txt > " + eachDirAddress + "085_fastmelog.txt"
+
 #print("NJBSline1: ", NJBSline1)
-subprocess.call(NJBSline1, shell=True)
 #exit()
+subprocess.call(NJBSline1, shell=True)
+
 
 if not os.path.isfile(eachDirAddress + "085_NJBS1st.txt"):
     result = "No 1st tree. "
@@ -3316,6 +3353,8 @@ if not NJtreeFileCont:
         deleteFiles()
     exit()
 
+
+
 print("\n\n##### 1st tree: NOTUNG ######\n\n")
 NOTUNG1stLine = "java -jar tools/Notung.jar -s " + eachDirAddress + "000_speciesTree.txt -g " + eachDirAddress + "085_NJBS1st.txt --outputdir " + eachDirAddress + " --rearrange --threshold " + str(BSthreshold) + " --speciestag prefix  --maxtrees 5 --nolosses --treeoutput nhx > " + eachDirAddress + "085_NOTUNGlog.txt"
 #print("NOTUNG1stLine:", NOTUNG1stLine)
@@ -3325,7 +3364,6 @@ if not os.path.isfile(eachDirAddress + "085_NJBS1st.txt.rearrange.0"):
     print ("Error in NOTUNG: Cannot compare the NJ and species tree.")
     print ("Check your species tree.")
     exit()
-
 
 
 print("\n\n##### 1st tree: Making summary ######\n\n")
@@ -3340,7 +3378,8 @@ if Switch_deleteIntermediateFiles == "L":
     subprocess.call(treePlotR_1st, shell=True)
 #### 1st tree search/rearrangemnet Finished
 ########################################################
-
+#print("### Exit point 3380 ###")
+#exit()
 
 ########################################################
 #### 2nd tree search/rearrangemnet Start
@@ -3373,12 +3412,15 @@ if len(resDict_1st[">Orthogroup"]) < 4:
     if Switch_deleteIntermediateFiles == "D":
         deleteFiles()
     exit()
-    
+
 
 rootLeaves = selectRootSp4secondTreeSearch()
+
 make_2ndanalysis_seqFile(rootLeaves, outfile="150_noGapCDNAfas.txt")
 
 cDNAfas2noGapAAFasFile("150_noGapCDNAfas.txt", outfile="150_noGapAA.txt")
+
+
 
 print("\n\n##### 2nd tree: MAFFT ######\n\n")
 maffLine2 = "mafft " + eachDirAddress + "/150_noGapAA.txt > " + eachDirAddress + "160_mafOut.txt"
@@ -3390,21 +3432,21 @@ trimLine2 = "tools/trimal -out " + eachDirAddress + "/170_trimedAAOutFas.txt -ht
 ###print("trimLine2:", trimLine2, "\n");
 subprocess.call(trimLine2, shell=True)
 
+fas2phy(fastaFileName = "160_mafOut.txt", outPhyFileName = "190_aln_prot.txt")
+fas2phy("170_trimedAAOutFas.txt", "200_trimedAAPhy.txt")
+
+
 print("\n\n##### 2nd tree: PAL2NAL ######\n\n")
 pal2nalLine = "tools/pal2nal.pl " + eachDirAddress + "160_mafOut.txt " + eachDirAddress + "150_noGapCDNAfas.txt -output fasta > " + eachDirAddress + "180_aln_nucl_fas.txt"
 #print (pal2nalLine)
 subprocess.call(pal2nalLine, shell=True)
-
-fas2phy(fastaFileName = "160_mafOut.txt", outPhyFileName = "190_aln_prot.txt")
 fas2phy(fastaFileName = "180_aln_nucl_fas.txt", outPhyFileName = "190_aln_nucl.txt")
 
 #trimaledv12_FileMakerDNA("180_aln_nucl_fas.txt", "170_aln_prot.html", outfile = "200_trimedCDNAPhy.txt")
 trimaledv141_FileMakerDNA("180_aln_nucl_fas.txt", "170_aln_prot.html", outfile = "200_trimedCDNAPhy.txt")
-fas2phy("170_trimedAAOutFas.txt", "200_trimedAAPhy.txt")
 
 phyCodonToBlock("200_trimedCDNAPhy.txt", 2, outfile="210_trimedBlockExc3rdPhy.txt")
 phyCodonToBlock("200_trimedCDNAPhy.txt", 3, outfile="210_trimedBlockInc3rdPhy.txt")
-
 
 
 #### 2nd tree search Start ####
@@ -3413,6 +3455,8 @@ outputRAxML = ""
 #outGroup = outGroupSelect("210_trimedBlockExc3rdPhy.txt")
 resDict_OG = readRes_dict(eachDirAddress + "100_analysisSummary.txt")
 outGroup = resDict_OG[">Rooting"][0]
+print("treeSearchMethod", treeSearchMethod)
+#exit()
 if treeSearchMethod == "ML":
     make_raxmlPartitionFile(outPartFile="220_raxmlPart.txt")
     raxmlLine = "scripts/raxmlHPC-PTHREADS-SSE3 -f a -x 12345 -p 12345 -# 100 -m GTRCAT -s " + eachDirAddress + "210_trimedBlockExc3rdPhy.txt -w " + eachDirAddress + " -q " + eachDirAddress + "220_raxmlPart.txt -o " + outGroup + " -n txt -T 2"
@@ -3429,10 +3473,13 @@ else:
         NJBSline2 = "tools/Rscript scripts/NJBS.R " + eachDirAddress + "210_trimedBlockInc3rdPhy.txt " + outGroup + " " + eachDirAddress + "230_2ndtree.txt > " + eachDirAddress + "230_log.txt"
     else:
         print("The 2nd gene tree is estimated using amino acid sequences. Stopped.")
-        NJBSline2 = "tools/fastme -i " + eachDirAddress + "200_trimedAAPhy.txt --protein=WAG -m NJ -b 100 -v 3 -o " + eachDirAddress + "230_2ndtree.txt > " + eachDirAddress + "230_log.txt"
-    #print("NJBSline2: ", NJBSline1)
+        phy2fastmePhy(phyFileName="200_trimedAAPhy.txt", outFastmePhyFileName="202_trimedAAFastmePhy.txt")
+        NJBSline2 = "tools/fastme -i " + eachDirAddress + "202_trimedAAFastmePhy.txt --protein=WAG -m NJ -b 100 -v 3 -o " + eachDirAddress + "230_2ndtree.txt > " + eachDirAddress + "230_log.txt"
+    #print("NJBSline2: ", NJBSline2)
     subprocess.call(NJBSline2, shell=True)
 
+#print("### Exit point 3452 ###")
+#exit()
 
 if not os.path.isfile(eachDirAddress + "230_2ndtree.txt"):
     print ("Error: Cannot estimate 2nd tree.<br>")
@@ -3475,6 +3522,7 @@ if Switch_deleteIntermediateFiles == "L":
     subprocess.call(treePlotR, shell=True)
     make_resHtml2(resHTMLlines_2steps)
 
+phy2fas(infile_phy = "190_aln_prot.txt", outfile_fas = "190_aln_prot_fas.txt")
 copy_alignment_orthogroup()
 
 if Switch_deleteIntermediateFiles == "D":

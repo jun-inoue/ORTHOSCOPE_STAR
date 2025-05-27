@@ -2,11 +2,10 @@
 # S: Summarize results.
 # D: Draw phylogenetic trees.
 >Mode
-S
-
+E
 
 # Each line shows species names followed by an underscore and then database file names of amino acid and nucleotide
-# SpaciesName_color             Amino acide database     Nucleotide database
+# SpaciesName_color           Amino acide database                Nucleotide database
 >TaxonSampling
 Drosophila-melanogaster_Black Drosophila-melanogaster-SHN.pep.txt Drosophila-melanogaster-SHN.cds.txt   
 Ciona-intestinalis_Black      Ciona-intestinalis-SHN.pep.txt      Ciona-intestinalis-SHN.cds.txt       
@@ -28,17 +27,23 @@ Oryzias-latipes
 >KeyNode
 BonyVertebrates
 
+>Outdir
+outdir_DNA
+#outdir_AA
+
+# Exclude3rd, Include3rd, or AminoAcid
+>Dataset
+Exclude3rd
+
 >SpeciesWithGeneFunction
 Homo-sapiens
 
->Outdir
-outdir
-
 >Alignment_orthogroups
-alignment_orthogroups
+alignment_orthogroups_v120
 
 >BSthreshold
 70
+
 
 
 #############################
@@ -59,12 +64,8 @@ alignment_orthogroups
 >ShortSequence_threshold
 0.45
 
-# Exclude3rd, Include3rd, or AminoAcid
->Dataset
-Exclude3rd
-
 >Database
-database
+database120
 
 # D: Delete these files
 # L: Leave intermediate process

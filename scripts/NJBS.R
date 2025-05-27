@@ -5,6 +5,8 @@ infile          <- args[6]
 outGroup        <- args[7]
 outfile.nwk     <- args[8]
 
+set.seed(123)
+
 #print ('  ## 085_NJBSa.R starts.')
 
 #print('infile')
@@ -20,8 +22,6 @@ outfile.nwk     <- args[8]
 #  print (paste('  infile', infile))
 
 #outfile.nwk <- paste(outfile, '.nwk', sep = '')
-
-set.seed(123)
 
 ## Open the 'infile' file
 if(file.access(infile) != 0){
