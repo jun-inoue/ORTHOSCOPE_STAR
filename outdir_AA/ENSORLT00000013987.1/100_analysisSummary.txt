@@ -1,0 +1,128 @@
+################ Results: 1st analysis ################
+
+>QuerySequence
+Oryzias-latipes_ENSORLT00000013987.1_clybl-citrate-lyase-bet  <= [Identities = 340/340 (100%)] : Oryzias-latipes_ENSORLT00000013987.1_clybl-citrate-lyase-bet
+
+>Number_of_blastHits
+Drosophila-melanogaster  0
+Ciona-intestinalis       1
+Xenopus-tropicalis       1
+Gallus-gallus            1
+Homo-sapiens             1
+Danio-rerio              1
+Tetraodon-nigroviridis   2
+Gasterosteus-aculeatus   1
+Oryzias-latipes          1
+
+>BS_of_orthogroupBasalNode
+r
+
+
+>Orthogroup
+Danio-rerio_ENSDART00000042259.7_clybl-citrate-lyase-beta-li
+Gallus-gallus_ENSGALT00000027264.6_CLYBL-citrate-lyase-
+Gasterosteus-aculeatus_ENSGACT00000002468.1_clybl-citrate-ly
+Homo-sapiens_ENST00000376355.7_CLYBL-citramalyl-CoA-ly
+Oryzias-latipes_ENSORLT00000013987.1_clybl-citrate-lyase-bet
+Xenopus-tropicalis_ENSXETT00000040951.3_clybl-citrate-lyase-
+
+>GeneNumber_of_orthogroup
+Xenopus-tropicalis      1
+Gallus-gallus           1
+Homo-sapiens            1
+Danio-rerio             1
+Oryzias-latipes         1
+Tetraodon-nigroviridis  0
+Gasterosteus-aculeatus  1
+
+>Rooting
+Ciona-intestinalis_ENSCINT00000022041.2_NONE
+
+
+>1st_rearranged_gene_tree_newick
+((((Homo-sapiens_ENST00000376355.7_CLYBL-citramalyl-CoA-ly,Gallus-gallus_ENSGALT00000027264.6_CLYBL-citrate-lyase-)94_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000040951.3_clybl-citrate-lyase-)r_S=Tetrapoda_D=N,((Oryzias-latipes_ENSORLT00000013987.1_clybl-citrate-lyase-bet,Gasterosteus-aculeatus_ENSGACT00000002468.1_clybl-citrate-ly)98_S=Percomorpha_D=N,Danio-rerio_ENSDART00000042259.7_clybl-citrate-lyase-beta-li)100_S=Teleostei_D=N)r_S=BonyVertebrates_D=N,Ciona-intestinalis_ENSCINT00000022041.2_NONE)r_S=Deuterostomia_D=N;
+
+>1st_rearranged_gene_tree_NHX
+((((Homo-sapiens_ENST00000376355.7_CLYBL-citramalyl-CoA-ly:0.123178[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000027264.6_CLYBL-citrate-lyase-:0.115247[&&NHX:S=Gallus-gallus])n2:0.051429[&&NHX:S=Amniota:D=N:B=94.0],Xenopus-tropicalis_ENSXETT00000040951.3_clybl-citrate-lyase-:0.211676[&&NHX:S=Xenopus-tropicalis])r18[&&NHX:S=Tetrapoda:D=N],((Oryzias-latipes_ENSORLT00000013987.1_clybl-citrate-lyase-bet:0.068014[&&NHX:S=Oryzias-latipes],Gasterosteus-aculeatus_ENSGACT00000002468.1_clybl-citrate-ly:0.073691[&&NHX:S=Gasterosteus-aculeatus])n7:0.069395[&&NHX:S=Percomorpha:D=N:B=98.0],Danio-rerio_ENSDART00000042259.7_clybl-citrate-lyase-beta-li:0.082005[&&NHX:S=Danio-rerio])n9:0.099027[&&NHX:S=Teleostei:D=N:B=100.0])r17[&&NHX:S=BonyVertebrates:D=N],Ciona-intestinalis_ENSCINT00000022041.2_NONE:0.620054[&&NHX:S=Ciona-intestinalis])n12[&&NHX:S=Deuterostomia:D=N];
+
+>1st_gene_tree_newick
+(((Gallus-gallus_ENSGALT00000027264.6_CLYBL-citrate-lyase-:0.115247,Homo-sapiens_ENST00000376355.7_CLYBL-citramalyl-CoA-ly:0.123178)94:0.051429,Xenopus-tropicalis_ENSXETT00000040951.3_clybl-citrate-lyase-:0.211676)57:0.052763,(Danio-rerio_ENSDART00000042259.7_clybl-citrate-lyase-beta-li:0.082005,(Gasterosteus-aculeatus_ENSGACT00000002468.1_clybl-citrate-ly:0.073691,Oryzias-latipes_ENSORLT00000013987.1_clybl-citrate-lyase-bet:0.068014)98:0.069395)100:0.099027,Ciona-intestinalis_ENSCINT00000022041.2_NONE:0.620054);
+
+>Aligned-ShortSequence_threshold evaluation
+Ciona-intestinalis_ENSCINT00000022041.2_NONE                     0.982
+Xenopus-tropicalis_ENSXETT00000040951.3_clybl-citrate-lyase-     0.988
+Gallus-gallus_ENSGALT00000027264.6_CLYBL-citrate-lyase-          0.988
+Homo-sapiens_ENST00000376355.7_CLYBL-citramalyl-CoA-ly           1.0
+Danio-rerio_ENSDART00000042259.7_clybl-citrate-lyase-beta-li     0.994
+== Removed ==> Tetraodon-nigroviridis_ENSTNIT00000018254.1_NONE                 0.233
+== Removed ==> Tetraodon-nigroviridis_ENSTNIT00000001591.1_clybl-citrate-ly     0.396
+Gasterosteus-aculeatus_ENSGACT00000002468.1_clybl-citrate-ly     0.785
+Oryzias-latipes_ENSORLT00000013987.1_clybl-citrate-lyase-bet     1.0
+
+
+################ Settings ################
+
+>NumberAssigned_querySequence
+Oryzias-latipes_ENSORLT00000013987.1_clybl-citrate-lyase-bet
+VYLCSGRRARRCLYATVRLFWQMYTETWHHHHHLAGSSLGYIPRRAVLYCPGNDERKLKKLPTLDVDCAVLDCEDGVALTKKVEARETISRILPELNLGRTEKCVRVNSVSSGLAEADLQVILQGRVLPPAVMLPKVEDTQEVQWFVDRFLHHLKGRELTEPIRLVTFVETAVGLLNLRAVCEEFRQLAPQAGLHHDGVVFGSDDFCASIGATRTRDAKELLYARQKVVVTTKAFGLQAIDLVYIDYKDVEGLRQQAREGALMGFTAGKQVIHPGQVQAVQEEFSPSQERIQWAKELIAAFDQHQKEGKGAFTFRGSMIDMPSLKQAQNVVALSATVPKE
+
+>SpeciesTree
+(Drosophila-melanogaster,(Ciona-intestinalis,((Xenopus-tropicalis,(Gallus-gallus,Homo-sapiens)Amniota)Tetrapoda,(Danio-rerio,(Oryzias-latipes,(Tetraodon-nigroviridis,Gasterosteus-aculeatus)Eupercaria)Percomorpha)Teleostei)BonyVertebrates)Deuterostomia)Bilateria;
+
+>SubstitutionModel
+WAG (Whelan and Goldman 2001) + gamma
+
+>ShortSequence_threshold
+0.45
+
+>Dataset
+AminoAcid
+
+>Rearrangement_BS_value_threshold
+70
+
+>TaxonSampling_color
+Drosophila-melanogaster_Black
+Ciona-intestinalis_Black
+Xenopus-tropicalis_Magenta
+Gallus-gallus_Magenta
+Homo-sapiens_Magenta
+Danio-rerio_Purple
+Tetraodon-nigroviridis_Green
+Gasterosteus-aculeatus_Red
+Oryzias-latipes_Blue
+
+################ Results: 2nd analysis ################
+
+>TreeSearchMethod
+NJ
+
+>2nd_rearranged_gene_tree_newick
+((((Homo-sapiens_ENST00000376355.7_CLYBL-citramalyl-CoA-ly,Gallus-gallus_ENSGALT00000027264.6_CLYBL-citrate-lyase-)95_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000040951.3_clybl-citrate-lyase-)100_S=Tetrapoda_D=N,((Oryzias-latipes_ENSORLT00000013987.1_clybl-citrate-lyase-bet,Gasterosteus-aculeatus_ENSGACT00000002468.1_clybl-citrate-ly)95_S=Percomorpha_D=N,Danio-rerio_ENSDART00000042259.7_clybl-citrate-lyase-beta-li)100_S=Teleostei_D=N)r_S=BonyVertebrates_D=N,Ciona-intestinalis_ENSCINT00000022041.2_NONE)r_S=Deuterostomia_D=N;
+
+>2nd_rearranged_gene_tree_NHX
+((((Homo-sapiens_ENST00000376355.7_CLYBL-citramalyl-CoA-ly:0.123178[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000027264.6_CLYBL-citrate-lyase-:0.115247[&&NHX:S=Gallus-gallus])n2:0.051429[&&NHX:S=Amniota:D=N:B=95.0],Xenopus-tropicalis_ENSXETT00000040951.3_clybl-citrate-lyase-:0.211676[&&NHX:S=Xenopus-tropicalis])n4:0.052763[&&NHX:S=Tetrapoda:D=N:B=100.0],((Oryzias-latipes_ENSORLT00000013987.1_clybl-citrate-lyase-bet:0.068014[&&NHX:S=Oryzias-latipes],Gasterosteus-aculeatus_ENSGACT00000002468.1_clybl-citrate-ly:0.073691[&&NHX:S=Gasterosteus-aculeatus])n7:0.069395[&&NHX:S=Percomorpha:D=N:B=95.0],Danio-rerio_ENSDART00000042259.7_clybl-citrate-lyase-beta-li:0.082005[&&NHX:S=Danio-rerio])n9:0.099027[&&NHX:S=Teleostei:D=N:B=100.0])r17[&&NHX:S=BonyVertebrates:D=N],Ciona-intestinalis_ENSCINT00000022041.2_NONE:0.620054[&&NHX:S=Ciona-intestinalis])n12[&&NHX:S=Deuterostomia:D=N];
+
+>2nd_gene_tree_newick
+((Xenopus-tropicalis_ENSXETT00000040951.3_clybl-citrate-lyase-:0.211676,(Gallus-gallus_ENSGALT00000027264.6_CLYBL-citrate-lyase-:0.115247,Homo-sapiens_ENST00000376355.7_CLYBL-citramalyl-CoA-ly:0.123178)95:0.051429)63:0.052763,(Danio-rerio_ENSDART00000042259.7_clybl-citrate-lyase-beta-li:0.082005,(Gasterosteus-aculeatus_ENSGACT00000002468.1_clybl-citrate-ly:0.073691,Oryzias-latipes_ENSORLT00000013987.1_clybl-citrate-lyase-bet:0.068014)95:0.069395)100:0.099027,Ciona-intestinalis_ENSCINT00000022041.2_NONE:0.620054);
+
+>MonophyleticGeneGroups
+BonyVertebrates                 r  D=N
+Teleostei                       100  D=N
+Percomorpha                     95  D=N
+Oryzias-latipes                 leaf  leaf
+
+>SisterGeneGroups
+BonyVertebrates                 NONE   NoGeneNode
+Teleostei                       r   Tetrapoda
+Percomorpha                     100   Danio-rerio
+Oryzias-latipes                 95   Gasterosteus-aculeatus
+
+>Number_of_duplicatedNode
+BonyVertebrates                 0
+Teleostei                       0
+Percomorpha                     0
+Oryzias-latipes                 0
+
+>AnalysisTime
+17.5 seconds

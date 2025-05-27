@@ -1,0 +1,140 @@
+################ Results: 1st analysis ################
+
+>QuerySequence
+Oryzias-latipes_ENSORLT00000021208.1_NONE  <= [Identities = 499/499 (100%)] : Oryzias-latipes_ENSORLT00000021208.1_NONE
+
+>Number_of_blastHits
+Drosophila-melanogaster  5
+Ciona-intestinalis       1
+Xenopus-tropicalis       2
+Gallus-gallus            4
+Homo-sapiens             1
+Danio-rerio              3
+Tetraodon-nigroviridis   1
+Gasterosteus-aculeatus   2
+Oryzias-latipes          1
+
+>BS_of_orthogroupBasalNode
+r
+
+
+>Orthogroup
+Danio-rerio_ENSDART00000164092.1_fh-fumarate-hydratase
+Danio-rerio_ENSDART00000172329.1_CABZ01084963.1-NONE
+Gallus-gallus_ENSGALT00000021505.4_FH-fumarate-hydratas
+Gasterosteus-aculeatus_ENSGACT00000015099.1_fh-fumarate-hydr
+Homo-sapiens_ENST00000366560.4_FH-fumarate-hydratase
+Oryzias-latipes_ENSORLT00000021208.1_NONE
+Xenopus-tropicalis_ENSXETT00000061260.1_NONE
+
+>GeneNumber_of_orthogroup
+Xenopus-tropicalis      1
+Gallus-gallus           1
+Homo-sapiens            1
+Danio-rerio             2
+Oryzias-latipes         1
+Tetraodon-nigroviridis  0
+Gasterosteus-aculeatus  1
+
+>Rooting
+Ciona-intestinalis_ENSCINT00000016516.3_NONE
+
+
+>1st_rearranged_gene_tree_newick
+(((((((Homo-sapiens_ENST00000366560.4_FH-fumarate-hydratase,Gallus-gallus_ENSGALT00000021505.4_FH-fumarate-hydratas)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000061260.1_NONE)96_S=Tetrapoda_D=N,((Danio-rerio_ENSDART00000164092.1_fh-fumarate-hydratase,Danio-rerio_ENSDART00000172329.1_CABZ01084963.1-NONE)99_S=Danio-rerio_D=Y,(Oryzias-latipes_ENSORLT00000021208.1_NONE,Gasterosteus-aculeatus_ENSGACT00000015099.1_fh-fumarate-hydr)100_S=Percomorpha_D=N)87_S=Teleostei_D=N)r_S=BonyVertebrates_D=N,Ciona-intestinalis_ENSCINT00000016516.3_NONE)99_S=Deuterostomia_D=N,(((Drosophila-melanogaster_FBtr0331828_CG6140-NONE,Drosophila-melanogaster_FBtr0079964_CG31874-NONE)r_S=Drosophila-melanogaster_D=Y,Drosophila-melanogaster_FBtr0070953_l1G0255-lethal-1-G0255-)r_S=Drosophila-melanogaster_D=Y,Drosophila-melanogaster_FBtr0070955_CG4095-NONE)r_S=Drosophila-melanogaster_D=Y)97_S=Bilateria_D=N,(Gallus-gallus_ENSGALT00000039936.3_ASL1-argininosuccina,Gallus-gallus_ENSGALT00000089135.2_ASL2-argininosuccina)100_S=Gallus-gallus_D=Y)100_S=Bilateria_D=Y,(((Gallus-gallus_ENSGALT00000019639.4_ADSL-adenylosuccinat,Xenopus-tropicalis_ENSXETT00000013869.3_adsl-adenylosuccinat)87_S=Tetrapoda_D=N,((Gasterosteus-aculeatus_ENSGACT00000010948.1_adsl-adenylosucc,Tetraodon-nigroviridis_ENSTNIT00000014643.1_adsl-adenylosucc)r_S=Eupercaria_D=N,Danio-rerio_ENSDART00000023454.10_adsl-adenylosuccinate-lyas)r_S=Teleostei_D=N)96_S=BonyVertebrates_D=N,Drosophila-melanogaster_FBtr0083373_AdSL-Adenylosuccinate-L)r_S=Bilateria_D=N)r_S=Bilateria_D=Y;
+
+>1st_rearranged_gene_tree_NHX
+(((((((Homo-sapiens_ENST00000366560.4_FH-fumarate-hydratase:0.047925[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000021505.4_FH-fumarate-hydratas:0.051728[&&NHX:S=Gallus-gallus])r55[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000061260.1_NONE:0.07903[&&NHX:S=Xenopus-tropicalis])n4:0.025839[&&NHX:S=Tetrapoda:D=N:B=96.0],((Danio-rerio_ENSDART00000164092.1_fh-fumarate-hydratase:0.098711[&&NHX:S=Danio-rerio],Danio-rerio_ENSDART00000172329.1_CABZ01084963.1-NONE:0.024604[&&NHX:S=Danio-rerio])n7:0.033903[&&NHX:S=Danio-rerio:D=Y:B=99.0],(Oryzias-latipes_ENSORLT00000021208.1_NONE:0.031732[&&NHX:S=Oryzias-latipes],Gasterosteus-aculeatus_ENSGACT00000015099.1_fh-fumarate-hydr:0.026447[&&NHX:S=Gasterosteus-aculeatus])n10:0.029027[&&NHX:S=Percomorpha:D=N:B=100.0])n11:0.025034[&&NHX:S=Teleostei:D=N:B=87.0])r53[&&NHX:S=BonyVertebrates:D=N],Ciona-intestinalis_ENSCINT00000016516.3_NONE:0.160075[&&NHX:S=Ciona-intestinalis])n14:0.099567[&&NHX:S=Deuterostomia:D=N:B=99.0],(((Drosophila-melanogaster_FBtr0331828_CG6140-NONE:0.152442[&&NHX:S=Drosophila-melanogaster],Drosophila-melanogaster_FBtr0079964_CG31874-NONE:0.314708[&&NHX:S=Drosophila-melanogaster])r51[&&NHX:S=Drosophila-melanogaster:D=Y],Drosophila-melanogaster_FBtr0070953_l1G0255-lethal-1-G0255-:0.080792[&&NHX:S=Drosophila-melanogaster])r50[&&NHX:S=Drosophila-melanogaster:D=Y],Drosophila-melanogaster_FBtr0070955_CG4095-NONE:0.13307[&&NHX:S=Drosophila-melanogaster])r49[&&NHX:S=Drosophila-melanogaster:D=Y])n22:0.422968[&&NHX:S=Bilateria:D=N:B=97.0],(Gallus-gallus_ENSGALT00000039936.3_ASL1-argininosuccina:0.0[&&NHX:S=Gallus-gallus],Gallus-gallus_ENSGALT00000089135.2_ASL2-argininosuccina:0.089849[&&NHX:S=Gallus-gallus])n25:1.070099[&&NHX:S=Gallus-gallus:D=Y:B=100.0])n26:1.169793[&&NHX:S=Bilateria:D=Y:B=100.0],(((Gallus-gallus_ENSGALT00000019639.4_ADSL-adenylosuccinat:0.041758[&&NHX:S=Gallus-gallus],Xenopus-tropicalis_ENSXETT00000013869.3_adsl-adenylosuccinat:0.064963[&&NHX:S=Xenopus-tropicalis])n29:0.048328[&&NHX:S=Tetrapoda:D=N:B=87.0],((Gasterosteus-aculeatus_ENSGACT00000010948.1_adsl-adenylosucc:0.019947[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000014643.1_adsl-adenylosucc:0.039153[&&NHX:S=Tetraodon-nigroviridis])r59[&&NHX:S=Eupercaria:D=N],Danio-rerio_ENSDART00000023454.10_adsl-adenylosuccinate-lyas:0.016166[&&NHX:S=Danio-rerio])r57[&&NHX:S=Teleostei:D=N])n35:0.064086[&&NHX:S=BonyVertebrates:D=N:B=96.0],Drosophila-melanogaster_FBtr0083373_AdSL-Adenylosuccinate-L:0.202857[&&NHX:S=Drosophila-melanogaster])r45[&&NHX:S=Bilateria:D=N])n38[&&NHX:S=Bilateria:D=Y];
+
+>1st_gene_tree_newick
+((((((Homo-sapiens_ENST00000366560.4_FH-fumarate-hydratase:0.047925,(Xenopus-tropicalis_ENSXETT00000061260.1_NONE:0.079030,Gallus-gallus_ENSGALT00000021505.4_FH-fumarate-hydratas:0.051728)7:0.009398)96:0.025839,((Danio-rerio_ENSDART00000172329.1_CABZ01084963.1-NONE:0.024604,Danio-rerio_ENSDART00000164092.1_fh-fumarate-hydratase:0.098711)99:0.033903,(Gasterosteus-aculeatus_ENSGACT00000015099.1_fh-fumarate-hydr:0.026447,Oryzias-latipes_ENSORLT00000021208.1_NONE:0.031732)100:0.029027)87:0.025034)48:0.021303,Ciona-intestinalis_ENSCINT00000016516.3_NONE:0.160075)99:0.099567,((Drosophila-melanogaster_FBtr0079964_CG31874-NONE:0.314708,Drosophila-melanogaster_FBtr0331828_CG6140-NONE:0.152442)17:0.057027,(Drosophila-melanogaster_FBtr0070955_CG4095-NONE:0.133070,Drosophila-melanogaster_FBtr0070953_l1G0255-lethal-1-G0255-:0.080792)51:0.010474)15:0.026228)97:0.422968,(Gallus-gallus_ENSGALT00000089135.2_ASL2-argininosuccina:0.089849,Gallus-gallus_ENSGALT00000039936.3_ASL1-argininosuccina:-0.002518)100:1.070099)100:1.169793,((Xenopus-tropicalis_ENSXETT00000013869.3_adsl-adenylosuccinat:0.064963,Gallus-gallus_ENSGALT00000019639.4_ADSL-adenylosuccinat:0.041758)87:0.048328,(Danio-rerio_ENSDART00000023454.10_adsl-adenylosuccinate-lyas:0.016166,(Tetraodon-nigroviridis_ENSTNIT00000014643.1_adsl-adenylosucc:0.039153,Gasterosteus-aculeatus_ENSGACT00000010948.1_adsl-adenylosucc:0.019947)52:0.041779)46:0.022480)96:0.064086,Drosophila-melanogaster_FBtr0083373_AdSL-Adenylosuccinate-L:0.202857);
+
+>Aligned-ShortSequence_threshold evaluation
+Drosophila-melanogaster_FBtr0083373_AdSL-Adenylosuccinate-L      1.0
+Drosophila-melanogaster_FBtr0079964_CG31874-NONE                 0.997
+Drosophila-melanogaster_FBtr0331828_CG6140-NONE                  0.997
+Drosophila-melanogaster_FBtr0070955_CG4095-NONE                  0.997
+Drosophila-melanogaster_FBtr0070953_l1G0255-lethal-1-G0255-      1.0
+Ciona-intestinalis_ENSCINT00000016516.3_NONE                     1.0
+Xenopus-tropicalis_ENSXETT00000013869.3_adsl-adenylosuccinat     1.0
+Xenopus-tropicalis_ENSXETT00000061260.1_NONE                     1.0
+Gallus-gallus_ENSGALT00000089135.2_ASL2-argininosuccina          0.914
+Gallus-gallus_ENSGALT00000039936.3_ASL1-argininosuccina          0.883
+Gallus-gallus_ENSGALT00000019639.4_ADSL-adenylosuccinat          1.0
+Gallus-gallus_ENSGALT00000021505.4_FH-fumarate-hydratas          1.0
+Homo-sapiens_ENST00000366560.4_FH-fumarate-hydratase             1.0
+Danio-rerio_ENSDART00000023454.10_adsl-adenylosuccinate-lyas     1.0
+Danio-rerio_ENSDART00000172329.1_CABZ01084963.1-NONE             0.767
+Danio-rerio_ENSDART00000164092.1_fh-fumarate-hydratase           0.969
+Tetraodon-nigroviridis_ENSTNIT00000014643.1_adsl-adenylosucc     1.0
+Gasterosteus-aculeatus_ENSGACT00000010948.1_adsl-adenylosucc     1.0
+Gasterosteus-aculeatus_ENSGACT00000015099.1_fh-fumarate-hydr     0.994
+Oryzias-latipes_ENSORLT00000021208.1_NONE                        1.0
+
+
+################ Settings ################
+
+>NumberAssigned_querySequence
+Oryzias-latipes_ENSORLT00000021208.1_NONE
+MFRSFRSVQQLNCNFLNLQKVQAKPKLLFCTSGMAASGYRIERDTFGELKVPADKYYGAQTVRSTMNFKIGGPSERMPIQVIKAFGILKKAAAEVNKEFGLDPKLAAAIIQAAEEVSAGKLDDHFPLVVWQTGSGTQTNMNVNEVISNRAIEILGGTLGSKDPVHPNDHVNKSQSSNDTFPTAMHIAVATEVHQVLLPGLQTLHSALSAKAEEFKDIIKIGRTHTQDAVPLSLGQEFSGYVQQVKYSIERVKAAMPRVYELAAGGTAVGTGLNTRIGFAEKVASVVASLTGLPFVTAPNKFEALAAHDALVELSGALNTVAVSMMKIANDIRFLGSGPRSGLGELVLPENEPGSSIMPGKVNPTQCEAMTMVAAQVMGNHVAVTVGGSNGHFELNVFKPMIVKNVLNSAQLLGDAAVSFTDNCVVGIQANTDRINKLMSESLMLVTALNPHIGYDKAAAIAKTAHKKGSTLKAVAVELGYLSEEQFDQWVKPSEMLGPK
+
+>SpeciesTree
+(Drosophila-melanogaster,(Ciona-intestinalis,((Xenopus-tropicalis,(Gallus-gallus,Homo-sapiens)Amniota)Tetrapoda,(Danio-rerio,(Oryzias-latipes,(Tetraodon-nigroviridis,Gasterosteus-aculeatus)Eupercaria)Percomorpha)Teleostei)BonyVertebrates)Deuterostomia)Bilateria;
+
+>SubstitutionModel
+WAG (Whelan and Goldman 2001) + gamma
+
+>ShortSequence_threshold
+0.45
+
+>Dataset
+AminoAcid
+
+>Rearrangement_BS_value_threshold
+70
+
+>TaxonSampling_color
+Drosophila-melanogaster_Black
+Ciona-intestinalis_Black
+Xenopus-tropicalis_Magenta
+Gallus-gallus_Magenta
+Homo-sapiens_Magenta
+Danio-rerio_Purple
+Tetraodon-nigroviridis_Green
+Gasterosteus-aculeatus_Red
+Oryzias-latipes_Blue
+
+################ Results: 2nd analysis ################
+
+>TreeSearchMethod
+NJ
+
+>2nd_rearranged_gene_tree_newick
+((((Homo-sapiens_ENST00000366560.4_FH-fumarate-hydratase,Gallus-gallus_ENSGALT00000021505.4_FH-fumarate-hydratas)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000061260.1_NONE)100_S=Tetrapoda_D=N,((Oryzias-latipes_ENSORLT00000021208.1_NONE,Gasterosteus-aculeatus_ENSGACT00000015099.1_fh-fumarate-hydr)100_S=Percomorpha_D=N,(Danio-rerio_ENSDART00000172329.1_CABZ01084963.1-NONE,Danio-rerio_ENSDART00000164092.1_fh-fumarate-hydratase)99_S=Danio-rerio_D=Y)r_S=Teleostei_D=N)r_S=BonyVertebrates_D=N,Ciona-intestinalis_ENSCINT00000016516.3_NONE)r_S=Deuterostomia_D=N;
+
+>2nd_rearranged_gene_tree_NHX
+((((Homo-sapiens_ENST00000366560.4_FH-fumarate-hydratase:0.049431[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000021505.4_FH-fumarate-hydratas:0.052797[&&NHX:S=Gallus-gallus])r22[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000061260.1_NONE:0.134363[&&NHX:S=Xenopus-tropicalis])n4:0.025337[&&NHX:S=Tetrapoda:D=N:B=100.0],((Oryzias-latipes_ENSORLT00000021208.1_NONE:0.037677[&&NHX:S=Oryzias-latipes],Gasterosteus-aculeatus_ENSGACT00000015099.1_fh-fumarate-hydr:0.028915[&&NHX:S=Gasterosteus-aculeatus])n10:0.035157[&&NHX:S=Percomorpha:D=N:B=100.0],(Danio-rerio_ENSDART00000172329.1_CABZ01084963.1-NONE:0.028065[&&NHX:S=Danio-rerio],Danio-rerio_ENSDART00000164092.1_fh-fumarate-hydratase:0.090399[&&NHX:S=Danio-rerio])n7:0.027347[&&NHX:S=Danio-rerio:D=Y:B=99.0])r20[&&NHX:S=Teleostei:D=N])r19[&&NHX:S=BonyVertebrates:D=N],Ciona-intestinalis_ENSCINT00000016516.3_NONE:0.178109[&&NHX:S=Ciona-intestinalis])n14[&&NHX:S=Deuterostomia:D=N];
+
+>2nd_gene_tree_newick
+((Homo-sapiens_ENST00000366560.4_FH-fumarate-hydratase:0.049431,(Gallus-gallus_ENSGALT00000021505.4_FH-fumarate-hydratas:0.052797,Xenopus-tropicalis_ENSXETT00000061260.1_NONE:0.134363)18:0.008653)99:0.025337,((Danio-rerio_ENSDART00000164092.1_fh-fumarate-hydratase:0.090399,Danio-rerio_ENSDART00000172329.1_CABZ01084963.1-NONE:0.028065)99:0.027347,(Gasterosteus-aculeatus_ENSGACT00000015099.1_fh-fumarate-hydr:0.028915,Oryzias-latipes_ENSORLT00000021208.1_NONE:0.037677)100:0.035157)47:0.016461,Ciona-intestinalis_ENSCINT00000016516.3_NONE:0.178109);
+
+>MonophyleticGeneGroups
+BonyVertebrates                 r  D=N
+Teleostei                       r  D=N
+Percomorpha                     100  D=N
+Oryzias-latipes                 leaf  leaf
+
+>SisterGeneGroups
+BonyVertebrates                 NONE   NoGeneNode
+Teleostei                       r   Tetrapoda
+Percomorpha                     r   Danio-rerio
+Oryzias-latipes                 100   Gasterosteus-aculeatus
+
+>Number_of_duplicatedNode
+BonyVertebrates                 0
+Teleostei                       0
+Percomorpha                     0
+Oryzias-latipes                 0
+
+>AnalysisTime
+18.2 seconds

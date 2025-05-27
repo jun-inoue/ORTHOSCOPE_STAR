@@ -1,0 +1,153 @@
+################ Results: 1st analysis ################
+
+>QuerySequence
+Oryzias-latipes_ENSORLT00000015782.1_NONE  <= [Identities = 453/453 (100%)] : Oryzias-latipes_ENSORLT00000015782.1_NONE
+
+>Number_of_blastHits
+Drosophila-melanogaster  3
+Ciona-intestinalis       3
+Xenopus-tropicalis       3
+Gallus-gallus            3
+Homo-sapiens             3
+Danio-rerio              3
+Tetraodon-nigroviridis   4
+Gasterosteus-aculeatus   4
+Oryzias-latipes          4
+
+>BS_of_orthogroupBasalNode
+r
+
+
+>Orthogroup
+Danio-rerio_ENSDART00000163226.1_idh2-isocitrate-dehydrogena
+Gallus-gallus_ENSGALT00000061698.2_IDH2-isocitrate-dehy
+Gasterosteus-aculeatus_ENSGACT00000014373.1_idh2-isocitrate-
+Gasterosteus-aculeatus_ENSGACT00000021795.1_NONE
+Homo-sapiens_ENST00000330062.8_IDH2-isocitrate-dehydro
+Oryzias-latipes_ENSORLT00000010323.1_idh2-isocitrate-dehydro
+Oryzias-latipes_ENSORLT00000015782.1_NONE
+Tetraodon-nigroviridis_ENSTNIT00000014509.1_NONE
+Tetraodon-nigroviridis_ENSTNIT00000022680.1_idh2-isocitrate-
+Xenopus-tropicalis_ENSXETT00000057536.1_idh2-isocitrate-dehy
+
+>GeneNumber_of_orthogroup
+Xenopus-tropicalis      1
+Gallus-gallus           1
+Homo-sapiens            1
+Danio-rerio             1
+Oryzias-latipes         2
+Tetraodon-nigroviridis  2
+Gasterosteus-aculeatus  2
+
+>Rooting
+Ciona-intestinalis_ENSCINT00000017691.3_NONE
+
+
+>1st_rearranged_gene_tree_newick
+((((((((Homo-sapiens_ENST00000345146.7_IDH1-isocitrate-dehydro,Gallus-gallus_ENSGALT00000014333.6_IDH1-isocitrate-dehy)87_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000017597.3_idh1-isocitrate-dehy)78_S=Tetrapoda_D=N,(((Gasterosteus-aculeatus_ENSGACT00000012129.1_idh1-isocitrate-,Danio-rerio_ENSDART00000007789.9_idh1-isocitrate-dehydrogena)76_S=Teleostei_D=N,Oryzias-latipes_ENSORLT00000024666.1_idh1-isocitrate-dehydro)74_S=Teleostei_D=Y,Tetraodon-nigroviridis_ENSTNIT00000014707.1_idh1-isocitrate-)95_S=Teleostei_D=Y)83_S=BonyVertebrates_D=N,Ciona-intestinalis_ENSCINT00000006115.3_NONE)r_S=Deuterostomia_D=N,Drosophila-melanogaster_FBtr0333058_Idh-Isocitrate-dehydrog)89_S=Bilateria_D=N,((((Homo-sapiens_ENST00000330062.8_IDH2-isocitrate-dehydro,Gallus-gallus_ENSGALT00000061698.2_IDH2-isocitrate-dehy)94_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000057536.1_idh2-isocitrate-dehy)r_S=Tetrapoda_D=N,((((Gasterosteus-aculeatus_ENSGACT00000021795.1_NONE,Tetraodon-nigroviridis_ENSTNIT00000014509.1_NONE)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000015782.1_NONE)74_S=Percomorpha_D=N,((Gasterosteus-aculeatus_ENSGACT00000014373.1_idh2-isocitrate-,Tetraodon-nigroviridis_ENSTNIT00000022680.1_idh2-isocitrate-)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000010323.1_idh2-isocitrate-dehydro)r_S=Percomorpha_D=N)r_S=Percomorpha_D=Y,Danio-rerio_ENSDART00000163226.1_idh2-isocitrate-dehydrogena)r_S=Teleostei_D=N)r_S=BonyVertebrates_D=N,Ciona-intestinalis_ENSCINT00000017691.3_NONE)r_S=Deuterostomia_D=N)100_S=Bilateria_D=Y,(((((Homo-sapiens_ENST00000299518.7_IDH3A-isocitrate-dehydr,Gallus-gallus_ENSGALT00000087067.2_IDH3A-isocitrate-deh)85_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000021498.2_idh3a-isocitrate-deh)r_S=Tetrapoda_D=N,(((Gasterosteus-aculeatus_ENSGACT00000013687.1_idh3a-isocitrate,Tetraodon-nigroviridis_ENSTNIT00000011419.1_idh3a-isocitrate)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000023647.1_NONE)r_S=Percomorpha_D=N,Danio-rerio_ENSDART00000103638.5_idh3a-isocitrate-dehydrogen)r_S=Teleostei_D=N)r_S=BonyVertebrates_D=N,Ciona-intestinalis_ENSCINT00000014956.3_NONE)92_S=Deuterostomia_D=N,Drosophila-melanogaster_FBtr0336668_l1G0156-lethal-1-G0156-)86_S=Bilateria_D=N)r_S=Bilateria_D=Y,Drosophila-melanogaster_FBtr0076584_CG32026-NONE)r_S=Bilateria_D=Y;
+
+>1st_rearranged_gene_tree_NHX
+((((((((Homo-sapiens_ENST00000345146.7_IDH1-isocitrate-dehydro:0.054174[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000014333.6_IDH1-isocitrate-dehy:0.048795[&&NHX:S=Gallus-gallus])n26:0.014632[&&NHX:S=Amniota:D=N:B=87.0],Xenopus-tropicalis_ENSXETT00000017597.3_idh1-isocitrate-dehy:0.052056[&&NHX:S=Xenopus-tropicalis])n28:0.025501[&&NHX:S=Tetrapoda:D=N:B=78.0],(((Gasterosteus-aculeatus_ENSGACT00000012129.1_idh1-isocitrate-:0.065608[&&NHX:S=Gasterosteus-aculeatus],Danio-rerio_ENSDART00000007789.9_idh1-isocitrate-dehydrogena:0.050454[&&NHX:S=Danio-rerio])n31:0.016619[&&NHX:S=Teleostei:D=N:B=76.0],Oryzias-latipes_ENSORLT00000024666.1_idh1-isocitrate-dehydro:0.026941[&&NHX:S=Oryzias-latipes])n33:0.013531[&&NHX:S=Teleostei:D=Y:B=74.0],Tetraodon-nigroviridis_ENSTNIT00000014707.1_idh1-isocitrate-:0.076004[&&NHX:S=Tetraodon-nigroviridis])n35:0.03209[&&NHX:S=Teleostei:D=Y:B=95.0])n36:0.027656[&&NHX:S=BonyVertebrates:D=N:B=83.0],Ciona-intestinalis_ENSCINT00000006115.3_NONE:0.119606[&&NHX:S=Ciona-intestinalis])r79[&&NHX:S=Deuterostomia:D=N],Drosophila-melanogaster_FBtr0333058_Idh-Isocitrate-dehydrog:0.208477[&&NHX:S=Drosophila-melanogaster])n37:0.089739[&&NHX:S=Bilateria:D=N:B=89.0],((((Homo-sapiens_ENST00000330062.8_IDH2-isocitrate-dehydro:0.056407[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000061698.2_IDH2-isocitrate-dehy:0.041053[&&NHX:S=Gallus-gallus])n19:0.020842[&&NHX:S=Amniota:D=N:B=94.0],Xenopus-tropicalis_ENSXETT00000057536.1_idh2-isocitrate-dehy:0.071104[&&NHX:S=Xenopus-tropicalis])r72[&&NHX:S=Tetrapoda:D=N],((((Gasterosteus-aculeatus_ENSGACT00000021795.1_NONE:0.067033[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000014509.1_NONE:0.054122[&&NHX:S=Tetraodon-nigroviridis])r81[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000015782.1_NONE:0.060214[&&NHX:S=Oryzias-latipes])n11:0.021935[&&NHX:S=Percomorpha:D=N:B=74.0],((Gasterosteus-aculeatus_ENSGACT00000014373.1_idh2-isocitrate-:0.028263[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000022680.1_idh2-isocitrate-:0.027495[&&NHX:S=Tetraodon-nigroviridis])r76[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000010323.1_idh2-isocitrate-dehydro:0.035911[&&NHX:S=Oryzias-latipes])r75[&&NHX:S=Percomorpha:D=N])r74[&&NHX:S=Percomorpha:D=Y],Danio-rerio_ENSDART00000163226.1_idh2-isocitrate-dehydrogena:0.334847[&&NHX:S=Danio-rerio])r73[&&NHX:S=Teleostei:D=N])r71[&&NHX:S=BonyVertebrates:D=N],Ciona-intestinalis_ENSCINT00000017691.3_NONE:0.177669[&&NHX:S=Ciona-intestinalis])r70[&&NHX:S=Deuterostomia:D=N])n38:1.542475[&&NHX:S=Bilateria:D=Y:B=100.0],(((((Homo-sapiens_ENST00000299518.7_IDH3A-isocitrate-dehydr:0.072886[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000087067.2_IDH3A-isocitrate-deh:0.022913[&&NHX:S=Gallus-gallus])n41:0.034698[&&NHX:S=Amniota:D=N:B=85.0],Xenopus-tropicalis_ENSXETT00000021498.2_idh3a-isocitrate-deh:0.049253[&&NHX:S=Xenopus-tropicalis])r84[&&NHX:S=Tetrapoda:D=N],(((Gasterosteus-aculeatus_ENSGACT00000013687.1_idh3a-isocitrate:0.036735[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000011419.1_idh3a-isocitrate:0.051079[&&NHX:S=Tetraodon-nigroviridis])r87[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000023647.1_NONE:0.067089[&&NHX:S=Oryzias-latipes])r86[&&NHX:S=Percomorpha:D=N],Danio-rerio_ENSDART00000103638.5_idh3a-isocitrate-dehydrogen:0.029624[&&NHX:S=Danio-rerio])r85[&&NHX:S=Teleostei:D=N])r83[&&NHX:S=BonyVertebrates:D=N],Ciona-intestinalis_ENSCINT00000014956.3_NONE:0.202363[&&NHX:S=Ciona-intestinalis])n53:0.160081[&&NHX:S=Deuterostomia:D=N:B=92.0],Drosophila-melanogaster_FBtr0336668_l1G0156-lethal-1-G0156-:0.156075[&&NHX:S=Drosophila-melanogaster])n55:0.066498[&&NHX:S=Bilateria:D=N:B=86.0])r65[&&NHX:S=Bilateria:D=Y],Drosophila-melanogaster_FBtr0076584_CG32026-NONE:0.263385[&&NHX:S=Drosophila-melanogaster])n58[&&NHX:S=Bilateria:D=Y];
+
+>1st_gene_tree_newick
+((((((((Gasterosteus-aculeatus_ENSGACT00000014373.1_idh2-isocitrate-:0.028263,Oryzias-latipes_ENSORLT00000010323.1_idh2-isocitrate-dehydro:0.035911)56:0.008120,(Danio-rerio_ENSDART00000163226.1_idh2-isocitrate-dehydrogena:0.334847,Tetraodon-nigroviridis_ENSTNIT00000022680.1_idh2-isocitrate-:0.027495)18:0.003479)25:0.012805,((Tetraodon-nigroviridis_ENSTNIT00000014509.1_NONE:0.054122,Gasterosteus-aculeatus_ENSGACT00000021795.1_NONE:0.067033)56:0.003516,Oryzias-latipes_ENSORLT00000015782.1_NONE:0.060214)74:0.021935)19:0.006703,Xenopus-tropicalis_ENSXETT00000057536.1_idh2-isocitrate-dehy:0.071104)13:0.006193,Ciona-intestinalis_ENSCINT00000017691.3_NONE:0.177669)5:0.006930,(Gallus-gallus_ENSGALT00000061698.2_IDH2-isocitrate-dehy:0.041053,Homo-sapiens_ENST00000330062.8_IDH2-isocitrate-dehydro:0.056407)94:0.020842)27:0.106796,((Drosophila-melanogaster_FBtr0333058_Idh-Isocitrate-dehydrog:0.208477,Ciona-intestinalis_ENSCINT00000006115.3_NONE:0.119606)23:0.004540,((Xenopus-tropicalis_ENSXETT00000017597.3_idh1-isocitrate-dehy:0.052056,(Gallus-gallus_ENSGALT00000014333.6_IDH1-isocitrate-dehy:0.048795,Homo-sapiens_ENST00000345146.7_IDH1-isocitrate-dehydro:0.054174)87:0.014632)78:0.025501,(((Danio-rerio_ENSDART00000007789.9_idh1-isocitrate-dehydrogena:0.050454,Gasterosteus-aculeatus_ENSGACT00000012129.1_idh1-isocitrate-:0.065608)76:0.016619,Oryzias-latipes_ENSORLT00000024666.1_idh1-isocitrate-dehydro:0.026941)74:0.013531,Tetraodon-nigroviridis_ENSTNIT00000014707.1_idh1-isocitrate-:0.076004)95:0.032090)83:0.027656)89:0.089739)100:1.542475,(Drosophila-melanogaster_FBtr0336668_l1G0156-lethal-1-G0156-:0.156075,(((Ciona-intestinalis_ENSCINT00000014956.3_NONE:0.202363,(Gallus-gallus_ENSGALT00000087067.2_IDH3A-isocitrate-deh:0.022913,Homo-sapiens_ENST00000299518.7_IDH3A-isocitrate-dehydr:0.072886)85:0.034698)36:0.012014,(((Danio-rerio_ENSDART00000103638.5_idh3a-isocitrate-dehydrogen:0.029624,Oryzias-latipes_ENSORLT00000023647.1_NONE:0.067089)51:0.031402,Tetraodon-nigroviridis_ENSTNIT00000011419.1_idh3a-isocitrate:0.051079)7:0.014014,Gasterosteus-aculeatus_ENSGACT00000013687.1_idh3a-isocitrate:0.036735)14:0.025287)40:0.032211,Xenopus-tropicalis_ENSXETT00000021498.2_idh3a-isocitrate-deh:0.049253)92:0.160081)86:0.066498,Drosophila-melanogaster_FBtr0076584_CG32026-NONE:0.263385);
+
+>Aligned-ShortSequence_threshold evaluation
+Drosophila-melanogaster_FBtr0076584_CG32026-NONE                 0.84
+Drosophila-melanogaster_FBtr0336668_l1G0156-lethal-1-G0156-      0.824
+Drosophila-melanogaster_FBtr0333058_Idh-Isocitrate-dehydrog      0.995
+Ciona-intestinalis_ENSCINT00000014956.3_NONE                     0.828
+Ciona-intestinalis_ENSCINT00000006115.3_NONE                     0.942
+Ciona-intestinalis_ENSCINT00000017691.3_NONE                     0.949
+Xenopus-tropicalis_ENSXETT00000021498.2_idh3a-isocitrate-deh     0.831
+Xenopus-tropicalis_ENSXETT00000017597.3_idh1-isocitrate-dehy     0.944
+Xenopus-tropicalis_ENSXETT00000057536.1_idh2-isocitrate-dehy     1.0
+Gallus-gallus_ENSGALT00000087067.2_IDH3A-isocitrate-deh          0.831
+Gallus-gallus_ENSGALT00000014333.6_IDH1-isocitrate-dehy          0.944
+Gallus-gallus_ENSGALT00000061698.2_IDH2-isocitrate-dehy          1.0
+Homo-sapiens_ENST00000299518.7_IDH3A-isocitrate-dehydr           0.831
+Homo-sapiens_ENST00000345146.7_IDH1-isocitrate-dehydro           0.944
+Homo-sapiens_ENST00000330062.8_IDH2-isocitrate-dehydro           1.0
+Danio-rerio_ENSDART00000103638.5_idh3a-isocitrate-dehydrogen     0.828
+Danio-rerio_ENSDART00000007789.9_idh1-isocitrate-dehydrogena     0.944
+Danio-rerio_ENSDART00000163226.1_idh2-isocitrate-dehydrogena     0.993
+Tetraodon-nigroviridis_ENSTNIT00000011419.1_idh3a-isocitrate     0.831
+Tetraodon-nigroviridis_ENSTNIT00000014707.1_idh1-isocitrate-     0.944
+Tetraodon-nigroviridis_ENSTNIT00000022680.1_idh2-isocitrate-     1.0
+Tetraodon-nigroviridis_ENSTNIT00000014509.1_NONE                 1.0
+Gasterosteus-aculeatus_ENSGACT00000013687.1_idh3a-isocitrate     0.831
+Gasterosteus-aculeatus_ENSGACT00000012129.1_idh1-isocitrate-     0.947
+Gasterosteus-aculeatus_ENSGACT00000014373.1_idh2-isocitrate-     1.0
+Gasterosteus-aculeatus_ENSGACT00000021795.1_NONE                 1.0
+Oryzias-latipes_ENSORLT00000023647.1_NONE                        0.831
+Oryzias-latipes_ENSORLT00000024666.1_idh1-isocitrate-dehydro     0.886
+Oryzias-latipes_ENSORLT00000010323.1_idh2-isocitrate-dehydro     1.0
+Oryzias-latipes_ENSORLT00000015782.1_NONE                        1.0
+
+
+################ Settings ################
+
+>NumberAssigned_querySequence
+Oryzias-latipes_ENSORLT00000015782.1_NONE
+SMAGTLKTLTAAFRSAAAAGVPPSAAAVSAVCHRRHQRRNYATKRIKVDQPVVEMDRDEMTRIIWEFIKDKLILPNVDVELKYFDLGLPYRDQTNDQVTIDAALATKKYNVAVKCATITPDEARVEEYKLKNMWKSPNGTIRNILGGTVFREPILCKNIPRLVPGWTLPITIGRHAFGDQYRATDFVVEKPGKFKMVFSPADGSKQQEWEVYNFTAGGCGMGMYNTDESISGFAHSCFQYAIQKRWPLYMSTKNTILKAYDGRFKDIFQDIFEKNYKPEFDKLKIWYEHRLIDDMVAQVLKSSGGFVWACKNYDGDVQSDILAQGFGSLGLMTSVLVCPDGKTIEAEAAHGTVTRHFREHQRGKPTSTNPIASIFAWTRGLEHRGKLDGNPDLIKFSQTLEKVCVETVENGVMTKDLAGCIHGLANCKLNEHYVNTLDFMDAIRTNLDKALAK
+
+>SpeciesTree
+(Drosophila-melanogaster,(Ciona-intestinalis,((Xenopus-tropicalis,(Gallus-gallus,Homo-sapiens)Amniota)Tetrapoda,(Danio-rerio,(Oryzias-latipes,(Tetraodon-nigroviridis,Gasterosteus-aculeatus)Eupercaria)Percomorpha)Teleostei)BonyVertebrates)Deuterostomia)Bilateria;
+
+>SubstitutionModel
+WAG (Whelan and Goldman 2001) + gamma
+
+>ShortSequence_threshold
+0.45
+
+>Dataset
+AminoAcid
+
+>Rearrangement_BS_value_threshold
+70
+
+>TaxonSampling_color
+Drosophila-melanogaster_Black
+Ciona-intestinalis_Black
+Xenopus-tropicalis_Magenta
+Gallus-gallus_Magenta
+Homo-sapiens_Magenta
+Danio-rerio_Purple
+Tetraodon-nigroviridis_Green
+Gasterosteus-aculeatus_Red
+Oryzias-latipes_Blue
+
+################ Results: 2nd analysis ################
+
+>TreeSearchMethod
+NJ
+
+>2nd_rearranged_gene_tree_newick
+(((Xenopus-tropicalis_ENSXETT00000057536.1_idh2-isocitrate-dehy,((((Gasterosteus-aculeatus_ENSGACT00000014373.1_idh2-isocitrate-,Tetraodon-nigroviridis_ENSTNIT00000022680.1_idh2-isocitrate-)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000010323.1_idh2-isocitrate-dehydro)r_S=Percomorpha_D=N,Danio-rerio_ENSDART00000163226.1_idh2-isocitrate-dehydrogena)88_S=Teleostei_D=N,((Gasterosteus-aculeatus_ENSGACT00000021795.1_NONE,Tetraodon-nigroviridis_ENSTNIT00000014509.1_NONE)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000015782.1_NONE)82_S=Percomorpha_D=N)r_S=Teleostei_D=Y)100_S=BonyVertebrates_D=N,(Homo-sapiens_ENST00000330062.8_IDH2-isocitrate-dehydro,Gallus-gallus_ENSGALT00000061698.2_IDH2-isocitrate-dehy)100_S=Amniota_D=N)r_S=BonyVertebrates_D=Y,Ciona-intestinalis_ENSCINT00000017691.3_NONE)r_S=Deuterostomia_D=N;
+
+>2nd_rearranged_gene_tree_NHX
+(((Xenopus-tropicalis_ENSXETT00000057536.1_idh2-isocitrate-dehy:0.070465[&&NHX:S=Xenopus-tropicalis],((((Gasterosteus-aculeatus_ENSGACT00000014373.1_idh2-isocitrate-:0.028977[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000022680.1_idh2-isocitrate-:0.023367[&&NHX:S=Tetraodon-nigroviridis])r42[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000010323.1_idh2-isocitrate-dehydro:0.034851[&&NHX:S=Oryzias-latipes])r41[&&NHX:S=Percomorpha:D=N],Danio-rerio_ENSDART00000163226.1_idh2-isocitrate-dehydrogena:0.323142[&&NHX:S=Danio-rerio])n6:0.020202[&&NHX:S=Teleostei:D=N:B=88.0],((Gasterosteus-aculeatus_ENSGACT00000021795.1_NONE:0.076873[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000014509.1_NONE:0.06238[&&NHX:S=Tetraodon-nigroviridis])r44[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000015782.1_NONE:0.075275[&&NHX:S=Oryzias-latipes])n11:0.02299[&&NHX:S=Percomorpha:D=N:B=82.0])r37[&&NHX:S=Teleostei:D=Y])n14:0.006636[&&NHX:S=BonyVertebrates:D=N:B=100.0],(Homo-sapiens_ENST00000330062.8_IDH2-isocitrate-dehydro:0.061823[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000061698.2_IDH2-isocitrate-dehy:0.044831[&&NHX:S=Gallus-gallus])n17:0.034744[&&NHX:S=Amniota:D=N:B=100.0])r29[&&NHX:S=BonyVertebrates:D=Y],Ciona-intestinalis_ENSCINT00000017691.3_NONE:0.189575[&&NHX:S=Ciona-intestinalis])n20[&&NHX:S=Deuterostomia:D=N];
+
+>2nd_gene_tree_newick
+(((((Gasterosteus-aculeatus_ENSGACT00000014373.1_idh2-isocitrate-:0.028977,Oryzias-latipes_ENSORLT00000010323.1_idh2-isocitrate-dehydro:0.034851)65:0.006862,(Danio-rerio_ENSDART00000163226.1_idh2-isocitrate-dehydrogena:0.323142,Tetraodon-nigroviridis_ENSTNIT00000022680.1_idh2-isocitrate-:0.023367)69:0.004851)88:0.020202,((Gasterosteus-aculeatus_ENSGACT00000021795.1_NONE:0.076873,Tetraodon-nigroviridis_ENSTNIT00000014509.1_NONE:0.062380)66:0.003974,Oryzias-latipes_ENSORLT00000015782.1_NONE:0.075275)82:0.022990)49:0.010718,Xenopus-tropicalis_ENSXETT00000057536.1_idh2-isocitrate-dehy:0.070465)44:0.006636,(Gallus-gallus_ENSGALT00000061698.2_IDH2-isocitrate-dehy:0.044831,Homo-sapiens_ENST00000330062.8_IDH2-isocitrate-dehydro:0.061823)100:0.034744,Ciona-intestinalis_ENSCINT00000017691.3_NONE:0.189575);
+
+>MonophyleticGeneGroups
+BonyVertebrates                 r  D=Y
+Teleostei                       r  D=Y
+Percomorpha                     82  D=N
+Oryzias-latipes                 leaf  leaf
+
+>SisterGeneGroups
+BonyVertebrates                 r   Amniota
+Teleostei                       100   Xenopus-tropicalis
+Percomorpha                     r   Teleostei(Eupercaria;Oryzias-latipes;Danio-rerio)
+Oryzias-latipes                 82   Eupercaria
+
+>Number_of_duplicatedNode
+BonyVertebrates                 0
+Teleostei                       0
+Percomorpha                     0
+Oryzias-latipes                 0
+
+>AnalysisTime
+20.5 seconds

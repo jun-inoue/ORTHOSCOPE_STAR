@@ -1,0 +1,210 @@
+################ Results: 1st analysis ################
+
+>QuerySequence
+Oryzias-latipes_ENSORLT00000017939.2_cacna1c-calcium-channel  <= [Identities = 1943/1943 (100%)] : Oryzias-latipes_ENSORLT00000017939.2_cacna1c-calcium-channel
+
+>Number_of_blastHits
+Drosophila-melanogaster  9
+Ciona-intestinalis       10
+Xenopus-tropicalis       10
+Gallus-gallus            10
+Homo-sapiens             10
+Danio-rerio              10
+Tetraodon-nigroviridis   10
+Gasterosteus-aculeatus   10
+Oryzias-latipes          10
+
+>BS_of_orthogroupBasalNode
+100
+
+
+>Orthogroup
+Danio-rerio_ENSDART00000132909.2_cacna1c-calcium-channel-vol
+Gallus-gallus_ENSGALT00000094891.1_CACNA1C-calcium-volt
+Gasterosteus-aculeatus_ENSGACT00000026077.2_cacna1c-calcium-
+Homo-sapiens_ENST00000399634.5_CACNA1C-calcium-voltage
+Homo-sapiens_ENST00000643528.1_CACNA1C-calcium-voltage
+Oryzias-latipes_ENSORLT00000017939.2_cacna1c-calcium-channel
+Tetraodon-nigroviridis_ENSTNIT00000010573.1_cacna1c-calcium-
+Xenopus-tropicalis_ENSXETT00000034189.3_CACNA1C-calcium-volt
+
+>GeneNumber_of_orthogroup
+Xenopus-tropicalis      1
+Gallus-gallus           1
+Homo-sapiens            2
+Danio-rerio             1
+Oryzias-latipes         1
+Tetraodon-nigroviridis  1
+Gasterosteus-aculeatus  1
+
+>Rooting
+Oryzias-latipes_ENSORLT00000003231.1_cacna1da-calcium-channe
+
+
+>1st_rearranged_gene_tree_newick
+(((((((((((((((Oryzias-latipes_ENSORLT00000003231.1_cacna1da-calcium-channe,Gasterosteus-aculeatus_ENSGACT00000002103.1_cacna1da-calcium)100_S=Percomorpha_D=N,Tetraodon-nigroviridis_ENSTNIT00000017934.1_cacna1da-calcium)93_S=Percomorpha_D=Y,Danio-rerio_ENSDART00000173386.1_cacna1da-calcium-channel-vo)98_S=Teleostei_D=N,(((Gasterosteus-aculeatus_ENSGACT00000007939.1_cfap74-cilia-and,Tetraodon-nigroviridis_ENSTNIT00000015183.1_CACNA1D-calcium-)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000004221.1_CACNA1D-calcium-voltage)94_S=Percomorpha_D=N,Danio-rerio_ENSDART00000164792.1_cfap74-cilia-and-flagella-a)100_S=Teleostei_D=N)99_S=Teleostei_D=Y,(Homo-sapiens_ENST00000288139.11_CACNA1D-calcium-voltag,Gallus-gallus_ENSGALT00000036264.4_CACNA1D-calcium-volt)100_S=Amniota_D=N)100_S=BonyVertebrates_D=N,((Homo-sapiens_ENST00000376265.2_CACNA1F-calcium-voltage,Xenopus-tropicalis_ENSXETT00000015655.2_cacna1f-calcium-chan)85_S=Tetrapoda_D=N,((((Gasterosteus-aculeatus_ENSGACT00000001030.1_cacna1fb-calcium,Tetraodon-nigroviridis_ENSTNIT00000017402.1_cacna1fb-calcium)92_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000021249.1_NONE)r_S=Percomorpha_D=N,Danio-rerio_ENSDART00000134151.1_cacna1fb-calcium-channel-vo)99_S=Teleostei_D=N,(((Oryzias-latipes_ENSORLT00000018228.1_cacna1fa-calcium-channe,Tetraodon-nigroviridis_ENSTNIT00000015674.1_CACNA1F-calcium-)91_S=Percomorpha_D=N,Gasterosteus-aculeatus_ENSGACT00000016058.1_cacna1fa-calcium)100_S=Percomorpha_D=Y,Danio-rerio_ENSDART00000011078.8_cacna1fa-calcium-channel-vo)100_S=Teleostei_D=N)100_S=Teleostei_D=Y)100_S=BonyVertebrates_D=N)100_S=BonyVertebrates_D=Y,((((Homo-sapiens_ENST00000643528.1_CACNA1C-calcium-voltage,Homo-sapiens_ENST00000399634.5_CACNA1C-calcium-voltage)100_S=Homo-sapiens_D=Y,Gallus-gallus_ENSGALT00000094891.1_CACNA1C-calcium-volt)89_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000034189.3_CACNA1C-calcium-volt)100_S=Tetrapoda_D=N,(((Oryzias-latipes_ENSORLT00000017939.2_cacna1c-calcium-channel,Gasterosteus-aculeatus_ENSGACT00000026077.2_cacna1c-calcium-)98_S=Percomorpha_D=N,Tetraodon-nigroviridis_ENSTNIT00000010573.1_cacna1c-calcium-)99_S=Percomorpha_D=Y,Danio-rerio_ENSDART00000132909.2_cacna1c-calcium-channel-vol)100_S=Teleostei_D=N)100_S=BonyVertebrates_D=N)99_S=BonyVertebrates_D=Y,(((Homo-sapiens_ENST00000362061.4_CACNA1S-calcium-voltage,Gallus-gallus_ENSGALT00000048794.2_CACNA1S-calcium-volt)81_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000033135.3_cacna1s-calcium-chan)85_S=Tetrapoda_D=N,(((Oryzias-latipes_ENSORLT00000013458.1_cacna1sa-calcium-channe,Gasterosteus-aculeatus_ENSGACT00000015457.1_NONE)100_S=Percomorpha_D=N,Danio-rerio_ENSDART00000172206.1_cacna1sa-calcium-channel-vo)82_S=Teleostei_D=N,(((Gasterosteus-aculeatus_ENSGACT00000011800.1_cacna1sb-calcium,Tetraodon-nigroviridis_ENSTNIT00000018360.1_cacna1sb-calcium)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000009315.1_cacna1sb-calcium-channe)100_S=Percomorpha_D=N,Danio-rerio_ENSDART00000062406.5_cacna1sb-calcium-channel-vo)r_S=Teleostei_D=N)100_S=Teleostei_D=Y)94_S=BonyVertebrates_D=N)r_S=BonyVertebrates_D=Y,Ciona-intestinalis_ENSCINT00000015622.3_NONE)r_S=Deuterostomia_D=N,Drosophila-melanogaster_FBtr0090004_Ca-alpha1D-Ca-channel-p)100_S=Bilateria_D=N,((((((Gasterosteus-aculeatus_ENSGACT00000004394.1_cacna1ba-calcium,Xenopus-tropicalis_ENSXETT00000027354.3_CACNA1B-calcium-volt)93_S=BonyVertebrates_D=N,((Homo-sapiens_ENST00000371355.8_CACNA1B-calcium-voltage,Gallus-gallus_ENSGALT00000040102.5_CACNA1B-calcium-volt)r_S=Amniota_D=N,(((Gasterosteus-aculeatus_ENSGACT00000023918.1_cacna1bb-calcium,Tetraodon-nigroviridis_ENSTNIT00000008049.1_cacna1bb-calcium)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000017326.1_cacna1bb-calcium-channe)r_S=Percomorpha_D=N,Danio-rerio_ENSDART00000089967.5_cacna1bb-calcium-channel-vo)r_S=Teleostei_D=N)r_S=BonyVertebrates_D=N)81_S=BonyVertebrates_D=Y,((Homo-sapiens_ENST00000638029.1_CACNA1A-calcium-voltage,Xenopus-tropicalis_ENSXETT00000027326.3_cacna1a-calcium-chan)r_S=Tetrapoda_D=N,((Gasterosteus-aculeatus_ENSGACT00000016875.1_cacna1aa-calcium,Danio-rerio_ENSDART00000013228.8_cacna1aa-calcium-channel-vo)95_S=Teleostei_D=N,(Tetraodon-nigroviridis_ENSTNIT00000014449.1_cacna1ab-calcium,Danio-rerio_ENSDART00000159997.1_cacna1ab-calcium-channel-vo)84_S=Teleostei_D=N)100_S=Teleostei_D=Y)81_S=BonyVertebrates_D=N)74_S=BonyVertebrates_D=Y,(((Homo-sapiens_ENST00000367573.7_CACNA1E-calcium-voltage,Gallus-gallus_ENSGALT00000061394.2_CACNA1E-calcium-volt)75_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000027314.3_cacna1e-calcium-chan)98_S=Tetrapoda_D=N,((Oryzias-latipes_ENSORLT00000021779.1_cacna1eb-calcium-channe,Tetraodon-nigroviridis_ENSTNIT00000011533.1_NONE)100_S=Percomorpha_D=N,(Oryzias-latipes_ENSORLT00000021666.1_cacna1ea-calcium-channe,Tetraodon-nigroviridis_ENSTNIT00000018795.1_cacna1ea-calcium)100_S=Percomorpha_D=N)94_S=Percomorpha_D=Y)98_S=BonyVertebrates_D=N)91_S=BonyVertebrates_D=Y,Ciona-intestinalis_ENSCINT00000004981.3_NONE)77_S=Deuterostomia_D=N,Drosophila-melanogaster_FBtr0307325_cac-cacophony-DBNLINE-1)84_S=Bilateria_D=N)r_S=Bilateria_D=Y,(((((((Gallus-gallus_ENSGALT00000055816.2_SCN8A-sodium-voltage,Xenopus-tropicalis_ENSXETT00000015904.3_scn8a-sodium-channel)100_S=Tetrapoda_D=N,((Gallus-gallus_ENSGALT00000017981.6_sodium-voltage-gated,Gallus-gallus_ENSGALT00000017933.6_SCN2A-sodium-voltage)75_S=Gallus-gallus_D=Y,Gallus-gallus_ENSGALT00000017814.7_SCN1A-sodium-voltage)100_S=Gallus-gallus_D=Y)77_S=Tetrapoda_D=Y,(Homo-sapiens_ENST00000642356.2_SCN9A-sodium-voltage-ga,Xenopus-tropicalis_ENSXETT00000031166.3_scn4a-sodium-channel)r_S=Tetrapoda_D=N)99_S=Tetrapoda_D=Y,(Homo-sapiens_ENST00000643258.1_SCN7A-sodium-voltage-ga,Gallus-gallus_ENSGALT00000042757.3_SCN11A-sodium-voltag)r_S=Amniota_D=N)85_S=Tetrapoda_D=Y,Ciona-intestinalis_ENSCINT00000004967.3_NONE)74_S=Deuterostomia_D=N,Drosophila-melanogaster_FBtr0331170_para-paralytic-DBNLINE-)80_S=Bilateria_D=N,((Ciona-intestinalis_ENSCINT00000011383.3_NONE,Ciona-intestinalis_ENSCINT00000030207.1_NONE)r_S=Ciona-intestinalis_D=Y,Drosophila-melanogaster_FBtr0330240_NaCP60E-Na-channel-prot)r_S=Bilateria_D=N)100_S=Bilateria_D=Y)r_S=Bilateria_D=Y,(Ciona-intestinalis_ENSCINT00000037025.1_NONE,(Drosophila-melanogaster_FBtr0344822_na-narrow-abdomen-DBNLI,Drosophila-melanogaster_FBtr0080365_Pkd2-Polycystic-kidney-)r_S=Drosophila-melanogaster_D=Y)r_S=Bilateria_D=N)88_S=Bilateria_D=Y,(Ciona-intestinalis_ENSCINT00000008317.3_NONE,Drosophila-melanogaster_FBtr0334984_Ca-alpha1T-Ca-channel-p)95_S=Bilateria_D=N)r_S=Bilateria_D=Y,Drosophila-melanogaster_FBtr0333898_Shab-Shaker-cognate-b-D)r_S=Bilateria_D=Y;
+
+>1st_rearranged_gene_tree_NHX
+(((((((((((((((Oryzias-latipes_ENSORLT00000003231.1_cacna1da-calcium-channe:0.021861[&&NHX:S=Oryzias-latipes],Gasterosteus-aculeatus_ENSGACT00000002103.1_cacna1da-calcium:0.011817[&&NHX:S=Gasterosteus-aculeatus])n2:0.015295[&&NHX:S=Percomorpha:D=N:B=100.0],Tetraodon-nigroviridis_ENSTNIT00000017934.1_cacna1da-calcium:0.019478[&&NHX:S=Tetraodon-nigroviridis])n4:0.004339[&&NHX:S=Percomorpha:D=Y:B=93.0],Danio-rerio_ENSDART00000173386.1_cacna1da-calcium-channel-vo:0.026732[&&NHX:S=Danio-rerio])n6:0.01237[&&NHX:S=Teleostei:D=N:B=98.0],(((Gasterosteus-aculeatus_ENSGACT00000007939.1_cfap74-cilia-and:0.009493[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000015183.1_CACNA1D-calcium-:0.010881[&&NHX:S=Tetraodon-nigroviridis])r185[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000004221.1_CACNA1D-calcium-voltage:0.025752[&&NHX:S=Oryzias-latipes])n11:0.005649[&&NHX:S=Percomorpha:D=N:B=94.0],Danio-rerio_ENSDART00000164792.1_cfap74-cilia-and-flagella-a:0.136755[&&NHX:S=Danio-rerio])n13:0.018948[&&NHX:S=Teleostei:D=N:B=100.0])n14:0.010549[&&NHX:S=Teleostei:D=Y:B=99.0],(Homo-sapiens_ENST00000288139.11_CACNA1D-calcium-voltag:0.022029[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000036264.4_CACNA1D-calcium-volt:0.02096[&&NHX:S=Gallus-gallus])n17:0.015688[&&NHX:S=Amniota:D=N:B=100.0])n18:0.014697[&&NHX:S=BonyVertebrates:D=N:B=100.0],((Homo-sapiens_ENST00000376265.2_CACNA1F-calcium-voltage:0.078535[&&NHX:S=Homo-sapiens],Xenopus-tropicalis_ENSXETT00000015655.2_cacna1f-calcium-chan:0.168617[&&NHX:S=Xenopus-tropicalis])n21:0.015719[&&NHX:S=Tetrapoda:D=N:B=85.0],((((Gasterosteus-aculeatus_ENSGACT00000001030.1_cacna1fb-calcium:0.019443[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000017402.1_cacna1fb-calcium:0.027467[&&NHX:S=Tetraodon-nigroviridis])n24:0.00841[&&NHX:S=Eupercaria:D=N:B=92.0],Oryzias-latipes_ENSORLT00000021249.1_NONE:0.224734[&&NHX:S=Oryzias-latipes])r187[&&NHX:S=Percomorpha:D=N],Danio-rerio_ENSDART00000134151.1_cacna1fb-calcium-channel-vo:0.024705[&&NHX:S=Danio-rerio])n28:0.025089[&&NHX:S=Teleostei:D=N:B=99.0],(((Oryzias-latipes_ENSORLT00000018228.1_cacna1fa-calcium-channe:0.015696[&&NHX:S=Oryzias-latipes],Tetraodon-nigroviridis_ENSTNIT00000015674.1_CACNA1F-calcium-:0.015552[&&NHX:S=Tetraodon-nigroviridis])n31:0.001446[&&NHX:S=Percomorpha:D=N:B=91.0],Gasterosteus-aculeatus_ENSGACT00000016058.1_cacna1fa-calcium:0.025033[&&NHX:S=Gasterosteus-aculeatus])n33:0.038424[&&NHX:S=Percomorpha:D=Y:B=100.0],Danio-rerio_ENSDART00000011078.8_cacna1fa-calcium-channel-vo:0.046398[&&NHX:S=Danio-rerio])n35:0.080303[&&NHX:S=Teleostei:D=N:B=100.0])n36:0.033553[&&NHX:S=Teleostei:D=Y:B=100.0])n37:0.028585[&&NHX:S=BonyVertebrates:D=N:B=100.0])n38:0.02462[&&NHX:S=BonyVertebrates:D=Y:B=100.0],((((Homo-sapiens_ENST00000643528.1_CACNA1C-calcium-voltage:0.0[&&NHX:S=Homo-sapiens],Homo-sapiens_ENST00000399634.5_CACNA1C-calcium-voltage:0.0[&&NHX:S=Homo-sapiens])n41:0.015873[&&NHX:S=Homo-sapiens:D=Y:B=100.0],Gallus-gallus_ENSGALT00000094891.1_CACNA1C-calcium-volt:0.01321[&&NHX:S=Gallus-gallus])n43:0.01047[&&NHX:S=Amniota:D=N:B=89.0],Xenopus-tropicalis_ENSXETT00000034189.3_CACNA1C-calcium-volt:0.026695[&&NHX:S=Xenopus-tropicalis])n45:0.015386[&&NHX:S=Tetrapoda:D=N:B=100.0],(((Oryzias-latipes_ENSORLT00000017939.2_cacna1c-calcium-channel:0.010135[&&NHX:S=Oryzias-latipes],Gasterosteus-aculeatus_ENSGACT00000026077.2_cacna1c-calcium-:0.012064[&&NHX:S=Gasterosteus-aculeatus])n48:0.006621[&&NHX:S=Percomorpha:D=N:B=98.0],Tetraodon-nigroviridis_ENSTNIT00000010573.1_cacna1c-calcium-:0.024793[&&NHX:S=Tetraodon-nigroviridis])n50:0.008112[&&NHX:S=Percomorpha:D=Y:B=99.0],Danio-rerio_ENSDART00000132909.2_cacna1c-calcium-channel-vol:0.019273[&&NHX:S=Danio-rerio])n52:0.029516[&&NHX:S=Teleostei:D=N:B=100.0])n53:0.024967[&&NHX:S=BonyVertebrates:D=N:B=100.0])n54:0.019622[&&NHX:S=BonyVertebrates:D=Y:B=99.0],(((Homo-sapiens_ENST00000362061.4_CACNA1S-calcium-voltage:0.06684[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000048794.2_CACNA1S-calcium-volt:0.046933[&&NHX:S=Gallus-gallus])n57:0.01385[&&NHX:S=Amniota:D=N:B=81.0],Xenopus-tropicalis_ENSXETT00000033135.3_cacna1s-calcium-chan:0.087163[&&NHX:S=Xenopus-tropicalis])n59:0.014071[&&NHX:S=Tetrapoda:D=N:B=85.0],(((Oryzias-latipes_ENSORLT00000013458.1_cacna1sa-calcium-channe:0.020998[&&NHX:S=Oryzias-latipes],Gasterosteus-aculeatus_ENSGACT00000015457.1_NONE:0.021336[&&NHX:S=Gasterosteus-aculeatus])n69:0.049325[&&NHX:S=Percomorpha:D=N:B=100.0],Danio-rerio_ENSDART00000172206.1_cacna1sa-calcium-channel-vo:0.061326[&&NHX:S=Danio-rerio])n71:0.015777[&&NHX:S=Teleostei:D=N:B=82.0],(((Gasterosteus-aculeatus_ENSGACT00000011800.1_cacna1sb-calcium:0.023282[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000018360.1_cacna1sb-calcium:0.021477[&&NHX:S=Tetraodon-nigroviridis])r191[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000009315.1_cacna1sb-calcium-channe:0.028219[&&NHX:S=Oryzias-latipes])n64:0.05323[&&NHX:S=Percomorpha:D=N:B=100.0],Danio-rerio_ENSDART00000062406.5_cacna1sb-calcium-channel-vo:0.112255[&&NHX:S=Danio-rerio])r189[&&NHX:S=Teleostei:D=N])n72:0.050984[&&NHX:S=Teleostei:D=Y:B=100.0])n73:0.055284[&&NHX:S=BonyVertebrates:D=N:B=94.0])r183[&&NHX:S=BonyVertebrates:D=Y],Ciona-intestinalis_ENSCINT00000015622.3_NONE:0.170435[&&NHX:S=Ciona-intestinalis])r182[&&NHX:S=Deuterostomia:D=N],Drosophila-melanogaster_FBtr0090004_Ca-alpha1D-Ca-channel-p:0.195241[&&NHX:S=Drosophila-melanogaster])n78:0.125371[&&NHX:S=Bilateria:D=N:B=100.0],((((((Gasterosteus-aculeatus_ENSGACT00000004394.1_cacna1ba-calcium:0.098283[&&NHX:S=Gasterosteus-aculeatus],Xenopus-tropicalis_ENSXETT00000027354.3_CACNA1B-calcium-volt:0.040295[&&NHX:S=Xenopus-tropicalis])n81:0.035293[&&NHX:S=BonyVertebrates:D=N:B=93.0],((Homo-sapiens_ENST00000371355.8_CACNA1B-calcium-voltage:0.037763[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000040102.5_CACNA1B-calcium-volt:0.025844[&&NHX:S=Gallus-gallus])r195[&&NHX:S=Amniota:D=N],(((Gasterosteus-aculeatus_ENSGACT00000023918.1_cacna1bb-calcium:0.014788[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000008049.1_cacna1bb-calcium:0.080854[&&NHX:S=Tetraodon-nigroviridis])r199[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000017326.1_cacna1bb-calcium-channe:0.025776[&&NHX:S=Oryzias-latipes])r198[&&NHX:S=Percomorpha:D=N],Danio-rerio_ENSDART00000089967.5_cacna1bb-calcium-channel-vo:0.053969[&&NHX:S=Danio-rerio])r197[&&NHX:S=Teleostei:D=N])r193[&&NHX:S=BonyVertebrates:D=N])n93:0.032576[&&NHX:S=BonyVertebrates:D=Y:B=81.0],((Homo-sapiens_ENST00000638029.1_CACNA1A-calcium-voltage:0.046543[&&NHX:S=Homo-sapiens],Xenopus-tropicalis_ENSXETT00000027326.3_cacna1a-calcium-chan:0.083635[&&NHX:S=Xenopus-tropicalis])r201[&&NHX:S=Tetrapoda:D=N],((Gasterosteus-aculeatus_ENSGACT00000016875.1_cacna1aa-calcium:0.03989[&&NHX:S=Gasterosteus-aculeatus],Danio-rerio_ENSDART00000013228.8_cacna1aa-calcium-channel-vo:0.032128[&&NHX:S=Danio-rerio])n99:0.022558[&&NHX:S=Teleostei:D=N:B=95.0],(Tetraodon-nigroviridis_ENSTNIT00000014449.1_cacna1ab-calcium:0.060628[&&NHX:S=Tetraodon-nigroviridis],Danio-rerio_ENSDART00000159997.1_cacna1ab-calcium-channel-vo:0.045798[&&NHX:S=Danio-rerio])n102:0.009673[&&NHX:S=Teleostei:D=N:B=84.0])n103:0.016992[&&NHX:S=Teleostei:D=Y:B=100.0])n104:0.03198[&&NHX:S=BonyVertebrates:D=N:B=81.0])n105:0.009633[&&NHX:S=BonyVertebrates:D=Y:B=74.0],(((Homo-sapiens_ENST00000367573.7_CACNA1E-calcium-voltage:0.021563[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000061394.2_CACNA1E-calcium-volt:0.014559[&&NHX:S=Gallus-gallus])n108:0.00459[&&NHX:S=Amniota:D=N:B=75.0],Xenopus-tropicalis_ENSXETT00000027314.3_cacna1e-calcium-chan:0.074819[&&NHX:S=Xenopus-tropicalis])n110:0.039283[&&NHX:S=Tetrapoda:D=N:B=98.0],((Oryzias-latipes_ENSORLT00000021779.1_cacna1eb-calcium-channe:0.025693[&&NHX:S=Oryzias-latipes],Tetraodon-nigroviridis_ENSTNIT00000011533.1_NONE:0.023738[&&NHX:S=Tetraodon-nigroviridis])n113:0.04346[&&NHX:S=Percomorpha:D=N:B=100.0],(Oryzias-latipes_ENSORLT00000021666.1_cacna1ea-calcium-channe:0.025485[&&NHX:S=Oryzias-latipes],Tetraodon-nigroviridis_ENSTNIT00000018795.1_cacna1ea-calcium:0.030588[&&NHX:S=Tetraodon-nigroviridis])n116:0.02458[&&NHX:S=Percomorpha:D=N:B=100.0])n117:0.022679[&&NHX:S=Percomorpha:D=Y:B=94.0])n118:0.067546[&&NHX:S=BonyVertebrates:D=N:B=98.0])n119:0.070127[&&NHX:S=BonyVertebrates:D=Y:B=91.0],Ciona-intestinalis_ENSCINT00000004981.3_NONE:0.230932[&&NHX:S=Ciona-intestinalis])n121:0.041481[&&NHX:S=Deuterostomia:D=N:B=77.0],Drosophila-melanogaster_FBtr0307325_cac-cacophony-DBNLINE-1:0.217056[&&NHX:S=Drosophila-melanogaster])n123:0.150952[&&NHX:S=Bilateria:D=N:B=84.0])r176[&&NHX:S=Bilateria:D=Y],(((((((Gallus-gallus_ENSGALT00000055816.2_SCN8A-sodium-voltage:0.034793[&&NHX:S=Gallus-gallus],Xenopus-tropicalis_ENSXETT00000015904.3_scn8a-sodium-channel:0.042284[&&NHX:S=Xenopus-tropicalis])n129:0.03971[&&NHX:S=Tetrapoda:D=N:B=100.0],((Gallus-gallus_ENSGALT00000017981.6_sodium-voltage-gated:0.017129[&&NHX:S=Gallus-gallus],Gallus-gallus_ENSGALT00000017933.6_SCN2A-sodium-voltage:0.018773[&&NHX:S=Gallus-gallus])n132:0.008579[&&NHX:S=Gallus-gallus:D=Y:B=75.0],Gallus-gallus_ENSGALT00000017814.7_SCN1A-sodium-voltage:0.029046[&&NHX:S=Gallus-gallus])n134:0.027664[&&NHX:S=Gallus-gallus:D=Y:B=100.0])n135:0.015789[&&NHX:S=Tetrapoda:D=Y:B=77.0],(Homo-sapiens_ENST00000642356.2_SCN9A-sodium-voltage-ga:0.082522[&&NHX:S=Homo-sapiens],Xenopus-tropicalis_ENSXETT00000031166.3_scn4a-sodium-channel:0.126375[&&NHX:S=Xenopus-tropicalis])r214[&&NHX:S=Tetrapoda:D=N])n139:0.065339[&&NHX:S=Tetrapoda:D=Y:B=99.0],(Homo-sapiens_ENST00000643258.1_SCN7A-sodium-voltage-ga:0.408717[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000042757.3_SCN11A-sodium-voltag:0.275866[&&NHX:S=Gallus-gallus])r211[&&NHX:S=Amniota:D=N])n143:0.022507[&&NHX:S=Tetrapoda:D=Y:B=85.0],Ciona-intestinalis_ENSCINT00000004967.3_NONE:0.25495[&&NHX:S=Ciona-intestinalis])n145:0.046265[&&NHX:S=Deuterostomia:D=N:B=74.0],Drosophila-melanogaster_FBtr0331170_para-paralytic-DBNLINE-:0.335862[&&NHX:S=Drosophila-melanogaster])n147:0.055832[&&NHX:S=Bilateria:D=N:B=80.0],((Ciona-intestinalis_ENSCINT00000011383.3_NONE:0.40064[&&NHX:S=Ciona-intestinalis],Ciona-intestinalis_ENSCINT00000030207.1_NONE:0.377914[&&NHX:S=Ciona-intestinalis])r208[&&NHX:S=Ciona-intestinalis:D=Y],Drosophila-melanogaster_FBtr0330240_NaCP60E-Na-channel-prot:0.424568[&&NHX:S=Drosophila-melanogaster])r205[&&NHX:S=Bilateria:D=N])n153:0.344664[&&NHX:S=Bilateria:D=Y:B=100.0])r175[&&NHX:S=Bilateria:D=Y],(Ciona-intestinalis_ENSCINT00000037025.1_NONE:1.070663[&&NHX:S=Ciona-intestinalis],(Drosophila-melanogaster_FBtr0344822_na-narrow-abdomen-DBNLI:1.042242[&&NHX:S=Drosophila-melanogaster],Drosophila-melanogaster_FBtr0080365_Pkd2-Polycystic-kidney-:1.265823[&&NHX:S=Drosophila-melanogaster])r180[&&NHX:S=Drosophila-melanogaster:D=Y])r177[&&NHX:S=Bilateria:D=N])n158:0.39277[&&NHX:S=Bilateria:D=Y:B=88.0],(Ciona-intestinalis_ENSCINT00000008317.3_NONE:0.195788[&&NHX:S=Ciona-intestinalis],Drosophila-melanogaster_FBtr0334984_Ca-alpha1T-Ca-channel-p:0.243891[&&NHX:S=Drosophila-melanogaster])n161:0.044912[&&NHX:S=Bilateria:D=N:B=95.0])r171[&&NHX:S=Bilateria:D=Y],Drosophila-melanogaster_FBtr0333898_Shab-Shaker-cognate-b-D:1.348285[&&NHX:S=Drosophila-melanogaster])n164[&&NHX:S=Bilateria:D=Y];
+
+>1st_gene_tree_newick
+((((((((((((((Tetraodon-nigroviridis_ENSTNIT00000017934.1_cacna1da-calcium:0.019478,(Gasterosteus-aculeatus_ENSGACT00000002103.1_cacna1da-calcium:0.011817,Oryzias-latipes_ENSORLT00000003231.1_cacna1da-calcium-channe:0.021861)100:0.015295)93:0.004339,Danio-rerio_ENSDART00000173386.1_cacna1da-calcium-channel-vo:0.026732)98:0.012370,(Danio-rerio_ENSDART00000164792.1_cfap74-cilia-and-flagella-a:0.136755,((Tetraodon-nigroviridis_ENSTNIT00000015183.1_CACNA1D-calcium-:0.010881,Oryzias-latipes_ENSORLT00000004221.1_CACNA1D-calcium-voltage:0.025752)35:0.008428,Gasterosteus-aculeatus_ENSGACT00000007939.1_cfap74-cilia-and:0.009493)94:0.005649)100:0.018948)99:0.010549,(Gallus-gallus_ENSGALT00000036264.4_CACNA1D-calcium-volt:0.020960,Homo-sapiens_ENST00000288139.11_CACNA1D-calcium-voltag:0.022029)100:0.015688)100:0.014697,((Xenopus-tropicalis_ENSXETT00000015655.2_cacna1f-calcium-chan:0.168617,Homo-sapiens_ENST00000376265.2_CACNA1F-calcium-voltage:0.078535)85:0.015719,((Danio-rerio_ENSDART00000134151.1_cacna1fb-calcium-channel-vo:0.024705,((Tetraodon-nigroviridis_ENSTNIT00000017402.1_cacna1fb-calcium:0.027467,Gasterosteus-aculeatus_ENSGACT00000001030.1_cacna1fb-calcium:0.019443)92:0.008410,Oryzias-latipes_ENSORLT00000021249.1_NONE:0.224734)18:0.005599)99:0.025089,(Danio-rerio_ENSDART00000011078.8_cacna1fa-calcium-channel-vo:0.046398,((Tetraodon-nigroviridis_ENSTNIT00000015674.1_CACNA1F-calcium-:0.015552,Oryzias-latipes_ENSORLT00000018228.1_cacna1fa-calcium-channe:0.015696)91:0.001446,Gasterosteus-aculeatus_ENSGACT00000016058.1_cacna1fa-calcium:0.025033)100:0.038424)100:0.080303)100:0.033553)100:0.028585)100:0.024620,((Xenopus-tropicalis_ENSXETT00000034189.3_CACNA1C-calcium-volt:0.026695,(Gallus-gallus_ENSGALT00000094891.1_CACNA1C-calcium-volt:0.013210,(Homo-sapiens_ENST00000399634.5_CACNA1C-calcium-voltage:0.000000,Homo-sapiens_ENST00000643528.1_CACNA1C-calcium-voltage:0.000000)100:0.015873)89:0.010470)100:0.015386,(Danio-rerio_ENSDART00000132909.2_cacna1c-calcium-channel-vol:0.019273,(Tetraodon-nigroviridis_ENSTNIT00000010573.1_cacna1c-calcium-:0.024793,(Gasterosteus-aculeatus_ENSGACT00000026077.2_cacna1c-calcium-:0.012064,Oryzias-latipes_ENSORLT00000017939.2_cacna1c-calcium-channel:0.010135)98:0.006621)99:0.008112)100:0.029516)100:0.024967)99:0.019622,((Xenopus-tropicalis_ENSXETT00000033135.3_cacna1s-calcium-chan:0.087163,(Gallus-gallus_ENSGALT00000048794.2_CACNA1S-calcium-volt:0.046933,Homo-sapiens_ENST00000362061.4_CACNA1S-calcium-voltage:0.066840)81:0.013850)85:0.014071,((Danio-rerio_ENSDART00000062406.5_cacna1sb-calcium-channel-vo:0.112255,((Tetraodon-nigroviridis_ENSTNIT00000018360.1_cacna1sb-calcium:0.021477,Gasterosteus-aculeatus_ENSGACT00000011800.1_cacna1sb-calcium:0.023282)49:0.002137,Oryzias-latipes_ENSORLT00000009315.1_cacna1sb-calcium-channe:0.028219)100:0.053230)23:0.009074,(Danio-rerio_ENSDART00000172206.1_cacna1sa-calcium-channel-vo:0.061326,(Gasterosteus-aculeatus_ENSGACT00000015457.1_NONE:0.021336,Oryzias-latipes_ENSORLT00000013458.1_cacna1sa-calcium-channe:0.020998)100:0.049325)82:0.015777)100:0.050984)94:0.055284)59:0.024907,Ciona-intestinalis_ENSCINT00000015622.3_NONE:0.170435)40:0.023314,Drosophila-melanogaster_FBtr0090004_Ca-alpha1D-Ca-channel-p:0.195241)100:0.125371,(Drosophila-melanogaster_FBtr0307325_cac-cacophony-DBNLINE-1:0.217056,(Ciona-intestinalis_ENSCINT00000004981.3_NONE:0.230932,((((((Xenopus-tropicalis_ENSXETT00000027354.3_CACNA1B-calcium-volt:0.040295,Gasterosteus-aculeatus_ENSGACT00000004394.1_cacna1ba-calcium:0.098283)93:0.035293,Homo-sapiens_ENST00000371355.8_CACNA1B-calcium-voltage:0.037763)0:0.002561,Gallus-gallus_ENSGALT00000040102.5_CACNA1B-calcium-volt:0.025844)0:0.020711,(Danio-rerio_ENSDART00000089967.5_cacna1bb-calcium-channel-vo:0.053969,((Tetraodon-nigroviridis_ENSTNIT00000008049.1_cacna1bb-calcium:0.080854,Gasterosteus-aculeatus_ENSGACT00000023918.1_cacna1bb-calcium:0.014788)19:0.025360,Oryzias-latipes_ENSORLT00000017326.1_cacna1bb-calcium-channe:0.025776)8:0.013970)9:0.020568)81:0.032576,((Xenopus-tropicalis_ENSXETT00000027326.3_cacna1a-calcium-chan:0.083635,Homo-sapiens_ENST00000638029.1_CACNA1A-calcium-voltage:0.046543)69:0.013259,((Danio-rerio_ENSDART00000013228.8_cacna1aa-calcium-channel-vo:0.032128,Gasterosteus-aculeatus_ENSGACT00000016875.1_cacna1aa-calcium:0.039890)95:0.022558,(Danio-rerio_ENSDART00000159997.1_cacna1ab-calcium-channel-vo:0.045798,Tetraodon-nigroviridis_ENSTNIT00000014449.1_cacna1ab-calcium:0.060628)84:0.009673)100:0.016992)81:0.031980)74:0.009633,((Xenopus-tropicalis_ENSXETT00000027314.3_cacna1e-calcium-chan:0.074819,(Gallus-gallus_ENSGALT00000061394.2_CACNA1E-calcium-volt:0.014559,Homo-sapiens_ENST00000367573.7_CACNA1E-calcium-voltage:0.021563)75:0.004590)98:0.039283,((Tetraodon-nigroviridis_ENSTNIT00000011533.1_NONE:0.023738,Oryzias-latipes_ENSORLT00000021779.1_cacna1eb-calcium-channe:0.025693)100:0.043460,(Tetraodon-nigroviridis_ENSTNIT00000018795.1_cacna1ea-calcium:0.030588,Oryzias-latipes_ENSORLT00000021666.1_cacna1ea-calcium-channe:0.025485)100:0.024580)94:0.022679)98:0.067546)91:0.070127)77:0.041481)84:0.150952)66:0.150695,Ciona-intestinalis_ENSCINT00000037025.1_NONE:1.070663)14:0.075215,(Drosophila-melanogaster_FBtr0344822_na-narrow-abdomen-DBNLI:1.042242,((((Drosophila-melanogaster_FBtr0331170_para-paralytic-DBNLINE-:0.335862,(Ciona-intestinalis_ENSCINT00000004967.3_NONE:0.254950,((((Xenopus-tropicalis_ENSXETT00000031166.3_scn4a-sodium-channel:0.126375,((Xenopus-tropicalis_ENSXETT00000015904.3_scn8a-sodium-channel:0.042284,Gallus-gallus_ENSGALT00000055816.2_SCN8A-sodium-voltage:0.034793)100:0.039710,((Gallus-gallus_ENSGALT00000017933.6_SCN2A-sodium-voltage:0.018773,Gallus-gallus_ENSGALT00000017981.6_sodium-voltage-gated:0.017129)75:0.008579,Gallus-gallus_ENSGALT00000017814.7_SCN1A-sodium-voltage:0.029046)100:0.027664)77:0.015789)51:0.007379,Homo-sapiens_ENST00000642356.2_SCN9A-sodium-voltage-ga:0.082522)99:0.065339,Homo-sapiens_ENST00000643258.1_SCN7A-sodium-voltage-ga:0.408717)57:0.041180,Gallus-gallus_ENSGALT00000042757.3_SCN11A-sodium-voltag:0.275866)85:0.022507)74:0.046265)80:0.055832,Ciona-intestinalis_ENSCINT00000011383.3_NONE:0.400640)56:0.038761,Ciona-intestinalis_ENSCINT00000030207.1_NONE:0.377914)30:0.043704,Drosophila-melanogaster_FBtr0330240_NaCP60E-Na-channel-prot:0.424568)100:0.344664)21:0.085010)12:0.027513,Drosophila-melanogaster_FBtr0080365_Pkd2-Polycystic-kidney-:1.265823)88:0.392770,(Drosophila-melanogaster_FBtr0334984_Ca-alpha1T-Ca-channel-p:0.243891,Ciona-intestinalis_ENSCINT00000008317.3_NONE:0.195788)95:0.044912,Drosophila-melanogaster_FBtr0333898_Shab-Shaker-cognate-b-D:1.348285);
+
+>Aligned-ShortSequence_threshold evaluation
+Drosophila-melanogaster_FBtr0333898_Shab-Shaker-cognate-b-D      0.52
+== Removed ==> Drosophila-melanogaster_FBtr0089657_Sh-Shaker-DBNLINE-578        0.378
+Drosophila-melanogaster_FBtr0080365_Pkd2-Polycystic-kidney-      0.558
+Drosophila-melanogaster_FBtr0344822_na-narrow-abdomen-DBNLI      0.945
+Drosophila-melanogaster_FBtr0334984_Ca-alpha1T-Ca-channel-p      0.952
+Drosophila-melanogaster_FBtr0331170_para-paralytic-DBNLINE-      0.994
+Drosophila-melanogaster_FBtr0330240_NaCP60E-Na-channel-prot      0.994
+Drosophila-melanogaster_FBtr0307325_cac-cacophony-DBNLINE-1      0.999
+Drosophila-melanogaster_FBtr0090004_Ca-alpha1D-Ca-channel-p      0.999
+== Removed ==> Ciona-intestinalis_ENSCINT00000022305.2_NONE                     0.282
+Ciona-intestinalis_ENSCINT00000037025.1_NONE                     0.466
+== Removed ==> Ciona-intestinalis_ENSCINT00000009347.3_NONE                     0.4
+== Removed ==> Ciona-intestinalis_ENSCINT00000016580.3_NONE                     0.324
+Ciona-intestinalis_ENSCINT00000008317.3_NONE                     0.861
+Ciona-intestinalis_ENSCINT00000011383.3_NONE                     0.991
+Ciona-intestinalis_ENSCINT00000030207.1_NONE                     0.95
+Ciona-intestinalis_ENSCINT00000004967.3_NONE                     1.0
+Ciona-intestinalis_ENSCINT00000004981.3_NONE                     0.995
+Ciona-intestinalis_ENSCINT00000015622.3_NONE                     0.999
+Xenopus-tropicalis_ENSXETT00000031166.3_scn4a-sodium-channel     0.998
+Xenopus-tropicalis_ENSXETT00000015904.3_scn8a-sodium-channel     1.0
+== Removed ==> Xenopus-tropicalis_ENSXETT00000015656.3_NONE                     0.171
+Xenopus-tropicalis_ENSXETT00000027354.3_CACNA1B-calcium-volt     0.511
+Xenopus-tropicalis_ENSXETT00000027314.3_cacna1e-calcium-chan     1.0
+Xenopus-tropicalis_ENSXETT00000027326.3_cacna1a-calcium-chan     0.999
+== Removed ==> Xenopus-tropicalis_ENSXETT00000034191.4_cacna1d-calcium-chan     0.26
+Xenopus-tropicalis_ENSXETT00000015655.2_cacna1f-calcium-chan     0.972
+Xenopus-tropicalis_ENSXETT00000033135.3_cacna1s-calcium-chan     0.847
+Xenopus-tropicalis_ENSXETT00000034189.3_CACNA1C-calcium-volt     0.986
+Gallus-gallus_ENSGALT00000055816.2_SCN8A-sodium-voltage          1.0
+Gallus-gallus_ENSGALT00000017933.6_SCN2A-sodium-voltage          1.0
+Gallus-gallus_ENSGALT00000017814.7_SCN1A-sodium-voltage          1.0
+Gallus-gallus_ENSGALT00000017981.6_sodium-voltage-gated          1.0
+Gallus-gallus_ENSGALT00000042757.3_SCN11A-sodium-voltag          0.989
+Gallus-gallus_ENSGALT00000061394.2_CACNA1E-calcium-volt          1.0
+Gallus-gallus_ENSGALT00000040102.5_CACNA1B-calcium-volt          1.0
+Gallus-gallus_ENSGALT00000048794.2_CACNA1S-calcium-volt          1.0
+Gallus-gallus_ENSGALT00000036264.4_CACNA1D-calcium-volt          1.0
+Gallus-gallus_ENSGALT00000094891.1_CACNA1C-calcium-volt          1.0
+Homo-sapiens_ENST00000642356.2_SCN9A-sodium-voltage-ga           1.0
+Homo-sapiens_ENST00000643258.1_SCN7A-sodium-voltage-ga           0.991
+Homo-sapiens_ENST00000367573.7_CACNA1E-calcium-voltage           1.0
+Homo-sapiens_ENST00000638029.1_CACNA1A-calcium-voltage           0.999
+Homo-sapiens_ENST00000371355.8_CACNA1B-calcium-voltage           1.0
+Homo-sapiens_ENST00000376265.2_CACNA1F-calcium-voltage           1.0
+Homo-sapiens_ENST00000362061.4_CACNA1S-calcium-voltage           1.0
+Homo-sapiens_ENST00000288139.11_CACNA1D-calcium-voltag           1.0
+Homo-sapiens_ENST00000399634.5_CACNA1C-calcium-voltage           1.0
+Homo-sapiens_ENST00000643528.1_CACNA1C-calcium-voltage           1.0
+Danio-rerio_ENSDART00000013228.8_cacna1aa-calcium-channel-vo     1.0
+Danio-rerio_ENSDART00000159997.1_cacna1ab-calcium-channel-vo     0.997
+Danio-rerio_ENSDART00000089967.5_cacna1bb-calcium-channel-vo     1.0
+Danio-rerio_ENSDART00000134151.1_cacna1fb-calcium-channel-vo     0.999
+Danio-rerio_ENSDART00000164792.1_cfap74-cilia-and-flagella-a     0.942
+Danio-rerio_ENSDART00000011078.8_cacna1fa-calcium-channel-vo     0.999
+Danio-rerio_ENSDART00000062406.5_cacna1sb-calcium-channel-vo     1.0
+Danio-rerio_ENSDART00000172206.1_cacna1sa-calcium-channel-vo     1.0
+Danio-rerio_ENSDART00000173386.1_cacna1da-calcium-channel-vo     0.998
+Danio-rerio_ENSDART00000132909.2_cacna1c-calcium-channel-vol     1.0
+Tetraodon-nigroviridis_ENSTNIT00000011533.1_NONE                 0.824
+Tetraodon-nigroviridis_ENSTNIT00000008049.1_cacna1bb-calcium     0.955
+Tetraodon-nigroviridis_ENSTNIT00000018795.1_cacna1ea-calcium     0.998
+Tetraodon-nigroviridis_ENSTNIT00000014449.1_cacna1ab-calcium     0.991
+Tetraodon-nigroviridis_ENSTNIT00000015674.1_CACNA1F-calcium-     0.992
+Tetraodon-nigroviridis_ENSTNIT00000010573.1_cacna1c-calcium-     0.995
+Tetraodon-nigroviridis_ENSTNIT00000017934.1_cacna1da-calcium     0.994
+Tetraodon-nigroviridis_ENSTNIT00000017402.1_cacna1fb-calcium     0.983
+Tetraodon-nigroviridis_ENSTNIT00000018360.1_cacna1sb-calcium     0.993
+Tetraodon-nigroviridis_ENSTNIT00000015183.1_CACNA1D-calcium-     0.997
+Gasterosteus-aculeatus_ENSGACT00000016875.1_cacna1aa-calcium     1.0
+Gasterosteus-aculeatus_ENSGACT00000023918.1_cacna1bb-calcium     1.0
+Gasterosteus-aculeatus_ENSGACT00000004394.1_cacna1ba-calcium     0.648
+Gasterosteus-aculeatus_ENSGACT00000001030.1_cacna1fb-calcium     0.993
+Gasterosteus-aculeatus_ENSGACT00000002103.1_cacna1da-calcium     1.0
+Gasterosteus-aculeatus_ENSGACT00000016058.1_cacna1fa-calcium     0.999
+Gasterosteus-aculeatus_ENSGACT00000015457.1_NONE                 1.0
+Gasterosteus-aculeatus_ENSGACT00000011800.1_cacna1sb-calcium     1.0
+Gasterosteus-aculeatus_ENSGACT00000007939.1_cfap74-cilia-and     0.991
+Gasterosteus-aculeatus_ENSGACT00000026077.2_cacna1c-calcium-     1.0
+Oryzias-latipes_ENSORLT00000021779.1_cacna1eb-calcium-channe     0.998
+Oryzias-latipes_ENSORLT00000021666.1_cacna1ea-calcium-channe     0.997
+Oryzias-latipes_ENSORLT00000017326.1_cacna1bb-calcium-channe     0.989
+Oryzias-latipes_ENSORLT00000003231.1_cacna1da-calcium-channe     0.996
+Oryzias-latipes_ENSORLT00000021249.1_NONE                        0.978
+Oryzias-latipes_ENSORLT00000018228.1_cacna1fa-calcium-channe     0.997
+Oryzias-latipes_ENSORLT00000013458.1_cacna1sa-calcium-channe     1.0
+Oryzias-latipes_ENSORLT00000009315.1_cacna1sb-calcium-channe     1.0
+Oryzias-latipes_ENSORLT00000004221.1_CACNA1D-calcium-voltage     0.994
+Oryzias-latipes_ENSORLT00000017939.2_cacna1c-calcium-channel     1.0
+
+
+################ Settings ################
+
+>NumberAssigned_querySequence
+Oryzias-latipes_ENSORLT00000017939.2_cacna1c-calcium-channel
+ERVEYLFLIIFTVEAFLKVIAYGLLFHPNAYLRNGWNLLDFIIVVVGLFSAILEQATKGDGATPIGGKAAGFDVKALRAFRVLRPLRLVSGVPSLQVVLNSIIKAMVPLLHIALLVLFVIIIYAIIGLELFMGKMHKTCVHNHTGLNAEEKPAPCAPDGAYGRHCTQNGTQCRVGWEGPNDGITNFDNFAFAMLTVFQCITMEGWTDVLYWVNDAVDYRWPWVYFVTLIIIGSFFVLNLVLGVLSGEFSKEREKAKARGDFQKLREKQQLEEDLKGYLDWITQAEDIDPENEEEGLDDDKPRNLSMPASENESVNTDNPPGGDVEGETCCTRLAIRISKSKFSRYSRRWNRLFRRKCRAAVKSQVFYWLVIFLVFLNTLTIASEHHRQPQWLTDVQDIANKVLLALFTGEMLLKMYSLGLQAYFVSLFNRFDSFVVCGGILETILVETKIMSPLGISVLRCVRLLRIFKITRYWNSLSNLVASLLNSVRSIASLLLLLFLFIIIFSLLGMQLFGGKFNFDETRRSTFDNFPQSLLTVFQILTGEDWNSVMYDGIMAYGGPSFPGMLVCIYFIILFICGNYILLNVFLAIAVDNLADAESLTSAQKEEEEAKERKKLARLASPKKHEENEKPPLEEKKSEKIELKSITSDGETNPATKISMDDCCGDENEEKNPYPANDYIGDDDEEEPEMPVGPRPRPLSDIHLKEKAVPMPEARAFFVFSHTNKFRVLCHKIVNHNIFTNLILFFILLSSISLAAEDPVKNDSFRNQILGYADHVFTGLFTIEIILKMTAYGAFLHKGSFCRNYFNILDLVVVSVSLISSGIQSSAINVVKILRVLRVLRPLRAINRAKGLKHVVQCVFVAIRTIGNIVIVTTLLQFMFACIGVQLFKGKFFYCTDSSKQTQAECRGSYIMYKDGDVGKPGRSPRVWENSDFNFDDVLQGMMALFAVSTFEGWPGLLYRAIDSHSEDVGPIYNYRVVISIFFIIYIIIIAFFMMNIFVGFVIVTFQEQGEQEYKNCELDKNQRQCVEYALKARPLRRYIPKNPYQYKVWYVVNSTYFEYLMFTLILLNTICLAMQHHGQTKNFNDAMNILNMLFTGLFTVEMILKLIAFKPRGYFSDPWNVFDFLIVIGSIIDVILSEINVSTTPPLLSLCTPSLCNSEENARISITFFRLFRVMRLVKLLSRGEGIRTLLWTFIKSFQALPYVALLIVMLFFIYAVIGMQMFGKIALRDLSQINRNNNFQTFPQAVLLLFRCATGEAWQEIMLACSPNRPCEKGSTNENSTASEECGSQFAIIYFVSFYMLCAFLIINLFVAVIMDNFDYLTRDWSILGPHHLDEFKRIWAEYDPEAKGRIKHLDVVTLLRRIQPPLGFGKLCPHRVACKRLVSMNMPLNSDGTVMFNATLFALVRTALRIKTDGNLEQANEELRAIVKKIWKRTSMKLLDQVVPPAGDDEVTVGKFYATFLIQEYFRKFKKRKEQGLVGKVPPKTALSLQAGLRTLHDIGPEIRRAISGDLNVEEEMDKGMKEPVSAASEDDIFRRSGGLFGNHVNYYNQSDGRSSFPQSFTTQRPLHISQKGSPCEGESPSHEKLMDSTTFTPSSYSSSGSNANINNANNTSVTGVANQGVSRFPSPSISTVDGHTGQPLTPILLPRSAWCFPPKSSDSSDSHLPIIRRGEGSTEETYDESYGDDREYHEDDHSLSSDMLVYHDDTCRQLTPMEEAEEVEGRRGSGGWQSPRRVFLCPTSLGRRSSFHLECFRRQPRPEVFQKTFAPLHFVHHQALAVAGLSPQLRRSHSPNLFSRLCSTPPASPAGKSNSPQKIPSLRLEGSNSHEKLNTSLPSVSCGPCRVPSPSPSVSASSQRAPRPVSLTVPSLLGKDSTSLSHGSAGSLVEAVLISEGLGHFAQDPSFIEATKVELADACDMTIEEMEQAANNILNGKNASNPS
+
+>SpeciesTree
+(Drosophila-melanogaster,(Ciona-intestinalis,((Xenopus-tropicalis,(Gallus-gallus,Homo-sapiens)Amniota)Tetrapoda,(Danio-rerio,(Oryzias-latipes,(Tetraodon-nigroviridis,Gasterosteus-aculeatus)Eupercaria)Percomorpha)Teleostei)BonyVertebrates)Deuterostomia)Bilateria;
+
+>SubstitutionModel
+WAG (Whelan and Goldman 2001) + gamma
+
+>ShortSequence_threshold
+0.45
+
+>Dataset
+AminoAcid
+
+>Rearrangement_BS_value_threshold
+70
+
+>TaxonSampling_color
+Drosophila-melanogaster_Black
+Ciona-intestinalis_Black
+Xenopus-tropicalis_Magenta
+Gallus-gallus_Magenta
+Homo-sapiens_Magenta
+Danio-rerio_Purple
+Tetraodon-nigroviridis_Green
+Gasterosteus-aculeatus_Red
+Oryzias-latipes_Blue
+
+################ Results: 2nd analysis ################
+
+>TreeSearchMethod
+NJ
+
+>2nd_rearranged_gene_tree_newick
+(((((Homo-sapiens_ENST00000643528.1_CACNA1C-calcium-voltage,Homo-sapiens_ENST00000399634.5_CACNA1C-calcium-voltage)100_S=Homo-sapiens_D=Y,Gallus-gallus_ENSGALT00000094891.1_CACNA1C-calcium-volt)100_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000034189.3_CACNA1C-calcium-volt)100_S=Tetrapoda_D=N,((Oryzias-latipes_ENSORLT00000017939.2_cacna1c-calcium-channel,Gasterosteus-aculeatus_ENSGACT00000026077.2_cacna1c-calcium-)100_S=Percomorpha_D=N,Danio-rerio_ENSDART00000132909.2_cacna1c-calcium-channel-vol)r_S=Teleostei_D=N)100_S=BonyVertebrates_D=N,(Tetraodon-nigroviridis_ENSTNIT00000010573.1_cacna1c-calcium-,Oryzias-latipes_ENSORLT00000003231.1_cacna1da-calcium-channe)r_S=Percomorpha_D=N)r_S=BonyVertebrates_D=Y;
+
+>2nd_rearranged_gene_tree_NHX
+(((((Homo-sapiens_ENST00000643528.1_CACNA1C-calcium-voltage:0.0[&&NHX:S=Homo-sapiens],Homo-sapiens_ENST00000399634.5_CACNA1C-calcium-voltage:0.0[&&NHX:S=Homo-sapiens])n2:0.042933[&&NHX:S=Homo-sapiens:D=Y:B=100.0],Gallus-gallus_ENSGALT00000094891.1_CACNA1C-calcium-volt:0.030344[&&NHX:S=Gallus-gallus])n4:0.023649[&&NHX:S=Amniota:D=N:B=100.0],Xenopus-tropicalis_ENSXETT00000034189.3_CACNA1C-calcium-volt:0.061212[&&NHX:S=Xenopus-tropicalis])n6:0.061914[&&NHX:S=Tetrapoda:D=N:B=100.0],((Oryzias-latipes_ENSORLT00000017939.2_cacna1c-calcium-channel:0.031464[&&NHX:S=Oryzias-latipes],Gasterosteus-aculeatus_ENSGACT00000026077.2_cacna1c-calcium-:0.030515[&&NHX:S=Gasterosteus-aculeatus])n9:0.027841[&&NHX:S=Percomorpha:D=N:B=100.0],Danio-rerio_ENSDART00000132909.2_cacna1c-calcium-channel-vol:0.057477[&&NHX:S=Danio-rerio])r35[&&NHX:S=Teleostei:D=N])n12:0.0238[&&NHX:S=BonyVertebrates:D=N:B=100.0],(Tetraodon-nigroviridis_ENSTNIT00000010573.1_cacna1c-calcium-:0.0[&&NHX:S=Tetraodon-nigroviridis],Oryzias-latipes_ENSORLT00000003231.1_cacna1da-calcium-channe:0.239811[&&NHX:S=Oryzias-latipes])r30[&&NHX:S=Percomorpha:D=N])n16[&&NHX:S=BonyVertebrates:D=Y];
+
+>2nd_gene_tree_newick
+((((Gallus-gallus_ENSGALT00000094891.1_CACNA1C-calcium-volt:0.030344,(Homo-sapiens_ENST00000399634.5_CACNA1C-calcium-voltage:0.000000,Homo-sapiens_ENST00000643528.1_CACNA1C-calcium-voltage:0.000000)100:0.042933)100:0.023649,Xenopus-tropicalis_ENSXETT00000034189.3_CACNA1C-calcium-volt:0.061212)100:0.061914,(Danio-rerio_ENSDART00000132909.2_cacna1c-calcium-channel-vol:0.057477,(Gasterosteus-aculeatus_ENSGACT00000026077.2_cacna1c-calcium-:0.030515,Oryzias-latipes_ENSORLT00000017939.2_cacna1c-calcium-channel:0.031464)100:0.027841)35:0.020843)0:0.023800,Tetraodon-nigroviridis_ENSTNIT00000010573.1_cacna1c-calcium-:-0.006088,Oryzias-latipes_ENSORLT00000003231.1_cacna1da-calcium-channe:0.239811);
+
+>MonophyleticGeneGroups
+BonyVertebrates                 100  D=N
+Teleostei                       r  D=N
+Percomorpha                     100  D=N
+Oryzias-latipes                 leaf  leaf
+
+>SisterGeneGroups
+BonyVertebrates                 NONE   NoGeneNode
+Teleostei                       100   Tetrapoda
+Percomorpha                     r   Danio-rerio
+Oryzias-latipes                 100   Gasterosteus-aculeatus
+
+>Number_of_duplicatedNode
+BonyVertebrates                 0
+Teleostei                       0
+Percomorpha                     0
+Oryzias-latipes                 0
+
+>AnalysisTime
+73.1 seconds

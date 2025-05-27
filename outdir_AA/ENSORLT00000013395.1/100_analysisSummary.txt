@@ -1,0 +1,219 @@
+################ Results: 1st analysis ################
+
+>QuerySequence
+Oryzias-latipes_ENSORLT00000013395.1_NONE  <= [Identities = 646/646 (100%)] : Oryzias-latipes_ENSORLT00000013395.1_NONE
+
+>Number_of_blastHits
+Drosophila-melanogaster  10
+Ciona-intestinalis       10
+Xenopus-tropicalis       10
+Gallus-gallus            10
+Homo-sapiens             10
+Danio-rerio              10
+Tetraodon-nigroviridis   10
+Gasterosteus-aculeatus   10
+Oryzias-latipes          10
+
+>BS_of_orthogroupBasalNode
+r
+
+
+>Orthogroup
+Danio-rerio_ENSDART00000044896.8_camk2d2-calcium-calmodulin-
+Danio-rerio_ENSDART00000133461.1_camk2b1-calcium-calmodulin-
+Danio-rerio_ENSDART00000166198.1_camk2d1-calcium-calmodulin-
+Danio-rerio_ENSDART00000175481.1_camk2b2-calcium-calmodulin-
+Gallus-gallus_ENSGALT00000063931.2_CAMK2B-calcium-calmo
+Gasterosteus-aculeatus_ENSGACT00000002109.1_camk2d1-calcium-
+Gasterosteus-aculeatus_ENSGACT00000003804.1_NONE
+Homo-sapiens_ENST00000395749.7_CAMK2B-calcium-calmodul
+Oryzias-latipes_ENSORLT00000000306.1_NONE
+Oryzias-latipes_ENSORLT00000006418.1_camk2d2-calcium-calmodu
+Oryzias-latipes_ENSORLT00000013395.1_NONE
+Oryzias-latipes_ENSORLT00000024734.1_NONE
+Tetraodon-nigroviridis_ENSTNIT00000018928.1_camk2b1-calcium-
+Tetraodon-nigroviridis_ENSTNIT00000021198.1_camk2d2-calcium-
+Tetraodon-nigroviridis_ENSTNIT00000023218.1_NONE
+Xenopus-tropicalis_ENSXETT00000033918.3_camk2d-calcium-calmo
+
+>GeneNumber_of_orthogroup
+Xenopus-tropicalis      1
+Gallus-gallus           1
+Homo-sapiens            1
+Danio-rerio             4
+Oryzias-latipes         4
+Tetraodon-nigroviridis  3
+Gasterosteus-aculeatus  2
+
+>Rooting
+Homo-sapiens_ENST00000672396.1_CAMK2A-calcium-calmodul
+
+
+>1st_rearranged_gene_tree_newick
+(((((((((((((((Homo-sapiens_ENST00000672396.1_CAMK2A-calcium-calmodul,Gallus-gallus_ENSGALT00000009020.5_CAMK2A-calcium-calmo)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000014165.3_camk2a-calcium-calmo)r_S=Tetrapoda_D=N,(((Gasterosteus-aculeatus_ENSGACT00000027695.1_NONE,Tetraodon-nigroviridis_ENSTNIT00000010601.1_NONE)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000016109.1_camk2a-calcium-calmodul)r_S=Percomorpha_D=N,Danio-rerio_ENSDART00000175236.1_camk2a-calcium-calmodulin-d)r_S=Teleostei_D=N)95_S=BonyVertebrates_D=N,(((Homo-sapiens_ENST00000395749.7_CAMK2B-calcium-calmodul,Gallus-gallus_ENSGALT00000063931.2_CAMK2B-calcium-calmo)84_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000033918.3_camk2d-calcium-calmo)r_S=Tetrapoda_D=N,(((((Oryzias-latipes_ENSORLT00000013395.1_NONE,Gasterosteus-aculeatus_ENSGACT00000003804.1_NONE)71_S=Percomorpha_D=N,Danio-rerio_ENSDART00000166198.1_camk2d1-calcium-calmodulin-)r_S=Teleostei_D=N,((Tetraodon-nigroviridis_ENSTNIT00000023218.1_NONE,Oryzias-latipes_ENSORLT00000024734.1_NONE)r_S=Percomorpha_D=N,Danio-rerio_ENSDART00000044896.8_camk2d2-calcium-calmodulin-)r_S=Teleostei_D=N)r_S=Teleostei_D=Y,((Tetraodon-nigroviridis_ENSTNIT00000021198.1_camk2d2-calcium-,Oryzias-latipes_ENSORLT00000006418.1_camk2d2-calcium-calmodu)r_S=Percomorpha_D=N,Danio-rerio_ENSDART00000175481.1_camk2b2-calcium-calmodulin-)r_S=Teleostei_D=N)r_S=Teleostei_D=Y,(((Gasterosteus-aculeatus_ENSGACT00000002109.1_camk2d1-calcium-,Tetraodon-nigroviridis_ENSTNIT00000018928.1_camk2b1-calcium-)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000000306.1_NONE)r_S=Percomorpha_D=N,Danio-rerio_ENSDART00000133461.1_camk2b1-calcium-calmodulin-)r_S=Teleostei_D=N)r_S=Teleostei_D=Y)r_S=BonyVertebrates_D=N)r_S=BonyVertebrates_D=Y,(((Homo-sapiens_ENST00000511664.6_CAMK2D-calcium-calmodul,Gallus-gallus_ENSGALT00000099788.1_CAMK2D-calcium-calmo)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000041159.3_camk2b-calcium-calmo)r_S=Tetrapoda_D=N,(((Gasterosteus-aculeatus_ENSGACT00000021259.1_camk2d2-calcium-,Tetraodon-nigroviridis_ENSTNIT00000016779.1_camk2b2-calcium-)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000001097.1_camk2b2-calcium-calmodu)r_S=Percomorpha_D=N,Danio-rerio_ENSDART00000165842.1_camk2g2-calcium-calmodulin-)r_S=Teleostei_D=N)r_S=BonyVertebrates_D=N)r_S=BonyVertebrates_D=Y,(((Homo-sapiens_ENST00000423381.5_CAMK2G-calcium-calmodul,Gallus-gallus_ENSGALT00000033583.4_CAMK2G-calcium-calmo)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000014164.3_camk2g-calcium-calmo)r_S=Tetrapoda_D=N,(((Gasterosteus-aculeatus_ENSGACT00000014432.1_camk2g2-calcium-,Tetraodon-nigroviridis_ENSTNIT00000010447.1_camk2g2-calcium-)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000005225.1_camk2g2-calcium-calmodu)r_S=Percomorpha_D=N,Danio-rerio_ENSDART00000162595.2_camk2g1-calcium-calmodulin-)r_S=Teleostei_D=N)r_S=BonyVertebrates_D=N)r_S=BonyVertebrates_D=Y,Ciona-intestinalis_ENSCINT00000004087.3_NONE)r_S=Deuterostomia_D=N,Drosophila-melanogaster_FBtr0300379_CaMKII-Calcium-calmodul)96_S=Bilateria_D=N,(((((Homo-sapiens_ENST00000645986.2_CASK-calcium-calmodulin,Gallus-gallus_ENSGALT00000059980.2_CASK-calcium-calmodu)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000010527.3_cask-calcium-calmodu)r_S=Tetrapoda_D=N,(((Gasterosteus-aculeatus_ENSGACT00000010909.1_CASK-calcium-cal,Oryzias-latipes_ENSORLT00000006054.1_caskb-calcium-calmoduli)r_S=Percomorpha_D=N,(Gasterosteus-aculeatus_ENSGACT00000019901.1_CASK-calcium-cal,Oryzias-latipes_ENSORLT00000017138.1_CASK-calcium-calmodulin)r_S=Percomorpha_D=N)r_S=Percomorpha_D=Y,Danio-rerio_ENSDART00000158678.1_caska-calcium-calmodulin-de)r_S=Teleostei_D=N)97_S=BonyVertebrates_D=N,Ciona-intestinalis_ENSCINT00000004629.3_NONE)r_S=Deuterostomia_D=N,Drosophila-melanogaster_FBtr0330368_CASK-NONE)100_S=Bilateria_D=N)100_S=Bilateria_D=Y,(Ciona-intestinalis_ENSCINT00000019808.3_NONE,Drosophila-melanogaster_FBtr0301500_PhKgamma-Phosphorylase-)100_S=Bilateria_D=N)r_S=Bilateria_D=Y,((Ciona-intestinalis_ENSCINT00000030484.1_NONE,Drosophila-melanogaster_FBtr0089527_sff-sugar-free-frosting)100_S=Bilateria_D=N,Drosophila-melanogaster_FBtr0070217_AMPKalpha-AMP-activated)100_S=Bilateria_D=Y)r_S=Bilateria_D=Y,((((Homo-sapiens_ENST00000302176.8_DCLK2-doublecortin-like,Gallus-gallus_ENSGALT00000074618.2_DCLK2-doublecortin-l)100_S=Amniota_D=N,Ciona-intestinalis_ENSCINT00000024277.2_NONE)91_S=Deuterostomia_D=N,Ciona-intestinalis_ENSCINT00000004186.3_NONE)76_S=Deuterostomia_D=Y,Drosophila-melanogaster_FBtr0111277_CG17528-NONE)100_S=Bilateria_D=N)r_S=Bilateria_D=Y,((((((((Homo-sapiens_ENST00000256460.8_CAMK1-calcium-calmoduli,Gallus-gallus_ENSGALT00000050964.2_CAMK1-calcium-calmod)89_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000051081.3_camk1-calcium-calmod)r_S=Tetrapoda_D=N,Gasterosteus-aculeatus_ENSGACT00000001778.1_camk1a-calcium-c)85_S=BonyVertebrates_D=N,((Homo-sapiens_ENST00000619168.5_CAMK1D-calcium-calmodul,Gallus-gallus_ENSGALT00000072279.2_CAMK1D-calcium-calmo)100_S=Amniota_D=N,(Tetraodon-nigroviridis_ENSTNIT00000019328.1_camk1db-calcium-,Tetraodon-nigroviridis_ENSTNIT00000009869.1_camk1da-calcium-)r_S=Tetraodon-nigroviridis_D=Y)82_S=BonyVertebrates_D=N)100_S=BonyVertebrates_D=Y,(((Gallus-gallus_ENSGALT00000002011.6_CAMK1G-calcium-calmo,Xenopus-tropicalis_ENSXETT00000019583.3_camk1g-calcium-calmo)100_S=Tetrapoda_D=N,(Homo-sapiens_ENST00000447676.6_PNCK-pregnancy-up-regul,Xenopus-tropicalis_ENSXETT00000016776.2_pnck-pregnancy-up-re)97_S=Tetrapoda_D=N)r_S=Tetrapoda_D=Y,Gasterosteus-aculeatus_ENSGACT00000015365.1_camk1ga-calcium-)r_S=BonyVertebrates_D=N)r_S=BonyVertebrates_D=Y,Ciona-intestinalis_ENSCINT00000023364.2_cam-k-calmodulin-dep)r_S=Deuterostomia_D=N,Drosophila-melanogaster_FBtr0089065_CaMKI-Calcium-calmoduli)82_S=Bilateria_D=N,Ciona-intestinalis_ENSCINT00000023622.2_NONE)70_S=Bilateria_D=Y)r_S=Bilateria_D=Y,(Ciona-intestinalis_ENSCINT00000031114.1_NONE,Drosophila-melanogaster_FBtr0301340_bt-bent-DBNLINE-948)99_S=Bilateria_D=N)r_S=Bilateria_D=Y,((((((Homo-sapiens_ENST00000512453.5_CAMK4-calcium-calmoduli,Gallus-gallus_ENSGALT00000088975.2_CAMK4-calcium-calmod)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000015124.2_camk4-calcium-calmod)r_S=Tetrapoda_D=N,Danio-rerio_ENSDART00000130891.2_camk4-calcium-calmodulin-de)100_S=BonyVertebrates_D=N,(Xenopus-tropicalis_ENSXETT00000007104.3_NONE,((Oryzias-latipes_ENSORLT00000017486.1_sich73-60h1.1-sich73-60,Gasterosteus-aculeatus_ENSGACT00000018018.1_NONE)100_S=Percomorpha_D=N,Danio-rerio_ENSDART00000109308.3_sich73-60h1.1-si-ch73-60h1.)r_S=Teleostei_D=N)r_S=BonyVertebrates_D=N)100_S=BonyVertebrates_D=Y,Ciona-intestinalis_ENSCINT00000010112.3_NONE)91_S=Deuterostomia_D=N,(Drosophila-melanogaster_FBtr0081328_lok-loki-DBNLINE-1664,Drosophila-melanogaster_FBtr0077360_S6kII-Ribosomal-protein)r_S=Drosophila-melanogaster_D=Y)r_S=Bilateria_D=N)r_S=Bilateria_D=Y;
+
+>1st_rearranged_gene_tree_NHX
+(((((((((((((((Homo-sapiens_ENST00000672396.1_CAMK2A-calcium-calmodul:0.004482[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000009020.5_CAMK2A-calcium-calmo:0.009126[&&NHX:S=Gallus-gallus])r224[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000014165.3_camk2a-calcium-calmo:0.004564[&&NHX:S=Xenopus-tropicalis])r223[&&NHX:S=Tetrapoda:D=N],(((Gasterosteus-aculeatus_ENSGACT00000027695.1_NONE:0.008404[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000010601.1_NONE:0.001824[&&NHX:S=Tetraodon-nigroviridis])r227[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000016109.1_camk2a-calcium-calmodul:0.006481[&&NHX:S=Oryzias-latipes])r226[&&NHX:S=Percomorpha:D=N],Danio-rerio_ENSDART00000175236.1_camk2a-calcium-calmodulin-d:0.005324[&&NHX:S=Danio-rerio])r225[&&NHX:S=Teleostei:D=N])n19:0.027744[&&NHX:S=BonyVertebrates:D=N:B=95.0],(((Homo-sapiens_ENST00000395749.7_CAMK2B-calcium-calmodul:0.003092[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000063931.2_CAMK2B-calcium-calmo:2.88E-4[&&NHX:S=Gallus-gallus])n37:0.003425[&&NHX:S=Amniota:D=N:B=84.0],Xenopus-tropicalis_ENSXETT00000033918.3_camk2d-calcium-calmo:0.006688[&&NHX:S=Xenopus-tropicalis])r194[&&NHX:S=Tetrapoda:D=N],(((((Oryzias-latipes_ENSORLT00000013395.1_NONE:0.0[&&NHX:S=Oryzias-latipes],Gasterosteus-aculeatus_ENSGACT00000003804.1_NONE:0.014242[&&NHX:S=Gasterosteus-aculeatus])n66:0.00625[&&NHX:S=Percomorpha:D=N:B=71.0],Danio-rerio_ENSDART00000166198.1_camk2d1-calcium-calmodulin-:0.020408[&&NHX:S=Danio-rerio])r198[&&NHX:S=Teleostei:D=N],((Tetraodon-nigroviridis_ENSTNIT00000023218.1_NONE:0.014236[&&NHX:S=Tetraodon-nigroviridis],Oryzias-latipes_ENSORLT00000024734.1_NONE:0.070796[&&NHX:S=Oryzias-latipes])r200[&&NHX:S=Percomorpha:D=N],Danio-rerio_ENSDART00000044896.8_camk2d2-calcium-calmodulin-:0.004968[&&NHX:S=Danio-rerio])r199[&&NHX:S=Teleostei:D=N])r197[&&NHX:S=Teleostei:D=Y],((Tetraodon-nigroviridis_ENSTNIT00000021198.1_camk2d2-calcium-:0.010617[&&NHX:S=Tetraodon-nigroviridis],Oryzias-latipes_ENSORLT00000006418.1_camk2d2-calcium-calmodu:0.0[&&NHX:S=Oryzias-latipes])r204[&&NHX:S=Percomorpha:D=N],Danio-rerio_ENSDART00000175481.1_camk2b2-calcium-calmodulin-:0.010693[&&NHX:S=Danio-rerio])r203[&&NHX:S=Teleostei:D=N])r196[&&NHX:S=Teleostei:D=Y],(((Gasterosteus-aculeatus_ENSGACT00000002109.1_camk2d1-calcium-:0.013282[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000018928.1_camk2b1-calcium-:0.01719[&&NHX:S=Tetraodon-nigroviridis])r209[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000000306.1_NONE:0.041193[&&NHX:S=Oryzias-latipes])r208[&&NHX:S=Percomorpha:D=N],Danio-rerio_ENSDART00000133461.1_camk2b1-calcium-calmodulin-:0.0[&&NHX:S=Danio-rerio])r207[&&NHX:S=Teleostei:D=N])r195[&&NHX:S=Teleostei:D=Y])r193[&&NHX:S=BonyVertebrates:D=N])r192[&&NHX:S=BonyVertebrates:D=Y],(((Homo-sapiens_ENST00000511664.6_CAMK2D-calcium-calmodul:0.011221[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000099788.1_CAMK2D-calcium-calmo:0.007702[&&NHX:S=Gallus-gallus])r212[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000041159.3_camk2b-calcium-calmo:0.003361[&&NHX:S=Xenopus-tropicalis])r211[&&NHX:S=Tetrapoda:D=N],(((Gasterosteus-aculeatus_ENSGACT00000021259.1_camk2d2-calcium-:0.001471[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000016779.1_camk2b2-calcium-:0.002584[&&NHX:S=Tetraodon-nigroviridis])r215[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000001097.1_camk2b2-calcium-calmodu:0.026074[&&NHX:S=Oryzias-latipes])r214[&&NHX:S=Percomorpha:D=N],Danio-rerio_ENSDART00000165842.1_camk2g2-calcium-calmodulin-:0.008448[&&NHX:S=Danio-rerio])r213[&&NHX:S=Teleostei:D=N])r210[&&NHX:S=BonyVertebrates:D=N])r191[&&NHX:S=BonyVertebrates:D=Y],(((Homo-sapiens_ENST00000423381.5_CAMK2G-calcium-calmodul:0.006576[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000033583.4_CAMK2G-calcium-calmo:0.014062[&&NHX:S=Gallus-gallus])r218[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000014164.3_camk2g-calcium-calmo:0.003864[&&NHX:S=Xenopus-tropicalis])r217[&&NHX:S=Tetrapoda:D=N],(((Gasterosteus-aculeatus_ENSGACT00000014432.1_camk2g2-calcium-:0.012618[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000010447.1_camk2g2-calcium-:0.008839[&&NHX:S=Tetraodon-nigroviridis])r221[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000005225.1_camk2g2-calcium-calmodu:0.008008[&&NHX:S=Oryzias-latipes])r220[&&NHX:S=Percomorpha:D=N],Danio-rerio_ENSDART00000162595.2_camk2g1-calcium-calmodulin-:4.95E-4[&&NHX:S=Danio-rerio])r219[&&NHX:S=Teleostei:D=N])r216[&&NHX:S=BonyVertebrates:D=N])r190[&&NHX:S=BonyVertebrates:D=Y],Ciona-intestinalis_ENSCINT00000004087.3_NONE:0.154786[&&NHX:S=Ciona-intestinalis])r189[&&NHX:S=Deuterostomia:D=N],Drosophila-melanogaster_FBtr0300379_CaMKII-Calcium-calmodul:0.07846[&&NHX:S=Drosophila-melanogaster])n76:0.282174[&&NHX:S=Bilateria:D=N:B=96.0],(((((Homo-sapiens_ENST00000645986.2_CASK-calcium-calmodulin:0.0[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000059980.2_CASK-calcium-calmodu:-0.0[&&NHX:S=Gallus-gallus])r232[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000010527.3_cask-calcium-calmodu:0.019385[&&NHX:S=Xenopus-tropicalis])r231[&&NHX:S=Tetrapoda:D=N],(((Gasterosteus-aculeatus_ENSGACT00000010909.1_CASK-calcium-cal:0.021826[&&NHX:S=Gasterosteus-aculeatus],Oryzias-latipes_ENSORLT00000006054.1_caskb-calcium-calmoduli:0.017089[&&NHX:S=Oryzias-latipes])r235[&&NHX:S=Percomorpha:D=N],(Gasterosteus-aculeatus_ENSGACT00000019901.1_CASK-calcium-cal:0.006842[&&NHX:S=Gasterosteus-aculeatus],Oryzias-latipes_ENSORLT00000017138.1_CASK-calcium-calmodulin:0.016904[&&NHX:S=Oryzias-latipes])r238[&&NHX:S=Percomorpha:D=N])r234[&&NHX:S=Percomorpha:D=Y],Danio-rerio_ENSDART00000158678.1_caska-calcium-calmodulin-de:0.002906[&&NHX:S=Danio-rerio])r233[&&NHX:S=Teleostei:D=N])n91:0.091103[&&NHX:S=BonyVertebrates:D=N:B=97.0],Ciona-intestinalis_ENSCINT00000004629.3_NONE:0.158687[&&NHX:S=Ciona-intestinalis])r229[&&NHX:S=Deuterostomia:D=N],Drosophila-melanogaster_FBtr0330368_CASK-NONE:0.313607[&&NHX:S=Drosophila-melanogaster])n95:0.318983[&&NHX:S=Bilateria:D=N:B=100.0])n96:0.115583[&&NHX:S=Bilateria:D=Y:B=100.0],(Ciona-intestinalis_ENSCINT00000019808.3_NONE:0.284874[&&NHX:S=Ciona-intestinalis],Drosophila-melanogaster_FBtr0301500_PhKgamma-Phosphorylase-:0.245411[&&NHX:S=Drosophila-melanogaster])n99:0.291921[&&NHX:S=Bilateria:D=N:B=100.0])r185[&&NHX:S=Bilateria:D=Y],((Ciona-intestinalis_ENSCINT00000030484.1_NONE:0.1017[&&NHX:S=Ciona-intestinalis],Drosophila-melanogaster_FBtr0089527_sff-sugar-free-frosting:0.164381[&&NHX:S=Drosophila-melanogaster])n103:0.27495[&&NHX:S=Bilateria:D=N:B=100.0],Drosophila-melanogaster_FBtr0070217_AMPKalpha-AMP-activated:0.43586[&&NHX:S=Drosophila-melanogaster])n105:0.254558[&&NHX:S=Bilateria:D=Y:B=100.0])r184[&&NHX:S=Bilateria:D=Y],((((Homo-sapiens_ENST00000302176.8_DCLK2-doublecortin-like:0.037084[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000074618.2_DCLK2-doublecortin-l:0.03433[&&NHX:S=Gallus-gallus])n111:0.130175[&&NHX:S=Amniota:D=N:B=100.0],Ciona-intestinalis_ENSCINT00000024277.2_NONE:0.273213[&&NHX:S=Ciona-intestinalis])n113:0.084507[&&NHX:S=Deuterostomia:D=N:B=91.0],Ciona-intestinalis_ENSCINT00000004186.3_NONE:0.265624[&&NHX:S=Ciona-intestinalis])n115:0.049556[&&NHX:S=Deuterostomia:D=Y:B=76.0],Drosophila-melanogaster_FBtr0111277_CG17528-NONE:0.390829[&&NHX:S=Drosophila-melanogaster])n117:0.247564[&&NHX:S=Bilateria:D=N:B=100.0])r183[&&NHX:S=Bilateria:D=Y],((((((((Homo-sapiens_ENST00000256460.8_CAMK1-calcium-calmoduli:0.04596[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000050964.2_CAMK1-calcium-calmod:0.026513[&&NHX:S=Gallus-gallus])n127:0.019905[&&NHX:S=Amniota:D=N:B=89.0],Xenopus-tropicalis_ENSXETT00000051081.3_camk1-calcium-calmod:0.041701[&&NHX:S=Xenopus-tropicalis])r253[&&NHX:S=Tetrapoda:D=N],Gasterosteus-aculeatus_ENSGACT00000001778.1_camk1a-calcium-c:0.050884[&&NHX:S=Gasterosteus-aculeatus])n128:0.019792[&&NHX:S=BonyVertebrates:D=N:B=85.0],((Homo-sapiens_ENST00000619168.5_CAMK1D-calcium-calmodul:0.005727[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000072279.2_CAMK1D-calcium-calmo:0.00745[&&NHX:S=Gallus-gallus])n131:0.049112[&&NHX:S=Amniota:D=N:B=100.0],(Tetraodon-nigroviridis_ENSTNIT00000019328.1_camk1db-calcium-:0.06484[&&NHX:S=Tetraodon-nigroviridis],Tetraodon-nigroviridis_ENSTNIT00000009869.1_camk1da-calcium-:0.043552[&&NHX:S=Tetraodon-nigroviridis])r267[&&NHX:S=Tetraodon-nigroviridis:D=Y])n135:0.028855[&&NHX:S=BonyVertebrates:D=N:B=82.0])n136:0.070283[&&NHX:S=BonyVertebrates:D=Y:B=100.0],(((Gallus-gallus_ENSGALT00000002011.6_CAMK1G-calcium-calmo:0.091129[&&NHX:S=Gallus-gallus],Xenopus-tropicalis_ENSXETT00000019583.3_camk1g-calcium-calmo:0.066176[&&NHX:S=Xenopus-tropicalis])n121:0.088342[&&NHX:S=Tetrapoda:D=N:B=100.0],(Homo-sapiens_ENST00000447676.6_PNCK-pregnancy-up-regul:0.116767[&&NHX:S=Homo-sapiens],Xenopus-tropicalis_ENSXETT00000016776.2_pnck-pregnancy-up-re:0.074234[&&NHX:S=Xenopus-tropicalis])n140:0.097489[&&NHX:S=Tetrapoda:D=N:B=97.0])r245[&&NHX:S=Tetrapoda:D=Y],Gasterosteus-aculeatus_ENSGACT00000015365.1_camk1ga-calcium-:0.2115[&&NHX:S=Gasterosteus-aculeatus])r244[&&NHX:S=BonyVertebrates:D=N])r243[&&NHX:S=BonyVertebrates:D=Y],Ciona-intestinalis_ENSCINT00000023364.2_cam-k-calmodulin-dep:0.243192[&&NHX:S=Ciona-intestinalis])r242[&&NHX:S=Deuterostomia:D=N],Drosophila-melanogaster_FBtr0089065_CaMKI-Calcium-calmoduli:0.19255[&&NHX:S=Drosophila-melanogaster])n147:0.134973[&&NHX:S=Bilateria:D=N:B=82.0],Ciona-intestinalis_ENSCINT00000023622.2_NONE:0.536335[&&NHX:S=Ciona-intestinalis])n149:0.080981[&&NHX:S=Bilateria:D=Y:B=70.0])r182[&&NHX:S=Bilateria:D=Y],(Ciona-intestinalis_ENSCINT00000031114.1_NONE:0.338043[&&NHX:S=Ciona-intestinalis],Drosophila-melanogaster_FBtr0301340_bt-bent-DBNLINE-948:0.383234[&&NHX:S=Drosophila-melanogaster])n171:0.364643[&&NHX:S=Bilateria:D=N:B=99.0])r181[&&NHX:S=Bilateria:D=Y],((((((Homo-sapiens_ENST00000512453.5_CAMK4-calcium-calmoduli:0.051426[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000088975.2_CAMK4-calcium-calmod:0.044712[&&NHX:S=Gallus-gallus])r277[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000015124.2_camk4-calcium-calmod:0.018182[&&NHX:S=Xenopus-tropicalis])r276[&&NHX:S=Tetrapoda:D=N],Danio-rerio_ENSDART00000130891.2_camk4-calcium-calmodulin-de:0.047804[&&NHX:S=Danio-rerio])n156:0.066747[&&NHX:S=BonyVertebrates:D=N:B=100.0],(Xenopus-tropicalis_ENSXETT00000007104.3_NONE:0.127261[&&NHX:S=Xenopus-tropicalis],((Oryzias-latipes_ENSORLT00000017486.1_sich73-60h1.1-sich73-60:0.0[&&NHX:S=Oryzias-latipes],Gasterosteus-aculeatus_ENSGACT00000018018.1_NONE:0.028502[&&NHX:S=Gasterosteus-aculeatus])n161:0.0387[&&NHX:S=Percomorpha:D=N:B=100.0],Danio-rerio_ENSDART00000109308.3_sich73-60h1.1-si-ch73-60h1.:0.026553[&&NHX:S=Danio-rerio])r274[&&NHX:S=Teleostei:D=N])r271[&&NHX:S=BonyVertebrates:D=N])n164:0.140802[&&NHX:S=BonyVertebrates:D=Y:B=100.0],Ciona-intestinalis_ENSCINT00000010112.3_NONE:0.285006[&&NHX:S=Ciona-intestinalis])n166:0.137998[&&NHX:S=Deuterostomia:D=N:B=91.0],(Drosophila-melanogaster_FBtr0081328_lok-loki-DBNLINE-1664:0.620546[&&NHX:S=Drosophila-melanogaster],Drosophila-melanogaster_FBtr0077360_S6kII-Ribosomal-protein:0.686431[&&NHX:S=Drosophila-melanogaster])r187[&&NHX:S=Drosophila-melanogaster:D=Y])r186[&&NHX:S=Bilateria:D=N])n174[&&NHX:S=Bilateria:D=Y];
+
+>1st_gene_tree_newick
+((((((((((((Homo-sapiens_ENST00000511664.6_CAMK2D-calcium-calmodul:0.011221,(Tetraodon-nigroviridis_ENSTNIT00000023218.1_NONE:0.014236,(Gasterosteus-aculeatus_ENSGACT00000002109.1_camk2d1-calcium-:0.013282,Oryzias-latipes_ENSORLT00000024734.1_NONE:0.070796)41:0.003299)50:0.011175)34:0.004047,(((Xenopus-tropicalis_ENSXETT00000014165.3_camk2a-calcium-calmo:0.004564,Gallus-gallus_ENSGALT00000009020.5_CAMK2A-calcium-calmo:0.009126)42:0.002378,Homo-sapiens_ENST00000672396.1_CAMK2A-calcium-calmodul:0.004482)30:0.008161,((Danio-rerio_ENSDART00000175236.1_camk2a-calcium-calmodulin-d:0.005324,(Tetraodon-nigroviridis_ENSTNIT00000010601.1_NONE:0.001824,Gasterosteus-aculeatus_ENSGACT00000027695.1_NONE:0.008404)66:0.003233)37:0.004641,Oryzias-latipes_ENSORLT00000016109.1_camk2a-calcium-calmodul:0.006481)64:0.006178)95:0.027744)25:0.004786,(((Xenopus-tropicalis_ENSXETT00000033918.3_camk2d-calcium-calmo:0.006688,Gallus-gallus_ENSGALT00000099788.1_CAMK2D-calcium-calmo:0.007702)64:0.005611,Danio-rerio_ENSDART00000166198.1_camk2d1-calcium-calmodulin-:0.020408)46:0.002609,(((Danio-rerio_ENSDART00000044896.8_camk2d2-calcium-calmodulin-:0.004968,Tetraodon-nigroviridis_ENSTNIT00000021198.1_camk2d2-calcium-:0.010617)33:0.000826,Oryzias-latipes_ENSORLT00000006418.1_camk2d2-calcium-calmodu:-0.000840)44:0.002407,Gasterosteus-aculeatus_ENSGACT00000021259.1_camk2d2-calcium-:0.001471)38:0.014801)47:0.005074)20:0.006964,(((Xenopus-tropicalis_ENSXETT00000041159.3_camk2b-calcium-calmo:0.003361,(Gallus-gallus_ENSGALT00000063931.2_CAMK2B-calcium-calmo:0.000288,Homo-sapiens_ENST00000395749.7_CAMK2B-calcium-calmodul:0.003092)84:0.003425)67:0.009336,((Danio-rerio_ENSDART00000175481.1_camk2b2-calcium-calmodulin-:0.010693,(Oryzias-latipes_ENSORLT00000001097.1_camk2b2-calcium-calmodu:0.026074,Oryzias-latipes_ENSORLT00000000306.1_NONE:0.041193)50:0.034714)5:0.003805,((Danio-rerio_ENSDART00000133461.1_camk2b1-calcium-calmodulin-:-0.000092,Tetraodon-nigroviridis_ENSTNIT00000018928.1_camk2b1-calcium-:0.017190)30:0.004211,Tetraodon-nigroviridis_ENSTNIT00000016779.1_camk2b2-calcium-:0.002584)24:0.002761)12:0.012353)32:0.015680,((Xenopus-tropicalis_ENSXETT00000014164.3_camk2g-calcium-calmo:0.003864,(Gallus-gallus_ENSGALT00000033583.4_CAMK2G-calcium-calmo:0.014062,Homo-sapiens_ENST00000423381.5_CAMK2G-calcium-calmodul:0.006576)67:0.002836)69:0.007047,(((Danio-rerio_ENSDART00000165842.1_camk2g2-calcium-calmodulin-:0.008448,(Tetraodon-nigroviridis_ENSTNIT00000010447.1_camk2g2-calcium-:0.008839,Oryzias-latipes_ENSORLT00000005225.1_camk2g2-calcium-calmodu:0.008008)45:0.005070)25:0.000684,Gasterosteus-aculeatus_ENSGACT00000014432.1_camk2g2-calcium-:0.012618)44:0.004630,(Danio-rerio_ENSDART00000162595.2_camk2g1-calcium-calmodulin-:0.000495,(Gasterosteus-aculeatus_ENSGACT00000003804.1_NONE:0.014242,Oryzias-latipes_ENSORLT00000013395.1_NONE:-0.000771)71:0.006250)59:0.005255)39:0.003738)69:0.026537)5:0.014143)30:0.030485,Drosophila-melanogaster_FBtr0300379_CaMKII-Calcium-calmodul:0.078460)22:0.007602,Ciona-intestinalis_ENSCINT00000004087.3_NONE:0.154786)96:0.282174,(Drosophila-melanogaster_FBtr0330368_CASK-NONE:0.313607,(Ciona-intestinalis_ENSCINT00000004629.3_NONE:0.158687,(((((Xenopus-tropicalis_ENSXETT00000010527.3_cask-calcium-calmodu:0.019385,(Gasterosteus-aculeatus_ENSGACT00000010909.1_CASK-calcium-cal:0.021826,Oryzias-latipes_ENSORLT00000006054.1_caskb-calcium-calmoduli:0.017089)32:0.007268)54:0.007062,Gasterosteus-aculeatus_ENSGACT00000019901.1_CASK-calcium-cal:0.006842)51:0.003396,Danio-rerio_ENSDART00000158678.1_caska-calcium-calmodulin-de:0.002906)1:0.000182,(Gallus-gallus_ENSGALT00000059980.2_CASK-calcium-calmodu:-0.000000,Homo-sapiens_ENST00000645986.2_CASK-calcium-calmodulin:0.000000)5:0.004079)1:0.002717,Oryzias-latipes_ENSORLT00000017138.1_CASK-calcium-calmodulin:0.016904)97:0.091103)6:0.044330)100:0.318983)100:0.115583,(Drosophila-melanogaster_FBtr0301500_PhKgamma-Phosphorylase-:0.245411,Ciona-intestinalis_ENSCINT00000019808.3_NONE:0.284874)100:0.291921)11:0.032569,((Drosophila-melanogaster_FBtr0070217_AMPKalpha-AMP-activated:0.435860,(Drosophila-melanogaster_FBtr0089527_sff-sugar-free-frosting:0.164381,Ciona-intestinalis_ENSCINT00000030484.1_NONE:0.101700)100:0.274950)100:0.254558,Drosophila-melanogaster_FBtr0081328_lok-loki-DBNLINE-1664:0.620546)16:0.026689)1:0.025998,(Drosophila-melanogaster_FBtr0111277_CG17528-NONE:0.390829,((Ciona-intestinalis_ENSCINT00000024277.2_NONE:0.273213,(Gallus-gallus_ENSGALT00000074618.2_DCLK2-doublecortin-l:0.034330,Homo-sapiens_ENST00000302176.8_DCLK2-doublecortin-like:0.037084)100:0.130175)91:0.084507,Ciona-intestinalis_ENSCINT00000004186.3_NONE:0.265624)76:0.049556)100:0.247564)3:0.008153,(((Drosophila-melanogaster_FBtr0089065_CaMKI-Calcium-calmoduli:0.192550,(Ciona-intestinalis_ENSCINT00000023364.2_cam-k-calmodulin-dep:0.243192,((((Xenopus-tropicalis_ENSXETT00000019583.3_camk1g-calcium-calmo:0.066176,Gallus-gallus_ENSGALT00000002011.6_CAMK1G-calcium-calmo:0.091129)100:0.088342,(((Xenopus-tropicalis_ENSXETT00000051081.3_camk1-calcium-calmod:0.041701,Gasterosteus-aculeatus_ENSGACT00000001778.1_camk1a-calcium-c:0.050884)47:0.007874,(Gallus-gallus_ENSGALT00000050964.2_CAMK1-calcium-calmod:0.026513,Homo-sapiens_ENST00000256460.8_CAMK1-calcium-calmoduli:0.045960)89:0.019905)85:0.019792,((Gallus-gallus_ENSGALT00000072279.2_CAMK1D-calcium-calmo:0.007450,Homo-sapiens_ENST00000619168.5_CAMK1D-calcium-calmodul:0.005727)100:0.049112,(Tetraodon-nigroviridis_ENSTNIT00000009869.1_camk1da-calcium-:0.043552,Tetraodon-nigroviridis_ENSTNIT00000019328.1_camk1db-calcium-:0.064840)34:0.007324)82:0.028855)100:0.070283)43:0.021285,(Xenopus-tropicalis_ENSXETT00000016776.2_pnck-pregnancy-up-re:0.074234,Homo-sapiens_ENST00000447676.6_PNCK-pregnancy-up-regul:0.116767)97:0.097489)33:0.026599,Gasterosteus-aculeatus_ENSGACT00000015365.1_camk1ga-calcium-:0.211500)50:0.053264)65:0.015383)82:0.134973,Ciona-intestinalis_ENSCINT00000023622.2_NONE:0.536335)70:0.080981,(Ciona-intestinalis_ENSCINT00000010112.3_NONE:0.285006,((Xenopus-tropicalis_ENSXETT00000007104.3_NONE:0.127261,((Xenopus-tropicalis_ENSXETT00000015124.2_camk4-calcium-calmod:0.018182,(Gallus-gallus_ENSGALT00000088975.2_CAMK4-calcium-calmod:0.044712,Homo-sapiens_ENST00000512453.5_CAMK4-calcium-calmoduli:0.051426)61:0.002123)64:0.009271,Danio-rerio_ENSDART00000130891.2_camk4-calcium-calmodulin-de:0.047804)100:0.066747)27:0.014238,(Danio-rerio_ENSDART00000109308.3_sich73-60h1.1-si-ch73-60h1.:0.026553,(Gasterosteus-aculeatus_ENSGACT00000018018.1_NONE:0.028502,Oryzias-latipes_ENSORLT00000017486.1_sich73-60h1.1-sich73-60:-0.000648)100:0.038700)69:0.042715)100:0.140802)91:0.137998)65:0.054982)13:0.027461,(Drosophila-melanogaster_FBtr0301340_bt-bent-DBNLINE-948:0.383234,Ciona-intestinalis_ENSCINT00000031114.1_NONE:0.338043)99:0.364643,Drosophila-melanogaster_FBtr0077360_S6kII-Ribosomal-protein:0.686431);
+
+>Aligned-ShortSequence_threshold evaluation
+Drosophila-melanogaster_FBtr0077360_S6kII-Ribosomal-protein      0.625
+Drosophila-melanogaster_FBtr0301340_bt-bent-DBNLINE-948          0.971
+Drosophila-melanogaster_FBtr0070217_AMPKalpha-AMP-activated      0.764
+Drosophila-melanogaster_FBtr0081328_lok-loki-DBNLINE-1664        0.586
+Drosophila-melanogaster_FBtr0089527_sff-sugar-free-frosting      0.92
+Drosophila-melanogaster_FBtr0111277_CG17528-NONE                 0.547
+Drosophila-melanogaster_FBtr0301500_PhKgamma-Phosphorylase-      0.709
+Drosophila-melanogaster_FBtr0330368_CASK-NONE                    0.975
+Drosophila-melanogaster_FBtr0089065_CaMKI-Calcium-calmoduli      0.701
+Drosophila-melanogaster_FBtr0300379_CaMKII-Calcium-calmodul      0.936
+Ciona-intestinalis_ENSCINT00000031114.1_NONE                     0.574
+Ciona-intestinalis_ENSCINT00000023622.2_NONE                     0.621
+Ciona-intestinalis_ENSCINT00000030484.1_NONE                     0.861
+Ciona-intestinalis_ENSCINT00000019808.3_NONE                     0.691
+Ciona-intestinalis_ENSCINT00000024277.2_NONE                     0.605
+Ciona-intestinalis_ENSCINT00000004186.3_NONE                     0.57
+Ciona-intestinalis_ENSCINT00000010112.3_NONE                     0.605
+Ciona-intestinalis_ENSCINT00000023364.2_cam-k-calmodulin-dep     0.617
+Ciona-intestinalis_ENSCINT00000004629.3_NONE                     0.73
+Ciona-intestinalis_ENSCINT00000004087.3_NONE                     0.922
+Xenopus-tropicalis_ENSXETT00000019583.3_camk1g-calcium-calmo     0.758
+Xenopus-tropicalis_ENSXETT00000051081.3_camk1-calcium-calmod     0.666
+Xenopus-tropicalis_ENSXETT00000016776.2_pnck-pregnancy-up-re     0.627
+Xenopus-tropicalis_ENSXETT00000007104.3_NONE                     0.662
+Xenopus-tropicalis_ENSXETT00000015124.2_camk4-calcium-calmod     0.615
+Xenopus-tropicalis_ENSXETT00000010527.3_cask-calcium-calmodu     0.988
+Xenopus-tropicalis_ENSXETT00000033918.3_camk2d-calcium-calmo     0.926
+Xenopus-tropicalis_ENSXETT00000041159.3_camk2b-calcium-calmo     0.996
+Xenopus-tropicalis_ENSXETT00000014165.3_camk2a-calcium-calmo     0.965
+Xenopus-tropicalis_ENSXETT00000014164.3_camk2g-calcium-calmo     0.998
+Gallus-gallus_ENSGALT00000074618.2_DCLK2-doublecortin-l          0.701
+Gallus-gallus_ENSGALT00000002011.6_CAMK1G-calcium-calmo          0.744
+Gallus-gallus_ENSGALT00000050964.2_CAMK1-calcium-calmod          0.654
+Gallus-gallus_ENSGALT00000088975.2_CAMK4-calcium-calmod          0.643
+Gallus-gallus_ENSGALT00000072279.2_CAMK1D-calcium-calmo          0.68
+Gallus-gallus_ENSGALT00000059980.2_CASK-calcium-calmodu          0.988
+Gallus-gallus_ENSGALT00000009020.5_CAMK2A-calcium-calmo          0.951
+Gallus-gallus_ENSGALT00000033583.4_CAMK2G-calcium-calmo          0.902
+Gallus-gallus_ENSGALT00000063931.2_CAMK2B-calcium-calmo          0.994
+Gallus-gallus_ENSGALT00000099788.1_CAMK2D-calcium-calmo          0.988
+Homo-sapiens_ENST00000302176.8_DCLK2-doublecortin-like           0.697
+Homo-sapiens_ENST00000447676.6_PNCK-pregnancy-up-regul           0.641
+Homo-sapiens_ENST00000256460.8_CAMK1-calcium-calmoduli           0.652
+Homo-sapiens_ENST00000512453.5_CAMK4-calcium-calmoduli           0.742
+Homo-sapiens_ENST00000619168.5_CAMK1D-calcium-calmodul           0.688
+Homo-sapiens_ENST00000645986.2_CASK-calcium-calmodulin           0.986
+Homo-sapiens_ENST00000672396.1_CAMK2A-calcium-calmodul           0.941
+Homo-sapiens_ENST00000511664.6_CAMK2D-calcium-calmodul           0.988
+Homo-sapiens_ENST00000395749.7_CAMK2B-calcium-calmodul           1.0
+Homo-sapiens_ENST00000423381.5_CAMK2G-calcium-calmodul           0.994
+Danio-rerio_ENSDART00000130891.2_camk4-calcium-calmodulin-de     0.643
+Danio-rerio_ENSDART00000109308.3_sich73-60h1.1-si-ch73-60h1.     0.756
+Danio-rerio_ENSDART00000158678.1_caska-calcium-calmodulin-de     0.988
+Danio-rerio_ENSDART00000175236.1_camk2a-calcium-calmodulin-d     0.951
+Danio-rerio_ENSDART00000175481.1_camk2b2-calcium-calmodulin-     0.992
+Danio-rerio_ENSDART00000166198.1_camk2d1-calcium-calmodulin-     0.986
+Danio-rerio_ENSDART00000044896.8_camk2d2-calcium-calmodulin-     0.99
+Danio-rerio_ENSDART00000133461.1_camk2b1-calcium-calmodulin-     0.992
+Danio-rerio_ENSDART00000165842.1_camk2g2-calcium-calmodulin-     1.0
+Danio-rerio_ENSDART00000162595.2_camk2g1-calcium-calmodulin-     0.996
+Tetraodon-nigroviridis_ENSTNIT00000009869.1_camk1da-calcium-     0.627
+Tetraodon-nigroviridis_ENSTNIT00000019328.1_camk1db-calcium-     0.652
+== Removed ==> Tetraodon-nigroviridis_ENSTNIT00000023070.1_NONE                 0.225
+== Removed ==> Tetraodon-nigroviridis_ENSTNIT00000023134.1_NONE                 0.25
+Tetraodon-nigroviridis_ENSTNIT00000021198.1_camk2d2-calcium-     0.895
+Tetraodon-nigroviridis_ENSTNIT00000010601.1_NONE                 0.928
+Tetraodon-nigroviridis_ENSTNIT00000023218.1_NONE                 0.988
+Tetraodon-nigroviridis_ENSTNIT00000016779.1_camk2b2-calcium-     0.93
+Tetraodon-nigroviridis_ENSTNIT00000018928.1_camk2b1-calcium-     0.992
+Tetraodon-nigroviridis_ENSTNIT00000010447.1_camk2g2-calcium-     0.961
+Gasterosteus-aculeatus_ENSGACT00000015365.1_camk1ga-calcium-     0.723
+Gasterosteus-aculeatus_ENSGACT00000001778.1_camk1a-calcium-c     0.689
+Gasterosteus-aculeatus_ENSGACT00000018018.1_NONE                 0.646
+Gasterosteus-aculeatus_ENSGACT00000010909.1_CASK-calcium-cal     0.955
+Gasterosteus-aculeatus_ENSGACT00000019901.1_CASK-calcium-cal     0.945
+Gasterosteus-aculeatus_ENSGACT00000021259.1_camk2d2-calcium-     0.859
+Gasterosteus-aculeatus_ENSGACT00000027695.1_NONE                 0.963
+Gasterosteus-aculeatus_ENSGACT00000002109.1_camk2d1-calcium-     0.99
+Gasterosteus-aculeatus_ENSGACT00000014432.1_camk2g2-calcium-     0.955
+Gasterosteus-aculeatus_ENSGACT00000003804.1_NONE                 0.996
+Oryzias-latipes_ENSORLT00000017486.1_sich73-60h1.1-sich73-60     0.584
+Oryzias-latipes_ENSORLT00000006054.1_caskb-calcium-calmoduli     0.977
+Oryzias-latipes_ENSORLT00000017138.1_CASK-calcium-calmodulin     0.988
+Oryzias-latipes_ENSORLT00000001097.1_camk2b2-calcium-calmodu     0.662
+Oryzias-latipes_ENSORLT00000006418.1_camk2d2-calcium-calmodu     0.898
+Oryzias-latipes_ENSORLT00000024734.1_NONE                        0.66
+Oryzias-latipes_ENSORLT00000016109.1_camk2a-calcium-calmodul     0.982
+Oryzias-latipes_ENSORLT00000000306.1_NONE                        0.996
+Oryzias-latipes_ENSORLT00000005225.1_camk2g2-calcium-calmodu     0.992
+Oryzias-latipes_ENSORLT00000013395.1_NONE                        1.0
+
+
+################ Settings ################
+
+>NumberAssigned_querySequence
+Oryzias-latipes_ENSORLT00000013395.1_NONE
+MATTATSTRFTDEYQLYEELGKGAFSVVRRCVKKSSGQEYAAKIINTKKLSARDHQKLEREARICRLLKHPNIVRLHDSISEEGFHYLVFDLVTGGELFEDIVAREYYSEADASHCISQILESVNHIHQHDIVHRDLKPENLLLASKMKGAAVKLADFGLAIEVQGDQQAWFGFAGTPGYLSPEVLRKDPYGKPVDIWACGVILYILLVGYPPFWDEDQHKLYQQIKAGAYDFPSPEWDTVTPEAKNLINQMLTINPAKRITAEQALKHPWVCHRSTVASMMHRQETVECLRKFNARRKLKGAILTTMLVSRNFSAHAEGVEEGEWIVLCTSSNPLTTCIVGRQHTNSAAAASSTASLAQEACKSLLNKKSDSAKPSTNNSKNSIVSAINALKDTNMATNAQMESQSTVVHNPPDGVKGSTESNATNDEEEMKGRHLVPVCPLCDRLWLVKQSRQPVTSSSSSYKANSHVSTTSCSAHSLCSNQPKQMKQLFIKLIEPSSTPLLGFVFPVSAARKQEIIKITEQLIEAINNGDFEAYTRICDPGLTSFEPEALGNLVEGMDFHKFYFENLLSKNSKPVHTTLLNPHVHLIGEDAACIAYIRLTQFVDSMGRPRSSQSEETRVWHRRDGKWLNVHFHCSGAPAAPLQ
+
+>SpeciesTree
+(Drosophila-melanogaster,(Ciona-intestinalis,((Xenopus-tropicalis,(Gallus-gallus,Homo-sapiens)Amniota)Tetrapoda,(Danio-rerio,(Oryzias-latipes,(Tetraodon-nigroviridis,Gasterosteus-aculeatus)Eupercaria)Percomorpha)Teleostei)BonyVertebrates)Deuterostomia)Bilateria;
+
+>SubstitutionModel
+WAG (Whelan and Goldman 2001) + gamma
+
+>ShortSequence_threshold
+0.45
+
+>Dataset
+AminoAcid
+
+>Rearrangement_BS_value_threshold
+70
+
+>TaxonSampling_color
+Drosophila-melanogaster_Black
+Ciona-intestinalis_Black
+Xenopus-tropicalis_Magenta
+Gallus-gallus_Magenta
+Homo-sapiens_Magenta
+Danio-rerio_Purple
+Tetraodon-nigroviridis_Green
+Gasterosteus-aculeatus_Red
+Oryzias-latipes_Blue
+
+################ Results: 2nd analysis ################
+
+>TreeSearchMethod
+NJ
+
+>2nd_rearranged_gene_tree_newick
+((((Xenopus-tropicalis_ENSXETT00000033918.3_camk2d-calcium-calmo,(((Tetraodon-nigroviridis_ENSTNIT00000021198.1_camk2d2-calcium-,Oryzias-latipes_ENSORLT00000006418.1_camk2d2-calcium-calmodu)100_S=Percomorpha_D=N,Danio-rerio_ENSDART00000044896.8_camk2d2-calcium-calmodulin-)100_S=Teleostei_D=N,Danio-rerio_ENSDART00000166198.1_camk2d1-calcium-calmodulin-)r_S=Teleostei_D=Y)98_S=BonyVertebrates_D=N,(((((Tetraodon-nigroviridis_ENSTNIT00000018928.1_camk2b1-calcium-,Oryzias-latipes_ENSORLT00000000306.1_NONE)r_S=Percomorpha_D=N,Danio-rerio_ENSDART00000133461.1_camk2b1-calcium-calmodulin-)87_S=Teleostei_D=N,Danio-rerio_ENSDART00000175481.1_camk2b2-calcium-calmodulin-)84_S=Teleostei_D=Y,(Homo-sapiens_ENST00000395749.7_CAMK2B-calcium-calmodul,Gallus-gallus_ENSGALT00000063931.2_CAMK2B-calcium-calmo)100_S=Amniota_D=N)98_S=BonyVertebrates_D=N,(Oryzias-latipes_ENSORLT00000013395.1_NONE,Gasterosteus-aculeatus_ENSGACT00000003804.1_NONE)100_S=Percomorpha_D=N)76_S=BonyVertebrates_D=Y)r_S=BonyVertebrates_D=Y,(Gasterosteus-aculeatus_ENSGACT00000002109.1_camk2d1-calcium-,Tetraodon-nigroviridis_ENSTNIT00000023218.1_NONE)r_S=Eupercaria_D=N)100_S=BonyVertebrates_D=Y,(Homo-sapiens_ENST00000672396.1_CAMK2A-calcium-calmodul,Oryzias-latipes_ENSORLT00000024734.1_NONE)r_S=BonyVertebrates_D=N)r_S=BonyVertebrates_D=Y;
+
+>2nd_rearranged_gene_tree_NHX
+((((Xenopus-tropicalis_ENSXETT00000033918.3_camk2d-calcium-calmo:0.033015[&&NHX:S=Xenopus-tropicalis],(((Tetraodon-nigroviridis_ENSTNIT00000021198.1_camk2d2-calcium-:0.021709[&&NHX:S=Tetraodon-nigroviridis],Oryzias-latipes_ENSORLT00000006418.1_camk2d2-calcium-calmodu:0.008598[&&NHX:S=Oryzias-latipes])n2:0.01849[&&NHX:S=Percomorpha:D=N:B=100.0],Danio-rerio_ENSDART00000044896.8_camk2d2-calcium-calmodulin-:0.015779[&&NHX:S=Danio-rerio])n4:0.024619[&&NHX:S=Teleostei:D=N:B=100.0],Danio-rerio_ENSDART00000166198.1_camk2d1-calcium-calmodulin-:0.032359[&&NHX:S=Danio-rerio])r66[&&NHX:S=Teleostei:D=Y])n8:0.014223[&&NHX:S=BonyVertebrates:D=N:B=98.0],(((((Tetraodon-nigroviridis_ENSTNIT00000018928.1_camk2b1-calcium-:0.017003[&&NHX:S=Tetraodon-nigroviridis],Oryzias-latipes_ENSORLT00000000306.1_NONE:0.169092[&&NHX:S=Oryzias-latipes])r70[&&NHX:S=Percomorpha:D=N],Danio-rerio_ENSDART00000133461.1_camk2b1-calcium-calmodulin-:0.018457[&&NHX:S=Danio-rerio])n13:0.007696[&&NHX:S=Teleostei:D=N:B=87.0],Danio-rerio_ENSDART00000175481.1_camk2b2-calcium-calmodulin-:0.039875[&&NHX:S=Danio-rerio])n15:0.018723[&&NHX:S=Teleostei:D=Y:B=84.0],(Homo-sapiens_ENST00000395749.7_CAMK2B-calcium-calmodul:0.02897[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000063931.2_CAMK2B-calcium-calmo:0.096556[&&NHX:S=Gallus-gallus])n18:0.011294[&&NHX:S=Amniota:D=N:B=100.0])n19:0.016291[&&NHX:S=BonyVertebrates:D=N:B=98.0],(Oryzias-latipes_ENSORLT00000013395.1_NONE:0.004125[&&NHX:S=Oryzias-latipes],Gasterosteus-aculeatus_ENSGACT00000003804.1_NONE:0.019191[&&NHX:S=Gasterosteus-aculeatus])n22:0.086672[&&NHX:S=Percomorpha:D=N:B=100.0])n23:0.030288[&&NHX:S=BonyVertebrates:D=Y:B=76.0])r55[&&NHX:S=BonyVertebrates:D=Y],(Gasterosteus-aculeatus_ENSGACT00000002109.1_camk2d1-calcium-:0.051372[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000023218.1_NONE:0.08736[&&NHX:S=Tetraodon-nigroviridis])r60[&&NHX:S=Eupercaria:D=N])n28:0.011434[&&NHX:S=BonyVertebrates:D=Y:B=100.0],(Homo-sapiens_ENST00000672396.1_CAMK2A-calcium-calmodul:0.152634[&&NHX:S=Homo-sapiens],Oryzias-latipes_ENSORLT00000024734.1_NONE:0.047496[&&NHX:S=Oryzias-latipes])r45[&&NHX:S=BonyVertebrates:D=N])n32[&&NHX:S=BonyVertebrates:D=Y];
+
+>2nd_gene_tree_newick
+(((((Danio-rerio_ENSDART00000166198.1_camk2d1-calcium-calmodulin-:0.032359,((Danio-rerio_ENSDART00000044896.8_camk2d2-calcium-calmodulin-:0.015779,(Oryzias-latipes_ENSORLT00000006418.1_camk2d2-calcium-calmodu:0.008598,Tetraodon-nigroviridis_ENSTNIT00000021198.1_camk2d2-calcium-:0.021709)100:0.018490)100:0.024619,Xenopus-tropicalis_ENSXETT00000033918.3_camk2d-calcium-calmo:0.033015)35:0.002410)98:0.014223,((((Danio-rerio_ENSDART00000133461.1_camk2b1-calcium-calmodulin-:0.018457,(Oryzias-latipes_ENSORLT00000000306.1_NONE:0.169092,Tetraodon-nigroviridis_ENSTNIT00000018928.1_camk2b1-calcium-:0.017003)52:0.006528)87:0.007696,Danio-rerio_ENSDART00000175481.1_camk2b2-calcium-calmodulin-:0.039875)84:0.018723,(Gallus-gallus_ENSGALT00000063931.2_CAMK2B-calcium-calmo:0.096556,Homo-sapiens_ENST00000395749.7_CAMK2B-calcium-calmodul:0.028970)100:0.011294)98:0.016291,(Gasterosteus-aculeatus_ENSGACT00000003804.1_NONE:0.019191,Oryzias-latipes_ENSORLT00000013395.1_NONE:0.004125)100:0.086672)76:0.030288)49:0.013958,Gasterosteus-aculeatus_ENSGACT00000002109.1_camk2d1-calcium-:0.051372)0:0.020688,Tetraodon-nigroviridis_ENSTNIT00000023218.1_NONE:0.087360)0:0.011434,Oryzias-latipes_ENSORLT00000024734.1_NONE:0.047496,Homo-sapiens_ENST00000672396.1_CAMK2A-calcium-calmodul:0.152634);
+
+>MonophyleticGeneGroups
+BonyVertebrates                 100  D=Y
+Teleostei                       NoGeneNode  NONE
+Percomorpha                     100  D=N
+Oryzias-latipes                 leaf  leaf
+
+>SisterGeneGroups
+BonyVertebrates                 100   Eupercaria
+Teleostei                       NONE   NoGeneNode
+Percomorpha                     76   BonyVertebrates(Teleostei;Danio-rerio;Amniota)
+Oryzias-latipes                 100   Gasterosteus-aculeatus
+
+>Number_of_duplicatedNode
+BonyVertebrates                 2
+Teleostei                       0
+Percomorpha                     0
+Oryzias-latipes                 0
+
+>AnalysisTime
+50.5 seconds

@@ -1,0 +1,155 @@
+################ Results: 1st analysis ################
+
+>QuerySequence
+Oryzias-latipes_ENSORLT00000017423.1_NONE  <= [Identities = 259/259 (100%)] : Oryzias-latipes_ENSORLT00000017423.1_NONE
+
+>Number_of_blastHits
+Drosophila-melanogaster  2
+Ciona-intestinalis       3
+Xenopus-tropicalis       3
+Gallus-gallus            5
+Homo-sapiens             4
+Danio-rerio              4
+Tetraodon-nigroviridis   3
+Gasterosteus-aculeatus   4
+Oryzias-latipes          4
+
+>BS_of_orthogroupBasalNode
+99
+
+
+>Orthogroup
+Danio-rerio_ENSDART00000062539.7_pdcb-phosducin-b
+Danio-rerio_ENSDART00000149989.1_pdca-phosducin-a
+Gallus-gallus_ENSGALT00000080407.3_PDC-phosducin
+Gasterosteus-aculeatus_ENSGACT00000009904.1_pdcb-phosducin-b
+Gasterosteus-aculeatus_ENSGACT00000019446.1_NONE
+Homo-sapiens_ENST00000391997.3_PDC-phosducin
+Oryzias-latipes_ENSORLT00000011834.1_pdc-Oryzias-latipes-con
+Oryzias-latipes_ENSORLT00000017423.1_NONE
+Tetraodon-nigroviridis_ENSTNIT00000021524.1_pdcb-phosducin-b
+Xenopus-tropicalis_ENSXETT00000037837.1_pdc-phosducin
+
+>GeneNumber_of_orthogroup
+Xenopus-tropicalis      1
+Gallus-gallus           1
+Homo-sapiens            1
+Danio-rerio             2
+Oryzias-latipes         2
+Tetraodon-nigroviridis  1
+Gasterosteus-aculeatus  2
+
+>Rooting
+Homo-sapiens_ENST00000259467.9_PDCL-phosducin-like
+
+
+>1st_rearranged_gene_tree_newick
+((((((((Homo-sapiens_ENST00000391997.3_PDC-phosducin,Gallus-gallus_ENSGALT00000080407.3_PDC-phosducin)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000037837.1_pdc-phosducin)100_S=Tetrapoda_D=N,((((Gasterosteus-aculeatus_ENSGACT00000009904.1_pdcb-phosducin-b,Tetraodon-nigroviridis_ENSTNIT00000021524.1_pdcb-phosducin-b)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000011834.1_pdc-Oryzias-latipes-con)100_S=Percomorpha_D=N,Danio-rerio_ENSDART00000062539.7_pdcb-phosducin-b)r_S=Teleostei_D=N,((Oryzias-latipes_ENSORLT00000017423.1_NONE,Gasterosteus-aculeatus_ENSGACT00000019446.1_NONE)99_S=Percomorpha_D=N,Danio-rerio_ENSDART00000149989.1_pdca-phosducin-a)r_S=Teleostei_D=N)r_S=Teleostei_D=Y)99_S=BonyVertebrates_D=N,(((Homo-sapiens_ENST00000259467.9_PDCL-phosducin-like,Gallus-gallus_ENSGALT00000001946.5_PDCL-phosducin-like)78_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000035655.2_pdcl-phosducin-like-)r_S=Tetrapoda_D=N,((Oryzias-latipes_ENSORLT00000006434.1_pdcl-phosducin-like,Gasterosteus-aculeatus_ENSGACT00000021275.1_pdcl-phosducin-l)95_S=Percomorpha_D=N,Danio-rerio_ENSDART00000153959.1_pdcl-phosducin-like)78_S=Teleostei_D=N)77_S=BonyVertebrates_D=N)r_S=BonyVertebrates_D=Y,Ciona-intestinalis_ENSCINT00000013037.3_NONE)r_S=Deuterostomia_D=N,Drosophila-melanogaster_FBtr0075591_CG7650-NONE)74_S=Bilateria_D=N,(Gallus-gallus_ENSGALT00000017035.6_GLRX3-glutaredoxin-3,Ciona-intestinalis_ENSCINT00000022200.2_NONE)r_S=Deuterostomia_D=N)98_S=Bilateria_D=Y,((((((Homo-sapiens_ENST00000295645.9_PDCL2-phosducin-like-2,Gallus-gallus_ENSGALT00000101999.1_PDCL2-phosducin-like)r_S=Amniota_D=N,(Homo-sapiens_ENST00000264254.11_PDCL3-phosducin-like-3,Gallus-gallus_ENSGALT00000027078.4_PDCL3-phosducin-like)r_S=Amniota_D=N)r_S=Amniota_D=Y,Xenopus-tropicalis_ENSXETT00000047080.2_pdcl3-phosducin-like)r_S=Tetrapoda_D=N,(((Gasterosteus-aculeatus_ENSGACT00000001069.1_PDCL3-phosducin-,Tetraodon-nigroviridis_ENSTNIT00000018994.1_PDCL3-phosducin-)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000011694.1_PDCL3-phosducin-like-3)r_S=Percomorpha_D=N,Danio-rerio_ENSDART00000169907.1_PDCL3-phosducin-like-3)r_S=Teleostei_D=N)r_S=BonyVertebrates_D=N,Ciona-intestinalis_ENSCINT00000005040.3_NONE)r_S=Deuterostomia_D=N,Drosophila-melanogaster_FBtr0076062_viaf-viral-IAP-associat)r_S=Bilateria_D=N)r_S=Bilateria_D=Y;
+
+>1st_rearranged_gene_tree_NHX
+((((((((Homo-sapiens_ENST00000391997.3_PDC-phosducin:0.146468[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000080407.3_PDC-phosducin:0.112537[&&NHX:S=Gallus-gallus])r93[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000037837.1_pdc-phosducin:0.130079[&&NHX:S=Xenopus-tropicalis])n17:0.079814[&&NHX:S=Tetrapoda:D=N:B=100.0],((((Gasterosteus-aculeatus_ENSGACT00000009904.1_pdcb-phosducin-b:0.070861[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000021524.1_pdcb-phosducin-b:0.033766[&&NHX:S=Tetraodon-nigroviridis])r95[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000011834.1_pdc-Oryzias-latipes-con:0.071503[&&NHX:S=Oryzias-latipes])n4:0.087897[&&NHX:S=Percomorpha:D=N:B=100.0],Danio-rerio_ENSDART00000062539.7_pdcb-phosducin-b:0.142109[&&NHX:S=Danio-rerio])r90[&&NHX:S=Teleostei:D=N],((Oryzias-latipes_ENSORLT00000017423.1_NONE:0.075495[&&NHX:S=Oryzias-latipes],Gasterosteus-aculeatus_ENSGACT00000019446.1_NONE:0.110513[&&NHX:S=Gasterosteus-aculeatus])n9:0.054896[&&NHX:S=Percomorpha:D=N:B=99.0],Danio-rerio_ENSDART00000149989.1_pdca-phosducin-a:0.147706[&&NHX:S=Danio-rerio])r91[&&NHX:S=Teleostei:D=N])r89[&&NHX:S=Teleostei:D=Y])n18:0.197356[&&NHX:S=BonyVertebrates:D=N:B=99.0],(((Homo-sapiens_ENST00000259467.9_PDCL-phosducin-like:0.122264[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000001946.5_PDCL-phosducin-like:0.095643[&&NHX:S=Gallus-gallus])n24:0.017893[&&NHX:S=Amniota:D=N:B=78.0],Xenopus-tropicalis_ENSXETT00000035655.2_pdcl-phosducin-like-:0.22463[&&NHX:S=Xenopus-tropicalis])r97[&&NHX:S=Tetrapoda:D=N],((Oryzias-latipes_ENSORLT00000006434.1_pdcl-phosducin-like:0.06456[&&NHX:S=Oryzias-latipes],Gasterosteus-aculeatus_ENSGACT00000021275.1_pdcl-phosducin-l:0.044996[&&NHX:S=Gasterosteus-aculeatus])n29:0.08648[&&NHX:S=Percomorpha:D=N:B=95.0],Danio-rerio_ENSDART00000153959.1_pdcl-phosducin-like:0.268587[&&NHX:S=Danio-rerio])n31:0.08041[&&NHX:S=Teleostei:D=N:B=78.0])n32:0.079837[&&NHX:S=BonyVertebrates:D=N:B=77.0])r87[&&NHX:S=BonyVertebrates:D=Y],Ciona-intestinalis_ENSCINT00000013037.3_NONE:0.49368[&&NHX:S=Ciona-intestinalis])r86[&&NHX:S=Deuterostomia:D=N],Drosophila-melanogaster_FBtr0075591_CG7650-NONE:0.444335[&&NHX:S=Drosophila-melanogaster])n34:0.345438[&&NHX:S=Bilateria:D=N:B=74.0],(Gallus-gallus_ENSGALT00000017035.6_GLRX3-glutaredoxin-3:0.876325[&&NHX:S=Gallus-gallus],Ciona-intestinalis_ENSCINT00000022200.2_NONE:0.783526[&&NHX:S=Ciona-intestinalis])r77[&&NHX:S=Deuterostomia:D=N])n38:0.467781[&&NHX:S=Bilateria:D=Y:B=98.0],((((((Homo-sapiens_ENST00000295645.9_PDCL2-phosducin-like-2:0.253701[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000101999.1_PDCL2-phosducin-like:0.269645[&&NHX:S=Gallus-gallus])r70[&&NHX:S=Amniota:D=N],(Homo-sapiens_ENST00000264254.11_PDCL3-phosducin-like-3:0.077778[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000027078.4_PDCL3-phosducin-like:0.097705[&&NHX:S=Gallus-gallus])r71[&&NHX:S=Amniota:D=N])r69[&&NHX:S=Amniota:D=Y],Xenopus-tropicalis_ENSXETT00000047080.2_pdcl3-phosducin-like:0.093814[&&NHX:S=Xenopus-tropicalis])r68[&&NHX:S=Tetrapoda:D=N],(((Gasterosteus-aculeatus_ENSGACT00000001069.1_PDCL3-phosducin-:0.080657[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000018994.1_PDCL3-phosducin-:0.032983[&&NHX:S=Tetraodon-nigroviridis])r74[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000011694.1_PDCL3-phosducin-like-3:0.067048[&&NHX:S=Oryzias-latipes])r73[&&NHX:S=Percomorpha:D=N],Danio-rerio_ENSDART00000169907.1_PDCL3-phosducin-like-3:0.318476[&&NHX:S=Danio-rerio])r72[&&NHX:S=Teleostei:D=N])r67[&&NHX:S=BonyVertebrates:D=N],Ciona-intestinalis_ENSCINT00000005040.3_NONE:0.335205[&&NHX:S=Ciona-intestinalis])r66[&&NHX:S=Deuterostomia:D=N],Drosophila-melanogaster_FBtr0076062_viaf-viral-IAP-associat:0.268095[&&NHX:S=Drosophila-melanogaster])r65[&&NHX:S=Bilateria:D=N])n60[&&NHX:S=Bilateria:D=Y];
+
+>1st_gene_tree_newick
+(((((((((Gasterosteus-aculeatus_ENSGACT00000009904.1_pdcb-phosducin-b:0.070861,(Tetraodon-nigroviridis_ENSTNIT00000021524.1_pdcb-phosducin-b:0.033766,Oryzias-latipes_ENSORLT00000011834.1_pdc-Oryzias-latipes-con:0.071503)40:0.003050)100:0.087897,Danio-rerio_ENSDART00000062539.7_pdcb-phosducin-b:0.142109)63:0.046479,(Gasterosteus-aculeatus_ENSGACT00000019446.1_NONE:0.110513,Oryzias-latipes_ENSORLT00000017423.1_NONE:0.075495)99:0.054896)56:0.028696,Danio-rerio_ENSDART00000149989.1_pdca-phosducin-a:0.147706)47:0.050433,(Xenopus-tropicalis_ENSXETT00000037837.1_pdc-phosducin:0.130079,(Gallus-gallus_ENSGALT00000080407.3_PDC-phosducin:0.112537,Homo-sapiens_ENST00000391997.3_PDC-phosducin:0.146468)57:0.044608)100:0.079814)99:0.197356,((Drosophila-melanogaster_FBtr0075591_CG7650-NONE:0.444335,Ciona-intestinalis_ENSCINT00000013037.3_NONE:0.493680)33:0.053817,((Xenopus-tropicalis_ENSXETT00000035655.2_pdcl-phosducin-like-:0.224630,(Gallus-gallus_ENSGALT00000001946.5_PDCL-phosducin-like:0.095643,Homo-sapiens_ENST00000259467.9_PDCL-phosducin-like:0.122264)78:0.017893)66:0.043168,(Danio-rerio_ENSDART00000153959.1_pdcl-phosducin-like:0.268587,(Gasterosteus-aculeatus_ENSGACT00000021275.1_pdcl-phosducin-l:0.044996,Oryzias-latipes_ENSORLT00000006434.1_pdcl-phosducin-like:0.064560)95:0.086480)78:0.080410)77:0.079837)28:0.061468)74:0.345438,(Ciona-intestinalis_ENSCINT00000022200.2_NONE:0.783526,Gallus-gallus_ENSGALT00000017035.6_GLRX3-glutaredoxin-3:0.876325)36:0.125448)98:0.467781,(Gallus-gallus_ENSGALT00000101999.1_PDCL2-phosducin-like:0.269645,Homo-sapiens_ENST00000295645.9_PDCL2-phosducin-like-2:0.253701)66:0.230722)7:0.114343,(Ciona-intestinalis_ENSCINT00000005040.3_NONE:0.335205,((Xenopus-tropicalis_ENSXETT00000047080.2_pdcl3-phosducin-like:0.093814,(Danio-rerio_ENSDART00000169907.1_PDCL3-phosducin-like-3:0.318476,((Tetraodon-nigroviridis_ENSTNIT00000018994.1_PDCL3-phosducin-:0.032983,Oryzias-latipes_ENSORLT00000011694.1_PDCL3-phosducin-like-3:0.067048)9:0.012358,Gasterosteus-aculeatus_ENSGACT00000001069.1_PDCL3-phosducin-:0.080657)64:0.038679)56:0.079489)6:0.004693,(Gallus-gallus_ENSGALT00000027078.4_PDCL3-phosducin-like:0.097705,Homo-sapiens_ENST00000264254.11_PDCL3-phosducin-like-3:0.077778)27:0.022734)21:0.078176)44:0.111801,Drosophila-melanogaster_FBtr0076062_viaf-viral-IAP-associat:0.268095);
+
+>Aligned-ShortSequence_threshold evaluation
+Drosophila-melanogaster_FBtr0076062_viaf-viral-IAP-associat      0.99
+Drosophila-melanogaster_FBtr0075591_CG7650-NONE                  0.911
+Ciona-intestinalis_ENSCINT00000022200.2_NONE                     0.859
+Ciona-intestinalis_ENSCINT00000005040.3_NONE                     0.984
+Ciona-intestinalis_ENSCINT00000013037.3_NONE                     0.901
+Xenopus-tropicalis_ENSXETT00000047080.2_pdcl3-phosducin-like     1.0
+Xenopus-tropicalis_ENSXETT00000035655.2_pdcl-phosducin-like-     0.995
+Xenopus-tropicalis_ENSXETT00000037837.1_pdc-phosducin            0.974
+Gallus-gallus_ENSGALT00000017035.6_GLRX3-glutaredoxin-3          0.672
+Gallus-gallus_ENSGALT00000101999.1_PDCL2-phosducin-like          0.688
+Gallus-gallus_ENSGALT00000027078.4_PDCL3-phosducin-like          0.995
+Gallus-gallus_ENSGALT00000001946.5_PDCL-phosducin-like           1.0
+Gallus-gallus_ENSGALT00000080407.3_PDC-phosducin                 1.0
+Homo-sapiens_ENST00000295645.9_PDCL2-phosducin-like-2            1.0
+Homo-sapiens_ENST00000264254.11_PDCL3-phosducin-like-3           0.995
+Homo-sapiens_ENST00000259467.9_PDCL-phosducin-like               1.0
+Homo-sapiens_ENST00000391997.3_PDC-phosducin                     1.0
+Danio-rerio_ENSDART00000169907.1_PDCL3-phosducin-like-3          1.0
+Danio-rerio_ENSDART00000153959.1_pdcl-phosducin-like             0.99
+Danio-rerio_ENSDART00000062539.7_pdcb-phosducin-b                0.984
+Danio-rerio_ENSDART00000149989.1_pdca-phosducin-a                0.99
+== Removed ==> Tetraodon-nigroviridis_ENSTNIT00000000480.1_NONE                 0.146
+Tetraodon-nigroviridis_ENSTNIT00000018994.1_PDCL3-phosducin-     1.0
+Tetraodon-nigroviridis_ENSTNIT00000021524.1_pdcb-phosducin-b     0.995
+Gasterosteus-aculeatus_ENSGACT00000001069.1_PDCL3-phosducin-     1.0
+Gasterosteus-aculeatus_ENSGACT00000021275.1_pdcl-phosducin-l     1.0
+Gasterosteus-aculeatus_ENSGACT00000009904.1_pdcb-phosducin-b     1.0
+Gasterosteus-aculeatus_ENSGACT00000019446.1_NONE                 1.0
+Oryzias-latipes_ENSORLT00000011694.1_PDCL3-phosducin-like-3      0.99
+Oryzias-latipes_ENSORLT00000006434.1_pdcl-phosducin-like         1.0
+Oryzias-latipes_ENSORLT00000011834.1_pdc-Oryzias-latipes-con     1.0
+Oryzias-latipes_ENSORLT00000017423.1_NONE                        1.0
+
+
+################ Settings ################
+
+>NumberAssigned_querySequence
+Oryzias-latipes_ENSORLT00000017423.1_NONE
+GSVSKQQQKKQVRITQTDNQASVRMSSVVQEEEELPANHTGPKGVINDWRRFKLDSVDQNVPQRKRELLRQMSNPRDDDKERVNRKMSVQEYEMIQDEDERCLKRYRKQCMQEMHERLSFGPKFECVHELESGEAFLEVIEKEHRLTLVVVNIYQQDVKGCEQMNSCLDCLATEYPTVKFCRIDAVATGAAERFSSEVLPTLLVYKSGELLGNFLSITKHFNEEFFATDVEAFLNEYGLLPEKEFAACADEEDDAANVE
+
+>SpeciesTree
+(Drosophila-melanogaster,(Ciona-intestinalis,((Xenopus-tropicalis,(Gallus-gallus,Homo-sapiens)Amniota)Tetrapoda,(Danio-rerio,(Oryzias-latipes,(Tetraodon-nigroviridis,Gasterosteus-aculeatus)Eupercaria)Percomorpha)Teleostei)BonyVertebrates)Deuterostomia)Bilateria;
+
+>SubstitutionModel
+WAG (Whelan and Goldman 2001) + gamma
+
+>ShortSequence_threshold
+0.45
+
+>Dataset
+AminoAcid
+
+>Rearrangement_BS_value_threshold
+70
+
+>TaxonSampling_color
+Drosophila-melanogaster_Black
+Ciona-intestinalis_Black
+Xenopus-tropicalis_Magenta
+Gallus-gallus_Magenta
+Homo-sapiens_Magenta
+Danio-rerio_Purple
+Tetraodon-nigroviridis_Green
+Gasterosteus-aculeatus_Red
+Oryzias-latipes_Blue
+
+################ Results: 2nd analysis ################
+
+>TreeSearchMethod
+NJ
+
+>2nd_rearranged_gene_tree_newick
+((((Homo-sapiens_ENST00000391997.3_PDC-phosducin,Gallus-gallus_ENSGALT00000080407.3_PDC-phosducin)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000037837.1_pdc-phosducin)99_S=Tetrapoda_D=N,Homo-sapiens_ENST00000259467.9_PDCL-phosducin-like)r_S=Tetrapoda_D=Y,((((Tetraodon-nigroviridis_ENSTNIT00000021524.1_pdcb-phosducin-b,Oryzias-latipes_ENSORLT00000011834.1_pdc-Oryzias-latipes-con)90_S=Percomorpha_D=N,Gasterosteus-aculeatus_ENSGACT00000009904.1_pdcb-phosducin-b)95_S=Percomorpha_D=Y,Danio-rerio_ENSDART00000062539.7_pdcb-phosducin-b)98_S=Teleostei_D=N,((Oryzias-latipes_ENSORLT00000017423.1_NONE,Gasterosteus-aculeatus_ENSGACT00000019446.1_NONE)100_S=Percomorpha_D=N,Danio-rerio_ENSDART00000149989.1_pdca-phosducin-a)r_S=Teleostei_D=N)100_S=Teleostei_D=Y)r_S=BonyVertebrates_D=N;
+
+>2nd_rearranged_gene_tree_NHX
+((((Homo-sapiens_ENST00000391997.3_PDC-phosducin:0.128069[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000080407.3_PDC-phosducin:0.112344[&&NHX:S=Gallus-gallus])r35[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000037837.1_pdc-phosducin:0.137323[&&NHX:S=Xenopus-tropicalis])n17:0.051351[&&NHX:S=Tetrapoda:D=N:B=99.0],Homo-sapiens_ENST00000259467.9_PDCL-phosducin-like:0.562778[&&NHX:S=Homo-sapiens])r29[&&NHX:S=Tetrapoda:D=Y],((((Tetraodon-nigroviridis_ENSTNIT00000021524.1_pdcb-phosducin-b:0.029939[&&NHX:S=Tetraodon-nigroviridis],Oryzias-latipes_ENSORLT00000011834.1_pdc-Oryzias-latipes-con:0.062883[&&NHX:S=Oryzias-latipes])n2:0.018671[&&NHX:S=Percomorpha:D=N:B=90.0],Gasterosteus-aculeatus_ENSGACT00000009904.1_pdcb-phosducin-b:0.079005[&&NHX:S=Gasterosteus-aculeatus])n4:0.077596[&&NHX:S=Percomorpha:D=Y:B=95.0],Danio-rerio_ENSDART00000062539.7_pdcb-phosducin-b:0.146281[&&NHX:S=Danio-rerio])n6:0.057711[&&NHX:S=Teleostei:D=N:B=98.0],((Oryzias-latipes_ENSORLT00000017423.1_NONE:0.080605[&&NHX:S=Oryzias-latipes],Gasterosteus-aculeatus_ENSGACT00000019446.1_NONE:0.101287[&&NHX:S=Gasterosteus-aculeatus])n9:0.064297[&&NHX:S=Percomorpha:D=N:B=100.0],Danio-rerio_ENSDART00000149989.1_pdca-phosducin-a:0.14473[&&NHX:S=Danio-rerio])r37[&&NHX:S=Teleostei:D=N])n12:0.080628[&&NHX:S=Teleostei:D=Y:B=100.0])n20[&&NHX:S=BonyVertebrates:D=N];
+
+>2nd_gene_tree_newick
+((((((Oryzias-latipes_ENSORLT00000011834.1_pdc-Oryzias-latipes-con:0.062883,Tetraodon-nigroviridis_ENSTNIT00000021524.1_pdcb-phosducin-b:0.029939)90:0.018671,Gasterosteus-aculeatus_ENSGACT00000009904.1_pdcb-phosducin-b:0.079005)95:0.077596,Danio-rerio_ENSDART00000062539.7_pdcb-phosducin-b:0.146281)98:0.057711,(Gasterosteus-aculeatus_ENSGACT00000019446.1_NONE:0.101287,Oryzias-latipes_ENSORLT00000017423.1_NONE:0.080605)100:0.064297)40:0.029138,Danio-rerio_ENSDART00000149989.1_pdca-phosducin-a:0.144730)89:0.080628,((Gallus-gallus_ENSGALT00000080407.3_PDC-phosducin:0.112344,Homo-sapiens_ENST00000391997.3_PDC-phosducin:0.128069)46:0.039997,Xenopus-tropicalis_ENSXETT00000037837.1_pdc-phosducin:0.137323)99:0.051351,Homo-sapiens_ENST00000259467.9_PDCL-phosducin-like:0.562778);
+
+>MonophyleticGeneGroups
+BonyVertebrates                 NoGeneNode  NONE
+Teleostei                       100  D=Y
+Percomorpha                     100  D=N
+Oryzias-latipes                 leaf  leaf
+
+>SisterGeneGroups
+BonyVertebrates                 NONE   NoGeneNode
+Teleostei                       100   Teleostei(Percomorpha;Danio-rerio)
+Percomorpha                     r   Danio-rerio
+Oryzias-latipes                 100   Gasterosteus-aculeatus
+
+>Number_of_duplicatedNode
+BonyVertebrates                 0
+Teleostei                       1
+Percomorpha                     0
+Oryzias-latipes                 0
+
+>AnalysisTime
+21.4 seconds

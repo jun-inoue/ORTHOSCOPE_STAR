@@ -1,0 +1,209 @@
+################ Results: 1st analysis ################
+
+>QuerySequence
+Oryzias-latipes_ENSORLT00000000766.1_NONE  <= [Identities = 749/749 (100%)] : Oryzias-latipes_ENSORLT00000000766.1_NONE
+
+>Number_of_blastHits
+Drosophila-melanogaster  10
+Ciona-intestinalis       10
+Xenopus-tropicalis       10
+Gallus-gallus            10
+Homo-sapiens             10
+Danio-rerio              10
+Tetraodon-nigroviridis   10
+Gasterosteus-aculeatus   10
+Oryzias-latipes          10
+
+>BS_of_orthogroupBasalNode
+r
+
+
+>Orthogroup
+Danio-rerio_ENSDART00000129365.2_kcnb2-potassium-voltage-gat
+Gallus-gallus_ENSGALT00000048129.2_KCNB2-potassium-volt
+Gasterosteus-aculeatus_ENSGACT00000003661.1_kcnb2-potassium-
+Homo-sapiens_ENST00000523207.2_KCNB2-potassium-voltage
+Oryzias-latipes_ENSORLT00000000766.1_NONE
+Tetraodon-nigroviridis_ENSTNIT00000011194.1_kcnb2-potassium-
+
+>GeneNumber_of_orthogroup
+Xenopus-tropicalis      0
+Gallus-gallus           1
+Homo-sapiens            1
+Danio-rerio             1
+Oryzias-latipes         1
+Tetraodon-nigroviridis  1
+Gasterosteus-aculeatus  1
+
+>Rooting
+Tetraodon-nigroviridis_ENSTNIT00000017879.1_NONE
+
+
+>1st_rearranged_gene_tree_newick
+((((((((((((Tetraodon-nigroviridis_ENSTNIT00000017879.1_NONE,Xenopus-tropicalis_ENSXETT00000025847.3_kcnb2-potassium-chan)88_S=BonyVertebrates_D=N,(((Homo-sapiens_ENST00000371741.6_KCNB1-potassium-voltage,Gallus-gallus_ENSGALT00000034233.3_KCNB1-potassium-volt)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000034901.3_kcnb1-potassium-chan)82_S=Tetrapoda_D=N,(((Gasterosteus-aculeatus_ENSGACT00000001737.1_kcnb1-potassium-,Tetraodon-nigroviridis_ENSTNIT00000017993.1_kcnb1-potassium-)r_S=Eupercaria_D=N,Danio-rerio_ENSDART00000153673.1_kcnb1-potassium-voltage-gat)73_S=Teleostei_D=N,(Oryzias-latipes_ENSORLT00000010052.1_KCNB2-potassium-voltage,Danio-rerio_ENSDART00000123450.2_KCNB2-potassium-voltage-gat)r_S=Teleostei_D=N)r_S=Teleostei_D=Y)r_S=BonyVertebrates_D=N)r_S=BonyVertebrates_D=Y,((Homo-sapiens_ENST00000523207.2_KCNB2-potassium-voltage,Gallus-gallus_ENSGALT00000048129.2_KCNB2-potassium-volt)98_S=Amniota_D=N,(((Gasterosteus-aculeatus_ENSGACT00000003661.1_kcnb2-potassium-,Tetraodon-nigroviridis_ENSTNIT00000011194.1_kcnb2-potassium-)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000000766.1_NONE)r_S=Percomorpha_D=N,Danio-rerio_ENSDART00000129365.2_kcnb2-potassium-voltage-gat)r_S=Teleostei_D=N)r_S=BonyVertebrates_D=N)84_S=BonyVertebrates_D=Y,(Gasterosteus-aculeatus_ENSGACT00000019631.1_NONE,Tetraodon-nigroviridis_ENSTNIT00000021532.1_NONE)92_S=Eupercaria_D=N)99_S=BonyVertebrates_D=Y,Drosophila-melanogaster_FBtr0333898_Shab-Shaker-cognate-b-D)100_S=Bilateria_D=N,(Ciona-intestinalis_ENSCINT00000011044.3_kcnq1-voltage-gated-,Drosophila-melanogaster_FBtr0301444_KCNQ-KCNQ-potassium-cha)100_S=Bilateria_D=N)r_S=Bilateria_D=Y,(Ciona-intestinalis_ENSCINT00000009938.3_NONE,Drosophila-melanogaster_FBtr0112853_Shal-Shaker-cognate-l-D)100_S=Bilateria_D=N)r_S=Bilateria_D=Y,(((Ciona-intestinalis_ENSCINT00000032302.1_NONE,Ciona-intestinalis_ENSCINT00000023466.2_NONE)r_S=Ciona-intestinalis_D=Y,Ciona-intestinalis_ENSCINT00000007861.3_NONE)r_S=Ciona-intestinalis_D=Y,Drosophila-melanogaster_FBtr0089657_Sh-Shaker-DBNLINE-578)76_S=Bilateria_D=N)r_S=Bilateria_D=Y,((Drosophila-melanogaster_FBtr0289989_Shaw-Shaker-cognate-w-D,Drosophila-melanogaster_FBtr0308029_Shawl-Shaw-like-DBNLINE)100_S=Drosophila-melanogaster_D=Y,(Oryzias-latipes_ENSORLT00000007744.1_kcnc4-potassium-voltage,Xenopus-tropicalis_ENSXETT00000004343.3_kcnc4-potassium-chan)100_S=BonyVertebrates_D=N)100_S=Bilateria_D=N)r_S=Bilateria_D=Y,(((((((((Xenopus-tropicalis_ENSXETT00000025601.3_kcnv2-potassium-chan,((((Gasterosteus-aculeatus_ENSGACT00000016957.1_kcnv2b-potassium,Tetraodon-nigroviridis_ENSTNIT00000000886.1_kcnv2b-potassium)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000018670.1_kcnv2b-potassium-channe)96_S=Percomorpha_D=N,(Gasterosteus-aculeatus_ENSGACT00000023677.1_kcnv2a-potassium,Tetraodon-nigroviridis_ENSTNIT00000013421.1_kcnv2a-potassium)r_S=Eupercaria_D=N)r_S=Percomorpha_D=Y,Danio-rerio_ENSDART00000136239.1_kcnv2a-potassium-channel-su)r_S=Teleostei_D=N)80_S=BonyVertebrates_D=N,Homo-sapiens_ENST00000382082.4_KCNV2-potassium-voltage)100_S=BonyVertebrates_D=Y,Xenopus-tropicalis_ENSXETT00000047493.3_NONE)100_S=BonyVertebrates_D=Y,(((Homo-sapiens_ENST00000524391.6_KCNV1-potassium-voltage,Gallus-gallus_ENSGALT00000078485.2_KCNV1-potassium-volt)91_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000017367.3_kcnv1-potassium-chan)r_S=Tetrapoda_D=N,Danio-rerio_ENSDART00000102591.3_KCNV1-potassium-voltage-gat)100_S=BonyVertebrates_D=N)r_S=BonyVertebrates_D=Y,((((Homo-sapiens_ENST00000403915.5_KCNS3-potassium-voltage,Gallus-gallus_ENSGALT00000026574.6_KCNS3-potassium-volt)100_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000056255.2_kcns3-potassium-volt)100_S=Tetrapoda_D=N,(((Gasterosteus-aculeatus_ENSGACT00000012949.1_kcns3b-potassium,Tetraodon-nigroviridis_ENSTNIT00000006410.1_kcns3b-potassium)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000015656.1_kcns3b-potassium-voltag)100_S=Percomorpha_D=N,(Danio-rerio_ENSDART00000016535.5_kcns3a-potassium-voltage-ga,Danio-rerio_ENSDART00000044937.5_kcns3b-potassium-voltage-ga)r_S=Danio-rerio_D=Y)r_S=Teleostei_D=N)93_S=BonyVertebrates_D=N,(((Homo-sapiens_ENST00000287042.5_KCNS2-potassium-voltage,Gallus-gallus_ENSGALT00000073708.2_KCNS2-potassium-volt)100_S=Amniota_D=N,((Gasterosteus-aculeatus_ENSGACT00000004622.1_KCNS2-potassium-,Tetraodon-nigroviridis_ENSTNIT00000016501.1_KCNS2-potassium-)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000003497.1_KCNS2-potassium-voltage)100_S=Percomorpha_D=N)100_S=BonyVertebrates_D=N,((Homo-sapiens_ENST00000306117.5_KCNS1-potassium-voltage,Gallus-gallus_ENSGALT00000006480.5_KCNS1-potassium-volt)r_S=Amniota_D=N,(((Oryzias-latipes_ENSORLT00000024892.1_NONE,Tetraodon-nigroviridis_ENSTNIT00000008056.1_KCNS1-potassium-)81_S=Percomorpha_D=N,Gasterosteus-aculeatus_ENSGACT00000000026.1_KCNS1-potassium-)r_S=Percomorpha_D=Y,Danio-rerio_ENSDART00000038777.7_NONE)99_S=Teleostei_D=N)99_S=BonyVertebrates_D=N)98_S=BonyVertebrates_D=Y)100_S=BonyVertebrates_D=Y)r_S=BonyVertebrates_D=Y,(((((Homo-sapiens_ENST00000308251.5_KCNG4-potassium-voltage,Gallus-gallus_ENSGALT00000033756.5_KCNG4-potassium-volt)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000029043.2_kcng4-potassium-chan)100_S=Tetrapoda_D=N,Oryzias-latipes_ENSORLT00000019790.1_kcng4a-potassium-voltag)76_S=BonyVertebrates_D=N,(((Gallus-gallus_ENSGALT00000012958.4_KCNG1-potassium-volt,Xenopus-tropicalis_ENSXETT00000026914.2_kcng1-potassium-chan)95_S=Tetrapoda_D=N,Homo-sapiens_ENST00000371571.5_KCNG1-potassium-voltage)77_S=Tetrapoda_D=Y,((Gasterosteus-aculeatus_ENSGACT00000014680.1_kcng1-potassium-,Tetraodon-nigroviridis_ENSTNIT00000015639.1_kcng1-potassium-)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000020242.1_kcng1-potassium-voltage)100_S=Percomorpha_D=N)95_S=BonyVertebrates_D=N)r_S=BonyVertebrates_D=Y,Gallus-gallus_ENSGALT00000080410.2_KCNG2-potassium-volt)100_S=BonyVertebrates_D=Y)r_S=BonyVertebrates_D=Y,(((Homo-sapiens_ENST00000295082.3_KCNF1-potassium-voltage,Gallus-gallus_ENSGALT00000026539.6_KCNF1-potassium-volt)95_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000007579.3_kcnf1-potassium-chan)95_S=Tetrapoda_D=N,((Oryzias-latipes_ENSORLT00000015912.1_kcnf1a-potassium-voltag,Gasterosteus-aculeatus_ENSGACT00000012660.1_kcnf1a-potassium)97_S=Percomorpha_D=N,(Danio-rerio_ENSDART00000037740.6_kcnf1b-potassium-voltage-ga,Danio-rerio_ENSDART00000153153.1_kcnf1a-potassium-voltage-ga)r_S=Danio-rerio_D=Y)r_S=Teleostei_D=N)100_S=BonyVertebrates_D=N)r_S=BonyVertebrates_D=Y,Ciona-intestinalis_ENSCINT00000021051.3_NONE)r_S=Deuterostomia_D=N,Drosophila-melanogaster_FBtr0330286_slo-slowpoke-DBNLINE-59)r_S=Bilateria_D=N)100_S=Bilateria_D=Y,((Ciona-intestinalis_ENSCINT00000004967.3_NONE,Drosophila-melanogaster_FBtr0331170_para-paralytic-DBNLINE-)87_S=Bilateria_D=N,Drosophila-melanogaster_FBtr0330240_NaCP60E-Na-channel-prot)80_S=Bilateria_D=Y)r_S=Bilateria_D=Y,Drosophila-melanogaster_FBtr0307325_cac-cacophony-DBNLINE-1)r_S=Bilateria_D=Y;
+
+>1st_rearranged_gene_tree_NHX
+((((((((((((Tetraodon-nigroviridis_ENSTNIT00000017879.1_NONE:0.068733[&&NHX:S=Tetraodon-nigroviridis],Xenopus-tropicalis_ENSXETT00000025847.3_kcnb2-potassium-chan:0.0[&&NHX:S=Xenopus-tropicalis])n29:0.015986[&&NHX:S=BonyVertebrates:D=N:B=88.0],(((Homo-sapiens_ENST00000371741.6_KCNB1-potassium-voltage:0.015702[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000034233.3_KCNB1-potassium-volt:0.013978[&&NHX:S=Gallus-gallus])r207[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000034901.3_kcnb1-potassium-chan:0.015604[&&NHX:S=Xenopus-tropicalis])n17:0.006036[&&NHX:S=Tetrapoda:D=N:B=82.0],(((Gasterosteus-aculeatus_ENSGACT00000001737.1_kcnb1-potassium-:0.016601[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000017993.1_kcnb1-potassium-:0.009729[&&NHX:S=Tetraodon-nigroviridis])r210[&&NHX:S=Eupercaria:D=N],Danio-rerio_ENSDART00000153673.1_kcnb1-potassium-voltage-gat:0.031573[&&NHX:S=Danio-rerio])n22:0.006512[&&NHX:S=Teleostei:D=N:B=73.0],(Oryzias-latipes_ENSORLT00000010052.1_KCNB2-potassium-voltage:0.011394[&&NHX:S=Oryzias-latipes],Danio-rerio_ENSDART00000123450.2_KCNB2-potassium-voltage-gat:0.00913[&&NHX:S=Danio-rerio])r197[&&NHX:S=Teleostei:D=N])r196[&&NHX:S=Teleostei:D=Y])r195[&&NHX:S=BonyVertebrates:D=N])r194[&&NHX:S=BonyVertebrates:D=Y],((Homo-sapiens_ENST00000523207.2_KCNB2-potassium-voltage:0.008307[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000048129.2_KCNB2-potassium-volt:0.006506[&&NHX:S=Gallus-gallus])n11:0.014577[&&NHX:S=Amniota:D=N:B=98.0],(((Gasterosteus-aculeatus_ENSGACT00000003661.1_kcnb2-potassium-:0.013067[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000011194.1_kcnb2-potassium-:0.010273[&&NHX:S=Tetraodon-nigroviridis])r205[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000000766.1_NONE:0.037014[&&NHX:S=Oryzias-latipes])r204[&&NHX:S=Percomorpha:D=N],Danio-rerio_ENSDART00000129365.2_kcnb2-potassium-voltage-gat:0.031129[&&NHX:S=Danio-rerio])r203[&&NHX:S=Teleostei:D=N])r200[&&NHX:S=BonyVertebrates:D=N])n30:0.017962[&&NHX:S=BonyVertebrates:D=Y:B=84.0],(Gasterosteus-aculeatus_ENSGACT00000019631.1_NONE:0.108103[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000021532.1_NONE:0.058087[&&NHX:S=Tetraodon-nigroviridis])n33:0.029674[&&NHX:S=Eupercaria:D=N:B=92.0])n34:0.071056[&&NHX:S=BonyVertebrates:D=Y:B=99.0],Drosophila-melanogaster_FBtr0333898_Shab-Shaker-cognate-b-D:0.19602[&&NHX:S=Drosophila-melanogaster])n36:0.172113[&&NHX:S=Bilateria:D=N:B=100.0],(Ciona-intestinalis_ENSCINT00000011044.3_kcnq1-voltage-gated-:0.269864[&&NHX:S=Ciona-intestinalis],Drosophila-melanogaster_FBtr0301444_KCNQ-KCNQ-potassium-cha:0.334944[&&NHX:S=Drosophila-melanogaster])n125:0.839485[&&NHX:S=Bilateria:D=N:B=100.0])r186[&&NHX:S=Bilateria:D=Y],(Ciona-intestinalis_ENSCINT00000009938.3_NONE:0.128694[&&NHX:S=Ciona-intestinalis],Drosophila-melanogaster_FBtr0112853_Shal-Shaker-cognate-l-D:0.113755[&&NHX:S=Drosophila-melanogaster])n128:0.426394[&&NHX:S=Bilateria:D=N:B=100.0])r185[&&NHX:S=Bilateria:D=Y],(((Ciona-intestinalis_ENSCINT00000032302.1_NONE:0.142279[&&NHX:S=Ciona-intestinalis],Ciona-intestinalis_ENSCINT00000023466.2_NONE:0.230828[&&NHX:S=Ciona-intestinalis])r216[&&NHX:S=Ciona-intestinalis:D=Y],Ciona-intestinalis_ENSCINT00000007861.3_NONE:0.471394[&&NHX:S=Ciona-intestinalis])r215[&&NHX:S=Ciona-intestinalis:D=Y],Drosophila-melanogaster_FBtr0089657_Sh-Shaker-DBNLINE-578:0.236933[&&NHX:S=Drosophila-melanogaster])n136:0.168773[&&NHX:S=Bilateria:D=N:B=76.0])r184[&&NHX:S=Bilateria:D=Y],((Drosophila-melanogaster_FBtr0289989_Shaw-Shaker-cognate-w-D:0.111979[&&NHX:S=Drosophila-melanogaster],Drosophila-melanogaster_FBtr0308029_Shawl-Shaw-like-DBNLINE:0.139435[&&NHX:S=Drosophila-melanogaster])n140:0.203453[&&NHX:S=Drosophila-melanogaster:D=Y:B=100.0],(Oryzias-latipes_ENSORLT00000007744.1_kcnc4-potassium-voltage:0.079607[&&NHX:S=Oryzias-latipes],Xenopus-tropicalis_ENSXETT00000004343.3_kcnc4-potassium-chan:0.06115[&&NHX:S=Xenopus-tropicalis])n143:0.22694[&&NHX:S=BonyVertebrates:D=N:B=100.0])n144:0.227852[&&NHX:S=Bilateria:D=N:B=100.0])r183[&&NHX:S=Bilateria:D=Y],(((((((((Xenopus-tropicalis_ENSXETT00000025601.3_kcnv2-potassium-chan:0.141712[&&NHX:S=Xenopus-tropicalis],((((Gasterosteus-aculeatus_ENSGACT00000016957.1_kcnv2b-potassium:0.049137[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000000886.1_kcnv2b-potassium:0.006852[&&NHX:S=Tetraodon-nigroviridis])r226[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000018670.1_kcnv2b-potassium-channe:0.035195[&&NHX:S=Oryzias-latipes])n44:0.047353[&&NHX:S=Percomorpha:D=N:B=96.0],(Gasterosteus-aculeatus_ENSGACT00000023677.1_kcnv2a-potassium:0.1199[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000013421.1_kcnv2a-potassium:0.150856[&&NHX:S=Tetraodon-nigroviridis])r223[&&NHX:S=Eupercaria:D=N])r221[&&NHX:S=Percomorpha:D=Y],Danio-rerio_ENSDART00000136239.1_kcnv2a-potassium-channel-su:0.1019[&&NHX:S=Danio-rerio])r220[&&NHX:S=Teleostei:D=N])n49:0.029226[&&NHX:S=BonyVertebrates:D=N:B=80.0],Homo-sapiens_ENST00000382082.4_KCNV2-potassium-voltage:0.200642[&&NHX:S=Homo-sapiens])n51:0.08634[&&NHX:S=BonyVertebrates:D=Y:B=100.0],Xenopus-tropicalis_ENSXETT00000047493.3_NONE:0.258997[&&NHX:S=Xenopus-tropicalis])n53:0.313264[&&NHX:S=BonyVertebrates:D=Y:B=100.0],(((Homo-sapiens_ENST00000524391.6_KCNV1-potassium-voltage:0.084269[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000078485.2_KCNV1-potassium-volt:0.106494[&&NHX:S=Gallus-gallus])n59:0.052606[&&NHX:S=Amniota:D=N:B=91.0],Xenopus-tropicalis_ENSXETT00000017367.3_kcnv1-potassium-chan:0.148121[&&NHX:S=Xenopus-tropicalis])r228[&&NHX:S=Tetrapoda:D=N],Danio-rerio_ENSDART00000102591.3_KCNV1-potassium-voltage-gat:0.160163[&&NHX:S=Danio-rerio])n60:0.273335[&&NHX:S=BonyVertebrates:D=N:B=100.0])r192[&&NHX:S=BonyVertebrates:D=Y],((((Homo-sapiens_ENST00000403915.5_KCNS3-potassium-voltage:0.071823[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000026574.6_KCNS3-potassium-volt:0.048006[&&NHX:S=Gallus-gallus])n64:0.047357[&&NHX:S=Amniota:D=N:B=100.0],Xenopus-tropicalis_ENSXETT00000056255.2_kcns3-potassium-volt:0.089052[&&NHX:S=Xenopus-tropicalis])n66:0.088691[&&NHX:S=Tetrapoda:D=N:B=100.0],(((Gasterosteus-aculeatus_ENSGACT00000012949.1_kcns3b-potassium:0.078538[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000006410.1_kcns3b-potassium:0.085879[&&NHX:S=Tetraodon-nigroviridis])r235[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000015656.1_kcns3b-potassium-voltag:0.091857[&&NHX:S=Oryzias-latipes])n73:0.142526[&&NHX:S=Percomorpha:D=N:B=100.0],(Danio-rerio_ENSDART00000016535.5_kcns3a-potassium-voltage-ga:0.214154[&&NHX:S=Danio-rerio],Danio-rerio_ENSDART00000044937.5_kcns3b-potassium-voltage-ga:0.3262[&&NHX:S=Danio-rerio])r233[&&NHX:S=Danio-rerio:D=Y])r232[&&NHX:S=Teleostei:D=N])n76:0.064321[&&NHX:S=BonyVertebrates:D=N:B=93.0],(((Homo-sapiens_ENST00000287042.5_KCNS2-potassium-voltage:0.046011[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000073708.2_KCNS2-potassium-volt:0.050708[&&NHX:S=Gallus-gallus])n79:0.071292[&&NHX:S=Amniota:D=N:B=100.0],((Gasterosteus-aculeatus_ENSGACT00000004622.1_KCNS2-potassium-:0.05125[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000016501.1_KCNS2-potassium-:0.030953[&&NHX:S=Tetraodon-nigroviridis])r237[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000003497.1_KCNS2-potassium-voltage:0.029933[&&NHX:S=Oryzias-latipes])n84:0.08752[&&NHX:S=Percomorpha:D=N:B=100.0])n85:0.131167[&&NHX:S=BonyVertebrates:D=N:B=100.0],((Homo-sapiens_ENST00000306117.5_KCNS1-potassium-voltage:0.190871[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000006480.5_KCNS1-potassium-volt:0.106962[&&NHX:S=Gallus-gallus])r240[&&NHX:S=Amniota:D=N],(((Oryzias-latipes_ENSORLT00000024892.1_NONE:0.055664[&&NHX:S=Oryzias-latipes],Tetraodon-nigroviridis_ENSTNIT00000008056.1_KCNS1-potassium-:0.109045[&&NHX:S=Tetraodon-nigroviridis])n91:0.020457[&&NHX:S=Percomorpha:D=N:B=81.0],Gasterosteus-aculeatus_ENSGACT00000000026.1_KCNS1-potassium-:0.123644[&&NHX:S=Gasterosteus-aculeatus])r243[&&NHX:S=Percomorpha:D=Y],Danio-rerio_ENSDART00000038777.7_NONE:0.108745[&&NHX:S=Danio-rerio])n95:0.070187[&&NHX:S=Teleostei:D=N:B=99.0])n96:0.097124[&&NHX:S=BonyVertebrates:D=N:B=99.0])n97:0.10186[&&NHX:S=BonyVertebrates:D=Y:B=98.0])n98:0.145881[&&NHX:S=BonyVertebrates:D=Y:B=100.0])r191[&&NHX:S=BonyVertebrates:D=Y],(((((Homo-sapiens_ENST00000308251.5_KCNG4-potassium-voltage:0.114785[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000033756.5_KCNG4-potassium-volt:0.083707[&&NHX:S=Gallus-gallus])r257[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000029043.2_kcng4-potassium-chan:0.093576[&&NHX:S=Xenopus-tropicalis])n104:0.082399[&&NHX:S=Tetrapoda:D=N:B=100.0],Oryzias-latipes_ENSORLT00000019790.1_kcng4a-potassium-voltag:0.19858[&&NHX:S=Oryzias-latipes])n106:0.020778[&&NHX:S=BonyVertebrates:D=N:B=76.0],(((Gallus-gallus_ENSGALT00000012958.4_KCNG1-potassium-volt:0.05211[&&NHX:S=Gallus-gallus],Xenopus-tropicalis_ENSXETT00000026914.2_kcng1-potassium-chan:0.064192[&&NHX:S=Xenopus-tropicalis])n109:0.033341[&&NHX:S=Tetrapoda:D=N:B=95.0],Homo-sapiens_ENST00000371571.5_KCNG1-potassium-voltage:0.083248[&&NHX:S=Homo-sapiens])n111:0.031243[&&NHX:S=Tetrapoda:D=Y:B=77.0],((Gasterosteus-aculeatus_ENSGACT00000014680.1_kcng1-potassium-:0.031637[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000015639.1_kcng1-potassium-:0.03593[&&NHX:S=Tetraodon-nigroviridis])r259[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000020242.1_kcng1-potassium-voltage:0.038511[&&NHX:S=Oryzias-latipes])n116:0.107461[&&NHX:S=Percomorpha:D=N:B=100.0])n117:0.057936[&&NHX:S=BonyVertebrates:D=N:B=95.0])r249[&&NHX:S=BonyVertebrates:D=Y],Gallus-gallus_ENSGALT00000080410.2_KCNG2-potassium-volt:0.163308[&&NHX:S=Gallus-gallus])n120:0.394566[&&NHX:S=BonyVertebrates:D=Y:B=100.0])r190[&&NHX:S=BonyVertebrates:D=Y],(((Homo-sapiens_ENST00000295082.3_KCNF1-potassium-voltage:0.060729[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000026539.6_KCNF1-potassium-volt:0.04372[&&NHX:S=Gallus-gallus])n148:0.031174[&&NHX:S=Amniota:D=N:B=95.0],Xenopus-tropicalis_ENSXETT00000007579.3_kcnf1-potassium-chan:0.091937[&&NHX:S=Xenopus-tropicalis])n150:0.02548[&&NHX:S=Tetrapoda:D=N:B=95.0],((Oryzias-latipes_ENSORLT00000015912.1_kcnf1a-potassium-voltag:0.075329[&&NHX:S=Oryzias-latipes],Gasterosteus-aculeatus_ENSGACT00000012660.1_kcnf1a-potassium:0.066136[&&NHX:S=Gasterosteus-aculeatus])n155:0.06141[&&NHX:S=Percomorpha:D=N:B=97.0],(Danio-rerio_ENSDART00000037740.6_kcnf1b-potassium-voltage-ga:0.138803[&&NHX:S=Danio-rerio],Danio-rerio_ENSDART00000153153.1_kcnf1a-potassium-voltage-ga:0.11962[&&NHX:S=Danio-rerio])r262[&&NHX:S=Danio-rerio:D=Y])r261[&&NHX:S=Teleostei:D=N])n158:0.348712[&&NHX:S=BonyVertebrates:D=N:B=100.0])r189[&&NHX:S=BonyVertebrates:D=Y],Ciona-intestinalis_ENSCINT00000021051.3_NONE:0.647752[&&NHX:S=Ciona-intestinalis])r188[&&NHX:S=Deuterostomia:D=N],Drosophila-melanogaster_FBtr0330286_slo-slowpoke-DBNLINE-59:1.229107[&&NHX:S=Drosophila-melanogaster])r187[&&NHX:S=Bilateria:D=N])n164:0.935053[&&NHX:S=Bilateria:D=Y:B=100.0],((Ciona-intestinalis_ENSCINT00000004967.3_NONE:0.288646[&&NHX:S=Ciona-intestinalis],Drosophila-melanogaster_FBtr0331170_para-paralytic-DBNLINE-:0.322739[&&NHX:S=Drosophila-melanogaster])n167:0.143005[&&NHX:S=Bilateria:D=N:B=87.0],Drosophila-melanogaster_FBtr0330240_NaCP60E-Na-channel-prot:0.341733[&&NHX:S=Drosophila-melanogaster])n169:0.184467[&&NHX:S=Bilateria:D=Y:B=80.0])r179[&&NHX:S=Bilateria:D=Y],Drosophila-melanogaster_FBtr0307325_cac-cacophony-DBNLINE-1:0.652281[&&NHX:S=Drosophila-melanogaster])n172[&&NHX:S=Bilateria:D=Y];
+
+>1st_gene_tree_newick
+(((((((((((Oryzias-latipes_ENSORLT00000010052.1_KCNB2-potassium-voltage:0.011394,((Danio-rerio_ENSDART00000123450.2_KCNB2-potassium-voltage-gat:0.009130,Gasterosteus-aculeatus_ENSGACT00000003661.1_kcnb2-potassium-:0.013067)35:0.002155,Tetraodon-nigroviridis_ENSTNIT00000011194.1_kcnb2-potassium-:0.010273)37:0.000927)68:0.003774,Danio-rerio_ENSDART00000129365.2_kcnb2-potassium-voltage-gat:0.031129)49:0.005461,(Gallus-gallus_ENSGALT00000048129.2_KCNB2-potassium-volt:0.006506,Homo-sapiens_ENST00000523207.2_KCNB2-potassium-voltage:0.008307)98:0.014577)37:0.010206,(((Xenopus-tropicalis_ENSXETT00000034901.3_kcnb1-potassium-chan:0.015604,(Gallus-gallus_ENSGALT00000034233.3_KCNB1-potassium-volt:0.013978,Homo-sapiens_ENST00000371741.6_KCNB1-potassium-voltage:0.015702)35:0.005575)82:0.006036,(Danio-rerio_ENSDART00000153673.1_kcnb1-potassium-voltage-gat:0.031573,(Tetraodon-nigroviridis_ENSTNIT00000017993.1_kcnb1-potassium-:0.009729,Gasterosteus-aculeatus_ENSGACT00000001737.1_kcnb1-potassium-:0.016601)67:0.008318)73:0.006512)59:0.004401,Oryzias-latipes_ENSORLT00000000766.1_NONE:0.037014)18:0.005939)46:0.010527,(Xenopus-tropicalis_ENSXETT00000025847.3_kcnb2-potassium-chan:-0.030592,Tetraodon-nigroviridis_ENSTNIT00000017879.1_NONE:0.068733)88:0.015986)84:0.017962,(Tetraodon-nigroviridis_ENSTNIT00000021532.1_NONE:0.058087,Gasterosteus-aculeatus_ENSGACT00000019631.1_NONE:0.108103)92:0.029674)99:0.071056,Drosophila-melanogaster_FBtr0333898_Shab-Shaker-cognate-b-D:0.196020)100:0.172113,(((((((Xenopus-tropicalis_ENSXETT00000025601.3_kcnv2-potassium-chan:0.141712,((Danio-rerio_ENSDART00000136239.1_kcnv2a-potassium-channel-su:0.101900,Gasterosteus-aculeatus_ENSGACT00000023677.1_kcnv2a-potassium:0.119900)15:0.018181,(Tetraodon-nigroviridis_ENSTNIT00000000886.1_kcnv2b-potassium:0.006852,(Gasterosteus-aculeatus_ENSGACT00000016957.1_kcnv2b-potassium:0.049137,Oryzias-latipes_ENSORLT00000018670.1_kcnv2b-potassium-channe:0.035195)25:0.009393)96:0.047353)25:0.021337)3:0.014434,Tetraodon-nigroviridis_ENSTNIT00000013421.1_kcnv2a-potassium:0.150856)80:0.029226,Homo-sapiens_ENST00000382082.4_KCNV2-potassium-voltage:0.200642)100:0.086340,Xenopus-tropicalis_ENSXETT00000047493.3_NONE:0.258997)100:0.313264,((Xenopus-tropicalis_ENSXETT00000017367.3_kcnv1-potassium-chan:0.148121,Danio-rerio_ENSDART00000102591.3_KCNV1-potassium-voltage-gat:0.160163)63:0.015460,(Gallus-gallus_ENSGALT00000078485.2_KCNV1-potassium-volt:0.106494,Homo-sapiens_ENST00000524391.6_KCNV1-potassium-voltage:0.084269)91:0.052606)100:0.273335)21:0.026493,((((Xenopus-tropicalis_ENSXETT00000056255.2_kcns3-potassium-volt:0.089052,(Gallus-gallus_ENSGALT00000026574.6_KCNS3-potassium-volt:0.048006,Homo-sapiens_ENST00000403915.5_KCNS3-potassium-voltage:0.071823)100:0.047357)100:0.088691,Danio-rerio_ENSDART00000016535.5_kcns3a-potassium-voltage-ga:0.214154)30:0.041130,(Danio-rerio_ENSDART00000044937.5_kcns3b-potassium-voltage-ga:0.326200,((Tetraodon-nigroviridis_ENSTNIT00000006410.1_kcns3b-potassium:0.085879,Gasterosteus-aculeatus_ENSGACT00000012949.1_kcns3b-potassium:0.078538)56:0.014168,Oryzias-latipes_ENSORLT00000015656.1_kcns3b-potassium-voltag:0.091857)100:0.142526)50:0.032304)93:0.064321,(((Gallus-gallus_ENSGALT00000073708.2_KCNS2-potassium-volt:0.050708,Homo-sapiens_ENST00000287042.5_KCNS2-potassium-voltage:0.046011)100:0.071292,((Tetraodon-nigroviridis_ENSTNIT00000016501.1_KCNS2-potassium-:0.030953,Oryzias-latipes_ENSORLT00000003497.1_KCNS2-potassium-voltage:0.029933)62:0.009924,Gasterosteus-aculeatus_ENSGACT00000004622.1_KCNS2-potassium-:0.051250)100:0.087520)100:0.131167,((Gallus-gallus_ENSGALT00000006480.5_KCNS1-potassium-volt:0.106962,Homo-sapiens_ENST00000306117.5_KCNS1-potassium-voltage:0.190871)67:0.038270,((Danio-rerio_ENSDART00000038777.7_NONE:0.108745,(Tetraodon-nigroviridis_ENSTNIT00000008056.1_KCNS1-potassium-:0.109045,Oryzias-latipes_ENSORLT00000024892.1_NONE:0.055664)81:0.020457)62:0.012185,Gasterosteus-aculeatus_ENSGACT00000000026.1_KCNS1-potassium-:0.123644)99:0.070187)99:0.097124)98:0.101860)100:0.145881)22:0.044156,((((Xenopus-tropicalis_ENSXETT00000029043.2_kcng4-potassium-chan:0.093576,Gallus-gallus_ENSGALT00000033756.5_KCNG4-potassium-volt:0.083707)59:0.025081,Homo-sapiens_ENST00000308251.5_KCNG4-potassium-voltage:0.114785)100:0.082399,Oryzias-latipes_ENSORLT00000019790.1_kcng4a-potassium-voltag:0.198580)76:0.020778,((((Xenopus-tropicalis_ENSXETT00000026914.2_kcng1-potassium-chan:0.064192,Gallus-gallus_ENSGALT00000012958.4_KCNG1-potassium-volt:0.052110)95:0.033341,Homo-sapiens_ENST00000371571.5_KCNG1-potassium-voltage:0.083248)77:0.031243,(Tetraodon-nigroviridis_ENSTNIT00000015639.1_kcng1-potassium-:0.035930,(Gasterosteus-aculeatus_ENSGACT00000014680.1_kcng1-potassium-:0.031637,Oryzias-latipes_ENSORLT00000020242.1_kcng1-potassium-voltage:0.038511)21:0.004145)100:0.107461)95:0.057936,Gallus-gallus_ENSGALT00000080410.2_KCNG2-potassium-volt:0.163308)66:0.029853)100:0.394566)1:0.034988)1:0.008164,(((((Drosophila-melanogaster_FBtr0301444_KCNQ-KCNQ-potassium-cha:0.334944,Ciona-intestinalis_ENSCINT00000011044.3_kcnq1-voltage-gated-:0.269864)100:0.839485,(Drosophila-melanogaster_FBtr0112853_Shal-Shaker-cognate-l-D:0.113755,Ciona-intestinalis_ENSCINT00000009938.3_NONE:0.128694)100:0.426394)26:0.028989,(((Drosophila-melanogaster_FBtr0089657_Sh-Shaker-DBNLINE-578:0.236933,Ciona-intestinalis_ENSCINT00000032302.1_NONE:0.142279)13:0.024889,Ciona-intestinalis_ENSCINT00000023466.2_NONE:0.230828)56:0.103821,Ciona-intestinalis_ENSCINT00000007861.3_NONE:0.471394)76:0.168773)36:0.043322,((Drosophila-melanogaster_FBtr0308029_Shawl-Shaw-like-DBNLINE:0.139435,Drosophila-melanogaster_FBtr0289989_Shaw-Shaker-cognate-w-D:0.111979)100:0.203453,(Xenopus-tropicalis_ENSXETT00000004343.3_kcnc4-potassium-chan:0.061150,Oryzias-latipes_ENSORLT00000007744.1_kcnc4-potassium-voltage:0.079607)100:0.226940)100:0.227852)34:0.091766,(Ciona-intestinalis_ENSCINT00000021051.3_NONE:0.647752,(((Xenopus-tropicalis_ENSXETT00000007579.3_kcnf1-potassium-chan:0.091937,(Gallus-gallus_ENSGALT00000026539.6_KCNF1-potassium-volt:0.043720,Homo-sapiens_ENST00000295082.3_KCNF1-potassium-voltage:0.060729)95:0.031174)95:0.025480,Danio-rerio_ENSDART00000037740.6_kcnf1b-potassium-voltage-ga:0.138803)68:0.030782,(Danio-rerio_ENSDART00000153153.1_kcnf1a-potassium-voltage-ga:0.119620,(Gasterosteus-aculeatus_ENSGACT00000012660.1_kcnf1a-potassium:0.066136,Oryzias-latipes_ENSORLT00000015912.1_kcnf1a-potassium-voltag:0.075329)97:0.061410)33:0.012711)100:0.348712)34:0.064713)14:0.024622)64:0.189492,Drosophila-melanogaster_FBtr0330286_slo-slowpoke-DBNLINE-59:1.229107)100:0.935053,(Drosophila-melanogaster_FBtr0330240_NaCP60E-Na-channel-prot:0.341733,(Drosophila-melanogaster_FBtr0331170_para-paralytic-DBNLINE-:0.322739,Ciona-intestinalis_ENSCINT00000004967.3_NONE:0.288646)87:0.143005)80:0.184467,Drosophila-melanogaster_FBtr0307325_cac-cacophony-DBNLINE-1:0.652281);
+
+>Aligned-ShortSequence_threshold evaluation
+Drosophila-melanogaster_FBtr0307325_cac-cacophony-DBNLINE-1      0.854
+Drosophila-melanogaster_FBtr0330240_NaCP60E-Na-channel-prot      0.912
+Drosophila-melanogaster_FBtr0331170_para-paralytic-DBNLINE-      0.91
+Drosophila-melanogaster_FBtr0330286_slo-slowpoke-DBNLINE-59      0.75
+Drosophila-melanogaster_FBtr0301444_KCNQ-KCNQ-potassium-cha      0.724
+Drosophila-melanogaster_FBtr0308029_Shawl-Shaw-like-DBNLINE      0.892
+Drosophila-melanogaster_FBtr0089657_Sh-Shaker-DBNLINE-578        0.86
+Drosophila-melanogaster_FBtr0112853_Shal-Shaker-cognate-l-D      0.846
+Drosophila-melanogaster_FBtr0289989_Shaw-Shaker-cognate-w-D      0.906
+Drosophila-melanogaster_FBtr0333898_Shab-Shaker-cognate-b-D      0.998
+Ciona-intestinalis_ENSCINT00000004967.3_NONE                     0.91
+== Removed ==> Ciona-intestinalis_ENSCINT00000021996.2_NONE                     0.322
+Ciona-intestinalis_ENSCINT00000011044.3_kcnq1-voltage-gated-     0.604
+== Removed ==> Ciona-intestinalis_ENSCINT00000034349.1_NONE                     0.27
+Ciona-intestinalis_ENSCINT00000007861.3_NONE                     0.702
+Ciona-intestinalis_ENSCINT00000032302.1_NONE                     0.534
+Ciona-intestinalis_ENSCINT00000023466.2_NONE                     0.7
+Ciona-intestinalis_ENSCINT00000009938.3_NONE                     0.92
+== Removed ==> Ciona-intestinalis_ENSCINT00000031073.1_NONE                     0.416
+Ciona-intestinalis_ENSCINT00000021051.3_NONE                     0.812
+Xenopus-tropicalis_ENSXETT00000004343.3_kcnc4-potassium-chan     0.82
+Xenopus-tropicalis_ENSXETT00000025601.3_kcnv2-potassium-chan     0.87
+Xenopus-tropicalis_ENSXETT00000047493.3_NONE                     0.826
+Xenopus-tropicalis_ENSXETT00000017367.3_kcnv1-potassium-chan     0.888
+Xenopus-tropicalis_ENSXETT00000029043.2_kcng4-potassium-chan     0.862
+Xenopus-tropicalis_ENSXETT00000026914.2_kcng1-potassium-chan     0.894
+Xenopus-tropicalis_ENSXETT00000007579.3_kcnf1-potassium-chan     0.916
+Xenopus-tropicalis_ENSXETT00000056255.2_kcns3-potassium-volt     0.924
+Xenopus-tropicalis_ENSXETT00000025847.3_kcnb2-potassium-chan     0.636
+Xenopus-tropicalis_ENSXETT00000034901.3_kcnb1-potassium-chan     1.0
+Gallus-gallus_ENSGALT00000033756.5_KCNG4-potassium-volt          0.864
+Gallus-gallus_ENSGALT00000080410.2_KCNG2-potassium-volt          0.904
+Gallus-gallus_ENSGALT00000012958.4_KCNG1-potassium-volt          0.898
+Gallus-gallus_ENSGALT00000078485.2_KCNV1-potassium-volt          0.914
+Gallus-gallus_ENSGALT00000026539.6_KCNF1-potassium-volt          0.924
+Gallus-gallus_ENSGALT00000073708.2_KCNS2-potassium-volt          0.904
+Gallus-gallus_ENSGALT00000006480.5_KCNS1-potassium-volt          0.888
+Gallus-gallus_ENSGALT00000026574.6_KCNS3-potassium-volt          0.938
+Gallus-gallus_ENSGALT00000048129.2_KCNB2-potassium-volt          1.0
+Gallus-gallus_ENSGALT00000034233.3_KCNB1-potassium-volt          1.0
+Homo-sapiens_ENST00000382082.4_KCNV2-potassium-voltage           0.874
+Homo-sapiens_ENST00000308251.5_KCNG4-potassium-voltage           0.888
+Homo-sapiens_ENST00000524391.6_KCNV1-potassium-voltage           0.904
+Homo-sapiens_ENST00000306117.5_KCNS1-potassium-voltage           0.916
+Homo-sapiens_ENST00000371571.5_KCNG1-potassium-voltage           0.898
+Homo-sapiens_ENST00000295082.3_KCNF1-potassium-voltage           0.928
+Homo-sapiens_ENST00000287042.5_KCNS2-potassium-voltage           0.904
+Homo-sapiens_ENST00000403915.5_KCNS3-potassium-voltage           0.932
+Homo-sapiens_ENST00000523207.2_KCNB2-potassium-voltage           1.0
+Homo-sapiens_ENST00000371741.6_KCNB1-potassium-voltage           1.0
+Danio-rerio_ENSDART00000136239.1_kcnv2a-potassium-channel-su     0.87
+Danio-rerio_ENSDART00000044937.5_kcns3b-potassium-voltage-ga     0.81
+Danio-rerio_ENSDART00000153153.1_kcnf1a-potassium-voltage-ga     0.922
+Danio-rerio_ENSDART00000037740.6_kcnf1b-potassium-voltage-ga     0.888
+Danio-rerio_ENSDART00000102591.3_KCNV1-potassium-voltage-gat     0.9
+Danio-rerio_ENSDART00000038777.7_NONE                            0.91
+Danio-rerio_ENSDART00000016535.5_kcns3a-potassium-voltage-ga     0.936
+Danio-rerio_ENSDART00000129365.2_kcnb2-potassium-voltage-gat     0.988
+Danio-rerio_ENSDART00000123450.2_KCNB2-potassium-voltage-gat     0.996
+Danio-rerio_ENSDART00000153673.1_kcnb1-potassium-voltage-gat     0.998
+Tetraodon-nigroviridis_ENSTNIT00000015639.1_kcng1-potassium-     0.838
+Tetraodon-nigroviridis_ENSTNIT00000000886.1_kcnv2b-potassium     0.76
+Tetraodon-nigroviridis_ENSTNIT00000013421.1_kcnv2a-potassium     0.826
+Tetraodon-nigroviridis_ENSTNIT00000008056.1_KCNS1-potassium-     0.818
+Tetraodon-nigroviridis_ENSTNIT00000016501.1_KCNS2-potassium-     0.874
+Tetraodon-nigroviridis_ENSTNIT00000006410.1_kcns3b-potassium     0.934
+Tetraodon-nigroviridis_ENSTNIT00000017879.1_NONE                 0.832
+Tetraodon-nigroviridis_ENSTNIT00000021532.1_NONE                 0.918
+Tetraodon-nigroviridis_ENSTNIT00000011194.1_kcnb2-potassium-     0.994
+Tetraodon-nigroviridis_ENSTNIT00000017993.1_kcnb1-potassium-     0.918
+Gasterosteus-aculeatus_ENSGACT00000014680.1_kcng1-potassium-     0.9
+Gasterosteus-aculeatus_ENSGACT00000023677.1_kcnv2a-potassium     0.878
+Gasterosteus-aculeatus_ENSGACT00000016957.1_kcnv2b-potassium     0.854
+Gasterosteus-aculeatus_ENSGACT00000000026.1_KCNS1-potassium-     0.784
+Gasterosteus-aculeatus_ENSGACT00000012660.1_kcnf1a-potassium     0.796
+Gasterosteus-aculeatus_ENSGACT00000004622.1_KCNS2-potassium-     0.904
+Gasterosteus-aculeatus_ENSGACT00000012949.1_kcns3b-potassium     0.936
+Gasterosteus-aculeatus_ENSGACT00000019631.1_NONE                 0.842
+Gasterosteus-aculeatus_ENSGACT00000003661.1_kcnb2-potassium-     0.996
+Gasterosteus-aculeatus_ENSGACT00000001737.1_kcnb1-potassium-     0.998
+Oryzias-latipes_ENSORLT00000019790.1_kcng4a-potassium-voltag     0.812
+Oryzias-latipes_ENSORLT00000007744.1_kcnc4-potassium-voltage     0.852
+Oryzias-latipes_ENSORLT00000018670.1_kcnv2b-potassium-channe     0.796
+Oryzias-latipes_ENSORLT00000020242.1_kcng1-potassium-voltage     0.898
+Oryzias-latipes_ENSORLT00000015912.1_kcnf1a-potassium-voltag     0.88
+Oryzias-latipes_ENSORLT00000003497.1_KCNS2-potassium-voltage     0.81
+Oryzias-latipes_ENSORLT00000024892.1_NONE                        0.812
+Oryzias-latipes_ENSORLT00000015656.1_kcns3b-potassium-voltag     0.938
+Oryzias-latipes_ENSORLT00000010052.1_KCNB2-potassium-voltage     0.996
+Oryzias-latipes_ENSORLT00000000766.1_NONE                        1.0
+
+
+################ Settings ################
+
+>NumberAssigned_querySequence
+Oryzias-latipes_ENSORLT00000000766.1_NONE
+VKMIKTAPSRSATTLPPETIDIIRNKTHSRRVRLNVGGLLHEVLWRTLERLPRTRLGKLRDCNTHDSIMEICDDYSLDGNEYFFDRHPGAFTSILNFYRTGKLHMMEEMCALSFSQELDFWGIDEIYLESCCQARYHQKKEQMNEELKREAENMREREGEEFTTTCCSEKRKKLWDLLEKPSSSFAAKILAIVSILFIILSTIALSLNTLPELQDTDEFGQASDNPQLAHVEAVCIAWFTMEYLLRFLSSPSKWKFFKGPLNVIDLLAILPYYVTIFLTESNKSVLQFQNVRRVVQIFRIMRILRILKLARHSTGLQSLGFTLRRSYNELGLLILFLAMGIMIFSSLVFFAEKDEEDTKFKSIPASFWWATITMTTVGYGDIYPKTLLGKIVGGLCCIAGVLVIALPIPIIVNNFSEFYKEQKRQEKAIKRREALERAKRNGSIVSMNFKDAFGRSVELMDVIVDKTEENIEKLHDNHVSPQRGTPGLKSSTSPCSPSKTFDLNYKEPAKPSSSPQHLSAQKLEEMYGKMSKTQSQANTERRDKRQYSKMVQQRAEFEMENISAGAAPSTVDAVTDMKSVSSIDSFTSCGAEFPESSRFSHGPSSITQGRVRRNPSLEPTIENEHEGSHSITTPQAGERTRRNLGDPCGSNAPRSESLKVRVTIGEDFGAGVLSDSSSAQSPETSIYTTASSGTPSKSPENILPRIFTFHDSSINKFIDADTDEDEHLHDAPSSSATQRLLEKPSPNYS
+
+>SpeciesTree
+(Drosophila-melanogaster,(Ciona-intestinalis,((Xenopus-tropicalis,(Gallus-gallus,Homo-sapiens)Amniota)Tetrapoda,(Danio-rerio,(Oryzias-latipes,(Tetraodon-nigroviridis,Gasterosteus-aculeatus)Eupercaria)Percomorpha)Teleostei)BonyVertebrates)Deuterostomia)Bilateria;
+
+>SubstitutionModel
+WAG (Whelan and Goldman 2001) + gamma
+
+>ShortSequence_threshold
+0.45
+
+>Dataset
+AminoAcid
+
+>Rearrangement_BS_value_threshold
+70
+
+>TaxonSampling_color
+Drosophila-melanogaster_Black
+Ciona-intestinalis_Black
+Xenopus-tropicalis_Magenta
+Gallus-gallus_Magenta
+Homo-sapiens_Magenta
+Danio-rerio_Purple
+Tetraodon-nigroviridis_Green
+Gasterosteus-aculeatus_Red
+Oryzias-latipes_Blue
+
+################ Results: 2nd analysis ################
+
+>TreeSearchMethod
+NJ
+
+>2nd_rearranged_gene_tree_newick
+(((Homo-sapiens_ENST00000523207.2_KCNB2-potassium-voltage,Gallus-gallus_ENSGALT00000048129.2_KCNB2-potassium-volt)100_S=Amniota_D=N,((Tetraodon-nigroviridis_ENSTNIT00000011194.1_kcnb2-potassium-,Gasterosteus-aculeatus_ENSGACT00000003661.1_kcnb2-potassium-)100_S=Eupercaria_D=N,Danio-rerio_ENSDART00000129365.2_kcnb2-potassium-voltage-gat)86_S=Teleostei_D=N)100_S=BonyVertebrates_D=N,(Tetraodon-nigroviridis_ENSTNIT00000017879.1_NONE,Oryzias-latipes_ENSORLT00000000766.1_NONE)r_S=Percomorpha_D=N)r_S=BonyVertebrates_D=Y;
+
+>2nd_rearranged_gene_tree_NHX
+(((Homo-sapiens_ENST00000523207.2_KCNB2-potassium-voltage:0.073656[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000048129.2_KCNB2-potassium-volt:0.067317[&&NHX:S=Gallus-gallus])n2:0.110493[&&NHX:S=Amniota:D=N:B=100.0],((Tetraodon-nigroviridis_ENSTNIT00000011194.1_kcnb2-potassium-:0.088318[&&NHX:S=Tetraodon-nigroviridis],Gasterosteus-aculeatus_ENSGACT00000003661.1_kcnb2-potassium-:0.08915[&&NHX:S=Gasterosteus-aculeatus])n5:0.113456[&&NHX:S=Eupercaria:D=N:B=100.0],Danio-rerio_ENSDART00000129365.2_kcnb2-potassium-voltage-gat:0.183256[&&NHX:S=Danio-rerio])n7:0.015805[&&NHX:S=Teleostei:D=N:B=86.0])n8:0.016921[&&NHX:S=BonyVertebrates:D=N:B=100.0],(Tetraodon-nigroviridis_ENSTNIT00000017879.1_NONE:0.0[&&NHX:S=Tetraodon-nigroviridis],Oryzias-latipes_ENSORLT00000000766.1_NONE:0.167971[&&NHX:S=Oryzias-latipes])r26[&&NHX:S=Percomorpha:D=N])n12[&&NHX:S=BonyVertebrates:D=Y];
+
+>2nd_gene_tree_newick
+(((Gallus-gallus_ENSGALT00000048129.2_KCNB2-potassium-volt:0.067317,Homo-sapiens_ENST00000523207.2_KCNB2-potassium-voltage:0.073656)100:0.110493,(Danio-rerio_ENSDART00000129365.2_kcnb2-potassium-voltage-gat:0.183256,(Gasterosteus-aculeatus_ENSGACT00000003661.1_kcnb2-potassium-:0.089150,Tetraodon-nigroviridis_ENSTNIT00000011194.1_kcnb2-potassium-:0.088318)100:0.113456)86:0.015805)92:0.016921,Oryzias-latipes_ENSORLT00000000766.1_NONE:0.167971,Tetraodon-nigroviridis_ENSTNIT00000017879.1_NONE:-0.038477);
+
+>MonophyleticGeneGroups
+BonyVertebrates                 NoGeneNode  NONE
+Teleostei                       NoGeneNode  NONE
+Percomorpha                     r  D=N
+Oryzias-latipes                 leaf  leaf
+
+>SisterGeneGroups
+BonyVertebrates                 NONE   NoGeneNode
+Teleostei                       NONE   NoGeneNode
+Percomorpha                     r   BonyVertebrates(Eupercaria;Danio-rerio;Amniota)
+Oryzias-latipes                 r   Tetraodon-nigroviridis
+
+>Number_of_duplicatedNode
+BonyVertebrates                 0
+Teleostei                       0
+Percomorpha                     0
+Oryzias-latipes                 0
+
+>AnalysisTime
+56.4 seconds

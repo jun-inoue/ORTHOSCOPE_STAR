@@ -1,0 +1,204 @@
+################ Results: 1st analysis ################
+
+>QuerySequence
+Oryzias-latipes_ENSORLT00000001371.2_trpm5-transient-recepto  <= [Identities = 1092/1092 (100%)] : Oryzias-latipes_ENSORLT00000001371.2_trpm5-transient-recepto
+
+>Number_of_blastHits
+Drosophila-melanogaster  5
+Ciona-intestinalis       10
+Xenopus-tropicalis       10
+Gallus-gallus            10
+Homo-sapiens             10
+Danio-rerio              10
+Tetraodon-nigroviridis   10
+Gasterosteus-aculeatus   10
+Oryzias-latipes          10
+
+>BS_of_orthogroupBasalNode
+98
+
+
+>Orthogroup
+Danio-rerio_ENSDART00000083473.6_trpm5-transient-receptor-po
+Gallus-gallus_ENSGALT00000010536.7_TRPM5-transient-rece
+Gasterosteus-aculeatus_ENSGACT00000022697.1_trpm5-transient-
+Homo-sapiens_ENST00000533060.5_TRPM5-transient-recepto
+Oryzias-latipes_ENSORLT00000001371.2_trpm5-transient-recepto
+Tetraodon-nigroviridis_ENSTNIT00000012661.1_trpm5-transient-
+
+>GeneNumber_of_orthogroup
+Xenopus-tropicalis      0
+Gallus-gallus           1
+Homo-sapiens            1
+Danio-rerio             1
+Oryzias-latipes         1
+Tetraodon-nigroviridis  1
+Gasterosteus-aculeatus  1
+
+>Rooting
+Homo-sapiens_ENST00000252826.10_TRPM4-transient-recept
+
+
+>1st_rearranged_gene_tree_newick
+((((((((((((Gasterosteus-aculeatus_ENSGACT00000013815.1_NONE,Tetraodon-nigroviridis_ENSTNIT00000011415.1_trpm1b-transient)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000009435.1_trpm1b-transient-recept)100_S=Percomorpha_D=N,Danio-rerio_ENSDART00000052584.6_trpm1a-transient-receptor-p)r_S=Teleostei_D=N,(((Gasterosteus-aculeatus_ENSGACT00000023176.1_NONE,Tetraodon-nigroviridis_ENSTNIT00000013311.1_NONE)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000000449.1_NONE)r_S=Percomorpha_D=N,Danio-rerio_ENSDART00000167690.1_trpm1b-transient-receptor-p)r_S=Teleostei_D=N)100_S=Teleostei_D=Y,(((Homo-sapiens_ENST00000611448.4_TRPM1-transient-recepto,Homo-sapiens_ENST00000542188.5_TRPM1-transient-recepto)100_S=Homo-sapiens_D=Y,Gallus-gallus_ENSGALT00000006114.6_TRPM1-transient-rece)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000035969.2_trpm1-transient-rece)97_S=Tetrapoda_D=N)100_S=BonyVertebrates_D=N,(((Homo-sapiens_ENST00000357533.6_TRPM3-transient-recepto,Gallus-gallus_ENSGALT00000080331.2_TRPM3-transient-rece)100_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000035973.3_TRPM3-transient-rece)r_S=Tetrapoda_D=N,(((Gasterosteus-aculeatus_ENSGACT00000014157.1_trpm3-transient-,Tetraodon-nigroviridis_ENSTNIT00000006645.1_trpm3-transient-)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000013467.1_trpm3-transient-recepto)r_S=Percomorpha_D=N,Danio-rerio_ENSDART00000147188.2_trpm3-transient-receptor-po)99_S=Teleostei_D=N)100_S=BonyVertebrates_D=N)95_S=BonyVertebrates_D=Y,((((Homo-sapiens_ENST00000646667.1_TRPM7-transient-recepto,Gallus-gallus_ENSGALT00000038771.3_TRPM7-transient-rece)91_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000047757.3_trpm7-transient-rece)r_S=Tetrapoda_D=N,((Oryzias-latipes_ENSORLT00000015968.2_TRPM7-transient-recepto,Gasterosteus-aculeatus_ENSGACT00000021833.1_TRPM7-transient-)79_S=Percomorpha_D=N,Tetraodon-nigroviridis_ENSTNIT00000004201.1_TRPM7-transient-)100_S=Percomorpha_D=Y)100_S=BonyVertebrates_D=N,(((Homo-sapiens_ENST00000360774.6_TRPM6-transient-recepto,Gallus-gallus_ENSGALT00000024457.6_TRPM6-transient-rece)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000002293.2_trpm6-transient-rece)100_S=Tetrapoda_D=N,(((Oryzias-latipes_ENSORLT00000015623.3_TRPM6-transient-recepto,Gasterosteus-aculeatus_ENSGACT00000015338.2_TRPM6-transient-)88_S=Percomorpha_D=N,Tetraodon-nigroviridis_ENSTNIT00000000950.1_NONE)99_S=Percomorpha_D=Y,Danio-rerio_ENSDART00000170097.1_NONE)100_S=Teleostei_D=N)r_S=BonyVertebrates_D=N)88_S=BonyVertebrates_D=Y)80_S=BonyVertebrates_D=Y,Ciona-intestinalis_ENSCINT00000035188.1_NONE)r_S=Deuterostomia_D=N,Drosophila-melanogaster_FBtr0339077_Trpm-Transient-receptor)100_S=Bilateria_D=N,((((((Homo-sapiens_ENST00000397932.6_TRPM2-transient-recepto,Gallus-gallus_ENSGALT00000009035.6_TRPM2-transient-rece)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000060149.1_TRPM2-transient-rece)97_S=Tetrapoda_D=N,Xenopus-tropicalis_ENSXETT00000032132.3_trpm4-transient-rece)r_S=Tetrapoda_D=Y,((((Gasterosteus-aculeatus_ENSGACT00000008248.1_trpm2-transient-,Gasterosteus-aculeatus_ENSGACT00000008235.1_trpm2-transient-)100_S=Gasterosteus-aculeatus_D=Y,Oryzias-latipes_ENSORLT00000020450.1_trpm2-transient-recepto)72_S=Percomorpha_D=N,Tetraodon-nigroviridis_ENSTNIT00000019789.1_trpm2-transient-)78_S=Percomorpha_D=Y,Danio-rerio_ENSDART00000163377.1_trpm2-transient-receptor-po)99_S=Teleostei_D=N)96_S=BonyVertebrates_D=N,(((Homo-sapiens_ENST00000324695.9_TRPM8-transient-recepto,Gallus-gallus_ENSGALT00000006545.6_TRPM8-transient-rece)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000005136.3_NONE)95_S=Tetrapoda_D=N,Xenopus-tropicalis_ENSXETT00000007105.3_trpm8-transient-rece)100_S=Tetrapoda_D=Y)90_S=BonyVertebrates_D=Y,(((Homo-sapiens_ENST00000533060.5_TRPM5-transient-recepto,Gallus-gallus_ENSGALT00000010536.7_TRPM5-transient-rece)97_S=Amniota_D=N,(((Oryzias-latipes_ENSORLT00000001371.2_trpm5-transient-recepto,Gasterosteus-aculeatus_ENSGACT00000022697.1_trpm5-transient-)94_S=Percomorpha_D=N,Tetraodon-nigroviridis_ENSTNIT00000012661.1_trpm5-transient-)100_S=Percomorpha_D=Y,Danio-rerio_ENSDART00000083473.6_trpm5-transient-receptor-po)99_S=Teleostei_D=N)98_S=BonyVertebrates_D=N,((Homo-sapiens_ENST00000252826.10_TRPM4-transient-recept,Xenopus-tropicalis_ENSXETT00000000556.3_trpm5-transient-rece)r_S=Tetrapoda_D=N,((((Gasterosteus-aculeatus_ENSGACT00000010508.1_trpm4b.2-transie,Tetraodon-nigroviridis_ENSTNIT00000018475.1_trpm4b.2-transie)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000008360.1_trpm4b.2-transient-rece)96_S=Percomorpha_D=N,((Danio-rerio_ENSDART00000092492.5_sich211-173d10.1-si-ch211-1,Danio-rerio_ENSDART00000159007.1_NONE)r_S=Danio-rerio_D=Y,Danio-rerio_ENSDART00000092687.5_trpm4b.2-transient-receptor)100_S=Danio-rerio_D=Y)r_S=Teleostei_D=N,((Gasterosteus-aculeatus_ENSGACT00000006559.1_NONE,Oryzias-latipes_ENSORLT00000021513.1_TRPM4-transient-recepto)r_S=Percomorpha_D=N,Danio-rerio_ENSDART00000151329.1_trpm4a-transient-receptor-p)r_S=Teleostei_D=N)100_S=Teleostei_D=Y)r_S=BonyVertebrates_D=N)100_S=BonyVertebrates_D=Y)99_S=BonyVertebrates_D=Y)100_S=Bilateria_D=Y,((((((Oryzias-latipes_ENSORLT00000005119.1_trpc4a-transient-recept,Tetraodon-nigroviridis_ENSTNIT00000013015.1_trpc4a-transient)73_S=Percomorpha_D=N,Gallus-gallus_ENSGALT00000030118.5_TRPC4-transient-rece)77_S=BonyVertebrates_D=N,((Homo-sapiens_ENST00000262839.2_TRPC5-transient-recepto,Gallus-gallus_ENSGALT00000012944.6_TRPC5-transient-rece)100_S=Amniota_D=N,Tetraodon-nigroviridis_ENSTNIT00000019593.1_trpc4b-transient)r_S=BonyVertebrates_D=N)100_S=BonyVertebrates_D=Y,((Drosophila-melanogaster_FBtr0085513_trp-transient-receptor-,Drosophila-melanogaster_FBtr0335144_Trpgamma-Transient-rece)r_S=Drosophila-melanogaster_D=Y,Drosophila-melanogaster_FBtr0088471_trpl-transient-receptor)r_S=Drosophila-melanogaster_D=Y)86_S=Bilateria_D=N,Gallus-gallus_ENSGALT00000019370.6_TRPC3-transient-rece)90_S=Bilateria_D=Y,(((((Ciona-intestinalis_ENSCINT00000031593.1_NONE,Ciona-intestinalis_ENSCINT00000027145.2_NONE)93_S=Ciona-intestinalis_D=Y,Ciona-intestinalis_ENSCINT00000013935.3_NONE)99_S=Ciona-intestinalis_D=Y,Ciona-intestinalis_ENSCINT00000033075.1_NONE)94_S=Ciona-intestinalis_D=Y,Ciona-intestinalis_ENSCINT00000004195.3_NONE)r_S=Ciona-intestinalis_D=Y,Ciona-intestinalis_ENSCINT00000035546.1_NONE)100_S=Ciona-intestinalis_D=Y)100_S=Bilateria_D=Y)r_S=Bilateria_D=Y,Drosophila-melanogaster_FBtr0347409_nompC-no-mechanorecepto)r_S=Bilateria_D=Y;
+
+>1st_rearranged_gene_tree_NHX
+((((((((((((Gasterosteus-aculeatus_ENSGACT00000013815.1_NONE:0.016208[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000011415.1_trpm1b-transient:0.010303[&&NHX:S=Tetraodon-nigroviridis])r178[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000009435.1_trpm1b-transient-recept:0.017183[&&NHX:S=Oryzias-latipes])n11:0.028275[&&NHX:S=Percomorpha:D=N:B=100.0],Danio-rerio_ENSDART00000052584.6_trpm1a-transient-receptor-p:0.03188[&&NHX:S=Danio-rerio])r173[&&NHX:S=Teleostei:D=N],(((Gasterosteus-aculeatus_ENSGACT00000023176.1_NONE:0.04824[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000013311.1_NONE:0.026577[&&NHX:S=Tetraodon-nigroviridis])r176[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000000449.1_NONE:0.025344[&&NHX:S=Oryzias-latipes])r175[&&NHX:S=Percomorpha:D=N],Danio-rerio_ENSDART00000167690.1_trpm1b-transient-receptor-p:0.037623[&&NHX:S=Danio-rerio])r174[&&NHX:S=Teleostei:D=N])n14:0.030281[&&NHX:S=Teleostei:D=Y:B=100.0],(((Homo-sapiens_ENST00000611448.4_TRPM1-transient-recepto:0.0[&&NHX:S=Homo-sapiens],Homo-sapiens_ENST00000542188.5_TRPM1-transient-recepto:0.0[&&NHX:S=Homo-sapiens])n17:0.026007[&&NHX:S=Homo-sapiens:D=Y:B=100.0],Gallus-gallus_ENSGALT00000006114.6_TRPM1-transient-rece:0.009983[&&NHX:S=Gallus-gallus])r180[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000035969.2_trpm1-transient-rece:0.016686[&&NHX:S=Xenopus-tropicalis])n21:0.024583[&&NHX:S=Tetrapoda:D=N:B=97.0])n22:0.043403[&&NHX:S=BonyVertebrates:D=N:B=100.0],(((Homo-sapiens_ENST00000357533.6_TRPM3-transient-recepto:0.00164[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000080331.2_TRPM3-transient-rece:0.003098[&&NHX:S=Gallus-gallus])n25:0.014796[&&NHX:S=Amniota:D=N:B=100.0],Xenopus-tropicalis_ENSXETT00000035973.3_TRPM3-transient-rece:0.018868[&&NHX:S=Xenopus-tropicalis])r182[&&NHX:S=Tetrapoda:D=N],(((Gasterosteus-aculeatus_ENSGACT00000014157.1_trpm3-transient-:0.0[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000006645.1_trpm3-transient-:0.072714[&&NHX:S=Tetraodon-nigroviridis])r185[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000013467.1_trpm3-transient-recepto:0.002094[&&NHX:S=Oryzias-latipes])r184[&&NHX:S=Percomorpha:D=N],Danio-rerio_ENSDART00000147188.2_trpm3-transient-receptor-po:0.003926[&&NHX:S=Danio-rerio])n34:0.019343[&&NHX:S=Teleostei:D=N:B=99.0])n35:0.053588[&&NHX:S=BonyVertebrates:D=N:B=100.0])n36:0.070655[&&NHX:S=BonyVertebrates:D=Y:B=95.0],((((Homo-sapiens_ENST00000646667.1_TRPM7-transient-recepto:0.029749[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000038771.3_TRPM7-transient-rece:0.013681[&&NHX:S=Gallus-gallus])n52:0.026999[&&NHX:S=Amniota:D=N:B=91.0],Xenopus-tropicalis_ENSXETT00000047757.3_trpm7-transient-rece:0.112279[&&NHX:S=Xenopus-tropicalis])r189[&&NHX:S=Tetrapoda:D=N],((Oryzias-latipes_ENSORLT00000015968.2_TRPM7-transient-recepto:0.019629[&&NHX:S=Oryzias-latipes],Gasterosteus-aculeatus_ENSGACT00000021833.1_TRPM7-transient-:0.029193[&&NHX:S=Gasterosteus-aculeatus])n57:0.015654[&&NHX:S=Percomorpha:D=N:B=79.0],Tetraodon-nigroviridis_ENSTNIT00000004201.1_TRPM7-transient-:0.032516[&&NHX:S=Tetraodon-nigroviridis])n59:0.056842[&&NHX:S=Percomorpha:D=Y:B=100.0])n60:0.077759[&&NHX:S=BonyVertebrates:D=N:B=100.0],(((Homo-sapiens_ENST00000360774.6_TRPM6-transient-recepto:0.087201[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000024457.6_TRPM6-transient-rece:0.062439[&&NHX:S=Gallus-gallus])r193[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000002293.2_trpm6-transient-rece:0.210295[&&NHX:S=Xenopus-tropicalis])n41:0.037215[&&NHX:S=Tetrapoda:D=N:B=100.0],(((Oryzias-latipes_ENSORLT00000015623.3_TRPM6-transient-recepto:0.079341[&&NHX:S=Oryzias-latipes],Gasterosteus-aculeatus_ENSGACT00000015338.2_TRPM6-transient-:0.048825[&&NHX:S=Gasterosteus-aculeatus])n44:0.013219[&&NHX:S=Percomorpha:D=N:B=88.0],Tetraodon-nigroviridis_ENSTNIT00000000950.1_NONE:0.120182[&&NHX:S=Tetraodon-nigroviridis])n46:0.075454[&&NHX:S=Percomorpha:D=Y:B=99.0],Danio-rerio_ENSDART00000170097.1_NONE:0.179375[&&NHX:S=Danio-rerio])n48:0.109803[&&NHX:S=Teleostei:D=N:B=100.0])r187[&&NHX:S=BonyVertebrates:D=N])n61:0.138997[&&NHX:S=BonyVertebrates:D=Y:B=88.0])n62:0.055738[&&NHX:S=BonyVertebrates:D=Y:B=80.0],Ciona-intestinalis_ENSCINT00000035188.1_NONE:0.283287[&&NHX:S=Ciona-intestinalis])r171[&&NHX:S=Deuterostomia:D=N],Drosophila-melanogaster_FBtr0339077_Trpm-Transient-receptor:0.319813[&&NHX:S=Drosophila-melanogaster])n66:0.291804[&&NHX:S=Bilateria:D=N:B=100.0],((((((Homo-sapiens_ENST00000397932.6_TRPM2-transient-recepto:0.071889[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000009035.6_TRPM2-transient-rece:0.074982[&&NHX:S=Gallus-gallus])r199[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000060149.1_TRPM2-transient-rece:0.175386[&&NHX:S=Xenopus-tropicalis])n71:0.131422[&&NHX:S=Tetrapoda:D=N:B=97.0],Xenopus-tropicalis_ENSXETT00000032132.3_trpm4-transient-rece:0.279338[&&NHX:S=Xenopus-tropicalis])r195[&&NHX:S=Tetrapoda:D=Y],((((Gasterosteus-aculeatus_ENSGACT00000008248.1_trpm2-transient-:0.037378[&&NHX:S=Gasterosteus-aculeatus],Gasterosteus-aculeatus_ENSGACT00000008235.1_trpm2-transient-:0.012513[&&NHX:S=Gasterosteus-aculeatus])n74:0.082592[&&NHX:S=Gasterosteus-aculeatus:D=Y:B=100.0],Oryzias-latipes_ENSORLT00000020450.1_trpm2-transient-recepto:0.141505[&&NHX:S=Oryzias-latipes])n76:0.02754[&&NHX:S=Percomorpha:D=N:B=72.0],Tetraodon-nigroviridis_ENSTNIT00000019789.1_trpm2-transient-:0.131629[&&NHX:S=Tetraodon-nigroviridis])n78:0.03318[&&NHX:S=Percomorpha:D=Y:B=78.0],Danio-rerio_ENSDART00000163377.1_trpm2-transient-receptor-po:0.129054[&&NHX:S=Danio-rerio])n80:0.124614[&&NHX:S=Teleostei:D=N:B=99.0])n83:0.05774[&&NHX:S=BonyVertebrates:D=N:B=96.0],(((Homo-sapiens_ENST00000324695.9_TRPM8-transient-recepto:0.084862[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000006545.6_TRPM8-transient-rece:0.04433[&&NHX:S=Gallus-gallus])r201[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000005136.3_NONE:0.075511[&&NHX:S=Xenopus-tropicalis])n88:0.041495[&&NHX:S=Tetrapoda:D=N:B=95.0],Xenopus-tropicalis_ENSXETT00000007105.3_trpm8-transient-rece:0.134075[&&NHX:S=Xenopus-tropicalis])n90:0.315076[&&NHX:S=Tetrapoda:D=Y:B=100.0])n91:0.080768[&&NHX:S=BonyVertebrates:D=Y:B=90.0],(((Homo-sapiens_ENST00000533060.5_TRPM5-transient-recepto:0.12395[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000010536.7_TRPM5-transient-rece:0.069873[&&NHX:S=Gallus-gallus])n97:0.046034[&&NHX:S=Amniota:D=N:B=97.0],(((Oryzias-latipes_ENSORLT00000001371.2_trpm5-transient-recepto:0.011024[&&NHX:S=Oryzias-latipes],Gasterosteus-aculeatus_ENSGACT00000022697.1_trpm5-transient-:0.020352[&&NHX:S=Gasterosteus-aculeatus])n100:0.007316[&&NHX:S=Percomorpha:D=N:B=94.0],Tetraodon-nigroviridis_ENSTNIT00000012661.1_trpm5-transient-:0.014902[&&NHX:S=Tetraodon-nigroviridis])n102:0.041694[&&NHX:S=Percomorpha:D=Y:B=100.0],Danio-rerio_ENSDART00000083473.6_trpm5-transient-receptor-po:0.067053[&&NHX:S=Danio-rerio])n104:0.049338[&&NHX:S=Teleostei:D=N:B=99.0])n105:0.085548[&&NHX:S=BonyVertebrates:D=N:B=98.0],((Homo-sapiens_ENST00000252826.10_TRPM4-transient-recept:0.255665[&&NHX:S=Homo-sapiens],Xenopus-tropicalis_ENSXETT00000000556.3_trpm5-transient-rece:0.177523[&&NHX:S=Xenopus-tropicalis])r204[&&NHX:S=Tetrapoda:D=N],((((Gasterosteus-aculeatus_ENSGACT00000010508.1_trpm4b.2-transie:0.086982[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000018475.1_trpm4b.2-transie:0.089789[&&NHX:S=Tetraodon-nigroviridis])r214[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000008360.1_trpm4b.2-transient-rece:0.072214[&&NHX:S=Oryzias-latipes])n116:0.059215[&&NHX:S=Percomorpha:D=N:B=96.0],((Danio-rerio_ENSDART00000092492.5_sich211-173d10.1-si-ch211-1:0.012716[&&NHX:S=Danio-rerio],Danio-rerio_ENSDART00000159007.1_NONE:0.051948[&&NHX:S=Danio-rerio])r216[&&NHX:S=Danio-rerio:D=Y],Danio-rerio_ENSDART00000092687.5_trpm4b.2-transient-receptor:0.025613[&&NHX:S=Danio-rerio])n111:0.173331[&&NHX:S=Danio-rerio:D=Y:B=100.0])r208[&&NHX:S=Teleostei:D=N],((Gasterosteus-aculeatus_ENSGACT00000006559.1_NONE:0.099939[&&NHX:S=Gasterosteus-aculeatus],Oryzias-latipes_ENSORLT00000021513.1_TRPM4-transient-recepto:0.086418[&&NHX:S=Oryzias-latipes])r210[&&NHX:S=Percomorpha:D=N],Danio-rerio_ENSDART00000151329.1_trpm4a-transient-receptor-p:0.124013[&&NHX:S=Danio-rerio])r209[&&NHX:S=Teleostei:D=N])n123:0.099457[&&NHX:S=Teleostei:D=Y:B=100.0])r203[&&NHX:S=BonyVertebrates:D=N])n124:0.187265[&&NHX:S=BonyVertebrates:D=Y:B=100.0])n125:0.13738[&&NHX:S=BonyVertebrates:D=Y:B=99.0])n126:0.324059[&&NHX:S=Bilateria:D=Y:B=100.0],((((((Oryzias-latipes_ENSORLT00000005119.1_trpc4a-transient-recept:0.013784[&&NHX:S=Oryzias-latipes],Tetraodon-nigroviridis_ENSTNIT00000013015.1_trpc4a-transient:0.023134[&&NHX:S=Tetraodon-nigroviridis])n134:0.00336[&&NHX:S=Percomorpha:D=N:B=73.0],Gallus-gallus_ENSGALT00000030118.5_TRPC4-transient-rece:0.0405[&&NHX:S=Gallus-gallus])n136:0.020835[&&NHX:S=BonyVertebrates:D=N:B=77.0],((Homo-sapiens_ENST00000262839.2_TRPC5-transient-recepto:0.021775[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000012944.6_TRPC5-transient-rece:0.012538[&&NHX:S=Gallus-gallus])n139:0.066618[&&NHX:S=Amniota:D=N:B=100.0],Tetraodon-nigroviridis_ENSTNIT00000019593.1_trpc4b-transient:0.080897[&&NHX:S=Tetraodon-nigroviridis])r223[&&NHX:S=BonyVertebrates:D=N])n142:0.206522[&&NHX:S=BonyVertebrates:D=Y:B=100.0],((Drosophila-melanogaster_FBtr0085513_trp-transient-receptor-:0.222239[&&NHX:S=Drosophila-melanogaster],Drosophila-melanogaster_FBtr0335144_Trpgamma-Transient-rece:0.213629[&&NHX:S=Drosophila-melanogaster])r221[&&NHX:S=Drosophila-melanogaster:D=Y],Drosophila-melanogaster_FBtr0088471_trpl-transient-receptor:0.247893[&&NHX:S=Drosophila-melanogaster])r220[&&NHX:S=Drosophila-melanogaster:D=Y])n143:0.074198[&&NHX:S=Bilateria:D=N:B=86.0],Gallus-gallus_ENSGALT00000019370.6_TRPC3-transient-rece:0.517405[&&NHX:S=Gallus-gallus])n145:0.128765[&&NHX:S=Bilateria:D=Y:B=90.0],(((((Ciona-intestinalis_ENSCINT00000031593.1_NONE:0.209782[&&NHX:S=Ciona-intestinalis],Ciona-intestinalis_ENSCINT00000027145.2_NONE:0.215156[&&NHX:S=Ciona-intestinalis])n148:0.079418[&&NHX:S=Ciona-intestinalis:D=Y:B=93.0],Ciona-intestinalis_ENSCINT00000013935.3_NONE:0.367309[&&NHX:S=Ciona-intestinalis])n150:0.196222[&&NHX:S=Ciona-intestinalis:D=Y:B=99.0],Ciona-intestinalis_ENSCINT00000033075.1_NONE:0.460318[&&NHX:S=Ciona-intestinalis])n152:0.185198[&&NHX:S=Ciona-intestinalis:D=Y:B=94.0],Ciona-intestinalis_ENSCINT00000004195.3_NONE:0.571469[&&NHX:S=Ciona-intestinalis])r233[&&NHX:S=Ciona-intestinalis:D=Y],Ciona-intestinalis_ENSCINT00000035546.1_NONE:0.600832[&&NHX:S=Ciona-intestinalis])n156:0.179059[&&NHX:S=Ciona-intestinalis:D=Y:B=100.0])n157:0.38726[&&NHX:S=Bilateria:D=Y:B=100.0])r167[&&NHX:S=Bilateria:D=Y],Drosophila-melanogaster_FBtr0347409_nompC-no-mechanorecepto:0.908209[&&NHX:S=Drosophila-melanogaster])n160[&&NHX:S=Bilateria:D=Y];
+
+>1st_gene_tree_newick
+(((((((((Danio-rerio_ENSDART00000052584.6_trpm1a-transient-receptor-p:0.031880,(Tetraodon-nigroviridis_ENSTNIT00000013311.1_NONE:0.026577,(Gasterosteus-aculeatus_ENSGACT00000023176.1_NONE:0.048240,Oryzias-latipes_ENSORLT00000000449.1_NONE:0.025344)21:0.007662)43:0.005839)47:0.006204,(Danio-rerio_ENSDART00000167690.1_trpm1b-transient-receptor-p:0.037623,((Tetraodon-nigroviridis_ENSTNIT00000011415.1_trpm1b-transient:0.010303,Gasterosteus-aculeatus_ENSGACT00000013815.1_NONE:0.016208)52:0.002180,Oryzias-latipes_ENSORLT00000009435.1_trpm1b-transient-recept:0.017183)100:0.028275)57:0.003662)100:0.030281,(Xenopus-tropicalis_ENSXETT00000035969.2_trpm1-transient-rece:0.016686,(Gallus-gallus_ENSGALT00000006114.6_TRPM1-transient-rece:0.009983,(Homo-sapiens_ENST00000542188.5_TRPM1-transient-recepto:0.000000,Homo-sapiens_ENST00000611448.4_TRPM1-transient-recepto:0.000000)100:0.026007)45:0.004944)97:0.024583)100:0.043403,((Xenopus-tropicalis_ENSXETT00000035973.3_TRPM3-transient-rece:0.018868,(Gallus-gallus_ENSGALT00000080331.2_TRPM3-transient-rece:0.003098,Homo-sapiens_ENST00000357533.6_TRPM3-transient-recepto:0.001640)100:0.014796)49:0.003029,(Danio-rerio_ENSDART00000147188.2_trpm3-transient-receptor-po:0.003926,((Tetraodon-nigroviridis_ENSTNIT00000006645.1_trpm3-transient-:0.072714,Oryzias-latipes_ENSORLT00000013467.1_trpm3-transient-recepto:0.002094)54:0.002579,Gasterosteus-aculeatus_ENSGACT00000014157.1_trpm3-transient-:-0.000294)37:0.000869)99:0.019343)100:0.053588)95:0.070655,(((Xenopus-tropicalis_ENSXETT00000002293.2_trpm6-transient-rece:0.210295,(Gallus-gallus_ENSGALT00000024457.6_TRPM6-transient-rece:0.062439,Homo-sapiens_ENST00000360774.6_TRPM6-transient-recepto:0.087201)67:0.014187)100:0.037215,(Danio-rerio_ENSDART00000170097.1_NONE:0.179375,(Tetraodon-nigroviridis_ENSTNIT00000000950.1_NONE:0.120182,(Gasterosteus-aculeatus_ENSGACT00000015338.2_TRPM6-transient-:0.048825,Oryzias-latipes_ENSORLT00000015623.3_TRPM6-transient-recepto:0.079341)88:0.013219)99:0.075454)100:0.109803)69:0.045551,((Xenopus-tropicalis_ENSXETT00000047757.3_trpm7-transient-rece:0.112279,(Gallus-gallus_ENSGALT00000038771.3_TRPM7-transient-rece:0.013681,Homo-sapiens_ENST00000646667.1_TRPM7-transient-recepto:0.029749)91:0.026999)12:0.011914,(Tetraodon-nigroviridis_ENSTNIT00000004201.1_TRPM7-transient-:0.032516,(Gasterosteus-aculeatus_ENSGACT00000021833.1_TRPM7-transient-:0.029193,Oryzias-latipes_ENSORLT00000015968.2_TRPM7-transient-recepto:0.019629)79:0.015654)100:0.056842)100:0.077759)88:0.138997)80:0.055738,Drosophila-melanogaster_FBtr0339077_Trpm-Transient-receptor:0.319813)48:0.027025,Ciona-intestinalis_ENSCINT00000035188.1_NONE:0.283287)100:0.291804,(((Xenopus-tropicalis_ENSXETT00000032132.3_trpm4-transient-rece:0.279338,(((Xenopus-tropicalis_ENSXETT00000060149.1_TRPM2-transient-rece:0.175386,Gallus-gallus_ENSGALT00000009035.6_TRPM2-transient-rece:0.074982)64:0.016402,Homo-sapiens_ENST00000397932.6_TRPM2-transient-recepto:0.071889)97:0.131422,(Danio-rerio_ENSDART00000163377.1_trpm2-transient-receptor-po:0.129054,(Tetraodon-nigroviridis_ENSTNIT00000019789.1_trpm2-transient-:0.131629,((Gasterosteus-aculeatus_ENSGACT00000008235.1_trpm2-transient-:0.012513,Gasterosteus-aculeatus_ENSGACT00000008248.1_trpm2-transient-:0.037378)100:0.082592,Oryzias-latipes_ENSORLT00000020450.1_trpm2-transient-recepto:0.141505)72:0.027540)78:0.033180)99:0.124614)30:0.039558)96:0.057740,(Xenopus-tropicalis_ENSXETT00000007105.3_trpm8-transient-rece:0.134075,(Xenopus-tropicalis_ENSXETT00000005136.3_NONE:0.075511,(Gallus-gallus_ENSGALT00000006545.6_TRPM8-transient-rece:0.044330,Homo-sapiens_ENST00000324695.9_TRPM8-transient-recepto:0.084862)62:0.015368)95:0.041495)100:0.315076)90:0.080768,(((Xenopus-tropicalis_ENSXETT00000000556.3_trpm5-transient-rece:0.177523,Homo-sapiens_ENST00000252826.10_TRPM4-transient-recept:0.255665)60:0.042085,((Gallus-gallus_ENSGALT00000010536.7_TRPM5-transient-rece:0.069873,Homo-sapiens_ENST00000533060.5_TRPM5-transient-recepto:0.123950)97:0.046034,(Danio-rerio_ENSDART00000083473.6_trpm5-transient-receptor-po:0.067053,(Tetraodon-nigroviridis_ENSTNIT00000012661.1_trpm5-transient-:0.014902,(Gasterosteus-aculeatus_ENSGACT00000022697.1_trpm5-transient-:0.020352,Oryzias-latipes_ENSORLT00000001371.2_trpm5-transient-recepto:0.011024)94:0.007316)100:0.041694)99:0.049338)98:0.085548)8:0.013700,((((Danio-rerio_ENSDART00000159007.1_NONE:0.051948,Danio-rerio_ENSDART00000092492.5_sich211-173d10.1-si-ch211-1:0.012716)48:0.017898,Danio-rerio_ENSDART00000092687.5_trpm4b.2-transient-receptor:0.025613)100:0.173331,(((Tetraodon-nigroviridis_ENSTNIT00000018475.1_trpm4b.2-transie:0.089789,Oryzias-latipes_ENSORLT00000008360.1_trpm4b.2-transient-rece:0.072214)33:0.009622,Gasterosteus-aculeatus_ENSGACT00000010508.1_trpm4b.2-transie:0.086982)96:0.059215,(Gasterosteus-aculeatus_ENSGACT00000006559.1_NONE:0.099939,Oryzias-latipes_ENSORLT00000021513.1_TRPM4-transient-recepto:0.086418)56:0.044962)67:0.020765)55:0.025395,Danio-rerio_ENSDART00000151329.1_trpm4a-transient-receptor-p:0.124013)100:0.099457)100:0.187265)99:0.137380)100:0.324059,((((Drosophila-melanogaster_FBtr0088471_trpl-transient-receptor:0.247893,(Drosophila-melanogaster_FBtr0335144_Trpgamma-Transient-rece:0.213629,Drosophila-melanogaster_FBtr0085513_trp-transient-receptor-:0.222239)41:0.027889)37:0.070746,(((Gallus-gallus_ENSGALT00000030118.5_TRPC4-transient-rece:0.040500,(Tetraodon-nigroviridis_ENSTNIT00000013015.1_trpc4a-transient:0.023134,Oryzias-latipes_ENSORLT00000005119.1_trpc4a-transient-recept:0.013784)73:0.003360)77:0.020835,(Gallus-gallus_ENSGALT00000012944.6_TRPC5-transient-rece:0.012538,Homo-sapiens_ENST00000262839.2_TRPC5-transient-recepto:0.021775)100:0.066618)67:0.025650,Tetraodon-nigroviridis_ENSTNIT00000019593.1_trpc4b-transient:0.080897)100:0.206522)86:0.074198,Gallus-gallus_ENSGALT00000019370.6_TRPC3-transient-rece:0.517405)90:0.128765,((Ciona-intestinalis_ENSCINT00000033075.1_NONE:0.460318,(Ciona-intestinalis_ENSCINT00000013935.3_NONE:0.367309,(Ciona-intestinalis_ENSCINT00000027145.2_NONE:0.215156,Ciona-intestinalis_ENSCINT00000031593.1_NONE:0.209782)93:0.079418)99:0.196222)94:0.185198,(Ciona-intestinalis_ENSCINT00000035546.1_NONE:0.600832,Ciona-intestinalis_ENSCINT00000004195.3_NONE:0.571469)26:0.050166)100:0.179059)100:0.387260,Drosophila-melanogaster_FBtr0347409_nompC-no-mechanorecepto:0.908209);
+
+>Aligned-ShortSequence_threshold evaluation
+Drosophila-melanogaster_FBtr0347409_nompC-no-mechanorecepto      0.955
+Drosophila-melanogaster_FBtr0088471_trpl-transient-receptor      1.0
+Drosophila-melanogaster_FBtr0335144_Trpgamma-Transient-rece      1.0
+Drosophila-melanogaster_FBtr0085513_trp-transient-receptor-      1.0
+Drosophila-melanogaster_FBtr0339077_Trpm-Transient-receptor      1.0
+Ciona-intestinalis_ENSCINT00000033075.1_NONE                     0.966
+Ciona-intestinalis_ENSCINT00000035546.1_NONE                     0.782
+Ciona-intestinalis_ENSCINT00000013935.3_NONE                     0.98
+Ciona-intestinalis_ENSCINT00000004195.3_NONE                     0.986
+Ciona-intestinalis_ENSCINT00000027145.2_NONE                     1.0
+Ciona-intestinalis_ENSCINT00000031593.1_NONE                     0.995
+== Removed ==> Ciona-intestinalis_ENSCINT00000034898.1_NONE                     0.272
+== Removed ==> Ciona-intestinalis_ENSCINT00000036675.1_NONE                     0.009
+== Removed ==> Ciona-intestinalis_ENSCINT00000032073.1_NONE                     0.363
+Ciona-intestinalis_ENSCINT00000035188.1_NONE                     1.0
+== Removed ==> Xenopus-tropicalis_ENSXETT00000065497.1_NONE                     0.034
+Xenopus-tropicalis_ENSXETT00000002293.2_trpm6-transient-rece     1.0
+Xenopus-tropicalis_ENSXETT00000032132.3_trpm4-transient-rece     0.703
+Xenopus-tropicalis_ENSXETT00000035969.2_trpm1-transient-rece     1.0
+Xenopus-tropicalis_ENSXETT00000007105.3_trpm8-transient-rece     1.0
+Xenopus-tropicalis_ENSXETT00000047757.3_trpm7-transient-rece     0.995
+Xenopus-tropicalis_ENSXETT00000035973.3_TRPM3-transient-rece     1.0
+Xenopus-tropicalis_ENSXETT00000005136.3_NONE                     1.0
+Xenopus-tropicalis_ENSXETT00000060149.1_TRPM2-transient-rece     0.984
+Xenopus-tropicalis_ENSXETT00000000556.3_trpm5-transient-rece     1.0
+Gallus-gallus_ENSGALT00000019370.6_TRPC3-transient-rece          1.0
+Gallus-gallus_ENSGALT00000030118.5_TRPC4-transient-rece          1.0
+Gallus-gallus_ENSGALT00000012944.6_TRPC5-transient-rece          1.0
+Gallus-gallus_ENSGALT00000038771.3_TRPM7-transient-rece          1.0
+Gallus-gallus_ENSGALT00000006114.6_TRPM1-transient-rece          1.0
+Gallus-gallus_ENSGALT00000024457.6_TRPM6-transient-rece          1.0
+Gallus-gallus_ENSGALT00000080331.2_TRPM3-transient-rece          1.0
+Gallus-gallus_ENSGALT00000006545.6_TRPM8-transient-rece          1.0
+Gallus-gallus_ENSGALT00000009035.6_TRPM2-transient-rece          1.0
+Gallus-gallus_ENSGALT00000010536.7_TRPM5-transient-rece          1.0
+Homo-sapiens_ENST00000262839.2_TRPC5-transient-recepto           1.0
+Homo-sapiens_ENST00000646667.1_TRPM7-transient-recepto           1.0
+Homo-sapiens_ENST00000542188.5_TRPM1-transient-recepto           1.0
+Homo-sapiens_ENST00000611448.4_TRPM1-transient-recepto           1.0
+Homo-sapiens_ENST00000360774.6_TRPM6-transient-recepto           1.0
+Homo-sapiens_ENST00000357533.6_TRPM3-transient-recepto           1.0
+Homo-sapiens_ENST00000324695.9_TRPM8-transient-recepto           1.0
+Homo-sapiens_ENST00000397932.6_TRPM2-transient-recepto           1.0
+Homo-sapiens_ENST00000252826.10_TRPM4-transient-recept           1.0
+Homo-sapiens_ENST00000533060.5_TRPM5-transient-recepto           1.0
+Danio-rerio_ENSDART00000147188.2_trpm3-transient-receptor-po     1.0
+Danio-rerio_ENSDART00000167690.1_trpm1b-transient-receptor-p     1.0
+Danio-rerio_ENSDART00000052584.6_trpm1a-transient-receptor-p     1.0
+Danio-rerio_ENSDART00000170097.1_NONE                            1.0
+Danio-rerio_ENSDART00000163377.1_trpm2-transient-receptor-po     1.0
+Danio-rerio_ENSDART00000159007.1_NONE                            1.0
+Danio-rerio_ENSDART00000092687.5_trpm4b.2-transient-receptor     1.0
+Danio-rerio_ENSDART00000092492.5_sich211-173d10.1-si-ch211-1     1.0
+Danio-rerio_ENSDART00000151329.1_trpm4a-transient-receptor-p     1.0
+Danio-rerio_ENSDART00000083473.6_trpm5-transient-receptor-po     1.0
+Tetraodon-nigroviridis_ENSTNIT00000019593.1_trpc4b-transient     0.975
+Tetraodon-nigroviridis_ENSTNIT00000013015.1_trpc4a-transient     1.0
+Tetraodon-nigroviridis_ENSTNIT00000011415.1_trpm1b-transient     1.0
+Tetraodon-nigroviridis_ENSTNIT00000013311.1_NONE                 1.0
+Tetraodon-nigroviridis_ENSTNIT00000006645.1_trpm3-transient-     1.0
+Tetraodon-nigroviridis_ENSTNIT00000000950.1_NONE                 1.0
+Tetraodon-nigroviridis_ENSTNIT00000004201.1_TRPM7-transient-     1.0
+Tetraodon-nigroviridis_ENSTNIT00000019789.1_trpm2-transient-     0.998
+Tetraodon-nigroviridis_ENSTNIT00000018475.1_trpm4b.2-transie     1.0
+Tetraodon-nigroviridis_ENSTNIT00000012661.1_trpm5-transient-     1.0
+Gasterosteus-aculeatus_ENSGACT00000023176.1_NONE                 0.463
+Gasterosteus-aculeatus_ENSGACT00000015338.2_TRPM6-transient-     1.0
+Gasterosteus-aculeatus_ENSGACT00000014157.1_trpm3-transient-     1.0
+Gasterosteus-aculeatus_ENSGACT00000021833.1_TRPM7-transient-     1.0
+Gasterosteus-aculeatus_ENSGACT00000013815.1_NONE                 1.0
+Gasterosteus-aculeatus_ENSGACT00000008235.1_trpm2-transient-     1.0
+Gasterosteus-aculeatus_ENSGACT00000008248.1_trpm2-transient-     1.0
+Gasterosteus-aculeatus_ENSGACT00000010508.1_trpm4b.2-transie     1.0
+Gasterosteus-aculeatus_ENSGACT00000006559.1_NONE                 0.993
+Gasterosteus-aculeatus_ENSGACT00000022697.1_trpm5-transient-     0.993
+Oryzias-latipes_ENSORLT00000005119.1_trpc4a-transient-recept     1.0
+Oryzias-latipes_ENSORLT00000015623.3_TRPM6-transient-recepto     1.0
+Oryzias-latipes_ENSORLT00000013467.1_trpm3-transient-recepto     1.0
+Oryzias-latipes_ENSORLT00000000449.1_NONE                        0.993
+Oryzias-latipes_ENSORLT00000009435.1_trpm1b-transient-recept     1.0
+Oryzias-latipes_ENSORLT00000015968.2_TRPM7-transient-recepto     1.0
+Oryzias-latipes_ENSORLT00000020450.1_trpm2-transient-recepto     1.0
+Oryzias-latipes_ENSORLT00000008360.1_trpm4b.2-transient-rece     0.986
+Oryzias-latipes_ENSORLT00000021513.1_TRPM4-transient-recepto     1.0
+Oryzias-latipes_ENSORLT00000001371.2_trpm5-transient-recepto     1.0
+
+
+################ Settings ################
+
+>NumberAssigned_querySequence
+Oryzias-latipes_ENSORLT00000001371.2_trpm5-transient-recepto
+GDIDFCGTNKTRGKFVKVRSNTEPVQIYQMLTQEWGLSPPHLVVAVVGGDELAQMKPWLRDTLRKGLVKAAQSTGAWILTNGLRFGITKHLGQAVRDHSLASTSSTVRVVAIGIAPWNMIHNREALLSAKVDEPVVYTPQDLPHGSVYSLDNNHSHFVLVEEDPARPGATSEMRVKLLKHISLQRTGYGGAGSFEIPVLCLLVHGEPKILKRMYKGIANSTPWLILAGSGGVADILVTLMNRGCWDTDSVHELLLDTFPNAHHSADISNWVKLIQKILDHGHLLTVHDPEQETSELDTVILKALVKACKSQSQEAQDFLDELKLAVAWNRVDIAKSDIFNGDVEWKACDLEEVMMDALINDKPDFVRLFVDNGVNLGEFLTYGRLQELYWSVSEKSLLHNLLLKKYDEKQLLLGAARTPGPPGHYPSEQGKPRFTLFEVAKVLKDFLHDSCKGFYQKVPTVSFNRGQEKPPKGRLFQSQKNLPELEELCEHPWRDLFLWAVLQNRQQMANYFWAMGPEAVAAALAGCKILKEMARLESEAESARSMKEAKYEQFALDVFGECYSNSEDRAYALLVRRTHCWSKSTVLNLATEADAKSFFAHDGVQALLTKIWWGAMTTDTAISKLVVSFFCPPLIWTNLIKFSDEELDNRSSNKQFVELDSLDTEKALMLTDDDDPLDSSPGGQASQSCASVWWRFFLRRWRRFWSAPVTVFLGNVIMYFAFLFLFTYVLLLDFKAPPQGPGVPEIMLYFWVFTLVLEEIRQSFFTDEEMNIIKKFKLYVEDNWNKCDMVAILLFVVGVSCRMAAGTYEAGRTVLAIDFMVFTLRLIHIFAIHKQLGPKIIIVERMMKDVFFFLFFLSVWLIAYGVATQALLHPNDPRIDWVFRRALYRPYLHIFGQIPLEEIDAARMPKINCTDDSNEIVMGLLPPCPNIYANWLVILLLVIFLLVTNVLLLNLLIAMFSYTFQVVQGNTDIFWKFQRYNLIVEYYSRPALAPPFIIISHLSQLFLSLLKRPEPKQEHLEREMPAGLDQRLITWETVQKENYLAKLERQHWESSEERLKSTSSKVQSLLKIIGGYKDQEKRLGSMEAQVNH
+
+>SpeciesTree
+(Drosophila-melanogaster,(Ciona-intestinalis,((Xenopus-tropicalis,(Gallus-gallus,Homo-sapiens)Amniota)Tetrapoda,(Danio-rerio,(Oryzias-latipes,(Tetraodon-nigroviridis,Gasterosteus-aculeatus)Eupercaria)Percomorpha)Teleostei)BonyVertebrates)Deuterostomia)Bilateria;
+
+>SubstitutionModel
+WAG (Whelan and Goldman 2001) + gamma
+
+>ShortSequence_threshold
+0.45
+
+>Dataset
+AminoAcid
+
+>Rearrangement_BS_value_threshold
+70
+
+>TaxonSampling_color
+Drosophila-melanogaster_Black
+Ciona-intestinalis_Black
+Xenopus-tropicalis_Magenta
+Gallus-gallus_Magenta
+Homo-sapiens_Magenta
+Danio-rerio_Purple
+Tetraodon-nigroviridis_Green
+Gasterosteus-aculeatus_Red
+Oryzias-latipes_Blue
+
+################ Results: 2nd analysis ################
+
+>TreeSearchMethod
+NJ
+
+>2nd_rearranged_gene_tree_newick
+(((Homo-sapiens_ENST00000533060.5_TRPM5-transient-recepto,Gallus-gallus_ENSGALT00000010536.7_TRPM5-transient-rece)100_S=Amniota_D=N,Homo-sapiens_ENST00000252826.10_TRPM4-transient-recept)r_S=Amniota_D=Y,(((Gasterosteus-aculeatus_ENSGACT00000022697.1_trpm5-transient-,Tetraodon-nigroviridis_ENSTNIT00000012661.1_trpm5-transient-)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000001371.2_trpm5-transient-recepto)100_S=Percomorpha_D=N,Danio-rerio_ENSDART00000083473.6_trpm5-transient-receptor-po)100_S=Teleostei_D=N)r_S=BonyVertebrates_D=N;
+
+>2nd_rearranged_gene_tree_NHX
+(((Homo-sapiens_ENST00000533060.5_TRPM5-transient-recepto:0.205893[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000010536.7_TRPM5-transient-rece:0.173607[&&NHX:S=Gallus-gallus])n9:0.054151[&&NHX:S=Amniota:D=N:B=100.0],Homo-sapiens_ENST00000252826.10_TRPM4-transient-recept:0.618636[&&NHX:S=Homo-sapiens])r22[&&NHX:S=Amniota:D=Y],(((Gasterosteus-aculeatus_ENSGACT00000022697.1_trpm5-transient-:0.050395[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000012661.1_trpm5-transient-:0.051286[&&NHX:S=Tetraodon-nigroviridis])r27[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000001371.2_trpm5-transient-recepto:0.039816[&&NHX:S=Oryzias-latipes])n4:0.068814[&&NHX:S=Percomorpha:D=N:B=100.0],Danio-rerio_ENSDART00000083473.6_trpm5-transient-receptor-po:0.143858[&&NHX:S=Danio-rerio])n6:0.130317[&&NHX:S=Teleostei:D=N:B=100.0])n12[&&NHX:S=BonyVertebrates:D=N];
+
+>2nd_gene_tree_newick
+(((Oryzias-latipes_ENSORLT00000001371.2_trpm5-transient-recepto:0.039816,(Gasterosteus-aculeatus_ENSGACT00000022697.1_trpm5-transient-:0.050395,Tetraodon-nigroviridis_ENSTNIT00000012661.1_trpm5-transient-:0.051286)63:0.008185)100:0.068814,Danio-rerio_ENSDART00000083473.6_trpm5-transient-receptor-po:0.143858)100:0.130317,(Gallus-gallus_ENSGALT00000010536.7_TRPM5-transient-rece:0.173607,Homo-sapiens_ENST00000533060.5_TRPM5-transient-recepto:0.205893)100:0.054151,Homo-sapiens_ENST00000252826.10_TRPM4-transient-recept:0.618636);
+
+>MonophyleticGeneGroups
+BonyVertebrates                 NoGeneNode  NONE
+Teleostei                       100  D=N
+Percomorpha                     100  D=N
+Oryzias-latipes                 leaf  leaf
+
+>SisterGeneGroups
+BonyVertebrates                 NONE   NoGeneNode
+Teleostei                       NONE   NoGeneNode
+Percomorpha                     100   Danio-rerio
+Oryzias-latipes                 100   Eupercaria
+
+>Number_of_duplicatedNode
+BonyVertebrates                 0
+Teleostei                       0
+Percomorpha                     0
+Oryzias-latipes                 0
+
+>AnalysisTime
+48.7 seconds

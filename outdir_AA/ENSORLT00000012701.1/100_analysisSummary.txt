@@ -1,0 +1,130 @@
+################ Results: 1st analysis ################
+
+>QuerySequence
+Oryzias-latipes_ENSORLT00000012701.1_sdhdb-succinate-dehydro  <= [Identities = 223/223 (100%)] : Oryzias-latipes_ENSORLT00000012701.1_sdhdb-succinate-dehydro
+
+>Number_of_blastHits
+Drosophila-melanogaster  1
+Ciona-intestinalis       0
+Xenopus-tropicalis       1
+Gallus-gallus            1
+Homo-sapiens             2
+Danio-rerio              2
+Tetraodon-nigroviridis   1
+Gasterosteus-aculeatus   0
+Oryzias-latipes          1
+
+>BS_of_orthogroupBasalNode
+r
+
+
+>Orthogroup
+Danio-rerio_ENSDART00000039865.4_sdhdb-succinate-dehydrogena
+Danio-rerio_ENSDART00000078115.4_sdhda-succinate-dehydrogena
+Gallus-gallus_ENSGALT00000012795.5_SDHD-succinate-dehyd
+Homo-sapiens_ENST00000375549.8_SDHD-succinate-dehydrog
+Homo-sapiens_ENST00000531744.5_AP002884.2-novel-transc
+Oryzias-latipes_ENSORLT00000012701.1_sdhdb-succinate-dehydro
+Tetraodon-nigroviridis_ENSTNIT00000002840.1_sdhdb-succinate-
+Xenopus-tropicalis_ENSXETT00000057629.2_sdhd-succinate-dehyd
+
+>GeneNumber_of_orthogroup
+Xenopus-tropicalis      1
+Gallus-gallus           1
+Homo-sapiens            2
+Danio-rerio             2
+Oryzias-latipes         1
+Tetraodon-nigroviridis  1
+Gasterosteus-aculeatus  0
+
+>Rooting
+Drosophila-melanogaster_FBtr0084466_SdhD-Succinate-dehydrog
+
+
+>1st_rearranged_gene_tree_newick
+(((((Homo-sapiens_ENST00000531744.5_AP002884.2-novel-transc,Homo-sapiens_ENST00000375549.8_SDHD-succinate-dehydrog)100_S=Homo-sapiens_D=Y,Gallus-gallus_ENSGALT00000012795.5_SDHD-succinate-dehyd)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000057629.2_sdhd-succinate-dehyd)r_S=Tetrapoda_D=N,((Oryzias-latipes_ENSORLT00000012701.1_sdhdb-succinate-dehydro,Tetraodon-nigroviridis_ENSTNIT00000002840.1_sdhdb-succinate-)85_S=Percomorpha_D=N,(Danio-rerio_ENSDART00000078115.4_sdhda-succinate-dehydrogena,Danio-rerio_ENSDART00000039865.4_sdhdb-succinate-dehydrogena)r_S=Danio-rerio_D=Y)r_S=Teleostei_D=N)r_S=BonyVertebrates_D=N,Drosophila-melanogaster_FBtr0084466_SdhD-Succinate-dehydrog)r_S=Bilateria_D=N;
+
+>1st_rearranged_gene_tree_NHX
+(((((Homo-sapiens_ENST00000531744.5_AP002884.2-novel-transc:0.198986[&&NHX:S=Homo-sapiens],Homo-sapiens_ENST00000375549.8_SDHD-succinate-dehydrog:0.0[&&NHX:S=Homo-sapiens])n13:0.251299[&&NHX:S=Homo-sapiens:D=Y:B=100.0],Gallus-gallus_ENSGALT00000012795.5_SDHD-succinate-dehyd:0.299521[&&NHX:S=Gallus-gallus])r32[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000057629.2_sdhd-succinate-dehyd:0.186109[&&NHX:S=Xenopus-tropicalis])r31[&&NHX:S=Tetrapoda:D=N],((Oryzias-latipes_ENSORLT00000012701.1_sdhdb-succinate-dehydro:0.667196[&&NHX:S=Oryzias-latipes],Tetraodon-nigroviridis_ENSTNIT00000002840.1_sdhdb-succinate-:0.136498[&&NHX:S=Tetraodon-nigroviridis])n2:0.098947[&&NHX:S=Percomorpha:D=N:B=85.0],(Danio-rerio_ENSDART00000078115.4_sdhda-succinate-dehydrogena:0.348841[&&NHX:S=Danio-rerio],Danio-rerio_ENSDART00000039865.4_sdhdb-succinate-dehydrogena:0.185874[&&NHX:S=Danio-rerio])r34[&&NHX:S=Danio-rerio:D=Y])r33[&&NHX:S=Teleostei:D=N])r30[&&NHX:S=BonyVertebrates:D=N],Drosophila-melanogaster_FBtr0084466_SdhD-Succinate-dehydrog:1.086226[&&NHX:S=Drosophila-melanogaster])n16[&&NHX:S=Bilateria:D=N];
+
+>1st_gene_tree_newick
+(((Gallus-gallus_ENSGALT00000012795.5_SDHD-succinate-dehyd:0.299521,((Danio-rerio_ENSDART00000078115.4_sdhda-succinate-dehydrogena:0.348841,(Tetraodon-nigroviridis_ENSTNIT00000002840.1_sdhdb-succinate-:0.136498,Oryzias-latipes_ENSORLT00000012701.1_sdhdb-succinate-dehydro:0.667196)85:0.098947)21:0.020097,Danio-rerio_ENSDART00000039865.4_sdhdb-succinate-dehydrogena:0.185874)61:0.078359)33:0.005453,Xenopus-tropicalis_ENSXETT00000057629.2_sdhd-succinate-dehyd:0.186109)42:0.050989,(Homo-sapiens_ENST00000375549.8_SDHD-succinate-dehydrog:-0.021448,Homo-sapiens_ENST00000531744.5_AP002884.2-novel-transc:0.198986)100:0.251299,Drosophila-melanogaster_FBtr0084466_SdhD-Succinate-dehydrog:1.086226);
+
+>Aligned-ShortSequence_threshold evaluation
+Drosophila-melanogaster_FBtr0084466_SdhD-Succinate-dehydrog      0.98
+Xenopus-tropicalis_ENSXETT00000057629.2_sdhd-succinate-dehyd     0.987
+Gallus-gallus_ENSGALT00000012795.5_SDHD-succinate-dehyd          0.987
+Homo-sapiens_ENST00000375549.8_SDHD-succinate-dehydrog           1.0
+Homo-sapiens_ENST00000531744.5_AP002884.2-novel-transc           0.819
+Danio-rerio_ENSDART00000078115.4_sdhda-succinate-dehydrogena     0.973
+Danio-rerio_ENSDART00000039865.4_sdhdb-succinate-dehydrogena     1.0
+Tetraodon-nigroviridis_ENSTNIT00000002840.1_sdhdb-succinate-     1.0
+Oryzias-latipes_ENSORLT00000012701.1_sdhdb-succinate-dehydro     1.0
+
+
+################ Settings ################
+
+>NumberAssigned_querySequence
+Oryzias-latipes_ENSORLT00000012701.1_sdhdb-succinate-dehydro
+MAAVYKLSSLCRRGVHPLLYQSALLARPAAVPQKRKEPPCLLTARIHSSQALYGGADSKAASLHWTAERVLSIALLAMGPVAYYSPGPVIDYSLAAALTLHGHCLSTSDFISLSLSLSHMHSYMGMACMMLQVFGLSGSMEAHRGGLTRFSQTTSTETPKSRWQKRGSSCSPPSPLLVFVTSTTMTWGFAKLWLCSGANELLWTDRLWMSCREKIVKNKMGSL
+
+>SpeciesTree
+(Drosophila-melanogaster,(Ciona-intestinalis,((Xenopus-tropicalis,(Gallus-gallus,Homo-sapiens)Amniota)Tetrapoda,(Danio-rerio,(Oryzias-latipes,(Tetraodon-nigroviridis,Gasterosteus-aculeatus)Eupercaria)Percomorpha)Teleostei)BonyVertebrates)Deuterostomia)Bilateria;
+
+>SubstitutionModel
+WAG (Whelan and Goldman 2001) + gamma
+
+>ShortSequence_threshold
+0.45
+
+>Dataset
+AminoAcid
+
+>Rearrangement_BS_value_threshold
+70
+
+>TaxonSampling_color
+Drosophila-melanogaster_Black
+Ciona-intestinalis_Black
+Xenopus-tropicalis_Magenta
+Gallus-gallus_Magenta
+Homo-sapiens_Magenta
+Danio-rerio_Purple
+Tetraodon-nigroviridis_Green
+Gasterosteus-aculeatus_Red
+Oryzias-latipes_Blue
+
+################ Results: 2nd analysis ################
+
+>TreeSearchMethod
+NJ
+
+>2nd_rearranged_gene_tree_newick
+((((Gallus-gallus_ENSGALT00000012795.5_SDHD-succinate-dehyd,Xenopus-tropicalis_ENSXETT00000057629.2_sdhd-succinate-dehyd)r_S=Tetrapoda_D=N,((Tetraodon-nigroviridis_ENSTNIT00000002840.1_sdhdb-succinate-,Oryzias-latipes_ENSORLT00000012701.1_sdhdb-succinate-dehydro)82_S=Percomorpha_D=N,(Danio-rerio_ENSDART00000078115.4_sdhda-succinate-dehydrogena,Danio-rerio_ENSDART00000039865.4_sdhdb-succinate-dehydrogena)r_S=Danio-rerio_D=Y)r_S=Teleostei_D=N)100_S=BonyVertebrates_D=N,(Homo-sapiens_ENST00000531744.5_AP002884.2-novel-transc,Homo-sapiens_ENST00000375549.8_SDHD-succinate-dehydrog)100_S=Homo-sapiens_D=Y)r_S=BonyVertebrates_D=Y,Drosophila-melanogaster_FBtr0084466_SdhD-Succinate-dehydrog)r_S=Bilateria_D=N;
+
+>2nd_rearranged_gene_tree_NHX
+((((Gallus-gallus_ENSGALT00000012795.5_SDHD-succinate-dehyd:0.299521[&&NHX:S=Gallus-gallus],Xenopus-tropicalis_ENSXETT00000057629.2_sdhd-succinate-dehyd:0.186109[&&NHX:S=Xenopus-tropicalis])r39[&&NHX:S=Tetrapoda:D=N],((Tetraodon-nigroviridis_ENSTNIT00000002840.1_sdhdb-succinate-:0.136498[&&NHX:S=Tetraodon-nigroviridis],Oryzias-latipes_ENSORLT00000012701.1_sdhdb-succinate-dehydro:0.667196[&&NHX:S=Oryzias-latipes])n2:0.098947[&&NHX:S=Percomorpha:D=N:B=82.0],(Danio-rerio_ENSDART00000078115.4_sdhda-succinate-dehydrogena:0.348841[&&NHX:S=Danio-rerio],Danio-rerio_ENSDART00000039865.4_sdhdb-succinate-dehydrogena:0.185874[&&NHX:S=Danio-rerio])r43[&&NHX:S=Danio-rerio:D=Y])r42[&&NHX:S=Teleostei:D=N])n10:0.050989[&&NHX:S=BonyVertebrates:D=N:B=100.0],(Homo-sapiens_ENST00000531744.5_AP002884.2-novel-transc:0.198986[&&NHX:S=Homo-sapiens],Homo-sapiens_ENST00000375549.8_SDHD-succinate-dehydrog:0.0[&&NHX:S=Homo-sapiens])n13:0.251299[&&NHX:S=Homo-sapiens:D=Y:B=100.0])r30[&&NHX:S=BonyVertebrates:D=Y],Drosophila-melanogaster_FBtr0084466_SdhD-Succinate-dehydrog:1.086226[&&NHX:S=Drosophila-melanogaster])n16[&&NHX:S=Bilateria:D=N];
+
+>2nd_gene_tree_newick
+((Xenopus-tropicalis_ENSXETT00000057629.2_sdhd-succinate-dehyd:0.186109,((Danio-rerio_ENSDART00000039865.4_sdhdb-succinate-dehydrogena:0.185874,(Danio-rerio_ENSDART00000078115.4_sdhda-succinate-dehydrogena:0.348841,(Oryzias-latipes_ENSORLT00000012701.1_sdhdb-succinate-dehydro:0.667196,Tetraodon-nigroviridis_ENSTNIT00000002840.1_sdhdb-succinate-:0.136498)82:0.098947)29:0.020097)62:0.078359,Gallus-gallus_ENSGALT00000012795.5_SDHD-succinate-dehyd:0.299521)43:0.005453)57:0.050989,(Homo-sapiens_ENST00000375549.8_SDHD-succinate-dehydrog:-0.021448,Homo-sapiens_ENST00000531744.5_AP002884.2-novel-transc:0.198986)100:0.251299,Drosophila-melanogaster_FBtr0084466_SdhD-Succinate-dehydrog:1.086226);
+
+>MonophyleticGeneGroups
+BonyVertebrates                 r  D=Y
+Teleostei                       r  D=N
+Percomorpha                     82  D=N
+Oryzias-latipes                 leaf  leaf
+
+>SisterGeneGroups
+BonyVertebrates                 r   Homo-sapiens
+Teleostei                       100   Tetrapoda
+Percomorpha                     r   Danio-rerio
+Oryzias-latipes                 82   Tetraodon-nigroviridis
+
+>Number_of_duplicatedNode
+BonyVertebrates                 0
+Teleostei                       0
+Percomorpha                     0
+Oryzias-latipes                 0
+
+>AnalysisTime
+18.5 seconds

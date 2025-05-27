@@ -1,0 +1,179 @@
+################ Results: 1st analysis ################
+
+>QuerySequence
+Oryzias-latipes_ENSORLT00000016836.1_atf4b-activating-transc  <= [Identities = 358/358 (100%)] : Oryzias-latipes_ENSORLT00000016836.1_atf4b-activating-transc
+
+>Number_of_blastHits
+Drosophila-melanogaster  1
+Ciona-intestinalis       1
+Xenopus-tropicalis       6
+Gallus-gallus            5
+Homo-sapiens             8
+Danio-rerio              8
+Tetraodon-nigroviridis   9
+Gasterosteus-aculeatus   8
+Oryzias-latipes          9
+
+>BS_of_orthogroupBasalNode
+r
+
+
+>Orthogroup
+Danio-rerio_ENSDART00000042970.4_atf4a-activating-transcript
+Danio-rerio_ENSDART00000055609.3_atf4b-activating-transcript
+Gallus-gallus_ENSGALT00000037892.3_ATF4-activating-tran
+Gasterosteus-aculeatus_ENSGACT00000010834.1_atf4b-activating
+Gasterosteus-aculeatus_ENSGACT00000026266.1_atf4a-activating
+Homo-sapiens_ENST00000674920.1_ATF4-activating-transcr
+Oryzias-latipes_ENSORLT00000013352.1_atf4a-activating-transc
+Oryzias-latipes_ENSORLT00000016836.1_atf4b-activating-transc
+Tetraodon-nigroviridis_ENSTNIT00000002055.1_atf4a-activating
+Tetraodon-nigroviridis_ENSTNIT00000014641.1_atf4b-activating
+Xenopus-tropicalis_ENSXETT00000050104.3_atf4-activating-tran
+
+>GeneNumber_of_orthogroup
+Xenopus-tropicalis      1
+Gallus-gallus           1
+Homo-sapiens            1
+Danio-rerio             2
+Oryzias-latipes         2
+Tetraodon-nigroviridis  2
+Gasterosteus-aculeatus  2
+
+>Rooting
+Xenopus-tropicalis_ENSXETT00000007072.3_atf5-activating-tran
+
+
+>1st_rearranged_gene_tree_newick
+(((((((Xenopus-tropicalis_ENSXETT00000007072.3_atf5-activating-tran,Xenopus-tropicalis_ENSXETT00000019356.3_atf5.2-activating-tr)99_S=Xenopus-tropicalis_D=Y,Homo-sapiens_ENST00000595125.5_ATF5-activating-transcr)81_S=Tetrapoda_D=N,((((Tetraodon-nigroviridis_ENSTNIT00000000335.1_atf5a-activating,Tetraodon-nigroviridis_ENSTNIT00000017602.1_NONE)r_S=Tetraodon-nigroviridis_D=Y,Oryzias-latipes_ENSORLT00000009480.1_atf5a-activating-transc)90_S=Percomorpha_D=N,Danio-rerio_ENSDART00000155066.2_atf5b-activating-transcript)r_S=Teleostei_D=N,((Gasterosteus-aculeatus_ENSGACT00000027042.1_atf5a-activating,Oryzias-latipes_ENSORLT00000019092.1_ATF5-activating-transcr)r_S=Percomorpha_D=N,Danio-rerio_ENSDART00000098285.4_atf5a-activating-transcript)r_S=Teleostei_D=N)82_S=Teleostei_D=Y)93_S=BonyVertebrates_D=N,((((((Homo-sapiens_ENST00000264110.7_ATF2-activating-transcr,Gallus-gallus_ENSGALT00000033263.5_ATF2-activating-tran)73_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000016474.3_atf2-activating-tran)r_S=Tetrapoda_D=N,(((Gasterosteus-aculeatus_ENSGACT00000006100.1_atf2-activating-,Tetraodon-nigroviridis_ENSTNIT00000020305.1_atf2-activating-)82_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000021918.1_atf2-activating-transcr)r_S=Percomorpha_D=N,Danio-rerio_ENSDART00000062292.6_atf2-activating-transcripti)r_S=Teleostei_D=N)94_S=BonyVertebrates_D=N,((((Homo-sapiens_ENST00000591834.1_ATF7-NPFF-ATF7-NPFF-rea,Homo-sapiens_ENST00000548446.6_ATF7-activating-transcr)73_S=Homo-sapiens_D=Y,Gallus-gallus_ENSGALT00000102218.1_activating-transcrip)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000027659.2_atf7-activating-tran)r_S=Tetrapoda_D=N,((((Oryzias-latipes_ENSORLT00000023558.1_atf7b-activating-transc,Tetraodon-nigroviridis_ENSTNIT00000017817.1_atf7b-activating)97_S=Percomorpha_D=N,(Gasterosteus-aculeatus_ENSGACT00000011151.1_atf7a-activating,Oryzias-latipes_ENSORLT00000008545.1_atf7a-activating-transc)r_S=Percomorpha_D=N)r_S=Percomorpha_D=Y,Danio-rerio_ENSDART00000013563.8_atf7a-activating-transcript)r_S=Teleostei_D=N,(((Gasterosteus-aculeatus_ENSGACT00000010887.1_creb5b-cAMP-resp,Tetraodon-nigroviridis_ENSTNIT00000018386.1_atf7a-activating)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000009416.1_creb5b-cAMP-responsive-)r_S=Percomorpha_D=N,Danio-rerio_ENSDART00000103630.4_creb5b-cAMP-responsive-elem)r_S=Teleostei_D=N)r_S=Teleostei_D=Y)r_S=BonyVertebrates_D=N)r_S=BonyVertebrates_D=Y,(((Homo-sapiens_ENST00000357727.7_CREB5-cAMP-responsive-e,Gallus-gallus_ENSGALT00000054279.2_CREB5-cAMP-responsiv)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000026299.3_creb5-cAMP-responsiv)r_S=Tetrapoda_D=N,(((Gasterosteus-aculeatus_ENSGACT00000009549.1_creb5a-cAMP-resp,Tetraodon-nigroviridis_ENSTNIT00000003994.1_creb5a-cAMP-resp)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000006464.1_creb5a-cAMP-responsive-)r_S=Percomorpha_D=N,Danio-rerio_ENSDART00000160582.1_creb5a-cAMP-responsive-elem)r_S=Teleostei_D=N)r_S=BonyVertebrates_D=N)100_S=BonyVertebrates_D=Y,(((Homo-sapiens_ENST00000243440.2_BATF3-basic-leucine-zip,Gallus-gallus_ENSGALT00000098497.1_BATF3-basic-leucine-)100_S=Amniota_D=N,Homo-sapiens_ENST00000301887.9_BATF2-basic-leucine-zip)98_S=Amniota_D=Y,(Gasterosteus-aculeatus_ENSGACT00000013870.1_fosab-v-fos-FBJ-,Tetraodon-nigroviridis_ENSTNIT00000019684.1_fosab-v-fos-FBJ-)100_S=Eupercaria_D=N)r_S=BonyVertebrates_D=N)82_S=BonyVertebrates_D=Y)r_S=BonyVertebrates_D=Y,(((Homo-sapiens_ENST00000674920.1_ATF4-activating-transcr,Gallus-gallus_ENSGALT00000037892.3_ATF4-activating-tran)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000050104.3_atf4-activating-tran)85_S=Tetrapoda_D=N,((((Gasterosteus-aculeatus_ENSGACT00000026266.1_atf4a-activating,Tetraodon-nigroviridis_ENSTNIT00000002055.1_atf4a-activating)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000013352.1_atf4a-activating-transc)r_S=Percomorpha_D=N,Danio-rerio_ENSDART00000042970.4_atf4a-activating-transcript)r_S=Teleostei_D=N,(((Gasterosteus-aculeatus_ENSGACT00000010834.1_atf4b-activating,Tetraodon-nigroviridis_ENSTNIT00000014641.1_atf4b-activating)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000016836.1_atf4b-activating-transc)r_S=Percomorpha_D=N,Danio-rerio_ENSDART00000055609.3_atf4b-activating-transcript)r_S=Teleostei_D=N)r_S=Teleostei_D=Y)r_S=BonyVertebrates_D=N)r_S=BonyVertebrates_D=Y,Ciona-intestinalis_ENSCINT00000022579.2_atf4/5-transcription)r_S=Deuterostomia_D=N,Drosophila-melanogaster_FBtr0081512_crc-cryptocephal-DBNLIN)r_S=Bilateria_D=N;
+
+>1st_rearranged_gene_tree_NHX
+(((((((Xenopus-tropicalis_ENSXETT00000007072.3_atf5-activating-tran:0.016106[&&NHX:S=Xenopus-tropicalis],Xenopus-tropicalis_ENSXETT00000019356.3_atf5.2-activating-tr:0.02326[&&NHX:S=Xenopus-tropicalis])n65:0.137776[&&NHX:S=Xenopus-tropicalis:D=Y:B=99.0],Homo-sapiens_ENST00000595125.5_ATF5-activating-transcr:0.061694[&&NHX:S=Homo-sapiens])n67:0.068211[&&NHX:S=Tetrapoda:D=N:B=81.0],((((Tetraodon-nigroviridis_ENSTNIT00000000335.1_atf5a-activating:0.031386[&&NHX:S=Tetraodon-nigroviridis],Tetraodon-nigroviridis_ENSTNIT00000017602.1_NONE:0.122382[&&NHX:S=Tetraodon-nigroviridis])r135[&&NHX:S=Tetraodon-nigroviridis:D=Y],Oryzias-latipes_ENSORLT00000009480.1_atf5a-activating-transc:0.101426[&&NHX:S=Oryzias-latipes])n72:0.146909[&&NHX:S=Percomorpha:D=N:B=90.0],Danio-rerio_ENSDART00000155066.2_atf5b-activating-transcript:0.046159[&&NHX:S=Danio-rerio])r127[&&NHX:S=Teleostei:D=N],((Gasterosteus-aculeatus_ENSGACT00000027042.1_atf5a-activating:0.021227[&&NHX:S=Gasterosteus-aculeatus],Oryzias-latipes_ENSORLT00000019092.1_ATF5-activating-transcr:0.0[&&NHX:S=Oryzias-latipes])r129[&&NHX:S=Percomorpha:D=N],Danio-rerio_ENSDART00000098285.4_atf5a-activating-transcript:0.004024[&&NHX:S=Danio-rerio])r128[&&NHX:S=Teleostei:D=N])n80:0.095848[&&NHX:S=Teleostei:D=Y:B=82.0])n81:0.26848[&&NHX:S=BonyVertebrates:D=N:B=93.0],((((((Homo-sapiens_ENST00000264110.7_ATF2-activating-transcr:0.011446[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000033263.5_ATF2-activating-tran:0.001567[&&NHX:S=Gallus-gallus])n21:0.011237[&&NHX:S=Amniota:D=N:B=73.0],Xenopus-tropicalis_ENSXETT00000016474.3_atf2-activating-tran:0.012525[&&NHX:S=Xenopus-tropicalis])r165[&&NHX:S=Tetrapoda:D=N],(((Gasterosteus-aculeatus_ENSGACT00000006100.1_atf2-activating-:0.007635[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000020305.1_atf2-activating-:0.018379[&&NHX:S=Tetraodon-nigroviridis])n24:0.01554[&&NHX:S=Eupercaria:D=N:B=82.0],Oryzias-latipes_ENSORLT00000021918.1_atf2-activating-transcr:0.003811[&&NHX:S=Oryzias-latipes])r167[&&NHX:S=Percomorpha:D=N],Danio-rerio_ENSDART00000062292.6_atf2-activating-transcripti:0.028425[&&NHX:S=Danio-rerio])r166[&&NHX:S=Teleostei:D=N])n31:0.065382[&&NHX:S=BonyVertebrates:D=N:B=94.0],((((Homo-sapiens_ENST00000591834.1_ATF7-NPFF-ATF7-NPFF-rea:0.0[&&NHX:S=Homo-sapiens],Homo-sapiens_ENST00000548446.6_ATF7-activating-transcr:0.0[&&NHX:S=Homo-sapiens])n2:0.008997[&&NHX:S=Homo-sapiens:D=Y:B=73.0],Gallus-gallus_ENSGALT00000102218.1_activating-transcrip:0.003722[&&NHX:S=Gallus-gallus])r148[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000027659.2_atf7-activating-tran:0.03739[&&NHX:S=Xenopus-tropicalis])r147[&&NHX:S=Tetrapoda:D=N],((((Oryzias-latipes_ENSORLT00000023558.1_atf7b-activating-transc:0.022733[&&NHX:S=Oryzias-latipes],Tetraodon-nigroviridis_ENSTNIT00000017817.1_atf7b-activating:0.015692[&&NHX:S=Tetraodon-nigroviridis])n17:0.05182[&&NHX:S=Percomorpha:D=N:B=97.0],(Gasterosteus-aculeatus_ENSGACT00000011151.1_atf7a-activating:0.032366[&&NHX:S=Gasterosteus-aculeatus],Oryzias-latipes_ENSORLT00000008545.1_atf7a-activating-transc:0.006718[&&NHX:S=Oryzias-latipes])r152[&&NHX:S=Percomorpha:D=N])r151[&&NHX:S=Percomorpha:D=Y],Danio-rerio_ENSDART00000013563.8_atf7a-activating-transcript:0.078056[&&NHX:S=Danio-rerio])r150[&&NHX:S=Teleostei:D=N],(((Gasterosteus-aculeatus_ENSGACT00000010887.1_creb5b-cAMP-resp:-0.0[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000018386.1_atf7a-activating:0.02638[&&NHX:S=Tetraodon-nigroviridis])r157[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000009416.1_creb5b-cAMP-responsive-:0.0[&&NHX:S=Oryzias-latipes])r156[&&NHX:S=Percomorpha:D=N],Danio-rerio_ENSDART00000103630.4_creb5b-cAMP-responsive-elem:0.0[&&NHX:S=Danio-rerio])r155[&&NHX:S=Teleostei:D=N])r149[&&NHX:S=Teleostei:D=Y])r146[&&NHX:S=BonyVertebrates:D=N])r145[&&NHX:S=BonyVertebrates:D=Y],(((Homo-sapiens_ENST00000357727.7_CREB5-cAMP-responsive-e:0.0[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000054279.2_CREB5-cAMP-responsiv:0.0[&&NHX:S=Gallus-gallus])r160[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000026299.3_creb5-cAMP-responsiv:0.067173[&&NHX:S=Xenopus-tropicalis])r159[&&NHX:S=Tetrapoda:D=N],(((Gasterosteus-aculeatus_ENSGACT00000009549.1_creb5a-cAMP-resp:0.023055[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000003994.1_creb5a-cAMP-resp:0.055093[&&NHX:S=Tetraodon-nigroviridis])r163[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000006464.1_creb5a-cAMP-responsive-:0.058369[&&NHX:S=Oryzias-latipes])r162[&&NHX:S=Percomorpha:D=N],Danio-rerio_ENSDART00000160582.1_creb5a-cAMP-responsive-elem:0.095354[&&NHX:S=Danio-rerio])r161[&&NHX:S=Teleostei:D=N])r158[&&NHX:S=BonyVertebrates:D=N])n52:0.31503[&&NHX:S=BonyVertebrates:D=Y:B=100.0],(((Homo-sapiens_ENST00000243440.2_BATF3-basic-leucine-zip:0.102083[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000098497.1_BATF3-basic-leucine-:0.08186[&&NHX:S=Gallus-gallus])n59:0.238468[&&NHX:S=Amniota:D=N:B=100.0],Homo-sapiens_ENST00000301887.9_BATF2-basic-leucine-zip:0.411367[&&NHX:S=Homo-sapiens])n61:0.277825[&&NHX:S=Amniota:D=Y:B=98.0],(Gasterosteus-aculeatus_ENSGACT00000013870.1_fosab-v-fos-FBJ-:0.0612[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000019684.1_fosab-v-fos-FBJ-:0.029827[&&NHX:S=Tetraodon-nigroviridis])n55:0.734247[&&NHX:S=Eupercaria:D=N:B=100.0])r137[&&NHX:S=BonyVertebrates:D=N])n62:0.24026[&&NHX:S=BonyVertebrates:D=Y:B=82.0])r117[&&NHX:S=BonyVertebrates:D=Y],(((Homo-sapiens_ENST00000674920.1_ATF4-activating-transcr:0.132434[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000037892.3_ATF4-activating-tran:0.058742[&&NHX:S=Gallus-gallus])r169[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000050104.3_atf4-activating-tran:0.166856[&&NHX:S=Xenopus-tropicalis])n86:0.101783[&&NHX:S=Tetrapoda:D=N:B=85.0],((((Gasterosteus-aculeatus_ENSGACT00000026266.1_atf4a-activating:0.051551[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000002055.1_atf4a-activating:0.062848[&&NHX:S=Tetraodon-nigroviridis])r122[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000013352.1_atf4a-activating-transc:0.085798[&&NHX:S=Oryzias-latipes])r121[&&NHX:S=Percomorpha:D=N],Danio-rerio_ENSDART00000042970.4_atf4a-activating-transcript:0.07349[&&NHX:S=Danio-rerio])r120[&&NHX:S=Teleostei:D=N],(((Gasterosteus-aculeatus_ENSGACT00000010834.1_atf4b-activating:0.138647[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000014641.1_atf4b-activating:0.126442[&&NHX:S=Tetraodon-nigroviridis])r125[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000016836.1_atf4b-activating-transc:0.082845[&&NHX:S=Oryzias-latipes])r124[&&NHX:S=Percomorpha:D=N],Danio-rerio_ENSDART00000055609.3_atf4b-activating-transcript:0.126687[&&NHX:S=Danio-rerio])r123[&&NHX:S=Teleostei:D=N])r119[&&NHX:S=Teleostei:D=Y])r118[&&NHX:S=BonyVertebrates:D=N])r116[&&NHX:S=BonyVertebrates:D=Y],Ciona-intestinalis_ENSCINT00000022579.2_atf4/5-transcription:0.317038[&&NHX:S=Ciona-intestinalis])r115[&&NHX:S=Deuterostomia:D=N],Drosophila-melanogaster_FBtr0081512_crc-cryptocephal-DBNLIN:0.539468[&&NHX:S=Drosophila-melanogaster])n108[&&NHX:S=Bilateria:D=N];
+
+>1st_gene_tree_newick
+((((((((((Homo-sapiens_ENST00000548446.6_ATF7-activating-transcr:0.000000,Homo-sapiens_ENST00000591834.1_ATF7-NPFF-ATF7-NPFF-rea:0.000000)73:0.008997,Gallus-gallus_ENSGALT00000102218.1_activating-transcrip:0.003722)56:0.016194,Xenopus-tropicalis_ENSXETT00000027659.2_atf7-activating-tran:0.037390)11:0.012717,(Danio-rerio_ENSDART00000013563.8_atf7a-activating-transcript:0.078056,(Tetraodon-nigroviridis_ENSTNIT00000018386.1_atf7a-activating:0.026380,(Gasterosteus-aculeatus_ENSGACT00000011151.1_atf7a-activating:0.032366,Oryzias-latipes_ENSORLT00000008545.1_atf7a-activating-transc:0.006718)41:0.007189)58:0.017612)1:0.024584)9:0.013475,(Tetraodon-nigroviridis_ENSTNIT00000017817.1_atf7b-activating:0.015692,Oryzias-latipes_ENSORLT00000023558.1_atf7b-activating-transc:0.022733)97:0.051820)52:0.023995,(Xenopus-tropicalis_ENSXETT00000016474.3_atf2-activating-tran:0.012525,((Gallus-gallus_ENSGALT00000033263.5_ATF2-activating-tran:0.001567,Homo-sapiens_ENST00000264110.7_ATF2-activating-transcr:0.011446)73:0.011237,(Danio-rerio_ENSDART00000062292.6_atf2-activating-transcripti:0.028425,((Tetraodon-nigroviridis_ENSTNIT00000020305.1_atf2-activating-:0.018379,Gasterosteus-aculeatus_ENSGACT00000006100.1_atf2-activating-:0.007635)82:0.015540,Oryzias-latipes_ENSORLT00000021918.1_atf2-activating-transcr:0.003811)44:0.011429)64:0.006816)32:0.008153)94:0.065382)59:0.063509,((((Xenopus-tropicalis_ENSXETT00000026299.3_creb5-cAMP-responsiv:0.067173,Gallus-gallus_ENSGALT00000054279.2_CREB5-cAMP-responsiv:-0.001264)1:0.000664,Homo-sapiens_ENST00000357727.7_CREB5-cAMP-responsive-e:-0.000664)2:0.008819,(Danio-rerio_ENSDART00000103630.4_creb5b-cAMP-responsive-elem:-0.000936,(Gasterosteus-aculeatus_ENSGACT00000010887.1_creb5b-cAMP-resp:-0.000000,Oryzias-latipes_ENSORLT00000009416.1_creb5b-cAMP-responsive-:0.000000)31:0.013421)34:0.017166)33:0.053082,((Danio-rerio_ENSDART00000160582.1_creb5a-cAMP-responsive-elem:0.095354,(Tetraodon-nigroviridis_ENSTNIT00000003994.1_creb5a-cAMP-resp:0.055093,Oryzias-latipes_ENSORLT00000006464.1_creb5a-cAMP-responsive-:0.058369)54:0.014944)32:0.009120,Gasterosteus-aculeatus_ENSGACT00000009549.1_creb5a-cAMP-resp:0.023055)35:0.099986)66:0.019836)100:0.315030,(Tetraodon-nigroviridis_ENSTNIT00000019684.1_fosab-v-fos-FBJ-:0.029827,Gasterosteus-aculeatus_ENSGACT00000013870.1_fosab-v-fos-FBJ-:0.061200)100:0.734247)61:0.138456,((Gallus-gallus_ENSGALT00000098497.1_BATF3-basic-leucine-:0.081860,Homo-sapiens_ENST00000243440.2_BATF3-basic-leucine-zip:0.102083)100:0.238468,Homo-sapiens_ENST00000301887.9_BATF2-basic-leucine-zip:0.411367)98:0.277825)82:0.240260,(Ciona-intestinalis_ENSCINT00000022579.2_atf4/5-transcription:0.317038,((((Xenopus-tropicalis_ENSXETT00000019356.3_atf5.2-activating-tr:0.023260,Xenopus-tropicalis_ENSXETT00000007072.3_atf5-activating-tran:0.016106)99:0.137776,Homo-sapiens_ENST00000595125.5_ATF5-activating-transcr:0.061694)81:0.068211,(((Danio-rerio_ENSDART00000155066.2_atf5b-activating-transcript:0.046159,((Tetraodon-nigroviridis_ENSTNIT00000017602.1_NONE:0.122382,(Tetraodon-nigroviridis_ENSTNIT00000000335.1_atf5a-activating:0.031386,Oryzias-latipes_ENSORLT00000009480.1_atf5a-activating-transc:0.101426)66:0.046757)90:0.146909,Oryzias-latipes_ENSORLT00000019092.1_ATF5-activating-transcr:-0.058776)37:0.035283)25:0.029281,Danio-rerio_ENSDART00000098285.4_atf5a-activating-transcript:0.004024)7:0.000513,Gasterosteus-aculeatus_ENSGACT00000027042.1_atf5a-activating:0.021227)82:0.095848)93:0.268480,((((Xenopus-tropicalis_ENSXETT00000050104.3_atf4-activating-tran:0.166856,Homo-sapiens_ENST00000674920.1_ATF4-activating-transcr:0.132434)50:0.012814,Gallus-gallus_ENSGALT00000037892.3_ATF4-activating-tran:0.058742)85:0.101783,(Danio-rerio_ENSDART00000042970.4_atf4a-activating-transcript:0.073490,((Tetraodon-nigroviridis_ENSTNIT00000002055.1_atf4a-activating:0.062848,Oryzias-latipes_ENSORLT00000013352.1_atf4a-activating-transc:0.085798)49:0.045335,Gasterosteus-aculeatus_ENSGACT00000026266.1_atf4a-activating:0.051551)54:0.067837)34:0.036184)40:0.044396,((Danio-rerio_ENSDART00000055609.3_atf4b-activating-transcript:0.126687,Gasterosteus-aculeatus_ENSGACT00000010834.1_atf4b-activating:0.138647)35:0.014534,(Tetraodon-nigroviridis_ENSTNIT00000014641.1_atf4b-activating:0.126442,Oryzias-latipes_ENSORLT00000016836.1_atf4b-activating-transc:0.082845)27:0.008361)62:0.056621)68:0.044066)24:0.123474)24:0.094028,Drosophila-melanogaster_FBtr0081512_crc-cryptocephal-DBNLIN:0.539468);
+
+>Aligned-ShortSequence_threshold evaluation
+Drosophila-melanogaster_FBtr0081512_crc-cryptocephal-DBNLIN      1.0
+Ciona-intestinalis_ENSCINT00000022579.2_atf4/5-transcription     1.0
+Xenopus-tropicalis_ENSXETT00000027659.2_atf7-activating-tran     1.0
+Xenopus-tropicalis_ENSXETT00000026299.3_creb5-cAMP-responsiv     0.973
+Xenopus-tropicalis_ENSXETT00000016474.3_atf2-activating-tran     1.0
+Xenopus-tropicalis_ENSXETT00000019356.3_atf5.2-activating-tr     1.0
+Xenopus-tropicalis_ENSXETT00000007072.3_atf5-activating-tran     1.0
+Xenopus-tropicalis_ENSXETT00000050104.3_atf4-activating-tran     1.0
+Gallus-gallus_ENSGALT00000033263.5_ATF2-activating-tran          0.986
+Gallus-gallus_ENSGALT00000054279.2_CREB5-cAMP-responsiv          1.0
+Gallus-gallus_ENSGALT00000102218.1_activating-transcrip          1.0
+Gallus-gallus_ENSGALT00000098497.1_BATF3-basic-leucine-          0.959
+Gallus-gallus_ENSGALT00000037892.3_ATF4-activating-tran          1.0
+Homo-sapiens_ENST00000357727.7_CREB5-cAMP-responsive-e           1.0
+Homo-sapiens_ENST00000243440.2_BATF3-basic-leucine-zip           0.959
+Homo-sapiens_ENST00000301887.9_BATF2-basic-leucine-zip           0.986
+Homo-sapiens_ENST00000264110.7_ATF2-activating-transcr           1.0
+Homo-sapiens_ENST00000548446.6_ATF7-activating-transcr           1.0
+Homo-sapiens_ENST00000591834.1_ATF7-NPFF-ATF7-NPFF-rea           1.0
+Homo-sapiens_ENST00000595125.5_ATF5-activating-transcr           1.0
+Homo-sapiens_ENST00000674920.1_ATF4-activating-transcr           1.0
+Danio-rerio_ENSDART00000103630.4_creb5b-cAMP-responsive-elem     1.0
+Danio-rerio_ENSDART00000062292.6_atf2-activating-transcripti     1.0
+Danio-rerio_ENSDART00000013563.8_atf7a-activating-transcript     1.0
+Danio-rerio_ENSDART00000160582.1_creb5a-cAMP-responsive-elem     1.0
+Danio-rerio_ENSDART00000155066.2_atf5b-activating-transcript     1.0
+Danio-rerio_ENSDART00000098285.4_atf5a-activating-transcript     1.0
+Danio-rerio_ENSDART00000042970.4_atf4a-activating-transcript     1.0
+Danio-rerio_ENSDART00000055609.3_atf4b-activating-transcript     1.0
+Tetraodon-nigroviridis_ENSTNIT00000019684.1_fosab-v-fos-FBJ-     1.0
+Tetraodon-nigroviridis_ENSTNIT00000018386.1_atf7a-activating     1.0
+Tetraodon-nigroviridis_ENSTNIT00000017817.1_atf7b-activating     1.0
+Tetraodon-nigroviridis_ENSTNIT00000020305.1_atf2-activating-     0.986
+Tetraodon-nigroviridis_ENSTNIT00000003994.1_creb5a-cAMP-resp     1.0
+Tetraodon-nigroviridis_ENSTNIT00000017602.1_NONE                 1.0
+Tetraodon-nigroviridis_ENSTNIT00000000335.1_atf5a-activating     1.0
+Tetraodon-nigroviridis_ENSTNIT00000002055.1_atf4a-activating     1.0
+Tetraodon-nigroviridis_ENSTNIT00000014641.1_atf4b-activating     1.0
+Gasterosteus-aculeatus_ENSGACT00000013870.1_fosab-v-fos-FBJ-     1.0
+Gasterosteus-aculeatus_ENSGACT00000011151.1_atf7a-activating     1.0
+Gasterosteus-aculeatus_ENSGACT00000009549.1_creb5a-cAMP-resp     1.0
+Gasterosteus-aculeatus_ENSGACT00000010887.1_creb5b-cAMP-resp     1.0
+Gasterosteus-aculeatus_ENSGACT00000006100.1_atf2-activating-     1.0
+Gasterosteus-aculeatus_ENSGACT00000027042.1_atf5a-activating     1.0
+Gasterosteus-aculeatus_ENSGACT00000026266.1_atf4a-activating     1.0
+Gasterosteus-aculeatus_ENSGACT00000010834.1_atf4b-activating     1.0
+Oryzias-latipes_ENSORLT00000021918.1_atf2-activating-transcr     1.0
+Oryzias-latipes_ENSORLT00000006464.1_creb5a-cAMP-responsive-     0.973
+Oryzias-latipes_ENSORLT00000023558.1_atf7b-activating-transc     1.0
+Oryzias-latipes_ENSORLT00000009416.1_creb5b-cAMP-responsive-     1.0
+Oryzias-latipes_ENSORLT00000008545.1_atf7a-activating-transc     1.0
+Oryzias-latipes_ENSORLT00000009480.1_atf5a-activating-transc     0.932
+Oryzias-latipes_ENSORLT00000019092.1_ATF5-activating-transcr     0.863
+Oryzias-latipes_ENSORLT00000013352.1_atf4a-activating-transc     1.0
+Oryzias-latipes_ENSORLT00000016836.1_atf4b-activating-transc     1.0
+
+
+################ Settings ################
+
+>NumberAssigned_querySequence
+Oryzias-latipes_ENSORLT00000016836.1_atf4b-activating-transc
+MMTSSQCGLEDMEALLWGSSSPMAEGMDSIFAPTDKIGHQEGEGGASLEGDALPVSPRDKGGNESDLLSLPWLDPLDQLRSGQKFSDDRKEDVLGDLHWMAERVDLSEFDLDSLIGSCSPAEESPSSPEDLLASLDVPMELDSFHLSALSAPEPLPPPPFCVPDPQEELEIKSEPASPIPSLPAVASPSAPDFTLDLGSEVDVPESEIVLSLSPARIILVLAPKSEVSVTTTPEVIQCSPPTSPTERSHRSRPYPKPSPPASPSMVVDEGRSSRAAGGTERTTLKSPKDKKLKKMEQNKTAATRYRQKKRVEQDSLLAEHAVLERKNVELTEKAESLTREIEYLKELMEEVRQTKLKR
+
+>SpeciesTree
+(Drosophila-melanogaster,(Ciona-intestinalis,((Xenopus-tropicalis,(Gallus-gallus,Homo-sapiens)Amniota)Tetrapoda,(Danio-rerio,(Oryzias-latipes,(Tetraodon-nigroviridis,Gasterosteus-aculeatus)Eupercaria)Percomorpha)Teleostei)BonyVertebrates)Deuterostomia)Bilateria;
+
+>SubstitutionModel
+WAG (Whelan and Goldman 2001) + gamma
+
+>ShortSequence_threshold
+0.45
+
+>Dataset
+AminoAcid
+
+>Rearrangement_BS_value_threshold
+70
+
+>TaxonSampling_color
+Drosophila-melanogaster_Black
+Ciona-intestinalis_Black
+Xenopus-tropicalis_Magenta
+Gallus-gallus_Magenta
+Homo-sapiens_Magenta
+Danio-rerio_Purple
+Tetraodon-nigroviridis_Green
+Gasterosteus-aculeatus_Red
+Oryzias-latipes_Blue
+
+################ Results: 2nd analysis ################
+
+>TreeSearchMethod
+NJ
+
+>2nd_rearranged_gene_tree_newick
+((((Homo-sapiens_ENST00000674920.1_ATF4-activating-transcr,Gallus-gallus_ENSGALT00000037892.3_ATF4-activating-tran)75_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000050104.3_atf4-activating-tran)100_S=Tetrapoda_D=N,Xenopus-tropicalis_ENSXETT00000007072.3_atf5-activating-tran)r_S=Tetrapoda_D=Y,((((Oryzias-latipes_ENSORLT00000016836.1_atf4b-activating-transc,Gasterosteus-aculeatus_ENSGACT00000010834.1_atf4b-activating)90_S=Percomorpha_D=N,Tetraodon-nigroviridis_ENSTNIT00000014641.1_atf4b-activating)85_S=Percomorpha_D=Y,Danio-rerio_ENSDART00000055609.3_atf4b-activating-transcript)77_S=Teleostei_D=N,(((Gasterosteus-aculeatus_ENSGACT00000026266.1_atf4a-activating,Tetraodon-nigroviridis_ENSTNIT00000002055.1_atf4a-activating)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000013352.1_atf4a-activating-transc)82_S=Percomorpha_D=N,Danio-rerio_ENSDART00000042970.4_atf4a-activating-transcript)r_S=Teleostei_D=N)100_S=Teleostei_D=Y)r_S=BonyVertebrates_D=N;
+
+>2nd_rearranged_gene_tree_NHX
+((((Homo-sapiens_ENST00000674920.1_ATF4-activating-transcr:0.17222[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000037892.3_ATF4-activating-tran:0.168661[&&NHX:S=Gallus-gallus])n17:0.023703[&&NHX:S=Amniota:D=N:B=75.0],Xenopus-tropicalis_ENSXETT00000050104.3_atf4-activating-tran:0.218799[&&NHX:S=Xenopus-tropicalis])n19:0.213214[&&NHX:S=Tetrapoda:D=N:B=100.0],Xenopus-tropicalis_ENSXETT00000007072.3_atf5-activating-tran:0.570723[&&NHX:S=Xenopus-tropicalis])r29[&&NHX:S=Tetrapoda:D=Y],((((Oryzias-latipes_ENSORLT00000016836.1_atf4b-activating-transc:0.204537[&&NHX:S=Oryzias-latipes],Gasterosteus-aculeatus_ENSGACT00000010834.1_atf4b-activating:0.186433[&&NHX:S=Gasterosteus-aculeatus])n9:0.026496[&&NHX:S=Percomorpha:D=N:B=90.0],Tetraodon-nigroviridis_ENSTNIT00000014641.1_atf4b-activating:0.25184[&&NHX:S=Tetraodon-nigroviridis])n11:0.107611[&&NHX:S=Percomorpha:D=Y:B=85.0],Danio-rerio_ENSDART00000055609.3_atf4b-activating-transcript:0.262656[&&NHX:S=Danio-rerio])n13:0.112551[&&NHX:S=Teleostei:D=N:B=77.0],(((Gasterosteus-aculeatus_ENSGACT00000026266.1_atf4a-activating:0.159943[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000002055.1_atf4a-activating:0.232682[&&NHX:S=Tetraodon-nigroviridis])r35[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000013352.1_atf4a-activating-transc:0.137275[&&NHX:S=Oryzias-latipes])n4:0.070538[&&NHX:S=Percomorpha:D=N:B=82.0],Danio-rerio_ENSDART00000042970.4_atf4a-activating-transcript:0.26331[&&NHX:S=Danio-rerio])r33[&&NHX:S=Teleostei:D=N])n14:0.143294[&&NHX:S=Teleostei:D=Y:B=100.0])n22[&&NHX:S=BonyVertebrates:D=N];
+
+>2nd_gene_tree_newick
+((((Tetraodon-nigroviridis_ENSTNIT00000002055.1_atf4a-activating:0.232682,(Gasterosteus-aculeatus_ENSGACT00000026266.1_atf4a-activating:0.159943,Oryzias-latipes_ENSORLT00000013352.1_atf4a-activating-transc:0.137275)42:0.012624)82:0.070538,Danio-rerio_ENSDART00000042970.4_atf4a-activating-transcript:0.263310)43:0.047917,(Danio-rerio_ENSDART00000055609.3_atf4b-activating-transcript:0.262656,((Gasterosteus-aculeatus_ENSGACT00000010834.1_atf4b-activating:0.186433,Oryzias-latipes_ENSORLT00000016836.1_atf4b-activating-transc:0.204537)90:0.026496,Tetraodon-nigroviridis_ENSTNIT00000014641.1_atf4b-activating:0.251840)85:0.107611)77:0.112551)100:0.143294,((Gallus-gallus_ENSGALT00000037892.3_ATF4-activating-tran:0.168661,Homo-sapiens_ENST00000674920.1_ATF4-activating-transcr:0.172220)75:0.023703,Xenopus-tropicalis_ENSXETT00000050104.3_atf4-activating-tran:0.218799)100:0.213214,Xenopus-tropicalis_ENSXETT00000007072.3_atf5-activating-tran:0.570723);
+
+>MonophyleticGeneGroups
+BonyVertebrates                 NoGeneNode  NONE
+Teleostei                       100  D=Y
+Percomorpha                     85  D=Y
+Oryzias-latipes                 leaf  leaf
+
+>SisterGeneGroups
+BonyVertebrates                 NONE   NoGeneNode
+Teleostei                       100   Teleostei(Percomorpha;Danio-rerio)
+Percomorpha                     77   Danio-rerio
+Oryzias-latipes                 90   Gasterosteus-aculeatus
+
+>Number_of_duplicatedNode
+BonyVertebrates                 0
+Teleostei                       1
+Percomorpha                     1
+Oryzias-latipes                 0
+
+>AnalysisTime
+26.8 seconds

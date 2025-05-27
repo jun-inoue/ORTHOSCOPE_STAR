@@ -1,0 +1,167 @@
+################ Results: 1st analysis ################
+
+>QuerySequence
+Oryzias-latipes_ENSORLT00000016470.1_arrb2a-arrestin-beta-2a  <= [Identities = 418/418 (100%)] : Oryzias-latipes_ENSORLT00000016470.1_arrb2a-arrestin-beta-2a
+
+>Number_of_blastHits
+Drosophila-melanogaster  5
+Ciona-intestinalis       1
+Xenopus-tropicalis       4
+Gallus-gallus            2
+Homo-sapiens             5
+Danio-rerio              7
+Tetraodon-nigroviridis   7
+Gasterosteus-aculeatus   8
+Oryzias-latipes          6
+
+>BS_of_orthogroupBasalNode
+98
+
+
+>Orthogroup
+Danio-rerio_ENSDART00000026295.8_arrb2b-arrestin-beta-2b
+Danio-rerio_ENSDART00000176011.1_arrb2a-arrestin-beta-2a
+Gasterosteus-aculeatus_ENSGACT00000000965.1_NONE
+Gasterosteus-aculeatus_ENSGACT00000002375.1_arrb2a-arrestin-
+Homo-sapiens_ENST00000412477.7_ARRB2-arrestin-beta-2
+Oryzias-latipes_ENSORLT00000016470.1_arrb2a-arrestin-beta-2a
+Tetraodon-nigroviridis_ENSTNIT00000001211.1_NONE
+Tetraodon-nigroviridis_ENSTNIT00000010667.1_arrb2a-arrestin-
+Xenopus-tropicalis_ENSXETT00000037534.3_arrb2-arrestin-beta-
+
+>GeneNumber_of_orthogroup
+Xenopus-tropicalis      1
+Gallus-gallus           0
+Homo-sapiens            1
+Danio-rerio             2
+Oryzias-latipes         1
+Tetraodon-nigroviridis  2
+Gasterosteus-aculeatus  2
+
+>Rooting
+Homo-sapiens_ENST00000420843.7_ARRB1-arrestin-beta-1
+
+
+>1st_rearranged_gene_tree_newick
+(((((((Homo-sapiens_ENST00000412477.7_ARRB2-arrestin-beta-2,Xenopus-tropicalis_ENSXETT00000037534.3_arrb2-arrestin-beta-)r_S=Tetrapoda_D=N,((((Gasterosteus-aculeatus_ENSGACT00000002375.1_arrb2a-arrestin-,Tetraodon-nigroviridis_ENSTNIT00000010667.1_arrb2a-arrestin-)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000016470.1_arrb2a-arrestin-beta-2a)92_S=Percomorpha_D=N,Danio-rerio_ENSDART00000176011.1_arrb2a-arrestin-beta-2a)84_S=Teleostei_D=N,((Gasterosteus-aculeatus_ENSGACT00000000965.1_NONE,Tetraodon-nigroviridis_ENSTNIT00000001211.1_NONE)r_S=Eupercaria_D=N,Danio-rerio_ENSDART00000026295.8_arrb2b-arrestin-beta-2b)r_S=Teleostei_D=N)r_S=Teleostei_D=Y)98_S=BonyVertebrates_D=N,((Homo-sapiens_ENST00000420843.7_ARRB1-arrestin-beta-1,Xenopus-tropicalis_ENSXETT00000021181.3_arrb1-arrestin-beta-)93_S=Tetrapoda_D=N,(((Gasterosteus-aculeatus_ENSGACT00000006063.1_arrb1-arrestin-b,Tetraodon-nigroviridis_ENSTNIT00000014354.1_arrb1-arrestin-b)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000025744.1_arrb1-arrestin-beta-1)r_S=Percomorpha_D=N,Danio-rerio_ENSDART00000123839.2_arrb1-arrestin-beta-1)r_S=Teleostei_D=N)98_S=BonyVertebrates_D=N)86_S=BonyVertebrates_D=Y,Drosophila-melanogaster_FBtr0085877_krz-kurtz-DBNLINE-9615)r_S=Bilateria_D=N,(((((Homo-sapiens_ENST00000631149.3_SAG-S-antigen-visual-ar,Homo-sapiens_ENST00000409110.6_SAG-S-antigen-visual-ar)100_S=Homo-sapiens_D=Y,Gallus-gallus_ENSGALT00000106378.1_SAG-S-antigen-visual)70_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000060906.1_sag-S-antigen-retina)99_S=Tetrapoda_D=N,((((Gasterosteus-aculeatus_ENSGACT00000020860.1_saga-S-antigen-r,Tetraodon-nigroviridis_ENSTNIT00000005504.1_saga-S-antigen-r)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000008414.1_kfharr-r2-Oryzias-latip)100_S=Percomorpha_D=N,Danio-rerio_ENSDART00000145035.1_saga-S-antigen-retina-and-p)79_S=Teleostei_D=N,((Oryzias-latipes_ENSORLT00000025043.1_kfharr-r1-arrestin,Tetraodon-nigroviridis_ENSTNIT00000014323.1_sagb-S-antigen-r)100_S=Percomorpha_D=N,Danio-rerio_ENSDART00000157750.2_sagb-S-antigen-retina-and-p)91_S=Teleostei_D=N)100_S=Teleostei_D=Y)78_S=BonyVertebrates_D=N,(Drosophila-melanogaster_FBtr0307350_Arr1-Arrestin-1-DBNLINE,Drosophila-melanogaster_FBtr0076599_Arr2-Arrestin-2-DBNLINE)93_S=Drosophila-melanogaster_D=Y)r_S=Bilateria_D=N)r_S=Bilateria_D=Y,(((((Homo-sapiens_ENST00000307959.9_ARR3-arrestin-3,Gallus-gallus_ENSGALT00000006763.6_ARR3-arrestin-3)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000063127.1_arr3-arrestin-3-reti)r_S=Tetrapoda_D=N,((((Gasterosteus-aculeatus_ENSGACT00000027089.1_arr3a-arrestin-3,Tetraodon-nigroviridis_ENSTNIT00000009254.1_arr3a-arrestin-3)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000002471.1_arr3-arrestin)100_S=Percomorpha_D=N,Danio-rerio_ENSDART00000078996.4_arr3a-arrestin-3a-retinal-X)88_S=Teleostei_D=N,(((Gasterosteus-aculeatus_ENSGACT00000022719.1_arr3b-arrestin-3,Tetraodon-nigroviridis_ENSTNIT00000020176.1_arr3b-arrestin-3)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000002281.1_arr3b-arrestin-3b-retin)98_S=Percomorpha_D=N,Danio-rerio_ENSDART00000158888.2_arr3b-arrestin-3b-retinal-X)r_S=Teleostei_D=N)100_S=Teleostei_D=Y)r_S=BonyVertebrates_D=N,Ciona-intestinalis_ENSCINT00000029366.2_NONE)r_S=Deuterostomia_D=N,Drosophila-melanogaster_FBtr0343034_CG32683-NONE)r_S=Bilateria_D=N)100_S=Bilateria_D=Y,(Gasterosteus-aculeatus_ENSGACT00000013465.1_zgc110626-zgc-11,Drosophila-melanogaster_FBtr0072534_Vdup1-Vitamin-D-up-regu)r_S=Bilateria_D=N)r_S=Bilateria_D=Y;
+
+>1st_rearranged_gene_tree_NHX
+(((((((Homo-sapiens_ENST00000412477.7_ARRB2-arrestin-beta-2:0.062408[&&NHX:S=Homo-sapiens],Xenopus-tropicalis_ENSXETT00000037534.3_arrb2-arrestin-beta-:0.052938[&&NHX:S=Xenopus-tropicalis])r126[&&NHX:S=Tetrapoda:D=N],((((Gasterosteus-aculeatus_ENSGACT00000002375.1_arrb2a-arrestin-:0.003903[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000010667.1_arrb2a-arrestin-:0.002092[&&NHX:S=Tetraodon-nigroviridis])r135[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000016470.1_arrb2a-arrestin-beta-2a:0.003969[&&NHX:S=Oryzias-latipes])n4:0.024858[&&NHX:S=Percomorpha:D=N:B=92.0],Danio-rerio_ENSDART00000176011.1_arrb2a-arrestin-beta-2a:0.032892[&&NHX:S=Danio-rerio])n6:0.006115[&&NHX:S=Teleostei:D=N:B=84.0],((Gasterosteus-aculeatus_ENSGACT00000000965.1_NONE:0.056256[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000001211.1_NONE:0.19456[&&NHX:S=Tetraodon-nigroviridis])r132[&&NHX:S=Eupercaria:D=N],Danio-rerio_ENSDART00000026295.8_arrb2b-arrestin-beta-2b:0.034564[&&NHX:S=Danio-rerio])r130[&&NHX:S=Teleostei:D=N])r129[&&NHX:S=Teleostei:D=Y])n16:0.050529[&&NHX:S=BonyVertebrates:D=N:B=98.0],((Homo-sapiens_ENST00000420843.7_ARRB1-arrestin-beta-1:0.026271[&&NHX:S=Homo-sapiens],Xenopus-tropicalis_ENSXETT00000021181.3_arrb1-arrestin-beta-:0.110837[&&NHX:S=Xenopus-tropicalis])n19:0.017239[&&NHX:S=Tetrapoda:D=N:B=93.0],(((Gasterosteus-aculeatus_ENSGACT00000006063.1_arrb1-arrestin-b:0.026017[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000014354.1_arrb1-arrestin-b:0.069843[&&NHX:S=Tetraodon-nigroviridis])r139[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000025744.1_arrb1-arrestin-beta-1:0.084153[&&NHX:S=Oryzias-latipes])r138[&&NHX:S=Percomorpha:D=N],Danio-rerio_ENSDART00000123839.2_arrb1-arrestin-beta-1:0.021205[&&NHX:S=Danio-rerio])r137[&&NHX:S=Teleostei:D=N])n27:0.044114[&&NHX:S=BonyVertebrates:D=N:B=98.0])n28:0.049273[&&NHX:S=BonyVertebrates:D=Y:B=86.0],Drosophila-melanogaster_FBtr0085877_krz-kurtz-DBNLINE-9615:0.260241[&&NHX:S=Drosophila-melanogaster])r114[&&NHX:S=Bilateria:D=N],(((((Homo-sapiens_ENST00000631149.3_SAG-S-antigen-visual-ar:0.0[&&NHX:S=Homo-sapiens],Homo-sapiens_ENST00000409110.6_SAG-S-antigen-visual-ar:0.0[&&NHX:S=Homo-sapiens])n35:0.146989[&&NHX:S=Homo-sapiens:D=Y:B=100.0],Gallus-gallus_ENSGALT00000106378.1_SAG-S-antigen-visual:0.130565[&&NHX:S=Gallus-gallus])n37:0.026351[&&NHX:S=Amniota:D=N:B=70.0],Xenopus-tropicalis_ENSXETT00000060906.1_sag-S-antigen-retina:0.153505[&&NHX:S=Xenopus-tropicalis])n39:0.088376[&&NHX:S=Tetrapoda:D=N:B=99.0],((((Gasterosteus-aculeatus_ENSGACT00000020860.1_saga-S-antigen-r:0.090403[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000005504.1_saga-S-antigen-r:0.175791[&&NHX:S=Tetraodon-nigroviridis])r141[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000008414.1_kfharr-r2-Oryzias-latip:0.089809[&&NHX:S=Oryzias-latipes])n44:0.059859[&&NHX:S=Percomorpha:D=N:B=100.0],Danio-rerio_ENSDART00000145035.1_saga-S-antigen-retina-and-p:0.13179[&&NHX:S=Danio-rerio])n46:0.033467[&&NHX:S=Teleostei:D=N:B=79.0],((Oryzias-latipes_ENSORLT00000025043.1_kfharr-r1-arrestin:0.093949[&&NHX:S=Oryzias-latipes],Tetraodon-nigroviridis_ENSTNIT00000014323.1_sagb-S-antigen-r:0.1306[&&NHX:S=Tetraodon-nigroviridis])n49:0.098477[&&NHX:S=Percomorpha:D=N:B=100.0],Danio-rerio_ENSDART00000157750.2_sagb-S-antigen-retina-and-p:0.135767[&&NHX:S=Danio-rerio])n51:0.066403[&&NHX:S=Teleostei:D=N:B=91.0])n52:0.108497[&&NHX:S=Teleostei:D=Y:B=100.0])n53:0.050715[&&NHX:S=BonyVertebrates:D=N:B=78.0],(Drosophila-melanogaster_FBtr0307350_Arr1-Arrestin-1-DBNLINE:0.396797[&&NHX:S=Drosophila-melanogaster],Drosophila-melanogaster_FBtr0076599_Arr2-Arrestin-2-DBNLINE:0.399706[&&NHX:S=Drosophila-melanogaster])n79:0.065635[&&NHX:S=Drosophila-melanogaster:D=Y:B=93.0])r117[&&NHX:S=Bilateria:D=N])r113[&&NHX:S=Bilateria:D=Y],(((((Homo-sapiens_ENST00000307959.9_ARR3-arrestin-3:0.246015[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000006763.6_ARR3-arrestin-3:0.100307[&&NHX:S=Gallus-gallus])r124[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000063127.1_arr3-arrestin-3-reti:0.202016[&&NHX:S=Xenopus-tropicalis])r123[&&NHX:S=Tetrapoda:D=N],((((Gasterosteus-aculeatus_ENSGACT00000027089.1_arr3a-arrestin-3:0.111256[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000009254.1_arr3a-arrestin-3:0.081571[&&NHX:S=Tetraodon-nigroviridis])r145[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000002471.1_arr3-arrestin:0.085753[&&NHX:S=Oryzias-latipes])n63:0.093051[&&NHX:S=Percomorpha:D=N:B=100.0],Danio-rerio_ENSDART00000078996.4_arr3a-arrestin-3a-retinal-X:0.130251[&&NHX:S=Danio-rerio])n65:0.045461[&&NHX:S=Teleostei:D=N:B=88.0],(((Gasterosteus-aculeatus_ENSGACT00000022719.1_arr3b-arrestin-3:0.112861[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000020176.1_arr3b-arrestin-3:0.10299[&&NHX:S=Tetraodon-nigroviridis])r147[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000002281.1_arr3b-arrestin-3b-retin:0.120502[&&NHX:S=Oryzias-latipes])n70:0.069105[&&NHX:S=Percomorpha:D=N:B=98.0],Danio-rerio_ENSDART00000158888.2_arr3b-arrestin-3b-retinal-X:0.231476[&&NHX:S=Danio-rerio])r143[&&NHX:S=Teleostei:D=N])n73:0.159443[&&NHX:S=Teleostei:D=Y:B=100.0])r122[&&NHX:S=BonyVertebrates:D=N],Ciona-intestinalis_ENSCINT00000029366.2_NONE:0.193397[&&NHX:S=Ciona-intestinalis])r121[&&NHX:S=Deuterostomia:D=N],Drosophila-melanogaster_FBtr0343034_CG32683-NONE:0.691652[&&NHX:S=Drosophila-melanogaster])r120[&&NHX:S=Bilateria:D=N])n82:0.377734[&&NHX:S=Bilateria:D=Y:B=100.0],(Gasterosteus-aculeatus_ENSGACT00000013465.1_zgc110626-zgc-11:1.022085[&&NHX:S=Gasterosteus-aculeatus],Drosophila-melanogaster_FBtr0072534_Vdup1-Vitamin-D-up-regu:0.997195[&&NHX:S=Drosophila-melanogaster])r101[&&NHX:S=Bilateria:D=N])n86[&&NHX:S=Bilateria:D=Y];
+
+>1st_gene_tree_newick
+(((((((((Danio-rerio_ENSDART00000176011.1_arrb2a-arrestin-beta-2a:0.032892,((Tetraodon-nigroviridis_ENSTNIT00000010667.1_arrb2a-arrestin-:0.002092,Gasterosteus-aculeatus_ENSGACT00000002375.1_arrb2a-arrestin-:0.003903)58:0.002036,Oryzias-latipes_ENSORLT00000016470.1_arrb2a-arrestin-beta-2a:0.003969)92:0.024858)84:0.006115,Danio-rerio_ENSDART00000026295.8_arrb2b-arrestin-beta-2b:0.034564)54:0.028323,(Tetraodon-nigroviridis_ENSTNIT00000001211.1_NONE:0.194560,Gasterosteus-aculeatus_ENSGACT00000000965.1_NONE:0.056256)28:0.019395)17:0.005578,(Xenopus-tropicalis_ENSXETT00000037534.3_arrb2-arrestin-beta-:0.052938,Homo-sapiens_ENST00000412477.7_ARRB2-arrestin-beta-2:0.062408)31:0.005996)98:0.050529,((Xenopus-tropicalis_ENSXETT00000021181.3_arrb1-arrestin-beta-:0.110837,Homo-sapiens_ENST00000420843.7_ARRB1-arrestin-beta-1:0.026271)93:0.017239,((Danio-rerio_ENSDART00000123839.2_arrb1-arrestin-beta-1:0.021205,(Gasterosteus-aculeatus_ENSGACT00000006063.1_arrb1-arrestin-b:0.026017,Oryzias-latipes_ENSORLT00000025744.1_arrb1-arrestin-beta-1:0.084153)16:0.004840)51:0.007902,Tetraodon-nigroviridis_ENSTNIT00000014354.1_arrb1-arrestin-b:0.069843)59:0.011174)98:0.044114)86:0.049273,(Drosophila-melanogaster_FBtr0085877_krz-kurtz-DBNLINE-9615:0.260241,Ciona-intestinalis_ENSCINT00000029366.2_NONE:0.193397)12:0.031807)6:0.047913,(((Xenopus-tropicalis_ENSXETT00000060906.1_sag-S-antigen-retina:0.153505,(Gallus-gallus_ENSGALT00000106378.1_SAG-S-antigen-visual:0.130565,(Homo-sapiens_ENST00000409110.6_SAG-S-antigen-visual-ar:0.000000,Homo-sapiens_ENST00000631149.3_SAG-S-antigen-visual-ar:0.000000)100:0.146989)70:0.026351)99:0.088376,((Danio-rerio_ENSDART00000145035.1_saga-S-antigen-retina-and-p:0.131790,((Tetraodon-nigroviridis_ENSTNIT00000005504.1_saga-S-antigen-r:0.175791,Gasterosteus-aculeatus_ENSGACT00000020860.1_saga-S-antigen-r:0.090403)55:0.005919,Oryzias-latipes_ENSORLT00000008414.1_kfharr-r2-Oryzias-latip:0.089809)100:0.059859)79:0.033467,(Danio-rerio_ENSDART00000157750.2_sagb-S-antigen-retina-and-p:0.135767,(Tetraodon-nigroviridis_ENSTNIT00000014323.1_sagb-S-antigen-r:0.130600,Oryzias-latipes_ENSORLT00000025043.1_kfharr-r1-arrestin:0.093949)100:0.098477)91:0.066403)100:0.108497)78:0.050715,((Xenopus-tropicalis_ENSXETT00000063127.1_arr3-arrestin-3-reti:0.202016,(Gallus-gallus_ENSGALT00000006763.6_ARR3-arrestin-3:0.100307,Homo-sapiens_ENST00000307959.9_ARR3-arrestin-3:0.246015)11:0.012397)38:0.014100,((Danio-rerio_ENSDART00000078996.4_arr3a-arrestin-3a-retinal-X:0.130251,(Tetraodon-nigroviridis_ENSTNIT00000009254.1_arr3a-arrestin-3:0.081571,(Gasterosteus-aculeatus_ENSGACT00000027089.1_arr3a-arrestin-3:0.111256,Oryzias-latipes_ENSORLT00000002471.1_arr3-arrestin:0.085753)60:0.006447)100:0.093051)88:0.045461,(Danio-rerio_ENSDART00000158888.2_arr3b-arrestin-3b-retinal-X:0.231476,((Tetraodon-nigroviridis_ENSTNIT00000020176.1_arr3b-arrestin-3:0.102990,Gasterosteus-aculeatus_ENSGACT00000022719.1_arr3b-arrestin-3:0.112861)51:0.019242,Oryzias-latipes_ENSORLT00000002281.1_arr3b-arrestin-3b-retin:0.120502)98:0.069105)62:0.023022)100:0.159443)24:0.040655)54:0.020780)48:0.104103,(Drosophila-melanogaster_FBtr0343034_CG32683-NONE:0.691652,(Drosophila-melanogaster_FBtr0076599_Arr2-Arrestin-2-DBNLINE:0.399706,Drosophila-melanogaster_FBtr0307350_Arr1-Arrestin-1-DBNLINE:0.396797)93:0.065635)55:0.068664)100:0.377734,Gasterosteus-aculeatus_ENSGACT00000013465.1_zgc110626-zgc-11:1.022085,Drosophila-melanogaster_FBtr0072534_Vdup1-Vitamin-D-up-regu:0.997195);
+
+>Aligned-ShortSequence_threshold evaluation
+Drosophila-melanogaster_FBtr0072534_Vdup1-Vitamin-D-up-regu      0.724
+Drosophila-melanogaster_FBtr0343034_CG32683-NONE                 0.974
+Drosophila-melanogaster_FBtr0076599_Arr2-Arrestin-2-DBNLINE      0.997
+Drosophila-melanogaster_FBtr0307350_Arr1-Arrestin-1-DBNLINE      1.0
+Drosophila-melanogaster_FBtr0085877_krz-kurtz-DBNLINE-9615       1.0
+Ciona-intestinalis_ENSCINT00000029366.2_NONE                     0.721
+Xenopus-tropicalis_ENSXETT00000060906.1_sag-S-antigen-retina     1.0
+Xenopus-tropicalis_ENSXETT00000063127.1_arr3-arrestin-3-reti     0.968
+Xenopus-tropicalis_ENSXETT00000021181.3_arrb1-arrestin-beta-     0.962
+Xenopus-tropicalis_ENSXETT00000037534.3_arrb2-arrestin-beta-     0.865
+Gallus-gallus_ENSGALT00000106378.1_SAG-S-antigen-visual          1.0
+Gallus-gallus_ENSGALT00000006763.6_ARR3-arrestin-3               1.0
+Homo-sapiens_ENST00000409110.6_SAG-S-antigen-visual-ar           1.0
+Homo-sapiens_ENST00000631149.3_SAG-S-antigen-visual-ar           1.0
+Homo-sapiens_ENST00000307959.9_ARR3-arrestin-3                   1.0
+Homo-sapiens_ENST00000420843.7_ARRB1-arrestin-beta-1             1.0
+Homo-sapiens_ENST00000412477.7_ARRB2-arrestin-beta-2             1.0
+Danio-rerio_ENSDART00000078996.4_arr3a-arrestin-3a-retinal-X     1.0
+Danio-rerio_ENSDART00000158888.2_arr3b-arrestin-3b-retinal-X     1.0
+Danio-rerio_ENSDART00000145035.1_saga-S-antigen-retina-and-p     1.0
+Danio-rerio_ENSDART00000157750.2_sagb-S-antigen-retina-and-p     1.0
+Danio-rerio_ENSDART00000123839.2_arrb1-arrestin-beta-1           1.0
+Danio-rerio_ENSDART00000176011.1_arrb2a-arrestin-beta-2a         1.0
+Danio-rerio_ENSDART00000026295.8_arrb2b-arrestin-beta-2b         1.0
+Tetraodon-nigroviridis_ENSTNIT00000005504.1_saga-S-antigen-r     0.991
+Tetraodon-nigroviridis_ENSTNIT00000020176.1_arr3b-arrestin-3     0.991
+Tetraodon-nigroviridis_ENSTNIT00000009254.1_arr3a-arrestin-3     0.997
+Tetraodon-nigroviridis_ENSTNIT00000014323.1_sagb-S-antigen-r     1.0
+Tetraodon-nigroviridis_ENSTNIT00000001211.1_NONE                 0.918
+Tetraodon-nigroviridis_ENSTNIT00000014354.1_arrb1-arrestin-b     1.0
+Tetraodon-nigroviridis_ENSTNIT00000010667.1_arrb2a-arrestin-     0.997
+Gasterosteus-aculeatus_ENSGACT00000013465.1_zgc110626-zgc-11     0.833
+== Removed ==> Gasterosteus-aculeatus_ENSGACT00000001840.1_NONE                 0.437
+Gasterosteus-aculeatus_ENSGACT00000027089.1_arr3a-arrestin-3     0.997
+Gasterosteus-aculeatus_ENSGACT00000022719.1_arr3b-arrestin-3     0.994
+Gasterosteus-aculeatus_ENSGACT00000020860.1_saga-S-antigen-r     1.0
+Gasterosteus-aculeatus_ENSGACT00000006063.1_arrb1-arrestin-b     1.0
+Gasterosteus-aculeatus_ENSGACT00000000965.1_NONE                 1.0
+Gasterosteus-aculeatus_ENSGACT00000002375.1_arrb2a-arrestin-     1.0
+Oryzias-latipes_ENSORLT00000002281.1_arr3b-arrestin-3b-retin     0.994
+Oryzias-latipes_ENSORLT00000002471.1_arr3-arrestin               0.997
+Oryzias-latipes_ENSORLT00000025043.1_kfharr-r1-arrestin          1.0
+Oryzias-latipes_ENSORLT00000008414.1_kfharr-r2-Oryzias-latip     1.0
+Oryzias-latipes_ENSORLT00000025744.1_arrb1-arrestin-beta-1       1.0
+Oryzias-latipes_ENSORLT00000016470.1_arrb2a-arrestin-beta-2a     1.0
+
+
+################ Settings ################
+
+>NumberAssigned_querySequence
+Oryzias-latipes_ENSORLT00000016470.1_arrb2a-arrestin-beta-2a
+MGDKAGTRVFKKSSPNCKLTVYLGKRDFVDHLDHVDPVDGVILVDPEYLKDRKVFVTLTCAFRYGREDLDVLGLSFRKDLYISTFQAFPPVPEERKPNSRLQDRLLKKLGQHAHPFYFTIPQNLPCSVTLQPGPEDTGKACGVDFEIRAFCAKSIEEKIHKRNSVRLVIRKVQYAPEKPGPQPMVETTRSFLMSDRSLHLEASLDKELYYHGEPISVNVHVTNNSTKTVKRVKISVRQYADICLFSTAQYKCPVAQLEADDQVSSSSTFCKVYTLTPTLDKNREKRGLALDGKLKHEDTNLASSTIVKDVTNKEVLGILVSYRVKVKLVVSRGGDVSVELPFILMHPKPVEPPLSRPQSGPVYSCLCVSVPAVPEMDPPIDTNLIEFETNVSQDDDFVFEDFARLRLKGAVDDKDEDC
+
+>SpeciesTree
+(Drosophila-melanogaster,(Ciona-intestinalis,((Xenopus-tropicalis,(Gallus-gallus,Homo-sapiens)Amniota)Tetrapoda,(Danio-rerio,(Oryzias-latipes,(Tetraodon-nigroviridis,Gasterosteus-aculeatus)Eupercaria)Percomorpha)Teleostei)BonyVertebrates)Deuterostomia)Bilateria;
+
+>SubstitutionModel
+WAG (Whelan and Goldman 2001) + gamma
+
+>ShortSequence_threshold
+0.45
+
+>Dataset
+AminoAcid
+
+>Rearrangement_BS_value_threshold
+70
+
+>TaxonSampling_color
+Drosophila-melanogaster_Black
+Ciona-intestinalis_Black
+Xenopus-tropicalis_Magenta
+Gallus-gallus_Magenta
+Homo-sapiens_Magenta
+Danio-rerio_Purple
+Tetraodon-nigroviridis_Green
+Gasterosteus-aculeatus_Red
+Oryzias-latipes_Blue
+
+################ Results: 2nd analysis ################
+
+>TreeSearchMethod
+NJ
+
+>2nd_rearranged_gene_tree_newick
+(((Xenopus-tropicalis_ENSXETT00000037534.3_arrb2-arrestin-beta-,Homo-sapiens_ENST00000412477.7_ARRB2-arrestin-beta-2)100_S=Tetrapoda_D=N,(((Gasterosteus-aculeatus_ENSGACT00000002375.1_arrb2a-arrestin-,Tetraodon-nigroviridis_ENSTNIT00000010667.1_arrb2a-arrestin-)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000016470.1_arrb2a-arrestin-beta-2a)99_S=Percomorpha_D=N,(Danio-rerio_ENSDART00000176011.1_arrb2a-arrestin-beta-2a,Danio-rerio_ENSDART00000026295.8_arrb2b-arrestin-beta-2b)r_S=Danio-rerio_D=Y)91_S=Teleostei_D=N)r_S=BonyVertebrates_D=N,(Homo-sapiens_ENST00000420843.7_ARRB1-arrestin-beta-1,(Gasterosteus-aculeatus_ENSGACT00000000965.1_NONE,Tetraodon-nigroviridis_ENSTNIT00000001211.1_NONE)r_S=Eupercaria_D=N)r_S=BonyVertebrates_D=N)r_S=BonyVertebrates_D=Y;
+
+>2nd_rearranged_gene_tree_NHX
+(((Xenopus-tropicalis_ENSXETT00000037534.3_arrb2-arrestin-beta-:0.06673[&&NHX:S=Xenopus-tropicalis],Homo-sapiens_ENST00000412477.7_ARRB2-arrestin-beta-2:0.078151[&&NHX:S=Homo-sapiens])n2:0.005126[&&NHX:S=Tetrapoda:D=N:B=100.0],(((Gasterosteus-aculeatus_ENSGACT00000002375.1_arrb2a-arrestin-:0.012188[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000010667.1_arrb2a-arrestin-:0.005402[&&NHX:S=Tetraodon-nigroviridis])r41[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000016470.1_arrb2a-arrestin-beta-2a:0.006629[&&NHX:S=Oryzias-latipes])n7:0.035881[&&NHX:S=Percomorpha:D=N:B=99.0],(Danio-rerio_ENSDART00000176011.1_arrb2a-arrestin-beta-2a:0.056561[&&NHX:S=Danio-rerio],Danio-rerio_ENSDART00000026295.8_arrb2b-arrestin-beta-2b:0.047606[&&NHX:S=Danio-rerio])r39[&&NHX:S=Danio-rerio:D=Y])n11:0.026596[&&NHX:S=Teleostei:D=N:B=91.0])r27[&&NHX:S=BonyVertebrates:D=N],(Homo-sapiens_ENST00000420843.7_ARRB1-arrestin-beta-1:0.145082[&&NHX:S=Homo-sapiens],(Gasterosteus-aculeatus_ENSGACT00000000965.1_NONE:0.086231[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000001211.1_NONE:0.175126[&&NHX:S=Tetraodon-nigroviridis])r35[&&NHX:S=Eupercaria:D=N])r28[&&NHX:S=BonyVertebrates:D=N])n18[&&NHX:S=BonyVertebrates:D=Y];
+
+>2nd_gene_tree_newick
+((Homo-sapiens_ENST00000412477.7_ARRB2-arrestin-beta-2:0.078151,Xenopus-tropicalis_ENSXETT00000037534.3_arrb2-arrestin-beta-:0.066730)52:0.005126,((Danio-rerio_ENSDART00000026295.8_arrb2b-arrestin-beta-2b:0.047606,(Danio-rerio_ENSDART00000176011.1_arrb2a-arrestin-beta-2a:0.056561,((Gasterosteus-aculeatus_ENSGACT00000002375.1_arrb2a-arrestin-:0.012188,Tetraodon-nigroviridis_ENSTNIT00000010667.1_arrb2a-arrestin-:0.005402)42:0.000803,Oryzias-latipes_ENSORLT00000016470.1_arrb2a-arrestin-beta-2a:0.006629)99:0.035881)68:0.007773)91:0.026596,(Gasterosteus-aculeatus_ENSGACT00000000965.1_NONE:0.086231,Tetraodon-nigroviridis_ENSTNIT00000001211.1_NONE:0.175126)39:0.028319)22:0.009210,Homo-sapiens_ENST00000420843.7_ARRB1-arrestin-beta-1:0.145082);
+
+>MonophyleticGeneGroups
+BonyVertebrates                 r  D=N
+Teleostei                       91  D=N
+Percomorpha                     99  D=N
+Oryzias-latipes                 leaf  leaf
+
+>SisterGeneGroups
+BonyVertebrates                 NONE   NoGeneNode
+Teleostei                       r   Tetrapoda
+Percomorpha                     91   Danio-rerio
+Oryzias-latipes                 99   Eupercaria
+
+>Number_of_duplicatedNode
+BonyVertebrates                 0
+Teleostei                       0
+Percomorpha                     0
+Oryzias-latipes                 0
+
+>AnalysisTime
+24.8 seconds

@@ -1,0 +1,171 @@
+################ Results: 1st analysis ################
+
+>QuerySequence
+Oryzias-latipes_ENSORLT00000010988.1_GNG13-G-protein-subunit  <= [Identities = 67/67 (100%)] : Oryzias-latipes_ENSORLT00000010988.1_GNG13-G-protein-subunit
+
+>Number_of_blastHits
+Drosophila-melanogaster  1
+Ciona-intestinalis       1
+Xenopus-tropicalis       8
+Gallus-gallus            6
+Homo-sapiens             8
+Danio-rerio              9
+Tetraodon-nigroviridis   6
+Gasterosteus-aculeatus   7
+Oryzias-latipes          3
+
+>BS_of_orthogroupBasalNode
+71
+
+
+>Orthogroup
+Danio-rerio_ENSDART00000055269.3_gng13b-guanine-nucleotide-b
+Gallus-gallus_ENSGALT00000008486.5_GNG13-G-protein-subu
+Gasterosteus-aculeatus_ENSGACT00000022178.1_GNG13-G-protein-
+Homo-sapiens_ENST00000248150.5_GNG13-G-protein-subunit
+Oryzias-latipes_ENSORLT00000010988.1_GNG13-G-protein-subunit
+Oryzias-latipes_ENSORLT00000020791.1_NONE
+Tetraodon-nigroviridis_ENSTNIT00000007452.1_GNG13-G-protein-
+Tetraodon-nigroviridis_ENSTNIT00000022964.1_NONE
+Xenopus-tropicalis_ENSXETT00000012710.2_gng13-guanine-nucleo
+
+>GeneNumber_of_orthogroup
+Xenopus-tropicalis      1
+Gallus-gallus           1
+Homo-sapiens            1
+Danio-rerio             1
+Oryzias-latipes         2
+Tetraodon-nigroviridis  2
+Gasterosteus-aculeatus  1
+
+>Rooting
+Danio-rerio_ENSDART00000147277.2_gng13a-guanine-nucleotide-b
+
+
+>1st_rearranged_gene_tree_newick
+((((((((((((Homo-sapiens_ENST00000557376.5_GNG2-G-protein-subunit-,Gallus-gallus_ENSGALT00000042807.3_GNG2-G-protein-subun)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000035970.3_gng2-guanine-nucleot)r_S=Tetrapoda_D=N,(((Gasterosteus-aculeatus_ENSGACT00000015934.1_gng2-guanine-nuc,Tetraodon-nigroviridis_ENSTNIT00000022767.1_gng2-guanine-nuc)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000011121.1_GNG2-G-protein-subunit-)r_S=Percomorpha_D=N,Danio-rerio_ENSDART00000163053.1_gng2-guanine-nucleotide-bin)r_S=Teleostei_D=N)79_S=BonyVertebrates_D=N,((Homo-sapiens_ENST00000294117.6_GNG3-G-protein-subunit-,Xenopus-tropicalis_ENSXETT00000066273.1_gng3-guanine-nucleot)r_S=Tetrapoda_D=N,((Gasterosteus-aculeatus_ENSGACT00000026856.1_gng3-guanine-nuc,Tetraodon-nigroviridis_ENSTNIT00000013909.1_gng3-guanine-nuc)r_S=Eupercaria_D=N,Danio-rerio_ENSDART00000004109.6_gng3-guanine-nucleotide-bin)80_S=Teleostei_D=N)92_S=BonyVertebrates_D=N)r_S=BonyVertebrates_D=Y,((Homo-sapiens_ENST00000366597.5_GNG4-G-protein-subunit-,Gallus-gallus_ENSGALT00000087065.2_GNG4-G-protein-subun)r_S=Amniota_D=N,Gasterosteus-aculeatus_ENSGACT00000005614.1_GNG4-G-protein-s)89_S=BonyVertebrates_D=N)r_S=BonyVertebrates_D=Y,((Homo-sapiens_ENST00000300873.4_GNG8-G-protein-subunit-,Xenopus-tropicalis_ENSXETT00000063493.1_GNG8-G-protein-subun)r_S=Tetrapoda_D=N,Tetraodon-nigroviridis_ENSTNIT00000013095.1_gng8-guanine-nuc)83_S=BonyVertebrates_D=N)r_S=BonyVertebrates_D=Y,((Homo-sapiens_ENST00000370982.4_GNG12-G-protein-subunit,Gallus-gallus_ENSGALT00000046551.2_GNG12-G-protein-subu)82_S=Amniota_D=N,((Tetraodon-nigroviridis_ENSTNIT00000020553.1_gng7-guanine-nuc,Danio-rerio_ENSDART00000131834.2_gng7-guanine-nucleotide-bin)85_S=Teleostei_D=N,(Gasterosteus-aculeatus_ENSGACT00000016511.1_sidkey-117i10.1-,Danio-rerio_ENSDART00000143715.1_GNG14-si-dkey-117i10.1)97_S=Teleostei_D=N)r_S=Teleostei_D=Y)r_S=BonyVertebrates_D=N)r_S=BonyVertebrates_D=Y,(((Homo-sapiens_ENST00000382159.8_GNG7-G-protein-subunit-,Gallus-gallus_ENSGALT00000106798.1_NONE)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000016924.2_gng7-guanine-nucleot)r_S=Tetrapoda_D=N,(Gasterosteus-aculeatus_ENSGACT00000005380.1_GNG12-G-protein-,Gasterosteus-aculeatus_ENSGACT00000022842.1_gng5-guanine-nuc)r_S=Gasterosteus-aculeatus_D=Y)r_S=BonyVertebrates_D=N)92_S=BonyVertebrates_D=Y,(((Homo-sapiens_ENST00000248564.6_GNG11-G-protein-subunit,Xenopus-tropicalis_ENSXETT00000030408.2_gngt1-guanine-nucleo)73_S=Tetrapoda_D=N,(Danio-rerio_ENSDART00000142884.1_gngt2a-guanine-nucleotide-b,Danio-rerio_ENSDART00000170632.1_gngt2b-guanine-nucleotide-b)r_S=Danio-rerio_D=Y)r_S=BonyVertebrates_D=N,((Gallus-gallus_ENSGALT00000077270.2_GNGT2-G-protein-subu,(Xenopus-tropicalis_ENSXETT00000063937.1_gngt2-guanine-nucleo,Xenopus-tropicalis_ENSXETT00000065792.1_gngt2.1-guanine-nucl)r_S=Xenopus-tropicalis_D=Y)r_S=Tetrapoda_D=N,Danio-rerio_ENSDART00000051950.3_gngt1-guanine-nucleotide-bi)r_S=BonyVertebrates_D=N)80_S=BonyVertebrates_D=Y)r_S=BonyVertebrates_D=Y,Ciona-intestinalis_ENSCINT00000036558.1_NONE)71_S=Deuterostomia_D=N,((((Homo-sapiens_ENST00000248150.5_GNG13-G-protein-subunit,Gallus-gallus_ENSGALT00000008486.5_GNG13-G-protein-subu)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000012710.2_gng13-guanine-nucleo)70_S=Tetrapoda_D=N,((((Gasterosteus-aculeatus_ENSGACT00000022178.1_GNG13-G-protein-,Tetraodon-nigroviridis_ENSTNIT00000007452.1_GNG13-G-protein-)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000010988.1_GNG13-G-protein-subunit)97_S=Percomorpha_D=N,(Tetraodon-nigroviridis_ENSTNIT00000022964.1_NONE,Oryzias-latipes_ENSORLT00000020791.1_NONE)r_S=Percomorpha_D=N)r_S=Percomorpha_D=Y,Danio-rerio_ENSDART00000055269.3_gng13b-guanine-nucleotide-b)r_S=Teleostei_D=N)71_S=BonyVertebrates_D=N,Danio-rerio_ENSDART00000147277.2_gng13a-guanine-nucleotide-b)93_S=BonyVertebrates_D=Y)r_S=Deuterostomia_D=Y,Drosophila-melanogaster_FBtr0346282_Ggamma30A-G-protein-sub)r_S=Bilateria_D=N;
+
+>1st_rearranged_gene_tree_NHX
+((((((((((((Homo-sapiens_ENST00000557376.5_GNG2-G-protein-subunit-:0.0[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000042807.3_GNG2-G-protein-subun:0.009962[&&NHX:S=Gallus-gallus])r129[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000035970.3_gng2-guanine-nucleot:-0.0[&&NHX:S=Xenopus-tropicalis])r128[&&NHX:S=Tetrapoda:D=N],(((Gasterosteus-aculeatus_ENSGACT00000015934.1_gng2-guanine-nuc:0.0[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000022767.1_gng2-guanine-nuc:0.002358[&&NHX:S=Tetraodon-nigroviridis])r132[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000011121.1_GNG2-G-protein-subunit-:0.025099[&&NHX:S=Oryzias-latipes])r131[&&NHX:S=Percomorpha:D=N],Danio-rerio_ENSDART00000163053.1_gng2-guanine-nucleotide-bin:0.014276[&&NHX:S=Danio-rerio])r130[&&NHX:S=Teleostei:D=N])n12:0.034526[&&NHX:S=BonyVertebrates:D=N:B=79.0],((Homo-sapiens_ENST00000294117.6_GNG3-G-protein-subunit-:0.016949[&&NHX:S=Homo-sapiens],Xenopus-tropicalis_ENSXETT00000066273.1_gng3-guanine-nucleot:0.056343[&&NHX:S=Xenopus-tropicalis])r134[&&NHX:S=Tetrapoda:D=N],((Gasterosteus-aculeatus_ENSGACT00000026856.1_gng3-guanine-nuc:0.039478[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000013909.1_gng3-guanine-nuc:0.02008[&&NHX:S=Tetraodon-nigroviridis])r139[&&NHX:S=Eupercaria:D=N],Danio-rerio_ENSDART00000004109.6_gng3-guanine-nucleotide-bin:0.014128[&&NHX:S=Danio-rerio])n20:0.022584[&&NHX:S=Teleostei:D=N:B=80.0])n21:0.117968[&&NHX:S=BonyVertebrates:D=N:B=92.0])r112[&&NHX:S=BonyVertebrates:D=Y],((Homo-sapiens_ENST00000366597.5_GNG4-G-protein-subunit-:0.048678[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000087065.2_GNG4-G-protein-subun:0.069985[&&NHX:S=Gallus-gallus])r143[&&NHX:S=Amniota:D=N],Gasterosteus-aculeatus_ENSGACT00000005614.1_GNG4-G-protein-s:0.056324[&&NHX:S=Gasterosteus-aculeatus])n26:0.056556[&&NHX:S=BonyVertebrates:D=N:B=89.0])r111[&&NHX:S=BonyVertebrates:D=Y],((Homo-sapiens_ENST00000300873.4_GNG8-G-protein-subunit-:0.116501[&&NHX:S=Homo-sapiens],Xenopus-tropicalis_ENSXETT00000063493.1_GNG8-G-protein-subun:0.272264[&&NHX:S=Xenopus-tropicalis])r152[&&NHX:S=Tetrapoda:D=N],Tetraodon-nigroviridis_ENSTNIT00000013095.1_gng8-guanine-nuc:0.087923[&&NHX:S=Tetraodon-nigroviridis])n33:0.06621[&&NHX:S=BonyVertebrates:D=N:B=83.0])r110[&&NHX:S=BonyVertebrates:D=Y],((Homo-sapiens_ENST00000370982.4_GNG12-G-protein-subunit:0.053248[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000046551.2_GNG12-G-protein-subu:0.067251[&&NHX:S=Gallus-gallus])n46:0.028704[&&NHX:S=Amniota:D=N:B=82.0],((Tetraodon-nigroviridis_ENSTNIT00000020553.1_gng7-guanine-nuc:0.016138[&&NHX:S=Tetraodon-nigroviridis],Danio-rerio_ENSDART00000131834.2_gng7-guanine-nucleotide-bin:0.0[&&NHX:S=Danio-rerio])n40:0.027856[&&NHX:S=Teleostei:D=N:B=85.0],(Gasterosteus-aculeatus_ENSGACT00000016511.1_sidkey-117i10.1-:0.203248[&&NHX:S=Gasterosteus-aculeatus],Danio-rerio_ENSDART00000143715.1_GNG14-si-dkey-117i10.1:0.1992[&&NHX:S=Danio-rerio])n51:0.214285[&&NHX:S=Teleostei:D=N:B=97.0])r116[&&NHX:S=Teleostei:D=Y])r113[&&NHX:S=BonyVertebrates:D=N])r109[&&NHX:S=BonyVertebrates:D=Y],(((Homo-sapiens_ENST00000382159.8_GNG7-G-protein-subunit-:0.030959[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000106798.1_NONE:0.056373[&&NHX:S=Gallus-gallus])r119[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000016924.2_gng7-guanine-nucleot:0.052713[&&NHX:S=Xenopus-tropicalis])r118[&&NHX:S=Tetrapoda:D=N],(Gasterosteus-aculeatus_ENSGACT00000005380.1_GNG12-G-protein-:0.221539[&&NHX:S=Gasterosteus-aculeatus],Gasterosteus-aculeatus_ENSGACT00000022842.1_gng5-guanine-nuc:0.463204[&&NHX:S=Gasterosteus-aculeatus])r123[&&NHX:S=Gasterosteus-aculeatus:D=Y])r117[&&NHX:S=BonyVertebrates:D=N])n56:0.304416[&&NHX:S=BonyVertebrates:D=Y:B=92.0],(((Homo-sapiens_ENST00000248564.6_GNG11-G-protein-subunit:0.07628[&&NHX:S=Homo-sapiens],Xenopus-tropicalis_ENSXETT00000030408.2_gngt1-guanine-nucleo:0.109453[&&NHX:S=Xenopus-tropicalis])n59:0.11999[&&NHX:S=Tetrapoda:D=N:B=73.0],(Danio-rerio_ENSDART00000142884.1_gngt2a-guanine-nucleotide-b:0.147369[&&NHX:S=Danio-rerio],Danio-rerio_ENSDART00000170632.1_gngt2b-guanine-nucleotide-b:0.142355[&&NHX:S=Danio-rerio])r165[&&NHX:S=Danio-rerio:D=Y])r162[&&NHX:S=BonyVertebrates:D=N],((Gallus-gallus_ENSGALT00000077270.2_GNGT2-G-protein-subu:0.188949[&&NHX:S=Gallus-gallus],(Xenopus-tropicalis_ENSXETT00000063937.1_gngt2-guanine-nucleo:0.162113[&&NHX:S=Xenopus-tropicalis],Xenopus-tropicalis_ENSXETT00000065792.1_gngt2.1-guanine-nucl:0.086328[&&NHX:S=Xenopus-tropicalis])r170[&&NHX:S=Xenopus-tropicalis:D=Y])r167[&&NHX:S=Tetrapoda:D=N],Danio-rerio_ENSDART00000051950.3_gngt1-guanine-nucleotide-bi:0.230543[&&NHX:S=Danio-rerio])r166[&&NHX:S=BonyVertebrates:D=N])n71:0.303209[&&NHX:S=BonyVertebrates:D=Y:B=80.0])r107[&&NHX:S=BonyVertebrates:D=Y],Ciona-intestinalis_ENSCINT00000036558.1_NONE:0.51217[&&NHX:S=Ciona-intestinalis])n74:0.302046[&&NHX:S=Deuterostomia:D=N:B=71.0],((((Homo-sapiens_ENST00000248150.5_GNG13-G-protein-subunit:0.072289[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000008486.5_GNG13-G-protein-subu:0.111918[&&NHX:S=Gallus-gallus])r180[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000012710.2_gng13-guanine-nucleo:0.066829[&&NHX:S=Xenopus-tropicalis])n79:0.10498[&&NHX:S=Tetrapoda:D=N:B=70.0],((((Gasterosteus-aculeatus_ENSGACT00000022178.1_GNG13-G-protein-:0.001306[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000007452.1_GNG13-G-protein-:0.013816[&&NHX:S=Tetraodon-nigroviridis])r182[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000010988.1_GNG13-G-protein-subunit:0.013269[&&NHX:S=Oryzias-latipes])n90:0.1771[&&NHX:S=Percomorpha:D=N:B=97.0],(Tetraodon-nigroviridis_ENSTNIT00000022964.1_NONE:0.0[&&NHX:S=Tetraodon-nigroviridis],Oryzias-latipes_ENSORLT00000020791.1_NONE:0.01546[&&NHX:S=Oryzias-latipes])r176[&&NHX:S=Percomorpha:D=N])r175[&&NHX:S=Percomorpha:D=Y],Danio-rerio_ENSDART00000055269.3_gng13b-guanine-nucleotide-b:0.029163[&&NHX:S=Danio-rerio])r174[&&NHX:S=Teleostei:D=N])n91:0.105941[&&NHX:S=BonyVertebrates:D=N:B=71.0],Danio-rerio_ENSDART00000147277.2_gng13a-guanine-nucleotide-b:0.335069[&&NHX:S=Danio-rerio])n93:0.277772[&&NHX:S=BonyVertebrates:D=Y:B=93.0])r103[&&NHX:S=Deuterostomia:D=Y],Drosophila-melanogaster_FBtr0346282_Ggamma30A-G-protein-sub:0.439507[&&NHX:S=Drosophila-melanogaster])n96[&&NHX:S=Bilateria:D=N];
+
+>1st_gene_tree_newick
+((((((((((Danio-rerio_ENSDART00000163053.1_gng2-guanine-nucleotide-bin:0.014276,Gasterosteus-aculeatus_ENSGACT00000015934.1_gng2-guanine-nuc:-0.000237)34:0.003014,Oryzias-latipes_ENSORLT00000011121.1_GNG2-G-protein-subunit-:0.025099)12:0.011732,Tetraodon-nigroviridis_ENSTNIT00000022767.1_gng2-guanine-nuc:0.002358)65:0.009230,((Xenopus-tropicalis_ENSXETT00000035970.3_gng2-guanine-nucleot:-0.000000,Homo-sapiens_ENST00000557376.5_GNG2-G-protein-subunit-:0.000000)32:0.004114,Gallus-gallus_ENSGALT00000042807.3_GNG2-G-protein-subun:0.009962)64:0.003565)79:0.034526,(((Xenopus-tropicalis_ENSXETT00000066273.1_gng3-guanine-nucleot:0.056343,Homo-sapiens_ENST00000294117.6_GNG3-G-protein-subunit-:0.016949)54:0.016797,(Danio-rerio_ENSDART00000004109.6_gng3-guanine-nucleotide-bin:0.014128,(Tetraodon-nigroviridis_ENSTNIT00000013909.1_gng3-guanine-nuc:0.020080,Gasterosteus-aculeatus_ENSGACT00000026856.1_gng3-guanine-nuc:0.039478)41:0.015839)80:0.022584)92:0.117968,((Gallus-gallus_ENSGALT00000087065.2_GNG4-G-protein-subun:0.069985,Homo-sapiens_ENST00000366597.5_GNG4-G-protein-subunit-:0.048678)56:0.025002,Gasterosteus-aculeatus_ENSGACT00000005614.1_GNG4-G-protein-s:0.056324)89:0.056556)61:0.047670)42:0.064842,((Xenopus-tropicalis_ENSXETT00000063493.1_GNG8-G-protein-subun:0.272264,Homo-sapiens_ENST00000300873.4_GNG8-G-protein-subunit-:0.116501)39:0.047663,Tetraodon-nigroviridis_ENSTNIT00000013095.1_gng8-guanine-nuc:0.087923)83:0.066210)58:0.071173,(((Xenopus-tropicalis_ENSXETT00000016924.2_gng7-guanine-nucleot:0.052713,((Gallus-gallus_ENSGALT00000106798.1_NONE:0.056373,Homo-sapiens_ENST00000382159.8_GNG7-G-protein-subunit-:0.030959)43:0.001952,(Danio-rerio_ENSDART00000131834.2_gng7-guanine-nucleotide-bin:-0.001805,Tetraodon-nigroviridis_ENSTNIT00000020553.1_gng7-guanine-nuc:0.016138)85:0.027856)42:0.018761)69:0.059346,(((Gallus-gallus_ENSGALT00000046551.2_GNG12-G-protein-subu:0.067251,Homo-sapiens_ENST00000370982.4_GNG12-G-protein-subunit:0.053248)82:0.028704,Gasterosteus-aculeatus_ENSGACT00000005380.1_GNG12-G-protein-:0.221539)65:0.039033,(Danio-rerio_ENSDART00000143715.1_GNG14-si-dkey-117i10.1:0.199200,Gasterosteus-aculeatus_ENSGACT00000016511.1_sidkey-117i10.1-:0.203248)97:0.214285)7:0.029432)19:0.019516,Gasterosteus-aculeatus_ENSGACT00000022842.1_gng5-guanine-nuc:0.463204)29:0.033283)92:0.304416,((((Xenopus-tropicalis_ENSXETT00000030408.2_gngt1-guanine-nucleo:0.109453,Homo-sapiens_ENST00000248564.6_GNG11-G-protein-subunit:0.076280)73:0.119990,(Xenopus-tropicalis_ENSXETT00000065792.1_gngt2.1-guanine-nucl:0.086328,(Xenopus-tropicalis_ENSXETT00000063937.1_gngt2-guanine-nucleo:0.162113,Gallus-gallus_ENSGALT00000077270.2_GNGT2-G-protein-subu:0.188949)13:0.011470)17:0.030105)28:0.026501,(Danio-rerio_ENSDART00000170632.1_gngt2b-guanine-nucleotide-b:0.142355,Danio-rerio_ENSDART00000142884.1_gngt2a-guanine-nucleotide-b:0.147369)63:0.138588)60:0.068740,Danio-rerio_ENSDART00000051950.3_gngt1-guanine-nucleotide-bi:0.230543)80:0.303209)35:0.060718,Ciona-intestinalis_ENSCINT00000036558.1_NONE:0.512170)71:0.302046,(((((Xenopus-tropicalis_ENSXETT00000012710.2_gng13-guanine-nucleo:0.066829,Gallus-gallus_ENSGALT00000008486.5_GNG13-G-protein-subu:0.111918)35:0.027199,Homo-sapiens_ENST00000248150.5_GNG13-G-protein-subunit:0.072289)70:0.104980,((Danio-rerio_ENSDART00000055269.3_gng13b-guanine-nucleotide-b:0.029163,Oryzias-latipes_ENSORLT00000020791.1_NONE:0.015460)35:0.007185,Tetraodon-nigroviridis_ENSTNIT00000022964.1_NONE:-0.001920)16:0.020989)35:0.034476,(Tetraodon-nigroviridis_ENSTNIT00000007452.1_GNG13-G-protein-:0.013816,(Gasterosteus-aculeatus_ENSGACT00000022178.1_GNG13-G-protein-:0.001306,Oryzias-latipes_ENSORLT00000010988.1_GNG13-G-protein-subunit:0.013269)59:0.000852)97:0.177100)71:0.105941,Danio-rerio_ENSDART00000147277.2_gng13a-guanine-nucleotide-b:0.335069)93:0.277772,Drosophila-melanogaster_FBtr0346282_Ggamma30A-G-protein-sub:0.439507);
+
+>Aligned-ShortSequence_threshold evaluation
+Drosophila-melanogaster_FBtr0346282_Ggamma30A-G-protein-sub      1.0
+Ciona-intestinalis_ENSCINT00000036558.1_NONE                     0.97
+Xenopus-tropicalis_ENSXETT00000063493.1_GNG8-G-protein-subun     1.0
+Xenopus-tropicalis_ENSXETT00000016924.2_gng7-guanine-nucleot     1.0
+Xenopus-tropicalis_ENSXETT00000030408.2_gngt1-guanine-nucleo     1.0
+Xenopus-tropicalis_ENSXETT00000035970.3_gng2-guanine-nucleot     1.0
+Xenopus-tropicalis_ENSXETT00000065792.1_gngt2.1-guanine-nucl     1.0
+Xenopus-tropicalis_ENSXETT00000066273.1_gng3-guanine-nucleot     1.0
+Xenopus-tropicalis_ENSXETT00000063937.1_gngt2-guanine-nucleo     1.0
+Xenopus-tropicalis_ENSXETT00000012710.2_gng13-guanine-nucleo     1.0
+Gallus-gallus_ENSGALT00000106798.1_NONE                          1.0
+Gallus-gallus_ENSGALT00000046551.2_GNG12-G-protein-subu          1.0
+Gallus-gallus_ENSGALT00000087065.2_GNG4-G-protein-subun          1.0
+Gallus-gallus_ENSGALT00000042807.3_GNG2-G-protein-subun          1.0
+Gallus-gallus_ENSGALT00000077270.2_GNGT2-G-protein-subu          1.0
+Gallus-gallus_ENSGALT00000008486.5_GNG13-G-protein-subu          1.0
+Homo-sapiens_ENST00000300873.4_GNG8-G-protein-subunit-           1.0
+Homo-sapiens_ENST00000382159.8_GNG7-G-protein-subunit-           1.0
+Homo-sapiens_ENST00000370982.4_GNG12-G-protein-subunit           0.985
+Homo-sapiens_ENST00000366597.5_GNG4-G-protein-subunit-           1.0
+Homo-sapiens_ENST00000557376.5_GNG2-G-protein-subunit-           1.0
+Homo-sapiens_ENST00000294117.6_GNG3-G-protein-subunit-           1.0
+Homo-sapiens_ENST00000248564.6_GNG11-G-protein-subunit           1.0
+Homo-sapiens_ENST00000248150.5_GNG13-G-protein-subunit           1.0
+Danio-rerio_ENSDART00000131834.2_gng7-guanine-nucleotide-bin     1.0
+Danio-rerio_ENSDART00000143715.1_GNG14-si-dkey-117i10.1          1.0
+Danio-rerio_ENSDART00000163053.1_gng2-guanine-nucleotide-bin     1.0
+Danio-rerio_ENSDART00000004109.6_gng3-guanine-nucleotide-bin     1.0
+Danio-rerio_ENSDART00000051950.3_gngt1-guanine-nucleotide-bi     1.0
+Danio-rerio_ENSDART00000170632.1_gngt2b-guanine-nucleotide-b     1.0
+Danio-rerio_ENSDART00000142884.1_gngt2a-guanine-nucleotide-b     1.0
+Danio-rerio_ENSDART00000147277.2_gng13a-guanine-nucleotide-b     1.0
+Danio-rerio_ENSDART00000055269.3_gng13b-guanine-nucleotide-b     1.0
+Tetraodon-nigroviridis_ENSTNIT00000013095.1_gng8-guanine-nuc     1.0
+Tetraodon-nigroviridis_ENSTNIT00000020553.1_gng7-guanine-nuc     1.0
+Tetraodon-nigroviridis_ENSTNIT00000013909.1_gng3-guanine-nuc     1.0
+Tetraodon-nigroviridis_ENSTNIT00000022767.1_gng2-guanine-nuc     1.0
+Tetraodon-nigroviridis_ENSTNIT00000022964.1_NONE                 0.493
+Tetraodon-nigroviridis_ENSTNIT00000007452.1_GNG13-G-protein-     1.0
+Gasterosteus-aculeatus_ENSGACT00000026856.1_gng3-guanine-nuc     1.0
+Gasterosteus-aculeatus_ENSGACT00000005380.1_GNG12-G-protein-     1.0
+Gasterosteus-aculeatus_ENSGACT00000022842.1_gng5-guanine-nuc     1.0
+Gasterosteus-aculeatus_ENSGACT00000016511.1_sidkey-117i10.1-     1.0
+Gasterosteus-aculeatus_ENSGACT00000005614.1_GNG4-G-protein-s     1.0
+Gasterosteus-aculeatus_ENSGACT00000015934.1_gng2-guanine-nuc     1.0
+Gasterosteus-aculeatus_ENSGACT00000022178.1_GNG13-G-protein-     1.0
+Oryzias-latipes_ENSORLT00000011121.1_GNG2-G-protein-subunit-     1.0
+Oryzias-latipes_ENSORLT00000020791.1_NONE                        1.0
+Oryzias-latipes_ENSORLT00000010988.1_GNG13-G-protein-subunit     1.0
+
+
+################ Settings ################
+
+>NumberAssigned_querySequence
+Oryzias-latipes_ENSORLT00000010988.1_GNG13-G-protein-subunit
+MEELDVPQMKREVESLQYQLAINREKSSITVTELVKWIEGCVCEDPFLNPELMRANPWVEKGKCVIL
+
+>SpeciesTree
+(Drosophila-melanogaster,(Ciona-intestinalis,((Xenopus-tropicalis,(Gallus-gallus,Homo-sapiens)Amniota)Tetrapoda,(Danio-rerio,(Oryzias-latipes,(Tetraodon-nigroviridis,Gasterosteus-aculeatus)Eupercaria)Percomorpha)Teleostei)BonyVertebrates)Deuterostomia)Bilateria;
+
+>SubstitutionModel
+WAG (Whelan and Goldman 2001) + gamma
+
+>ShortSequence_threshold
+0.45
+
+>Dataset
+AminoAcid
+
+>Rearrangement_BS_value_threshold
+70
+
+>TaxonSampling_color
+Drosophila-melanogaster_Black
+Ciona-intestinalis_Black
+Xenopus-tropicalis_Magenta
+Gallus-gallus_Magenta
+Homo-sapiens_Magenta
+Danio-rerio_Purple
+Tetraodon-nigroviridis_Green
+Gasterosteus-aculeatus_Red
+Oryzias-latipes_Blue
+
+################ Results: 2nd analysis ################
+
+>TreeSearchMethod
+NJ
+
+>2nd_rearranged_gene_tree_newick
+((((Homo-sapiens_ENST00000248150.5_GNG13-G-protein-subunit,Gallus-gallus_ENSGALT00000008486.5_GNG13-G-protein-subu)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000012710.2_gng13-guanine-nucleo)r_S=Tetrapoda_D=N,((Tetraodon-nigroviridis_ENSTNIT00000022964.1_NONE,Oryzias-latipes_ENSORLT00000020791.1_NONE)r_S=Percomorpha_D=N,Danio-rerio_ENSDART00000055269.3_gng13b-guanine-nucleotide-b)78_S=Teleostei_D=N)100_S=BonyVertebrates_D=N,(((Tetraodon-nigroviridis_ENSTNIT00000007452.1_GNG13-G-protein-,Gasterosteus-aculeatus_ENSGACT00000022178.1_GNG13-G-protein-)81_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000010988.1_GNG13-G-protein-subunit)98_S=Percomorpha_D=N,Danio-rerio_ENSDART00000147277.2_gng13a-guanine-nucleotide-b)r_S=Teleostei_D=N)r_S=BonyVertebrates_D=Y;
+
+>2nd_rearranged_gene_tree_NHX
+((((Homo-sapiens_ENST00000248150.5_GNG13-G-protein-subunit:0.113846[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000008486.5_GNG13-G-protein-subu:0.100538[&&NHX:S=Gallus-gallus])r30[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000012710.2_gng13-guanine-nucleo:0.085258[&&NHX:S=Xenopus-tropicalis])r29[&&NHX:S=Tetrapoda:D=N],((Tetraodon-nigroviridis_ENSTNIT00000022964.1_NONE:0.0[&&NHX:S=Tetraodon-nigroviridis],Oryzias-latipes_ENSORLT00000020791.1_NONE:0.0[&&NHX:S=Oryzias-latipes])r32[&&NHX:S=Percomorpha:D=N],Danio-rerio_ENSDART00000055269.3_gng13b-guanine-nucleotide-b:-0.0[&&NHX:S=Danio-rerio])n9:0.077189[&&NHX:S=Teleostei:D=N:B=78.0])n10:0.053321[&&NHX:S=BonyVertebrates:D=N:B=100.0],(((Tetraodon-nigroviridis_ENSTNIT00000007452.1_GNG13-G-protein-:0.032229[&&NHX:S=Tetraodon-nigroviridis],Gasterosteus-aculeatus_ENSGACT00000022178.1_GNG13-G-protein-:0.0[&&NHX:S=Gasterosteus-aculeatus])n13:0.035525[&&NHX:S=Eupercaria:D=N:B=81.0],Oryzias-latipes_ENSORLT00000010988.1_GNG13-G-protein-subunit:0.0[&&NHX:S=Oryzias-latipes])n15:0.186343[&&NHX:S=Percomorpha:D=N:B=98.0],Danio-rerio_ENSDART00000147277.2_gng13a-guanine-nucleotide-b:0.458834[&&NHX:S=Danio-rerio])r27[&&NHX:S=Teleostei:D=N])n18[&&NHX:S=BonyVertebrates:D=Y];
+
+>2nd_gene_tree_newick
+(((Xenopus-tropicalis_ENSXETT00000012710.2_gng13-guanine-nucleo:0.085258,(Gallus-gallus_ENSGALT00000008486.5_GNG13-G-protein-subu:0.100538,Homo-sapiens_ENST00000248150.5_GNG13-G-protein-subunit:0.113846)13:0.006484)1:0.049047,((Danio-rerio_ENSDART00000055269.3_gng13b-guanine-nucleotide-b:-0.000000,Oryzias-latipes_ENSORLT00000020791.1_NONE:0.000000)31:0.032240,Tetraodon-nigroviridis_ENSTNIT00000022964.1_NONE:-0.004664)78:0.077189)27:0.053321,((Gasterosteus-aculeatus_ENSGACT00000022178.1_GNG13-G-protein-:-0.005331,Tetraodon-nigroviridis_ENSTNIT00000007452.1_GNG13-G-protein-:0.032229)81:0.035525,Oryzias-latipes_ENSORLT00000010988.1_GNG13-G-protein-subunit:-0.008551)98:0.186343,Danio-rerio_ENSDART00000147277.2_gng13a-guanine-nucleotide-b:0.458834);
+
+>MonophyleticGeneGroups
+BonyVertebrates                 NoGeneNode  NONE
+Teleostei                       r  D=N
+Percomorpha                     98  D=N
+Oryzias-latipes                 leaf  leaf
+
+>SisterGeneGroups
+BonyVertebrates                 NONE   NoGeneNode
+Teleostei                       r   BonyVertebrates(Tetrapoda;Percomorpha;Danio-rerio)
+Percomorpha                     r   Danio-rerio
+Oryzias-latipes                 98   Eupercaria
+
+>Number_of_duplicatedNode
+BonyVertebrates                 0
+Teleostei                       0
+Percomorpha                     0
+Oryzias-latipes                 0
+
+>AnalysisTime
+22.0 seconds

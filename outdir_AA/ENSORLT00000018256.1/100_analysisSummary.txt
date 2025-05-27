@@ -1,0 +1,184 @@
+################ Results: 1st analysis ################
+
+>QuerySequence
+Oryzias-latipes_ENSORLT00000018256.1_itpr1a-inositol-1-4-5-t  <= [Identities = 2714/2714 (100%)] : Oryzias-latipes_ENSORLT00000018256.1_itpr1a-inositol-1-4-5-t
+
+>Number_of_blastHits
+Drosophila-melanogaster  2
+Ciona-intestinalis       3
+Xenopus-tropicalis       5
+Gallus-gallus            4
+Homo-sapiens             7
+Danio-rerio              9
+Tetraodon-nigroviridis   10
+Gasterosteus-aculeatus   10
+Oryzias-latipes          10
+
+>BS_of_orthogroupBasalNode
+100
+
+
+>Orthogroup
+Danio-rerio_ENSDART00000031993.8_itpr1b-inositol-1-4-5-trisp
+Danio-rerio_ENSDART00000149019.2_itpr1a-inositol-1-4-5-trisp
+Gallus-gallus_ENSGALT00000096779.1_ITPR1-inositol-1-4-5
+Gasterosteus-aculeatus_ENSGACT00000000845.1_itpr1a-inositol-
+Gasterosteus-aculeatus_ENSGACT00000015821.1_itpr1b-inositol-
+Homo-sapiens_ENST00000649015.2_ITPR1-inositol-1-4-5-tr
+Oryzias-latipes_ENSORLT00000015947.1_itpr1b-inositol-1-4-5-t
+Oryzias-latipes_ENSORLT00000018256.1_itpr1a-inositol-1-4-5-t
+Tetraodon-nigroviridis_ENSTNIT00000003408.1_ITPR1-inositol-1
+Tetraodon-nigroviridis_ENSTNIT00000005148.1_itpr1b-inositol-
+Xenopus-tropicalis_ENSXETT00000011267.3_itpr1-inositol-1-4-5
+
+>GeneNumber_of_orthogroup
+Xenopus-tropicalis      1
+Gallus-gallus           1
+Homo-sapiens            1
+Danio-rerio             2
+Oryzias-latipes         2
+Tetraodon-nigroviridis  2
+Gasterosteus-aculeatus  2
+
+>Rooting
+Homo-sapiens_ENST00000381340.8_ITPR2-inositol-1-4-5-tr
+
+
+>1st_rearranged_gene_tree_newick
+(((((((((Homo-sapiens_ENST00000649015.2_ITPR1-inositol-1-4-5-tr,Gallus-gallus_ENSGALT00000096779.1_ITPR1-inositol-1-4-5)98_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000011267.3_itpr1-inositol-1-4-5)96_S=Tetrapoda_D=N,((((Gasterosteus-aculeatus_ENSGACT00000015821.1_itpr1b-inositol-,Tetraodon-nigroviridis_ENSTNIT00000005148.1_itpr1b-inositol-)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000015947.1_itpr1b-inositol-1-4-5-t)100_S=Percomorpha_D=N,Danio-rerio_ENSDART00000031993.8_itpr1b-inositol-1-4-5-trisp)96_S=Teleostei_D=N,(((Gasterosteus-aculeatus_ENSGACT00000000845.1_itpr1a-inositol-,Tetraodon-nigroviridis_ENSTNIT00000003408.1_ITPR1-inositol-1)91_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000018256.1_itpr1a-inositol-1-4-5-t)94_S=Percomorpha_D=N,Danio-rerio_ENSDART00000149019.2_itpr1a-inositol-1-4-5-trisp)r_S=Teleostei_D=N)r_S=Teleostei_D=Y)100_S=BonyVertebrates_D=N,(((Homo-sapiens_ENST00000381340.8_ITPR2-inositol-1-4-5-tr,Gallus-gallus_ENSGALT00000022784.6_ITPR2-inositol-1-4-5)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000035890.3_itpr2-inositol-1-4-5)100_S=Tetrapoda_D=N,(((Gasterosteus-aculeatus_ENSGACT00000015504.1_itpr2-inositol-1,Tetraodon-nigroviridis_ENSTNIT00000015318.1_itpr2-inositol-1)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000014247.1_itpr2-inositol-1-4-5-tr)93_S=Percomorpha_D=N,Danio-rerio_ENSDART00000154505.3_itpr2-inositol-1-4-5-trisph)89_S=Teleostei_D=N)100_S=BonyVertebrates_D=N)r_S=BonyVertebrates_D=Y,((Homo-sapiens_ENST00000374316.9_ITPR3-inositol-1-4-5-tr,Xenopus-tropicalis_ENSXETT00000063211.1_NONE)r_S=Tetrapoda_D=N,(((Gasterosteus-aculeatus_ENSGACT00000000328.2_itpr3-inositol-1,Tetraodon-nigroviridis_ENSTNIT00000006514.1_itpr3-inositol-1)88_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000022925.1_itpr3-inositol-1-4-5-tr)99_S=Percomorpha_D=N,Danio-rerio_ENSDART00000167718.1_itpr3-inositol-1-4-5-trisph)100_S=Teleostei_D=N)99_S=BonyVertebrates_D=N)r_S=BonyVertebrates_D=Y,Ciona-intestinalis_ENSCINT00000015035.3_NONE)r_S=Deuterostomia_D=N,Drosophila-melanogaster_FBtr0078687_Itp-r83A-Inositol-1-4-5)100_S=Bilateria_D=N,Homo-sapiens_ENST00000638029.1_CACNA1A-calcium-voltage)100_S=Bilateria_D=Y,(((((((((((Gasterosteus-aculeatus_ENSGACT00000017168.1_ryr1b-ryanodine-,Tetraodon-nigroviridis_ENSTNIT00000007264.1_ryr1b-ryanodine-)86_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000001305.1_ryr1b-ryanodine-recepto)96_S=Percomorpha_D=N,Danio-rerio_ENSDART00000036015.8_ryr1b-ryanodine-receptor-1b)100_S=Teleostei_D=N,(((Gasterosteus-aculeatus_ENSGACT00000027379.1_ryr1a-ryanodine-,Tetraodon-nigroviridis_ENSTNIT00000013098.1_ryr1a-ryanodine-)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000008002.1_ryr1a-ryanodine-recepto)100_S=Percomorpha_D=N,Danio-rerio_ENSDART00000014749.9_ryr1a-ryanodine-receptor-1a)100_S=Teleostei_D=N)100_S=Teleostei_D=Y,Xenopus-tropicalis_ENSXETT00000006174.2_ryr1-ryanodine-recep)97_S=BonyVertebrates_D=N,Homo-sapiens_ENST00000359596.8_RYR1-ryanodine-receptor)100_S=BonyVertebrates_D=Y,((Homo-sapiens_ENST00000622037.1_RYR3-ryanodine-receptor,Gallus-gallus_ENSGALT00000077897.2_RYR3-ryanodine-recep)100_S=Amniota_D=N,((((Oryzias-latipes_ENSORLT00000022371.1_ryr3-ryanodine-receptor,Gasterosteus-aculeatus_ENSGACT00000010590.1_ryr3-ryanodine-r)86_S=Percomorpha_D=N,Tetraodon-nigroviridis_ENSTNIT00000015386.1_ryr3-ryanodine-r)100_S=Percomorpha_D=Y,Danio-rerio_ENSDART00000147464.3_ryr3-ryanodine-receptor-3)100_S=Teleostei_D=N,((Gasterosteus-aculeatus_ENSGACT00000008056.1_RYR3-ryanodine-r,Tetraodon-nigroviridis_ENSTNIT00000020818.1_RYR3-ryanodine-r)79_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000021133.1_RYR3-ryanodine-receptor)100_S=Percomorpha_D=N)100_S=Teleostei_D=Y)100_S=BonyVertebrates_D=N)99_S=BonyVertebrates_D=Y,((Homo-sapiens_ENST00000366574.7_RYR2-ryanodine-receptor,Gallus-gallus_ENSGALT00000062448.2_RYR2-ryanodine-recep)100_S=Amniota_D=N,(Gasterosteus-aculeatus_ENSGACT00000020252.2_RYR2-ryanodine-r,Danio-rerio_ENSDART00000167726.1_RYR2-ryanodine-receptor-2)99_S=Teleostei_D=N)100_S=BonyVertebrates_D=N)r_S=BonyVertebrates_D=Y,(((Gasterosteus-aculeatus_ENSGACT00000013456.1_ryr2b-ryanodine-,Tetraodon-nigroviridis_ENSTNIT00000003255.1_ryr2b-ryanodine-)75_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000006586.1_ryr2b-ryanodine-recepto)100_S=Percomorpha_D=N,Danio-rerio_ENSDART00000149737.3_ryr2b-ryanodine-receptor-2b)100_S=Teleostei_D=N)97_S=BonyVertebrates_D=Y,Ciona-intestinalis_ENSCINT00000035893.1_NONE)r_S=Deuterostomia_D=N,Drosophila-melanogaster_FBtr0304572_RyR-Ryanodine-receptor-)r_S=Bilateria_D=N)r_S=Bilateria_D=Y;
+
+>1st_rearranged_gene_tree_NHX
+(((((((((Homo-sapiens_ENST00000649015.2_ITPR1-inositol-1-4-5-tr:0.003482[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000096779.1_ITPR1-inositol-1-4-5:0.031839[&&NHX:S=Gallus-gallus])n58:0.017769[&&NHX:S=Amniota:D=N:B=98.0],Xenopus-tropicalis_ENSXETT00000011267.3_itpr1-inositol-1-4-5:0.052402[&&NHX:S=Xenopus-tropicalis])n60:0.018254[&&NHX:S=Tetrapoda:D=N:B=96.0],((((Gasterosteus-aculeatus_ENSGACT00000015821.1_itpr1b-inositol-:0.015779[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000005148.1_itpr1b-inositol-:0.020104[&&NHX:S=Tetraodon-nigroviridis])r127[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000015947.1_itpr1b-inositol-1-4-5-t:0.026834[&&NHX:S=Oryzias-latipes])n65:0.015161[&&NHX:S=Percomorpha:D=N:B=100.0],Danio-rerio_ENSDART00000031993.8_itpr1b-inositol-1-4-5-trisp:0.027874[&&NHX:S=Danio-rerio])n67:0.014938[&&NHX:S=Teleostei:D=N:B=96.0],(((Gasterosteus-aculeatus_ENSGACT00000000845.1_itpr1a-inositol-:0.012206[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000003408.1_ITPR1-inositol-1:0.093794[&&NHX:S=Tetraodon-nigroviridis])n70:0.012628[&&NHX:S=Eupercaria:D=N:B=91.0],Oryzias-latipes_ENSORLT00000018256.1_itpr1a-inositol-1-4-5-t:0.034789[&&NHX:S=Oryzias-latipes])n72:0.020785[&&NHX:S=Percomorpha:D=N:B=94.0],Danio-rerio_ENSDART00000149019.2_itpr1a-inositol-1-4-5-trisp:0.062384[&&NHX:S=Danio-rerio])r125[&&NHX:S=Teleostei:D=N])r124[&&NHX:S=Teleostei:D=Y])n76:0.091828[&&NHX:S=BonyVertebrates:D=N:B=100.0],(((Homo-sapiens_ENST00000381340.8_ITPR2-inositol-1-4-5-tr:0.018399[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000022784.6_ITPR2-inositol-1-4-5:0.008111[&&NHX:S=Gallus-gallus])r129[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000035890.3_itpr2-inositol-1-4-5:0.16523[&&NHX:S=Xenopus-tropicalis])n82:0.052884[&&NHX:S=Tetrapoda:D=N:B=100.0],(((Gasterosteus-aculeatus_ENSGACT00000015504.1_itpr2-inositol-1:0.040008[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000015318.1_itpr2-inositol-1:0.072235[&&NHX:S=Tetraodon-nigroviridis])r131[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000014247.1_itpr2-inositol-1-4-5-tr:0.108309[&&NHX:S=Oryzias-latipes])n87:0.011557[&&NHX:S=Percomorpha:D=N:B=93.0],Danio-rerio_ENSDART00000154505.3_itpr2-inositol-1-4-5-trisph:0.131191[&&NHX:S=Danio-rerio])n89:0.045101[&&NHX:S=Teleostei:D=N:B=89.0])n90:0.08468[&&NHX:S=BonyVertebrates:D=N:B=100.0])r122[&&NHX:S=BonyVertebrates:D=Y],((Homo-sapiens_ENST00000374316.9_ITPR3-inositol-1-4-5-tr:0.089904[&&NHX:S=Homo-sapiens],Xenopus-tropicalis_ENSXETT00000063211.1_NONE:0.04698[&&NHX:S=Xenopus-tropicalis])r133[&&NHX:S=Tetrapoda:D=N],(((Gasterosteus-aculeatus_ENSGACT00000000328.2_itpr3-inositol-1:0.072134[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000006514.1_itpr3-inositol-1:0.048644[&&NHX:S=Tetraodon-nigroviridis])n94:0.01578[&&NHX:S=Eupercaria:D=N:B=88.0],Oryzias-latipes_ENSORLT00000022925.1_itpr3-inositol-1-4-5-tr:0.049197[&&NHX:S=Oryzias-latipes])n96:0.02773[&&NHX:S=Percomorpha:D=N:B=99.0],Danio-rerio_ENSDART00000167718.1_itpr3-inositol-1-4-5-trisph:0.07293[&&NHX:S=Danio-rerio])n98:0.062689[&&NHX:S=Teleostei:D=N:B=100.0])n102:0.098557[&&NHX:S=BonyVertebrates:D=N:B=99.0])r121[&&NHX:S=BonyVertebrates:D=Y],Ciona-intestinalis_ENSCINT00000015035.3_NONE:0.339917[&&NHX:S=Ciona-intestinalis])r120[&&NHX:S=Deuterostomia:D=N],Drosophila-melanogaster_FBtr0078687_Itp-r83A-Inositol-1-4-5:0.246472[&&NHX:S=Drosophila-melanogaster])n103:0.608799[&&NHX:S=Bilateria:D=N:B=100.0],Homo-sapiens_ENST00000638029.1_CACNA1A-calcium-voltage:1.415469[&&NHX:S=Homo-sapiens])n105:0.550792[&&NHX:S=Bilateria:D=Y:B=100.0],(((((((((((Gasterosteus-aculeatus_ENSGACT00000017168.1_ryr1b-ryanodine-:0.019475[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000007264.1_ryr1b-ryanodine-:0.060623[&&NHX:S=Tetraodon-nigroviridis])n2:0.004766[&&NHX:S=Eupercaria:D=N:B=86.0],Oryzias-latipes_ENSORLT00000001305.1_ryr1b-ryanodine-recepto:0.110843[&&NHX:S=Oryzias-latipes])n4:0.007186[&&NHX:S=Percomorpha:D=N:B=96.0],Danio-rerio_ENSDART00000036015.8_ryr1b-ryanodine-receptor-1b:0.030318[&&NHX:S=Danio-rerio])n6:0.017699[&&NHX:S=Teleostei:D=N:B=100.0],(((Gasterosteus-aculeatus_ENSGACT00000027379.1_ryr1a-ryanodine-:0.020994[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000013098.1_ryr1a-ryanodine-:0.06568[&&NHX:S=Tetraodon-nigroviridis])r141[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000008002.1_ryr1a-ryanodine-recepto:0.019805[&&NHX:S=Oryzias-latipes])n11:0.016957[&&NHX:S=Percomorpha:D=N:B=100.0],Danio-rerio_ENSDART00000014749.9_ryr1a-ryanodine-receptor-1a:0.028138[&&NHX:S=Danio-rerio])n13:0.012336[&&NHX:S=Teleostei:D=N:B=100.0])n14:0.035239[&&NHX:S=Teleostei:D=Y:B=100.0],Xenopus-tropicalis_ENSXETT00000006174.2_ryr1-ryanodine-recep:0.050964[&&NHX:S=Xenopus-tropicalis])n16:0.007604[&&NHX:S=BonyVertebrates:D=N:B=97.0],Homo-sapiens_ENST00000359596.8_RYR1-ryanodine-receptor:0.081136[&&NHX:S=Homo-sapiens])n18:0.070683[&&NHX:S=BonyVertebrates:D=Y:B=100.0],((Homo-sapiens_ENST00000622037.1_RYR3-ryanodine-receptor:0.046675[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000077897.2_RYR3-ryanodine-recep:0.037962[&&NHX:S=Gallus-gallus])n21:0.03765[&&NHX:S=Amniota:D=N:B=100.0],((((Oryzias-latipes_ENSORLT00000022371.1_ryr3-ryanodine-receptor:0.036741[&&NHX:S=Oryzias-latipes],Gasterosteus-aculeatus_ENSGACT00000010590.1_ryr3-ryanodine-r:0.046346[&&NHX:S=Gasterosteus-aculeatus])n24:0.004207[&&NHX:S=Percomorpha:D=N:B=86.0],Tetraodon-nigroviridis_ENSTNIT00000015386.1_ryr3-ryanodine-r:0.045707[&&NHX:S=Tetraodon-nigroviridis])n26:0.027678[&&NHX:S=Percomorpha:D=Y:B=100.0],Danio-rerio_ENSDART00000147464.3_ryr3-ryanodine-receptor-3:0.056366[&&NHX:S=Danio-rerio])n28:0.016887[&&NHX:S=Teleostei:D=N:B=100.0],((Gasterosteus-aculeatus_ENSGACT00000008056.1_RYR3-ryanodine-r:0.016946[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000020818.1_RYR3-ryanodine-r:0.036668[&&NHX:S=Tetraodon-nigroviridis])n31:0.010248[&&NHX:S=Eupercaria:D=N:B=79.0],Oryzias-latipes_ENSORLT00000021133.1_RYR3-ryanodine-receptor:0.005357[&&NHX:S=Oryzias-latipes])n33:0.034985[&&NHX:S=Percomorpha:D=N:B=100.0])n34:0.023964[&&NHX:S=Teleostei:D=Y:B=100.0])n35:0.051903[&&NHX:S=BonyVertebrates:D=N:B=100.0])n36:0.019957[&&NHX:S=BonyVertebrates:D=Y:B=99.0],((Homo-sapiens_ENST00000366574.7_RYR2-ryanodine-receptor:0.016704[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000062448.2_RYR2-ryanodine-recep:0.013027[&&NHX:S=Gallus-gallus])n39:0.016788[&&NHX:S=Amniota:D=N:B=100.0],(Gasterosteus-aculeatus_ENSGACT00000020252.2_RYR2-ryanodine-r:0.037186[&&NHX:S=Gasterosteus-aculeatus],Danio-rerio_ENSDART00000167726.1_RYR2-ryanodine-receptor-2:0.079612[&&NHX:S=Danio-rerio])n42:0.01353[&&NHX:S=Teleostei:D=N:B=99.0])n43:0.05491[&&NHX:S=BonyVertebrates:D=N:B=100.0])r137[&&NHX:S=BonyVertebrates:D=Y],(((Gasterosteus-aculeatus_ENSGACT00000013456.1_ryr2b-ryanodine-:0.087028[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000003255.1_ryr2b-ryanodine-:0.118739[&&NHX:S=Tetraodon-nigroviridis])n47:0.006863[&&NHX:S=Eupercaria:D=N:B=75.0],Oryzias-latipes_ENSORLT00000006586.1_ryr2b-ryanodine-recepto:0.125864[&&NHX:S=Oryzias-latipes])n49:0.076611[&&NHX:S=Percomorpha:D=N:B=100.0],Danio-rerio_ENSDART00000149737.3_ryr2b-ryanodine-receptor-2b:0.166208[&&NHX:S=Danio-rerio])n51:0.048335[&&NHX:S=Teleostei:D=N:B=100.0])n52:0.041329[&&NHX:S=BonyVertebrates:D=Y:B=97.0],Ciona-intestinalis_ENSCINT00000035893.1_NONE:0.280896[&&NHX:S=Ciona-intestinalis])r118[&&NHX:S=Deuterostomia:D=N],Drosophila-melanogaster_FBtr0304572_RyR-Ryanodine-receptor-:0.378884[&&NHX:S=Drosophila-melanogaster])r117[&&NHX:S=Bilateria:D=N])n110[&&NHX:S=Bilateria:D=Y];
+
+>1st_gene_tree_newick
+(((((((((Oryzias-latipes_ENSORLT00000001305.1_ryr1b-ryanodine-recepto:0.110843,(Tetraodon-nigroviridis_ENSTNIT00000007264.1_ryr1b-ryanodine-:0.060623,Gasterosteus-aculeatus_ENSGACT00000017168.1_ryr1b-ryanodine-:0.019475)86:0.004766)96:0.007186,Danio-rerio_ENSDART00000036015.8_ryr1b-ryanodine-receptor-1b:0.030318)100:0.017699,(Danio-rerio_ENSDART00000014749.9_ryr1a-ryanodine-receptor-1a:0.028138,((Tetraodon-nigroviridis_ENSTNIT00000013098.1_ryr1a-ryanodine-:0.065680,Gasterosteus-aculeatus_ENSGACT00000027379.1_ryr1a-ryanodine-:0.020994)17:0.001369,Oryzias-latipes_ENSORLT00000008002.1_ryr1a-ryanodine-recepto:0.019805)100:0.016957)100:0.012336)100:0.035239,Xenopus-tropicalis_ENSXETT00000006174.2_ryr1-ryanodine-recep:0.050964)97:0.007604,Homo-sapiens_ENST00000359596.8_RYR1-ryanodine-receptor:0.081136)100:0.070683,((Gallus-gallus_ENSGALT00000077897.2_RYR3-ryanodine-recep:0.037962,Homo-sapiens_ENST00000622037.1_RYR3-ryanodine-receptor:0.046675)100:0.037650,((Danio-rerio_ENSDART00000147464.3_ryr3-ryanodine-receptor-3:0.056366,(Tetraodon-nigroviridis_ENSTNIT00000015386.1_ryr3-ryanodine-r:0.045707,(Gasterosteus-aculeatus_ENSGACT00000010590.1_ryr3-ryanodine-r:0.046346,Oryzias-latipes_ENSORLT00000022371.1_ryr3-ryanodine-receptor:0.036741)86:0.004207)100:0.027678)100:0.016887,((Tetraodon-nigroviridis_ENSTNIT00000020818.1_RYR3-ryanodine-r:0.036668,Gasterosteus-aculeatus_ENSGACT00000008056.1_RYR3-ryanodine-r:0.016946)79:0.010248,Oryzias-latipes_ENSORLT00000021133.1_RYR3-ryanodine-receptor:0.005357)100:0.034985)100:0.023964)100:0.051903)99:0.019957,((Gallus-gallus_ENSGALT00000062448.2_RYR2-ryanodine-recep:0.013027,Homo-sapiens_ENST00000366574.7_RYR2-ryanodine-receptor:0.016704)100:0.016788,(Danio-rerio_ENSDART00000167726.1_RYR2-ryanodine-receptor-2:0.079612,Gasterosteus-aculeatus_ENSGACT00000020252.2_RYR2-ryanodine-r:0.037186)99:0.013530)100:0.054910)57:0.018446,(Danio-rerio_ENSDART00000149737.3_ryr2b-ryanodine-receptor-2b:0.166208,((Tetraodon-nigroviridis_ENSTNIT00000003255.1_ryr2b-ryanodine-:0.118739,Gasterosteus-aculeatus_ENSGACT00000013456.1_ryr2b-ryanodine-:0.087028)75:0.006863,Oryzias-latipes_ENSORLT00000006586.1_ryr2b-ryanodine-recepto:0.125864)100:0.076611)100:0.048335)97:0.041329,((((((Drosophila-melanogaster_FBtr0078687_Itp-r83A-Inositol-1-4-5:0.246472,Ciona-intestinalis_ENSCINT00000015035.3_NONE:0.339917)55:0.022111,(((Xenopus-tropicalis_ENSXETT00000011267.3_itpr1-inositol-1-4-5:0.052402,(Gallus-gallus_ENSGALT00000096779.1_ITPR1-inositol-1-4-5:0.031839,Homo-sapiens_ENST00000649015.2_ITPR1-inositol-1-4-5-tr:0.003482)98:0.017769)96:0.018254,((Danio-rerio_ENSDART00000031993.8_itpr1b-inositol-1-4-5-trisp:0.027874,(Tetraodon-nigroviridis_ENSTNIT00000005148.1_itpr1b-inositol-:0.020104,(Gasterosteus-aculeatus_ENSGACT00000015821.1_itpr1b-inositol-:0.015779,Oryzias-latipes_ENSORLT00000015947.1_itpr1b-inositol-1-4-5-t:0.026834)43:0.004501)100:0.015161)96:0.014938,((Tetraodon-nigroviridis_ENSTNIT00000003408.1_ITPR1-inositol-1:0.093794,Gasterosteus-aculeatus_ENSGACT00000000845.1_itpr1a-inositol-:0.012206)91:0.012628,Oryzias-latipes_ENSORLT00000018256.1_itpr1a-inositol-1-4-5-t:0.034789)94:0.020785)31:0.009652)8:0.008128,Danio-rerio_ENSDART00000149019.2_itpr1a-inositol-1-4-5-trisp:0.062384)100:0.091828)31:0.009388,(((Xenopus-tropicalis_ENSXETT00000035890.3_itpr2-inositol-1-4-5:0.165230,Gallus-gallus_ENSGALT00000022784.6_ITPR2-inositol-1-4-5:0.008111)31:0.009115,Homo-sapiens_ENST00000381340.8_ITPR2-inositol-1-4-5-tr:0.018399)100:0.052884,(Danio-rerio_ENSDART00000154505.3_itpr2-inositol-1-4-5-trisph:0.131191,((Tetraodon-nigroviridis_ENSTNIT00000015318.1_itpr2-inositol-1:0.072235,Oryzias-latipes_ENSORLT00000014247.1_itpr2-inositol-1-4-5-tr:0.108309)15:0.003279,Gasterosteus-aculeatus_ENSGACT00000015504.1_itpr2-inositol-1:0.040008)93:0.011557)89:0.045101)100:0.084680)63:0.060118,(Xenopus-tropicalis_ENSXETT00000063211.1_NONE:0.046980,(Homo-sapiens_ENST00000374316.9_ITPR3-inositol-1-4-5-tr:0.089904,(Danio-rerio_ENSDART00000167718.1_itpr3-inositol-1-4-5-trisph:0.072930,((Tetraodon-nigroviridis_ENSTNIT00000006514.1_itpr3-inositol-1:0.048644,Gasterosteus-aculeatus_ENSGACT00000000328.2_itpr3-inositol-1:0.072134)88:0.015780,Oryzias-latipes_ENSORLT00000022925.1_itpr3-inositol-1-4-5-tr:0.049197)99:0.027730)100:0.062689)46:0.060119)99:0.098557)100:0.608799,Homo-sapiens_ENST00000638029.1_CACNA1A-calcium-voltage:1.415469)100:0.550792,Ciona-intestinalis_ENSCINT00000035893.1_NONE:0.280896)56:0.017410,Drosophila-melanogaster_FBtr0304572_RyR-Ryanodine-receptor-:0.378884);
+
+>Aligned-ShortSequence_threshold evaluation
+Drosophila-melanogaster_FBtr0304572_RyR-Ryanodine-receptor-      0.994
+Drosophila-melanogaster_FBtr0078687_Itp-r83A-Inositol-1-4-5      0.995
+Ciona-intestinalis_ENSCINT00000035893.1_NONE                     0.999
+== Removed ==> Ciona-intestinalis_ENSCINT00000037145.1_NONE                     0.154
+Ciona-intestinalis_ENSCINT00000015035.3_NONE                     0.712
+Xenopus-tropicalis_ENSXETT00000006174.2_ryr1-ryanodine-recep     0.999
+== Removed ==> Xenopus-tropicalis_ENSXETT00000033593.3_itpr3-inositol-1-4-5     0.334
+Xenopus-tropicalis_ENSXETT00000035890.3_itpr2-inositol-1-4-5     0.838
+Xenopus-tropicalis_ENSXETT00000063211.1_NONE                     0.623
+Xenopus-tropicalis_ENSXETT00000011267.3_itpr1-inositol-1-4-5     0.988
+Gallus-gallus_ENSGALT00000062448.2_RYR2-ryanodine-recep          0.999
+Gallus-gallus_ENSGALT00000077897.2_RYR3-ryanodine-recep          1.0
+Gallus-gallus_ENSGALT00000022784.6_ITPR2-inositol-1-4-5          1.0
+Gallus-gallus_ENSGALT00000096779.1_ITPR1-inositol-1-4-5          0.99
+Homo-sapiens_ENST00000638029.1_CACNA1A-calcium-voltage           0.624
+Homo-sapiens_ENST00000366574.7_RYR2-ryanodine-receptor           0.999
+Homo-sapiens_ENST00000622037.1_RYR3-ryanodine-receptor           0.999
+Homo-sapiens_ENST00000359596.8_RYR1-ryanodine-receptor           0.998
+Homo-sapiens_ENST00000374316.9_ITPR3-inositol-1-4-5-tr           0.995
+Homo-sapiens_ENST00000381340.8_ITPR2-inositol-1-4-5-tr           1.0
+Homo-sapiens_ENST00000649015.2_ITPR1-inositol-1-4-5-tr           1.0
+Danio-rerio_ENSDART00000167726.1_RYR2-ryanodine-receptor-2       0.99
+Danio-rerio_ENSDART00000149737.3_ryr2b-ryanodine-receptor-2b     0.996
+Danio-rerio_ENSDART00000014749.9_ryr1a-ryanodine-receptor-1a     1.0
+Danio-rerio_ENSDART00000147464.3_ryr3-ryanodine-receptor-3       1.0
+Danio-rerio_ENSDART00000036015.8_ryr1b-ryanodine-receptor-1b     1.0
+Danio-rerio_ENSDART00000154505.3_itpr2-inositol-1-4-5-trisph     0.764
+Danio-rerio_ENSDART00000167718.1_itpr3-inositol-1-4-5-trisph     0.989
+Danio-rerio_ENSDART00000149019.2_itpr1a-inositol-1-4-5-trisp     1.0
+Danio-rerio_ENSDART00000031993.8_itpr1b-inositol-1-4-5-trisp     0.999
+Tetraodon-nigroviridis_ENSTNIT00000013098.1_ryr1a-ryanodine-     0.984
+Tetraodon-nigroviridis_ENSTNIT00000015386.1_ryr3-ryanodine-r     0.999
+== Removed ==> Tetraodon-nigroviridis_ENSTNIT00000007263.1_NONE                 0.188
+Tetraodon-nigroviridis_ENSTNIT00000003255.1_ryr2b-ryanodine-     0.998
+Tetraodon-nigroviridis_ENSTNIT00000020818.1_RYR3-ryanodine-r     0.998
+Tetraodon-nigroviridis_ENSTNIT00000007264.1_ryr1b-ryanodine-     1.0
+Tetraodon-nigroviridis_ENSTNIT00000006514.1_itpr3-inositol-1     0.999
+Tetraodon-nigroviridis_ENSTNIT00000015318.1_itpr2-inositol-1     0.985
+Tetraodon-nigroviridis_ENSTNIT00000003408.1_ITPR1-inositol-1     0.967
+Tetraodon-nigroviridis_ENSTNIT00000005148.1_itpr1b-inositol-     1.0
+Gasterosteus-aculeatus_ENSGACT00000020252.2_RYR2-ryanodine-r     0.999
+Gasterosteus-aculeatus_ENSGACT00000013456.1_ryr2b-ryanodine-     0.998
+Gasterosteus-aculeatus_ENSGACT00000010590.1_ryr3-ryanodine-r     0.985
+Gasterosteus-aculeatus_ENSGACT00000017168.1_ryr1b-ryanodine-     1.0
+Gasterosteus-aculeatus_ENSGACT00000027379.1_ryr1a-ryanodine-     1.0
+Gasterosteus-aculeatus_ENSGACT00000008056.1_RYR3-ryanodine-r     0.999
+Gasterosteus-aculeatus_ENSGACT00000000328.2_itpr3-inositol-1     0.977
+Gasterosteus-aculeatus_ENSGACT00000015504.1_itpr2-inositol-1     0.997
+Gasterosteus-aculeatus_ENSGACT00000015821.1_itpr1b-inositol-     0.998
+Gasterosteus-aculeatus_ENSGACT00000000845.1_itpr1a-inositol-     1.0
+Oryzias-latipes_ENSORLT00000001305.1_ryr1b-ryanodine-recepto     0.976
+Oryzias-latipes_ENSORLT00000006586.1_ryr2b-ryanodine-recepto     0.999
+== Removed ==> Oryzias-latipes_ENSORLT00000022977.1_NONE                        0.12
+Oryzias-latipes_ENSORLT00000008002.1_ryr1a-ryanodine-recepto     1.0
+Oryzias-latipes_ENSORLT00000022371.1_ryr3-ryanodine-receptor     0.999
+Oryzias-latipes_ENSORLT00000021133.1_RYR3-ryanodine-receptor     0.815
+Oryzias-latipes_ENSORLT00000022925.1_itpr3-inositol-1-4-5-tr     0.992
+Oryzias-latipes_ENSORLT00000014247.1_itpr2-inositol-1-4-5-tr     0.919
+Oryzias-latipes_ENSORLT00000015947.1_itpr1b-inositol-1-4-5-t     1.0
+Oryzias-latipes_ENSORLT00000018256.1_itpr1a-inositol-1-4-5-t     1.0
+
+
+################ Settings ################
+
+>NumberAssigned_querySequence
+Oryzias-latipes_ENSORLT00000018256.1_itpr1a-inositol-1-4-5-t
+MSDKMSSFLHIGDICSLYAEGSTNGFISTLGLVDDRCVVQPDAGDLNNPPKKFRDCLFKLCPMNRYSAQKQFWKAAKPGGNTDTVLLNKLHHAADLEKKQNDSENKKLLGSVIQYGNVIQLLHLKSNKYLTVNKRLPALLEKNAMRVMLDTAGNEGSWFYIQPFYKLRSIGDSVVIGDKVVLNPVNAGQPLHASSHQLVDNPGCNEVNSVNCNTSWKIVLFMKWGDNQEVVLKGGDVVRLFHAEQEKFLTCDDHRKKQYVFLRTTGRQSATSATSSKALWEVEVVQHDPCRGGAGYWNSLFRFKHLATGHYLAAEVNPEYEEERPDNRSSLDSEHEALRARLRCAQEKVMYALVAVPDGNDISSIFELDPTTLRGGDSLVPRNSYVRLRHLCTNTWVHSTNQPIDKEEEKPVMLRIGTSPHKEDKEAFAIVPVSPAEVRDLDFANDASKVLASIAGKLEKGTITQNERRAVTKLLEDLVFFVVDIPNNGQDVLEIMVNKHNRERQKVMREQNILKQIFKLLQAPFTDSGDGPMLRLEELGDQRHAPFRHICRLCYRVLRHSQQDYRKNQEYIAKQFRFMQKQIGYDVLAEDTITALLHNNRKLLEKHITAAEIDTFVNLVRKNREPRFLDYLSDLCVSMNKSIPVTQELICNAVLDPANADILIETKLVLSRFEIQGVPLGENSVESEEDEEEVWLFWKENNKKEIRSKSIRELAQDAKEGQKEDKEVISYYRYQLNLFARMCLDRQYLAINKISCQLDVDLILRCMSDEDLPFDLRASFCRMMLHMHVDRDPQEQVTPVKYARLWSEIPLKISIEDYDNDGTSKDEIKERFSQTMEFVETYLRNVVSPNLSFGNKEKNKLTFEVVNLARNLIYFGFYNFSDLLRLTKILLGILDCVHVGAIYSFNKQEKEDSKGSNVMRSIHGVGELMSQVVLRGGGFLPTTTVNTSNGEAVKTQIEPEKQDILVMDTKLKIIEILQFILNVRLDYRISCLLSIFKTEFDERNSQSDLSINGVIESQNNMQGALDFEHMEEQAEGIFGGSEQNNPLDLDDHGGRTFLRVLLHLTMHDYPPLVSRALHLLFRHFSQRQEVLQAFKQVQLLVTSQDVENYKQIKSDLDQLRSIVEKSELWVYKRLGPDEGMDGGDALASEHKKGDSGSTEKGKKTESTSSYNYRVVKEILLRLSKLCVQEGPTGRKNRKQQQRLLRNMGAHAVVLELLQIPYEKGEDLRMQDIMKLAHQFLQNFCAGNQQNQALLHKHINLFLNPGILEAVTMQHIFMNNFQLCSEINDRVVQHFVHCIETHGRNVQYLKFLQTIVKAENKFIKKCQDIVMAELVNAGEDVLVFYNDRASFQTLVHMMQSERDRMDENSPLMYHIHLVELLAVCTEGKNVYTEIKCNSLLPLDDIVRIVTNEDCIPEVKIAYINFLNHCYVDTEVEMKEIYTSNHMWKLFDNFLVDICRVCNNTSDRKHSDVILEQYVTETVMSIVTTFFSSPFSDQSTSLQTRQPVFVQLLQGVYRVYHCQWLIPTQKGFVESCIKVLSDVAKSRTIAIPVDLDNQVNNLFVKSNSLVQKTAMSWRLSVRNAARRDSVVTSSPNYRNIIERLQDIVSALEDRLHPLVQAELSVLVDVLHRPELLFPENTEPRKKCESGGFICKLIKHTKQLLEENEEKLCIKVLQTLREMMTKDRGYGDKGEALRQILVSRYYGNFHQSSGRRDSLTSFGNSHLSPVGPGKAQSVLGGHGGLSRGEMSLTEVQCHLDREGASDLVIDLIMNATSDRVFQESILLAIALLEGGNTTIQHSFFCRLTDDKKSEKFFRVFYDRMKSAQMEIKATVTVNTSDLGNKKPDEDDQEKEVTVGKKVTESGVAMTENAKEQLLEASSATKKAFSSYRRHTDPDEHFPATDGQPSSGDKNQDEGEMSFVIVIMQPILRFLQLLCENHNRDLQNFLRCQNKKNNYNLVCETLQFLDCICGSTTGGLGLLGLYINEKNVALINQTLESLTEYCQGPCHENQNCIATHESNGIDIIIALILNDINPLGKKRMDLVLELKNNASKLLLAIMESRHDSENAERILYNMKPKELVEVIKKAYLQGEIEFEDAKEEDDDIDEEEHDAASPRNVGHNIYILAHQLARHNKELSMMLKPGGAGGEGDEALEFYAKHTAQIEIVRQDRTMEEIVFPVPNICEFLTSESKLRVYYTTERDEQGSKINDFFLRAEDLFNEMNWQKKLRAQPVLYWCSRNMSVWSNISFNLAVLMNLLVCFFYPLEGVHGGMLDPHLSALLWIGVFATLAIVILMPQPLGIRALVFVTILRLIFSVGLEPTLFLLGAFNVCNKIIFMISFVGNRGTFTRGYKAMVMDFEFLYHLLYLIICCLGVFGHVFFYSLLLFDLVYREETLLNVIKSVTRNGRSIVLTAVLALILVYLFSIVGYIFFKDDFILEVDRIPNITLIEGADDADGELLSAVCHNGAGENCSTAVQREDSGNNSEEDSNMERTCDSLLMCIVTVLSHGLRSGGGVGDVLRKPSKEEPLFAARVIYDLLFFFMVIIIVLNLIFGVIIDTFADLRSEKQKKEEVLKTTCFICGLERDKFDNKTVTFEEHIMEEHSMWHYLYFIVLVKVKDSTEYTGPESYVAQMIKEHNLDWFPRMRAMSLVSSDGEGEQNEIRSLQDKLDSTMKLVANLSGQLTELKEQMTEQRKQKQRIGLLGHPPLMNINPQQPA
+
+>SpeciesTree
+(Drosophila-melanogaster,(Ciona-intestinalis,((Xenopus-tropicalis,(Gallus-gallus,Homo-sapiens)Amniota)Tetrapoda,(Danio-rerio,(Oryzias-latipes,(Tetraodon-nigroviridis,Gasterosteus-aculeatus)Eupercaria)Percomorpha)Teleostei)BonyVertebrates)Deuterostomia)Bilateria;
+
+>SubstitutionModel
+WAG (Whelan and Goldman 2001) + gamma
+
+>ShortSequence_threshold
+0.45
+
+>Dataset
+AminoAcid
+
+>Rearrangement_BS_value_threshold
+70
+
+>TaxonSampling_color
+Drosophila-melanogaster_Black
+Ciona-intestinalis_Black
+Xenopus-tropicalis_Magenta
+Gallus-gallus_Magenta
+Homo-sapiens_Magenta
+Danio-rerio_Purple
+Tetraodon-nigroviridis_Green
+Gasterosteus-aculeatus_Red
+Oryzias-latipes_Blue
+
+################ Results: 2nd analysis ################
+
+>TreeSearchMethod
+NJ
+
+>2nd_rearranged_gene_tree_newick
+((((Homo-sapiens_ENST00000649015.2_ITPR1-inositol-1-4-5-tr,Gallus-gallus_ENSGALT00000096779.1_ITPR1-inositol-1-4-5)100_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000011267.3_itpr1-inositol-1-4-5)99_S=Tetrapoda_D=N,Homo-sapiens_ENST00000381340.8_ITPR2-inositol-1-4-5-tr)r_S=Tetrapoda_D=Y,((((Tetraodon-nigroviridis_ENSTNIT00000003408.1_ITPR1-inositol-1,Gasterosteus-aculeatus_ENSGACT00000000845.1_itpr1a-inositol-)100_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000018256.1_itpr1a-inositol-1-4-5-t)98_S=Percomorpha_D=N,Danio-rerio_ENSDART00000149019.2_itpr1a-inositol-1-4-5-trisp)99_S=Teleostei_D=N,(((Oryzias-latipes_ENSORLT00000015947.1_itpr1b-inositol-1-4-5-t,Gasterosteus-aculeatus_ENSGACT00000015821.1_itpr1b-inositol-)83_S=Percomorpha_D=N,Tetraodon-nigroviridis_ENSTNIT00000005148.1_itpr1b-inositol-)100_S=Percomorpha_D=Y,Danio-rerio_ENSDART00000031993.8_itpr1b-inositol-1-4-5-trisp)100_S=Teleostei_D=N)100_S=Teleostei_D=Y)r_S=BonyVertebrates_D=N;
+
+>2nd_rearranged_gene_tree_NHX
+((((Homo-sapiens_ENST00000649015.2_ITPR1-inositol-1-4-5-tr:0.021798[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000096779.1_ITPR1-inositol-1-4-5:0.047223[&&NHX:S=Gallus-gallus])n17:0.016687[&&NHX:S=Amniota:D=N:B=100.0],Xenopus-tropicalis_ENSXETT00000011267.3_itpr1-inositol-1-4-5:0.076024[&&NHX:S=Xenopus-tropicalis])n19:0.018934[&&NHX:S=Tetrapoda:D=N:B=99.0],Homo-sapiens_ENST00000381340.8_ITPR2-inositol-1-4-5-tr:0.285342[&&NHX:S=Homo-sapiens])r31[&&NHX:S=Tetrapoda:D=Y],((((Tetraodon-nigroviridis_ENSTNIT00000003408.1_ITPR1-inositol-1:0.105768[&&NHX:S=Tetraodon-nigroviridis],Gasterosteus-aculeatus_ENSGACT00000000845.1_itpr1a-inositol-:0.023507[&&NHX:S=Gasterosteus-aculeatus])n2:0.011801[&&NHX:S=Eupercaria:D=N:B=100.0],Oryzias-latipes_ENSORLT00000018256.1_itpr1a-inositol-1-4-5-t:0.052892[&&NHX:S=Oryzias-latipes])n4:0.013259[&&NHX:S=Percomorpha:D=N:B=98.0],Danio-rerio_ENSDART00000149019.2_itpr1a-inositol-1-4-5-trisp:0.08442[&&NHX:S=Danio-rerio])n6:0.009473[&&NHX:S=Teleostei:D=N:B=99.0],(((Oryzias-latipes_ENSORLT00000015947.1_itpr1b-inositol-1-4-5-t:0.02977[&&NHX:S=Oryzias-latipes],Gasterosteus-aculeatus_ENSGACT00000015821.1_itpr1b-inositol-:0.02878[&&NHX:S=Gasterosteus-aculeatus])n9:0.003599[&&NHX:S=Percomorpha:D=N:B=83.0],Tetraodon-nigroviridis_ENSTNIT00000005148.1_itpr1b-inositol-:0.028428[&&NHX:S=Tetraodon-nigroviridis])n11:0.020219[&&NHX:S=Percomorpha:D=Y:B=100.0],Danio-rerio_ENSDART00000031993.8_itpr1b-inositol-1-4-5-trisp:0.036354[&&NHX:S=Danio-rerio])n13:0.025694[&&NHX:S=Teleostei:D=N:B=100.0])n14:0.014496[&&NHX:S=Teleostei:D=Y:B=100.0])n22[&&NHX:S=BonyVertebrates:D=N];
+
+>2nd_gene_tree_newick
+(((Danio-rerio_ENSDART00000149019.2_itpr1a-inositol-1-4-5-trisp:0.084420,((Gasterosteus-aculeatus_ENSGACT00000000845.1_itpr1a-inositol-:0.023507,Tetraodon-nigroviridis_ENSTNIT00000003408.1_ITPR1-inositol-1:0.105768)100:0.011801,Oryzias-latipes_ENSORLT00000018256.1_itpr1a-inositol-1-4-5-t:0.052892)98:0.013259)99:0.009473,(Danio-rerio_ENSDART00000031993.8_itpr1b-inositol-1-4-5-trisp:0.036354,((Gasterosteus-aculeatus_ENSGACT00000015821.1_itpr1b-inositol-:0.028780,Oryzias-latipes_ENSORLT00000015947.1_itpr1b-inositol-1-4-5-t:0.029770)83:0.003599,Tetraodon-nigroviridis_ENSTNIT00000005148.1_itpr1b-inositol-:0.028428)100:0.020219)100:0.025694)100:0.014496,((Gallus-gallus_ENSGALT00000096779.1_ITPR1-inositol-1-4-5:0.047223,Homo-sapiens_ENST00000649015.2_ITPR1-inositol-1-4-5-tr:0.021798)100:0.016687,Xenopus-tropicalis_ENSXETT00000011267.3_itpr1-inositol-1-4-5:0.076024)99:0.018934,Homo-sapiens_ENST00000381340.8_ITPR2-inositol-1-4-5-tr:0.285342);
+
+>MonophyleticGeneGroups
+BonyVertebrates                 NoGeneNode  NONE
+Teleostei                       100  D=Y
+Percomorpha                     98  D=N
+Oryzias-latipes                 leaf  leaf
+
+>SisterGeneGroups
+BonyVertebrates                 NONE   NoGeneNode
+Teleostei                       100   Teleostei(Percomorpha;Danio-rerio)
+Percomorpha                     99   Danio-rerio
+Oryzias-latipes                 98   Eupercaria
+
+>Number_of_duplicatedNode
+BonyVertebrates                 0
+Teleostei                       1
+Percomorpha                     0
+Oryzias-latipes                 0
+
+>AnalysisTime
+71.4 seconds

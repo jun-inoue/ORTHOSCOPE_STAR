@@ -1,0 +1,139 @@
+################ Results: 1st analysis ################
+
+>QuerySequence
+Oryzias-latipes_ENSORLT00000007894.1_pck2-phosphoenolpyruvat  <= [Identities = 646/646 (100%)] : Oryzias-latipes_ENSORLT00000007894.1_pck2-phosphoenolpyruvat
+
+>Number_of_blastHits
+Drosophila-melanogaster  2
+Ciona-intestinalis       1
+Xenopus-tropicalis       2
+Gallus-gallus            2
+Homo-sapiens             3
+Danio-rerio              2
+Tetraodon-nigroviridis   2
+Gasterosteus-aculeatus   2
+Oryzias-latipes          2
+
+>BS_of_orthogroupBasalNode
+72
+
+
+>Orthogroup
+Danio-rerio_ENSDART00000024084.6_pck2-phosphoenolpyruvate-ca
+Gallus-gallus_ENSGALT00000099463.1_PCK2-phosphoenolpyru
+Gasterosteus-aculeatus_ENSGACT00000002910.1_pck2-phosphoenol
+Homo-sapiens_ENST00000216780.9_PCK2-phosphoenolpyruvat
+Homo-sapiens_ENST00000645217.2_PCK2-phosphoenolpyruvat
+Oryzias-latipes_ENSORLT00000007894.1_pck2-phosphoenolpyruvat
+Tetraodon-nigroviridis_ENSTNIT00000008209.1_pck2-phosphoenol
+Xenopus-tropicalis_ENSXETT00000031961.2_pck2-phosphoenolpyru
+
+>GeneNumber_of_orthogroup
+Xenopus-tropicalis      1
+Gallus-gallus           1
+Homo-sapiens            2
+Danio-rerio             1
+Oryzias-latipes         1
+Tetraodon-nigroviridis  1
+Gasterosteus-aculeatus  1
+
+>Rooting
+Homo-sapiens_ENST00000319441.6_PCK1-phosphoenolpyruvat
+
+
+>1st_rearranged_gene_tree_newick
+(((((((Homo-sapiens_ENST00000645217.2_PCK2-phosphoenolpyruvat,Homo-sapiens_ENST00000216780.9_PCK2-phosphoenolpyruvat)100_S=Homo-sapiens_D=Y,Xenopus-tropicalis_ENSXETT00000031961.2_pck2-phosphoenolpyru)76_S=Tetrapoda_D=N,Gallus-gallus_ENSGALT00000099463.1_PCK2-phosphoenolpyru)r_S=Tetrapoda_D=Y,(((Oryzias-latipes_ENSORLT00000007894.1_pck2-phosphoenolpyruvat,Gasterosteus-aculeatus_ENSGACT00000002910.1_pck2-phosphoenol)79_S=Percomorpha_D=N,Tetraodon-nigroviridis_ENSTNIT00000008209.1_pck2-phosphoenol)83_S=Percomorpha_D=Y,Danio-rerio_ENSDART00000024084.6_pck2-phosphoenolpyruvate-ca)100_S=Teleostei_D=N)72_S=BonyVertebrates_D=N,(((Homo-sapiens_ENST00000319441.6_PCK1-phosphoenolpyruvat,Gallus-gallus_ENSGALT00000012356.6_PCK1-phosphoenolpyru)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000035200.3_pck1-phosphoenolpyru)100_S=Tetrapoda_D=N,(((Oryzias-latipes_ENSORLT00000016034.1_pck1-phosphoenolpyruvat,Gasterosteus-aculeatus_ENSGACT00000004899.1_pck1-phosphoenol)71_S=Percomorpha_D=N,Tetraodon-nigroviridis_ENSTNIT00000020863.1_pck1-phosphoenol)r_S=Percomorpha_D=Y,Danio-rerio_ENSDART00000008752.6_pck1-phosphoenolpyruvate-ca)100_S=Teleostei_D=N)100_S=BonyVertebrates_D=N)97_S=BonyVertebrates_D=Y,Ciona-intestinalis_ENSCINT00000012511.3_NONE)100_S=Deuterostomia_D=N,(Drosophila-melanogaster_FBtr0086699_CG10924-NONE,Drosophila-melanogaster_FBtr0086701_Pepck-Phosphoenolpyruva)r_S=Drosophila-melanogaster_D=Y)r_S=Bilateria_D=N;
+
+>1st_rearranged_gene_tree_NHX
+(((((((Homo-sapiens_ENST00000645217.2_PCK2-phosphoenolpyruvat:0.0[&&NHX:S=Homo-sapiens],Homo-sapiens_ENST00000216780.9_PCK2-phosphoenolpyruvat:0.0[&&NHX:S=Homo-sapiens])n2:0.151077[&&NHX:S=Homo-sapiens:D=Y:B=100.0],Xenopus-tropicalis_ENSXETT00000031961.2_pck2-phosphoenolpyru:0.124206[&&NHX:S=Xenopus-tropicalis])n4:0.025066[&&NHX:S=Tetrapoda:D=N:B=76.0],Gallus-gallus_ENSGALT00000099463.1_PCK2-phosphoenolpyru:0.257818[&&NHX:S=Gallus-gallus])r41[&&NHX:S=Tetrapoda:D=Y],(((Oryzias-latipes_ENSORLT00000007894.1_pck2-phosphoenolpyruvat:0.054663[&&NHX:S=Oryzias-latipes],Gasterosteus-aculeatus_ENSGACT00000002910.1_pck2-phosphoenol:0.053501[&&NHX:S=Gasterosteus-aculeatus])n7:0.009373[&&NHX:S=Percomorpha:D=N:B=79.0],Tetraodon-nigroviridis_ENSTNIT00000008209.1_pck2-phosphoenol:0.071277[&&NHX:S=Tetraodon-nigroviridis])n9:0.019389[&&NHX:S=Percomorpha:D=Y:B=83.0],Danio-rerio_ENSDART00000024084.6_pck2-phosphoenolpyruvate-ca:0.081725[&&NHX:S=Danio-rerio])n11:0.131328[&&NHX:S=Teleostei:D=N:B=100.0])n14:0.013194[&&NHX:S=BonyVertebrates:D=N:B=72.0],(((Homo-sapiens_ENST00000319441.6_PCK1-phosphoenolpyruvat:0.086501[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000012356.6_PCK1-phosphoenolpyru:0.082011[&&NHX:S=Gallus-gallus])r47[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000035200.3_pck1-phosphoenolpyru:0.110761[&&NHX:S=Xenopus-tropicalis])n19:0.047837[&&NHX:S=Tetrapoda:D=N:B=100.0],(((Oryzias-latipes_ENSORLT00000016034.1_pck1-phosphoenolpyruvat:0.074382[&&NHX:S=Oryzias-latipes],Gasterosteus-aculeatus_ENSGACT00000004899.1_pck1-phosphoenol:0.079642[&&NHX:S=Gasterosteus-aculeatus])n22:0.019507[&&NHX:S=Percomorpha:D=N:B=71.0],Tetraodon-nigroviridis_ENSTNIT00000020863.1_pck1-phosphoenol:0.121485[&&NHX:S=Tetraodon-nigroviridis])r49[&&NHX:S=Percomorpha:D=Y],Danio-rerio_ENSDART00000008752.6_pck1-phosphoenolpyruvate-ca:0.137874[&&NHX:S=Danio-rerio])n26:0.030917[&&NHX:S=Teleostei:D=N:B=100.0])n27:0.039795[&&NHX:S=BonyVertebrates:D=N:B=100.0])n28:0.031065[&&NHX:S=BonyVertebrates:D=Y:B=97.0],Ciona-intestinalis_ENSCINT00000012511.3_NONE:0.227758[&&NHX:S=Ciona-intestinalis])n30:0.088434[&&NHX:S=Deuterostomia:D=N:B=100.0],(Drosophila-melanogaster_FBtr0086699_CG10924-NONE:0.180573[&&NHX:S=Drosophila-melanogaster],Drosophila-melanogaster_FBtr0086701_Pepck-Phosphoenolpyruva:0.160798[&&NHX:S=Drosophila-melanogaster])r39[&&NHX:S=Drosophila-melanogaster:D=Y])n34[&&NHX:S=Bilateria:D=N];
+
+>1st_gene_tree_newick
+((((Gallus-gallus_ENSGALT00000099463.1_PCK2-phosphoenolpyru:0.257818,((Xenopus-tropicalis_ENSXETT00000031961.2_pck2-phosphoenolpyru:0.124206,(Homo-sapiens_ENST00000216780.9_PCK2-phosphoenolpyruvat:0.000000,Homo-sapiens_ENST00000645217.2_PCK2-phosphoenolpyruvat:0.000000)100:0.151077)76:0.025066,(Danio-rerio_ENSDART00000024084.6_pck2-phosphoenolpyruvate-ca:0.081725,(Tetraodon-nigroviridis_ENSTNIT00000008209.1_pck2-phosphoenol:0.071277,(Gasterosteus-aculeatus_ENSGACT00000002910.1_pck2-phosphoenol:0.053501,Oryzias-latipes_ENSORLT00000007894.1_pck2-phosphoenolpyruvat:0.054663)79:0.009373)83:0.019389)100:0.131328)30:0.005129)72:0.013194,((Xenopus-tropicalis_ENSXETT00000035200.3_pck1-phosphoenolpyru:0.110761,(Gallus-gallus_ENSGALT00000012356.6_PCK1-phosphoenolpyru:0.082011,Homo-sapiens_ENST00000319441.6_PCK1-phosphoenolpyruvat:0.086501)68:0.013443)100:0.047837,(Danio-rerio_ENSDART00000008752.6_pck1-phosphoenolpyruvate-ca:0.137874,(Tetraodon-nigroviridis_ENSTNIT00000020863.1_pck1-phosphoenol:0.121485,(Gasterosteus-aculeatus_ENSGACT00000004899.1_pck1-phosphoenol:0.079642,Oryzias-latipes_ENSORLT00000016034.1_pck1-phosphoenolpyruvat:0.074382)71:0.019507)50:0.017702)100:0.030917)100:0.039795)97:0.031065,Ciona-intestinalis_ENSCINT00000012511.3_NONE:0.227758)100:0.088434,Drosophila-melanogaster_FBtr0086701_Pepck-Phosphoenolpyruva:0.160798,Drosophila-melanogaster_FBtr0086699_CG10924-NONE:0.180573);
+
+>Aligned-ShortSequence_threshold evaluation
+Drosophila-melanogaster_FBtr0086699_CG10924-NONE                 0.984
+Drosophila-melanogaster_FBtr0086701_Pepck-Phosphoenolpyruva      0.989
+Ciona-intestinalis_ENSCINT00000012511.3_NONE                     0.998
+Xenopus-tropicalis_ENSXETT00000035200.3_pck1-phosphoenolpyru     1.0
+Xenopus-tropicalis_ENSXETT00000031961.2_pck2-phosphoenolpyru     0.995
+Gallus-gallus_ENSGALT00000099463.1_PCK2-phosphoenolpyru          0.635
+Gallus-gallus_ENSGALT00000012356.6_PCK1-phosphoenolpyru          1.0
+Homo-sapiens_ENST00000319441.6_PCK1-phosphoenolpyruvat           1.0
+Homo-sapiens_ENST00000216780.9_PCK2-phosphoenolpyruvat           1.0
+Homo-sapiens_ENST00000645217.2_PCK2-phosphoenolpyruvat           1.0
+Danio-rerio_ENSDART00000008752.6_pck1-phosphoenolpyruvate-ca     1.0
+Danio-rerio_ENSDART00000024084.6_pck2-phosphoenolpyruvate-ca     1.0
+Tetraodon-nigroviridis_ENSTNIT00000020863.1_pck1-phosphoenol     0.997
+Tetraodon-nigroviridis_ENSTNIT00000008209.1_pck2-phosphoenol     1.0
+Gasterosteus-aculeatus_ENSGACT00000004899.1_pck1-phosphoenol     0.997
+Gasterosteus-aculeatus_ENSGACT00000002910.1_pck2-phosphoenol     1.0
+Oryzias-latipes_ENSORLT00000016034.1_pck1-phosphoenolpyruvat     0.998
+Oryzias-latipes_ENSORLT00000007894.1_pck2-phosphoenolpyruvat     1.0
+
+
+################ Settings ################
+
+>NumberAssigned_querySequence
+Oryzias-latipes_ENSORLT00000007894.1_pck2-phosphoenolpyruvat
+APAWHIEASGSCLRATPAHVCAYKQGSVGVNVRSLASIPSLPPAVADFVKGAADECKPANVHVVTGTPEETANILAGLERDGMVKRLPKYENCWLARTDPKDVARVESKTVIVTKNQRDTVPIPAGGVKSQLGSWMSESDWERARRDRFPGSMAGRTMYVIPFSMGPVGSTLSKYGVQVTDSPYVVASMGIMTRMGSPVLQKLTEGVEFVRCQHSVGRPLPLTAPLNNSWPCNPEKVLISHLPDTRQILSFGSGYGGNSLLGKKCFALRIASRIAKDEGWLAEHMLILGITNPQGVKRYVAAAFPSACGKTNLAMMKPSLPGWKVECVGDDIAWMKFDSQGKLRAINPENGFFGVAPGTSNKTNPYAMATIVKNTVFTNVGETSDGGVWWEGLDPPPAGITLTDWHGKSWKPGSSTPCAHPNSRFCAPAGQCPIIDPQWESEEGVPIDAIIFGGRRPEGVPLVYESFNWQHGVFVGAAMRSEATAAAEHKGKMIMHDPFAMRPFFGYNFGDYLTHWLSMQSRKAPTQLPRIFHVNWFRKDPATGAFLWPGFGENARVLEWIFKRCGREREDEAAKKSIIGWLPQEGAINTEGLGSKVDMGALFDVPKSFWQKETKELQAYFTQQVGADLPAQMKAELKALEDRVHK
+
+>SpeciesTree
+(Drosophila-melanogaster,(Ciona-intestinalis,((Xenopus-tropicalis,(Gallus-gallus,Homo-sapiens)Amniota)Tetrapoda,(Danio-rerio,(Oryzias-latipes,(Tetraodon-nigroviridis,Gasterosteus-aculeatus)Eupercaria)Percomorpha)Teleostei)BonyVertebrates)Deuterostomia)Bilateria;
+
+>SubstitutionModel
+WAG (Whelan and Goldman 2001) + gamma
+
+>ShortSequence_threshold
+0.45
+
+>Dataset
+AminoAcid
+
+>Rearrangement_BS_value_threshold
+70
+
+>TaxonSampling_color
+Drosophila-melanogaster_Black
+Ciona-intestinalis_Black
+Xenopus-tropicalis_Magenta
+Gallus-gallus_Magenta
+Homo-sapiens_Magenta
+Danio-rerio_Purple
+Tetraodon-nigroviridis_Green
+Gasterosteus-aculeatus_Red
+Oryzias-latipes_Blue
+
+################ Results: 2nd analysis ################
+
+>TreeSearchMethod
+NJ
+
+>2nd_rearranged_gene_tree_newick
+(((((Gasterosteus-aculeatus_ENSGACT00000002910.1_pck2-phosphoenol,Tetraodon-nigroviridis_ENSTNIT00000008209.1_pck2-phosphoenol)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000007894.1_pck2-phosphoenolpyruvat)73_S=Percomorpha_D=N,Danio-rerio_ENSDART00000024084.6_pck2-phosphoenolpyruvate-ca)100_S=Teleostei_D=N,Gallus-gallus_ENSGALT00000099463.1_PCK2-phosphoenolpyru)100_S=BonyVertebrates_D=N,(((Homo-sapiens_ENST00000645217.2_PCK2-phosphoenolpyruvat,Homo-sapiens_ENST00000216780.9_PCK2-phosphoenolpyruvat)100_S=Homo-sapiens_D=Y,Homo-sapiens_ENST00000319441.6_PCK1-phosphoenolpyruvat)r_S=Homo-sapiens_D=Y,Xenopus-tropicalis_ENSXETT00000031961.2_pck2-phosphoenolpyru)r_S=Tetrapoda_D=N)r_S=BonyVertebrates_D=Y;
+
+>2nd_rearranged_gene_tree_NHX
+(((((Gasterosteus-aculeatus_ENSGACT00000002910.1_pck2-phosphoenol:0.061778[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000008209.1_pck2-phosphoenol:0.078543[&&NHX:S=Tetraodon-nigroviridis])r34[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000007894.1_pck2-phosphoenolpyruvat:0.059343[&&NHX:S=Oryzias-latipes])n4:0.013834[&&NHX:S=Percomorpha:D=N:B=73.0],Danio-rerio_ENSDART00000024084.6_pck2-phosphoenolpyruvate-ca:0.088716[&&NHX:S=Danio-rerio])n6:0.126519[&&NHX:S=Teleostei:D=N:B=100.0],Gallus-gallus_ENSGALT00000099463.1_PCK2-phosphoenolpyru:0.265478[&&NHX:S=Gallus-gallus])n8:0.019815[&&NHX:S=BonyVertebrates:D=N:B=100.0],(((Homo-sapiens_ENST00000645217.2_PCK2-phosphoenolpyruvat:0.0[&&NHX:S=Homo-sapiens],Homo-sapiens_ENST00000216780.9_PCK2-phosphoenolpyruvat:0.0[&&NHX:S=Homo-sapiens])n11:0.166752[&&NHX:S=Homo-sapiens:D=Y:B=100.0],Homo-sapiens_ENST00000319441.6_PCK1-phosphoenolpyruvat:0.204385[&&NHX:S=Homo-sapiens])r30[&&NHX:S=Homo-sapiens:D=Y],Xenopus-tropicalis_ENSXETT00000031961.2_pck2-phosphoenolpyru:0.119996[&&NHX:S=Xenopus-tropicalis])r28[&&NHX:S=Tetrapoda:D=N])n16[&&NHX:S=BonyVertebrates:D=Y];
+
+>2nd_gene_tree_newick
+((((Tetraodon-nigroviridis_ENSTNIT00000008209.1_pck2-phosphoenol:0.078543,(Gasterosteus-aculeatus_ENSGACT00000002910.1_pck2-phosphoenol:0.061778,Oryzias-latipes_ENSORLT00000007894.1_pck2-phosphoenolpyruvat:0.059343)32:0.008279)73:0.013834,Danio-rerio_ENSDART00000024084.6_pck2-phosphoenolpyruvate-ca:0.088716)100:0.126519,Gallus-gallus_ENSGALT00000099463.1_PCK2-phosphoenolpyru:0.265478)62:0.019815,((Homo-sapiens_ENST00000216780.9_PCK2-phosphoenolpyruvat:0.000000,Homo-sapiens_ENST00000645217.2_PCK2-phosphoenolpyruvat:0.000000)100:0.166752,Xenopus-tropicalis_ENSXETT00000031961.2_pck2-phosphoenolpyru:0.119996)62:0.011766,Homo-sapiens_ENST00000319441.6_PCK1-phosphoenolpyruvat:0.204385);
+
+>MonophyleticGeneGroups
+BonyVertebrates                 100  D=N
+Teleostei                       100  D=N
+Percomorpha                     73  D=N
+Oryzias-latipes                 leaf  leaf
+
+>SisterGeneGroups
+BonyVertebrates                 NONE   NoGeneNode
+Teleostei                       100   Gallus-gallus
+Percomorpha                     100   Danio-rerio
+Oryzias-latipes                 73   Eupercaria
+
+>Number_of_duplicatedNode
+BonyVertebrates                 0
+Teleostei                       0
+Percomorpha                     0
+Oryzias-latipes                 0
+
+>AnalysisTime
+18.2 seconds

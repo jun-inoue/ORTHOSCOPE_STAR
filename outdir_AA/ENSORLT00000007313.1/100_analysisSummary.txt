@@ -1,0 +1,211 @@
+################ Results: 1st analysis ################
+
+>QuerySequence
+Oryzias-latipes_ENSORLT00000007313.1_rap1ab-RAP1A-member-of-  <= [Identities = 185/185 (100%)] : Oryzias-latipes_ENSORLT00000007313.1_rap1ab-RAP1A-member-of-
+
+>Number_of_blastHits
+Drosophila-melanogaster  10
+Ciona-intestinalis       10
+Xenopus-tropicalis       10
+Gallus-gallus            10
+Homo-sapiens             10
+Danio-rerio              10
+Tetraodon-nigroviridis   10
+Gasterosteus-aculeatus   10
+Oryzias-latipes          10
+
+>BS_of_orthogroupBasalNode
+r
+
+
+>Orthogroup
+Danio-rerio_ENSDART00000129526.2_rap1ab-RAP1A-member-of-RAS-
+Danio-rerio_ENSDART00000132081.2_rap1b-RAP1B-member-of-RAS-o
+Gallus-gallus_ENSGALT00000002238.5_RAP1A-member-of-RAS-
+Gasterosteus-aculeatus_ENSGACT00000015777.1_RAP1A-RAP1A-memb
+Homo-sapiens_ENST00000250559.14_RAP1B-RAP1B-member-of-
+Oryzias-latipes_ENSORLT00000007313.1_rap1ab-RAP1A-member-of-
+Tetraodon-nigroviridis_ENSTNIT00000009425.1_rap1b-RAP1B-memb
+Tetraodon-nigroviridis_ENSTNIT00000010018.1_NONE
+
+>GeneNumber_of_orthogroup
+Xenopus-tropicalis      0
+Gallus-gallus           1
+Homo-sapiens            1
+Danio-rerio             2
+Oryzias-latipes         1
+Tetraodon-nigroviridis  2
+Gasterosteus-aculeatus  1
+
+>Rooting
+Oryzias-latipes_ENSORLT00000021856.1_NONE
+
+
+>1st_rearranged_gene_tree_newick
+(((((((((((((((Homo-sapiens_ENST00000245304.5_RAP2A-RAP2A-member-of-R,Xenopus-tropicalis_ENSXETT00000063135.1_rap2a-RAP2A-member-o)r_S=Tetrapoda_D=N,((((Gasterosteus-aculeatus_ENSGACT00000022517.1_rap2c-RAP2C-memb,Tetraodon-nigroviridis_ENSTNIT00000020157.1_rap2c-RAP2C-memb)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000002708.1_rap2c-RAP2C-member-of-R)r_S=Percomorpha_D=N,Danio-rerio_ENSDART00000014095.7_rap2c-RAP2C-member-of-RAS-o)89_S=Teleostei_D=N,((((Gasterosteus-aculeatus_ENSGACT00000019959.1_rap2ab-RAP2A-mem,Tetraodon-nigroviridis_ENSTNIT00000017778.1_NONE)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000006833.1_rap2ab-RAP2A-member-of-)83_S=Percomorpha_D=N,((Tetraodon-nigroviridis_ENSTNIT00000017200.1_RAP2A-RAP2A-memb,Tetraodon-nigroviridis_ENSTNIT00000011293.1_NONE)r_S=Tetraodon-nigroviridis_D=Y,Oryzias-latipes_ENSORLT00000022118.1_NONE)r_S=Percomorpha_D=N)r_S=Percomorpha_D=Y,Danio-rerio_ENSDART00000058877.4_rap2ab-RAP2A-member-of-RAS-)r_S=Teleostei_D=N)r_S=Teleostei_D=Y)r_S=BonyVertebrates_D=N,(((Homo-sapiens_ENST00000342983.6_RAP2C-RAP2C-member-of-R,Gallus-gallus_ENSGALT00000027292.6_RAP2A-RAP2A-member-o)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000011912.2_rap2c-RAP2C-member-o)r_S=Tetrapoda_D=N,(((Gasterosteus-aculeatus_ENSGACT00000019840.1_NONE,Tetraodon-nigroviridis_ENSTNIT00000011292.1_NONE)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000007392.1_rap2b-RAP2B-member-of-R)r_S=Percomorpha_D=N,Danio-rerio_ENSDART00000109750.4_rap2aa-RAP2A-member-of-RAS-)r_S=Teleostei_D=N)r_S=BonyVertebrates_D=N)r_S=BonyVertebrates_D=Y,(((Homo-sapiens_ENST00000323534.5_RAP2B-RAP2B-member-of-R,Gallus-gallus_ENSGALT00000039992.4_RAP2C-RAP2C-member-o)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000016942.1_rap2b-RAP2B-member-o)r_S=Tetrapoda_D=N,(((Gasterosteus-aculeatus_ENSGACT00000013584.1_rap2b-RAP2B-memb,Tetraodon-nigroviridis_ENSTNIT00000000873.1_rap2b-RAP2B-memb)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000019851.1_NONE)r_S=Percomorpha_D=N,Danio-rerio_ENSDART00000160206.1_rap2b-RAP2B-member-of-RAS-o)r_S=Teleostei_D=N)r_S=BonyVertebrates_D=N)80_S=BonyVertebrates_D=Y,Ciona-intestinalis_ENSCINT00000002384.3_NONE)r_S=Deuterostomia_D=N,Drosophila-melanogaster_FBtr0072177_Rap2l-Ras-associated-pr)100_S=Bilateria_D=N,(((((Oryzias-latipes_ENSORLT00000021856.1_NONE,Xenopus-tropicalis_ENSXETT00000003047.3_rap1b-RAP1B-member-o)99_S=BonyVertebrates_D=N,((Homo-sapiens_ENST00000250559.14_RAP1B-RAP1B-member-of-,Gallus-gallus_ENSGALT00000002238.5_RAP1A-member-of-RAS-)r_S=Amniota_D=N,(((Gasterosteus-aculeatus_ENSGACT00000015777.1_RAP1A-RAP1A-memb,(Tetraodon-nigroviridis_ENSTNIT00000009425.1_rap1b-RAP1B-memb,Tetraodon-nigroviridis_ENSTNIT00000010018.1_NONE)r_S=Tetraodon-nigroviridis_D=Y)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000007313.1_rap1ab-RAP1A-member-of-)r_S=Percomorpha_D=N,(Danio-rerio_ENSDART00000132081.2_rap1b-RAP1B-member-of-RAS-o,Danio-rerio_ENSDART00000129526.2_rap1ab-RAP1A-member-of-RAS-)r_S=Danio-rerio_D=Y)r_S=Teleostei_D=N)r_S=BonyVertebrates_D=N)r_S=BonyVertebrates_D=Y,(((Homo-sapiens_ENST00000356415.5_RAP1A-RAP1A-member-of-R,Gallus-gallus_ENSGALT00000108374.1_RAP1B-RAP1B-member-o)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000029726.3_rap1a-RAP1A-member-o)r_S=Tetrapoda_D=N,(((Gasterosteus-aculeatus_ENSGACT00000008172.1_rap1ab-RAP1A-mem,Tetraodon-nigroviridis_ENSTNIT00000015655.1_NONE)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000018726.1_NONE)r_S=Percomorpha_D=N,Danio-rerio_ENSDART00000050671.7_rap1aa-RAP1A-member-of-RAS-)r_S=Teleostei_D=N)r_S=BonyVertebrates_D=N)r_S=BonyVertebrates_D=Y,Ciona-intestinalis_ENSCINT00000031408.1_ras-related-protein-)r_S=Deuterostomia_D=N,Drosophila-melanogaster_FBtr0303154_Rap1-Rap1-GTPase-DBNLIN)100_S=Bilateria_D=N)92_S=Bilateria_D=Y,((Ciona-intestinalis_ENSCINT00000030345.1_NONE,Drosophila-melanogaster_FBtr0073212_Ras64B-Ras-oncogene-at-)95_S=Bilateria_D=N,Ciona-intestinalis_ENSCINT00000030230.1_NONE)83_S=Bilateria_D=Y)r_S=Bilateria_D=Y,(((((((Homo-sapiens_ENST00000369535.5_NRAS-NRAS-proto-oncogen,Gallus-gallus_ENSGALT00000043422.3_N-RAS-neuroblastoma-)72_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000007368.3_nras-neuroblastoma-R)89_S=Tetrapoda_D=N,(Homo-sapiens_ENST00000631404.1_HRAS-HRas-proto-oncogen,Xenopus-tropicalis_ENSXETT00000013308.2_hras-Harvey-rat-sarc)r_S=Tetrapoda_D=N)r_S=Tetrapoda_D=Y,(Gasterosteus-aculeatus_ENSGACT00000015014.1_hrasb-Ha-ras-Ha,Danio-rerio_ENSDART00000171589.1_hrasa-v-Ha-ras-Harvey-rat-s)r_S=Teleostei_D=N)r_S=BonyVertebrates_D=N,(((Homo-sapiens_ENST00000397596.6_HRAS-HRas-proto-oncogen,Gallus-gallus_ENSGALT00000079859.2_H-RAS-HRas-proto-onc)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000032647.1_ralb-v-ral-simian-le)r_S=Tetrapoda_D=N,((Gasterosteus-aculeatus_ENSGACT00000015474.1_kras-v-Ki-ras2-K,Oryzias-latipes_ENSORLT00000023600.1_hrasa-v-Ha-ras-Harvey-r)r_S=Percomorpha_D=N,Danio-rerio_ENSDART00000009126.9_kras-v-Ki-ras2-Kirsten-rat-)r_S=Teleostei_D=N)r_S=BonyVertebrates_D=N)r_S=BonyVertebrates_D=Y,(((Homo-sapiens_ENST00000256078.10_KRAS-KRAS-proto-oncoge,Gallus-gallus_ENSGALT00000063877.2_KRAS-KRAS-proto-onco)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000013310.3_kras-Kirsten-rat-sar)r_S=Tetrapoda_D=N,(((Gasterosteus-aculeatus_ENSGACT00000017085.1_NONE,Tetraodon-nigroviridis_ENSTNIT00000015322.1_kras-v-Ki-ras2-K)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000014319.1_kras-GTPase-KRas)r_S=Percomorpha_D=N,Danio-rerio_ENSDART00000100961.5_NONE)r_S=Teleostei_D=N)r_S=BonyVertebrates_D=N)85_S=BonyVertebrates_D=Y,Drosophila-melanogaster_FBtr0082122_Ras85D-Ras-oncogene-at-)100_S=Bilateria_D=N)r_S=Bilateria_D=Y,(((Homo-sapiens_ENST00000368322.7_RIT1-Ras-like-without-C,Gallus-gallus_ENSGALT00000031431.5_RIT1-Ras-like-withou)100_S=Amniota_D=N,Gallus-gallus_ENSGALT00000067790.2_RIT2-Ras-like-withou)99_S=Amniota_D=Y,Drosophila-melanogaster_FBtr0300576_Ric-Ras-related-protein)100_S=Bilateria_D=N)r_S=Bilateria_D=Y,((((Gallus-gallus_ENSGALT00000058644.2_RALA-RAS-like-proto-,Xenopus-tropicalis_ENSXETT00000028705.3_rala-v-ral-simian-le)r_S=Tetrapoda_D=N,Gasterosteus-aculeatus_ENSGACT00000006594.2_ralaa-v-ral-simi)95_S=BonyVertebrates_D=N,Drosophila-melanogaster_FBtr0070583_Rala-Ras-like-protein-A)93_S=Bilateria_D=N,Ciona-intestinalis_ENSCINT00000023837.2_NONE)100_S=Bilateria_D=Y)r_S=Bilateria_D=Y,(Ciona-intestinalis_ENSCINT00000004477.3_NONE,Drosophila-melanogaster_FBtr0078694_Rheb-Ras-homolog-enrich)100_S=Bilateria_D=N)r_S=Bilateria_D=Y,(Ciona-intestinalis_ENSCINT00000029240.2_NONE,(Ciona-intestinalis_ENSCINT00000008192.3_NONE,Ciona-intestinalis_ENSCINT00000036515.1_NONE)100_S=Ciona-intestinalis_D=Y)r_S=Ciona-intestinalis_D=Y)75_S=Bilateria_D=Y,(Ciona-intestinalis_ENSCINT00000015095.3_NONE,Drosophila-melanogaster_FBtr0347364_CG8500-NONE)100_S=Bilateria_D=N)r_S=Bilateria_D=Y,(Drosophila-melanogaster_FBtr0333376_CG8641-NONE,Drosophila-melanogaster_FBtr0300326_CG13375-NONE)r_S=Drosophila-melanogaster_D=Y)r_S=Bilateria_D=Y;
+
+>1st_rearranged_gene_tree_NHX
+(((((((((((((((Homo-sapiens_ENST00000245304.5_RAP2A-RAP2A-member-of-R:0.001676[&&NHX:S=Homo-sapiens],Xenopus-tropicalis_ENSXETT00000063135.1_rap2a-RAP2A-member-o:0.010775[&&NHX:S=Xenopus-tropicalis])r205[&&NHX:S=Tetrapoda:D=N],((((Gasterosteus-aculeatus_ENSGACT00000022517.1_rap2c-RAP2C-memb:0.001215[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000020157.1_rap2c-RAP2C-memb:0.00211[&&NHX:S=Tetraodon-nigroviridis])r229[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000002708.1_rap2c-RAP2C-member-of-R:0.002298[&&NHX:S=Oryzias-latipes])r228[&&NHX:S=Percomorpha:D=N],Danio-rerio_ENSDART00000014095.7_rap2c-RAP2C-member-of-RAS-o:0.004355[&&NHX:S=Danio-rerio])n30:0.027564[&&NHX:S=Teleostei:D=N:B=89.0],((((Gasterosteus-aculeatus_ENSGACT00000019959.1_rap2ab-RAP2A-mem:0.011798[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000017778.1_NONE:0.013257[&&NHX:S=Tetraodon-nigroviridis])r231[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000006833.1_rap2ab-RAP2A-member-of-:0.009211[&&NHX:S=Oryzias-latipes])n17:0.049882[&&NHX:S=Percomorpha:D=N:B=83.0],((Tetraodon-nigroviridis_ENSTNIT00000017200.1_RAP2A-RAP2A-memb:5.41E-4[&&NHX:S=Tetraodon-nigroviridis],Tetraodon-nigroviridis_ENSTNIT00000011293.1_NONE:0.0[&&NHX:S=Tetraodon-nigroviridis])r214[&&NHX:S=Tetraodon-nigroviridis:D=Y],Oryzias-latipes_ENSORLT00000022118.1_NONE:0.003374[&&NHX:S=Oryzias-latipes])r211[&&NHX:S=Percomorpha:D=N])r210[&&NHX:S=Percomorpha:D=Y],Danio-rerio_ENSDART00000058877.4_rap2ab-RAP2A-member-of-RAS-:0.016135[&&NHX:S=Danio-rerio])r209[&&NHX:S=Teleostei:D=N])r208[&&NHX:S=Teleostei:D=Y])r204[&&NHX:S=BonyVertebrates:D=N],(((Homo-sapiens_ENST00000342983.6_RAP2C-RAP2C-member-of-R:0.016905[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000027292.6_RAP2A-RAP2A-member-o:0.01148[&&NHX:S=Gallus-gallus])r217[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000011912.2_rap2c-RAP2C-member-o:0.011932[&&NHX:S=Xenopus-tropicalis])r216[&&NHX:S=Tetrapoda:D=N],(((Gasterosteus-aculeatus_ENSGACT00000019840.1_NONE:0.012917[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000011292.1_NONE:0.016992[&&NHX:S=Tetraodon-nigroviridis])r220[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000007392.1_rap2b-RAP2B-member-of-R:0.030844[&&NHX:S=Oryzias-latipes])r219[&&NHX:S=Percomorpha:D=N],Danio-rerio_ENSDART00000109750.4_rap2aa-RAP2A-member-of-RAS-:0.013747[&&NHX:S=Danio-rerio])r218[&&NHX:S=Teleostei:D=N])r215[&&NHX:S=BonyVertebrates:D=N])r203[&&NHX:S=BonyVertebrates:D=Y],(((Homo-sapiens_ENST00000323534.5_RAP2B-RAP2B-member-of-R:0.015175[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000039992.4_RAP2C-RAP2C-member-o:0.010783[&&NHX:S=Gallus-gallus])r223[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000016942.1_rap2b-RAP2B-member-o:0.0155[&&NHX:S=Xenopus-tropicalis])r222[&&NHX:S=Tetrapoda:D=N],(((Gasterosteus-aculeatus_ENSGACT00000013584.1_rap2b-RAP2B-memb:0.011357[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000000873.1_rap2b-RAP2B-memb:0.016692[&&NHX:S=Tetraodon-nigroviridis])r226[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000019851.1_NONE:0.009568[&&NHX:S=Oryzias-latipes])r225[&&NHX:S=Percomorpha:D=N],Danio-rerio_ENSDART00000160206.1_rap2b-RAP2B-member-of-RAS-o:0.013183[&&NHX:S=Danio-rerio])r224[&&NHX:S=Teleostei:D=N])r221[&&NHX:S=BonyVertebrates:D=N])n52:0.054979[&&NHX:S=BonyVertebrates:D=Y:B=80.0],Ciona-intestinalis_ENSCINT00000002384.3_NONE:0.12985[&&NHX:S=Ciona-intestinalis])r201[&&NHX:S=Deuterostomia:D=N],Drosophila-melanogaster_FBtr0072177_Rap2l-Ras-associated-pr:0.21473[&&NHX:S=Drosophila-melanogaster])n56:0.086671[&&NHX:S=Bilateria:D=N:B=100.0],(((((Oryzias-latipes_ENSORLT00000021856.1_NONE:0.017381[&&NHX:S=Oryzias-latipes],Xenopus-tropicalis_ENSXETT00000003047.3_rap1b-RAP1B-member-o:0.060762[&&NHX:S=Xenopus-tropicalis])n59:0.043465[&&NHX:S=BonyVertebrates:D=N:B=99.0],((Homo-sapiens_ENST00000250559.14_RAP1B-RAP1B-member-of-:0.008107[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000002238.5_RAP1A-member-of-RAS-:0.003354[&&NHX:S=Gallus-gallus])r238[&&NHX:S=Amniota:D=N],(((Gasterosteus-aculeatus_ENSGACT00000015777.1_RAP1A-RAP1A-memb:0.010248[&&NHX:S=Gasterosteus-aculeatus],(Tetraodon-nigroviridis_ENSTNIT00000009425.1_rap1b-RAP1B-memb:0.0[&&NHX:S=Tetraodon-nigroviridis],Tetraodon-nigroviridis_ENSTNIT00000010018.1_NONE:-0.0[&&NHX:S=Tetraodon-nigroviridis])r243[&&NHX:S=Tetraodon-nigroviridis:D=Y])r242[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000007313.1_rap1ab-RAP1A-member-of-:0.00935[&&NHX:S=Oryzias-latipes])r241[&&NHX:S=Percomorpha:D=N],(Danio-rerio_ENSDART00000132081.2_rap1b-RAP1B-member-of-RAS-o:0.014603[&&NHX:S=Danio-rerio],Danio-rerio_ENSDART00000129526.2_rap1ab-RAP1A-member-of-RAS-:0.0[&&NHX:S=Danio-rerio])r244[&&NHX:S=Danio-rerio:D=Y])r240[&&NHX:S=Teleostei:D=N])r236[&&NHX:S=BonyVertebrates:D=N])r235[&&NHX:S=BonyVertebrates:D=Y],(((Homo-sapiens_ENST00000356415.5_RAP1A-RAP1A-member-of-R:0.002277[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000108374.1_RAP1B-RAP1B-member-o:0.296129[&&NHX:S=Gallus-gallus])r247[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000029726.3_rap1a-RAP1A-member-o:0.014329[&&NHX:S=Xenopus-tropicalis])r246[&&NHX:S=Tetrapoda:D=N],(((Gasterosteus-aculeatus_ENSGACT00000008172.1_rap1ab-RAP1A-mem:0.003821[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000015655.1_NONE:0.012447[&&NHX:S=Tetraodon-nigroviridis])r250[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000018726.1_NONE:0.0102[&&NHX:S=Oryzias-latipes])r249[&&NHX:S=Percomorpha:D=N],Danio-rerio_ENSDART00000050671.7_rap1aa-RAP1A-member-of-RAS-:0.007238[&&NHX:S=Danio-rerio])r248[&&NHX:S=Teleostei:D=N])r245[&&NHX:S=BonyVertebrates:D=N])r234[&&NHX:S=BonyVertebrates:D=Y],Ciona-intestinalis_ENSCINT00000031408.1_ras-related-protein-:0.111336[&&NHX:S=Ciona-intestinalis])r233[&&NHX:S=Deuterostomia:D=N],Drosophila-melanogaster_FBtr0303154_Rap1-Rap1-GTPase-DBNLIN:0.077359[&&NHX:S=Drosophila-melanogaster])n93:0.159869[&&NHX:S=Bilateria:D=N:B=100.0])n94:0.105844[&&NHX:S=Bilateria:D=Y:B=92.0],((Ciona-intestinalis_ENSCINT00000030345.1_NONE:0.164914[&&NHX:S=Ciona-intestinalis],Drosophila-melanogaster_FBtr0073212_Ras64B-Ras-oncogene-at-:0.215087[&&NHX:S=Drosophila-melanogaster])n99:0.073938[&&NHX:S=Bilateria:D=N:B=95.0],Ciona-intestinalis_ENSCINT00000030230.1_NONE:0.286874[&&NHX:S=Ciona-intestinalis])n101:0.072945[&&NHX:S=Bilateria:D=Y:B=83.0])r194[&&NHX:S=Bilateria:D=Y],(((((((Homo-sapiens_ENST00000369535.5_NRAS-NRAS-proto-oncogen:0.014141[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000043422.3_N-RAS-neuroblastoma-:0.008384[&&NHX:S=Gallus-gallus])n104:0.013841[&&NHX:S=Amniota:D=N:B=72.0],Xenopus-tropicalis_ENSXETT00000007368.3_nras-neuroblastoma-R:0.017874[&&NHX:S=Xenopus-tropicalis])n106:0.025426[&&NHX:S=Tetrapoda:D=N:B=89.0],(Homo-sapiens_ENST00000631404.1_HRAS-HRas-proto-oncogen:0.0[&&NHX:S=Homo-sapiens],Xenopus-tropicalis_ENSXETT00000013308.2_hras-Harvey-rat-sarc:0.009887[&&NHX:S=Xenopus-tropicalis])r255[&&NHX:S=Tetrapoda:D=N])r254[&&NHX:S=Tetrapoda:D=Y],(Gasterosteus-aculeatus_ENSGACT00000015014.1_hrasb-Ha-ras-Ha:0.039519[&&NHX:S=Gasterosteus-aculeatus],Danio-rerio_ENSDART00000171589.1_hrasa-v-Ha-ras-Harvey-rat-s:0.003245[&&NHX:S=Danio-rerio])r258[&&NHX:S=Teleostei:D=N])r253[&&NHX:S=BonyVertebrates:D=N],(((Homo-sapiens_ENST00000397596.6_HRAS-HRas-proto-oncogen:0.0[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000079859.2_H-RAS-HRas-proto-onc:0.008643[&&NHX:S=Gallus-gallus])r265[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000032647.1_ralb-v-ral-simian-le:0.012764[&&NHX:S=Xenopus-tropicalis])r264[&&NHX:S=Tetrapoda:D=N],((Gasterosteus-aculeatus_ENSGACT00000015474.1_kras-v-Ki-ras2-K:0.014068[&&NHX:S=Gasterosteus-aculeatus],Oryzias-latipes_ENSORLT00000023600.1_hrasa-v-Ha-ras-Harvey-r:0.013774[&&NHX:S=Oryzias-latipes])r267[&&NHX:S=Percomorpha:D=N],Danio-rerio_ENSDART00000009126.9_kras-v-Ki-ras2-Kirsten-rat-:0.028027[&&NHX:S=Danio-rerio])r266[&&NHX:S=Teleostei:D=N])r263[&&NHX:S=BonyVertebrates:D=N])r252[&&NHX:S=BonyVertebrates:D=Y],(((Homo-sapiens_ENST00000256078.10_KRAS-KRAS-proto-oncoge:0.003919[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000063877.2_KRAS-KRAS-proto-onco:0.007373[&&NHX:S=Gallus-gallus])r272[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000013310.3_kras-Kirsten-rat-sar:0.031784[&&NHX:S=Xenopus-tropicalis])r271[&&NHX:S=Tetrapoda:D=N],(((Gasterosteus-aculeatus_ENSGACT00000017085.1_NONE:0.024202[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000015322.1_kras-v-Ki-ras2-K:0.004196[&&NHX:S=Tetraodon-nigroviridis])r275[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000014319.1_kras-GTPase-KRas:0.008385[&&NHX:S=Oryzias-latipes])r274[&&NHX:S=Percomorpha:D=N],Danio-rerio_ENSDART00000100961.5_NONE:0.026963[&&NHX:S=Danio-rerio])r273[&&NHX:S=Teleostei:D=N])r270[&&NHX:S=BonyVertebrates:D=N])n140:0.031939[&&NHX:S=BonyVertebrates:D=Y:B=85.0],Drosophila-melanogaster_FBtr0082122_Ras85D-Ras-oncogene-at-:0.103493[&&NHX:S=Drosophila-melanogaster])n142:0.136964[&&NHX:S=Bilateria:D=N:B=100.0])r193[&&NHX:S=Bilateria:D=Y],(((Homo-sapiens_ENST00000368322.7_RIT1-Ras-like-without-C:0.017242[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000031431.5_RIT1-Ras-like-withou:0.012011[&&NHX:S=Gallus-gallus])n146:0.088092[&&NHX:S=Amniota:D=N:B=100.0],Gallus-gallus_ENSGALT00000067790.2_RIT2-Ras-like-withou:0.113206[&&NHX:S=Gallus-gallus])n148:0.100727[&&NHX:S=Amniota:D=Y:B=99.0],Drosophila-melanogaster_FBtr0300576_Ric-Ras-related-protein:0.218042[&&NHX:S=Drosophila-melanogaster])n150:0.180305[&&NHX:S=Bilateria:D=N:B=100.0])r192[&&NHX:S=Bilateria:D=Y],((((Gallus-gallus_ENSGALT00000058644.2_RALA-RAS-like-proto-:0.013011[&&NHX:S=Gallus-gallus],Xenopus-tropicalis_ENSXETT00000028705.3_rala-v-ral-simian-le:0.009642[&&NHX:S=Xenopus-tropicalis])r277[&&NHX:S=Tetrapoda:D=N],Gasterosteus-aculeatus_ENSGACT00000006594.2_ralaa-v-ral-simi:0.027563[&&NHX:S=Gasterosteus-aculeatus])n156:0.062402[&&NHX:S=BonyVertebrates:D=N:B=95.0],Drosophila-melanogaster_FBtr0070583_Rala-Ras-like-protein-A:0.084887[&&NHX:S=Drosophila-melanogaster])n158:0.040369[&&NHX:S=Bilateria:D=N:B=93.0],Ciona-intestinalis_ENSCINT00000023837.2_NONE:0.142597[&&NHX:S=Ciona-intestinalis])n160:0.269971[&&NHX:S=Bilateria:D=Y:B=100.0])r191[&&NHX:S=Bilateria:D=Y],(Ciona-intestinalis_ENSCINT00000004477.3_NONE:0.251503[&&NHX:S=Ciona-intestinalis],Drosophila-melanogaster_FBtr0078694_Rheb-Ras-homolog-enrich:0.24393[&&NHX:S=Drosophila-melanogaster])n169:0.381868[&&NHX:S=Bilateria:D=N:B=100.0])r190[&&NHX:S=Bilateria:D=Y],(Ciona-intestinalis_ENSCINT00000029240.2_NONE:0.361846[&&NHX:S=Ciona-intestinalis],(Ciona-intestinalis_ENSCINT00000008192.3_NONE:0.445675[&&NHX:S=Ciona-intestinalis],Ciona-intestinalis_ENSCINT00000036515.1_NONE:0.371958[&&NHX:S=Ciona-intestinalis])n163:0.53327[&&NHX:S=Ciona-intestinalis:D=Y:B=100.0])r198[&&NHX:S=Ciona-intestinalis:D=Y])n170:0.128095[&&NHX:S=Bilateria:D=Y:B=75.0],(Ciona-intestinalis_ENSCINT00000015095.3_NONE:0.176334[&&NHX:S=Ciona-intestinalis],Drosophila-melanogaster_FBtr0347364_CG8500-NONE:0.177877[&&NHX:S=Drosophila-melanogaster])n173:0.254168[&&NHX:S=Bilateria:D=N:B=100.0])r185[&&NHX:S=Bilateria:D=Y],(Drosophila-melanogaster_FBtr0333376_CG8641-NONE:0.597709[&&NHX:S=Drosophila-melanogaster],Drosophila-melanogaster_FBtr0300326_CG13375-NONE:0.500874[&&NHX:S=Drosophila-melanogaster])r188[&&NHX:S=Drosophila-melanogaster:D=Y])n178[&&NHX:S=Bilateria:D=Y];
+
+>1st_gene_tree_newick
+((((((((((((((Danio-rerio_ENSDART00000058877.4_rap2ab-RAP2A-member-of-RAS-:0.016135,Tetraodon-nigroviridis_ENSTNIT00000017200.1_RAP2A-RAP2A-memb:0.000541)0:0.001616,(Danio-rerio_ENSDART00000109750.4_rap2aa-RAP2A-member-of-RAS-:0.013747,Oryzias-latipes_ENSORLT00000022118.1_NONE:0.003374)2:0.001291)2:0.002887,((Xenopus-tropicalis_ENSXETT00000063135.1_rap2a-RAP2A-member-o:0.010775,Gallus-gallus_ENSGALT00000027292.6_RAP2A-RAP2A-member-o:0.011480)2:0.003871,Homo-sapiens_ENST00000245304.5_RAP2A-RAP2A-member-of-R:0.001676)0:0.007021)3:0.008562,((Tetraodon-nigroviridis_ENSTNIT00000017778.1_NONE:0.013257,Oryzias-latipes_ENSORLT00000006833.1_rap2ab-RAP2A-member-of-:0.009211)35:0.005111,Gasterosteus-aculeatus_ENSGACT00000019959.1_rap2ab-RAP2A-mem:0.011798)83:0.049882)16:0.016339,(((Xenopus-tropicalis_ENSXETT00000011912.2_rap2c-RAP2C-member-o:0.011932,Gallus-gallus_ENSGALT00000039992.4_RAP2C-RAP2C-member-o:0.010783)23:0.002841,Homo-sapiens_ENST00000342983.6_RAP2C-RAP2C-member-of-R:0.016905)68:0.006444,(((Danio-rerio_ENSDART00000014095.7_rap2c-RAP2C-member-of-RAS-o:0.004355,Gasterosteus-aculeatus_ENSGACT00000022517.1_rap2c-RAP2C-memb:0.001215)32:0.008856,Oryzias-latipes_ENSORLT00000002708.1_rap2c-RAP2C-member-of-R:0.002298)33:0.006588,Tetraodon-nigroviridis_ENSTNIT00000020157.1_rap2c-RAP2C-memb:0.002110)89:0.027564)24:0.014464)15:0.009459,((Xenopus-tropicalis_ENSXETT00000016942.1_rap2b-RAP2B-member-o:0.015500,Oryzias-latipes_ENSORLT00000007392.1_rap2b-RAP2B-member-of-R:0.030844)29:0.006596,(((Homo-sapiens_ENST00000323534.5_RAP2B-RAP2B-member-of-R:0.015175,Danio-rerio_ENSDART00000160206.1_rap2b-RAP2B-member-of-RAS-o:0.013183)0:0.004680,((Tetraodon-nigroviridis_ENSTNIT00000011292.1_NONE:0.016992,Tetraodon-nigroviridis_ENSTNIT00000011293.1_NONE:-0.004733)10:0.015975,(Gasterosteus-aculeatus_ENSGACT00000019840.1_NONE:0.012917,Oryzias-latipes_ENSORLT00000019851.1_NONE:0.009568)0:0.005485)1:0.010479)0:0.004162,(Tetraodon-nigroviridis_ENSTNIT00000000873.1_rap2b-RAP2B-memb:0.016692,Gasterosteus-aculeatus_ENSGACT00000013584.1_rap2b-RAP2B-memb:0.011357)0:0.004903)30:0.002007)41:0.037154)80:0.054979,Ciona-intestinalis_ENSCINT00000002384.3_NONE:0.129850)42:0.026374,Drosophila-melanogaster_FBtr0072177_Rap2l-Ras-associated-pr:0.214730)100:0.086671,(((Drosophila-melanogaster_FBtr0303154_Rap1-Rap1-GTPase-DBNLIN:0.077359,(((((Xenopus-tropicalis_ENSXETT00000003047.3_rap1b-RAP1B-member-o:0.060762,Oryzias-latipes_ENSORLT00000021856.1_NONE:0.017381)99:0.043465,Tetraodon-nigroviridis_ENSTNIT00000009425.1_rap1b-RAP1B-memb:-0.000379)4:0.015021,(Homo-sapiens_ENST00000250559.14_RAP1B-RAP1B-member-of-:0.008107,Danio-rerio_ENSDART00000132081.2_rap1b-RAP1B-member-of-RAS-o:0.014603)0:0.002552)0:0.011607,(((Xenopus-tropicalis_ENSXETT00000029726.3_rap1a-RAP1A-member-o:0.014329,(Gallus-gallus_ENSGALT00000002238.5_RAP1A-member-of-RAS-:0.003354,Homo-sapiens_ENST00000356415.5_RAP1A-RAP1A-member-of-R:0.002277)65:0.008651)1:0.007036,Gasterosteus-aculeatus_ENSGACT00000015777.1_RAP1A-RAP1A-memb:0.010248)1:0.001802,(Danio-rerio_ENSDART00000050671.7_rap1aa-RAP1A-member-of-RAS-:0.007238,(((Danio-rerio_ENSDART00000129526.2_rap1ab-RAP1A-member-of-RAS-:0.000000,Tetraodon-nigroviridis_ENSTNIT00000010018.1_NONE:-0.000000)1:0.001875,Oryzias-latipes_ENSORLT00000007313.1_rap1ab-RAP1A-member-of-:0.009350)0:0.001815,Gasterosteus-aculeatus_ENSGACT00000008172.1_rap1ab-RAP1A-mem:0.003821)1:0.014217)0:0.003086)0:0.002040)0:0.007340,(Tetraodon-nigroviridis_ENSTNIT00000015655.1_NONE:0.012447,Oryzias-latipes_ENSORLT00000018726.1_NONE:0.010200)0:0.001463)2:0.027013)0:0.028592,Ciona-intestinalis_ENSCINT00000031408.1_ras-related-protein-:0.111336)0:0.010347,Gallus-gallus_ENSGALT00000108374.1_RAP1B-RAP1B-member-o:0.296129)100:0.159869)92:0.105844,Ciona-intestinalis_ENSCINT00000029240.2_NONE:0.361846)20:0.018985,(((((Drosophila-melanogaster_FBtr0073212_Ras64B-Ras-oncogene-at-:0.215087,Ciona-intestinalis_ENSCINT00000030345.1_NONE:0.164914)95:0.073938,Ciona-intestinalis_ENSCINT00000030230.1_NONE:0.286874)83:0.072945,(Drosophila-melanogaster_FBtr0082122_Ras85D-Ras-oncogene-at-:0.103493,((((Xenopus-tropicalis_ENSXETT00000007368.3_nras-neuroblastoma-R:0.017874,(Gallus-gallus_ENSGALT00000043422.3_N-RAS-neuroblastoma-:0.008384,Homo-sapiens_ENST00000369535.5_NRAS-NRAS-proto-oncogen:0.014141)72:0.013841)89:0.025426,((Xenopus-tropicalis_ENSXETT00000013308.2_hras-Harvey-rat-sarc:0.009887,(Gallus-gallus_ENSGALT00000079859.2_H-RAS-HRas-proto-onc:0.008643,(Homo-sapiens_ENST00000397596.6_HRAS-HRas-proto-oncogen:0.000000,Homo-sapiens_ENST00000631404.1_HRAS-HRas-proto-oncogen:0.000000)11:0.008422)5:0.004469)11:0.005391,(Danio-rerio_ENSDART00000171589.1_hrasa-v-Ha-ras-Harvey-rat-s:0.003245,(Gasterosteus-aculeatus_ENSGACT00000015014.1_hrasb-Ha-ras-Ha:0.039519,Oryzias-latipes_ENSORLT00000023600.1_hrasa-v-Ha-ras-Harvey-r:0.013774)7:0.002096)6:0.005651)52:0.030131)5:0.010486,((Xenopus-tropicalis_ENSXETT00000013310.3_kras-Kirsten-rat-sar:0.031784,(Xenopus-tropicalis_ENSXETT00000032647.1_ralb-v-ral-simian-le:0.012764,Danio-rerio_ENSDART00000009126.9_kras-v-Ki-ras2-Kirsten-rat-:0.028027)8:0.005054)0:0.003705,((((Gallus-gallus_ENSGALT00000063877.2_KRAS-KRAS-proto-onco:0.007373,Homo-sapiens_ENST00000256078.10_KRAS-KRAS-proto-oncoge:0.003919)10:0.004285,Tetraodon-nigroviridis_ENSTNIT00000015322.1_kras-v-Ki-ras2-K:0.004196)3:0.002943,Oryzias-latipes_ENSORLT00000014319.1_kras-GTPase-KRas:0.008385)5:0.006058,Gasterosteus-aculeatus_ENSGACT00000015474.1_kras-v-Ki-ras2-K:0.014068)9:0.020393)16:0.006253)4:0.016303,(Danio-rerio_ENSDART00000100961.5_NONE:0.026963,Gasterosteus-aculeatus_ENSGACT00000017085.1_NONE:0.024202)59:0.033958)85:0.031939)100:0.136964)69:0.033579,(Drosophila-melanogaster_FBtr0300576_Ric-Ras-related-protein:0.218042,((Gallus-gallus_ENSGALT00000031431.5_RIT1-Ras-like-withou:0.012011,Homo-sapiens_ENST00000368322.7_RIT1-Ras-like-without-C:0.017242)100:0.088092,Gallus-gallus_ENSGALT00000067790.2_RIT2-Ras-like-withou:0.113206)99:0.100727)100:0.180305)30:0.020774,(((Drosophila-melanogaster_FBtr0070583_Rala-Ras-like-protein-A:0.084887,((Xenopus-tropicalis_ENSXETT00000028705.3_rala-v-ral-simian-le:0.009642,Gallus-gallus_ENSGALT00000058644.2_RALA-RAS-like-proto-:0.013011)29:0.013980,Gasterosteus-aculeatus_ENSGACT00000006594.2_ralaa-v-ral-simi:0.027563)95:0.062402)93:0.040369,Ciona-intestinalis_ENSCINT00000023837.2_NONE:0.142597)100:0.269971,(Ciona-intestinalis_ENSCINT00000036515.1_NONE:0.371958,Ciona-intestinalis_ENSCINT00000008192.3_NONE:0.445675)100:0.533270)24:0.040969)21:0.085887)18:0.036578,(Drosophila-melanogaster_FBtr0078694_Rheb-Ras-homolog-enrich:0.243930,Ciona-intestinalis_ENSCINT00000004477.3_NONE:0.251503)100:0.381868)75:0.128095,(Drosophila-melanogaster_FBtr0347364_CG8500-NONE:0.177877,Ciona-intestinalis_ENSCINT00000015095.3_NONE:0.176334)100:0.254168)60:0.068075,Drosophila-melanogaster_FBtr0300326_CG13375-NONE:0.500874,Drosophila-melanogaster_FBtr0333376_CG8641-NONE:0.597709);
+
+>Aligned-ShortSequence_threshold evaluation
+Drosophila-melanogaster_FBtr0333376_CG8641-NONE                  0.988
+Drosophila-melanogaster_FBtr0300326_CG13375-NONE                 1.0
+Drosophila-melanogaster_FBtr0347364_CG8500-NONE                  1.0
+Drosophila-melanogaster_FBtr0078694_Rheb-Ras-homolog-enrich      0.988
+Drosophila-melanogaster_FBtr0073212_Ras64B-Ras-oncogene-at-      0.994
+Drosophila-melanogaster_FBtr0070583_Rala-Ras-like-protein-A      0.994
+Drosophila-melanogaster_FBtr0300576_Ric-Ras-related-protein      1.0
+Drosophila-melanogaster_FBtr0082122_Ras85D-Ras-oncogene-at-      1.0
+Drosophila-melanogaster_FBtr0072177_Rap2l-Ras-associated-pr      1.0
+Drosophila-melanogaster_FBtr0303154_Rap1-Rap1-GTPase-DBNLIN      1.0
+Ciona-intestinalis_ENSCINT00000036515.1_NONE                     0.994
+Ciona-intestinalis_ENSCINT00000008192.3_NONE                     0.994
+Ciona-intestinalis_ENSCINT00000004477.3_NONE                     0.988
+Ciona-intestinalis_ENSCINT00000015095.3_NONE                     0.988
+Ciona-intestinalis_ENSCINT00000030230.1_NONE                     1.0
+Ciona-intestinalis_ENSCINT00000030345.1_NONE                     1.0
+Ciona-intestinalis_ENSCINT00000023837.2_NONE                     1.0
+Ciona-intestinalis_ENSCINT00000029240.2_NONE                     1.0
+Ciona-intestinalis_ENSCINT00000002384.3_NONE                     0.994
+Ciona-intestinalis_ENSCINT00000031408.1_ras-related-protein-     1.0
+Xenopus-tropicalis_ENSXETT00000028705.3_rala-v-ral-simian-le     1.0
+Xenopus-tropicalis_ENSXETT00000007368.3_nras-neuroblastoma-R     1.0
+Xenopus-tropicalis_ENSXETT00000013310.3_kras-Kirsten-rat-sar     1.0
+Xenopus-tropicalis_ENSXETT00000013308.2_hras-Harvey-rat-sarc     1.0
+Xenopus-tropicalis_ENSXETT00000032647.1_ralb-v-ral-simian-le     1.0
+Xenopus-tropicalis_ENSXETT00000016942.1_rap2b-RAP2B-member-o     1.0
+Xenopus-tropicalis_ENSXETT00000063135.1_rap2a-RAP2A-member-o     1.0
+Xenopus-tropicalis_ENSXETT00000011912.2_rap2c-RAP2C-member-o     1.0
+Xenopus-tropicalis_ENSXETT00000003047.3_rap1b-RAP1B-member-o     0.971
+Xenopus-tropicalis_ENSXETT00000029726.3_rap1a-RAP1A-member-o     1.0
+Gallus-gallus_ENSGALT00000058644.2_RALA-RAS-like-proto-          1.0
+Gallus-gallus_ENSGALT00000043422.3_N-RAS-neuroblastoma-          1.0
+Gallus-gallus_ENSGALT00000079859.2_H-RAS-HRas-proto-onc          1.0
+Gallus-gallus_ENSGALT00000031431.5_RIT1-Ras-like-withou          0.983
+Gallus-gallus_ENSGALT00000067790.2_RIT2-Ras-like-withou          0.983
+Gallus-gallus_ENSGALT00000063877.2_KRAS-KRAS-proto-onco          1.0
+Gallus-gallus_ENSGALT00000039992.4_RAP2C-RAP2C-member-o          1.0
+Gallus-gallus_ENSGALT00000027292.6_RAP2A-RAP2A-member-o          1.0
+Gallus-gallus_ENSGALT00000108374.1_RAP1B-RAP1B-member-o          0.977
+Gallus-gallus_ENSGALT00000002238.5_RAP1A-member-of-RAS-          1.0
+Homo-sapiens_ENST00000369535.5_NRAS-NRAS-proto-oncogen           1.0
+Homo-sapiens_ENST00000368322.7_RIT1-Ras-like-without-C           0.983
+Homo-sapiens_ENST00000397596.6_HRAS-HRas-proto-oncogen           1.0
+Homo-sapiens_ENST00000631404.1_HRAS-HRas-proto-oncogen           1.0
+Homo-sapiens_ENST00000256078.10_KRAS-KRAS-proto-oncoge           1.0
+Homo-sapiens_ENST00000245304.5_RAP2A-RAP2A-member-of-R           1.0
+Homo-sapiens_ENST00000323534.5_RAP2B-RAP2B-member-of-R           1.0
+Homo-sapiens_ENST00000342983.6_RAP2C-RAP2C-member-of-R           1.0
+Homo-sapiens_ENST00000356415.5_RAP1A-RAP1A-member-of-R           1.0
+Homo-sapiens_ENST00000250559.14_RAP1B-RAP1B-member-of-           1.0
+Danio-rerio_ENSDART00000100961.5_NONE                            1.0
+Danio-rerio_ENSDART00000171589.1_hrasa-v-Ha-ras-Harvey-rat-s     1.0
+Danio-rerio_ENSDART00000009126.9_kras-v-Ki-ras2-Kirsten-rat-     1.0
+Danio-rerio_ENSDART00000160206.1_rap2b-RAP2B-member-of-RAS-o     1.0
+Danio-rerio_ENSDART00000109750.4_rap2aa-RAP2A-member-of-RAS-     1.0
+Danio-rerio_ENSDART00000014095.7_rap2c-RAP2C-member-of-RAS-o     1.0
+Danio-rerio_ENSDART00000058877.4_rap2ab-RAP2A-member-of-RAS-     1.0
+Danio-rerio_ENSDART00000132081.2_rap1b-RAP1B-member-of-RAS-o     1.0
+Danio-rerio_ENSDART00000050671.7_rap1aa-RAP1A-member-of-RAS-     1.0
+Danio-rerio_ENSDART00000129526.2_rap1ab-RAP1A-member-of-RAS-     1.0
+Tetraodon-nigroviridis_ENSTNIT00000015322.1_kras-v-Ki-ras2-K     1.0
+Tetraodon-nigroviridis_ENSTNIT00000017200.1_RAP2A-RAP2A-memb     1.0
+Tetraodon-nigroviridis_ENSTNIT00000017778.1_NONE                 1.0
+Tetraodon-nigroviridis_ENSTNIT00000011292.1_NONE                 0.936
+Tetraodon-nigroviridis_ENSTNIT00000000873.1_rap2b-RAP2B-memb     1.0
+Tetraodon-nigroviridis_ENSTNIT00000011293.1_NONE                 1.0
+Tetraodon-nigroviridis_ENSTNIT00000020157.1_rap2c-RAP2C-memb     0.983
+Tetraodon-nigroviridis_ENSTNIT00000009425.1_rap1b-RAP1B-memb     1.0
+Tetraodon-nigroviridis_ENSTNIT00000015655.1_NONE                 1.0
+Tetraodon-nigroviridis_ENSTNIT00000010018.1_NONE                 1.0
+Gasterosteus-aculeatus_ENSGACT00000006594.2_ralaa-v-ral-simi     1.0
+Gasterosteus-aculeatus_ENSGACT00000015014.1_hrasb-Ha-ras-Ha      1.0
+Gasterosteus-aculeatus_ENSGACT00000017085.1_NONE                 1.0
+Gasterosteus-aculeatus_ENSGACT00000015474.1_kras-v-Ki-ras2-K     1.0
+Gasterosteus-aculeatus_ENSGACT00000019959.1_rap2ab-RAP2A-mem     1.0
+Gasterosteus-aculeatus_ENSGACT00000019840.1_NONE                 1.0
+Gasterosteus-aculeatus_ENSGACT00000022517.1_rap2c-RAP2C-memb     1.0
+Gasterosteus-aculeatus_ENSGACT00000013584.1_rap2b-RAP2B-memb     1.0
+Gasterosteus-aculeatus_ENSGACT00000015777.1_RAP1A-RAP1A-memb     1.0
+Gasterosteus-aculeatus_ENSGACT00000008172.1_rap1ab-RAP1A-mem     1.0
+Oryzias-latipes_ENSORLT00000023600.1_hrasa-v-Ha-ras-Harvey-r     1.0
+Oryzias-latipes_ENSORLT00000014319.1_kras-GTPase-KRas            1.0
+Oryzias-latipes_ENSORLT00000006833.1_rap2ab-RAP2A-member-of-     1.0
+Oryzias-latipes_ENSORLT00000022118.1_NONE                        1.0
+Oryzias-latipes_ENSORLT00000019851.1_NONE                        1.0
+Oryzias-latipes_ENSORLT00000002708.1_rap2c-RAP2C-member-of-R     1.0
+Oryzias-latipes_ENSORLT00000007392.1_rap2b-RAP2B-member-of-R     1.0
+Oryzias-latipes_ENSORLT00000021856.1_NONE                        0.908
+Oryzias-latipes_ENSORLT00000018726.1_NONE                        1.0
+Oryzias-latipes_ENSORLT00000007313.1_rap1ab-RAP1A-member-of-     1.0
+
+
+################ Settings ################
+
+>NumberAssigned_querySequence
+Oryzias-latipes_ENSORLT00000007313.1_rap1ab-RAP1A-member-of-
+MREYKLVVLGSGGVGKSALTVQFVQGIFVEKYDPTIEDSYRKQVEVDGQQCMLEILDTAGTEQFTAMRDLYMKNGQGFALVYSITAQSTFNDLQDLREQILRVKDTEDVPMILVGNKCDLKNDRVVGKEQGQNLARQWNNCAFLESSAKSKINVLDIFYDLVRQINRKTPVEKKKAKKKSNCVLL
+
+>SpeciesTree
+(Drosophila-melanogaster,(Ciona-intestinalis,((Xenopus-tropicalis,(Gallus-gallus,Homo-sapiens)Amniota)Tetrapoda,(Danio-rerio,(Oryzias-latipes,(Tetraodon-nigroviridis,Gasterosteus-aculeatus)Eupercaria)Percomorpha)Teleostei)BonyVertebrates)Deuterostomia)Bilateria;
+
+>SubstitutionModel
+WAG (Whelan and Goldman 2001) + gamma
+
+>ShortSequence_threshold
+0.45
+
+>Dataset
+AminoAcid
+
+>Rearrangement_BS_value_threshold
+70
+
+>TaxonSampling_color
+Drosophila-melanogaster_Black
+Ciona-intestinalis_Black
+Xenopus-tropicalis_Magenta
+Gallus-gallus_Magenta
+Homo-sapiens_Magenta
+Danio-rerio_Purple
+Tetraodon-nigroviridis_Green
+Gasterosteus-aculeatus_Red
+Oryzias-latipes_Blue
+
+################ Results: 2nd analysis ################
+
+>TreeSearchMethod
+NJ
+
+>2nd_rearranged_gene_tree_newick
+(((Homo-sapiens_ENST00000250559.14_RAP1B-RAP1B-member-of-,Gallus-gallus_ENSGALT00000002238.5_RAP1A-member-of-RAS-)r_S=Amniota_D=N,(((Gasterosteus-aculeatus_ENSGACT00000015777.1_RAP1A-RAP1A-memb,Tetraodon-nigroviridis_ENSTNIT00000010018.1_NONE)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000007313.1_rap1ab-RAP1A-member-of-)r_S=Percomorpha_D=N,(Danio-rerio_ENSDART00000129526.2_rap1ab-RAP1A-member-of-RAS-,Danio-rerio_ENSDART00000132081.2_rap1b-RAP1B-member-of-RAS-o)r_S=Danio-rerio_D=Y)r_S=Teleostei_D=N)100_S=BonyVertebrates_D=N,(Tetraodon-nigroviridis_ENSTNIT00000009425.1_rap1b-RAP1B-memb,Oryzias-latipes_ENSORLT00000021856.1_NONE)r_S=Percomorpha_D=N)r_S=BonyVertebrates_D=Y;
+
+>2nd_rearranged_gene_tree_NHX
+(((Homo-sapiens_ENST00000250559.14_RAP1B-RAP1B-member-of-:0.012158[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000002238.5_RAP1A-member-of-RAS-:0.021901[&&NHX:S=Gallus-gallus])r36[&&NHX:S=Amniota:D=N],(((Gasterosteus-aculeatus_ENSGACT00000015777.1_RAP1A-RAP1A-memb:0.013074[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000010018.1_NONE:0.010909[&&NHX:S=Tetraodon-nigroviridis])r40[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000007313.1_rap1ab-RAP1A-member-of-:0.017041[&&NHX:S=Oryzias-latipes])r39[&&NHX:S=Percomorpha:D=N],(Danio-rerio_ENSDART00000129526.2_rap1ab-RAP1A-member-of-RAS-:2.03E-4[&&NHX:S=Danio-rerio],Danio-rerio_ENSDART00000132081.2_rap1b-RAP1B-member-of-RAS-o:0.023522[&&NHX:S=Danio-rerio])r41[&&NHX:S=Danio-rerio:D=Y])r38[&&NHX:S=Teleostei:D=N])n12:0.042364[&&NHX:S=BonyVertebrates:D=N:B=100.0],(Tetraodon-nigroviridis_ENSTNIT00000009425.1_rap1b-RAP1B-memb:0.005427[&&NHX:S=Tetraodon-nigroviridis],Oryzias-latipes_ENSORLT00000021856.1_NONE:0.041432[&&NHX:S=Oryzias-latipes])r30[&&NHX:S=Percomorpha:D=N])n16[&&NHX:S=BonyVertebrates:D=Y];
+
+>2nd_gene_tree_newick
+((((((Tetraodon-nigroviridis_ENSTNIT00000010018.1_NONE:0.010909,(Danio-rerio_ENSDART00000129526.2_rap1ab-RAP1A-member-of-RAS-:0.000203,Oryzias-latipes_ENSORLT00000007313.1_rap1ab-RAP1A-member-of-:0.017041)23:0.000650)33:0.016218,Gasterosteus-aculeatus_ENSGACT00000015777.1_RAP1A-RAP1A-memb:0.013074)7:0.001415,Gallus-gallus_ENSGALT00000002238.5_RAP1A-member-of-RAS-:0.021901)10:0.017485,Homo-sapiens_ENST00000250559.14_RAP1B-RAP1B-member-of-:0.012158)25:0.003272,Danio-rerio_ENSDART00000132081.2_rap1b-RAP1B-member-of-RAS-o:0.023522)99:0.042364,Tetraodon-nigroviridis_ENSTNIT00000009425.1_rap1b-RAP1B-memb:0.005427,Oryzias-latipes_ENSORLT00000021856.1_NONE:0.041432);
+
+>MonophyleticGeneGroups
+BonyVertebrates                 100  D=N
+Teleostei                       r  D=N
+Percomorpha                     r  D=N
+Oryzias-latipes                 leaf  leaf
+
+>SisterGeneGroups
+BonyVertebrates                 NONE   NoGeneNode
+Teleostei                       100   Amniota
+Percomorpha                     r   Danio-rerio
+Oryzias-latipes                 r   Eupercaria
+
+>Number_of_duplicatedNode
+BonyVertebrates                 0
+Teleostei                       0
+Percomorpha                     0
+Oryzias-latipes                 0
+
+>AnalysisTime
+45.5 seconds

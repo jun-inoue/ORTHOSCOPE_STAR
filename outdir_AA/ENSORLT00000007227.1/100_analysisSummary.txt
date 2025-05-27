@@ -1,0 +1,143 @@
+################ Results: 1st analysis ################
+
+>QuerySequence
+Oryzias-latipes_ENSORLT00000007227.1_mdh2-malate-dehydrogena  <= [Identities = 337/337 (100%)] : Oryzias-latipes_ENSORLT00000007227.1_mdh2-malate-dehydrogena
+
+>Number_of_blastHits
+Drosophila-melanogaster  3
+Ciona-intestinalis       2
+Xenopus-tropicalis       1
+Gallus-gallus            2
+Homo-sapiens             3
+Danio-rerio              3
+Tetraodon-nigroviridis   3
+Gasterosteus-aculeatus   3
+Oryzias-latipes          3
+
+>BS_of_orthogroupBasalNode
+99
+
+
+>Orthogroup
+Danio-rerio_ENSDART00000063662.5_mdh2-malate-dehydrogenase-2
+Gallus-gallus_ENSGALT00000003016.5_MDH2-malate-dehydrog
+Gasterosteus-aculeatus_ENSGACT00000008071.1_mdh2-malate-dehy
+Homo-sapiens_ENST00000315758.10_MDH2-malate-dehydrogen
+Oryzias-latipes_ENSORLT00000007227.1_mdh2-malate-dehydrogena
+Tetraodon-nigroviridis_ENSTNIT00000022533.1_mdh2-malate-dehy
+Xenopus-tropicalis_ENSXETT00000019672.2_mdh2-malate-dehydrog
+
+>GeneNumber_of_orthogroup
+Xenopus-tropicalis      1
+Gallus-gallus           1
+Homo-sapiens            1
+Danio-rerio             1
+Oryzias-latipes         1
+Tetraodon-nigroviridis  1
+Gasterosteus-aculeatus  1
+
+>Rooting
+Ciona-intestinalis_ENSCINT00000017905.3_NONE
+
+
+>1st_rearranged_gene_tree_newick
+((((((Homo-sapiens_ENST00000673047.2_LDHB-lactate-dehydrogen,Homo-sapiens_ENST00000647960.1_AC010197.2-novel-transc)100_S=Homo-sapiens_D=Y,Gallus-gallus_ENSGALT00000052417.2_LDHB-lactate-dehydro)100_S=Amniota_D=N,((((Gasterosteus-aculeatus_ENSGACT00000005721.1_ldhbb-lactate-de,Tetraodon-nigroviridis_ENSTNIT00000019321.1_ldhbb-lactate-de)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000004694.1_ldhbb-lactate-dehydroge)96_S=Percomorpha_D=N,((Gasterosteus-aculeatus_ENSGACT00000001427.1_ldhba-lactate-de,Tetraodon-nigroviridis_ENSTNIT00000010222.1_ldhba-lactate-de)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000012534.1_ldhba-lactate-dehydroge)99_S=Percomorpha_D=N)r_S=Percomorpha_D=Y,(Danio-rerio_ENSDART00000104866.4_ldhbb-lactate-dehydrogenase,Danio-rerio_ENSDART00000010777.6_ldhba-lactate-dehydrogenase)80_S=Danio-rerio_D=Y)r_S=Teleostei_D=N)100_S=BonyVertebrates_D=N,Ciona-intestinalis_ENSCINT00000007004.3_NONE)100_S=Deuterostomia_D=N,(Drosophila-melanogaster_FBtr0083563_Mdh2-Malate-dehydrogena,Drosophila-melanogaster_FBtr0075900_CG10748-NONE)r_S=Drosophila-melanogaster_D=Y)r_S=Bilateria_D=N,(((((Homo-sapiens_ENST00000315758.10_MDH2-malate-dehydrogen,Gallus-gallus_ENSGALT00000003016.5_MDH2-malate-dehydrog)70_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000019672.2_mdh2-malate-dehydrog)r_S=Tetrapoda_D=N,(((Oryzias-latipes_ENSORLT00000007227.1_mdh2-malate-dehydrogena,Gasterosteus-aculeatus_ENSGACT00000008071.1_mdh2-malate-dehy)76_S=Percomorpha_D=N,Tetraodon-nigroviridis_ENSTNIT00000022533.1_mdh2-malate-dehy)r_S=Percomorpha_D=Y,Danio-rerio_ENSDART00000063662.5_mdh2-malate-dehydrogenase-2)r_S=Teleostei_D=N)99_S=BonyVertebrates_D=N,Ciona-intestinalis_ENSCINT00000017905.3_NONE)99_S=Deuterostomia_D=N,Drosophila-melanogaster_FBtr0075871_CG10749-NONE)r_S=Bilateria_D=N)r_S=Bilateria_D=Y;
+
+>1st_rearranged_gene_tree_NHX
+((((((Homo-sapiens_ENST00000673047.2_LDHB-lactate-dehydrogen:0.015191[&&NHX:S=Homo-sapiens],Homo-sapiens_ENST00000647960.1_AC010197.2-novel-transc:0.0[&&NHX:S=Homo-sapiens])n17:0.018806[&&NHX:S=Homo-sapiens:D=Y:B=100.0],Gallus-gallus_ENSGALT00000052417.2_LDHB-lactate-dehydro:0.075204[&&NHX:S=Gallus-gallus])n19:0.083231[&&NHX:S=Amniota:D=N:B=100.0],((((Gasterosteus-aculeatus_ENSGACT00000005721.1_ldhbb-lactate-de:0.055811[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000019321.1_ldhbb-lactate-de:0.070531[&&NHX:S=Tetraodon-nigroviridis])r60[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000004694.1_ldhbb-lactate-dehydroge:0.032088[&&NHX:S=Oryzias-latipes])n4:0.041347[&&NHX:S=Percomorpha:D=N:B=96.0],((Gasterosteus-aculeatus_ENSGACT00000001427.1_ldhba-lactate-de:0.043464[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000010222.1_ldhba-lactate-de:0.032571[&&NHX:S=Tetraodon-nigroviridis])r62[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000012534.1_ldhba-lactate-dehydroge:0.028953[&&NHX:S=Oryzias-latipes])n12:0.049152[&&NHX:S=Percomorpha:D=N:B=99.0])r58[&&NHX:S=Percomorpha:D=Y],(Danio-rerio_ENSDART00000104866.4_ldhbb-lactate-dehydrogenase:0.054205[&&NHX:S=Danio-rerio],Danio-rerio_ENSDART00000010777.6_ldhba-lactate-dehydrogenase:0.059657[&&NHX:S=Danio-rerio])n7:0.010972[&&NHX:S=Danio-rerio:D=Y:B=80.0])r57[&&NHX:S=Teleostei:D=N])n20:0.211309[&&NHX:S=BonyVertebrates:D=N:B=100.0],Ciona-intestinalis_ENSCINT00000007004.3_NONE:0.228853[&&NHX:S=Ciona-intestinalis])n22:1.073709[&&NHX:S=Deuterostomia:D=N:B=100.0],(Drosophila-melanogaster_FBtr0083563_Mdh2-Malate-dehydrogena:0.173061[&&NHX:S=Drosophila-melanogaster],Drosophila-melanogaster_FBtr0075900_CG10748-NONE:0.326917[&&NHX:S=Drosophila-melanogaster])r52[&&NHX:S=Drosophila-melanogaster:D=Y])r51[&&NHX:S=Bilateria:D=N],(((((Homo-sapiens_ENST00000315758.10_MDH2-malate-dehydrogen:0.059884[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000003016.5_MDH2-malate-dehydrog:0.037959[&&NHX:S=Gallus-gallus])n25:0.019762[&&NHX:S=Amniota:D=N:B=70.0],Xenopus-tropicalis_ENSXETT00000019672.2_mdh2-malate-dehydrog:0.06663[&&NHX:S=Xenopus-tropicalis])r64[&&NHX:S=Tetrapoda:D=N],(((Oryzias-latipes_ENSORLT00000007227.1_mdh2-malate-dehydrogena:0.024972[&&NHX:S=Oryzias-latipes],Gasterosteus-aculeatus_ENSGACT00000008071.1_mdh2-malate-dehy:0.038518[&&NHX:S=Gasterosteus-aculeatus])n30:0.012794[&&NHX:S=Percomorpha:D=N:B=76.0],Tetraodon-nigroviridis_ENSTNIT00000022533.1_mdh2-malate-dehy:0.02743[&&NHX:S=Tetraodon-nigroviridis])r66[&&NHX:S=Percomorpha:D=Y],Danio-rerio_ENSDART00000063662.5_mdh2-malate-dehydrogenase-2:0.048133[&&NHX:S=Danio-rerio])r65[&&NHX:S=Teleostei:D=N])n35:0.097443[&&NHX:S=BonyVertebrates:D=N:B=99.0],Ciona-intestinalis_ENSCINT00000017905.3_NONE:0.171513[&&NHX:S=Ciona-intestinalis])n37:0.174342[&&NHX:S=Deuterostomia:D=N:B=99.0],Drosophila-melanogaster_FBtr0075871_CG10749-NONE:0.408624[&&NHX:S=Drosophila-melanogaster])r53[&&NHX:S=Bilateria:D=N])n44[&&NHX:S=Bilateria:D=Y];
+
+>1st_gene_tree_newick
+(((((((Tetraodon-nigroviridis_ENSTNIT00000019321.1_ldhbb-lactate-de:0.070531,Gasterosteus-aculeatus_ENSGACT00000005721.1_ldhbb-lactate-de:0.055811)20:0.004706,Oryzias-latipes_ENSORLT00000004694.1_ldhbb-lactate-dehydroge:0.032088)96:0.041347,((Danio-rerio_ENSDART00000010777.6_ldhba-lactate-dehydrogenase:0.059657,Danio-rerio_ENSDART00000104866.4_ldhbb-lactate-dehydrogenase:0.054205)80:0.010972,((Tetraodon-nigroviridis_ENSTNIT00000010222.1_ldhba-lactate-de:0.032571,Gasterosteus-aculeatus_ENSGACT00000001427.1_ldhba-lactate-de:0.043464)23:0.001466,Oryzias-latipes_ENSORLT00000012534.1_ldhba-lactate-dehydroge:0.028953)99:0.049152)25:0.008026)46:0.018936,(Gallus-gallus_ENSGALT00000052417.2_LDHB-lactate-dehydro:0.075204,(Homo-sapiens_ENST00000647960.1_AC010197.2-novel-transc:-0.007623,Homo-sapiens_ENST00000673047.2_LDHB-lactate-dehydrogen:0.015191)100:0.018806)100:0.083231)100:0.211309,Ciona-intestinalis_ENSCINT00000007004.3_NONE:0.228853)100:1.073709,(Drosophila-melanogaster_FBtr0083563_Mdh2-Malate-dehydrogena:0.173061,(Ciona-intestinalis_ENSCINT00000017905.3_NONE:0.171513,((Xenopus-tropicalis_ENSXETT00000019672.2_mdh2-malate-dehydrog:0.066630,(Gallus-gallus_ENSGALT00000003016.5_MDH2-malate-dehydrog:0.037959,Homo-sapiens_ENST00000315758.10_MDH2-malate-dehydrogen:0.059884)70:0.019762)60:0.008776,(Danio-rerio_ENSDART00000063662.5_mdh2-malate-dehydrogenase-2:0.048133,(Tetraodon-nigroviridis_ENSTNIT00000022533.1_mdh2-malate-dehy:0.027430,(Gasterosteus-aculeatus_ENSGACT00000008071.1_mdh2-malate-dehy:0.038518,Oryzias-latipes_ENSORLT00000007227.1_mdh2-malate-dehydrogena:0.024972)76:0.012794)69:0.013196)65:0.033397)99:0.097443)99:0.174342)56:0.071497)18:0.041265,Drosophila-melanogaster_FBtr0075871_CG10749-NONE:0.408624,Drosophila-melanogaster_FBtr0075900_CG10748-NONE:0.326917);
+
+>Aligned-ShortSequence_threshold evaluation
+Drosophila-melanogaster_FBtr0075900_CG10748-NONE                 0.984
+Drosophila-melanogaster_FBtr0075871_CG10749-NONE                 0.984
+Drosophila-melanogaster_FBtr0083563_Mdh2-Malate-dehydrogena      1.0
+Ciona-intestinalis_ENSCINT00000007004.3_NONE                     0.997
+Ciona-intestinalis_ENSCINT00000017905.3_NONE                     1.0
+Xenopus-tropicalis_ENSXETT00000019672.2_mdh2-malate-dehydrog     1.0
+Gallus-gallus_ENSGALT00000052417.2_LDHB-lactate-dehydro          1.0
+Gallus-gallus_ENSGALT00000003016.5_MDH2-malate-dehydrog          1.0
+Homo-sapiens_ENST00000647960.1_AC010197.2-novel-transc           0.834
+Homo-sapiens_ENST00000673047.2_LDHB-lactate-dehydrogen           1.0
+Homo-sapiens_ENST00000315758.10_MDH2-malate-dehydrogen           1.0
+Danio-rerio_ENSDART00000010777.6_ldhba-lactate-dehydrogenase     1.0
+Danio-rerio_ENSDART00000104866.4_ldhbb-lactate-dehydrogenase     1.0
+Danio-rerio_ENSDART00000063662.5_mdh2-malate-dehydrogenase-2     1.0
+Tetraodon-nigroviridis_ENSTNIT00000019321.1_ldhbb-lactate-de     0.997
+Tetraodon-nigroviridis_ENSTNIT00000010222.1_ldhba-lactate-de     1.0
+Tetraodon-nigroviridis_ENSTNIT00000022533.1_mdh2-malate-dehy     1.0
+Gasterosteus-aculeatus_ENSGACT00000001427.1_ldhba-lactate-de     1.0
+Gasterosteus-aculeatus_ENSGACT00000005721.1_ldhbb-lactate-de     1.0
+Gasterosteus-aculeatus_ENSGACT00000008071.1_mdh2-malate-dehy     1.0
+Oryzias-latipes_ENSORLT00000004694.1_ldhbb-lactate-dehydroge     1.0
+Oryzias-latipes_ENSORLT00000012534.1_ldhba-lactate-dehydroge     1.0
+Oryzias-latipes_ENSORLT00000007227.1_mdh2-malate-dehydrogena     1.0
+
+
+################ Settings ################
+
+>NumberAssigned_querySequence
+Oryzias-latipes_ENSORLT00000007227.1_mdh2-malate-dehydrogena
+MFSRAVRPTVSFARCLSTSSQNNAKVAVLGASGGIGQPLSLLLKNSPLVSHLSLYDIAHTPGVAADLSHIETRAQVTGYMGPDQLDAALQGCEVVVIPAGVPRKPGMTRDDLFNTNATIVATLADACARNCPEAMICIIANPVNSTIPITSEVMKKHGVYNPNRVFGVTTLDIVRANTFVAELKGLDPARVNVPVIGGHAGKTIIPLISQCTPKVEFPADQLSALTGRIQEAGTEVVKAKAGAGSATLSMAYAGARFTFSVLDAMNGKEGVVECAFVRSEETECKYFSTPLLLGKSGIEKNLGLGKLSAFEEKLVADAIGELKASIKKGEDFAANMK
+
+>SpeciesTree
+(Drosophila-melanogaster,(Ciona-intestinalis,((Xenopus-tropicalis,(Gallus-gallus,Homo-sapiens)Amniota)Tetrapoda,(Danio-rerio,(Oryzias-latipes,(Tetraodon-nigroviridis,Gasterosteus-aculeatus)Eupercaria)Percomorpha)Teleostei)BonyVertebrates)Deuterostomia)Bilateria;
+
+>SubstitutionModel
+WAG (Whelan and Goldman 2001) + gamma
+
+>ShortSequence_threshold
+0.45
+
+>Dataset
+AminoAcid
+
+>Rearrangement_BS_value_threshold
+70
+
+>TaxonSampling_color
+Drosophila-melanogaster_Black
+Ciona-intestinalis_Black
+Xenopus-tropicalis_Magenta
+Gallus-gallus_Magenta
+Homo-sapiens_Magenta
+Danio-rerio_Purple
+Tetraodon-nigroviridis_Green
+Gasterosteus-aculeatus_Red
+Oryzias-latipes_Blue
+
+################ Results: 2nd analysis ################
+
+>TreeSearchMethod
+NJ
+
+>2nd_rearranged_gene_tree_newick
+((((Homo-sapiens_ENST00000315758.10_MDH2-malate-dehydrogen,Gallus-gallus_ENSGALT00000003016.5_MDH2-malate-dehydrog)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000019672.2_mdh2-malate-dehydrog)100_S=Tetrapoda_D=N,(((Oryzias-latipes_ENSORLT00000007227.1_mdh2-malate-dehydrogena,Gasterosteus-aculeatus_ENSGACT00000008071.1_mdh2-malate-dehy)98_S=Percomorpha_D=N,Tetraodon-nigroviridis_ENSTNIT00000022533.1_mdh2-malate-dehy)82_S=Percomorpha_D=Y,Danio-rerio_ENSDART00000063662.5_mdh2-malate-dehydrogenase-2)86_S=Teleostei_D=N)r_S=BonyVertebrates_D=N,Ciona-intestinalis_ENSCINT00000017905.3_NONE)r_S=Deuterostomia_D=N;
+
+>2nd_rearranged_gene_tree_NHX
+((((Homo-sapiens_ENST00000315758.10_MDH2-malate-dehydrogen:0.071869[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000003016.5_MDH2-malate-dehydrog:0.042996[&&NHX:S=Gallus-gallus])r21[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000019672.2_mdh2-malate-dehydrog:0.076754[&&NHX:S=Xenopus-tropicalis])n4:0.020487[&&NHX:S=Tetrapoda:D=N:B=100.0],(((Oryzias-latipes_ENSORLT00000007227.1_mdh2-malate-dehydrogena:0.024784[&&NHX:S=Oryzias-latipes],Gasterosteus-aculeatus_ENSGACT00000008071.1_mdh2-malate-dehy:0.042142[&&NHX:S=Gasterosteus-aculeatus])n7:0.018193[&&NHX:S=Percomorpha:D=N:B=98.0],Tetraodon-nigroviridis_ENSTNIT00000022533.1_mdh2-malate-dehy:0.035864[&&NHX:S=Tetraodon-nigroviridis])n9:0.015732[&&NHX:S=Percomorpha:D=Y:B=82.0],Danio-rerio_ENSDART00000063662.5_mdh2-malate-dehydrogenase-2:0.046248[&&NHX:S=Danio-rerio])n11:0.02703[&&NHX:S=Teleostei:D=N:B=86.0])r19[&&NHX:S=BonyVertebrates:D=N],Ciona-intestinalis_ENSCINT00000017905.3_NONE:0.286571[&&NHX:S=Ciona-intestinalis])n14[&&NHX:S=Deuterostomia:D=N];
+
+>2nd_gene_tree_newick
+((Xenopus-tropicalis_ENSXETT00000019672.2_mdh2-malate-dehydrog:0.076754,(Gallus-gallus_ENSGALT00000003016.5_MDH2-malate-dehydrog:0.042996,Homo-sapiens_ENST00000315758.10_MDH2-malate-dehydrogen:0.071869)58:0.013754)66:0.020487,(Danio-rerio_ENSDART00000063662.5_mdh2-malate-dehydrogenase-2:0.046248,((Gasterosteus-aculeatus_ENSGACT00000008071.1_mdh2-malate-dehy:0.042142,Oryzias-latipes_ENSORLT00000007227.1_mdh2-malate-dehydrogena:0.024784)98:0.018193,Tetraodon-nigroviridis_ENSTNIT00000022533.1_mdh2-malate-dehy:0.035864)82:0.015732)86:0.027030,Ciona-intestinalis_ENSCINT00000017905.3_NONE:0.286571);
+
+>MonophyleticGeneGroups
+BonyVertebrates                 r  D=N
+Teleostei                       86  D=N
+Percomorpha                     82  D=Y
+Oryzias-latipes                 leaf  leaf
+
+>SisterGeneGroups
+BonyVertebrates                 NONE   NoGeneNode
+Teleostei                       r   Tetrapoda
+Percomorpha                     86   Danio-rerio
+Oryzias-latipes                 98   Gasterosteus-aculeatus
+
+>Number_of_duplicatedNode
+BonyVertebrates                 0
+Teleostei                       0
+Percomorpha                     1
+Oryzias-latipes                 0
+
+>AnalysisTime
+18.7 seconds

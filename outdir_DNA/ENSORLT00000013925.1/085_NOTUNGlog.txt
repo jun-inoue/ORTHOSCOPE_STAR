@@ -1,0 +1,11 @@
+| Reading gene tree file outdir_DNA/ENSORLT00000013925.1/085_NJBS1st.txt
+|  Guessing location of bootstrap values: names.  Use --bootstraps option to specify location.
+| Reading species tree file outdir_DNA/ENSORLT00000013925.1/000_speciesTree.txt
+| 	Costs:   --costdup 1.5, --costloss 1.0
+| 
+| Reconciling 085_NJBS1st.txt with 000_speciesTree.txt
+| Rearranging gene tree
+|  With --threshold 70.0
+|  1 optimal histories found, reporting up to 5 of them.  Use --maxtrees option to output more.
+| Saving outdir_DNA/ENSORLT00000013925.1/085_NJBS1st.txt.rearrange.0
+|  Has 29 duplications and 29 losses, Event Score is 72.5

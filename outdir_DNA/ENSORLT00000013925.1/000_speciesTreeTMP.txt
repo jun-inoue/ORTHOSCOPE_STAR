@@ -1,0 +1,1 @@
+(Drosophila-melanogaster,(Ciona-intestinalis,((Xenopus-tropicalis,(Gallus-gallus,Homo-sapiens)Amniota)Tetrapoda,(Danio-rerio,((Tetraodon-nigroviridis,Gasterosteus-aculeatus)Eupercaria,Oryzias-latipes)Percomorpha)Teleostei)BonyVertebrates)Deuterostomia)Bilateria;

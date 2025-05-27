@@ -1,0 +1,175 @@
+################ Results: 1st analysis ################
+
+>QuerySequence
+Oryzias-latipes_ENSORLT00000000566.1_DLD-dihydrolipoamide-de  <= [Identities = 397/397 (100%)] : Oryzias-latipes_ENSORLT00000000566.1_DLD-dihydrolipoamide-de
+
+>Number_of_blastHits
+Drosophila-melanogaster  4
+Ciona-intestinalis       4
+Xenopus-tropicalis       8
+Gallus-gallus            6
+Homo-sapiens             6
+Danio-rerio              8
+Tetraodon-nigroviridis   6
+Gasterosteus-aculeatus   7
+Oryzias-latipes          6
+
+>BS_of_orthogroupBasalNode
+99
+
+
+>Orthogroup
+Danio-rerio_ENSDART00000006709.6_dldh-dihydrolipoamide-dehyd
+Gallus-gallus_ENSGALT00000068183.2_DLD-dihydrolipoamide
+Gasterosteus-aculeatus_ENSGACT00000010992.1_dldh-dihydrolipo
+Homo-sapiens_ENST00000417551.5_DLD-dihydrolipoamide-de
+Oryzias-latipes_ENSORLT00000000566.1_DLD-dihydrolipoamide-de
+Tetraodon-nigroviridis_ENSTNIT00000007300.1_dldh-dihydrolipo
+Xenopus-tropicalis_ENSXETT00000026823.3_dld-dihydrolipoamide
+
+>GeneNumber_of_orthogroup
+Xenopus-tropicalis      1
+Gallus-gallus           1
+Homo-sapiens            1
+Danio-rerio             1
+Oryzias-latipes         1
+Tetraodon-nigroviridis  1
+Gasterosteus-aculeatus  1
+
+>Rooting
+Ciona-intestinalis_ENSCINT00000016324.3_NONE
+
+
+>1st_rearranged_gene_tree_newick
+(((((((((((Homo-sapiens_ENST00000524230.8_TXNRD3-thioredoxin-redu,Gallus-gallus_ENSGALT00000071945.2_TXNRD3-thioredoxin-r)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000010415.2_txnrd3-thioredoxin-r)r_S=Tetrapoda_D=N,(((Gasterosteus-aculeatus_ENSGACT00000014397.1_txnrd1-thioredox,Tetraodon-nigroviridis_ENSTNIT00000010355.1_txnrd1-thioredox)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000014830.1_txnrd1-thioredoxin-redu)97_S=Percomorpha_D=N,Danio-rerio_ENSDART00000172544.2_txnrd1-thioredoxin-reductas)100_S=Teleostei_D=N)86_S=BonyVertebrates_D=N,((Homo-sapiens_ENST00000525566.6_TXNRD1-thioredoxin-redu,Gallus-gallus_ENSGALT00000081628.2_TXNRD1-thioredoxin-r)100_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000042545.3_txnrd1-thioredoxin-r)93_S=Tetrapoda_D=N)96_S=BonyVertebrates_D=Y,Ciona-intestinalis_ENSCINT00000034883.1_txnrd3-thioredoxin-r)100_S=Deuterostomia_D=N,((((Homo-sapiens_ENST00000221130.11_GSR-glutathione-disulf,Gallus-gallus_ENSGALT00000064155.2_GSR-glutathione-disu)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000024638.2_gsr-glutathione-redu)90_S=Tetrapoda_D=N,(((Oryzias-latipes_ENSORLT00000000771.1_gsr-glutathione-reducta,Tetraodon-nigroviridis_ENSTNIT00000019037.1_gsr-glutathione-)81_S=Percomorpha_D=N,Gasterosteus-aculeatus_ENSGACT00000023248.1_gsr-glutathione-)91_S=Percomorpha_D=Y,Danio-rerio_ENSDART00000127479.2_gsr-glutathione-reductase)96_S=Teleostei_D=N)98_S=BonyVertebrates_D=N,Ciona-intestinalis_ENSCINT00000007825.3_NONE)97_S=Deuterostomia_D=N)r_S=Deuterostomia_D=Y,(((Homo-sapiens_ENST00000400521.7_TXNRD2-thioredoxin-redu,Gallus-gallus_ENSGALT00000106227.1_TXNRD2-thioredoxin-r)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000013826.3_txnrd2-thioredoxin-r)r_S=Tetrapoda_D=N,(((Gasterosteus-aculeatus_ENSGACT00000017271.1_txnrd2-thioredox,Tetraodon-nigroviridis_ENSTNIT00000020108.1_txnrd2-thioredox)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000019072.1_txnrd2-thioredoxin-redu)r_S=Percomorpha_D=N,(Danio-rerio_ENSDART00000110987.3_TXNRD2-thioredoxin-reductas,Danio-rerio_ENSDART00000139203.1_txnrd2-thioredoxin-reductas)r_S=Danio-rerio_D=Y)r_S=Teleostei_D=N)r_S=BonyVertebrates_D=N)r_S=Deuterostomia_D=Y,(Drosophila-melanogaster_FBtr0071168_Trxr-1-Thioredoxin-redu,Drosophila-melanogaster_FBtr0078514_Trxr-2-thioredoxin-redu)100_S=Drosophila-melanogaster_D=Y)85_S=Bilateria_D=N,(((((Homo-sapiens_ENST00000417551.5_DLD-dihydrolipoamide-de,Gallus-gallus_ENSGALT00000068183.2_DLD-dihydrolipoamide)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000026823.3_dld-dihydrolipoamide)r_S=Tetrapoda_D=N,(((Gasterosteus-aculeatus_ENSGACT00000010992.1_dldh-dihydrolipo,Tetraodon-nigroviridis_ENSTNIT00000007300.1_dldh-dihydrolipo)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000000566.1_DLD-dihydrolipoamide-de)r_S=Percomorpha_D=N,Danio-rerio_ENSDART00000006709.6_dldh-dihydrolipoamide-dehyd)88_S=Teleostei_D=N)99_S=BonyVertebrates_D=N,Ciona-intestinalis_ENSCINT00000016324.3_NONE)r_S=Deuterostomia_D=N,Drosophila-melanogaster_FBtr0331810_CG7430-NONE)99_S=Bilateria_D=N)99_S=Bilateria_D=Y,Xenopus-tropicalis_ENSXETT00000037399.3_aifm2-apoptosis-indu)99_S=Bilateria_D=Y,((((((Homo-sapiens_ENST00000399167.6_AIFM3-apoptosis-inducin,Gallus-gallus_ENSGALT00000061869.3_AIFM3-apoptosis-indu)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000057179.2_aifm3-apoptosis-indu)95_S=Tetrapoda_D=N,((Oryzias-latipes_ENSORLT00000009977.1_aifm3-apoptosis-inducin,Gasterosteus-aculeatus_ENSGACT00000012403.1_aifm3-apoptosis-)100_S=Percomorpha_D=N,Danio-rerio_ENSDART00000091124.4_aifm3-apoptosis-inducing-fa)98_S=Teleostei_D=N)99_S=BonyVertebrates_D=N,(Xenopus-tropicalis_ENSXETT00000061302.1_NONE,(((Gasterosteus-aculeatus_ENSGACT00000027134.1_aifm5-apoptosis-,Tetraodon-nigroviridis_ENSTNIT00000019446.1_aifm5-apoptosis-)97_S=Eupercaria_D=N,Danio-rerio_ENSDART00000115097.3_aifm5-apoptosis-inducing-fa)96_S=Teleostei_D=N,(((Gasterosteus-aculeatus_ENSGACT00000011233.1_aifm4-apoptosis-,Tetraodon-nigroviridis_ENSTNIT00000021358.1_aifm4-apoptosis-)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000010038.1_aifm4-apoptosis-inducin)96_S=Percomorpha_D=N,Danio-rerio_ENSDART00000154164.2_aifm4-apoptosis-inducing-fa)78_S=Teleostei_D=N)r_S=Teleostei_D=Y)r_S=BonyVertebrates_D=N)r_S=BonyVertebrates_D=Y,Ciona-intestinalis_ENSCINT00000015764.3_NONE)r_S=Deuterostomia_D=N,Drosophila-melanogaster_FBtr0070336_CG4199-NONE)r_S=Bilateria_D=N)r_S=Bilateria_D=Y;
+
+>1st_rearranged_gene_tree_NHX
+(((((((((((Homo-sapiens_ENST00000524230.8_TXNRD3-thioredoxin-redu:0.149778[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000071945.2_TXNRD3-thioredoxin-r:0.083226[&&NHX:S=Gallus-gallus])r134[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000010415.2_txnrd3-thioredoxin-r:0.104956[&&NHX:S=Xenopus-tropicalis])r133[&&NHX:S=Tetrapoda:D=N],(((Gasterosteus-aculeatus_ENSGACT00000014397.1_txnrd1-thioredox:0.064953[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000010355.1_txnrd1-thioredox:0.057845[&&NHX:S=Tetraodon-nigroviridis])r136[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000014830.1_txnrd1-thioredoxin-redu:0.296972[&&NHX:S=Oryzias-latipes])n9:0.019245[&&NHX:S=Percomorpha:D=N:B=97.0],Danio-rerio_ENSDART00000172544.2_txnrd1-thioredoxin-reductas:0.064045[&&NHX:S=Danio-rerio])n11:0.054388[&&NHX:S=Teleostei:D=N:B=100.0])n12:0.021748[&&NHX:S=BonyVertebrates:D=N:B=86.0],((Homo-sapiens_ENST00000525566.6_TXNRD1-thioredoxin-redu:0.099048[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000081628.2_TXNRD1-thioredoxin-r:0.060249[&&NHX:S=Gallus-gallus])n15:0.018783[&&NHX:S=Amniota:D=N:B=100.0],Xenopus-tropicalis_ENSXETT00000042545.3_txnrd1-thioredoxin-r:0.149087[&&NHX:S=Xenopus-tropicalis])n17:0.038827[&&NHX:S=Tetrapoda:D=N:B=93.0])n18:0.062252[&&NHX:S=BonyVertebrates:D=Y:B=96.0],Ciona-intestinalis_ENSCINT00000034883.1_txnrd3-thioredoxin-r:0.21848[&&NHX:S=Ciona-intestinalis])n20:0.153746[&&NHX:S=Deuterostomia:D=N:B=100.0],((((Homo-sapiens_ENST00000221130.11_GSR-glutathione-disulf:0.130115[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000064155.2_GSR-glutathione-disu:0.141006[&&NHX:S=Gallus-gallus])r138[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000024638.2_gsr-glutathione-redu:0.148586[&&NHX:S=Xenopus-tropicalis])n45:0.034186[&&NHX:S=Tetrapoda:D=N:B=90.0],(((Oryzias-latipes_ENSORLT00000000771.1_gsr-glutathione-reducta:0.107298[&&NHX:S=Oryzias-latipes],Tetraodon-nigroviridis_ENSTNIT00000019037.1_gsr-glutathione-:0.047278[&&NHX:S=Tetraodon-nigroviridis])n48:0.022591[&&NHX:S=Percomorpha:D=N:B=81.0],Gasterosteus-aculeatus_ENSGACT00000023248.1_gsr-glutathione-:0.046857[&&NHX:S=Gasterosteus-aculeatus])n50:0.057685[&&NHX:S=Percomorpha:D=Y:B=91.0],Danio-rerio_ENSDART00000127479.2_gsr-glutathione-reductase:0.135332[&&NHX:S=Danio-rerio])n52:0.051569[&&NHX:S=Teleostei:D=N:B=96.0])n53:0.064917[&&NHX:S=BonyVertebrates:D=N:B=98.0],Ciona-intestinalis_ENSCINT00000007825.3_NONE:0.234478[&&NHX:S=Ciona-intestinalis])n55:0.286553[&&NHX:S=Deuterostomia:D=N:B=97.0])r122[&&NHX:S=Deuterostomia:D=Y],(((Homo-sapiens_ENST00000400521.7_TXNRD2-thioredoxin-redu:0.191714[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000106227.1_TXNRD2-thioredoxin-r:0.132482[&&NHX:S=Gallus-gallus])r126[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000013826.3_txnrd2-thioredoxin-r:0.131665[&&NHX:S=Xenopus-tropicalis])r125[&&NHX:S=Tetrapoda:D=N],(((Gasterosteus-aculeatus_ENSGACT00000017271.1_txnrd2-thioredox:0.082233[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000020108.1_txnrd2-thioredox:0.082946[&&NHX:S=Tetraodon-nigroviridis])r129[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000019072.1_txnrd2-thioredoxin-redu:0.162177[&&NHX:S=Oryzias-latipes])r128[&&NHX:S=Percomorpha:D=N],(Danio-rerio_ENSDART00000110987.3_TXNRD2-thioredoxin-reductas:0.009206[&&NHX:S=Danio-rerio],Danio-rerio_ENSDART00000139203.1_txnrd2-thioredoxin-reductas:0.0[&&NHX:S=Danio-rerio])r130[&&NHX:S=Danio-rerio:D=Y])r127[&&NHX:S=Teleostei:D=N])r124[&&NHX:S=BonyVertebrates:D=N])r121[&&NHX:S=Deuterostomia:D=Y],(Drosophila-melanogaster_FBtr0071168_Trxr-1-Thioredoxin-redu:0.108904[&&NHX:S=Drosophila-melanogaster],Drosophila-melanogaster_FBtr0078514_Trxr-2-thioredoxin-redu:0.15392[&&NHX:S=Drosophila-melanogaster])n23:0.240499[&&NHX:S=Drosophila-melanogaster:D=Y:B=100.0])n56:0.322938[&&NHX:S=Bilateria:D=N:B=85.0],(((((Homo-sapiens_ENST00000417551.5_DLD-dihydrolipoamide-de:0.058094[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000068183.2_DLD-dihydrolipoamide:0.044437[&&NHX:S=Gallus-gallus])r143[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000026823.3_dld-dihydrolipoamide:0.083284[&&NHX:S=Xenopus-tropicalis])r142[&&NHX:S=Tetrapoda:D=N],(((Gasterosteus-aculeatus_ENSGACT00000010992.1_dldh-dihydrolipo:0.020032[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000007300.1_dldh-dihydrolipo:0.029213[&&NHX:S=Tetraodon-nigroviridis])r146[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000000566.1_DLD-dihydrolipoamide-de:0.047021[&&NHX:S=Oryzias-latipes])r145[&&NHX:S=Percomorpha:D=N],Danio-rerio_ENSDART00000006709.6_dldh-dihydrolipoamide-dehyd:0.035925[&&NHX:S=Danio-rerio])n68:0.045145[&&NHX:S=Teleostei:D=N:B=88.0])n69:0.077316[&&NHX:S=BonyVertebrates:D=N:B=99.0],Ciona-intestinalis_ENSCINT00000016324.3_NONE:0.156827[&&NHX:S=Ciona-intestinalis])r140[&&NHX:S=Deuterostomia:D=N],Drosophila-melanogaster_FBtr0331810_CG7430-NONE:0.205064[&&NHX:S=Drosophila-melanogaster])n73:0.509361[&&NHX:S=Bilateria:D=N:B=99.0])n74:0.564627[&&NHX:S=Bilateria:D=Y:B=99.0],Xenopus-tropicalis_ENSXETT00000037399.3_aifm2-apoptosis-indu:0.899468[&&NHX:S=Xenopus-tropicalis])n76:0.335768[&&NHX:S=Bilateria:D=Y:B=99.0],((((((Homo-sapiens_ENST00000399167.6_AIFM3-apoptosis-inducin:0.110971[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000061869.3_AIFM3-apoptosis-indu:0.054455[&&NHX:S=Gallus-gallus])r148[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000057179.2_aifm3-apoptosis-indu:0.237938[&&NHX:S=Xenopus-tropicalis])n96:0.068529[&&NHX:S=Tetrapoda:D=N:B=95.0],((Oryzias-latipes_ENSORLT00000009977.1_aifm3-apoptosis-inducin:0.052051[&&NHX:S=Oryzias-latipes],Gasterosteus-aculeatus_ENSGACT00000012403.1_aifm3-apoptosis-:0.054995[&&NHX:S=Gasterosteus-aculeatus])n99:0.069769[&&NHX:S=Percomorpha:D=N:B=100.0],Danio-rerio_ENSDART00000091124.4_aifm3-apoptosis-inducing-fa:0.054029[&&NHX:S=Danio-rerio])n101:0.097781[&&NHX:S=Teleostei:D=N:B=98.0])n102:0.204874[&&NHX:S=BonyVertebrates:D=N:B=99.0],(Xenopus-tropicalis_ENSXETT00000061302.1_NONE:0.274368[&&NHX:S=Xenopus-tropicalis],(((Gasterosteus-aculeatus_ENSGACT00000027134.1_aifm5-apoptosis-:0.143315[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000019446.1_aifm5-apoptosis-:0.08761[&&NHX:S=Tetraodon-nigroviridis])n79:0.100955[&&NHX:S=Eupercaria:D=N:B=97.0],Danio-rerio_ENSDART00000115097.3_aifm5-apoptosis-inducing-fa:0.16772[&&NHX:S=Danio-rerio])n81:0.121185[&&NHX:S=Teleostei:D=N:B=96.0],(((Gasterosteus-aculeatus_ENSGACT00000011233.1_aifm4-apoptosis-:0.108454[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000021358.1_aifm4-apoptosis-:0.093346[&&NHX:S=Tetraodon-nigroviridis])r150[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000010038.1_aifm4-apoptosis-inducin:0.166307[&&NHX:S=Oryzias-latipes])n86:0.11142[&&NHX:S=Percomorpha:D=N:B=96.0],Danio-rerio_ENSDART00000154164.2_aifm4-apoptosis-inducing-fa:0.145005[&&NHX:S=Danio-rerio])n88:0.048922[&&NHX:S=Teleostei:D=N:B=78.0])r119[&&NHX:S=Teleostei:D=Y])r116[&&NHX:S=BonyVertebrates:D=N])r115[&&NHX:S=BonyVertebrates:D=Y],Ciona-intestinalis_ENSCINT00000015764.3_NONE:0.460173[&&NHX:S=Ciona-intestinalis])r114[&&NHX:S=Deuterostomia:D=N],Drosophila-melanogaster_FBtr0070336_CG4199-NONE:0.627846[&&NHX:S=Drosophila-melanogaster])r113[&&NHX:S=Bilateria:D=N])n108[&&NHX:S=Bilateria:D=Y];
+
+>1st_gene_tree_newick
+(((((((((Homo-sapiens_ENST00000524230.8_TXNRD3-thioredoxin-redu:0.149778,(Xenopus-tropicalis_ENSXETT00000010415.2_txnrd3-thioredoxin-r:0.104956,Gallus-gallus_ENSGALT00000071945.2_TXNRD3-thioredoxin-r:0.083226)28:0.013729)52:0.014607,(Danio-rerio_ENSDART00000172544.2_txnrd1-thioredoxin-reductas:0.064045,((Tetraodon-nigroviridis_ENSTNIT00000010355.1_txnrd1-thioredox:0.057845,Oryzias-latipes_ENSORLT00000014830.1_txnrd1-thioredoxin-redu:0.296972)35:0.010200,Gasterosteus-aculeatus_ENSGACT00000014397.1_txnrd1-thioredox:0.064953)97:0.019245)100:0.054388)86:0.021748,(Xenopus-tropicalis_ENSXETT00000042545.3_txnrd1-thioredoxin-r:0.149087,(Gallus-gallus_ENSGALT00000081628.2_TXNRD1-thioredoxin-r:0.060249,Homo-sapiens_ENST00000525566.6_TXNRD1-thioredoxin-redu:0.099048)100:0.018783)93:0.038827)96:0.062252,Ciona-intestinalis_ENSCINT00000034883.1_txnrd3-thioredoxin-r:0.218480)100:0.153746,((Drosophila-melanogaster_FBtr0078514_Trxr-2-thioredoxin-redu:0.153920,Drosophila-melanogaster_FBtr0071168_Trxr-1-Thioredoxin-redu:0.108904)100:0.240499,(((Xenopus-tropicalis_ENSXETT00000013826.3_txnrd2-thioredoxin-r:0.131665,Gallus-gallus_ENSGALT00000106227.1_TXNRD2-thioredoxin-r:0.132482)15:0.011158,Homo-sapiens_ENST00000400521.7_TXNRD2-thioredoxin-redu:0.191714)36:0.014861,((Danio-rerio_ENSDART00000139203.1_txnrd2-thioredoxin-reductas:-0.009206,Danio-rerio_ENSDART00000110987.3_TXNRD2-thioredoxin-reductas:0.009206)39:0.105835,(Tetraodon-nigroviridis_ENSTNIT00000020108.1_txnrd2-thioredox:0.082946,(Gasterosteus-aculeatus_ENSGACT00000017271.1_txnrd2-thioredox:0.082233,Oryzias-latipes_ENSORLT00000019072.1_txnrd2-thioredoxin-redu:0.162177)36:0.006581)35:0.028335)48:0.071068)59:0.095489)10:0.044936)65:0.303772,(Ciona-intestinalis_ENSCINT00000007825.3_NONE:0.234478,(((Xenopus-tropicalis_ENSXETT00000024638.2_gsr-glutathione-redu:0.148586,Homo-sapiens_ENST00000221130.11_GSR-glutathione-disulf:0.130115)56:0.015877,Gallus-gallus_ENSGALT00000064155.2_GSR-glutathione-disu:0.141006)90:0.034186,(Danio-rerio_ENSDART00000127479.2_gsr-glutathione-reductase:0.135332,((Tetraodon-nigroviridis_ENSTNIT00000019037.1_gsr-glutathione-:0.047278,Oryzias-latipes_ENSORLT00000000771.1_gsr-glutathione-reducta:0.107298)81:0.022591,Gasterosteus-aculeatus_ENSGACT00000023248.1_gsr-glutathione-:0.046857)91:0.057685)96:0.051569)98:0.064917)97:0.286553)85:0.322938,(Drosophila-melanogaster_FBtr0331810_CG7430-NONE:0.205064,(Ciona-intestinalis_ENSCINT00000016324.3_NONE:0.156827,(((Xenopus-tropicalis_ENSXETT00000026823.3_dld-dihydrolipoamide:0.083284,Gallus-gallus_ENSGALT00000068183.2_DLD-dihydrolipoamide:0.044437)31:0.005767,Homo-sapiens_ENST00000417551.5_DLD-dihydrolipoamide-de:0.058094)62:0.015869,(Danio-rerio_ENSDART00000006709.6_dldh-dihydrolipoamide-dehyd:0.035925,(Tetraodon-nigroviridis_ENSTNIT00000007300.1_dldh-dihydrolipo:0.029213,(Gasterosteus-aculeatus_ENSGACT00000010992.1_dldh-dihydrolipo:0.020032,Oryzias-latipes_ENSORLT00000000566.1_DLD-dihydrolipoamide-de:0.047021)41:0.022962)11:0.012549)88:0.045145)99:0.077316)64:0.019357)99:0.509361)99:0.564627,Xenopus-tropicalis_ENSXETT00000037399.3_aifm2-apoptosis-indu:0.899468)99:0.335768,(Ciona-intestinalis_ENSCINT00000015764.3_NONE:0.460173,((Xenopus-tropicalis_ENSXETT00000061302.1_NONE:0.274368,((Danio-rerio_ENSDART00000115097.3_aifm5-apoptosis-inducing-fa:0.167720,(Tetraodon-nigroviridis_ENSTNIT00000019446.1_aifm5-apoptosis-:0.087610,Gasterosteus-aculeatus_ENSGACT00000027134.1_aifm5-apoptosis-:0.143315)97:0.100955)96:0.121185,(Danio-rerio_ENSDART00000154164.2_aifm4-apoptosis-inducing-fa:0.145005,((Tetraodon-nigroviridis_ENSTNIT00000021358.1_aifm4-apoptosis-:0.093346,Gasterosteus-aculeatus_ENSGACT00000011233.1_aifm4-apoptosis-:0.108454)55:0.024735,Oryzias-latipes_ENSORLT00000010038.1_aifm4-apoptosis-inducin:0.166307)96:0.111420)78:0.048922)62:0.042439)64:0.046382,(((Xenopus-tropicalis_ENSXETT00000057179.2_aifm3-apoptosis-indu:0.237938,Gallus-gallus_ENSGALT00000061869.3_AIFM3-apoptosis-indu:0.054455)56:0.013439,Homo-sapiens_ENST00000399167.6_AIFM3-apoptosis-inducin:0.110971)95:0.068529,(Danio-rerio_ENSDART00000091124.4_aifm3-apoptosis-inducing-fa:0.054029,(Gasterosteus-aculeatus_ENSGACT00000012403.1_aifm3-apoptosis-:0.054995,Oryzias-latipes_ENSORLT00000009977.1_aifm3-apoptosis-inducin:0.052051)100:0.069769)98:0.097781)99:0.204874)37:0.020208)30:0.037749,Drosophila-melanogaster_FBtr0070336_CG4199-NONE:0.627846);
+
+>Aligned-ShortSequence_threshold evaluation
+Drosophila-melanogaster_FBtr0070336_CG4199-NONE                  0.847
+Drosophila-melanogaster_FBtr0078514_Trxr-2-thioredoxin-redu      0.995
+Drosophila-melanogaster_FBtr0071168_Trxr-1-Thioredoxin-redu      0.989
+Drosophila-melanogaster_FBtr0331810_CG7430-NONE                  0.997
+Ciona-intestinalis_ENSCINT00000015764.3_NONE                     0.845
+Ciona-intestinalis_ENSCINT00000034883.1_txnrd3-thioredoxin-r     1.0
+Ciona-intestinalis_ENSCINT00000007825.3_NONE                     0.968
+Ciona-intestinalis_ENSCINT00000016324.3_NONE                     0.997
+Xenopus-tropicalis_ENSXETT00000037399.3_aifm2-apoptosis-indu     0.774
+Xenopus-tropicalis_ENSXETT00000061302.1_NONE                     0.845
+Xenopus-tropicalis_ENSXETT00000057179.2_aifm3-apoptosis-indu     0.845
+Xenopus-tropicalis_ENSXETT00000024638.2_gsr-glutathione-redu     0.966
+Xenopus-tropicalis_ENSXETT00000013826.3_txnrd2-thioredoxin-r     1.0
+Xenopus-tropicalis_ENSXETT00000010415.2_txnrd3-thioredoxin-r     1.0
+Xenopus-tropicalis_ENSXETT00000042545.3_txnrd1-thioredoxin-r     0.997
+Xenopus-tropicalis_ENSXETT00000026823.3_dld-dihydrolipoamide     1.0
+Gallus-gallus_ENSGALT00000061869.3_AIFM3-apoptosis-indu          0.866
+Gallus-gallus_ENSGALT00000106227.1_TXNRD2-thioredoxin-r          1.0
+Gallus-gallus_ENSGALT00000071945.2_TXNRD3-thioredoxin-r          1.0
+Gallus-gallus_ENSGALT00000064155.2_GSR-glutathione-disu          0.974
+Gallus-gallus_ENSGALT00000081628.2_TXNRD1-thioredoxin-r          1.0
+Gallus-gallus_ENSGALT00000068183.2_DLD-dihydrolipoamide          1.0
+Homo-sapiens_ENST00000399167.6_AIFM3-apoptosis-inducin           0.845
+Homo-sapiens_ENST00000221130.11_GSR-glutathione-disulf           0.971
+Homo-sapiens_ENST00000525566.6_TXNRD1-thioredoxin-redu           1.0
+Homo-sapiens_ENST00000400521.7_TXNRD2-thioredoxin-redu           1.0
+Homo-sapiens_ENST00000524230.8_TXNRD3-thioredoxin-redu           1.0
+Homo-sapiens_ENST00000417551.5_DLD-dihydrolipoamide-de           1.0
+Danio-rerio_ENSDART00000115097.3_aifm5-apoptosis-inducing-fa     0.845
+Danio-rerio_ENSDART00000091124.4_aifm3-apoptosis-inducing-fa     0.845
+Danio-rerio_ENSDART00000154164.2_aifm4-apoptosis-inducing-fa     0.845
+Danio-rerio_ENSDART00000139203.1_txnrd2-thioredoxin-reductas     0.5
+Danio-rerio_ENSDART00000110987.3_TXNRD2-thioredoxin-reductas     1.0
+Danio-rerio_ENSDART00000172544.2_txnrd1-thioredoxin-reductas     1.0
+Danio-rerio_ENSDART00000127479.2_gsr-glutathione-reductase       0.974
+Danio-rerio_ENSDART00000006709.6_dldh-dihydrolipoamide-dehyd     1.0
+Tetraodon-nigroviridis_ENSTNIT00000021358.1_aifm4-apoptosis-     0.845
+Tetraodon-nigroviridis_ENSTNIT00000019446.1_aifm5-apoptosis-     0.845
+Tetraodon-nigroviridis_ENSTNIT00000020108.1_txnrd2-thioredox     0.997
+Tetraodon-nigroviridis_ENSTNIT00000019037.1_gsr-glutathione-     0.974
+Tetraodon-nigroviridis_ENSTNIT00000010355.1_txnrd1-thioredox     1.0
+Tetraodon-nigroviridis_ENSTNIT00000007300.1_dldh-dihydrolipo     1.0
+Gasterosteus-aculeatus_ENSGACT00000012403.1_aifm3-apoptosis-     0.845
+Gasterosteus-aculeatus_ENSGACT00000011233.1_aifm4-apoptosis-     0.845
+Gasterosteus-aculeatus_ENSGACT00000027134.1_aifm5-apoptosis-     0.845
+Gasterosteus-aculeatus_ENSGACT00000017271.1_txnrd2-thioredox     1.0
+Gasterosteus-aculeatus_ENSGACT00000014397.1_txnrd1-thioredox     1.0
+Gasterosteus-aculeatus_ENSGACT00000023248.1_gsr-glutathione-     0.958
+Gasterosteus-aculeatus_ENSGACT00000010992.1_dldh-dihydrolipo     1.0
+Oryzias-latipes_ENSORLT00000009977.1_aifm3-apoptosis-inducin     0.845
+Oryzias-latipes_ENSORLT00000010038.1_aifm4-apoptosis-inducin     0.845
+Oryzias-latipes_ENSORLT00000014830.1_txnrd1-thioredoxin-redu     0.979
+Oryzias-latipes_ENSORLT00000019072.1_txnrd2-thioredoxin-redu     0.695
+Oryzias-latipes_ENSORLT00000000771.1_gsr-glutathione-reducta     0.971
+Oryzias-latipes_ENSORLT00000000566.1_DLD-dihydrolipoamide-de     1.0
+
+
+################ Settings ################
+
+>NumberAssigned_querySequence
+Oryzias-latipes_ENSORLT00000000566.1_DLD-dihydrolipoamide-de
+VTGISLNLEKMMAQKSGAVKALTGGIAHLFKQNKVTHVNGFGRVTGKNQVTATAEDGSEQVINTKNILIATGSEVTPFPGIQIDEDTVVSSTGALSLKKVPGELIVIGAGVIGVELGSVWQRLGSKVTAVEFLGHVGGMGIDMEISKNFQRILQKQGLKFKLSTKVLGATRRPDGKIDVSVEAAAGGKNETLTCDVLLVCIGRRPYTQNLGLDSVGIELDSRGRIPVNGRFQTQVPSIYAIGDVVAGPMLAHKAEDEGIICVEGMAGGAVHIDYNCVPSVIYTHPELAWVGKTEEQLKEEGVPYKVGRFPFAANSRAKTNADTDGLVKILGHKETDRMLGAHILGTGAGEMINEAALAMEYGASCEDVARVCHAHPTVSEAFREANLAASFGKAINF
+
+>SpeciesTree
+(Drosophila-melanogaster,(Ciona-intestinalis,((Xenopus-tropicalis,(Gallus-gallus,Homo-sapiens)Amniota)Tetrapoda,(Danio-rerio,(Oryzias-latipes,(Tetraodon-nigroviridis,Gasterosteus-aculeatus)Eupercaria)Percomorpha)Teleostei)BonyVertebrates)Deuterostomia)Bilateria;
+
+>SubstitutionModel
+WAG (Whelan and Goldman 2001) + gamma
+
+>ShortSequence_threshold
+0.45
+
+>Dataset
+AminoAcid
+
+>Rearrangement_BS_value_threshold
+70
+
+>TaxonSampling_color
+Drosophila-melanogaster_Black
+Ciona-intestinalis_Black
+Xenopus-tropicalis_Magenta
+Gallus-gallus_Magenta
+Homo-sapiens_Magenta
+Danio-rerio_Purple
+Tetraodon-nigroviridis_Green
+Gasterosteus-aculeatus_Red
+Oryzias-latipes_Blue
+
+################ Results: 2nd analysis ################
+
+>TreeSearchMethod
+NJ
+
+>2nd_rearranged_gene_tree_newick
+((((Homo-sapiens_ENST00000417551.5_DLD-dihydrolipoamide-de,Gallus-gallus_ENSGALT00000068183.2_DLD-dihydrolipoamide)75_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000026823.3_dld-dihydrolipoamide)84_S=Tetrapoda_D=N,(((Gasterosteus-aculeatus_ENSGACT00000010992.1_dldh-dihydrolipo,Tetraodon-nigroviridis_ENSTNIT00000007300.1_dldh-dihydrolipo)r_S=Eupercaria_D=N,Danio-rerio_ENSDART00000006709.6_dldh-dihydrolipoamide-dehyd)76_S=Teleostei_D=N,Oryzias-latipes_ENSORLT00000000566.1_DLD-dihydrolipoamide-de)100_S=Teleostei_D=Y)r_S=BonyVertebrates_D=N,Ciona-intestinalis_ENSCINT00000016324.3_NONE)r_S=Deuterostomia_D=N;
+
+>2nd_rearranged_gene_tree_NHX
+((((Homo-sapiens_ENST00000417551.5_DLD-dihydrolipoamide-de:0.062335[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000068183.2_DLD-dihydrolipoamide:0.047338[&&NHX:S=Gallus-gallus])n9:0.015878[&&NHX:S=Amniota:D=N:B=75.0],Xenopus-tropicalis_ENSXETT00000026823.3_dld-dihydrolipoamide:0.062601[&&NHX:S=Xenopus-tropicalis])n11:0.021856[&&NHX:S=Tetrapoda:D=N:B=84.0],(((Gasterosteus-aculeatus_ENSGACT00000010992.1_dldh-dihydrolipo:0.049697[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000007300.1_dldh-dihydrolipo:0.050933[&&NHX:S=Tetraodon-nigroviridis])r22[&&NHX:S=Eupercaria:D=N],Danio-rerio_ENSDART00000006709.6_dldh-dihydrolipoamide-dehyd:0.04503[&&NHX:S=Danio-rerio])n4:0.00331[&&NHX:S=Teleostei:D=N:B=76.0],Oryzias-latipes_ENSORLT00000000566.1_DLD-dihydrolipoamide-de:0.015826[&&NHX:S=Oryzias-latipes])n6:0.031604[&&NHX:S=Teleostei:D=Y:B=100.0])r19[&&NHX:S=BonyVertebrates:D=N],Ciona-intestinalis_ENSCINT00000016324.3_NONE:0.238656[&&NHX:S=Ciona-intestinalis])n14[&&NHX:S=Deuterostomia:D=N];
+
+>2nd_gene_tree_newick
+((Oryzias-latipes_ENSORLT00000000566.1_DLD-dihydrolipoamide-de:0.015826,(Danio-rerio_ENSDART00000006709.6_dldh-dihydrolipoamide-dehyd:0.045030,(Gasterosteus-aculeatus_ENSGACT00000010992.1_dldh-dihydrolipo:0.049697,Tetraodon-nigroviridis_ENSTNIT00000007300.1_dldh-dihydrolipo:0.050933)17:0.006707)76:0.003310)97:0.031604,((Gallus-gallus_ENSGALT00000068183.2_DLD-dihydrolipoamide:0.047338,Homo-sapiens_ENST00000417551.5_DLD-dihydrolipoamide-de:0.062335)75:0.015878,Xenopus-tropicalis_ENSXETT00000026823.3_dld-dihydrolipoamide:0.062601)84:0.021856,Ciona-intestinalis_ENSCINT00000016324.3_NONE:0.238656);
+
+>MonophyleticGeneGroups
+BonyVertebrates                 r  D=N
+Teleostei                       100  D=Y
+Percomorpha                     NoGeneNode  NONE
+Oryzias-latipes                 leaf  leaf
+
+>SisterGeneGroups
+BonyVertebrates                 NONE   NoGeneNode
+Teleostei                       r   Tetrapoda
+Percomorpha                     NONE   NoGeneNode
+Oryzias-latipes                 100   Teleostei(Eupercaria;Danio-rerio)
+
+>Number_of_duplicatedNode
+BonyVertebrates                 0
+Teleostei                       1
+Percomorpha                     0
+Oryzias-latipes                 0
+
+>AnalysisTime
+30.5 seconds

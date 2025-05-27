@@ -1,0 +1,210 @@
+################ Results: 1st analysis ################
+
+>QuerySequence
+Oryzias-latipes_ENSORLT00000016747.1_ppp1cb-protein-phosphat  <= [Identities = 327/327 (100%)] : Oryzias-latipes_ENSORLT00000016747.1_ppp1cb-protein-phosphat
+
+>Number_of_blastHits
+Drosophila-melanogaster  10
+Ciona-intestinalis       10
+Xenopus-tropicalis       10
+Gallus-gallus            10
+Homo-sapiens             10
+Danio-rerio              10
+Tetraodon-nigroviridis   10
+Gasterosteus-aculeatus   10
+Oryzias-latipes          10
+
+>BS_of_orthogroupBasalNode
+70
+
+
+>Orthogroup
+Danio-rerio_ENSDART00000130955.2_ppp1cb-protein-phosphatase-
+Gallus-gallus_ENSGALT00000031908.5_PPP1CB-protein-phosp
+Gasterosteus-aculeatus_ENSGACT00000010836.1_NONE
+Gasterosteus-aculeatus_ENSGACT00000013668.1_NONE
+Homo-sapiens_ENST00000296122.10_PPP1CB-protein-phospha
+Oryzias-latipes_ENSORLT00000016747.1_ppp1cb-protein-phosphat
+Tetraodon-nigroviridis_ENSTNIT00000020596.1_ppp1cb-protein-p
+
+>GeneNumber_of_orthogroup
+Xenopus-tropicalis      0
+Gallus-gallus           1
+Homo-sapiens            1
+Danio-rerio             1
+Oryzias-latipes         1
+Tetraodon-nigroviridis  1
+Gasterosteus-aculeatus  2
+
+>Rooting
+Gallus-gallus_ENSGALT00000085502.2_PPP1CA-protein-phosp
+
+
+>1st_rearranged_gene_tree_newick
+(((((((((((((Gasterosteus-aculeatus_ENSGACT00000017944.1_ppp1caa-protein-,Tetraodon-nigroviridis_ENSTNIT00000018186.1_ppp1caa-protein-)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000002504.1_ppp1caa-protein-phospha)r_S=Percomorpha_D=N,Danio-rerio_ENSDART00000025046.6_ppp1caa-protein-phosphatase)r_S=Teleostei_D=N,(((Gasterosteus-aculeatus_ENSGACT00000009824.1_NONE,Tetraodon-nigroviridis_ENSTNIT00000022362.1_NONE)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000007369.1_NONE)r_S=Percomorpha_D=N,Danio-rerio_ENSDART00000160664.1_ppp1cab-protein-phosphatase)r_S=Teleostei_D=N)94_S=Teleostei_D=Y,Xenopus-tropicalis_ENSXETT00000021336.2_ppp1ca-protein-phosp)73_S=BonyVertebrates_D=N,(((Homo-sapiens_ENST00000340766.9_PPP1CC-protein-phosphat,Gallus-gallus_ENSGALT00000087687.2_PPP1CC-protein-phosp)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000052896.1_ppp1cc-protein-phosp)r_S=Tetrapoda_D=N,(((Gasterosteus-aculeatus_ENSGACT00000017866.1_PPP1CC-protein-p,Tetraodon-nigroviridis_ENSTNIT00000014597.1_PPP1CC-protein-p)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000019964.1_PPP1CC-protein-phosphat)90_S=Percomorpha_D=N,Danio-rerio_ENSDART00000165431.2_PPP1CC-protein-phosphatase-)r_S=Teleostei_D=N)70_S=BonyVertebrates_D=N)r_S=BonyVertebrates_D=Y,Homo-sapiens_ENST00000312989.11_PPP1CA-protein-phospha)r_S=BonyVertebrates_D=Y,(Ciona-intestinalis_ENSCINT00000001310.3_NONE,Ciona-intestinalis_ENSCINT00000009413.3_NONE)100_S=Ciona-intestinalis_D=Y)r_S=Deuterostomia_D=N,((Drosophila-melanogaster_FBtr0334334_Pp1alpha-96A-Protein-ph,Drosophila-melanogaster_FBtr0082595_Pp1-87B-Protein-phospha)92_S=Drosophila-melanogaster_D=Y,Drosophila-melanogaster_FBtr0074017_Pp1-13C-Protein-phospha)93_S=Drosophila-melanogaster_D=Y)83_S=Bilateria_D=N,((((((Gallus-gallus_ENSGALT00000085502.2_PPP1CA-protein-phosp,Xenopus-tropicalis_ENSXETT00000022536.3_ppp1cb-protein-phosp)100_S=Tetrapoda_D=N,Danio-rerio_ENSDART00000172681.1_ppp1cbl-protein-phosphatase)100_S=BonyVertebrates_D=N,((Homo-sapiens_ENST00000296122.10_PPP1CB-protein-phospha,Gallus-gallus_ENSGALT00000031908.5_PPP1CB-protein-phosp)96_S=Amniota_D=N,((((Gasterosteus-aculeatus_ENSGACT00000013668.1_NONE,Tetraodon-nigroviridis_ENSTNIT00000020596.1_ppp1cb-protein-p)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000016747.1_ppp1cb-protein-phosphat)r_S=Percomorpha_D=N,Danio-rerio_ENSDART00000130955.2_ppp1cb-protein-phosphatase-)86_S=Teleostei_D=N,Gasterosteus-aculeatus_ENSGACT00000010836.1_NONE)81_S=Teleostei_D=Y)70_S=BonyVertebrates_D=N)r_S=BonyVertebrates_D=Y,((Gasterosteus-aculeatus_ENSGACT00000026545.1_ppp1cbl-protein-,Tetraodon-nigroviridis_ENSTNIT00000023039.1_NONE)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000013925.1_ppp1cbl-protein-phospha)r_S=Percomorpha_D=N)r_S=BonyVertebrates_D=Y,Ciona-intestinalis_ENSCINT00000030661.1_NONE)r_S=Deuterostomia_D=N,Drosophila-melanogaster_FBtr0071446_flw-flapwing-DBNLINE-20)r_S=Bilateria_D=N)100_S=Bilateria_D=Y,Drosophila-melanogaster_FBtr0346673_Pp1-Y2-Protein-phosphat)87_S=Bilateria_D=Y,((((((((Homo-sapiens_ENST00000397775.7_PPP3CC-protein-phosphat,Gallus-gallus_ENSGALT00000050753.2_PPP3CC-serine-threon)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000023087.3_ppp3cb-protein-phosp)88_S=Tetrapoda_D=N,((Homo-sapiens_ENST00000394829.6_PPP3CB-protein-phosphat,Gallus-gallus_ENSGALT00000040333.4_PPP3CB-protein-phosp)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000024404.3_ppp3cc-protein-phosp)99_S=Tetrapoda_D=N)86_S=Tetrapoda_D=Y,((Homo-sapiens_ENST00000394854.8_PPP3CA-protein-phosphat,Gallus-gallus_ENSGALT00000107973.1_PPP3CA-protein-phosp)82_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000024402.3_ppp3ca-protein-phosp)100_S=Tetrapoda_D=N)99_S=Tetrapoda_D=Y,Ciona-intestinalis_ENSCINT00000021891.2_NONE)100_S=Deuterostomia_D=N,(Gallus-gallus_ENSGALT00000026662.6_PPEF1-protein-phosph,Ciona-intestinalis_ENSCINT00000028169.2_NONE)100_S=Deuterostomia_D=N)76_S=Deuterostomia_D=Y,(((((((Homo-sapiens_ENST00000451402.5_PPP6C-protein-phosphata,Gallus-gallus_ENSGALT00000001495.6_PPP6C-protein-phosph)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000036696.3_ppp6c-protein-phosph)r_S=Tetrapoda_D=N,(Tetraodon-nigroviridis_ENSTNIT00000005857.1_ppp6c-protein-ph,(Oryzias-latipes_ENSORLT00000023264.1_NONE,Oryzias-latipes_ENSORLT00000015576.1_NONE)r_S=Oryzias-latipes_D=Y)r_S=Percomorpha_D=N)100_S=BonyVertebrates_D=N,Ciona-intestinalis_ENSCINT00000035680.1_NONE)84_S=Deuterostomia_D=N,Ciona-intestinalis_ENSCINT00000034222.1_NONE)100_S=Deuterostomia_D=Y,(((Homo-sapiens_ENST00000279387.12_PPP4C-protein-phosphat,Xenopus-tropicalis_ENSXETT00000044675.3_ppp4c-protein-phosph)r_S=Tetrapoda_D=N,((((Gasterosteus-aculeatus_ENSGACT00000007255.2_ppp4cb-protein-p,Tetraodon-nigroviridis_ENSTNIT00000017219.1_ppp4cb-protein-p)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000021690.1_ppp4cb-protein-phosphat)82_S=Percomorpha_D=N,Danio-rerio_ENSDART00000114857.3_ppp4cb-protein-phosphatase-)71_S=Teleostei_D=N,Danio-rerio_ENSDART00000103741.4_ppp4ca-protein-phosphatase-)r_S=Teleostei_D=Y)98_S=BonyVertebrates_D=N,Ciona-intestinalis_ENSCINT00000010125.3_NONE)100_S=Deuterostomia_D=N)71_S=Deuterostomia_D=Y,((((Danio-rerio_ENSDART00000162617.1_ppp2cb-protein-phosphatase-,Homo-sapiens_ENST00000221138.9_PPP2CB-protein-phosphat)75_S=BonyVertebrates_D=N,((Gallus-gallus_ENSGALT00000010437.6_PPP2CA-protein-phosp,Xenopus-tropicalis_ENSXETT00000035093.3_ppp2ca-protein-phosp)r_S=Tetrapoda_D=N,((Oryzias-latipes_ENSORLT00000024523.1_NONE,Gasterosteus-aculeatus_ENSGACT00000001381.1_NONE)80_S=Percomorpha_D=N,Danio-rerio_ENSDART00000151106.2_NONE)r_S=Teleostei_D=N)r_S=BonyVertebrates_D=N)r_S=BonyVertebrates_D=Y,(((Homo-sapiens_ENST00000481195.6_PPP2CA-protein-phosphat,Gallus-gallus_ENSGALT00000016708.5_PPP2CB-protein-phosp)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000054984.2_ppp2cb-protein-phosp)r_S=Tetrapoda_D=N,((((Gasterosteus-aculeatus_ENSGACT00000024037.1_NONE,Tetraodon-nigroviridis_ENSTNIT00000019412.1_ppp2ca-protein-p)r_S=Eupercaria_D=N,(Gasterosteus-aculeatus_ENSGACT00000027668.1_NONE,Tetraodon-nigroviridis_ENSTNIT00000022300.1_NONE)r_S=Eupercaria_D=N)r_S=Eupercaria_D=Y,Oryzias-latipes_ENSORLT00000001163.1_ppp2ca-protein-phosphat)r_S=Percomorpha_D=N,Danio-rerio_ENSDART00000042421.8_ppp2ca-protein-phosphatase-)r_S=Teleostei_D=N)r_S=BonyVertebrates_D=N)87_S=BonyVertebrates_D=Y,Ciona-intestinalis_ENSCINT00000008274.3_NONE)100_S=Deuterostomia_D=N)97_S=Deuterostomia_D=Y)100_S=Deuterostomia_D=Y,((Drosophila-melanogaster_FBtr0344898_PpY-55A-Protein-phospha,Drosophila-melanogaster_FBtr0071734_PpN58A-Protein-phosphat)r_S=Drosophila-melanogaster_D=Y,Drosophila-melanogaster_FBtr0071806_PpD5-Protein-phosphatas)r_S=Drosophila-melanogaster_D=Y)r_S=Bilateria_D=N)73_S=Bilateria_D=Y,(Drosophila-melanogaster_FBtr0077660_PpD6-Protein-phosphatas,Drosophila-melanogaster_FBtr0346674_Pp1-Y1-Protein-phosphat)r_S=Drosophila-melanogaster_D=Y)r_S=Bilateria_D=Y;
+
+>1st_rearranged_gene_tree_NHX
+(((((((((((((Gasterosteus-aculeatus_ENSGACT00000017944.1_ppp1caa-protein-:0.001762[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000018186.1_ppp1caa-protein-:0.001419[&&NHX:S=Tetraodon-nigroviridis])r212[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000002504.1_ppp1caa-protein-phospha:0.00168[&&NHX:S=Oryzias-latipes])r211[&&NHX:S=Percomorpha:D=N],Danio-rerio_ENSDART00000025046.6_ppp1caa-protein-phosphatase:0.011939[&&NHX:S=Danio-rerio])r210[&&NHX:S=Teleostei:D=N],(((Gasterosteus-aculeatus_ENSGACT00000009824.1_NONE:0.009648[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000022362.1_NONE:0.002486[&&NHX:S=Tetraodon-nigroviridis])r215[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000007369.1_NONE:0.003908[&&NHX:S=Oryzias-latipes])r214[&&NHX:S=Percomorpha:D=N],Danio-rerio_ENSDART00000160664.1_ppp1cab-protein-phosphatase:0.045289[&&NHX:S=Danio-rerio])r213[&&NHX:S=Teleostei:D=N])n14:0.009777[&&NHX:S=Teleostei:D=Y:B=94.0],Xenopus-tropicalis_ENSXETT00000021336.2_ppp1ca-protein-phosp:0.016539[&&NHX:S=Xenopus-tropicalis])n16:0.013362[&&NHX:S=BonyVertebrates:D=N:B=73.0],(((Homo-sapiens_ENST00000340766.9_PPP1CC-protein-phosphat:0.02233[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000087687.2_PPP1CC-protein-phosp:0.027664[&&NHX:S=Gallus-gallus])r218[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000052896.1_ppp1cc-protein-phosp:0.006077[&&NHX:S=Xenopus-tropicalis])r217[&&NHX:S=Tetrapoda:D=N],(((Gasterosteus-aculeatus_ENSGACT00000017866.1_PPP1CC-protein-p:-0.0[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000014597.1_PPP1CC-protein-p:-0.0[&&NHX:S=Tetraodon-nigroviridis])r221[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000019964.1_PPP1CC-protein-phosphat:0.0[&&NHX:S=Oryzias-latipes])n21:0.008049[&&NHX:S=Percomorpha:D=N:B=90.0],Danio-rerio_ENSDART00000165431.2_PPP1CC-protein-phosphatase-:0.01122[&&NHX:S=Danio-rerio])r219[&&NHX:S=Teleostei:D=N])n29:0.01275[&&NHX:S=BonyVertebrates:D=N:B=70.0])r202[&&NHX:S=BonyVertebrates:D=Y],Homo-sapiens_ENST00000312989.11_PPP1CA-protein-phospha:0.033588[&&NHX:S=Homo-sapiens])r201[&&NHX:S=BonyVertebrates:D=Y],(Ciona-intestinalis_ENSCINT00000001310.3_NONE:0.032079[&&NHX:S=Ciona-intestinalis],Ciona-intestinalis_ENSCINT00000009413.3_NONE:0.030726[&&NHX:S=Ciona-intestinalis])n35:0.02777[&&NHX:S=Ciona-intestinalis:D=Y:B=100.0])r200[&&NHX:S=Deuterostomia:D=N],((Drosophila-melanogaster_FBtr0334334_Pp1alpha-96A-Protein-ph:0.028676[&&NHX:S=Drosophila-melanogaster],Drosophila-melanogaster_FBtr0082595_Pp1-87B-Protein-phospha:0.002477[&&NHX:S=Drosophila-melanogaster])n39:0.01984[&&NHX:S=Drosophila-melanogaster:D=Y:B=92.0],Drosophila-melanogaster_FBtr0074017_Pp1-13C-Protein-phospha:0.036582[&&NHX:S=Drosophila-melanogaster])n41:0.020619[&&NHX:S=Drosophila-melanogaster:D=Y:B=93.0])n42:0.022358[&&NHX:S=Bilateria:D=N:B=83.0],((((((Gallus-gallus_ENSGALT00000085502.2_PPP1CA-protein-phosp:0.287924[&&NHX:S=Gallus-gallus],Xenopus-tropicalis_ENSXETT00000022536.3_ppp1cb-protein-phosp:0.147418[&&NHX:S=Xenopus-tropicalis])n45:0.058689[&&NHX:S=Tetrapoda:D=N:B=100.0],Danio-rerio_ENSDART00000172681.1_ppp1cbl-protein-phosphatase:0.0[&&NHX:S=Danio-rerio])n47:0.047842[&&NHX:S=BonyVertebrates:D=N:B=100.0],((Homo-sapiens_ENST00000296122.10_PPP1CB-protein-phospha:0.0[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000031908.5_PPP1CB-protein-phosp:-0.0[&&NHX:S=Gallus-gallus])n54:0.010969[&&NHX:S=Amniota:D=N:B=96.0],((((Gasterosteus-aculeatus_ENSGACT00000013668.1_NONE:-0.0[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000020596.1_ppp1cb-protein-p:0.0[&&NHX:S=Tetraodon-nigroviridis])r224[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000016747.1_ppp1cb-protein-phosphat:8.44E-4[&&NHX:S=Oryzias-latipes])r223[&&NHX:S=Percomorpha:D=N],Danio-rerio_ENSDART00000130955.2_ppp1cb-protein-phosphatase-:0.00233[&&NHX:S=Danio-rerio])n61:0.002929[&&NHX:S=Teleostei:D=N:B=86.0],Gasterosteus-aculeatus_ENSGACT00000010836.1_NONE:0.009817[&&NHX:S=Gasterosteus-aculeatus])n63:0.01165[&&NHX:S=Teleostei:D=Y:B=81.0])n64:0.004536[&&NHX:S=BonyVertebrates:D=N:B=70.0])r192[&&NHX:S=BonyVertebrates:D=Y],((Gasterosteus-aculeatus_ENSGACT00000026545.1_ppp1cbl-protein-:0.029337[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000023039.1_NONE:5.91E-4[&&NHX:S=Tetraodon-nigroviridis])r197[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000013925.1_ppp1cbl-protein-phospha:0.014011[&&NHX:S=Oryzias-latipes])r196[&&NHX:S=Percomorpha:D=N])r191[&&NHX:S=BonyVertebrates:D=Y],Ciona-intestinalis_ENSCINT00000030661.1_NONE:0.026468[&&NHX:S=Ciona-intestinalis])r190[&&NHX:S=Deuterostomia:D=N],Drosophila-melanogaster_FBtr0071446_flw-flapwing-DBNLINE-20:0.080894[&&NHX:S=Drosophila-melanogaster])r189[&&NHX:S=Bilateria:D=N])n72:0.07219[&&NHX:S=Bilateria:D=Y:B=100.0],Drosophila-melanogaster_FBtr0346673_Pp1-Y2-Protein-phosphat:0.170467[&&NHX:S=Drosophila-melanogaster])n74:0.047253[&&NHX:S=Bilateria:D=Y:B=87.0],((((((((Homo-sapiens_ENST00000397775.7_PPP3CC-protein-phosphat:0.058437[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000050753.2_PPP3CC-serine-threon:0.090484[&&NHX:S=Gallus-gallus])r226[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000023087.3_ppp3cb-protein-phosp:0.068966[&&NHX:S=Xenopus-tropicalis])n83:0.045535[&&NHX:S=Tetrapoda:D=N:B=88.0],((Homo-sapiens_ENST00000394829.6_PPP3CB-protein-phosphat:0.039518[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000040333.4_PPP3CB-protein-phosp:0.032625[&&NHX:S=Gallus-gallus])r228[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000024404.3_ppp3cc-protein-phosp:0.054912[&&NHX:S=Xenopus-tropicalis])n88:0.032559[&&NHX:S=Tetrapoda:D=N:B=99.0])n89:0.004281[&&NHX:S=Tetrapoda:D=Y:B=86.0],((Homo-sapiens_ENST00000394854.8_PPP3CA-protein-phosphat:0.005776[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000107973.1_PPP3CA-protein-phosp:0.010353[&&NHX:S=Gallus-gallus])n92:0.006659[&&NHX:S=Amniota:D=N:B=82.0],Xenopus-tropicalis_ENSXETT00000024402.3_ppp3ca-protein-phosp:0.012461[&&NHX:S=Xenopus-tropicalis])n94:0.074344[&&NHX:S=Tetrapoda:D=N:B=100.0])n95:0.112505[&&NHX:S=Tetrapoda:D=Y:B=99.0],Ciona-intestinalis_ENSCINT00000021891.2_NONE:0.108883[&&NHX:S=Ciona-intestinalis])n97:0.466008[&&NHX:S=Deuterostomia:D=N:B=100.0],(Gallus-gallus_ENSGALT00000026662.6_PPEF1-protein-phosph:0.649531[&&NHX:S=Gallus-gallus],Ciona-intestinalis_ENSCINT00000028169.2_NONE:0.265174[&&NHX:S=Ciona-intestinalis])n100:0.367431[&&NHX:S=Deuterostomia:D=N:B=100.0])n101:0.038976[&&NHX:S=Deuterostomia:D=Y:B=76.0],(((((((Homo-sapiens_ENST00000451402.5_PPP6C-protein-phosphata:0.0[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000001495.6_PPP6C-protein-phosph:0.009595[&&NHX:S=Gallus-gallus])r231[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000036696.3_ppp6c-protein-phosph:0.003206[&&NHX:S=Xenopus-tropicalis])r230[&&NHX:S=Tetrapoda:D=N],(Tetraodon-nigroviridis_ENSTNIT00000005857.1_ppp6c-protein-ph:0.018662[&&NHX:S=Tetraodon-nigroviridis],(Oryzias-latipes_ENSORLT00000023264.1_NONE:0.025304[&&NHX:S=Oryzias-latipes],Oryzias-latipes_ENSORLT00000015576.1_NONE:0.013447[&&NHX:S=Oryzias-latipes])r236[&&NHX:S=Oryzias-latipes:D=Y])r233[&&NHX:S=Percomorpha:D=N])n112:0.063256[&&NHX:S=BonyVertebrates:D=N:B=100.0],Ciona-intestinalis_ENSCINT00000035680.1_NONE:0.087848[&&NHX:S=Ciona-intestinalis])n114:0.014617[&&NHX:S=Deuterostomia:D=N:B=84.0],Ciona-intestinalis_ENSCINT00000034222.1_NONE:0.076806[&&NHX:S=Ciona-intestinalis])n116:0.27418[&&NHX:S=Deuterostomia:D=Y:B=100.0],(((Homo-sapiens_ENST00000279387.12_PPP4C-protein-phosphat:0.002968[&&NHX:S=Homo-sapiens],Xenopus-tropicalis_ENSXETT00000044675.3_ppp4c-protein-phosph:0.007411[&&NHX:S=Xenopus-tropicalis])r239[&&NHX:S=Tetrapoda:D=N],((((Gasterosteus-aculeatus_ENSGACT00000007255.2_ppp4cb-protein-p:0.058801[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000017219.1_ppp4cb-protein-p:0.005141[&&NHX:S=Tetraodon-nigroviridis])r246[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000021690.1_ppp4cb-protein-phosphat:0.0[&&NHX:S=Oryzias-latipes])n121:0.011803[&&NHX:S=Percomorpha:D=N:B=82.0],Danio-rerio_ENSDART00000114857.3_ppp4cb-protein-phosphatase-:0.001907[&&NHX:S=Danio-rerio])n123:0.006157[&&NHX:S=Teleostei:D=N:B=71.0],Danio-rerio_ENSDART00000103741.4_ppp4ca-protein-phosphatase-:0.030839[&&NHX:S=Danio-rerio])r242[&&NHX:S=Teleostei:D=Y])n129:0.03858[&&NHX:S=BonyVertebrates:D=N:B=98.0],Ciona-intestinalis_ENSCINT00000010125.3_NONE:0.0497[&&NHX:S=Ciona-intestinalis])n131:0.152[&&NHX:S=Deuterostomia:D=N:B=100.0])n132:0.04809[&&NHX:S=Deuterostomia:D=Y:B=71.0],((((Danio-rerio_ENSDART00000162617.1_ppp2cb-protein-phosphatase-:0.0[&&NHX:S=Danio-rerio],Homo-sapiens_ENST00000221138.9_PPP2CB-protein-phosphat:0.003436[&&NHX:S=Homo-sapiens])n152:0.006183[&&NHX:S=BonyVertebrates:D=N:B=75.0],((Gallus-gallus_ENSGALT00000010437.6_PPP2CA-protein-phosp:0.007715[&&NHX:S=Gallus-gallus],Xenopus-tropicalis_ENSXETT00000035093.3_ppp2ca-protein-phosp:0.005895[&&NHX:S=Xenopus-tropicalis])r250[&&NHX:S=Tetrapoda:D=N],((Oryzias-latipes_ENSORLT00000024523.1_NONE:0.001006[&&NHX:S=Oryzias-latipes],Gasterosteus-aculeatus_ENSGACT00000001381.1_NONE:0.033257[&&NHX:S=Gasterosteus-aculeatus])n158:0.008749[&&NHX:S=Percomorpha:D=N:B=80.0],Danio-rerio_ENSDART00000151106.2_NONE:0.013377[&&NHX:S=Danio-rerio])r253[&&NHX:S=Teleostei:D=N])r249[&&NHX:S=BonyVertebrates:D=N])r248[&&NHX:S=BonyVertebrates:D=Y],(((Homo-sapiens_ENST00000481195.6_PPP2CA-protein-phosphat:0.002309[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000016708.5_PPP2CB-protein-phosp:0.010804[&&NHX:S=Gallus-gallus])r256[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000054984.2_ppp2cb-protein-phosp:0.014006[&&NHX:S=Xenopus-tropicalis])r255[&&NHX:S=Tetrapoda:D=N],((((Gasterosteus-aculeatus_ENSGACT00000024037.1_NONE:0.025549[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000019412.1_ppp2ca-protein-p:0.013066[&&NHX:S=Tetraodon-nigroviridis])r260[&&NHX:S=Eupercaria:D=N],(Gasterosteus-aculeatus_ENSGACT00000027668.1_NONE:0.016647[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000022300.1_NONE:0.022946[&&NHX:S=Tetraodon-nigroviridis])r261[&&NHX:S=Eupercaria:D=N])r259[&&NHX:S=Eupercaria:D=Y],Oryzias-latipes_ENSORLT00000001163.1_ppp2ca-protein-phosphat:0.010327[&&NHX:S=Oryzias-latipes])r258[&&NHX:S=Percomorpha:D=N],Danio-rerio_ENSDART00000042421.8_ppp2ca-protein-phosphatase-:0.018985[&&NHX:S=Danio-rerio])r257[&&NHX:S=Teleostei:D=N])r254[&&NHX:S=BonyVertebrates:D=N])n163:0.02493[&&NHX:S=BonyVertebrates:D=Y:B=87.0],Ciona-intestinalis_ENSCINT00000008274.3_NONE:0.052579[&&NHX:S=Ciona-intestinalis])n165:0.191277[&&NHX:S=Deuterostomia:D=N:B=100.0])n166:0.137685[&&NHX:S=Deuterostomia:D=Y:B=97.0])n167:0.225212[&&NHX:S=Deuterostomia:D=Y:B=100.0],((Drosophila-melanogaster_FBtr0344898_PpY-55A-Protein-phospha:0.351722[&&NHX:S=Drosophila-melanogaster],Drosophila-melanogaster_FBtr0071734_PpN58A-Protein-phosphat:0.286744[&&NHX:S=Drosophila-melanogaster])r187[&&NHX:S=Drosophila-melanogaster:D=Y],Drosophila-melanogaster_FBtr0071806_PpD5-Protein-phosphatas:0.329659[&&NHX:S=Drosophila-melanogaster])r186[&&NHX:S=Drosophila-melanogaster:D=Y])r185[&&NHX:S=Bilateria:D=N])n170:0.040627[&&NHX:S=Bilateria:D=Y:B=73.0],(Drosophila-melanogaster_FBtr0077660_PpD6-Protein-phosphatas:0.326397[&&NHX:S=Drosophila-melanogaster],Drosophila-melanogaster_FBtr0346674_Pp1-Y1-Protein-phosphat:0.280956[&&NHX:S=Drosophila-melanogaster])r183[&&NHX:S=Drosophila-melanogaster:D=Y])n174[&&NHX:S=Bilateria:D=Y];
+
+>1st_gene_tree_newick
+((((((((((((Xenopus-tropicalis_ENSXETT00000021336.2_ppp1ca-protein-phosp:0.016539,(((((Danio-rerio_ENSDART00000025046.6_ppp1caa-protein-phosphatase:0.011939,((Tetraodon-nigroviridis_ENSTNIT00000018186.1_ppp1caa-protein-:0.001419,Gasterosteus-aculeatus_ENSGACT00000017944.1_ppp1caa-protein-:0.001762)64:0.004691,Oryzias-latipes_ENSORLT00000002504.1_ppp1caa-protein-phospha:0.001680)13:0.003252)33:0.004046,Gasterosteus-aculeatus_ENSGACT00000009824.1_NONE:0.009648)3:0.000923,Oryzias-latipes_ENSORLT00000007369.1_NONE:0.003908)0:0.000528,Tetraodon-nigroviridis_ENSTNIT00000022362.1_NONE:0.002486)65:0.012427,Danio-rerio_ENSDART00000160664.1_ppp1cab-protein-phosphatase:0.045289)94:0.009777)73:0.013362,(((Xenopus-tropicalis_ENSXETT00000052896.1_ppp1cc-protein-phosp:0.006077,(Danio-rerio_ENSDART00000165431.2_PPP1CC-protein-phosphatase-:0.011220,(Tetraodon-nigroviridis_ENSTNIT00000014597.1_PPP1CC-protein-p:-0.000000,(Gasterosteus-aculeatus_ENSGACT00000017866.1_PPP1CC-protein-p:-0.000000,Oryzias-latipes_ENSORLT00000019964.1_PPP1CC-protein-phosphat:0.000000)28:0.000000)90:0.008049)1:0.001925)32:0.003996,Gallus-gallus_ENSGALT00000087687.2_PPP1CC-protein-phosp:0.027664)0:0.004679,Homo-sapiens_ENST00000340766.9_PPP1CC-protein-phosphat:0.022330)70:0.012750)9:0.002363,Homo-sapiens_ENST00000312989.11_PPP1CA-protein-phospha:0.033588)10:0.001871,(Ciona-intestinalis_ENSCINT00000009413.3_NONE:0.030726,Ciona-intestinalis_ENSCINT00000001310.3_NONE:0.032079)100:0.027770)58:0.002153,(Drosophila-melanogaster_FBtr0074017_Pp1-13C-Protein-phospha:0.036582,(Drosophila-melanogaster_FBtr0082595_Pp1-87B-Protein-phospha:0.002477,Drosophila-melanogaster_FBtr0334334_Pp1alpha-96A-Protein-ph:0.028676)92:0.019840)93:0.020619)83:0.022358,((Drosophila-melanogaster_FBtr0071446_flw-flapwing-DBNLINE-20:0.080894,((((Xenopus-tropicalis_ENSXETT00000022536.3_ppp1cb-protein-phosp:0.147418,Gallus-gallus_ENSGALT00000085502.2_PPP1CA-protein-phosp:0.287924)100:0.058689,Danio-rerio_ENSDART00000172681.1_ppp1cbl-protein-phosphatase:-0.065269)100:0.047842,(Gasterosteus-aculeatus_ENSGACT00000026545.1_ppp1cbl-protein-:0.029337,Oryzias-latipes_ENSORLT00000013925.1_ppp1cbl-protein-phospha:0.014011)15:0.006457)48:0.009025,((Gallus-gallus_ENSGALT00000031908.5_PPP1CB-protein-phosp:-0.000000,Homo-sapiens_ENST00000296122.10_PPP1CB-protein-phospha:0.000000)96:0.010969,(((Danio-rerio_ENSDART00000130955.2_ppp1cb-protein-phosphatase-:0.002330,Oryzias-latipes_ENSORLT00000016747.1_ppp1cb-protein-phosphat:0.000844)24:0.000811,(Tetraodon-nigroviridis_ENSTNIT00000020596.1_ppp1cb-protein-p:0.000000,Gasterosteus-aculeatus_ENSGACT00000013668.1_NONE:-0.000000)23:0.002371)86:0.002929,Gasterosteus-aculeatus_ENSGACT00000010836.1_NONE:0.009817)81:0.011650)70:0.004536)37:0.017112)32:0.007741,Tetraodon-nigroviridis_ENSTNIT00000023039.1_NONE:0.000591)39:0.008850)50:0.018569,Ciona-intestinalis_ENSCINT00000030661.1_NONE:0.026468)100:0.072190,Drosophila-melanogaster_FBtr0346673_Pp1-Y2-Protein-phosphat:0.170467)87:0.047253,Drosophila-melanogaster_FBtr0344898_PpY-55A-Protein-phospha:0.351722)34:0.019495,Drosophila-melanogaster_FBtr0071734_PpN58A-Protein-phosphat:0.286744)61:0.037519,(Drosophila-melanogaster_FBtr0071806_PpD5-Protein-phosphatas:0.329659,(((Ciona-intestinalis_ENSCINT00000021891.2_NONE:0.108883,(((Xenopus-tropicalis_ENSXETT00000023087.3_ppp3cb-protein-phosp:0.068966,(Gallus-gallus_ENSGALT00000050753.2_PPP3CC-serine-threon:0.090484,Homo-sapiens_ENST00000397775.7_PPP3CC-protein-phosphat:0.058437)68:0.020551)88:0.045535,(Xenopus-tropicalis_ENSXETT00000024404.3_ppp3cc-protein-phosp:0.054912,(Gallus-gallus_ENSGALT00000040333.4_PPP3CB-protein-phosp:0.032625,Homo-sapiens_ENST00000394829.6_PPP3CB-protein-phosphat:0.039518)18:0.025574)99:0.032559)86:0.004281,(Xenopus-tropicalis_ENSXETT00000024402.3_ppp3ca-protein-phosp:0.012461,(Gallus-gallus_ENSGALT00000107973.1_PPP3CA-protein-phosp:0.010353,Homo-sapiens_ENST00000394854.8_PPP3CA-protein-phosphat:0.005776)82:0.006659)100:0.074344)99:0.112505)100:0.466008,(Ciona-intestinalis_ENSCINT00000028169.2_NONE:0.265174,Gallus-gallus_ENSGALT00000026662.6_PPEF1-protein-phosph:0.649531)100:0.367431)76:0.038976,((((Ciona-intestinalis_ENSCINT00000035680.1_NONE:0.087848,(Xenopus-tropicalis_ENSXETT00000036696.3_ppp6c-protein-phosph:0.003206,((((Gallus-gallus_ENSGALT00000001495.6_PPP6C-protein-phosph:0.009595,Homo-sapiens_ENST00000451402.5_PPP6C-protein-phosphata:-0.006206)33:0.005229,Oryzias-latipes_ENSORLT00000023264.1_NONE:0.025304)45:0.002691,Tetraodon-nigroviridis_ENSTNIT00000005857.1_ppp6c-protein-ph:0.018662)38:0.002754,Oryzias-latipes_ENSORLT00000015576.1_NONE:0.013447)36:0.004009)100:0.063256)84:0.014617,Ciona-intestinalis_ENSCINT00000034222.1_NONE:0.076806)100:0.274180,(Ciona-intestinalis_ENSCINT00000010125.3_NONE:0.049700,(((Xenopus-tropicalis_ENSXETT00000044675.3_ppp4c-protein-phosph:0.007411,(Danio-rerio_ENSDART00000114857.3_ppp4cb-protein-phosphatase-:0.001907,((Tetraodon-nigroviridis_ENSTNIT00000017219.1_ppp4cb-protein-p:0.005141,Gasterosteus-aculeatus_ENSGACT00000007255.2_ppp4cb-protein-p:0.058801)63:0.008521,Oryzias-latipes_ENSORLT00000021690.1_ppp4cb-protein-phosphat:-0.009446)82:0.011803)71:0.006157)22:0.001948,Homo-sapiens_ENST00000279387.12_PPP4C-protein-phosphat:0.002968)67:0.010074,Danio-rerio_ENSDART00000103741.4_ppp4ca-protein-phosphatase-:0.030839)98:0.038580)100:0.152000)71:0.048090,(Ciona-intestinalis_ENSCINT00000008274.3_NONE:0.052579,((((((Xenopus-tropicalis_ENSXETT00000035093.3_ppp2ca-protein-phosp:0.005895,(Gallus-gallus_ENSGALT00000010437.6_PPP2CA-protein-phosp:0.007715,Homo-sapiens_ENST00000481195.6_PPP2CA-protein-phosphat:0.002309)58:0.002476)34:0.003459,Danio-rerio_ENSDART00000151106.2_NONE:0.013377)19:0.004884,((Danio-rerio_ENSDART00000042421.8_ppp2ca-protein-phosphatase-:0.018985,Gasterosteus-aculeatus_ENSGACT00000024037.1_NONE:0.025549)30:0.005479,((Tetraodon-nigroviridis_ENSTNIT00000019412.1_ppp2ca-protein-p:0.013066,Oryzias-latipes_ENSORLT00000001163.1_ppp2ca-protein-phosphat:0.010327)39:0.001837,Gasterosteus-aculeatus_ENSGACT00000027668.1_NONE:0.016647)42:0.004707)8:0.000676)29:0.004816,(Xenopus-tropicalis_ENSXETT00000054984.2_ppp2cb-protein-phosp:0.014006,(Homo-sapiens_ENST00000221138.9_PPP2CB-protein-phosphat:0.003436,Danio-rerio_ENSDART00000162617.1_ppp2cb-protein-phosphatase-:-0.000090)75:0.006183)51:0.005098)5:0.001565,(Tetraodon-nigroviridis_ENSTNIT00000022300.1_NONE:0.022946,(Gasterosteus-aculeatus_ENSGACT00000001381.1_NONE:0.033257,Oryzias-latipes_ENSORLT00000024523.1_NONE:0.001006)80:0.008749)64:0.014265)26:0.004867,Gallus-gallus_ENSGALT00000016708.5_PPP2CB-protein-phosp:0.010804)87:0.024930)100:0.191277)97:0.137685)100:0.225212)17:0.005795)73:0.040627,Drosophila-melanogaster_FBtr0346674_Pp1-Y1-Protein-phosphat:0.280956,Drosophila-melanogaster_FBtr0077660_PpD6-Protein-phosphatas:0.326397);
+
+>Aligned-ShortSequence_threshold evaluation
+Drosophila-melanogaster_FBtr0077660_PpD6-Protein-phosphatas      1.0
+Drosophila-melanogaster_FBtr0346674_Pp1-Y1-Protein-phosphat      1.0
+Drosophila-melanogaster_FBtr0071806_PpD5-Protein-phosphatas      1.0
+Drosophila-melanogaster_FBtr0344898_PpY-55A-Protein-phospha      1.0
+Drosophila-melanogaster_FBtr0071734_PpN58A-Protein-phosphat      1.0
+Drosophila-melanogaster_FBtr0346673_Pp1-Y2-Protein-phosphat      1.0
+Drosophila-melanogaster_FBtr0074017_Pp1-13C-Protein-phospha      1.0
+Drosophila-melanogaster_FBtr0082595_Pp1-87B-Protein-phospha      1.0
+Drosophila-melanogaster_FBtr0334334_Pp1alpha-96A-Protein-ph      1.0
+Drosophila-melanogaster_FBtr0071446_flw-flapwing-DBNLINE-20      1.0
+Ciona-intestinalis_ENSCINT00000021891.2_NONE                     0.697
+Ciona-intestinalis_ENSCINT00000028169.2_NONE                     0.977
+Ciona-intestinalis_ENSCINT00000035680.1_NONE                     1.0
+Ciona-intestinalis_ENSCINT00000034222.1_NONE                     1.0
+== Removed ==> Ciona-intestinalis_ENSCINT00000011235.3_NONE                     0.42
+Ciona-intestinalis_ENSCINT00000008274.3_NONE                     1.0
+Ciona-intestinalis_ENSCINT00000010125.3_NONE                     1.0
+Ciona-intestinalis_ENSCINT00000030661.1_NONE                     0.564
+Ciona-intestinalis_ENSCINT00000009413.3_NONE                     1.0
+Ciona-intestinalis_ENSCINT00000001310.3_NONE                     1.0
+Xenopus-tropicalis_ENSXETT00000023087.3_ppp3cb-protein-phosp     1.0
+Xenopus-tropicalis_ENSXETT00000024404.3_ppp3cc-protein-phosp     1.0
+Xenopus-tropicalis_ENSXETT00000024402.3_ppp3ca-protein-phosp     1.0
+Xenopus-tropicalis_ENSXETT00000036696.3_ppp6c-protein-phosph     1.0
+Xenopus-tropicalis_ENSXETT00000035093.3_ppp2ca-protein-phosp     1.0
+Xenopus-tropicalis_ENSXETT00000054984.2_ppp2cb-protein-phosp     1.0
+Xenopus-tropicalis_ENSXETT00000044675.3_ppp4c-protein-phosph     1.0
+Xenopus-tropicalis_ENSXETT00000021336.2_ppp1ca-protein-phosp     0.833
+Xenopus-tropicalis_ENSXETT00000022536.3_ppp1cb-protein-phosp     0.996
+Xenopus-tropicalis_ENSXETT00000052896.1_ppp1cc-protein-phosp     1.0
+Gallus-gallus_ENSGALT00000026662.6_PPEF1-protein-phosph          1.0
+Gallus-gallus_ENSGALT00000050753.2_PPP3CC-serine-threon          1.0
+Gallus-gallus_ENSGALT00000107973.1_PPP3CA-protein-phosp          1.0
+Gallus-gallus_ENSGALT00000040333.4_PPP3CB-protein-phosp          1.0
+Gallus-gallus_ENSGALT00000001495.6_PPP6C-protein-phosph          1.0
+Gallus-gallus_ENSGALT00000010437.6_PPP2CA-protein-phosp          1.0
+Gallus-gallus_ENSGALT00000016708.5_PPP2CB-protein-phosp          1.0
+Gallus-gallus_ENSGALT00000085502.2_PPP1CA-protein-phosp          0.852
+Gallus-gallus_ENSGALT00000087687.2_PPP1CC-protein-phosp          1.0
+Gallus-gallus_ENSGALT00000031908.5_PPP1CB-protein-phosp          1.0
+Homo-sapiens_ENST00000394829.6_PPP3CB-protein-phosphat           1.0
+Homo-sapiens_ENST00000397775.7_PPP3CC-protein-phosphat           1.0
+Homo-sapiens_ENST00000394854.8_PPP3CA-protein-phosphat           1.0
+Homo-sapiens_ENST00000451402.5_PPP6C-protein-phosphata           1.0
+Homo-sapiens_ENST00000481195.6_PPP2CA-protein-phosphat           1.0
+Homo-sapiens_ENST00000221138.9_PPP2CB-protein-phosphat           1.0
+Homo-sapiens_ENST00000279387.12_PPP4C-protein-phosphat           1.0
+Homo-sapiens_ENST00000312989.11_PPP1CA-protein-phospha           1.0
+Homo-sapiens_ENST00000340766.9_PPP1CC-protein-phosphat           1.0
+Homo-sapiens_ENST00000296122.10_PPP1CB-protein-phospha           1.0
+Danio-rerio_ENSDART00000042421.8_ppp2ca-protein-phosphatase-     1.0
+Danio-rerio_ENSDART00000103741.4_ppp4ca-protein-phosphatase-     1.0
+Danio-rerio_ENSDART00000151106.2_NONE                            1.0
+Danio-rerio_ENSDART00000114857.3_ppp4cb-protein-phosphatase-     1.0
+Danio-rerio_ENSDART00000162617.1_ppp2cb-protein-phosphatase-     1.0
+Danio-rerio_ENSDART00000172681.1_ppp1cbl-protein-phosphatase     0.845
+Danio-rerio_ENSDART00000025046.6_ppp1caa-protein-phosphatase     1.0
+Danio-rerio_ENSDART00000165431.2_PPP1CC-protein-phosphatase-     1.0
+Danio-rerio_ENSDART00000160664.1_ppp1cab-protein-phosphatase     1.0
+Danio-rerio_ENSDART00000130955.2_ppp1cb-protein-phosphatase-     1.0
+Tetraodon-nigroviridis_ENSTNIT00000005857.1_ppp6c-protein-ph     0.996
+== Removed ==> Tetraodon-nigroviridis_ENSTNIT00000004342.1_NONE                 0.371
+Tetraodon-nigroviridis_ENSTNIT00000017219.1_ppp4cb-protein-p     1.0
+Tetraodon-nigroviridis_ENSTNIT00000022300.1_NONE                 0.996
+Tetraodon-nigroviridis_ENSTNIT00000019412.1_ppp2ca-protein-p     1.0
+Tetraodon-nigroviridis_ENSTNIT00000023039.1_NONE                 0.557
+Tetraodon-nigroviridis_ENSTNIT00000018186.1_ppp1caa-protein-     0.992
+Tetraodon-nigroviridis_ENSTNIT00000014597.1_PPP1CC-protein-p     1.0
+Tetraodon-nigroviridis_ENSTNIT00000022362.1_NONE                 1.0
+Tetraodon-nigroviridis_ENSTNIT00000020596.1_ppp1cb-protein-p     1.0
+Gasterosteus-aculeatus_ENSGACT00000007255.2_ppp4cb-protein-p     1.0
+Gasterosteus-aculeatus_ENSGACT00000001381.1_NONE                 1.0
+Gasterosteus-aculeatus_ENSGACT00000024037.1_NONE                 1.0
+Gasterosteus-aculeatus_ENSGACT00000027668.1_NONE                 1.0
+Gasterosteus-aculeatus_ENSGACT00000017866.1_PPP1CC-protein-p     1.0
+Gasterosteus-aculeatus_ENSGACT00000009824.1_NONE                 1.0
+Gasterosteus-aculeatus_ENSGACT00000017944.1_ppp1caa-protein-     1.0
+Gasterosteus-aculeatus_ENSGACT00000026545.1_ppp1cbl-protein-     1.0
+Gasterosteus-aculeatus_ENSGACT00000010836.1_NONE                 1.0
+Gasterosteus-aculeatus_ENSGACT00000013668.1_NONE                 1.0
+Oryzias-latipes_ENSORLT00000015576.1_NONE                        1.0
+Oryzias-latipes_ENSORLT00000023264.1_NONE                        1.0
+Oryzias-latipes_ENSORLT00000001163.1_ppp2ca-protein-phosphat     1.0
+Oryzias-latipes_ENSORLT00000024523.1_NONE                        1.0
+Oryzias-latipes_ENSORLT00000021690.1_ppp4cb-protein-phosphat     1.0
+Oryzias-latipes_ENSORLT00000007369.1_NONE                        1.0
+Oryzias-latipes_ENSORLT00000019964.1_PPP1CC-protein-phosphat     1.0
+Oryzias-latipes_ENSORLT00000002504.1_ppp1caa-protein-phospha     1.0
+Oryzias-latipes_ENSORLT00000013925.1_ppp1cbl-protein-phospha     1.0
+Oryzias-latipes_ENSORLT00000016747.1_ppp1cb-protein-phosphat     1.0
+
+
+################ Settings ################
+
+>NumberAssigned_querySequence
+Oryzias-latipes_ENSORLT00000016747.1_ppp1cb-protein-phosphat
+MAEGELNVDSLISRLLEVRGCRPGKIVQMTEAEVRGLCIKSREIFLSQPILLELEAPLKICGDIHGQYTDLLRLFEYGGFPPEANYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFLLRGNHECASINRIYGFYDECKRRFNIKLWKTFTDCFNCLPIAAIIDEKIFCCHGGLSPDLQSMEQIRRIMRPTDVPDTGLLCDLLWSDPDKDVQGWGENDRGVSFTFGADVVSKFLNRHDLDLICRAHQVVEDGYEFFAKRQLVTLFSAPNYCGEFDNAGGMMSVDESLMCSFQILKPSEKKAKYQYGGVNSGRPVTPPRTAQAPKKR
+
+>SpeciesTree
+(Drosophila-melanogaster,(Ciona-intestinalis,((Xenopus-tropicalis,(Gallus-gallus,Homo-sapiens)Amniota)Tetrapoda,(Danio-rerio,(Oryzias-latipes,(Tetraodon-nigroviridis,Gasterosteus-aculeatus)Eupercaria)Percomorpha)Teleostei)BonyVertebrates)Deuterostomia)Bilateria;
+
+>SubstitutionModel
+WAG (Whelan and Goldman 2001) + gamma
+
+>ShortSequence_threshold
+0.45
+
+>Dataset
+AminoAcid
+
+>Rearrangement_BS_value_threshold
+70
+
+>TaxonSampling_color
+Drosophila-melanogaster_Black
+Ciona-intestinalis_Black
+Xenopus-tropicalis_Magenta
+Gallus-gallus_Magenta
+Homo-sapiens_Magenta
+Danio-rerio_Purple
+Tetraodon-nigroviridis_Green
+Gasterosteus-aculeatus_Red
+Oryzias-latipes_Blue
+
+################ Results: 2nd analysis ################
+
+>TreeSearchMethod
+NJ
+
+>2nd_rearranged_gene_tree_newick
+((Homo-sapiens_ENST00000296122.10_PPP1CB-protein-phospha,(Gallus-gallus_ENSGALT00000031908.5_PPP1CB-protein-phosp,Gallus-gallus_ENSGALT00000085502.2_PPP1CA-protein-phosp)r_S=Gallus-gallus_D=Y)r_S=Amniota_D=N,((((Gasterosteus-aculeatus_ENSGACT00000013668.1_NONE,Gasterosteus-aculeatus_ENSGACT00000010836.1_NONE)r_S=Gasterosteus-aculeatus_D=Y,Tetraodon-nigroviridis_ENSTNIT00000020596.1_ppp1cb-protein-p)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000016747.1_ppp1cb-protein-phosphat)r_S=Percomorpha_D=N,Danio-rerio_ENSDART00000130955.2_ppp1cb-protein-phosphatase-)100_S=Teleostei_D=N)r_S=BonyVertebrates_D=N;
+
+>2nd_rearranged_gene_tree_NHX
+((Homo-sapiens_ENST00000296122.10_PPP1CB-protein-phospha:-0.0[&&NHX:S=Homo-sapiens],(Gallus-gallus_ENSGALT00000031908.5_PPP1CB-protein-phosp:0.0[&&NHX:S=Gallus-gallus],Gallus-gallus_ENSGALT00000085502.2_PPP1CA-protein-phosp:0.378632[&&NHX:S=Gallus-gallus])r25[&&NHX:S=Gallus-gallus:D=Y])r24[&&NHX:S=Amniota:D=N],((((Gasterosteus-aculeatus_ENSGACT00000013668.1_NONE:-0.0[&&NHX:S=Gasterosteus-aculeatus],Gasterosteus-aculeatus_ENSGACT00000010836.1_NONE:0.01439[&&NHX:S=Gasterosteus-aculeatus])r30[&&NHX:S=Gasterosteus-aculeatus:D=Y],Tetraodon-nigroviridis_ENSTNIT00000020596.1_ppp1cb-protein-p:0.0[&&NHX:S=Tetraodon-nigroviridis])r29[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000016747.1_ppp1cb-protein-phosphat:2.3E-4[&&NHX:S=Oryzias-latipes])r28[&&NHX:S=Percomorpha:D=N],Danio-rerio_ENSDART00000130955.2_ppp1cb-protein-phosphatase-:0.002369[&&NHX:S=Danio-rerio])n8:0.015238[&&NHX:S=Teleostei:D=N:B=100.0])n14[&&NHX:S=BonyVertebrates:D=N];
+
+>2nd_gene_tree_newick
+(((((Gasterosteus-aculeatus_ENSGACT00000013668.1_NONE:-0.000000,Tetraodon-nigroviridis_ENSTNIT00000020596.1_ppp1cb-protein-p:0.000000)23:0.003607,Oryzias-latipes_ENSORLT00000016747.1_ppp1cb-protein-phosphat:0.000230)24:0.000999,Gasterosteus-aculeatus_ENSGACT00000010836.1_NONE:0.014390)8:0.001128,Danio-rerio_ENSDART00000130955.2_ppp1cb-protein-phosphatase-:0.002369)72:0.015238,(Gallus-gallus_ENSGALT00000031908.5_PPP1CB-protein-phosp:0.000000,Homo-sapiens_ENST00000296122.10_PPP1CB-protein-phospha:-0.000000)69:0.007195,Gallus-gallus_ENSGALT00000085502.2_PPP1CA-protein-phosp:0.378632);
+
+>MonophyleticGeneGroups
+BonyVertebrates                 NoGeneNode  NONE
+Teleostei                       100  D=N
+Percomorpha                     r  D=N
+Oryzias-latipes                 leaf  leaf
+
+>SisterGeneGroups
+BonyVertebrates                 NONE   NoGeneNode
+Teleostei                       NONE   NoGeneNode
+Percomorpha                     100   Danio-rerio
+Oryzias-latipes                 r   Eupercaria
+
+>Number_of_duplicatedNode
+BonyVertebrates                 0
+Teleostei                       0
+Percomorpha                     0
+Oryzias-latipes                 0
+
+>AnalysisTime
+54.1 seconds

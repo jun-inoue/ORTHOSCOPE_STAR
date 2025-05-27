@@ -1,0 +1,160 @@
+################ Results: 1st analysis ################
+
+>QuerySequence
+Oryzias-latipes_ENSORLT00000006681.1_NONE  <= [Identities = 719/719 (100%)] : Oryzias-latipes_ENSORLT00000006681.1_NONE
+
+>Number_of_blastHits
+Drosophila-melanogaster  3
+Ciona-intestinalis       4
+Xenopus-tropicalis       5
+Gallus-gallus            5
+Homo-sapiens             4
+Danio-rerio              5
+Tetraodon-nigroviridis   4
+Gasterosteus-aculeatus   4
+Oryzias-latipes          5
+
+>BS_of_orthogroupBasalNode
+r
+
+
+>Orthogroup
+Danio-rerio_ENSDART00000073654.3_pcxb-pyruvate-carboxylase-b
+Danio-rerio_ENSDART00000168379.1_pcxa-pyruvate-carboxylase-a
+Gasterosteus-aculeatus_ENSGACT00000026135.1_pcxb-pyruvate-ca
+Homo-sapiens_ENST00000529047.6_PC-pyruvate-carboxylase
+Oryzias-latipes_ENSORLT00000006681.1_NONE
+Tetraodon-nigroviridis_ENSTNIT00000006043.1_NONE
+Tetraodon-nigroviridis_ENSTNIT00000006830.1_NONE
+Xenopus-tropicalis_ENSXETT00000018435.3_pc.1-pyruvate-carbox
+
+>GeneNumber_of_orthogroup
+Xenopus-tropicalis      1
+Gallus-gallus           0
+Homo-sapiens            1
+Danio-rerio             2
+Oryzias-latipes         1
+Tetraodon-nigroviridis  2
+Gasterosteus-aculeatus  1
+
+>Rooting
+Ciona-intestinalis_ENSCINT00000015426.3_NONE
+
+
+>1st_rearranged_gene_tree_newick
+(((((((Homo-sapiens_ENST00000265594.9_MCCC1-methylcrotonoyl-C,Gallus-gallus_ENSGALT00000033152.2_MCCC1-methylcrotonoy)91_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000036680.3_mccc1-methylcrotonoy)100_S=Tetrapoda_D=N,(((Gasterosteus-aculeatus_ENSGACT00000008134.1_mccc1-methylcrot,Tetraodon-nigroviridis_ENSTNIT00000002503.1_mccc1-methylcrot)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000014642.1_mccc1-methylcrotonoyl-C)100_S=Percomorpha_D=N,Danio-rerio_ENSDART00000158293.1_mccc1-methylcrotonoyl-CoA-c)100_S=Teleostei_D=N)100_S=BonyVertebrates_D=N,(Ciona-intestinalis_ENSCINT00000007911.3_NONE,Ciona-intestinalis_ENSCINT00000007919.3_NONE)100_S=Ciona-intestinalis_D=Y)r_S=Deuterostomia_D=N,Drosophila-melanogaster_FBtr0307551_CG2118-NONE)98_S=Bilateria_D=N,(((((((Homo-sapiens_ENST00000376285.6_PCCA-propionyl-CoA-carb,Gallus-gallus_ENSGALT00000027260.6_PCCA-propionyl-CoA-c)90_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000044700.3_pcca-propionyl-CoA-c)100_S=Tetrapoda_D=N,((Gasterosteus-aculeatus_ENSGACT00000003067.1_pcca-propionyl-C,Oryzias-latipes_ENSORLT00000000447.1_pcca-propionyl-CoA-carb)r_S=Percomorpha_D=N,Danio-rerio_ENSDART00000133905.2_pcca-propionyl-CoA-carboxyl)92_S=Teleostei_D=N)100_S=BonyVertebrates_D=N,Ciona-intestinalis_ENSCINT00000016533.3_NONE)100_S=Deuterostomia_D=N,Xenopus-tropicalis_ENSXETT00000013359.2_NONE)100_S=Deuterostomia_D=Y,(((Homo-sapiens_ENST00000529047.6_PC-pyruvate-carboxylase,Xenopus-tropicalis_ENSXETT00000018435.3_pc.1-pyruvate-carbox)r_S=Tetrapoda_D=N,(((Oryzias-latipes_ENSORLT00000006681.1_NONE,Tetraodon-nigroviridis_ENSTNIT00000006830.1_NONE)100_S=Percomorpha_D=N,Danio-rerio_ENSDART00000073654.3_pcxb-pyruvate-carboxylase-b)r_S=Teleostei_D=N,((Gasterosteus-aculeatus_ENSGACT00000026135.1_pcxb-pyruvate-ca,Tetraodon-nigroviridis_ENSTNIT00000006043.1_NONE)r_S=Eupercaria_D=N,Danio-rerio_ENSDART00000168379.1_pcxa-pyruvate-carboxylase-a)r_S=Teleostei_D=N)r_S=Teleostei_D=Y)r_S=BonyVertebrates_D=N,Ciona-intestinalis_ENSCINT00000015426.3_NONE)r_S=Deuterostomia_D=N)r_S=Deuterostomia_D=Y,Drosophila-melanogaster_FBtr0300850_PCB-Pyruvate-carboxylas)r_S=Bilateria_D=N)100_S=Bilateria_D=Y,(((Tetraodon-nigroviridis_ENSTNIT00000020247.1_hmgcl-3-hydroxym,Gallus-gallus_ENSGALT00000034945.5_HMGCL-3-hydroxymethy)72_S=BonyVertebrates_D=N,(((Homo-sapiens_ENST00000398661.6_HMGCLL1-3-hydroxymethyl,Gallus-gallus_ENSGALT00000026278.6_HMGCLL1-3-hydroxymet)r_S=Amniota_D=N,Xenopus-tropicalis_ENSXETT00000033534.3_hmgcl-3-hydroxymethy)r_S=Tetrapoda_D=N,((Gasterosteus-aculeatus_ENSGACT00000008339.1_hmgcll1-3-hydrox,(Oryzias-latipes_ENSORLT00000021836.1_hmgcl-3-hydroxymethyl-3,Oryzias-latipes_ENSORLT00000012400.1_hmgcll1-3-hydroxymethyl)r_S=Oryzias-latipes_D=Y)r_S=Percomorpha_D=N,Danio-rerio_ENSDART00000027957.7_hmgcl-3-hydroxymethyl-3-met)r_S=Teleostei_D=N)r_S=BonyVertebrates_D=N)r_S=BonyVertebrates_D=Y,Drosophila-melanogaster_FBtr0079351_CG10399-NONE)r_S=Bilateria_D=N)r_S=Bilateria_D=Y;
+
+>1st_rearranged_gene_tree_NHX
+(((((((Homo-sapiens_ENST00000265594.9_MCCC1-methylcrotonoyl-C:0.141389[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000033152.2_MCCC1-methylcrotonoy:0.127958[&&NHX:S=Gallus-gallus])n2:0.014041[&&NHX:S=Amniota:D=N:B=91.0],Xenopus-tropicalis_ENSXETT00000036680.3_mccc1-methylcrotonoy:0.124123[&&NHX:S=Xenopus-tropicalis])n4:0.024826[&&NHX:S=Tetrapoda:D=N:B=100.0],(((Gasterosteus-aculeatus_ENSGACT00000008134.1_mccc1-methylcrot:0.07056[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000002503.1_mccc1-methylcrot:0.073142[&&NHX:S=Tetraodon-nigroviridis])r110[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000014642.1_mccc1-methylcrotonoyl-C:0.070565[&&NHX:S=Oryzias-latipes])n9:0.053503[&&NHX:S=Percomorpha:D=N:B=100.0],Danio-rerio_ENSDART00000158293.1_mccc1-methylcrotonoyl-CoA-c:0.096197[&&NHX:S=Danio-rerio])n11:0.048183[&&NHX:S=Teleostei:D=N:B=100.0])n12:0.089553[&&NHX:S=BonyVertebrates:D=N:B=100.0],(Ciona-intestinalis_ENSCINT00000007911.3_NONE:0.027049[&&NHX:S=Ciona-intestinalis],Ciona-intestinalis_ENSCINT00000007919.3_NONE:0.0[&&NHX:S=Ciona-intestinalis])n15:0.309207[&&NHX:S=Ciona-intestinalis:D=Y:B=100.0])r108[&&NHX:S=Deuterostomia:D=N],Drosophila-melanogaster_FBtr0307551_CG2118-NONE:0.32975[&&NHX:S=Drosophila-melanogaster])n18:0.16728[&&NHX:S=Bilateria:D=N:B=98.0],(((((((Homo-sapiens_ENST00000376285.6_PCCA-propionyl-CoA-carb:0.117345[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000027260.6_PCCA-propionyl-CoA-c:0.075446[&&NHX:S=Gallus-gallus])n21:0.014582[&&NHX:S=Amniota:D=N:B=90.0],Xenopus-tropicalis_ENSXETT00000044700.3_pcca-propionyl-CoA-c:0.113994[&&NHX:S=Xenopus-tropicalis])n23:0.036355[&&NHX:S=Tetrapoda:D=N:B=100.0],((Gasterosteus-aculeatus_ENSGACT00000003067.1_pcca-propionyl-C:0.083608[&&NHX:S=Gasterosteus-aculeatus],Oryzias-latipes_ENSORLT00000000447.1_pcca-propionyl-CoA-carb:0.086781[&&NHX:S=Oryzias-latipes])r112[&&NHX:S=Percomorpha:D=N],Danio-rerio_ENSDART00000133905.2_pcca-propionyl-CoA-carboxyl:0.09964[&&NHX:S=Danio-rerio])n28:0.026266[&&NHX:S=Teleostei:D=N:B=92.0])n29:0.070966[&&NHX:S=BonyVertebrates:D=N:B=100.0],Ciona-intestinalis_ENSCINT00000016533.3_NONE:0.261528[&&NHX:S=Ciona-intestinalis])n31:0.140868[&&NHX:S=Deuterostomia:D=N:B=100.0],Xenopus-tropicalis_ENSXETT00000013359.2_NONE:0.457225[&&NHX:S=Xenopus-tropicalis])n33:0.202404[&&NHX:S=Deuterostomia:D=Y:B=100.0],(((Homo-sapiens_ENST00000529047.6_PC-pyruvate-carboxylase:0.065814[&&NHX:S=Homo-sapiens],Xenopus-tropicalis_ENSXETT00000018435.3_pc.1-pyruvate-carbox:0.106324[&&NHX:S=Xenopus-tropicalis])r98[&&NHX:S=Tetrapoda:D=N],(((Oryzias-latipes_ENSORLT00000006681.1_NONE:0.0[&&NHX:S=Oryzias-latipes],Tetraodon-nigroviridis_ENSTNIT00000006830.1_NONE:0.102541[&&NHX:S=Tetraodon-nigroviridis])n37:0.262689[&&NHX:S=Percomorpha:D=N:B=100.0],Danio-rerio_ENSDART00000073654.3_pcxb-pyruvate-carboxylase-b:0.0[&&NHX:S=Danio-rerio])r102[&&NHX:S=Teleostei:D=N],((Gasterosteus-aculeatus_ENSGACT00000026135.1_pcxb-pyruvate-ca:0.0[&&NHX:S=Gasterosteus-aculeatus],Tetraodon-nigroviridis_ENSTNIT00000006043.1_NONE:0.069276[&&NHX:S=Tetraodon-nigroviridis])r105[&&NHX:S=Eupercaria:D=N],Danio-rerio_ENSDART00000168379.1_pcxa-pyruvate-carboxylase-a:0.001519[&&NHX:S=Danio-rerio])r103[&&NHX:S=Teleostei:D=N])r101[&&NHX:S=Teleostei:D=Y])r97[&&NHX:S=BonyVertebrates:D=N],Ciona-intestinalis_ENSCINT00000015426.3_NONE:0.22093[&&NHX:S=Ciona-intestinalis])r96[&&NHX:S=Deuterostomia:D=N])r95[&&NHX:S=Deuterostomia:D=Y],Drosophila-melanogaster_FBtr0300850_PCB-Pyruvate-carboxylas:0.192225[&&NHX:S=Drosophila-melanogaster])r94[&&NHX:S=Bilateria:D=N])n54:1.327523[&&NHX:S=Bilateria:D=Y:B=100.0],(((Tetraodon-nigroviridis_ENSTNIT00000020247.1_hmgcl-3-hydroxym:0.088223[&&NHX:S=Tetraodon-nigroviridis],Gallus-gallus_ENSGALT00000034945.5_HMGCL-3-hydroxymethy:0.243408[&&NHX:S=Gallus-gallus])n57:0.071828[&&NHX:S=BonyVertebrates:D=N:B=72.0],(((Homo-sapiens_ENST00000398661.6_HMGCLL1-3-hydroxymethyl:0.15753[&&NHX:S=Homo-sapiens],Gallus-gallus_ENSGALT00000026278.6_HMGCLL1-3-hydroxymet:0.074348[&&NHX:S=Gallus-gallus])r86[&&NHX:S=Amniota:D=N],Xenopus-tropicalis_ENSXETT00000033534.3_hmgcl-3-hydroxymethy:0.138408[&&NHX:S=Xenopus-tropicalis])r85[&&NHX:S=Tetrapoda:D=N],((Gasterosteus-aculeatus_ENSGACT00000008339.1_hmgcll1-3-hydrox:0.144528[&&NHX:S=Gasterosteus-aculeatus],(Oryzias-latipes_ENSORLT00000021836.1_hmgcl-3-hydroxymethyl-3:0.040135[&&NHX:S=Oryzias-latipes],Oryzias-latipes_ENSORLT00000012400.1_hmgcll1-3-hydroxymethyl:0.094001[&&NHX:S=Oryzias-latipes])r91[&&NHX:S=Oryzias-latipes:D=Y])r88[&&NHX:S=Percomorpha:D=N],Danio-rerio_ENSDART00000027957.7_hmgcl-3-hydroxymethyl-3-met:0.036805[&&NHX:S=Danio-rerio])r87[&&NHX:S=Teleostei:D=N])r84[&&NHX:S=BonyVertebrates:D=N])r83[&&NHX:S=BonyVertebrates:D=Y],Drosophila-melanogaster_FBtr0079351_CG10399-NONE:0.222878[&&NHX:S=Drosophila-melanogaster])r81[&&NHX:S=Bilateria:D=N])n74[&&NHX:S=Bilateria:D=Y];
+
+>1st_gene_tree_newick
+((((((((Gallus-gallus_ENSGALT00000033152.2_MCCC1-methylcrotonoy:0.127958,Homo-sapiens_ENST00000265594.9_MCCC1-methylcrotonoyl-C:0.141389)91:0.014041,Xenopus-tropicalis_ENSXETT00000036680.3_mccc1-methylcrotonoy:0.124123)100:0.024826,(Danio-rerio_ENSDART00000158293.1_mccc1-methylcrotonoyl-CoA-c:0.096197,((Tetraodon-nigroviridis_ENSTNIT00000002503.1_mccc1-methylcrot:0.073142,Gasterosteus-aculeatus_ENSGACT00000008134.1_mccc1-methylcrot:0.070560)44:0.002501,Oryzias-latipes_ENSORLT00000014642.1_mccc1-methylcrotonoyl-C:0.070565)100:0.053503)100:0.048183)100:0.089553,(Ciona-intestinalis_ENSCINT00000007919.3_NONE:-0.006583,Ciona-intestinalis_ENSCINT00000007911.3_NONE:0.027049)100:0.309207)63:0.017042,Drosophila-melanogaster_FBtr0307551_CG2118-NONE:0.329750)98:0.167280,((Ciona-intestinalis_ENSCINT00000016533.3_NONE:0.261528,((Xenopus-tropicalis_ENSXETT00000044700.3_pcca-propionyl-CoA-c:0.113994,(Gallus-gallus_ENSGALT00000027260.6_PCCA-propionyl-CoA-c:0.075446,Homo-sapiens_ENST00000376285.6_PCCA-propionyl-CoA-carb:0.117345)90:0.014582)100:0.036355,(Danio-rerio_ENSDART00000133905.2_pcca-propionyl-CoA-carboxyl:0.099640,(Gasterosteus-aculeatus_ENSGACT00000003067.1_pcca-propionyl-C:0.083608,Oryzias-latipes_ENSORLT00000000447.1_pcca-propionyl-CoA-carb:0.086781)41:0.017015)92:0.026266)100:0.070966)100:0.140868,Xenopus-tropicalis_ENSXETT00000013359.2_NONE:0.457225)100:0.202404)27:0.081017,(Drosophila-melanogaster_FBtr0300850_PCB-Pyruvate-carboxylas:0.192225,(Ciona-intestinalis_ENSCINT00000015426.3_NONE:0.220930,((Xenopus-tropicalis_ENSXETT00000018435.3_pc.1-pyruvate-carbox:0.106324,((Danio-rerio_ENSDART00000073654.3_pcxb-pyruvate-carboxylase-b:-0.036758,(Tetraodon-nigroviridis_ENSTNIT00000006043.1_NONE:0.069276,((Tetraodon-nigroviridis_ENSTNIT00000006830.1_NONE:0.102541,Oryzias-latipes_ENSORLT00000006681.1_NONE:-0.031294)100:0.262689,Gasterosteus-aculeatus_ENSGACT00000026135.1_pcxb-pyruvate-ca:-0.196018)43:0.088020)0:0.070305)0:0.053655,Danio-rerio_ENSDART00000168379.1_pcxa-pyruvate-carboxylase-a:0.001519)0:0.040688)0:0.034326,Homo-sapiens_ENST00000529047.6_PC-pyruvate-carboxylase:0.065814)0:0.121314)0:0.005875)0:0.449400)100:1.327523,((Xenopus-tropicalis_ENSXETT00000033534.3_hmgcl-3-hydroxymethy:0.138408,(((Gallus-gallus_ENSGALT00000034945.5_HMGCL-3-hydroxymethy:0.243408,Tetraodon-nigroviridis_ENSTNIT00000020247.1_hmgcl-3-hydroxym:0.088223)72:0.071828,Danio-rerio_ENSDART00000027957.7_hmgcl-3-hydroxymethyl-3-met:0.036805)15:0.064584,Oryzias-latipes_ENSORLT00000021836.1_hmgcl-3-hydroxymethyl-3:0.040135)15:0.060625)14:0.021289,((Gallus-gallus_ENSGALT00000026278.6_HMGCLL1-3-hydroxymet:0.074348,Homo-sapiens_ENST00000398661.6_HMGCLL1-3-hydroxymethyl:0.157530)51:0.077779,(Gasterosteus-aculeatus_ENSGACT00000008339.1_hmgcll1-3-hydrox:0.144528,Oryzias-latipes_ENSORLT00000012400.1_hmgcll1-3-hydroxymethyl:0.094001)43:0.048341)30:0.054548)64:0.092468,Drosophila-melanogaster_FBtr0079351_CG10399-NONE:0.222878);
+
+>Aligned-ShortSequence_threshold evaluation
+Drosophila-melanogaster_FBtr0079351_CG10399-NONE                 0.562
+Drosophila-melanogaster_FBtr0307551_CG2118-NONE                  0.913
+Drosophila-melanogaster_FBtr0300850_PCB-Pyruvate-carboxylas      1.0
+Ciona-intestinalis_ENSCINT00000007919.3_NONE                     0.938
+Ciona-intestinalis_ENSCINT00000007911.3_NONE                     0.938
+Ciona-intestinalis_ENSCINT00000016533.3_NONE                     0.979
+Ciona-intestinalis_ENSCINT00000015426.3_NONE                     1.0
+Xenopus-tropicalis_ENSXETT00000033534.3_hmgcl-3-hydroxymethy     0.554
+Xenopus-tropicalis_ENSXETT00000013359.2_NONE                     0.926
+Xenopus-tropicalis_ENSXETT00000036680.3_mccc1-methylcrotonoy     0.95
+Xenopus-tropicalis_ENSXETT00000044700.3_pcca-propionyl-CoA-c     0.979
+Xenopus-tropicalis_ENSXETT00000018435.3_pc.1-pyruvate-carbox     1.0
+Gallus-gallus_ENSGALT00000026278.6_HMGCLL1-3-hydroxymet          0.57
+Gallus-gallus_ENSGALT00000034945.5_HMGCL-3-hydroxymethy          0.554
+Gallus-gallus_ENSGALT00000033152.2_MCCC1-methylcrotonoy          0.95
+Gallus-gallus_ENSGALT00000027260.6_PCCA-propionyl-CoA-c          0.979
+== Removed ==> Gallus-gallus_ENSGALT00000097885.1_PC-pyruvate-carboxyl          0.421
+Homo-sapiens_ENST00000398661.6_HMGCLL1-3-hydroxymethyl           0.554
+Homo-sapiens_ENST00000265594.9_MCCC1-methylcrotonoyl-C           0.95
+Homo-sapiens_ENST00000376285.6_PCCA-propionyl-CoA-carb           0.979
+Homo-sapiens_ENST00000529047.6_PC-pyruvate-carboxylase           1.0
+Danio-rerio_ENSDART00000027957.7_hmgcl-3-hydroxymethyl-3-met     0.554
+Danio-rerio_ENSDART00000158293.1_mccc1-methylcrotonoyl-CoA-c     0.95
+Danio-rerio_ENSDART00000133905.2_pcca-propionyl-CoA-carboxyl     0.979
+Danio-rerio_ENSDART00000073654.3_pcxb-pyruvate-carboxylase-b     1.0
+Danio-rerio_ENSDART00000168379.1_pcxa-pyruvate-carboxylase-a     1.0
+Tetraodon-nigroviridis_ENSTNIT00000020247.1_hmgcl-3-hydroxym     0.554
+Tetraodon-nigroviridis_ENSTNIT00000002503.1_mccc1-methylcrot     0.95
+Tetraodon-nigroviridis_ENSTNIT00000006043.1_NONE                 0.459
+Tetraodon-nigroviridis_ENSTNIT00000006830.1_NONE                 0.541
+Gasterosteus-aculeatus_ENSGACT00000008339.1_hmgcll1-3-hydrox     0.558
+Gasterosteus-aculeatus_ENSGACT00000008134.1_mccc1-methylcrot     0.946
+Gasterosteus-aculeatus_ENSGACT00000003067.1_pcca-propionyl-C     0.979
+Gasterosteus-aculeatus_ENSGACT00000026135.1_pcxb-pyruvate-ca     1.0
+Oryzias-latipes_ENSORLT00000021836.1_hmgcl-3-hydroxymethyl-3     0.554
+Oryzias-latipes_ENSORLT00000012400.1_hmgcll1-3-hydroxymethyl     0.554
+Oryzias-latipes_ENSORLT00000014642.1_mccc1-methylcrotonoyl-C     0.95
+Oryzias-latipes_ENSORLT00000000447.1_pcca-propionyl-CoA-carb     0.979
+Oryzias-latipes_ENSORLT00000006681.1_NONE                        1.0
+
+
+################ Settings ################
+
+>NumberAssigned_querySequence
+Oryzias-latipes_ENSORLT00000006681.1_NONE
+TNIPFLQNVLSNNQFLHSTVDTQFIDENPELFNLKPTQNRAQKLLHYLGHVMVNGPTTPIPVKAKPSSIDPVVPHVGMGDPPVGFRDVLLRDGPEGFAKAVRAHQGLLLMDTTFRDAHQSLLATRVRTHDLKKISPFVSHSFSNLFSLENWGGATFDVAMRFLSECPWKRLQELRALIPNVPFQMLLRGANAVGYTNYPDNAVFKFCEVAKENGMDIFRVFDSLNYLPNMLLGMEAAGAAGGVVEAAISYTGDVSDPMRQKYSLDYYVNLADELVKAGTHILCIKDMAGLLKPTSSQLLIGALRDRFPDVPIHVHSHDTAGAGVAAMLACAEAGADVVDVAVDSMAGMTSQPSMGAIVACTKGTKYDTGIALEKVFDYSEYWEVTRGLYAPFDCTATMKSGNADVYENEIPGGQYTNLHFQAHSMGLGNKFKEVKKAYAEANKLLGDLIKVTPSSKIVGDLAQFMVQNSLTRQEVEERADELSFPQSVVEFLQGHVGIPHGGFPEPFRSKVLKLFLKTTGFPGLHPINFRSMYSRSVKYGRGTRETITSAVMDGKNSRQTNGYYTTFFLVSCCQTRYLFKSKRILRMFQVELERGKTLHIKALALGDLNKNGQREVFFEMNGQLRSVLVKDTVAMKEMKFHPKAQKSIKGQVGAPMPGKVLEVKVKTGSKVEKGQPLCVLSAMKMETVVNSPMAGTIKAIHVSPDASLEGDDLILEIEE
+
+>SpeciesTree
+(Drosophila-melanogaster,(Ciona-intestinalis,((Xenopus-tropicalis,(Gallus-gallus,Homo-sapiens)Amniota)Tetrapoda,(Danio-rerio,(Oryzias-latipes,(Tetraodon-nigroviridis,Gasterosteus-aculeatus)Eupercaria)Percomorpha)Teleostei)BonyVertebrates)Deuterostomia)Bilateria;
+
+>SubstitutionModel
+WAG (Whelan and Goldman 2001) + gamma
+
+>ShortSequence_threshold
+0.45
+
+>Dataset
+AminoAcid
+
+>Rearrangement_BS_value_threshold
+70
+
+>TaxonSampling_color
+Drosophila-melanogaster_Black
+Ciona-intestinalis_Black
+Xenopus-tropicalis_Magenta
+Gallus-gallus_Magenta
+Homo-sapiens_Magenta
+Danio-rerio_Purple
+Tetraodon-nigroviridis_Green
+Gasterosteus-aculeatus_Red
+Oryzias-latipes_Blue
+
+################ Results: 2nd analysis ################
+
+>TreeSearchMethod
+NJ
+
+>2nd_rearranged_gene_tree_newick
+(((Xenopus-tropicalis_ENSXETT00000018435.3_pc.1-pyruvate-carbox,(((Gasterosteus-aculeatus_ENSGACT00000026135.1_pcxb-pyruvate-ca,(Tetraodon-nigroviridis_ENSTNIT00000006043.1_NONE,Tetraodon-nigroviridis_ENSTNIT00000006830.1_NONE)r_S=Tetraodon-nigroviridis_D=Y)r_S=Eupercaria_D=N,Oryzias-latipes_ENSORLT00000006681.1_NONE)r_S=Percomorpha_D=N,(Danio-rerio_ENSDART00000073654.3_pcxb-pyruvate-carboxylase-b,Danio-rerio_ENSDART00000168379.1_pcxa-pyruvate-carboxylase-a)r_S=Danio-rerio_D=Y)r_S=Teleostei_D=N)100_S=BonyVertebrates_D=N,Homo-sapiens_ENST00000529047.6_PC-pyruvate-carboxylase)r_S=BonyVertebrates_D=Y,Ciona-intestinalis_ENSCINT00000015426.3_NONE)r_S=Deuterostomia_D=N;
+
+>2nd_rearranged_gene_tree_NHX
+(((Xenopus-tropicalis_ENSXETT00000018435.3_pc.1-pyruvate-carbox:0.111994[&&NHX:S=Xenopus-tropicalis],(((Gasterosteus-aculeatus_ENSGACT00000026135.1_pcxb-pyruvate-ca:0.006213[&&NHX:S=Gasterosteus-aculeatus],(Tetraodon-nigroviridis_ENSTNIT00000006043.1_NONE:0.064257[&&NHX:S=Tetraodon-nigroviridis],Tetraodon-nigroviridis_ENSTNIT00000006830.1_NONE:0.005303[&&NHX:S=Tetraodon-nigroviridis])r40[&&NHX:S=Tetraodon-nigroviridis:D=Y])r39[&&NHX:S=Eupercaria:D=N],Oryzias-latipes_ENSORLT00000006681.1_NONE:0.065944[&&NHX:S=Oryzias-latipes])r38[&&NHX:S=Percomorpha:D=N],(Danio-rerio_ENSDART00000073654.3_pcxb-pyruvate-carboxylase-b:0.053651[&&NHX:S=Danio-rerio],Danio-rerio_ENSDART00000168379.1_pcxa-pyruvate-carboxylase-a:0.053055[&&NHX:S=Danio-rerio])r41[&&NHX:S=Danio-rerio:D=Y])r37[&&NHX:S=Teleostei:D=N])n12:0.022025[&&NHX:S=BonyVertebrates:D=N:B=100.0],Homo-sapiens_ENST00000529047.6_PC-pyruvate-carboxylase:0.091899[&&NHX:S=Homo-sapiens])r27[&&NHX:S=BonyVertebrates:D=Y],Ciona-intestinalis_ENSCINT00000015426.3_NONE:0.341616[&&NHX:S=Ciona-intestinalis])n16[&&NHX:S=Deuterostomia:D=N];
+
+>2nd_gene_tree_newick
+(((Danio-rerio_ENSDART00000168379.1_pcxa-pyruvate-carboxylase-a:0.053055,(Danio-rerio_ENSDART00000073654.3_pcxb-pyruvate-carboxylase-b:0.053651,(Gasterosteus-aculeatus_ENSGACT00000026135.1_pcxb-pyruvate-ca:0.006213,Tetraodon-nigroviridis_ENSTNIT00000006043.1_NONE:0.064257)0:0.043483)0:0.001673)1:0.018658,((Oryzias-latipes_ENSORLT00000006681.1_NONE:0.065944,Tetraodon-nigroviridis_ENSTNIT00000006830.1_NONE:0.005303)2:0.047814,Xenopus-tropicalis_ENSXETT00000018435.3_pc.1-pyruvate-carbox:0.111994)1:0.011731)23:0.022025,Homo-sapiens_ENST00000529047.6_PC-pyruvate-carboxylase:0.091899,Ciona-intestinalis_ENSCINT00000015426.3_NONE:0.341616);
+
+>MonophyleticGeneGroups
+BonyVertebrates                 r  D=Y
+Teleostei                       r  D=N
+Percomorpha                     r  D=N
+Oryzias-latipes                 leaf  leaf
+
+>SisterGeneGroups
+BonyVertebrates                 r   Homo-sapiens
+Teleostei                       100   Xenopus-tropicalis
+Percomorpha                     r   Danio-rerio
+Oryzias-latipes                 r   Eupercaria
+
+>Number_of_duplicatedNode
+BonyVertebrates                 0
+Teleostei                       0
+Percomorpha                     0
+Oryzias-latipes                 0
+
+>AnalysisTime
+24.8 seconds
