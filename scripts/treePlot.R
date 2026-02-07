@@ -1,10 +1,16 @@
 library(ape)
 args                        <- commandArgs()
 name_summaryFile            <- args[6]      # 100_1stAnalysisSummary.txt
-Gene_tree_newick            <- args[7]      # 115_1st
-Rearranged_gene_tree_newick <- args[8]
-groupName_for_highlight     <- args[9]
-outfileName                 <- args[10]      # 115_1st
+Gene_tree_newick            <- args[7]      # SpeciesTree 1st_gene_tree_newick 2nd_rearranged_gene_tree_newick
+Rearranged_gene_tree_newick <- args[8]      # dummy_rearranged_species_tree_newick 1st_rearranged_gene_tree_newick 2nd_rearranged_gene_tree_newick
+groupName_for_highlight     <- args[9]      # Rooting Orthogroup
+outfileName                 <- args[10]     # speciesTree 115_1st 240_2nd
+
+#                                                        name_summaryFile                                         Gene_tree_newick     Rearranged_gene_tree_newick          groupName_for_highlight  outfileName
+#treePlot_speciesTree:  tools/Rscript scripts/treePlot.R control.txt                                              SpeciesTree          dummy_rearranged_species_tree_newick Rooting                  speciesTree
+#treePlotR_1st:         tools/Rscript scripts/treePlot.R outdir_DNA2/ENSORLT00000003633.1/100_analysisSummary.txt 1st_gene_tree_newick 1st_rearranged_gene_tree_newick      Orthogroup               outdir_DNA2/ENSORLT00000003633.1/115_1st > outdir_DNA2/ENSORLT00000003633.1/115_logTreePlotB.txt
+#treePlotR_2nd:         tools/Rscript scripts/treePlot.R outdir_DNA2/ENSORLT00000003633.1/100_analysisSummary.txt 2nd_gene_tree_newick 2nd_rearranged_gene_tree_newick      Rooting                  outdir_DNA2/ENSORLT00000003633.1/240_2nd > outdir_DNA2/ENSORLT00000003633.1/240_logTreePlotB.txt
+
 
 #print("name_summaryFile")
 #print(name_summaryFile)
@@ -235,13 +241,13 @@ BScolorChange <- function(tr)
   if (Gene_tree_newick == "SpeciesTree"){
       #print("OrthogroupBasalNode")
       #print(OrthogroupBasalNode)
-      for(p in 1:length(tr$node.label)){
-        if (regexpr(OrthogroupBasalNode, tr$node.label[p]) > 0){
-          BSvalueColors <- c(BSvalueColors, "blue")
-        } else {
-          BSvalueColors <- c(BSvalueColors, 1)    
-        }
-      }
+      #for(p in 1:length(tr$node.label)){
+      #  if (regexpr(OrthogroupBasalNode, tr$node.label[p]) > 0){
+      #    BSvalueColors <- c(BSvalueColors, "blue")
+      #  } else {
+      #    BSvalueColors <- c(BSvalueColors, 1)    
+      #  }
+      #}
   } else {
       for(p in 1:length(tr$node.label)){
         if (regexpr("r", tr$node.label[p]) > 0){
@@ -304,6 +310,9 @@ numbering_edgeWidth <- function (tr)
 
 PNG_treeDrawing <- function (tr, prefix)
 {  
+  #print("### PNG_treeDrawing() ###")
+  #print("prefix")
+  #print(prefix)
   png.file <- paste(outfileName, prefix, sep = "")
   pngWidth <- NULL
 
@@ -357,9 +366,11 @@ PNG_treeDrawing <- function (tr, prefix)
   dev.off()
 }
 
-PDF_treeDrawing <- function (tr, prefix)
+PDF_treeDrawing <- function(tr, prefix)
 {
   pdf.file <- paste(outfileName, prefix, sep = "")
+  #print("pdf.file")
+  #print(pdf.file)
   pdfWidth  <- NULL
   pdfHeight <- NULL
   if (length(tr$tip.label) > 200) {
@@ -417,12 +428,18 @@ if (Gene_tree_newick == "SpeciesTree"){
 }else{
     taxonSampling_color <- preab.sub("TaxonSampling_color")
 }
+#print("taxonSampling_color")
+#print(taxonSampling_color)
+#q()
 greenPrefixes   = make_colorPrefixes(taxonSampling_color, "Green")
 purplePrefixes  = make_colorPrefixes(taxonSampling_color, "Purple")
 orangePrefixes  = make_colorPrefixes(taxonSampling_color, "Orange")
 magentaPrefixes = make_colorPrefixes(taxonSampling_color, "Magenta")
 bluePrefixes    = make_colorPrefixes(taxonSampling_color, "Blue")
 redPrefixes     = make_colorPrefixes(taxonSampling_color, "Red")
+#print("magentaPrefixes")
+#print(magentaPrefixes)
+#q()
 
 queryNames <- c()
 for (line in Querys_used_in_the_analysis)
@@ -438,6 +455,9 @@ Rearrangement_BS_value_threshold <- preab.sub("Rearrangement_BS_value_threshold"
 
 
 ####
+#print("441")
+#q()
+
 if (Gene_tree_newick == "SpeciesTree"){
     #print("sssss")
     #print("Gene_tree_newick")
@@ -462,7 +482,6 @@ if (Gene_tree_newick == "SpeciesTree"){
     tipColorNums <- tipColorChange(Species_tree)
     #print("tipColorNums")
     #print(tipColorNums)
-    #q()
 
     nodeLabelFontColorNums <- c()
     OrthogroupBasalNode <- preab.sub("OrthogroupBasalNode")
@@ -476,6 +495,8 @@ if (Gene_tree_newick == "SpeciesTree"){
 
     q()
 }
+#print("1111")
+#q()
 ######################################################################################################
 
 Gene_tree <- preab.sub(Gene_tree_newick)

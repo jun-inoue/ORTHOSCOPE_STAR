@@ -7,20 +7,12 @@ import subprocess
 import time
 
 
-##### v1.1.9 updates
-# In Database files, deleted DBNLINE|*| from their name lines.
-# In delete_sequences_with_alignedSiteRate(), keys of dic_nonGapSiteRate were used for dic_AA and dic_DNA because those dictionaries share same keys from v1.1.9
-# Among recent updates, results were compared in the results_versions.xlsx. file.
-# In 1st tree estimation, compare_numSeqs() skips 2nd-round MAFFT/trimal when rec numbers are same between 040_mafOutAA.txt and "044_overRateAA.fas.
-
-######
-
 AddintHeaderAfterAT = "D"   ## L:leave or D:Delete @xxxx for the summarize analysis.
 draw_speciesTree = "Not"  ## Draw: Draw species tree in the .pdf file. or Not:
 
 if len (sys.argv) < 2:
     print("Error. you need two arguments.")
-    print("Example: ./main_script.py ENSORLT00000007282.1")
+    print("Example: ./orthoscope_star_v1.2.1.py ENSORLT00000007282.1")
     exit()
 
 queryID = sys.argv[1]
@@ -1426,12 +1418,12 @@ def identify_sisterGeneNode(allGeneNodes_SR, targetGeneNode_FN):
     return parentNode_of_targetGeneNode_SR, sisterGeneNode_SR
 
 
-def identifiy_orthogroup_speciesNode():
-    orthogroup_speciesNode = ""
+def identifiy_focalNode_speciesTree():
+    focalNode_speciesTree = ""
     for node in allNodes_speciesTree:
         if re.search(r"S=" + keyNode + ":", node[2]):
-            orthogroup_speciesNode = node
-    return orthogroup_speciesNode
+            focalNode_speciesTree = node
+    return focalNode_speciesTree
 
 
 def count_duplications_for_speciesNodes(allGeneNodesSR, topHitName_1stQuery):
@@ -3129,13 +3121,13 @@ if mode == "D":
         exit()
 
     print("##### 1st tree: APE (tree draw) ######")
-    treePlotR_1st = "tools/Rscript scripts/treePlot.R " + eachDirAddress + "100_analysisSummary.txt " + " 1st_gene_tree_newick 1st_rearranged_gene_tree_newick Orthogroup " + eachDirAddress + "115_1st > " + eachDirAddress + "115_logTreePlotB.txt"
-    #print("treePlotR: ", treePlotR_1st)
+    treePlotR_1st = f"tools/Rscript scripts/treePlot.R {eachDirAddress}100_analysisSummary.txt 1st_gene_tree_newick 1st_rearranged_gene_tree_newick Orthogroup {eachDirAddress}115_1st > {eachDirAddress}115_logTreePlotB.txt"
+    #print("treePlotR_1st: ", treePlotR_1st)
     subprocess.call(treePlotR_1st, shell=True)
 
     print("##### 2nd tree: APE (tree draw) ######")
-    treePlotR = "tools/Rscript scripts/treePlot.R " + eachDirAddress + "100_analysisSummary.txt " + " 2nd_gene_tree_newick 2nd_rearranged_gene_tree_newick Rooting " + eachDirAddress + "240_2nd > " + eachDirAddress + "240_logTreePlotB.txt"
-    #print("treePlotR: ", treePlotR)
+    treePlotR = f"tools/Rscript scripts/treePlot.R {eachDirAddress}100_analysisSummary.txt 2nd_gene_tree_newick 2nd_rearranged_gene_tree_newick Rooting {eachDirAddress}240_2nd > {eachDirAddress}240_logTreePlotB.txt"
+    #print("treePlotR_2nd: ", treePlotR)
     subprocess.call(treePlotR, shell=True)
 
     #print("outdir", outdir)
@@ -3150,7 +3142,10 @@ if mode == "E":
     check_presense_of_databases()
     makeblastdb_database()
 
-orthogroup_speciesNode = identifiy_orthogroup_speciesNode()
+focalNode_speciesTree = identifiy_focalNode_speciesTree()
+#for ele in focalNode_speciesTree:
+#    print("focalNode_speciesTree ele:", ele)
+#exit()
 
 #querySpeciesNode = identify_speciesNode(name_querySpeciesNode)
 querySpeciesNode = identify_speciesNode(name_querySpecies)
@@ -3161,10 +3156,10 @@ speciesNodes_including_querySpecies = collect_ancestralNodes(allNodes_speciesTre
 
 
 
-childSpeciesNodes_orthogroup_including_querySpecies = collect_childNodesincluding_querySpecies(allNodes_speciesTree, orthogroup_speciesNode)
-#for targetSpeciesNode in childSpeciesNodes_orthogroup_including_querySpecies:
-#    name_targetSpeciesNode = make_nodeName_from_nodeLavel_NHXstyle(targetSpeciesNode[2])
-#    print("name_targetSpeciesNode2", name_targetSpeciesNode)
+childSpeciesNodes_orthogroup_including_querySpecies = collect_childNodesincluding_querySpecies(allNodes_speciesTree, focalNode_speciesTree)
+for targetSpeciesNode in childSpeciesNodes_orthogroup_including_querySpecies:
+    name_targetSpeciesNode = make_nodeName_from_nodeLavel_NHXstyle(targetSpeciesNode[2])
+    #print("name_targetSpeciesNode2", name_targetSpeciesNode)
 #exit()
 
 
@@ -3197,19 +3192,22 @@ if mode == "S":
 
 
 if draw_speciesTree == "Draw":
+    #print("outdir", outdir)
     if not os.path.exists(outdir + "/speciesTree.pdf"):
         print("##### SpeciesTree draw ######")
-        treePlot_speciesTree = "tools/Rscript scripts/treePlot.R control.txt " + " SpeciesTree dummy_rearranged_species_tree_newick Rooting speciesTree > speciesTree.pdf"
+        #treePlot_speciesTree = "tools/Rscript scripts/treePlot.R control.txt " + " SpeciesTree dummy_rearranged_species_tree_newick Rooting speciesTree > speciesTree.pdf"
+        treePlot_speciesTree = f"tools/Rscript scripts/treePlot.R control.txt SpeciesTree dummy_rearranged_species_tree_newick Rooting speciesTree"
         #print("treePlot_speciesTree: ", treePlot_speciesTree)
         subprocess.call(treePlot_speciesTree, shell=True)
         new_path = shutil.move('./speciesTree.pdf', outdir)
+#print("### Exit 3203")
+#exit()
 
 
 checkUplodedFileAsFastaForamt()
 
 
-'''
-'''
+#'''
 
 
 aaSeqMaker()
@@ -3508,7 +3506,8 @@ NOTUNG2ndLine = "java -jar tools/Notung.jar -s " + eachDirAddress + "000_species
 #print("NOTUNG2ndLine:", NOTUNG2ndLine)
 subprocess.call(NOTUNG2ndLine, shell=True)
 #exit()
-
+'''
+'''
 
 print("\n\n##### 2nd tree: Making summary ######\n\n")
 add_makeSummary(outfile_summary2 = "100_analysisSummary.txt")
