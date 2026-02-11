@@ -419,7 +419,7 @@ def check_toolsDirectory():
         if dataset == "AminoAcid":
             if not "fastme" in dependencies:
                 print("Error: Cannot find fastme in your tools directory.")
-                print(f"Dataset {dataset} selected in the control.txt file.")
+                print(f"Dataset {dataset} was selected in the control.txt file.")
                 print("See the tutorial from https://github.com/jun-inoue/ORTHOSCOPE_STAR")
                 sys.exit()
         if not "pal2nal.pl" in dependencies:
@@ -603,11 +603,11 @@ def read_controlFile():
     outdir = check_pickup_parameter(resDict_SR, "Outdir")
     alignment_orthogroups = check_pickup_parameter(resDict_SR, "Alignment_orthogroups")
     mode = check_pickup_parameter(resDict_SR, "Mode")
-    if mode == "E" or mode == "D" or mode == "S":
+    if mode == "E" or mode == "E1st" or mode == "D" or mode == "S"  or mode == "S1st":
         pass
     else:
         print("Error. Check your >Mode.")
-        print(">Mode should be E, D, or S.")
+        print(">Mode should be E, E1st, D, or S.")
         print("Your >Mode is", mode)
         exit()
     Switch_deleteIntermediateFiles = check_pickup_parameter(resDict_SR, "Switch_deleteIntermediateFiles")
@@ -749,6 +749,7 @@ def makeblastdb_database():
 ##############################################
 ### cDNA and AA file make Start
 def checkUplodedFileAsFastaForamt():
+    #print("### checkUplodedFileAsFastaForamt() ###")
     f = open(eachDirAddress + "000_cds_assigned_by_ID.txt")
     lines = list(f)
     f.close()
@@ -979,6 +980,9 @@ def change_nhx_to_newick_with_NHXnodeName(tree_NHX):
 
 
 def collect_nodes_from_speciesTree():
+    #print("### collect_nodes_from_speciesTree() ###")
+    #print("SpeciesTree", SpeciesTree)
+    #exit()
     tree_newick = SpeciesTree
     nodes = []     # 2D array for nodes
     cladeReg = r"\(([^\(\)]+)\)(\w+)"
@@ -1177,10 +1181,14 @@ def identify_speciesNode(name_node):
 
 
 def identify_targetGeneNode(allNodes_SR, name_speciesNode, separationType, queryGeneLeaf):
-    #print("### Start identify_targetGeneNode")
+    #print("### identify_targetGeneNode() ###")
     #print("name_speciesNode", name_speciesNode)
     #print("separationType", separationType)
-    #targetSpeciesNode = identify_speciesNode(name_speciesNode)
+    #print("queryGeneLeaf", queryGeneLeaf)
+
+    rec_targetSpeciesNode = identify_speciesNode(name_speciesNode)
+    #print("rec_targetSpeciesNode", rec_targetSpeciesNode)
+    #exit()
     candidates_queryGeneNode = []
 
     flag_counting = 0
@@ -1191,11 +1199,6 @@ def identify_targetGeneNode(allNodes_SR, name_speciesNode, separationType, query
 
         if separationType == "SisterGeneGroups" and flag_counting == 2:
             continue
-
-        #print("node[2]", node[2])
-
-
-        #print("node[2]", node[2])
 
         criterion = 0
 
@@ -1279,14 +1282,22 @@ def count_species_in_gene_clade(checkSpeciesCladeLeaves, focalGeneCladeLeaves):
             hits_sr += 1
     return hits_sr
 
-
-def collect_childNodesincluding_querySpecies(allGeneNodesSR, focalNode_SR):
-    childSpeciesNodes_orthogorup = collect_childNodes(allGeneNodesSR, focalNode_SR)
-    childNodesincluding_querySpecies = []
-    for speciesNode in childSpeciesNodes_orthogorup:
+def collect_AllchildSpeciesNodes_with_querySpecies(allspeciesNodesSR, focalNode_SR):
+    childSpeciesNodes_with_querySpecies = []
+    for speciesNode in allspeciesNodesSR:
+        #print("speciesNode:", speciesNode[2])
         if name_querySpecies in speciesNode[1]:
-            childNodesincluding_querySpecies.append(speciesNode)
-    return childNodesincluding_querySpecies
+            childSpeciesNodes_with_querySpecies.append(speciesNode)
+    return childSpeciesNodes_with_querySpecies
+
+
+def collect_childSpeciesNodes_with_querySpecies(allspeciesNodesSR, focalNode_SR):
+    childSpeciesNodes_focalGroup = collect_childNodes(allspeciesNodesSR, focalNode_SR)
+    childSpeciesNodes_with_querySpecies = []
+    for speciesNode in childSpeciesNodes_focalGroup:
+        if name_querySpecies in speciesNode[1]:
+            childSpeciesNodes_with_querySpecies.append(speciesNode)
+    return childSpeciesNodes_with_querySpecies
 
 
 def collect_childNodes(allGeneNodesSR, focalNode_SR):
@@ -1439,12 +1450,12 @@ def count_duplications_for_speciesNodes(allGeneNodesSR, topHitName_1stQuery):
     #exit()
 
     recs_duplications_for_speciesNodes_FN = OrderedDict()
-    #for childSpeciesNode_of_orthogroup in childSpeciesNodes_orthogorup:
-    #    if not name_querySpecies in childSpeciesNode_of_orthogroup[1]:
+    #for childSpeciesNode_focalGroup in childSpeciesNodes_orthogorup:
+    #    if not name_querySpecies in childSpeciesNode_focalGroup[1]:
     #        continue
-    for childSpeciesNode_of_orthogroup in childSpeciesNodes_orthogroup_including_querySpecies:
+    for childSpeciesNode_focalGroup in childSpeciesNodes_focalGroup:
 
-        speciesNodeName = make_nodeName_from_nodeLavel_NHXstyle(childSpeciesNode_of_orthogroup[2])
+        speciesNodeName = make_nodeName_from_nodeLavel_NHXstyle(childSpeciesNode_focalGroup[2])
         #print("speciesNodeName", speciesNodeName)
         count_dup = 0
         flag = 0
@@ -1510,6 +1521,7 @@ def error_makeSummary(resultFN):
     fs.write(">QuerySequence\n")
     lines_hit_query = make_lines_hit_query(recs_cds_assigned_by_ID)
     for line in lines_hit_query:
+        print("line QuerySequence:", line)
         fs.write(line)
     fs.write("\n")
 
@@ -1541,9 +1553,11 @@ def make_duplicationStatus_from_nodeLavel_NHXstyle(nodeLavel_NHXstyle):
 
 
 def make_nodeName_from_nodeLavel_NHXstyle(nodeLavel_NHXstyle):
-    match = re.search(r"S=([^:]+)[:\]]", nodeLavel_NHXstyle)
-    if match:
-        return(match.group(1))
+    #print("### make_nodeName_from_nodeLavel_NHXstyle() ###")
+    #print("nodeLavel_NHXstyle", nodeLavel_NHXstyle)
+    matchA = re.search(r"S=([^:]+)[:\]]", nodeLavel_NHXstyle)
+    if matchA:
+        return(matchA.group(1))
     else:
         return("No_node_lavel")
 
@@ -1637,6 +1651,51 @@ def check_sisterGroupName_included_in_ancestralSpeciesNodeNames(allGeneNodesSR, 
     return nodeName_sisterGeneGroup_SR
 
 
+def make_list_resLines_monophyletic(allGeneNodesSR, nodes_speciesTree, topHitName_1stQuery):
+    print("### make_list_resLines_monophyletic() ####")
+    list_resultLine = []
+    #print("topHitName_1stQuery", topHitName_1stQuery)
+    #exit()
+
+    for node_speciesTree in nodes_speciesTree:
+
+        name_speciesNode = make_nodeName_from_nodeLavel_NHXstyle(node_speciesTree[2])
+        #print("name_speciesNode:", name_speciesNode)
+        targetGeneNode = identify_targetGeneNode(allGeneNodesSR, name_speciesNode, "MonophyleticGeneGroups", topHitName_1stQuery)
+        #print("targetGeneNode:", targetGeneNode[0], targetGeneNode[2])
+        whiteSpace = " " * (30 - len(name_speciesNode))
+        if targetGeneNode[2] == "NoGeneNode":
+            resultLine = name_speciesNode + "  " + whiteSpace + "NoGeneNode" + "  " + "NONE"
+        else:
+            resultLine = name_speciesNode + "  " + whiteSpace + make_bsvalue_from_nodeLavel_NHXstyle(targetGeneNode[2]) + "  " + make_duplicationStatus_from_nodeLavel_NHXstyle(targetGeneNode[2])
+        #print("resultLine", resultLine)
+        list_resultLine.append(resultLine)
+    return list_resultLine
+
+
+def make_list_resLines_sister(allGeneNodesSR, nodes_speciesTree, topHitName_1stQuery):
+    list_resultLine = []
+
+    for node_speciesTree in nodes_speciesTree:
+
+        name_speciesNode = make_nodeName_from_nodeLavel_NHXstyle(node_speciesTree[2])
+        #print("name_speciesNode:", name_speciesNode)
+        targetGeneNode = identify_targetGeneNode(allGeneNodesSR, name_speciesNode, "SisterGeneGroups", topHitName_1stQuery)
+        #print("targetGeneNode:", targetGeneNode[0], targetGeneNode[2])
+        whiteSpace = " " * (30 - len(name_speciesNode))
+        if targetGeneNode[2] == "NoGeneNode":
+            resultLine = name_speciesNode + "  " + whiteSpace + "NONE   NoGeneNode"
+        else:
+            parentNode_queryGeneGroup, sisterGeneGroup = identify_sisterGeneNode(allGeneNodesSR, targetGeneNode)
+            if sisterGeneGroup[2] == "NoSisterNode":
+                resultLine = name_speciesNode + "  " + whiteSpace + "NONE   NoSisterNode"
+            else:
+                nodeName_sisterGeneGroup = check_sisterGroupName_included_in_ancestralSpeciesNodeNames(allGeneNodesSR, node_speciesTree, sisterGeneGroup)
+                resultLine = name_speciesNode + "  " + whiteSpace + make_bsvalue_from_nodeLavel_NHXstyle(parentNode_queryGeneGroup[2]) + "   " + nodeName_sisterGeneGroup
+        list_resultLine.append(resultLine)
+    return list_resultLine
+
+
 def add_makeSummary(outfile_summary2):
     #print("#### add_makeSummary ####")
     fSum = open(eachDirAddress + outfile_summary2, "a")
@@ -1674,47 +1733,66 @@ def add_makeSummary(outfile_summary2):
     fSum.write(secondTree)
     fSum.write("\n")
 
-    allGeneNodesSR = collect_nodes_from_NHX(rearranged_2nd_gene_tree_NHX)
+    allGeneNodesSR_2ndTree = collect_nodes_from_NHX(rearranged_2nd_gene_tree_NHX)
 
     fSum.write(">MonophyleticGeneGroups\n")
-    #for childSpeciesNode_of_orthogroup in childSpeciesNodes_orthogorup:
-    #    if not name_querySpecies in childSpeciesNode_of_orthogroup[1]:
-    #        continue
-    for childSpeciesNode_of_orthogroup in childSpeciesNodes_orthogroup_including_querySpecies:
-
-        name_childSpeciesNode_of_orthogroup = make_nodeName_from_nodeLavel_NHXstyle(childSpeciesNode_of_orthogroup[2])
-        #print("name_childSpeciesNode_of_orthogroup1", name_childSpeciesNode_of_orthogroup)
-        targetGeneNode = identify_targetGeneNode(allGeneNodesSR, name_childSpeciesNode_of_orthogroup, "MonophyleticGeneGroups", topHitName_1stQuery)
-        #print("targetGeneNode", targetGeneNode[0], targetGeneNode[2])
-        whiteSpace = " " * (30 - len(name_childSpeciesNode_of_orthogroup))
-        if targetGeneNode[2] == "NoGeneNode":
-            resultLine = name_childSpeciesNode_of_orthogroup + "  " + whiteSpace + "NoGeneNode" + "  " + "NONE"
-        else:
-            resultLine = name_childSpeciesNode_of_orthogroup + "  " + whiteSpace + make_bsvalue_from_nodeLavel_NHXstyle(targetGeneNode[2]) + "  " + make_duplicationStatus_from_nodeLavel_NHXstyle(targetGeneNode[2])
-        fSum.write(resultLine + "\n")
+    list_resLines_mono = make_list_resLines_monophyletic(allGeneNodesSR_2ndTree, childSpeciesNodes_focalGroup, topHitName_1stQuery)
+    for line in list_resLines_mono:
+        fSum.write(line + "\n")
     fSum.write("\n")
+
+    #print("### >MonophyleticGeneGroups")
+    ##for childSpeciesNode_focalGroup in childSpeciesNodes_orthogorup:
+    ##    if not name_querySpecies in childSpeciesNode_focalGroup[1]:
+    ##        continue
+    #for childSpeciesNode in childSpeciesNodes_focalGroup:
+    #
+    #    name_speciesNode = make_nodeName_from_nodeLavel_NHXstyle(childSpeciesNode[2])
+    #    print("name_speciesNode:", name_speciesNode)
+    #    targetGeneNode = identify_targetGeneNode(allGeneNodesSR_2ndTree, name_speciesNode, "MonophyleticGeneGroups", topHitName_1stQuery)
+    #    print("targetGeneNode:", targetGeneNode[0], targetGeneNode[2])
+    #    whiteSpace = " " * (30 - len(name_speciesNode))
+    #    if targetGeneNode[2] == "NoGeneNode":
+    #        resultLine = name_speciesNode + "  " + whiteSpace + "NoGeneNode" + "  " + "NONE"
+    #    else:
+    #        resultLine = name_speciesNode + "  " + whiteSpace + make_bsvalue_from_nodeLavel_NHXstyle(targetGeneNode[2]) + "  " + make_duplicationStatus_from_nodeLavel_NHXstyle(targetGeneNode[2])
+    #    print("resultLine", resultLine)
+    #    fSum.write(resultLine + "\n")
+    #fSum.write("\n")
+
 
 
     fSum.write(">SisterGeneGroups\n")
-    #for targetSpeciesNode in speciesNodes_including_querySpecies:
-    #for childSpeciesNode_of_orthogroup in childSpeciesNodes_orthogorup:
-    #    if not name_querySpecies in childSpeciesNode_of_orthogroup[1]:
-    #        continue
-    for childSpeciesNode_of_orthogroup in childSpeciesNodes_orthogroup_including_querySpecies:
-        name_childSpeciesNode_of_orthogroup = make_nodeName_from_nodeLavel_NHXstyle(childSpeciesNode_of_orthogroup[2])
-        targetGeneNode = identify_targetGeneNode(allGeneNodesSR, name_childSpeciesNode_of_orthogroup, "SisterGeneGroups", topHitName_1stQuery)
-        whiteSpace = " " * (30 - len(name_childSpeciesNode_of_orthogroup))
-        if targetGeneNode[2] == "NoGeneNode":
-            resultLine = name_childSpeciesNode_of_orthogroup + "  " + whiteSpace + "NONE   NoGeneNode"
-        else:
-            parentNode_queryGeneGroup, sisterGeneGroup = identify_sisterGeneNode(allGeneNodesSR, targetGeneNode)
-            if sisterGeneGroup[2] == "NoSisterNode":
-                resultLine = name_childSpeciesNode_of_orthogroup + "  " + whiteSpace + "NONE   NoSisterNode"
-            else:
-                nodeName_sisterGeneGroup = check_sisterGroupName_included_in_ancestralSpeciesNodeNames(allGeneNodesSR, childSpeciesNode_of_orthogroup, sisterGeneGroup)
-                resultLine = name_childSpeciesNode_of_orthogroup + "  " + whiteSpace + make_bsvalue_from_nodeLavel_NHXstyle(parentNode_queryGeneGroup[2]) + "   " + nodeName_sisterGeneGroup
-        fSum.write(resultLine + "\n")
+    list_resLines_sister = make_list_resLines_sister(allGeneNodesSR_2ndTree, childSpeciesNodes_focalGroup, topHitName_1stQuery)
+    for line in list_resLines_sister:
+        fSum.write(line + "\n")
     fSum.write("\n")
+
+    #fSum.write(">SisterGeneGroups\n")
+    #print("### >SisterGeneGroups")
+    ##for targetSpeciesNode in speciesNodes_including_querySpecies:
+    ##for childSpeciesNode_focalGroup in childSpeciesNodes_orthogorup:
+    ##    if not name_querySpecies in childSpeciesNode_focalGroup[1]:
+    ##        continue
+    #for ChildSpeciesNode in childSpeciesNodes_focalGroup:
+    #
+    #    name_speciesNode = make_nodeName_from_nodeLavel_NHXstyle(ChildSpeciesNode[2])
+    #    print("name_speciesNode:", name_speciesNode)
+    #    targetGeneNode = identify_targetGeneNode(allGeneNodesSR_2ndTree, name_speciesNode, "SisterGeneGroups", topHitName_1stQuery)
+    #    print("targetGeneNode:", targetGeneNode[0], targetGeneNode[2])
+    #    whiteSpace = " " * (30 - len(name_speciesNode))
+    #    if targetGeneNode[2] == "NoGeneNode":
+    #        resultLine = name_speciesNode + "  " + whiteSpace + "NONE   NoGeneNode"
+    #    else:
+    #        parentNode_queryGeneGroup, sisterGeneGroup = identify_sisterGeneNode(allGeneNodesSR_2ndTree, targetGeneNode)
+    #        if sisterGeneGroup[2] == "NoSisterNode":
+    #            resultLine = name_speciesNode + "  " + whiteSpace + "NONE   NoSisterNode"
+    #        else:
+    #            nodeName_sisterGeneGroup = check_sisterGroupName_included_in_ancestralSpeciesNodeNames(allGeneNodesSR_2ndTree, ChildSpeciesNode, sisterGeneGroup)
+    #            resultLine = name_speciesNode + "  " + whiteSpace + make_bsvalue_from_nodeLavel_NHXstyle(parentNode_queryGeneGroup[2]) + "   " + nodeName_sisterGeneGroup
+    #    print("resultLine", resultLine)
+    #    fSum.write(resultLine + "\n")
+    #fSum.write("\n")
     ####
 
     #fSum.write(">BootstrapValue_sisterGeneGroup\n")
@@ -1725,7 +1803,7 @@ def add_makeSummary(outfile_summary2):
     #fSum.write("\n")
 
     fSum.write(">Number_of_duplicatedNode\n")
-    recs_duplications_for_speciesNodes = count_duplications_for_speciesNodes(allGeneNodesSR, topHitName_1stQuery)
+    recs_duplications_for_speciesNodes = count_duplications_for_speciesNodes(allGeneNodesSR_2ndTree, topHitName_1stQuery)
     for nodeName, numDup in recs_duplications_for_speciesNodes.items():
         whiteSpace =  " " * (30 - len(nodeName)) 
         fSum.write(nodeName + "  " + whiteSpace + str(numDup) + "\n")
@@ -1760,8 +1838,13 @@ def makeSummary(outfile_summary):
     fs.write(">QuerySequence\n")
     lines_query = make_lines_hit_query(recs_cds_assigned_by_ID)
     for line in lines_query:
+        #print("line:", line)
         fs.write(line)
     fs.write("\n")
+
+    topHitName_1stQuery, dummy1 = lines_query[0].split("<=")
+    topHitName_1stQuery = re.sub(" *$", "", topHitName_1stQuery)
+    #print("topHitName_1stQuery:", topHitName_1stQuery, "|")
 
     fs.write(">Number_of_blastHits\n")
     rec_blastHits = count_blastHits(infile = "010_blastRes.txt")
@@ -1868,7 +1951,25 @@ def makeSummary(outfile_summary):
         fs.write(list(f1stTree)[0])
         f1stTree.close()
         fs.write("\n")
+
+
+        ### START: Identifying monophyletic/sister gene nodes
+        allGeneNodesSR_1stTree = collect_nodes_from_NHX(rearranged_1st_gene_tree_NHX)
     
+        fs.write(">MonophyleticGeneGroups_1stTree\n")
+        list_resLines_mono = make_list_resLines_monophyletic(allGeneNodesSR_1stTree, childSpeciesNodes_AllGroup, topHitName_1stQuery)
+        for line in list_resLines_mono:
+            fs.write(line + "\n")
+        fs.write("\n")
+    
+        fs.write(">SisterGeneGroups_1stTree\n")
+        list_resLines_sister = make_list_resLines_sister(allGeneNodesSR_1stTree, childSpeciesNodes_AllGroup, topHitName_1stQuery)
+        for line in list_resLines_sister:
+            fs.write(line + "\n")
+        fs.write("\n")
+        ### END: Identifying monophyletic/sister gene nodes
+
+
         if rec044_unambSiteRate:
             rec044_unambSiteRate = whiteSpaceAdd(rec044_unambSiteRate)
             fs.write(">Aligned-ShortSequence_threshold evaluation\n")
@@ -2616,8 +2717,8 @@ def selectRootSp4secondTreeSearch():
     return list_rootSpecies
 
 
-def make_2ndanalysis_seqFile(rootLeaves_SR, outfile):
-    recs_nucl = readFasta_dict(eachDirAddress, "054_p2nOutcDNAfas.txt")
+def make_2ndanalysis_seqFile(rootLeaves_SR, seqfile, outfile):
+    recs_nucl = readFasta_dict(eachDirAddress, seqfile)
     leaves_add_2_focalClade = []
     for rootLeaf in rootLeaves_SR:
        if not rootLeaf in resDict_1st[">Orthogroup"]:
@@ -2820,6 +2921,7 @@ def deleteFiles():
 
 ########### Data summarize after all gene tree estimated
 def make_lines_atmarkSeparated(geneIDs_fn):
+    print("### make_lines_atmarkSeparated() ###")
 
     speciesNames_in_orthogroup = collect_speciesNames_in_orthogroup()
 
@@ -2856,8 +2958,8 @@ def make_lines_atmarkSeparated(geneIDs_fn):
         seqDict = readRes_dict(address_100_analysisSummary_txt)
 
         #for name, val in seqDict.items():
-        #    print(name)
-        #    #print(val)
+        #    print("name:", name)
+        #    #print("val:", val)
         #exit()
     
         line_FN += "QueryLength@"
@@ -2867,7 +2969,7 @@ def make_lines_atmarkSeparated(geneIDs_fn):
             line_FN += "NONE" + ","
 
         line_FN += "SpeciesWithGeneFunction@"
-        if ">Orthogroup" in  seqDict.keys():
+        if ">Orthogroup" in seqDict.keys():
             flagTMP = 0
             for geneLeaf in seqDict[">Orthogroup"]:
                 if re.search(r"^" + speciesWithGeneFunction + "_", geneLeaf):
@@ -2882,13 +2984,13 @@ def make_lines_atmarkSeparated(geneIDs_fn):
             line_FN += "NONE" + ","
     
         line_FN += "BS_of_orthogroupBasalNode@"
-        if ">BS_of_orthogroupBasalNode" in  seqDict.keys():
+        if ">BS_of_orthogroupBasalNode" in seqDict.keys():
             line_FN += seqDict[">BS_of_orthogroupBasalNode"][0] + ","
         else:
             line_FN += "NONE" + ","
 
         line_FN += "2ndGeneTree@"
-        if ">2nd_rearranged_gene_tree_newick" in  seqDict.keys():
+        if ">2nd_rearranged_gene_tree_newick" in seqDict.keys():
             line_FN += "DONE" + ","
         else:
             line_FN += "NONE" + ","
@@ -2908,7 +3010,7 @@ def make_lines_atmarkSeparated(geneIDs_fn):
         #    line_FN += "NONE" + ","
 
         
-        if ">Number_of_blastHits" in  seqDict.keys():
+        if ">Number_of_blastHits" in seqDict.keys():
             for node_num in seqDict[">Number_of_blastHits"]:
                 match = re.search(r"^([^ ]+) +(\d+)$", node_num)
                 node = match.group(1)
@@ -2922,7 +3024,7 @@ def make_lines_atmarkSeparated(geneIDs_fn):
                 #print("speciesName", speciesName[:-1])
                 line_FN += "BHnum_" + speciesName[:-1] + "@NONE" + ","
 
-        if ">GeneNumber_of_orthogroup" in  seqDict.keys():
+        if ">GeneNumber_of_orthogroup" in seqDict.keys():
             for node_num in seqDict[">GeneNumber_of_orthogroup"]:
                 match = re.search(r"^([^ ]+) +(\d+)$", node_num)
                 node = match.group(1)
@@ -2934,9 +3036,19 @@ def make_lines_atmarkSeparated(geneIDs_fn):
                 #line_FN += "OGnum_" + speciesName_in_orthogroup + "@" + " " + ","
                 line_FN += "OGnum_" + speciesName_in_orthogroup + "@NONE" + ","
 
-        if ">MonophyleticGeneGroups" in  seqDict.keys():
+
+        if mode == "S":
+            key_nameLine_monophyly = ">MonophyleticGeneGroups"
+            key_nameLine_sister = ">SisterGeneGroups"
+            childSpeciesNodes = childSpeciesNodes_focalGroup
+        else:
+            key_nameLine_monophyly = ">MonophyleticGeneGroups_1stTree"
+            key_nameLine_sister = ">SisterGeneGroups_1stTree"
+            childSpeciesNodes = childSpeciesNodes_AllGroup
+
+        if key_nameLine_monophyly in seqDict.keys():
             #print("seqDict[>Number_of_duplicatedNode]", seqDict[">Number_of_duplicatedNode"])
-            for node_BS_sister in seqDict[">MonophyleticGeneGroups"]:
+            for node_BS_sister in seqDict[key_nameLine_monophyly]:
                 #print("node_BS_sister", node_BS_sister, "|")
                 match = re.search(r"^([^ ]+) +([^ ]+) +([^ ]+)$", node_BS_sister)   ##################
                 #match = re.search(r"^([^ :]+)[ :]+([^ ]+)$", node_BS_sister)       ##################
@@ -2947,15 +3059,16 @@ def make_lines_atmarkSeparated(geneIDs_fn):
                 line_FN += "dupStatus_" + name_targetNode + "@" + duplicationStatus + ","
         else:
             #for targetSpeciesNode in speciesNodes_including_querySpecies:
-            for targetSpeciesNode in childSpeciesNodes_orthogroup_including_querySpecies:
+            #for targetSpeciesNode in childSpeciesNodes_focalGroup:
+            for targetSpeciesNode in childSpeciesNodes:
                 name_targetSpeciesNode = make_nodeName_from_nodeLavel_NHXstyle(targetSpeciesNode[2])
                 #print("name_targetSpeciesNode", name_targetSpeciesNode)
                 line_FN += "BS_of_" + name_targetSpeciesNode + "_monophyly@NONE" + ","
                 line_FN += "dupStatus_" + name_targetSpeciesNode + "@NONE" + ","
 
-        if ">SisterGeneGroups" in  seqDict.keys():
+        if key_nameLine_sister in seqDict.keys():
             #print("seqDict[>Number_of_duplicatedNode]", seqDict[">Number_of_duplicatedNode"])
-            for node_BS_sister in seqDict[">SisterGeneGroups"]:
+            for node_BS_sister in seqDict[key_nameLine_sister]:
                 #print("node_BS_sister", node_BS_sister, "|")
                 match = re.search(r"^([^ ]+) +([^ ]+) +([^ ]+)$", node_BS_sister)   ##################
                 #match = re.search(r"^([^ :]+)[ :]+([^ ]+) +([^ ]+)$", node_BS_sister)   ##################
@@ -2966,7 +3079,7 @@ def make_lines_atmarkSeparated(geneIDs_fn):
                 line_FN += "BS_with_" + name_targetNode + "@" + bsBaclue + ","
         else:
             #for targetSpeciesNode in speciesNodes_including_querySpecies:
-            for targetSpeciesNode in childSpeciesNodes_orthogroup_including_querySpecies:
+            for targetSpeciesNode in childSpeciesNodes:
                 name_targetSpeciesNode = make_nodeName_from_nodeLavel_NHXstyle(targetSpeciesNode[2])
                 #print("name_targetSpeciesNode", name_targetSpeciesNode)
                 line_FN += "Sister_of_" + name_targetSpeciesNode + "@NONE" + ","
@@ -3069,7 +3182,7 @@ dbAddress, outdir, alignment_orthogroups, mode, Switch_deleteIntermediateFiles, 
 check_mode()
 
 eachDirAddress = ""
-if mode == "E" or mode == "D":
+if mode == "E" or mode == "E1st" or mode == "D":
     check_toolsDirectory()
 
     print("\n\n############### " + queryID + " ################\n\n")
@@ -3147,24 +3260,37 @@ focalNode_speciesTree = identifiy_focalNode_speciesTree()
 #    print("focalNode_speciesTree ele:", ele)
 #exit()
 
-#querySpeciesNode = identify_speciesNode(name_querySpeciesNode)
-querySpeciesNode = identify_speciesNode(name_querySpecies)
-speciesNodes_including_querySpecies = collect_ancestralNodes(allNodes_speciesTree, querySpeciesNode)
-#for targetSpeciesNode in speciesNodes_including_querySpecies:
-#    name_targetSpeciesNode = make_nodeName_from_nodeLavel_NHXstyle(targetSpeciesNode[2])
-#    print("name_targetSpeciesNode1", name_targetSpeciesNode)
-
-
-
-childSpeciesNodes_orthogroup_including_querySpecies = collect_childNodesincluding_querySpecies(allNodes_speciesTree, focalNode_speciesTree)
-for targetSpeciesNode in childSpeciesNodes_orthogroup_including_querySpecies:
-    name_targetSpeciesNode = make_nodeName_from_nodeLavel_NHXstyle(targetSpeciesNode[2])
-    #print("name_targetSpeciesNode2", name_targetSpeciesNode)
+#recs_querySpeciesNode = identify_speciesNode(name_querySpeciesNode)
+recs_querySpeciesNode = identify_speciesNode(name_querySpecies)
+speciesNodes_including_querySpecies = collect_ancestralNodes(allNodes_speciesTree, recs_querySpeciesNode)
+#for speciesNode in speciesNodes_including_querySpecies:
+#    name_tmp = make_nodeName_from_nodeLavel_NHXstyle(speciesNode[2])
+#    print("name_tmp", name_tmp)
 #exit()
 
 
-if mode == "S":
-    #print("Mode S")
+childSpeciesNodes_AllGroup = collect_AllchildSpeciesNodes_with_querySpecies(allNodes_speciesTree, focalNode_speciesTree)
+#print("### childSpeciesNodes_AllGroup ###")
+#for spNode in childSpeciesNodes_AllGroup:
+#    print("spNode", spNode)
+#    nodeName = make_nodeName_from_nodeLavel_NHXstyle(spNode[2])
+#    print("nodeName", nodeName)
+#    print("")
+#print("### End point 3258 ####")
+
+childSpeciesNodes_focalGroup = collect_childSpeciesNodes_with_querySpecies(allNodes_speciesTree, focalNode_speciesTree)
+#print("### childSpeciesNodes_focalGroup ###")
+#for spNode in childSpeciesNodes_focalGroup:
+#    print("spNode", spNode)
+#    nodeName = make_nodeName_from_nodeLavel_NHXstyle(spNode[2])
+#    print("nodeName", nodeName)
+#    print("")
+#print("### End point 3268 ####")
+#exit()
+
+
+if mode == "S" or mode == "S1st":
+    print("### Mode S/S1 ###")
     outdir = outdir + "/"
     
     fileName_sum_list = sys.argv[1]
@@ -3207,7 +3333,8 @@ if draw_speciesTree == "Draw":
 checkUplodedFileAsFastaForamt()
 
 
-#'''
+'''
+'''
 
 
 aaSeqMaker()
@@ -3282,27 +3409,28 @@ else:
     subprocess.call(trimLine2, shell=True)
 
 
-print("\n\n##### 1st tree: PAL2NAL ######\n\n")
-pal2nalLine = "tools/pal2nal.pl " + eachDirAddress + "050_mafOutAA.txt " + eachDirAddress + "044_overRateDNA.fas -output fasta > " + eachDirAddress +"054_p2nOutcDNAfas.txt"
-#print (pal2nalLine)
-subprocess.call(pal2nalLine, shell=True)
-#print("<br>")
-NJtreeFile = open(eachDirAddress + "054_p2nOutcDNAfas.txt")
-NJtreeFileCont = list(NJtreeFile)
-if not NJtreeFileCont:
-    makeSummary(outfile_summary = "100_analysisSummary.txt")
-    result = "No pal2nal out."
-    print (result)
-    #error_makeSummary(result)
-    if Switch_deleteIntermediateFiles == "L":
-        error_resHtmlMaker(result)
-    else:
-        deleteFiles()
-    exit()
+if dataset == "Exclude3rd" or dataset == "Include3rd":
+    print("\n\n##### 1st tree: PAL2NAL ######\n\n")
+    pal2nalLine = "tools/pal2nal.pl " + eachDirAddress + "050_mafOutAA.txt " + eachDirAddress + "044_overRateDNA.fas -output fasta > " + eachDirAddress +"054_p2nOutcDNAfas.txt"
+    #print (pal2nalLine)
+    subprocess.call(pal2nalLine, shell=True)
+    #print("<br>")
+    NJtreeFile = open(eachDirAddress + "054_p2nOutcDNAfas.txt")
+    NJtreeFileCont = list(NJtreeFile)
+    if not NJtreeFileCont:
+        makeSummary(outfile_summary = "100_analysisSummary.txt")
+        result = "No pal2nal out."
+        print (result)
+        #error_makeSummary(result)
+        if Switch_deleteIntermediateFiles == "L":
+            error_resHtmlMaker(result)
+        else:
+            deleteFiles()
+        exit()
 
-#trimaledv12_FileMakerDNA("054_p2nOutcDNAfas.txt", "052_AA.fas.trm.html", outfile="080_trimedCDNAPhy.txt")
-trimaledv141_FileMakerDNA("054_p2nOutcDNAfas.txt", "052_AA.fas.trm.html", outfile="080_trimedCDNAPhy.txt")
-
+if dataset == "Exclude3rd" or dataset == "Include3rd":
+    #trimaledv12_FileMakerDNA("054_p2nOutcDNAfas.txt", "052_AA.fas.trm.html", outfile="080_trimedCDNAPhy.txt")
+    trimaledv141_FileMakerDNA("054_p2nOutcDNAfas.txt", "052_AA.fas.trm.html", outfile="080_trimedCDNAPhy.txt")
 fas2phy(fastaFileName="052_AA.fas.trm", outPhyFileName="080_trimedAAPhy.txt")
 
 print("\n\n##### 1st tree: (tree search) ######")
@@ -3366,7 +3494,7 @@ if not os.path.isfile(eachDirAddress + "085_NJBS1st.txt.rearrange.0"):
 
 print("\n\n##### 1st tree: Making summary ######\n\n")
 makeSummary(outfile_summary = "100_analysisSummary.txt")
-#exit()
+
 
 
 if Switch_deleteIntermediateFiles == "L":
@@ -3374,10 +3502,17 @@ if Switch_deleteIntermediateFiles == "L":
     treePlotR_1st = "tools/Rscript scripts/treePlot.R " + eachDirAddress + "100_analysisSummary.txt " + " 1st_gene_tree_newick 1st_rearranged_gene_tree_newick Orthogroup " + eachDirAddress + "115_1st > " + eachDirAddress + "115_logTreePlotB.txt"
     #print("treePlotR: ", treePlotR_1st)
     subprocess.call(treePlotR_1st, shell=True)
+    if mode == "E1st":
+        make_resHtml2(resHTMLlines_2steps)
+
 #### 1st tree search/rearrangemnet Finished
 ########################################################
 #print("### Exit point 3380 ###")
 #exit()
+
+if mode == "E1st":
+    print("\n\n##### No 2nd tree estimation for mode E1st ######\n\n")
+    exit()
 
 ########################################################
 #### 2nd tree search/rearrangemnet Start
@@ -3389,6 +3524,7 @@ resDict_1st = readRes_dict(eachDirAddress + "100_analysisSummary.txt")
 #exit()
 #if resDict_1st[">BS_of_orthogroupBasalNode"][0] == "No_orthogroup":
 if resDict_1st[">BS_of_orthogroupBasalNode"][0].startswith("noOrthogroup_"):
+    print("### 1st tree: noOrthogroup_, then stop here")
     result = resDict_1st[">BS_of_orthogroupBasalNode"][0]
     #error_makeSummary(result)
     if Switch_deleteIntermediateFiles == "L":
@@ -3414,10 +3550,12 @@ if len(resDict_1st[">Orthogroup"]) < 4:
 
 rootLeaves = selectRootSp4secondTreeSearch()
 
-make_2ndanalysis_seqFile(rootLeaves, outfile="150_noGapCDNAfas.txt")
 
-cDNAfas2noGapAAFasFile("150_noGapCDNAfas.txt", outfile="150_noGapAA.txt")
-
+if dataset == "Exclude3rd" or dataset == "Include3rd":
+    make_2ndanalysis_seqFile(rootLeaves, "054_p2nOutcDNAfas.txt", outfile="150_noGapCDNAfas.txt")
+    cDNAfas2noGapAAFasFile("150_noGapCDNAfas.txt", outfile="150_noGapAA.txt")
+else:
+    make_2ndanalysis_seqFile(rootLeaves, "050_mafOutAA.txt", outfile="150_noGapAA.txt")
 
 
 print("\n\n##### 2nd tree: MAFFT ######\n\n")
@@ -3434,17 +3572,19 @@ fas2phy(fastaFileName = "160_mafOut.txt", outPhyFileName = "190_aln_prot.txt")
 fas2phy("170_trimedAAOutFas.txt", "200_trimedAAPhy.txt")
 
 
-print("\n\n##### 2nd tree: PAL2NAL ######\n\n")
-pal2nalLine = "tools/pal2nal.pl " + eachDirAddress + "160_mafOut.txt " + eachDirAddress + "150_noGapCDNAfas.txt -output fasta > " + eachDirAddress + "180_aln_nucl_fas.txt"
-#print (pal2nalLine)
-subprocess.call(pal2nalLine, shell=True)
-fas2phy(fastaFileName = "180_aln_nucl_fas.txt", outPhyFileName = "190_aln_nucl.txt")
 
-#trimaledv12_FileMakerDNA("180_aln_nucl_fas.txt", "170_aln_prot.html", outfile = "200_trimedCDNAPhy.txt")
-trimaledv141_FileMakerDNA("180_aln_nucl_fas.txt", "170_aln_prot.html", outfile = "200_trimedCDNAPhy.txt")
-
-phyCodonToBlock("200_trimedCDNAPhy.txt", 2, outfile="210_trimedBlockExc3rdPhy.txt")
-phyCodonToBlock("200_trimedCDNAPhy.txt", 3, outfile="210_trimedBlockInc3rdPhy.txt")
+if dataset == "Exclude3rd" or dataset == "Include3rd":
+    print("\n\n##### 2nd tree: PAL2NAL ######\n\n")
+    pal2nalLine = "tools/pal2nal.pl " + eachDirAddress + "160_mafOut.txt " + eachDirAddress + "150_noGapCDNAfas.txt -output fasta > " + eachDirAddress + "180_aln_nucl_fas.txt"
+    #print (pal2nalLine)
+    subprocess.call(pal2nalLine, shell=True)
+    fas2phy(fastaFileName = "180_aln_nucl_fas.txt", outPhyFileName = "190_aln_nucl.txt")
+    
+    #trimaledv12_FileMakerDNA("180_aln_nucl_fas.txt", "170_aln_prot.html", outfile = "200_trimedCDNAPhy.txt")
+    trimaledv141_FileMakerDNA("180_aln_nucl_fas.txt", "170_aln_prot.html", outfile = "200_trimedCDNAPhy.txt")
+    
+    phyCodonToBlock("200_trimedCDNAPhy.txt", 2, outfile="210_trimedBlockExc3rdPhy.txt")
+    phyCodonToBlock("200_trimedCDNAPhy.txt", 3, outfile="210_trimedBlockInc3rdPhy.txt")
 
 
 #### 2nd tree search Start ####
@@ -3470,7 +3610,7 @@ else:
         print("The 2nd gene tree is estimated by including 3rd codon positions.")
         NJBSline2 = "tools/Rscript scripts/NJBS.R " + eachDirAddress + "210_trimedBlockInc3rdPhy.txt " + outGroup + " " + eachDirAddress + "230_2ndtree.txt > " + eachDirAddress + "230_log.txt"
     else:
-        print("The 2nd gene tree is estimated using amino acid sequences. Stopped.")
+        print("The 2nd gene tree is estimated using amino acid sequences.")
         phy2fastmePhy(phyFileName="200_trimedAAPhy.txt", outFastmePhyFileName="202_trimedAAFastmePhy.txt")
         NJBSline2 = "tools/fastme -i " + eachDirAddress + "202_trimedAAFastmePhy.txt --protein=WAG -m NJ -b 100 -v 3 -o " + eachDirAddress + "230_2ndtree.txt > " + eachDirAddress + "230_log.txt"
     #print("NJBSline2: ", NJBSline2)
@@ -3506,11 +3646,12 @@ NOTUNG2ndLine = "java -jar tools/Notung.jar -s " + eachDirAddress + "000_species
 #print("NOTUNG2ndLine:", NOTUNG2ndLine)
 subprocess.call(NOTUNG2ndLine, shell=True)
 #exit()
-'''
-'''
+
+
 
 print("\n\n##### 2nd tree: Making summary ######\n\n")
 add_makeSummary(outfile_summary2 = "100_analysisSummary.txt")
+#print("### Exit 3601")
 #exit()
 
 
