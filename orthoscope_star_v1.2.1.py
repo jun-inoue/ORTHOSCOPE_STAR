@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/local/bin/python3
 
 import sys
 import re, os, shutil
@@ -1521,7 +1521,7 @@ def error_makeSummary(resultFN):
     fs.write(">QuerySequence\n")
     lines_hit_query = make_lines_hit_query(recs_cds_assigned_by_ID)
     for line in lines_hit_query:
-        print("line QuerySequence:", line)
+        #print("line QuerySequence:", line)
         fs.write(line)
     fs.write("\n")
 
@@ -3511,6 +3511,8 @@ if Switch_deleteIntermediateFiles == "L":
 #exit()
 
 if mode == "E1st":
+    if Switch_deleteIntermediateFiles == "D":
+        deleteFiles()
     print("\n\n##### No 2nd tree estimation for mode E1st ######\n\n")
     exit()
 
