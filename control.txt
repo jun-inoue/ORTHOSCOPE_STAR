@@ -1,5 +1,5 @@
-# E: Estimate gene trees, orthogroup members, etc.
-# S: Summarize results.
+# E: Estimate gene trees, orthogroup members, etc. E1st: Estimate only 1st trees.
+# S: Summarize results. S1st: Summarize results of only 1st trees.
 # D: Draw phylogenetic trees.
 >Mode
 E
@@ -39,7 +39,7 @@ Exclude3rd
 Homo-sapiens
 
 >Alignment_orthogroups
-alignment_orthogroups_v120
+alignment_orthogroups_v121
 
 >BSthreshold
 70
@@ -65,9 +65,9 @@ alignment_orthogroups_v120
 0.45
 
 >Database
-database120
+database
 
 # D: Delete these files
 # L: Leave intermediate process
 >Switch_deleteIntermediateFiles
-D
+L
