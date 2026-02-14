@@ -8,7 +8,7 @@ numForAnalysis = 5 #125
 
 file_sbatch = '''#!/bin/bash
 #SBATCH --job-name=OTS
-#SBATCH --partition=compute
+#SBATCH --partition=epyc
 #SBATCH --time=23:00:00
 #SBATCH --mail-user="yourEmail@XXX.jp"
 #SBATCH --mail-type=FAIL,END
@@ -24,7 +24,7 @@ query="$(printf 910_list${SLURM_ARRAY_TASK_ID}).out"
 
 for fq in `cat ${query}`
 do
-  ./orthoscope_star.py $fq
+  python3 orthoscope_star.py $fq
 done
 '''
 
