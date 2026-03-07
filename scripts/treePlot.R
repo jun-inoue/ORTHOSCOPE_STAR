@@ -1,25 +1,22 @@
 library(ape)
-args                        <- commandArgs()
-name_summaryFile            <- args[6]      # 100_1stAnalysisSummary.txt
-Gene_tree_newick            <- args[7]      # SpeciesTree 1st_gene_tree_newick 2nd_rearranged_gene_tree_newick
-Rearranged_gene_tree_newick <- args[8]      # dummy_rearranged_species_tree_newick 1st_rearranged_gene_tree_newick 2nd_rearranged_gene_tree_newick
-groupName_for_highlight     <- args[9]      # Rooting Orthogroup
-outfileName                 <- args[10]     # speciesTree 115_1st 240_2nd
+args                             <- commandArgs()
+name_summaryFile                 <- args[6]      # 100_1stAnalysisSummary.txt
+Gene_tree_newick                 <- args[7]      # SpeciesTree 1st_gene_tree_newick 2nd_rearranged_gene_tree_newick
+Rearranged_gene_tree_newick      <- args[8]      # dummy_rearranged_species_tree_newick 1st_rearranged_gene_tree_newick 2nd_rearranged_gene_tree_newick
+thick_branch_species_name_line   <- args[9]      # Rooting_4_2ndTree Rooting_4_1stTree Orthogroup
+root_species_name_line           <- args[10]     # Rooting_4_2ndTree Rooting_4_1stTree
+outfileName                      <- args[11]     # speciesTree 115_1st 240_2nd
 
-#                                                        name_summaryFile                                         Gene_tree_newick     Rearranged_gene_tree_newick          groupName_for_highlight  outfileName
-#treePlot_speciesTree:  tools/Rscript scripts/treePlot.R control.txt                                              SpeciesTree          dummy_rearranged_species_tree_newick Rooting                  speciesTree
-#treePlotR_1st:         tools/Rscript scripts/treePlot.R outdir_DNA2/ENSORLT00000003633.1/100_analysisSummary.txt 1st_gene_tree_newick 1st_rearranged_gene_tree_newick      Orthogroup               outdir_DNA2/ENSORLT00000003633.1/115_1st > outdir_DNA2/ENSORLT00000003633.1/115_logTreePlotB.txt
-#treePlotR_2nd:         tools/Rscript scripts/treePlot.R outdir_DNA2/ENSORLT00000003633.1/100_analysisSummary.txt 2nd_gene_tree_newick 2nd_rearranged_gene_tree_newick      Rooting                  outdir_DNA2/ENSORLT00000003633.1/240_2nd > outdir_DNA2/ENSORLT00000003633.1/240_logTreePlotB.txt
-
-
-#print("name_summaryFile")
-#print(name_summaryFile)
+#print("# thick_branch_species_name_line")
+#print(thick_branch_species_name_line)
+#print("# root_species_name_line")
+#print(root_species_name_line)
 #print("outfileName")
 #print(outfileName)
 #q()
 
-#print("groupName_for_highlight")
-#print(groupName_for_highlight)
+#print("thick_branch_species_name_line")
+#print(thick_branch_species_name_line)
 
 ################# Node name
 #nodeNameLabel_change_swich <- "on"
@@ -31,70 +28,116 @@ redPrefixes <- c();
 OrthogroupBasalNode <- "";
 
 #######
-line.picker <- function(keyWord)
-{
-  container <- c()
-  frag <- 0
-  lineStock <- c()
-  for(line in infile$V1) {
-    #print(line)
+# df_infile$V1 に全行が入っている前提
+parse_records <- function(lines) {
+  records <- list()
+  current_header <- NULL
+  current_lines  <- character()
 
-    ### Collect lines 
-    if (regexpr('^>', line) < 0) {
-      if(frag == 1) {
-        lineStock <- c(lineStock, line)
+  for (ln in lines) {
+    if (grepl("^>", ln)) {
+      # 直前のレコードを保存
+      if (!is.null(current_header)) {
+        records[[current_header]] <- current_lines
       }
-    }
-  
-   if (regexpr('^>', line) > 0)
-   {
-      if(frag == 1)
-      {
-        container <- c(container, lineStock)
-        lineStock <- c()
-        break
-      }
-
-      #keyWord1 <- paste('>',　keyWord,　sep='')
-      if (regexpr(keyWord, line) > 0)
-      {
-        container <- c(container, line)
-        frag <- 1
-      }
-
+      # 新しいレコード開始
+      current_header <- sub("^>", "", ln)  # ">" を外す
+      current_lines  <- character()
+    } else {
+      # 本文行を追加（空行も許容したければ条件調整）
+      current_lines <- c(current_lines, ln)
     }
   }
-  container <- c(container, lineStock)    
-  container <- container[-1]
-  return(container)
+  # 最後のレコードを保存
+  if (!is.null(current_header)) {
+    records[[current_header]] <- current_lines
+  }
+  records
+}
+
+# 使い方
+
+extract_section_lines <- function(keyword_header_line)
+{
+    #print("### extract_section_lines () ###")
+    vector_record <- c()
+    frag <- 0
+    vector_section_lines <- c()
+    for(line in df_infile$V1) {
+        #print(line)
+    
+        ### Collect lines 
+        if (regexpr('^>', line) < 0) {
+            if(frag == 1) {
+                vector_section_lines <- c(vector_section_lines, line)
+            }
+        }
+      
+       if (regexpr('^>', line) > 0)
+       {
+          if(frag == 1)
+          {
+              vector_record <- c(vector_record, vector_section_lines)
+              vector_section_lines <- c()
+              break
+            }
+    
+          #keyWord1 <- paste('>',　keyword_header_line,　sep='')
+          if (regexpr(keyword_header_line, line) > 0)
+          {
+              vector_record <- c(vector_record, line)
+              frag <- 1
+            }
+    
+        }
+      }
+
+    vector_record <- c(vector_record, vector_section_lines)
+    #print("# vector_record")
+    #print(vector_record)
+    vector_section_lines <- vector_record[-1]
+    #print("# vector_section_lines")
+    #print(vector_section_lines)
+    #print("# q70")
+    #q()
+    return(vector_section_lines)
 }
 
 
-preab.sub <- function (keyWordA)
+get_section_lines_by_header <- function (keyword_name_line)
 {
-  #print("keyWordA")
-  #print(keyWordA)
-  keyWordA <- paste(keyWordA, "( |$)", sep = "")
-  keyWordA <- paste(">", keyWordA, sep = "")
-  #print(keyWordA)
-  #print("### infile$V1 START ###")
-  #print(infile$V1)
-  #print("### infile$V1 END ###")
+    #print("### get_section_lines_by_header() ###")
+    #print("# keyword_name_line")
+    #print(keyword_name_line)
+    keyword_name_line <- paste(keyword_name_line, "( |$)", sep = "")
+    keyword_name_line <- paste(">", keyword_name_line, sep = "")
+    #print(keyword_name_line)
+    #print("### df_infile$V1 START ###")
+    #print(df_infile$V1)
+    #print("### df_infile$V1 END ###")
+  
+    if(any(i <- grep(keyword_name_line, df_infile$V1)))
+    {
+        #print("# Found keyword_name_line")
+        #print(keyword_name_line)
+        #print("")
+        value_matched <- extract_section_lines(keyword_name_line)
+        #print("# value_matched")
+        #print(value_matched)
+        #print("### q line 90")
+        #q()
+    } else {
+        #print("# Not Found keyword_name_line")
+        #print(keyword_name_line)
+        #print("")
+        # print (paste('  ',keyword_name_line,' does not exist.', sep=''))
+        value_matched  <- NULL
+    }
+    
+    #print("value_matched")
+    #print(value_matched)
 
-  if(any(i <- grep(keyWordA, infile$V1)))
-  {
-    #print("Found keyWordA")
-    #print(keyWordA)
-    #print("")
-    containerA <- line.picker(keyWordA)
-  } else {
-    #print("Not Found keyWordA")
-    #print(keyWordA)
-    #print("")
-    # print (paste('  ',keyWordA,' does not exist.', sep=''))
-    containerA  <- NULL
-  }
-  return(containerA)
+    return(value_matched)
 }
 
 
@@ -285,15 +328,31 @@ BScolorChange <- function(tr)
 
 numbering_edgeWidth <- function (tr)
 {
-
+  #print("### numbering_edgeWidth() ###")
+  #print("# leafNames_for_thickBranch")
+  #print(leafNames_for_thickBranch)
   nums_thickBranchLeaves <- c()
   for(i in 1:length(tr$tip.label)){
-    for(leafName_for_thickBranch in leafNames_for_thickBranch){
-      if (tr$tip.label[i] == leafName_for_thickBranch){
+    #print("# tr$tip.label[i]")
+    #print(tr$tip.label[i])
+    for(leafName in leafNames_for_thickBranch){
+      #print("# leafName")
+      #print(leafName)
+      if (tr$tip.label[i] == leafName){
+        #print("hit")
         nums_thickBranchLeaves <- c(nums_thickBranchLeaves, i)
+        break  # ← 内側 for を抜ける（外側は続く）
+      } else {
+        NULL
+        #print("not")
       }
     }
+    #print("")
   }
+
+  #print("nums_thickBranchLeaves")
+  #print(nums_thickBranchLeaves)
+  #q()
 
   edgeWidths_for_eachBranch <- NULL
   if(is.null(nums_thickBranchLeaves)){
@@ -339,11 +398,14 @@ PNG_treeDrawing <- function (tr, prefix)
   png(png.file, width = pngWidth, height = pngHeight)
   plot(tr,                   no.margin=TRUE, underscore = TRUE, use.edge.length=TRUE, cex = 0.9, font = tipFontNums, tip.col = tipColorNums, edge.width = edgeWidths_for_eachBranch)
   if(regexpr("Rearranged_geneTree", prefix) > 0){
+      #print("1111")
       #plot(tr, label.offset = 2, no.margin=TRUE, underscore = TRUE, use.edge.length=TRUE, cex = 0.9, font = tipFontNums, tip.col = tipColorNums, edge.width = edgeWidths_for_eachBranch)
       #tiplabels(pch = tipLabelPCH, col = tipLabelColor, adj = -0.01, cex = 1.5)
       tiplabels(pch = tipLabelPCH, col = tipLabelColor, cex = 1.5)
   } else {
+      #print("22222")
       #plot(tr,                   no.margin=TRUE, underscore = TRUE, use.edge.length=TRUE, cex = 0.9, font = tipFontNums, tip.col = tipColorNums, edge.width = edgeWidths_for_eachBranch)
+      #tiplabels(pch = tipLabelPCH, col = tipLabelColor, cex = 1.5)
       add.scale.bar()
   }
   
@@ -417,20 +479,54 @@ PDF_treeDrawing <- function(tr, prefix)
 
 ##################################################################
 
+df_infile <- read.table(name_summaryFile, na.strings = FALSE, sep = '\t')
+#print("is.data.frame(df_infile)")
+#is.data.frame(df_infile)
 
-infile                      <- read.table(name_summaryFile, na.strings = FALSE, sep = '\t')
-Querys_used_in_the_analysis <- preab.sub("QuerySequence")
-Rooting                     <- preab.sub("Rooting")
+#vector_queries <- get_section_lines_by_header("QuerySequence")
+#print("# vector_queries")
+#print(vector_queries)
+#print("# q 494")
+
+records <- parse_records(df_infile$V1)
+# いま生成済みの records からヘッダ一覧を確認
+headers <- names(records)
+print("# headers (names(records))")
+print(headers)
+
+vector_queries <- records[["QuerySequence"]]
+#print("# vector_queries")
+#print(vector_queries)
+
+Rooting_species = ""
+#if (thick_branch_species_name_line == "Rooting_4_2ndTree"){
+#    Rooting_species <- get_section_lines_by_header("Rooting_4_2ndTree")
+#} else if (thick_branch_species_name_line == "Rooting_4_1stTree"){
+#    Rooting_species <- get_section_lines_by_header("Rooting_4_1stTree")
+#}
+
+#print("# root_species_name_line")
+#print(root_species_name_line)
+#Rooting_species <- get_section_lines_by_header(root_species_name_line)
+#print("# Rooting_species")
+#print(Rooting_species)
+Rooting_species <- records[[root_species_name_line]]
+#print("# Rooting_species")
+#print(Rooting_species)
+#print("q507")
+#q()
+
 
 taxonSampling_color <- c()
 if (Gene_tree_newick == "SpeciesTree"){
-    taxonSampling_color <- preab.sub("TaxonSampling")
+    #taxonSampling_color <- get_section_lines_by_header("TaxonSampling")
+    taxonSampling_color <- records[["TaxonSampling"]]
 }else{
-    taxonSampling_color <- preab.sub("TaxonSampling_color")
+    #taxonSampling_color <- get_section_lines_by_header("TaxonSampling_color")
+    taxonSampling_color <- records[["TaxonSampling_color"]]
 }
-#print("taxonSampling_color")
+#print("# taxonSampling_color")
 #print(taxonSampling_color)
-#q()
 greenPrefixes   = make_colorPrefixes(taxonSampling_color, "Green")
 purplePrefixes  = make_colorPrefixes(taxonSampling_color, "Purple")
 orangePrefixes  = make_colorPrefixes(taxonSampling_color, "Orange")
@@ -442,20 +538,25 @@ redPrefixes     = make_colorPrefixes(taxonSampling_color, "Red")
 #q()
 
 queryNames <- c()
-for (line in Querys_used_in_the_analysis)
+for (line in vector_queries)
 {
   line <- sub(' +.*$', "", line)   
   queryNames <- c(queryNames, line)
 }
 
-leafNames_for_thickBranch <- preab.sub(groupName_for_highlight)
+#leafNames_for_thickBranch <- get_section_lines_by_header(thick_branch_species_name_line)
+leafNames_for_thickBranch <- records[[thick_branch_species_name_line]]
+#print("# leafNames_for_thickBranch")
+#print(leafNames_for_thickBranch)
+#print("q 555")
+#q()
 
 Rearrangement_BS_value_threshold <- c()
-Rearrangement_BS_value_threshold <- preab.sub("Rearrangement_BS_value_threshold")
-
+#Rearrangement_BS_value_threshold <- get_section_lines_by_header("Rearrangement_BS_value_threshold")
+Rearrangement_BS_value_threshold <- records[["Rearrangement_BS_value_threshold"]]
 
 ####
-#print("441")
+#print("481")
 #q()
 
 if (Gene_tree_newick == "SpeciesTree"){
@@ -463,8 +564,9 @@ if (Gene_tree_newick == "SpeciesTree"){
     #print("Gene_tree_newick")
     #print(Gene_tree_newick)
     #q()
-    infile <- read.table(name_summaryFile, na.strings = FALSE, sep = '\t')
-    Species_tree <- preab.sub(Gene_tree_newick)
+    df_infile <- read.table(name_summaryFile, na.strings = FALSE, sep = '\t')
+    #Species_tree <- get_section_lines_by_header(Gene_tree_newick)
+    Species_tree <- records[[Gene_tree_newick]]
     Species_tree <- read.tree(text = Species_tree)
     #print("Species_tree")
     #print(Species_tree)
@@ -473,10 +575,12 @@ if (Gene_tree_newick == "SpeciesTree"){
         q()
     }
 
-    Querys_used_in_the_analysis <- preab.sub("QuerySequence")
-    Rooting <- preab.sub("Rooting")
+    #vector_queries <- get_section_lines_by_header("QuerySequence")
+    vector_queries <- records[["QuerySequence"]]
+
+    #Rooting <- get_section_lines_by_header("Rooting")
     Species_tree <- ladderize(Species_tree, TRUE)
-    leafNames_for_thickBranch <- preab.sub(groupName_for_highlight)
+    #leafNames_for_thickBranch <- get_section_lines_by_header(thick_branch_species_name_line)
     edgeWidths_for_eachBranch <- numbering_edgeWidth(Species_tree)
     tipFontNums  <- fontNumChange(Species_tree)
     tipColorNums <- tipColorChange(Species_tree)
@@ -484,10 +588,14 @@ if (Gene_tree_newick == "SpeciesTree"){
     #print(tipColorNums)
 
     nodeLabelFontColorNums <- c()
-    OrthogroupBasalNode <- preab.sub("OrthogroupBasalNode")
+    #OrthogroupBasalNode <- get_section_lines_by_header("OrthogroupBasalNode")
+    OrthogroupBasalNode <- records[["OrthogroupBasalNode"]]
+
     nodeLabelFontColorNums   <- BScolorChange(Species_tree)
 
-    querySpecies <- preab.sub("QuerySpecies")
+    querySpecies <- get_section_lines_by_header("QuerySpecies")
+    querySpecies <- records[["QuerySpecies"]]
+
     Num_allQueries <- c()
     Num_1stQuery <- queryNameInversion(Species_tree, querySpecies)
 
@@ -498,13 +606,15 @@ if (Gene_tree_newick == "SpeciesTree"){
 #print("1111")
 #q()
 ######################################################################################################
+#print("529")
 
-Gene_tree <- preab.sub(Gene_tree_newick)
+Gene_tree <- get_section_lines_by_header(Gene_tree_newick)
+Gene_tree <- records[[Gene_tree_newick]]
+
 if (is.null(Gene_tree)){
     print("No Gene_tree")
     q()
 }
-
 Gene_tree <- read.tree(text = Gene_tree)
 Gene_tree <- ladderize(Gene_tree, TRUE)
 Gene_tree$edge.length[Gene_tree$edge.length<0]<-0   ### nagative branch length, replace with 0
@@ -525,8 +635,11 @@ PDF_treeDrawing(Gene_tree, prefix="GeneTree.pdf")
 
 
 ######################################################################################################
-Rearranged_gene_tree <- preab.sub(Rearranged_gene_tree_newick)
+#print("555")
+Rearranged_gene_tree <- get_section_lines_by_header(Rearranged_gene_tree_newick)
+Rearranged_gene_tree <- records[[Rearranged_gene_tree_newick]]
 if(is.null(Rearranged_gene_tree)) {
+  print("# No Rearranged_gene_tree. Stopped.")
   q()
 }
 
@@ -543,14 +656,16 @@ if (nodeNameLabel_change_swich == "on")
   nodeLabelFontColorNums   <- BScolorChange(Rearranged_gene_tree)
 }
 
-Num_rooting                <- pickUp_leafNum(Rearranged_gene_tree, Rooting)
-tipLabelPCH                <- rep(1, length(Rearranged_gene_tree$tip.label))
-tipLabelPCH[Num_rooting]   <- 16
-tipLabelColor              <- rep("white", length(Rearranged_gene_tree$tip.label))
-tipLabelColor[Num_rooting] <- "Black"
+Num_rooting_species                <- pickUp_leafNum(Rearranged_gene_tree, Rooting_species)
+#print("# Num_rooting_species")
+#print(Num_rooting_species)
+tipLabelPCH                        <- rep(1, length(Rearranged_gene_tree$tip.label))
+tipLabelPCH[Num_rooting_species]   <- 16
+tipLabelColor                      <- rep("white", length(Rearranged_gene_tree$tip.label))
+tipLabelColor[Num_rooting_species] <- "Black"
 
 #Num_allQueries <- queryNameInversion(Rearranged_gene_tree, queryNames)
-Num_1stQuery   <- queryNameInversion(Rearranged_gene_tree, queryNames[1])
+Num_1stQuery <- queryNameInversion(Rearranged_gene_tree, queryNames[1])
 
 edgeWidths_for_eachBranch <- numbering_edgeWidth(Rearranged_gene_tree)
 
