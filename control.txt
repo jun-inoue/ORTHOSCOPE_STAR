@@ -1,6 +1,6 @@
-# E: Estimate gene trees, orthogroup members, etc. E1st: Estimate only 1st trees.
-# S: Summarize results. S1st: Summarize results of only 1st trees.
-# D: Draw phylogenetic trees.
+# E: Estimate gene trees, orthogroup members, etc.        E1st: Estimate only 1st trees.              ReE1st: Perform only the rearrangement/reconciliation analyses for the pre‑estimated 1st trees.
+# S: Summarize results.                                   S1st: Summarize results of the 1st trees.  
+# D: Draw phylogenetic trees.                             D1st: Draw the 1st trees for the S1st results.       
 >Mode
 E
 
@@ -29,7 +29,9 @@ BonyVertebrates
 
 >Outdir
 outdir_DNA
-#outdir_AA
+
+>Outdir_4_ReE1st
+outdir_DNA_E1stRe
 
 # Exclude3rd, Include3rd, or AminoAcid
 >Dataset
@@ -39,10 +41,14 @@ Exclude3rd
 Homo-sapiens
 
 >Alignment_orthogroups
-alignment_orthogroups_v121
+alignment_orthogroups
 
 >BSthreshold
 70
+
+# 0–100 or "reconcile"
+>BSthreshold_4_E1stRe
+reconcile
 
 
 
@@ -67,7 +73,15 @@ alignment_orthogroups_v121
 >Database
 database
 
+>tools
+tools
+
+>scripts
+scripts
+
+
 # D: Delete these files
 # L: Leave intermediate process
 >Switch_deleteIntermediateFiles
 L
+
