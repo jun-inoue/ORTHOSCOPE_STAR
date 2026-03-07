@@ -14,6 +14,9 @@ Tetraodon-nigroviridis   8
 Gasterosteus-aculeatus   5
 Oryzias-latipes          4
 
+>Rooting_4_1stTree
+Drosophila-melanogaster_FBtr0300596_ATPCL-ATP-citrate-lyase
+
 >BS_of_orthogroupBasalNode
 100
 
@@ -41,7 +44,7 @@ Oryzias-latipes         2
 Tetraodon-nigroviridis  3
 Gasterosteus-aculeatus  2
 
->Rooting
+>Rooting_4_2ndTree
 Drosophila-melanogaster_FBtr0300596_ATPCL-ATP-citrate-lyase
 
 
@@ -53,6 +56,22 @@ Drosophila-melanogaster_FBtr0300596_ATPCL-ATP-citrate-lyase
 
 >1st_gene_tree_newick
 (((((((Tetraodon-nigroviridis_ENSTNIT00000009718.1_aclya-ATP-citrat:0.03191647803,Gasterosteus-aculeatus_ENSGACT00000011663.1_aclya-ATP-citrat:0.009524032602)42:0.009519124094,Oryzias-latipes_ENSORLT00000004629.1_aclya-ATP-citrate-lyase:0.02912631354)44:0.01281051469,Danio-rerio_ENSDART00000164663.1_aclya-ATP-citrate-lyase-a:0.03554206037)43:0.007437862476,((Gasterosteus-aculeatus_ENSGACT00000008268.1_aclyb-ATP-citrat:0.01962658749,Oryzias-latipes_ENSORLT00000017407.1_aclyb-ATP-citrate-lyase:0.02204220686)54:0.0110635924,Danio-rerio_ENSDART00000152522.2_aclyb-ATP-citrate-lyase-b:0.06026348267)16:0.001362727077)9:0.001939218408,((Xenopus-tropicalis_ENSXETT00000004898.2_acly-ATP-citrate-lya:0.1246615453,Homo-sapiens_ENST00000352035.7_ACLY-ATP-citrate-lyase:0.02325397925)41:0.000744960456,Gallus-gallus_ENSGALT00000070919.3_ACLY-ATP-citrate-lya:0.0219674553)100:0.02626933848)28:0.008814974572,(Tetraodon-nigroviridis_ENSTNIT00000009710.1_NONE:-0.01948755536,Tetraodon-nigroviridis_ENSTNIT00000009568.1_NONE:0.09586303928)44:0.01977782518)100:0,Drosophila-melanogaster_FBtr0300596_ATPCL-ATP-citrate-lyase:0.2185202252)100;
+
+>MonophyleticGeneGroups_1stTree
+Bilateria                       NoGeneNode  NONE
+Deuterostomia                   NoGeneNode  NONE
+BonyVertebrates                 100  D=N
+Teleostei                       r  D=Y
+Percomorpha                     r  D=N
+Oryzias-latipes                 leaf  leaf
+
+>SisterGeneGroups_1stTree
+Bilateria                       NONE   NoGeneNode
+Deuterostomia                   NONE   NoGeneNode
+BonyVertebrates                 NONE   NoGeneNode
+Teleostei                       100   Tetrapoda
+Percomorpha                     r   Danio-rerio
+Oryzias-latipes                 r   Eupercaria
 
 >Aligned-ShortSequence_threshold evaluation
 == Removed ==> Drosophila-melanogaster_FBtr0077134_Sucb-NONE                    0.313
@@ -100,6 +119,9 @@ Oryzias-latipes_ENSORLT00000004629.1_aclya-ATP-citrate-lyase     1.0
 
 ################ Settings ################
 
+>Mode
+E
+
 >NumberAssigned_querySequence
 Oryzias-latipes_ENSORLT00000004629.1_aclya-ATP-citrate-lyase
 AVMSAKAISEQTGKEFLYKFIFSSAAVQNRFRYANVTPETNFDKLTQEHPWLLTERLVVKPDQLIKRRGKLGLVGVNLDLNGVKNWLKPRLNKEATVGKAKGILKNFLIEPFVPHKQEKEFYVCIYAAREGDYILFHHEGGVDVGNVNAKAQKLLIRVDEKIDEDQVKKALLTKAPNDKRAVLASFIVGLFNLYEELFFTYLEINPLVVTKDGVYVLDMAAKIDATADYICKAKWGDVEFPPPFGREAYPEEAYIADLDAKSGASLKLTLLNPRGRIWTMVAGGGASVVYSDTICDLGGVNELANYGEYSGAPSEQQTYDYAKTILSLMTREKHPDGKVLIIGGSIANFTNVAATFKGIVRAIKDYQEPLKEHEVTIFVRRGGPNYQEGLRVMGEVGKTTGIPIHVFGTETHMTAIVGMALGHKPIPIQPPVAAHTANFLLNSNTTSTPTSRRKETVSVQKTKVEGSPAKKVKTGTSVGKGCHPNAITSKSTVLFTKQTKAMVWGMQTRAVQGMLDFDYVCSREEPSVSAMIYPFTGDHKQKFYWGHKEILIPVYKNMGDAMKKHPDVDVLISFASLRSAFESTMETMEYPQIQTIAIIAEGIPEAHTRKIIKAADEKGITIIGPATVGGIKPGCFKIGNTGGMLDNILASKLYRSGSVAYVSRSGGMSNELNNIISRTTDGVFEGVAIGGDRYPGSVFTDHVLRYQDTPGVKMIVVLGEIGGTEEYKICEAIKQGRVTKPVVCWCIGTCATMFSSEVQFGHAGACANQASETAVAKNKALKEAGAFVPKSFDELGDIIKNVYDDLVAKGVIQPAEEVPPPTVPMDYSWARELGLIRKPASFMTSICDERGQELLYAGMPITEVFKTEMGLGGTLGLLWFQRRLPRYACQFIEMCLMVTADHGPAVSGAHNTIVCARAGKDLISSLTSGLLTIGDRFGGALDAAAKQFSKAFDSGMLPMEFVNKMKKDGKLIMGIGHRVKSINNPDMRVQILKDFVKQNFPSCQLLDYALEVEKITTSKKPNLILNVDGFIGVAFVDLLRTCGGFTRDEADEFVDIGALNGIFVLGRSMGFIGHYLDQKRLKQGLYRHPWDDISYVLPEHMSM
@@ -130,6 +152,8 @@ Tetraodon-nigroviridis_Green
 Gasterosteus-aculeatus_Red
 Oryzias-latipes_Blue
 
+>AnalysisTime
+11.7 seconds
 ################ Results: 2nd analysis ################
 
 >TreeSearchMethod
@@ -163,4 +187,4 @@ Percomorpha                     0
 Oryzias-latipes                 0
 
 >AnalysisTime
-9.1 seconds
+12.5 seconds

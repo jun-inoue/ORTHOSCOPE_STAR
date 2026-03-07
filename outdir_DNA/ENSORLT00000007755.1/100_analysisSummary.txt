@@ -14,6 +14,9 @@ Tetraodon-nigroviridis   1
 Gasterosteus-aculeatus   1
 Oryzias-latipes          1
 
+>Rooting_4_1stTree
+Drosophila-melanogaster_FBtr0076069_SdhAL-Succinate-dehydro
+
 >BS_of_orthogroupBasalNode
 75
 
@@ -37,7 +40,7 @@ Oryzias-latipes         1
 Tetraodon-nigroviridis  1
 Gasterosteus-aculeatus  1
 
->Rooting
+>Rooting_4_2ndTree
 Ciona-intestinalis_ENSCINT00000008904.3_NONE
 
 
@@ -49,6 +52,22 @@ Ciona-intestinalis_ENSCINT00000008904.3_NONE
 
 >1st_gene_tree_newick
 (((((((Tetraodon-nigroviridis_ENSTNIT00000022516.1_SDHA-succinate-d:0.02407835064,Gasterosteus-aculeatus_ENSGACT00000007724.1_SDHA-succinate-d:0.02566109717)90:0.005932491097,Oryzias-latipes_ENSORLT00000007755.1_sdha-succinate-dehydrog:0.04104381007)100:0.01970218483,Danio-rerio_ENSDART00000165703.1_sdha-succinate-dehydrogenas:0.07974114633)85:0.01059918994,(((Homo-sapiens_ENST00000651543.1_AC021087.5-novel-protei:-0.0117745216,Homo-sapiens_ENST00000264932.11_SDHA-succinate-dehydro:0.01461478981)100:0.03419333895,Gallus-gallus_ENSGALT00000021508.7_SDHA-succinate-dehyd:0.04504872421)63:0.005030087043,Xenopus-tropicalis_ENSXETT00000026401.3_sdha-succinate-dehyd:0.1041827014)99:0.02626359041)75:0.01038841651,(Drosophila-melanogaster_FBtr0086553_SdhA-Succinate-dehydrog:0.1257015831,Ciona-intestinalis_ENSCINT00000008904.3_NONE:0.1144352166)32:0.01490603706)97:0.09988672917,Ciona-intestinalis_ENSCINT00000016324.3_NONE:0.915253377)100:0,Drosophila-melanogaster_FBtr0076069_SdhAL-Succinate-dehydro:0.1757415134)100;
+
+>MonophyleticGeneGroups_1stTree
+Bilateria                       100  D=Y
+Deuterostomia                   r  D=N
+BonyVertebrates                 75  D=N
+Teleostei                       85  D=N
+Percomorpha                     100  D=N
+Oryzias-latipes                 leaf  leaf
+
+>SisterGeneGroups_1stTree
+Bilateria                       100   Ciona-intestinalis
+Deuterostomia                   97   Drosophila-melanogaster
+BonyVertebrates                 r   Ciona-intestinalis
+Teleostei                       75   Tetrapoda
+Percomorpha                     85   Danio-rerio
+Oryzias-latipes                 100   Eupercaria
 
 >Aligned-ShortSequence_threshold evaluation
 Drosophila-melanogaster_FBtr0076069_SdhAL-Succinate-dehydro      0.98
@@ -67,6 +86,9 @@ Oryzias-latipes_ENSORLT00000007755.1_sdha-succinate-dehydrog     1.0
 
 
 ################ Settings ################
+
+>Mode
+E
 
 >NumberAssigned_querySequence
 Oryzias-latipes_ENSORLT00000007755.1_sdha-succinate-dehydrog
@@ -98,6 +120,8 @@ Tetraodon-nigroviridis_Green
 Gasterosteus-aculeatus_Red
 Oryzias-latipes_Blue
 
+>AnalysisTime
+12.0 seconds
 ################ Results: 2nd analysis ################
 
 >TreeSearchMethod
@@ -131,4 +155,4 @@ Percomorpha                     0
 Oryzias-latipes                 0
 
 >AnalysisTime
-8.8 seconds
+12.7 seconds

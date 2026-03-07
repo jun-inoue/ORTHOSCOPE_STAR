@@ -14,6 +14,9 @@ Tetraodon-nigroviridis   4
 Gasterosteus-aculeatus   3
 Oryzias-latipes          3
 
+>Rooting_4_1stTree
+Drosophila-melanogaster_FBtr0300596_ATPCL-ATP-citrate-lyase
+
 >BS_of_orthogroupBasalNode
 99
 
@@ -36,7 +39,7 @@ Oryzias-latipes         1
 Tetraodon-nigroviridis  1
 Gasterosteus-aculeatus  1
 
->Rooting
+>Rooting_4_2ndTree
 Ciona-intestinalis_ENSCINT00000011271.3_NONE
 
 
@@ -48,6 +51,22 @@ Ciona-intestinalis_ENSCINT00000011271.3_NONE
 
 >1st_gene_tree_newick
 (((((((((Tetraodon-nigroviridis_ENSTNIT00000009718.1_aclya-ATP-citrat:0.006072206786,Tetraodon-nigroviridis_ENSTNIT00000009710.1_NONE:-0.006072206786)76:0.01037162838,Oryzias-latipes_ENSORLT00000004629.1_aclya-ATP-citrate-lyase:0.01639135212)46:0.002335385976,Gasterosteus-aculeatus_ENSGACT00000011663.1_aclya-ATP-citrat:0.0144914656)79:0.01457955099,Danio-rerio_ENSDART00000164663.1_aclya-ATP-citrate-lyase-a:0.02873378787)58:0.007362990582,((Gasterosteus-aculeatus_ENSGACT00000008268.1_aclyb-ATP-citrat:0.01753148855,Oryzias-latipes_ENSORLT00000017407.1_aclyb-ATP-citrate-lyase:0.01712685578)67:0.001299589097,Tetraodon-nigroviridis_ENSTNIT00000009568.1_NONE:0.068935513)54:0.008249648859)46:0.003906480978,((Xenopus-tropicalis_ENSXETT00000004898.2_acly-ATP-citrate-lya:0.1772880442,Homo-sapiens_ENST00000352035.7_ACLY-ATP-citrate-lyase:0.0005977904574)88:0.01154743604,Gallus-gallus_ENSGALT00000070919.3_ACLY-ATP-citrate-lya:0.01533268807)96:0.02658695512)41:0.003778345125,Danio-rerio_ENSDART00000152522.2_aclyb-ATP-citrate-lyase-b:0.04856453106)98:0.05569182727,(((((((Danio-rerio_ENSDART00000074609.4_suclg1-succinate-CoA-ligase:0.02502178757,Oryzias-latipes_ENSORLT00000007664.1_suclg1-succinate-CoA-li:0.007685998773)41:0.006952664681,Gasterosteus-aculeatus_ENSGACT00000023792.1_suclg1-succinate:0.0119675717)57:0.004158704204,Tetraodon-nigroviridis_ENSTNIT00000005348.1_suclg1-succinate:0.04913148558)91:0.02447857012,((Xenopus-tropicalis_ENSXETT00000003559.2_suclg1-succinate-CoA:0.1096083148,Homo-sapiens_ENST00000393868.7_SUCLG1-succinate-CoA-li:0.04011412665)41:0.008449739468,Gallus-gallus_ENSGALT00000032015.4_SUCLG1-succinate-CoA:0.02808045282)61:0.007610042253)99:0.03840518607,Ciona-intestinalis_ENSCINT00000011271.3_NONE:0.1152392308)64:0.02095175245,Drosophila-melanogaster_FBtr0303096_Scsalpha-Succinyl-coenz:0.1141335843)79:0.04199769727,Drosophila-melanogaster_FBtr0083769_CG6255-NONE:0.1668220844)100:0.6025707459)100:0,Drosophila-melanogaster_FBtr0300596_ATPCL-ATP-citrate-lyase:0.1155121159)100;
+
+>MonophyleticGeneGroups_1stTree
+Bilateria                       100  D=Y
+Deuterostomia                   r  D=N
+BonyVertebrates                 99  D=N
+Teleostei                       91  D=N
+Percomorpha                     r  D=N
+Oryzias-latipes                 leaf  leaf
+
+>SisterGeneGroups_1stTree
+Bilateria                       100   BonyVertebrates
+Deuterostomia                   79   Drosophila-melanogaster
+BonyVertebrates                 r   Ciona-intestinalis
+Teleostei                       99   Tetrapoda
+Percomorpha                     91   Danio-rerio
+Oryzias-latipes                 r   Eupercaria
 
 >Aligned-ShortSequence_threshold evaluation
 Drosophila-melanogaster_FBtr0300596_ATPCL-ATP-citrate-lyase      1.0
@@ -76,6 +95,9 @@ Oryzias-latipes_ENSORLT00000007664.1_suclg1-succinate-CoA-li     1.0
 
 
 ################ Settings ################
+
+>Mode
+E
 
 >NumberAssigned_querySequence
 Oryzias-latipes_ENSORLT00000007664.1_suclg1-succinate-CoA-li
@@ -107,6 +129,8 @@ Tetraodon-nigroviridis_Green
 Gasterosteus-aculeatus_Red
 Oryzias-latipes_Blue
 
+>AnalysisTime
+13.0 seconds
 ################ Results: 2nd analysis ################
 
 >TreeSearchMethod
@@ -140,4 +164,4 @@ Percomorpha                     0
 Oryzias-latipes                 0
 
 >AnalysisTime
-8.2 seconds
+13.6 seconds

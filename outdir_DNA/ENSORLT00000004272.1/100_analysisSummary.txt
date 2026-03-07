@@ -14,6 +14,9 @@ Tetraodon-nigroviridis   2
 Gasterosteus-aculeatus   2
 Oryzias-latipes          1
 
+>Rooting_4_1stTree
+Xenopus-tropicalis_ENSXETT00000065642.1_ppp1r1a-protein-phos
+
 >BS_of_orthogroupBasalNode
 97
 
@@ -35,7 +38,7 @@ Oryzias-latipes         1
 Tetraodon-nigroviridis  1
 Gasterosteus-aculeatus  1
 
->Rooting
+>Rooting_4_2ndTree
 Gallus-gallus_ENSGALT00000107737.1_protein-phosphatase-
 
 
@@ -47,6 +50,22 @@ Gallus-gallus_ENSGALT00000107737.1_protein-phosphatase-
 
 >1st_gene_tree_newick
 (((((((((((Danio-rerio_ENSDART00000101658.5_ppp1r1b-protein-phosphatase:0.07714117912,Gasterosteus-aculeatus_ENSGACT00000007985.1_PPP1R1B-protein-:0.1893741986)32:0.01302829353,(Tetraodon-nigroviridis_ENSTNIT00000014870.1_ppp1r1b-protein-:0.04055496706,Oryzias-latipes_ENSORLT00000004272.1_ppp1r1b-protein-phospha:0.02460513868)97:0.05567144435)86:0.06618350373,Homo-sapiens_ENST00000580825.5_PPP1R1B-protein-phospha:0.0747316114)47:0.01835880575,Xenopus-tropicalis_ENSXETT00000060344.1_ppp1r1b-protein-phos:0.1695859604)97:0.1143315232,Gallus-gallus_ENSGALT00000107737.1_protein-phosphatase-:0.4055131674)93:0.1761218029,Gasterosteus-aculeatus_ENSGACT00000015397.1_NONE:0.1731936479)56:0.04950055269,(((Gallus-gallus_ENSGALT00000014468.6_PPP1R1C-protein-phos:0.05616685708,Homo-sapiens_ENST00000280295.7_PPP1R1C-protein-phospha:0.06216813345)50:0.01114628318,Xenopus-tropicalis_ENSXETT00000064809.1_ppp1r1c-protein-phos:0.07310290097)99:0.08961610634,Danio-rerio_ENSDART00000056846.7_ppp1r1c-protein-phosphatase:0.1678146026)46:0.02852852224)77:0.08303905465,Tetraodon-nigroviridis_ENSTNIT00000018087.1_PPP1R1A-protein-:0.2805345552)95:0.111667499,Gallus-gallus_ENSGALT00000106927.1_PPP1R1A-protein-phos:0.06908143947)71:0.05234039298,Homo-sapiens_ENST00000257905.13_PPP1R1A-protein-phosph:0.08065122002)100:0,Xenopus-tropicalis_ENSXETT00000065642.1_ppp1r1a-protein-phos:0.2965181606)100;
+
+>MonophyleticGeneGroups_1stTree
+Bilateria                       NoGeneNode  NONE
+Deuterostomia                   NoGeneNode  NONE
+BonyVertebrates                 100  D=Y
+Teleostei                       86  D=N
+Percomorpha                     r  D=Y
+Oryzias-latipes                 leaf  leaf
+
+>SisterGeneGroups_1stTree
+Bilateria                       NONE   NoGeneNode
+Deuterostomia                   NONE   NoGeneNode
+BonyVertebrates                 100   Homo-sapiens
+Teleostei                       97   Tetrapoda
+Percomorpha                     86   Danio-rerio
+Oryzias-latipes                 97   Tetraodon-nigroviridis
 
 >Aligned-ShortSequence_threshold evaluation
 Xenopus-tropicalis_ENSXETT00000065642.1_ppp1r1a-protein-phos     0.978
@@ -68,6 +87,9 @@ Oryzias-latipes_ENSORLT00000004272.1_ppp1r1b-protein-phospha     1.0
 
 
 ################ Settings ################
+
+>Mode
+E
 
 >NumberAssigned_querySequence
 Oryzias-latipes_ENSORLT00000004272.1_ppp1r1b-protein-phospha
@@ -99,6 +121,8 @@ Tetraodon-nigroviridis_Green
 Gasterosteus-aculeatus_Red
 Oryzias-latipes_Blue
 
+>AnalysisTime
+11.4 seconds
 ################ Results: 2nd analysis ################
 
 >TreeSearchMethod
@@ -132,4 +156,4 @@ Percomorpha                     0
 Oryzias-latipes                 0
 
 >AnalysisTime
-8.0 seconds
+12.1 seconds

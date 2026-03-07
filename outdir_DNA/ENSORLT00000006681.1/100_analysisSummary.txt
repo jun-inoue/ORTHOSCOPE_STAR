@@ -14,6 +14,9 @@ Tetraodon-nigroviridis   4
 Gasterosteus-aculeatus   4
 Oryzias-latipes          5
 
+>Rooting_4_1stTree
+Drosophila-melanogaster_FBtr0079351_CG10399-NONE
+
 >BS_of_orthogroupBasalNode
 94
 
@@ -36,7 +39,7 @@ Oryzias-latipes         1
 Tetraodon-nigroviridis  2
 Gasterosteus-aculeatus  1
 
->Rooting
+>Rooting_4_2ndTree
 Homo-sapiens_ENST00000529047.6_PC-pyruvate-carboxylase
 
 
@@ -48,6 +51,22 @@ Homo-sapiens_ENST00000529047.6_PC-pyruvate-carboxylase
 
 >1st_gene_tree_newick
 ((((((((((Gasterosteus-aculeatus_ENSGACT00000008134.1_mccc1-methylcrot:0.04080167269,Oryzias-latipes_ENSORLT00000014642.1_mccc1-methylcrotonoyl-C:0.03922859762)56:0.002439265641,Tetraodon-nigroviridis_ENSTNIT00000002503.1_mccc1-methylcrot:0.04902308795)100:0.04110008316,Danio-rerio_ENSDART00000158293.1_mccc1-methylcrotonoyl-CoA-c:0.06934351151)100:0.03539937038,((Gallus-gallus_ENSGALT00000033152.2_MCCC1-methylcrotonoy:0.08285621893,Homo-sapiens_ENST00000265594.9_MCCC1-methylcrotonoyl-C:0.09524902107)56:0.005737917135,Xenopus-tropicalis_ENSXETT00000036680.3_mccc1-methylcrotonoy:0.07542690614)99:0.02075158982)100:0.07115561958,(Ciona-intestinalis_ENSCINT00000007919.3_NONE:-0.00384723266,Ciona-intestinalis_ENSCINT00000007911.3_NONE:0.01429398175)100:0.219622734)85:0.03066569844,Drosophila-melanogaster_FBtr0307551_CG2118-NONE:0.2381811186)97:0.1093938958,(((((Gasterosteus-aculeatus_ENSGACT00000003067.1_pcca-propionyl-C:0.05194199802,Oryzias-latipes_ENSORLT00000000447.1_pcca-propionyl-CoA-carb:0.05807961071)100:0.02052720226,Danio-rerio_ENSDART00000133905.2_pcca-propionyl-CoA-carboxyl:0.07500626843)87:0.0122516351,((Gallus-gallus_ENSGALT00000027260.6_PCCA-propionyl-CoA-c:0.04627186772,Homo-sapiens_ENST00000376285.6_PCCA-propionyl-CoA-carb:0.07676842605)94:0.01254896174,Xenopus-tropicalis_ENSXETT00000044700.3_pcca-propionyl-CoA-c:0.08532530066)100:0.03592559569)100:0.04895341039,Ciona-intestinalis_ENSCINT00000016533.3_NONE:0.1911520724)100:0.1104732081,Xenopus-tropicalis_ENSXETT00000013359.2_NONE:0.2834277193)100:0.1190319735)74:0.05421177072,(((((((((Tetraodon-nigroviridis_ENSTNIT00000006830.1_NONE:0.0624235167,Oryzias-latipes_ENSORLT00000006681.1_NONE:-0.01136742486)100:0.1585672678,Gasterosteus-aculeatus_ENSGACT00000026135.1_pcxb-pyruvate-ca:-0.1099683784)66:0.0755190662,Tetraodon-nigroviridis_ENSTNIT00000006043.1_NONE:0.067178574)39:0.01804589558,Xenopus-tropicalis_ENSXETT00000018435.3_pc.1-pyruvate-carbox:0.04010332938)27:0.03451906227,Danio-rerio_ENSDART00000073654.3_pcxb-pyruvate-carboxylase-b:0.02905579036)28:0.01193473719,Danio-rerio_ENSDART00000168379.1_pcxa-pyruvate-carboxylase-a:0.02408884787)94:0.02892988058,Homo-sapiens_ENST00000529047.6_PC-pyruvate-carboxylase:0.05850312274)100:0.07332109098,Drosophila-melanogaster_FBtr0300850_PCB-Pyruvate-carboxylas:0.1308307788)50:0.004556000231,Ciona-intestinalis_ENSCINT00000015426.3_NONE:0.1580970504)100:0.242101131)100:0.8681050458,(((((Gallus-gallus_ENSGALT00000034945.5_HMGCL-3-hydroxymethy:0.1758795643,Tetraodon-nigroviridis_ENSTNIT00000020247.1_hmgcl-3-hydroxym:0.04681753355)18:0.04760841826,Danio-rerio_ENSDART00000027957.7_hmgcl-3-hydroxymethyl-3-met:0.03059447231)19:0.03886791406,Oryzias-latipes_ENSORLT00000021836.1_hmgcl-3-hydroxymethyl-3:0.02579853358)57:0.04047395827,Xenopus-tropicalis_ENSXETT00000033534.3_hmgcl-3-hydroxymethy:0.07931725992)46:0.02711745043,((Gasterosteus-aculeatus_ENSGACT00000008339.1_hmgcll1-3-hydrox:0.05623658443,Oryzias-latipes_ENSORLT00000012400.1_hmgcll1-3-hydroxymethyl:0.08576615195)85:0.03791060034,(Gallus-gallus_ENSGALT00000026278.6_HMGCLL1-3-hydroxymet:0.09203631993,Homo-sapiens_ENST00000398661.6_HMGCLL1-3-hydroxymethyl:0.06662346091)85:0.05364013169)32:0.02610794266)72:0.0361786367)100:0,Drosophila-melanogaster_FBtr0079351_CG10399-NONE:0.1843269828)100;
+
+>MonophyleticGeneGroups_1stTree
+Bilateria                       100  D=Y
+Deuterostomia                   r  D=N
+BonyVertebrates                 100  D=Y
+Teleostei                       r  D=Y
+Percomorpha                     100  D=N
+Oryzias-latipes                 leaf  leaf
+
+>SisterGeneGroups_1stTree
+Bilateria                       100   BonyVertebrates
+Deuterostomia                   100   Drosophila-melanogaster
+BonyVertebrates                 r   Ciona-intestinalis
+Teleostei                       94   Xenopus-tropicalis
+Percomorpha                     r   Danio-rerio
+Oryzias-latipes                 100   Tetraodon-nigroviridis
 
 >Aligned-ShortSequence_threshold evaluation
 Drosophila-melanogaster_FBtr0079351_CG10399-NONE                 0.562
@@ -93,6 +112,9 @@ Oryzias-latipes_ENSORLT00000006681.1_NONE                        1.0
 
 ################ Settings ################
 
+>Mode
+E
+
 >NumberAssigned_querySequence
 Oryzias-latipes_ENSORLT00000006681.1_NONE
 TNIPFLQNVLSNNQFLHSTVDTQFIDENPELFNLKPTQNRAQKLLHYLGHVMVNGPTTPIPVKAKPSSIDPVVPHVGMGDPPVGFRDVLLRDGPEGFAKAVRAHQGLLLMDTTFRDAHQSLLATRVRTHDLKKISPFVSHSFSNLFSLENWGGATFDVAMRFLSECPWKRLQELRALIPNVPFQMLLRGANAVGYTNYPDNAVFKFCEVAKENGMDIFRVFDSLNYLPNMLLGMEAAGAAGGVVEAAISYTGDVSDPMRQKYSLDYYVNLADELVKAGTHILCIKDMAGLLKPTSSQLLIGALRDRFPDVPIHVHSHDTAGAGVAAMLACAEAGADVVDVAVDSMAGMTSQPSMGAIVACTKGTKYDTGIALEKVFDYSEYWEVTRGLYAPFDCTATMKSGNADVYENEIPGGQYTNLHFQAHSMGLGNKFKEVKKAYAEANKLLGDLIKVTPSSKIVGDLAQFMVQNSLTRQEVEERADELSFPQSVVEFLQGHVGIPHGGFPEPFRSKVLKLFLKTTGFPGLHPINFRSMYSRSVKYGRGTRETITSAVMDGKNSRQTNGYYTTFFLVSCCQTRYLFKSKRILRMFQVELERGKTLHIKALALGDLNKNGQREVFFEMNGQLRSVLVKDTVAMKEMKFHPKAQKSIKGQVGAPMPGKVLEVKVKTGSKVEKGQPLCVLSAMKMETVVNSPMAGTIKAIHVSPDASLEGDDLILEIEE
@@ -123,6 +145,8 @@ Tetraodon-nigroviridis_Green
 Gasterosteus-aculeatus_Red
 Oryzias-latipes_Blue
 
+>AnalysisTime
+12.6 seconds
 ################ Results: 2nd analysis ################
 
 >TreeSearchMethod
@@ -156,4 +180,4 @@ Percomorpha                     0
 Oryzias-latipes                 0
 
 >AnalysisTime
-9.8 seconds
+13.3 seconds

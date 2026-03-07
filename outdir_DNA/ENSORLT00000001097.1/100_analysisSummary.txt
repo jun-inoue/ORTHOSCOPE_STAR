@@ -14,6 +14,9 @@ Tetraodon-nigroviridis   10
 Gasterosteus-aculeatus   10
 Oryzias-latipes          10
 
+>Rooting_4_1stTree
+Drosophila-melanogaster_FBtr0070217_AMPKalpha-AMP-activated
+
 >BS_of_orthogroupBasalNode
 r
 
@@ -38,7 +41,7 @@ Oryzias-latipes         2
 Tetraodon-nigroviridis  2
 Gasterosteus-aculeatus  0
 
->Rooting
+>Rooting_4_2ndTree
 Homo-sapiens_ENST00000423381.5_CAMK2G-calcium-calmodul
 
 
@@ -50,6 +53,22 @@ Homo-sapiens_ENST00000423381.5_CAMK2G-calcium-calmodul
 
 >1st_gene_tree_newick
 (((((((((((((((((((Gasterosteus-aculeatus_ENSGACT00000014432.1_camk2g2-calcium-:0.007998866309,Oryzias-latipes_ENSORLT00000005225.1_camk2g2-calcium-calmodu:0.006347069427)70:0.003758625069,Tetraodon-nigroviridis_ENSTNIT00000010447.1_camk2g2-calcium-:0.006615010664)71:0.003712697812,(Gasterosteus-aculeatus_ENSGACT00000003804.1_NONE:0.009632454936,Oryzias-latipes_ENSORLT00000013395.1_NONE:0.00264684257)94:0.01150009978)36:0.005127528894,((Danio-rerio_ENSDART00000165842.1_camk2g2-calcium-calmodulin-:0.01154027687,Danio-rerio_ENSDART00000162595.2_camk2g1-calcium-calmodulin-:0.01134050279)38:0.001926919327,(Tetraodon-nigroviridis_ENSTNIT00000023053.1_NONE:0.08168989592,Tetraodon-nigroviridis_ENSTNIT00000023070.1_NONE:-0.0125563109)89:0.01393128629)25:0.001642395199)17:0.002741952389,((Xenopus-tropicalis_ENSXETT00000014164.3_camk2g-calcium-calmo:0.01448326654,Gallus-gallus_ENSGALT00000033583.4_CAMK2G-calcium-calmo:0.006760612292)51:0.001410219914,Homo-sapiens_ENST00000423381.5_CAMK2G-calcium-calmodul:0.008946877942)25:0.003060260437)77:0.01967772503,(Oryzias-latipes_ENSORLT00000000306.1_NONE:0.03452841814,Oryzias-latipes_ENSORLT00000001097.1_camk2b2-calcium-calmodu:0.04252705801)97:0.02827572204)56:0.008253125432,Tetraodon-nigroviridis_ENSTNIT00000016779.1_camk2b2-calcium-:0.01192537336)10:0.0003641426136,((Danio-rerio_ENSDART00000133461.1_camk2b1-calcium-calmodulin-:0.004689497221,Tetraodon-nigroviridis_ENSTNIT00000018928.1_camk2b1-calcium-:0.02046706237)50:0.002081876634,Danio-rerio_ENSDART00000175481.1_camk2b2-calcium-calmodulin-:0.01070470626)53:0.003186568666)34:0.002631803507,((Gallus-gallus_ENSGALT00000063931.2_CAMK2B-calcium-calmo:0.005304850351,Homo-sapiens_ENST00000395749.7_CAMK2B-calcium-calmodul:0.0008051372428)91:0.005387843216,Xenopus-tropicalis_ENSXETT00000041159.3_camk2b-calcium-calmo:0.01337499201)68:0.00320963858)71:0.01344324299,((((((Gallus-gallus_ENSGALT00000009020.5_CAMK2A-calcium-calmo:0.007535937502,Homo-sapiens_ENST00000672396.1_CAMK2A-calcium-calmodul:0.004743268272)88:0.004266616051,Danio-rerio_ENSDART00000175236.1_camk2a-calcium-calmodulin-d:0.01452697416)25:0.0002359845423,((Tetraodon-nigroviridis_ENSTNIT00000010601.1_NONE:0.008278232548,Gasterosteus-aculeatus_ENSGACT00000027695.1_NONE:0.01257620949)76:0.006194102853,Oryzias-latipes_ENSORLT00000016109.1_camk2a-calcium-calmodul:0.01115669783)60:0.004704474802)63:0.002895105297,Xenopus-tropicalis_ENSXETT00000014165.3_camk2a-calcium-calmo:0.01159593677)99:0.01736509155,Tetraodon-nigroviridis_ENSTNIT00000023218.1_NONE:0.01545028401)35:0.002163708064,(Gasterosteus-aculeatus_ENSGACT00000002109.1_camk2d1-calcium-:0.01606904899,Oryzias-latipes_ENSORLT00000024734.1_NONE:0.05686821293)55:0.006176036695)29:0.002710819513)45:0.005665076696,(((((Tetraodon-nigroviridis_ENSTNIT00000021198.1_camk2d2-calcium-:0.02103684849,Oryzias-latipes_ENSORLT00000006418.1_camk2d2-calcium-calmodu:0.004070772709)55:0.001253396152,Gasterosteus-aculeatus_ENSGACT00000021259.1_camk2d2-calcium-:0.004860726144)87:0.008062898078,Danio-rerio_ENSDART00000044896.8_camk2d2-calcium-calmodulin-:0.01010145458)98:0.009425248652,Danio-rerio_ENSDART00000166198.1_camk2d1-calcium-calmodulin-:0.01310364161)48:0.004907131673,((Xenopus-tropicalis_ENSXETT00000033918.3_camk2d-calcium-calmo:0.009590875539,Gallus-gallus_ENSGALT00000099788.1_CAMK2D-calcium-calmo:0.004837951701)94:0.0118623425,Homo-sapiens_ENST00000511664.6_CAMK2D-calcium-calmodul:0.008988032373)51:0.006440596312)36:0.00298593288)94:0.01921366096,Drosophila-melanogaster_FBtr0300379_CaMKII-Calcium-calmodul:0.06468621326)35:0.002117327424,Ciona-intestinalis_ENSCINT00000004087.3_NONE:0.1035264272)100:0.1271469599,(((((((Tetraodon-nigroviridis_ENSTNIT00000017789.1_caskb-calcium-ca:0.03571243414,Gasterosteus-aculeatus_ENSGACT00000019901.1_CASK-calcium-cal:-0.008661024799)62:0.007153486679,Gasterosteus-aculeatus_ENSGACT00000010909.1_CASK-calcium-cal:0.01357757053)33:0.004927572838,Oryzias-latipes_ENSORLT00000017138.1_CASK-calcium-calmodulin:0.01360475362)21:0.001414932598,(((Gallus-gallus_ENSGALT00000059980.2_CASK-calcium-calmodu:0.006546465657,Homo-sapiens_ENST00000645986.2_CASK-calcium-calmodulin:0.00992838994)54:0.002492479088,Xenopus-tropicalis_ENSXETT00000010527.3_cask-calcium-calmodu:0.0100472592)86:0.009918162767,Danio-rerio_ENSDART00000158678.1_caska-calcium-calmodulin-de:0.008886428342)68:0.006869180889)31:0.008540652205,Oryzias-latipes_ENSORLT00000006054.1_caskb-calcium-calmoduli:0.006123013754)100:0.05951308961,Ciona-intestinalis_ENSCINT00000004629.3_NONE:0.1114142746)95:0.0341701874,Drosophila-melanogaster_FBtr0330368_CASK-NONE:0.2491292616)100:0.1797508698)100:0.1357597653,(((((((((((((((Gallus-gallus_ENSGALT00000072279.2_CAMK1D-calcium-calmo:0.01219819518,Homo-sapiens_ENST00000619168.5_CAMK1D-calcium-calmodul:0.01513685668)98:0.02805559017,Xenopus-tropicalis_ENSXETT00000019985.3_camk1d-calcium-calmo:0.004139998903)97:0.02641282236,Danio-rerio_ENSDART00000104674.4_camk1db-calcium-calmodulin-:0.05386754916)71:0.01381514919,Xenopus-tropicalis_ENSXETT00000051081.3_camk1-calcium-calmod:0.02874734088)23:0.005055563661,Gasterosteus-aculeatus_ENSGACT00000000410.1_camk1b-calcium-c:0.02896554159)12:0.002662282208,Gasterosteus-aculeatus_ENSGACT00000001778.1_camk1a-calcium-c:0.03268112139)38:0.01122923217,(Gallus-gallus_ENSGALT00000050964.2_CAMK1-calcium-calmod:0.02830823245,Homo-sapiens_ENST00000256460.8_CAMK1-calcium-calmoduli:0.02688851592)67:0.009324601603)75:0.01651004876,(Gallus-gallus_ENSGALT00000002011.6_CAMK1G-calcium-calmo:0.02214653188,Homo-sapiens_ENST00000009105.5_CAMK1G-calcium-calmodul:0.03114010036)100:0.07833562905)89:0.0251583563,(Xenopus-tropicalis_ENSXETT00000016776.2_pnck-pregnancy-up-re:0.02687040426,Homo-sapiens_ENST00000447676.6_PNCK-pregnancy-up-regul:0.08882611533)100:0.04358240695)94:0.03656556669,Drosophila-melanogaster_FBtr0089065_CaMKI-Calcium-calmoduli:0.1532305125)49:0.005805541359,Ciona-intestinalis_ENSCINT00000023364.2_cam-k-calmodulin-dep:0.1278506129)100:0.07325171144,Ciona-intestinalis_ENSCINT00000023622.2_NONE:0.4282722502)41:0.03564374577,((((((Gallus-gallus_ENSGALT00000088975.2_CAMK4-calcium-calmod:0.01719057528,Homo-sapiens_ENST00000512453.5_CAMK4-calcium-calmoduli:0.02715240559)51:0.003655117836,Xenopus-tropicalis_ENSXETT00000015124.2_camk4-calcium-calmod:0.01565591453)79:0.01323069551,Gallus-gallus_ENSGALT00000101830.1_NONE:0.07968704733)77:0.03584412696,(Gasterosteus-aculeatus_ENSGACT00000018018.1_NONE:0.01385609329,Oryzias-latipes_ENSORLT00000017486.1_sich73-60h1.1-sich73-60:0.009319813281)84:0.01654886065)13:0.001739581027,Danio-rerio_ENSDART00000109308.3_sich73-60h1.1-si-ch73-60h1.:0.02168975689)100:0.0860155105,Ciona-intestinalis_ENSCINT00000010112.3_NONE:0.1896332638)99:0.1062356261)35:0.02139082416,((Drosophila-melanogaster_FBtr0111277_CG17528-NONE:0.2252023692,Ciona-intestinalis_ENSCINT00000024277.2_NONE:0.2575197817)70:0.04722690246,Ciona-intestinalis_ENSCINT00000004186.3_NONE:0.2124507726)88:0.08071960173)37:0.04457902212,((Ciona-intestinalis_ENSCINT00000019808.3_NONE:0.2036119603,Xenopus-tropicalis_ENSXETT00000022186.3_phkg1-phosphorylase-:0.1617798097)34:0.002633576295,Drosophila-melanogaster_FBtr0301500_PhKgamma-Phosphorylase-:0.2203265046)100:0.1248653218)12:0.01249434863)16:0.0181419184,(((Drosophila-melanogaster_FBtr0308577_MAPk-Ak2-MAP-kinase-act:0.1480284676,Ciona-intestinalis_ENSCINT00000016755.3_NONE:0.1420955148)100:0.2309511443,Drosophila-melanogaster_FBtr0082534_Lk6-Lk6-kinase-DBNLINE-:0.3642638558)75:0.1033867849,Ciona-intestinalis_ENSCINT00000020206.3_NONE:0.3762551277)28:0.04177695313)20:0.01173558048,Drosophila-melanogaster_FBtr0081328_lok-loki-DBNLINE-1664:0.346315843)99:0.1887267439,Drosophila-melanogaster_FBtr0089527_sff-sugar-free-frosting:0.2728023472)100:0,Drosophila-melanogaster_FBtr0070217_AMPKalpha-AMP-activated:0.2392862342)100;
+
+>MonophyleticGeneGroups_1stTree
+Bilateria                       100  D=Y
+Deuterostomia                   r  D=N
+BonyVertebrates                 94  D=Y
+Teleostei                       r  D=N
+Percomorpha                     r  D=N
+Oryzias-latipes                 97  D=Y
+
+>SisterGeneGroups_1stTree
+Bilateria                       100   Drosophila-melanogaster
+Deuterostomia                   100   Drosophila-melanogaster
+BonyVertebrates                 r   Ciona-intestinalis
+Teleostei                       r   Tetrapoda
+Percomorpha                     r   Danio-rerio
+Oryzias-latipes                 r   Tetraodon-nigroviridis
 
 >Aligned-ShortSequence_threshold evaluation
 Drosophila-melanogaster_FBtr0070217_AMPKalpha-AMP-activated      0.906
@@ -145,6 +164,9 @@ Oryzias-latipes_ENSORLT00000001097.1_camk2b2-calcium-calmodu     1.0
 
 ################ Settings ################
 
+>Mode
+E
+
 >NumberAssigned_querySequence
 Oryzias-latipes_ENSORLT00000001097.1_camk2b2-calcium-calmodu
 GFAGTPGYLSPEVLRKEAYGKPVDIWACGVILYILLVGYPPFWDEDQHKLYQQIKAGAYDFPSPEWDTVTPEAKNLINQMLTINPVKRITAQEALKHPWVCEMSFPQKRRHIRQETVECLKKFNARRKLKGAILTTMLVSRNFSVGRQTTAPASVSAVAGTTGGIVEQAAKSLLNKKADVKPQTNSTRNSIVTSPKGNVPSAALEPQTTVIHNPADGIKGSSDSSNTTIEDEDVKARKQEIIKITEQLIETSNPIRNPDFSLSFRKICDPGLTSFEPEGLGNLVEGMDFHRFYFDNLLSKNSKPIHTTILNPHVHMIGEDAACIAYIRLTQFVDGQGRPRSSQSEETRVWHRRESRWQNVHFHCAGLRYRRMQ
@@ -175,6 +197,8 @@ Tetraodon-nigroviridis_Green
 Gasterosteus-aculeatus_Red
 Oryzias-latipes_Blue
 
+>AnalysisTime
+14.7 seconds
 ################ Results: 2nd analysis ################
 
 >TreeSearchMethod
@@ -208,4 +232,4 @@ Percomorpha                     0
 Oryzias-latipes                 0
 
 >AnalysisTime
-10.4 seconds
+15.4 seconds

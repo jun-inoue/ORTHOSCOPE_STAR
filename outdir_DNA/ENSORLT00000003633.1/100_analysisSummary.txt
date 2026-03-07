@@ -14,6 +14,9 @@ Tetraodon-nigroviridis   5
 Gasterosteus-aculeatus   4
 Oryzias-latipes          3
 
+>Rooting_4_1stTree
+Drosophila-melanogaster_FBtr0345435_Mdh1-Malate-dehydrogena
+
 >BS_of_orthogroupBasalNode
 100
 
@@ -40,7 +43,7 @@ Oryzias-latipes         2
 Tetraodon-nigroviridis  2
 Gasterosteus-aculeatus  2
 
->Rooting
+>Rooting_4_2ndTree
 Ciona-intestinalis_ENSCINT00000031124.1_NONE
 
 
@@ -52,6 +55,22 @@ Ciona-intestinalis_ENSCINT00000031124.1_NONE
 
 >1st_gene_tree_newick
 ((((((((Oryzias-latipes_ENSORLT00000003633.1_mdha-cytosolic-malate-d:0.01796735144,Gasterosteus-aculeatus_ENSGACT00000025966.1_mdh1aa-malate-de:0.01942411707)87:0.005296968856,Tetraodon-nigroviridis_ENSTNIT00000005439.1_mdh1aa-malate-de:0.02316720158)97:0.01227484105,Danio-rerio_ENSDART00000022290.10_mdh1aa-malate-dehydrogenas:0.03166647932)85:0.005914228197,(((Tetraodon-nigroviridis_ENSTNIT00000012919.1_mdh1ab-malate-de:0.06441989949,Gasterosteus-aculeatus_ENSGACT00000001269.1_mdh1ab-malate-de:0.02415630738)68:0.009595469197,Oryzias-latipes_ENSORLT00000003136.1_mdhb-cytosolic-malate-d:0.02185709568)100:0.01990907762,Danio-rerio_ENSDART00000168926.1_mdh1ab-malate-dehydrogenase:0.04282758129)89:0.01320432789)100:0.03638511302,((Gallus-gallus_ENSGALT00000014390.6_MDH1-malate-dehydrog:0.01793549527,Homo-sapiens_ENST00000539945.7_MDH1-malate-dehydrogena:0.02911440882)100:0.01848290459,Xenopus-tropicalis_ENSXETT00000028522.3_mdh1-malate-dehydrog:0.1258664158)100:0.02093932833)100:0.0437693806,((((((Tetraodon-nigroviridis_ENSTNIT00000010222.1_ldhba-lactate-de:-0.03978510335,Gasterosteus-aculeatus_ENSGACT00000001427.1_ldhba-lactate-de:0.09278288612)69:0.07818365232,Homo-sapiens_ENST00000396213.7_LDHAL6A-lactate-dehydro:0.2151466595)5:0.04306151684,Tetraodon-nigroviridis_ENSTNIT00000019321.1_ldhbb-lactate-de:0.03229983547)37:0.06188023149,Xenopus-tropicalis_ENSXETT00000036972.3_ldhb-lactate-dehydro:0.02709421939)100:0.5771298218,Ciona-intestinalis_ENSCINT00000017905.3_NONE:0.7040224257)100:0.4607148088,Ciona-intestinalis_ENSCINT00000031124.1_NONE:0.1554167708)18:0.04076309351)15:0.04811180578,(((((Tetraodon-nigroviridis_ENSTNIT00000001214.1_mdh1b-malate-deh:0.1669221277,Gasterosteus-aculeatus_ENSGACT00000020015.1_mdh1b-malate-deh:0.1205182577)56:0.07328429775,Oryzias-latipes_ENSORLT00000006646.1_mdh1b-malate-dehydrogen:0.1426039791)94:0.1003351947,Danio-rerio_ENSDART00000170060.2_mdh1b-malate-dehydrogenase-:0.2036089913)100:0.1067149062,((Gallus-gallus_ENSGALT00000013926.5_MDH1B-malate-dehydro:0.1907270276,Homo-sapiens_ENST00000374412.8_MDH1B-malate-dehydrogen:0.1964296016)79:0.0475914741,Xenopus-tropicalis_ENSXETT00000060461.1_NONE:0.2087259886)100:0.07758787028)98:0.09326571832,Ciona-intestinalis_ENSCINT00000028847.2_NONE:0.4249170784)100:0.3726620243)100:0,Drosophila-melanogaster_FBtr0345435_Mdh1-Malate-dehydrogena:0.12392774)100;
+
+>MonophyleticGeneGroups_1stTree
+Bilateria                       NoGeneNode  NONE
+Deuterostomia                   100  D=Y
+BonyVertebrates                 100  D=N
+Teleostei                       100  D=Y
+Percomorpha                     97  D=Y
+Oryzias-latipes                 leaf  leaf
+
+>SisterGeneGroups_1stTree
+Bilateria                       NONE   NoGeneNode
+Deuterostomia                   100   Deuterostomia(BonyVertebrates;Ciona-intestinalis)
+BonyVertebrates                 r   Ciona-intestinalis
+Teleostei                       100   Tetrapoda
+Percomorpha                     85   Danio-rerio
+Oryzias-latipes                 87   Gasterosteus-aculeatus
 
 >Aligned-ShortSequence_threshold evaluation
 Drosophila-melanogaster_FBtr0345435_Mdh1-Malate-dehydrogena      1.0
@@ -85,6 +104,9 @@ Oryzias-latipes_ENSORLT00000003633.1_mdha-cytosolic-malate-d     1.0
 
 ################ Settings ################
 
+>Mode
+E
+
 >NumberAssigned_querySequence
 Oryzias-latipes_ENSORLT00000003633.1_mdha-cytosolic-malate-d
 MLTLLTSMYMVVRAISPQVTIQVLMKTPPPPPKXKKRHLCPVTAEAEPIRVVVTGAAGQIAYSLLFSIAKGDVFGKDQPIILILLDIPPMLPVLDGVVMELQDCALPLLRASSPLKPSAVVKTTTEVIPTDKVEVGFKDIDAAILVGSMPRKEGMERKDLLKANVAIFKTQGQALDKYAKKTVKVLVVGNPANTNCLIASKSAPSIPKENFSCLTRLDHNRACSQVAMRCGVSSDKVKNVIIWGNHSSTQYPDVHHAKVNVSGSEVSAYDAVKNDAWLRGDFISTVQLRGAAVIKARKLSSAMSAAKAICDHMRDIWFGTKEGEFISMGVYAAGNSYGIPEDLIYSFPIQIKNKTWKVVDGLPINDFSRAKMDATAAELVEERDTAMDFLSQ
@@ -115,6 +137,8 @@ Tetraodon-nigroviridis_Green
 Gasterosteus-aculeatus_Red
 Oryzias-latipes_Blue
 
+>AnalysisTime
+12.2 seconds
 ################ Results: 2nd analysis ################
 
 >TreeSearchMethod
@@ -148,4 +172,4 @@ Percomorpha                     1
 Oryzias-latipes                 0
 
 >AnalysisTime
-40.1 seconds
+12.8 seconds

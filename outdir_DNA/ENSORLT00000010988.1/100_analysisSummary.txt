@@ -14,6 +14,9 @@ Tetraodon-nigroviridis   6
 Gasterosteus-aculeatus   7
 Oryzias-latipes          3
 
+>Rooting_4_1stTree
+Drosophila-melanogaster_FBtr0346282_Ggamma30A-G-protein-sub
+
 >BS_of_orthogroupBasalNode
 96
 
@@ -38,7 +41,7 @@ Oryzias-latipes         2
 Tetraodon-nigroviridis  2
 Gasterosteus-aculeatus  1
 
->Rooting
+>Rooting_4_2ndTree
 Danio-rerio_ENSDART00000147277.2_gng13a-guanine-nucleotide-b
 
 
@@ -50,6 +53,22 @@ Danio-rerio_ENSDART00000147277.2_gng13a-guanine-nucleotide-b
 
 >1st_gene_tree_newick
 ((((((((((((Tetraodon-nigroviridis_ENSTNIT00000013909.1_gng3-guanine-nuc:-8.268239804e-05,Gasterosteus-aculeatus_ENSGACT00000026856.1_gng3-guanine-nuc:0.03086103971)82:0.01153262444,Danio-rerio_ENSDART00000004109.6_gng3-guanine-nucleotide-bin:0.0119397851)70:0.007780547375,Homo-sapiens_ENST00000294117.6_GNG3-G-protein-subunit-:0.03188278782)41:0.004318634041,Xenopus-tropicalis_ENSXETT00000066273.1_gng3-guanine-nucleot:0.0524321691)99:0.07264595383,((Homo-sapiens_ENST00000366597.5_GNG4-G-protein-subunit-:0.02690756109,Gasterosteus-aculeatus_ENSGACT00000005614.1_GNG4-G-protein-s:0.0200990884)67:0.01426968855,Gallus-gallus_ENSGALT00000087065.2_GNG4-G-protein-subun:0.04700182759)97:0.05459103615)62:0.02082687497,((((((Gasterosteus-aculeatus_ENSGACT00000015934.1_gng2-guanine-nuc:0.00147601077,Oryzias-latipes_ENSORLT00000011121.1_GNG2-G-protein-subunit-:0.006038905161)81:0.007103374535,Danio-rerio_ENSDART00000163053.1_gng2-guanine-nucleotide-bin:0.01597538738)48:0.007694423159,Tetraodon-nigroviridis_ENSTNIT00000022767.1_gng2-guanine-nuc:-0.0001477827317)49:0.005760240639,Homo-sapiens_ENST00000557376.5_GNG2-G-protein-subunit-:0.009792176216)0:0,Xenopus-tropicalis_ENSXETT00000035970.3_gng2-guanine-nucleot:0.009792176216)43:0.005222981751,Gallus-gallus_ENSGALT00000042807.3_GNG2-G-protein-subun:0.01670714705)89:0.01670452166)46:0.02989902783,((Xenopus-tropicalis_ENSXETT00000063493.1_GNG8-G-protein-subun:0.210258214,Homo-sapiens_ENST00000300873.4_GNG8-G-protein-subunit-:0.05775321114)64:0.02955422941,Tetraodon-nigroviridis_ENSTNIT00000013095.1_gng8-guanine-nuc:0.05533065142)91:0.0441882712)84:0.02620353214,(((((Gallus-gallus_ENSGALT00000106798.1_NONE:0.02683314861,Homo-sapiens_ENST00000382159.8_GNG7-G-protein-subunit-:0.02018888457)76:0.01439223692,(Danio-rerio_ENSDART00000131834.2_gng7-guanine-nucleotide-bin:0.005799056286,Tetraodon-nigroviridis_ENSTNIT00000020553.1_gng7-guanine-nuc:0.009422890801)96:0.01745912663)93:0.02533489548,Xenopus-tropicalis_ENSXETT00000016924.2_gng7-guanine-nucleot:0.0491017044)86:0.05543192669,((Danio-rerio_ENSDART00000143715.1_GNG14-si-dkey-117i10.1:0.1233489397,Gasterosteus-aculeatus_ENSGACT00000016511.1_sidkey-117i10.1-:0.1331157462)97:0.1486389157,Gasterosteus-aculeatus_ENSGACT00000022842.1_gng5-guanine-nuc:0.4059145327)18:0.02182133006)5:0.01121749172,((Gallus-gallus_ENSGALT00000046551.2_GNG12-G-protein-subu:0.03256927081,Homo-sapiens_ENST00000370982.4_GNG12-G-protein-subunit:0.0583724549)94:0.04021385255,Gasterosteus-aculeatus_ENSGACT00000005380.1_GNG12-G-protein-:0.1529017471)64:0.04131654109)15:0.06171673655)91:0.2720151602,(((((Danio-rerio_ENSDART00000170632.1_gngt2b-guanine-nucleotide-b:0.07843668507,Danio-rerio_ENSDART00000142884.1_gngt2a-guanine-nucleotide-b:0.1021511391)90:0.09084538579,Gallus-gallus_ENSGALT00000077270.2_GNGT2-G-protein-subu:0.07437117193)43:0.03014726728,(Xenopus-tropicalis_ENSXETT00000030408.2_gngt1-guanine-nucleo:0.06526810082,Homo-sapiens_ENST00000248564.6_GNG11-G-protein-subunit:0.07689996853)83:0.06792127798)11:0.01340949926,(Xenopus-tropicalis_ENSXETT00000065792.1_gngt2.1-guanine-nucl:0.03914666313,Xenopus-tropicalis_ENSXETT00000063937.1_gngt2-guanine-nucleo:0.1049945681)60:0.04482995514)30:0.04247914721,Danio-rerio_ENSDART00000051950.3_gngt1-guanine-nucleotide-bi:0.1583773784)84:0.1217918685)47:0.06778136278,Ciona-intestinalis_ENSCINT00000036558.1_NONE:0.336394532)95:0.2419847896,((((((Gasterosteus-aculeatus_ENSGACT00000022178.1_GNG13-G-protein-:-0.004521548616,Oryzias-latipes_ENSORLT00000010988.1_GNG13-G-protein-subunit:0.01968350756)40:-0.0008930889421,Tetraodon-nigroviridis_ENSTNIT00000007452.1_GNG13-G-protein-:0.01624103479)93:0.01271399923,(Danio-rerio_ENSDART00000055269.3_gng13b-guanine-nucleotide-b:-0.1178320055,Tetraodon-nigroviridis_ENSTNIT00000022964.1_NONE:0.1493970352)6:0.08288958519)7:0.03618022909,((Xenopus-tropicalis_ENSXETT00000012710.2_gng13-guanine-nucleo:0.07264486586,Gallus-gallus_ENSGALT00000008486.5_GNG13-G-protein-subu:0.05107438485)29:0.0320027798,Homo-sapiens_ENST00000248150.5_GNG13-G-protein-subunit:-0.001232395182)68:0.03639534272)1:-0.01084045461,Oryzias-latipes_ENSORLT00000020791.1_NONE:0.05102485241)96:0.1385458531,Danio-rerio_ENSDART00000147277.2_gng13a-guanine-nucleotide-b:0.09950565256)94:0.1612811488)100:0,Drosophila-melanogaster_FBtr0346282_Ggamma30A-G-protein-sub:0.2755810059)100;
+
+>MonophyleticGeneGroups_1stTree
+Bilateria                       NoGeneNode  NONE
+Deuterostomia                   100  D=Y
+BonyVertebrates                 94  D=Y
+Teleostei                       r  D=N
+Percomorpha                     r  D=Y
+Oryzias-latipes                 leaf  leaf
+
+>SisterGeneGroups_1stTree
+Bilateria                       NONE   NoGeneNode
+Deuterostomia                   NONE   NoGeneNode
+BonyVertebrates                 100   Deuterostomia(BonyVertebrates;Ciona-intestinalis)
+Teleostei                       96   Tetrapoda
+Percomorpha                     r   Danio-rerio
+Oryzias-latipes                 93   Eupercaria
 
 >Aligned-ShortSequence_threshold evaluation
 Drosophila-melanogaster_FBtr0346282_Ggamma30A-G-protein-sub      1.0
@@ -105,6 +124,9 @@ Oryzias-latipes_ENSORLT00000010988.1_GNG13-G-protein-subunit     1.0
 
 ################ Settings ################
 
+>Mode
+E
+
 >NumberAssigned_querySequence
 Oryzias-latipes_ENSORLT00000010988.1_GNG13-G-protein-subunit
 MEELDVPQMKREVESLQYQLAINREKSSITVTELVKWIEGCVCEDPFLNPELMRANPWVEKGKCVIL
@@ -135,6 +157,8 @@ Tetraodon-nigroviridis_Green
 Gasterosteus-aculeatus_Red
 Oryzias-latipes_Blue
 
+>AnalysisTime
+12.4 seconds
 ################ Results: 2nd analysis ################
 
 >TreeSearchMethod
@@ -168,4 +192,4 @@ Percomorpha                     0
 Oryzias-latipes                 0
 
 >AnalysisTime
-8.3 seconds
+13.1 seconds

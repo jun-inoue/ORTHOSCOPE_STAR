@@ -14,6 +14,9 @@ Tetraodon-nigroviridis   2
 Gasterosteus-aculeatus   2
 Oryzias-latipes          2
 
+>Rooting_4_1stTree
+Drosophila-melanogaster_FBtr0086699_CG10924-NONE
+
 >BS_of_orthogroupBasalNode
 99
 
@@ -36,7 +39,7 @@ Oryzias-latipes         1
 Tetraodon-nigroviridis  1
 Gasterosteus-aculeatus  1
 
->Rooting
+>Rooting_4_2ndTree
 Oryzias-latipes_ENSORLT00000007894.1_pck2-phosphoenolpyruvat
 
 
@@ -48,6 +51,22 @@ Oryzias-latipes_ENSORLT00000007894.1_pck2-phosphoenolpyruvat
 
 >1st_gene_tree_newick
 (((((((((Gasterosteus-aculeatus_ENSGACT00000002910.1_pck2-phosphoenol:0.02943649244,Oryzias-latipes_ENSORLT00000007894.1_pck2-phosphoenolpyruvat:0.03852317628)93:0.00911747647,Tetraodon-nigroviridis_ENSTNIT00000008209.1_pck2-phosphoenol:0.03221665273)96:0.0137884465,Danio-rerio_ENSDART00000024084.6_pck2-phosphoenolpyruvate-ca:0.05285146806)100:0.08525983683,Gallus-gallus_ENSGALT00000099463.1_PCK2-phosphoenolpyru:0.1754744139)90:0.01601882274,((Homo-sapiens_ENST00000216780.9_PCK2-phosphoenolpyruvat:0,Homo-sapiens_ENST00000645217.2_PCK2-phosphoenolpyruvat:0)100:0.09969129762,Xenopus-tropicalis_ENSXETT00000031961.2_pck2-phosphoenolpyru:0.08662701922)94:0.01536428434)98:0.01481624937,((((Gasterosteus-aculeatus_ENSGACT00000004899.1_pck1-phosphoenol:0.04275409303,Oryzias-latipes_ENSORLT00000016034.1_pck1-phosphoenolpyruvat:0.04560527095)81:0.009757231123,Tetraodon-nigroviridis_ENSTNIT00000020863.1_pck1-phosphoenol:0.07115767667)99:0.01424138766,Danio-rerio_ENSDART00000008752.6_pck1-phosphoenolpyruvate-ca:0.08367623509)100:0.02309237808,((Gallus-gallus_ENSGALT00000012356.6_PCK1-phosphoenolpyru:0.05411291529,Homo-sapiens_ENST00000319441.6_PCK1-phosphoenolpyruvat:0.04778265995)97:0.01021416596,Xenopus-tropicalis_ENSXETT00000035200.3_pck1-phosphoenolpyru:0.06308771224)100:0.04267297413)99:0.01980273891)98:0.02115991351,Ciona-intestinalis_ENSCINT00000012511.3_NONE:0.1602949283)100:0.07487722247,Drosophila-melanogaster_FBtr0086701_Pepck-Phosphoenolpyruva:0.1100877105)100:0,Drosophila-melanogaster_FBtr0086699_CG10924-NONE:0.1145967907)100;
+
+>MonophyleticGeneGroups_1stTree
+Bilateria                       100  D=N
+Deuterostomia                   100  D=N
+BonyVertebrates                 98  D=Y
+Teleostei                       100  D=N
+Percomorpha                     99  D=Y
+Oryzias-latipes                 leaf  leaf
+
+>SisterGeneGroups_1stTree
+Bilateria                       NONE   NoGeneNode
+Deuterostomia                   100   Drosophila-melanogaster
+BonyVertebrates                 100   Ciona-intestinalis
+Teleostei                       99   Tetrapoda
+Percomorpha                     100   Danio-rerio
+Oryzias-latipes                 81   Gasterosteus-aculeatus
 
 >Aligned-ShortSequence_threshold evaluation
 Drosophila-melanogaster_FBtr0086699_CG10924-NONE                 0.984
@@ -71,6 +90,9 @@ Oryzias-latipes_ENSORLT00000016034.1_pck1-phosphoenolpyruvat     1.0
 
 
 ################ Settings ################
+
+>Mode
+E
 
 >NumberAssigned_querySequence
 Oryzias-latipes_ENSORLT00000016034.1_pck1-phosphoenolpyruvat
@@ -102,6 +124,8 @@ Tetraodon-nigroviridis_Green
 Gasterosteus-aculeatus_Red
 Oryzias-latipes_Blue
 
+>AnalysisTime
+11.5 seconds
 ################ Results: 2nd analysis ################
 
 >TreeSearchMethod
@@ -135,4 +159,4 @@ Percomorpha                     0
 Oryzias-latipes                 0
 
 >AnalysisTime
-8.2 seconds
+12.2 seconds

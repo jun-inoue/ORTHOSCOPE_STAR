@@ -14,6 +14,9 @@ Tetraodon-nigroviridis   10
 Gasterosteus-aculeatus   10
 Oryzias-latipes          10
 
+>Rooting_4_1stTree
+Drosophila-melanogaster_FBtr0112650_Nox-NADPH-oxidase-DBNLI
+
 >BS_of_orthogroupBasalNode
 99
 
@@ -36,7 +39,7 @@ Oryzias-latipes         1
 Tetraodon-nigroviridis  1
 Gasterosteus-aculeatus  1
 
->Rooting
+>Rooting_4_2ndTree
 Xenopus-tropicalis_ENSXETT00000008239.3_guca1b-guanylate-cyc
 
 
@@ -48,6 +51,22 @@ Xenopus-tropicalis_ENSXETT00000008239.3_guca1b-guanylate-cyc
 
 >1st_gene_tree_newick
 (((((((((((((((((Danio-rerio_ENSDART00000104058.4_ncalda-neurocalcin-delta-a:0.008718268332,Gasterosteus-aculeatus_ENSGACT00000004830.1_ncalda-neurocalc:0.00408872825)49:0.003475423699,(Tetraodon-nigroviridis_ENSTNIT00000016512.1_ncalda-neurocalc:0.005079752723,Oryzias-latipes_ENSORLT00000003227.1_ncalda-neurocalcin-delt:0.001265858653)62:0.0029663015)35:0.003095418341,(((Gasterosteus-aculeatus_ENSGACT00000004857.1_ncaldb-neurocalc:0.008598759009,Oryzias-latipes_ENSORLT00000003573.1_ncaldb-neurocalcin-delt:0.007397720032)46:0.002270868238,Tetraodon-nigroviridis_ENSTNIT00000012200.1_ncaldb-neurocalc:0.01380143448)59:0.00406596843,Danio-rerio_ENSDART00000122192.4_ncaldb-neurocalcin-delta-b:0.01895509189)99:0.02760334156)12:0.002732806648,(Xenopus-tropicalis_ENSXETT00000014533.3_ncald-neurocalcin-de:0.01404698041,Gallus-gallus_ENSGALT00000079087.2_NCALD-neurocalcin-de:0.01557377249)31:0.005727950639)46:0.01408980445,(Gallus-gallus_ENSGALT00000064786.2_HPCAL1-hippocalcin-l:0.06010182229,Homo-sapiens_ENST00000522951.5_NCALD-neurocalcin-delta:0.0531851684)51:0.02230514299)26:0.006551944338,(((((Xenopus-tropicalis_ENSXETT00000002188.3_hpca-hippocalcin-hpc:0.007796045952,Gallus-gallus_ENSGALT00000005657.6_HPCA-hippocalcin:0.008196052626)66:0.005011498439,Homo-sapiens_ENST00000373467.4_HPCA-hippocalcin:0.02111245622)68:0.006783173653,((Gasterosteus-aculeatus_ENSGACT00000012242.1_hpca-hippocalcin:0.004484467138,Oryzias-latipes_ENSORLT00000025857.1_NONE:0.005118186459)98:0.009363457022,Danio-rerio_ENSDART00000004034.7_hpca-hippocalcin:0.01182932158)79:0.008529942835)65:0.006214002919,(((Gasterosteus-aculeatus_ENSGACT00000012728.1_hpcal1-hippocalc:0.01381516577,Oryzias-latipes_ENSORLT00000015869.1_hpcal1-hippocalcin-like:0.009152460685)74:0.006389468841,Danio-rerio_ENSDART00000137236.2_hpcal1-hippocalcin-like-1:0.01647463974)40:0.001589251859,Tetraodon-nigroviridis_ENSTNIT00000015484.1_hpcal1-hippocalc:0.009559992197)100:0.03380898683)27:0.000879314817,(Xenopus-tropicalis_ENSXETT00000007606.3_hpcal1-hippocalcin-l:0.01350327813,Homo-sapiens_ENST00000307845.8_HPCAL1-hippocalcin-like:0.01232715876)25:0.003053845603)51:0.01033508491)97:0.02638412156,Drosophila-melanogaster_FBtr0074902_Nca-Neurocalcin-DBNLINE:0.0703785251)50:0.006260146746,Ciona-intestinalis_ENSCINT00000025336.2_NONE:0.1062247292)98:0.04230704491,((((((Gasterosteus-aculeatus_ENSGACT00000006351.1_vsnl1a-visinin-l:0.01207203421,Oryzias-latipes_ENSORLT00000019974.1_vsnl1a-visinin-like-1a:0.007147004718)63:0.006465638517,Xenopus-tropicalis_ENSXETT00000033933.2_vsnl1-visinin-like-1:0.01316677849)39:0.005280610032,Homo-sapiens_ENST00000404666.6_VSNL1-visinin-like-1:0.01092902541)13:0.004851200921,(Gallus-gallus_ENSGALT00000006069.6_HPCAL4-hippocalcin-l:0.02610983495,Homo-sapiens_ENST00000372844.8_HPCAL4-hippocalcin-like:0.0230374321)81:0.01344494739)9:0.003274839836,(Tetraodon-nigroviridis_ENSTNIT00000000995.1_NONE:5.859849858e-05,Gasterosteus-aculeatus_ENSGACT00000015453.1_NONE:0.006270499071)74:0.0115213063)57:0.01196186276,((Ciona-intestinalis_ENSCINT00000034865.1_NONE:0.1965072534,Ciona-intestinalis_ENSCINT00000017811.3_NONE:0.1167960397)76:0.08158774571,Gallus-gallus_ENSGALT00000091322.1_VSNL1-visinin-like-1:0.1774127079)43:0.02572697476)57:0.0699417434)43:0.02316281433,((((Ciona-intestinalis_ENSCINT00000011655.3_NONE:0.3936268314,Ciona-intestinalis_ENSCINT00000011657.1_NONE:0.06657438673)42:0.02420905007,Ciona-intestinalis_ENSCINT00000025456.2_NONE:0.1628870863)33:0.006098800994,Homo-sapiens_ENST00000372398.6_NCS1-neuronal-calcium-s:0.1202630337)31:0.02650948311,((Drosophila-melanogaster_FBtr0333321_Frq2-Frequenin-2-DBNLIN:0.02175975291,Drosophila-melanogaster_FBtr0074545_Frq1-Frequenin-1-DBNLIN:0.02097228575)100:0.1197005277,(Drosophila-melanogaster_FBtr0309866_CanB2-Calcineurin-B2-DB:0.02335795583,Drosophila-melanogaster_FBtr0308348_CanB-Calcineurin-B-DBNL:0.002414149655)100:0.5265662554)24:0.03702471215)22:0.08039179719)11:0.01598565558,Homo-sapiens_ENST00000226193.6_RCVRN-recoverin:0.2838159912)19:0.04591643863,(Ciona-intestinalis_ENSCINT00000037277.1_NONE:0.3226090899,Ciona-intestinalis_ENSCINT00000027977.2_NONE:0.2799854178)48:0.0736572331)7:0.01003452353,((((Drosophila-melanogaster_FBtr0340335_CG44422-NONE:0.1918012311,Drosophila-melanogaster_FBtr0339158_CG5890-NONE:0.2181421845)43:0.03054145705,(Ciona-intestinalis_ENSCINT00000023059.2_potassium-channel-in:0.2442733314,Gallus-gallus_ENSGALT00000074043.2_KCNIP1-potassium-vol:0.1369924085)53:0.02688588974)97:0.1701505012,Ciona-intestinalis_ENSCINT00000004308.3_NONE:0.3744680072)27:0.02015765822,Drosophila-melanogaster_FBtr0074900_CG7646-NONE:0.2516892767)20:0.02496632635)21:0.06154882206,(Xenopus-tropicalis_ENSXETT00000012354.3_uncharacterized-prot:0.07341686601,Danio-rerio_ENSDART00000061681.4_sich211-245j22.3-si-ch211-2:0.06849941747)100:0.1973106791)24:0.03356993966,((((((((((Gasterosteus-aculeatus_ENSGACT00000004438.1_guca1b-guanylate:0.006264561717,Oryzias-latipes_ENSORLT00000016752.1_guca1b-Oryzias-latipes-:0.003338091879)85:0.01696039813,Tetraodon-nigroviridis_ENSTNIT00000015742.1_guca1b-guanylate:0.0009854707665)61:0.002955831637,Danio-rerio_ENSDART00000007122.7_guca1b-guanylate-cyclase-ac:0.02010523614)92:0.01950319965,Gallus-gallus_ENSGALT00000035145.4_GUCA1B-guanylate-cyc:0.1299315998)27:0.008287571822,Xenopus-tropicalis_ENSXETT00000003231.3_GUCA1B-guanylate-cyc:0.03312881446)55:0.01417398901,Homo-sapiens_ENST00000230361.4_GUCA1B-guanylate-cyclas:0.06445217764)99:0.05348911968,Xenopus-tropicalis_ENSXETT00000008239.3_guca1b-guanylate-cyc:0.1232916724)55:0.01028400498,((Tetraodon-nigroviridis_ENSTNIT00000012672.1_NONE:0.06095834716,Oryzias-latipes_ENSORLT00000001129.1_NONE:0.09550425789)60:0.01658446487,Gasterosteus-aculeatus_ENSGACT00000022646.1_NONE:0.05850931501)100:0.1005969827)95:0.04812262249,((((Tetraodon-nigroviridis_ENSTNIT00000006033.1_NONE:0.04219417996,Gasterosteus-aculeatus_ENSGACT00000023335.1_guca1g-guanylate:0.05362306665)61:0.009820344288,Oryzias-latipes_ENSORLT00000000064.1_guca1g-guanylate-cyclas:0.1043819183)89:0.0383158451,Danio-rerio_ENSDART00000067239.4_guca1g-guanylate-cyclase-ac:0.1253754649)99:0.05412432507,((Tetraodon-nigroviridis_ENSTNIT00000006032.1_NONE:0.07396256646,Gasterosteus-aculeatus_ENSGACT00000023333.1_NONE:0.07219239373)65:0.02444314906,Oryzias-latipes_ENSORLT00000000061.1_NONE:0.1094899436)93:0.03478754021)100:0.07296088647)96:0.05876490882,(((((Gallus-gallus_ENSGALT00000002179.5_GUCA1A-guanylate-cyc:0.02121369397,Homo-sapiens_ENST00000654459.1_GUCA1A-guanylate-cyclas:0.04193303136)93:0.03155862761,Xenopus-tropicalis_ENSXETT00000003235.3_guca1a-guanylate-cyc:0.04595578872)68:0.008111256212,((Danio-rerio_ENSDART00000170119.1_guca1e-guanylate-cyclase-ac:0.06238304746,Danio-rerio_ENSDART00000158017.1_NONE:0.04823976189)71:0.01586185197,Tetraodon-nigroviridis_ENSTNIT00000017884.1_guca1e-guanylate:0.07965738828)100:0.07861809617)94:0.03779899327,(((Danio-rerio_ENSDART00000023588.7_guca1a-guanylate-cyclase-ac:0.02998273476,Tetraodon-nigroviridis_ENSTNIT00000005599.1_guca1a-guanylate:0.01589712235)40:0.001613240799,Oryzias-latipes_ENSORLT00000019894.1_guca1a-Oryzias-latipes-:0.01448443652)95:0.02189831395,(Xenopus-tropicalis_ENSXETT00000033602.3_guca1a-guanylate-cyc:0.02525637397,Gallus-gallus_ENSGALT00000065662.2_guanylyl-cyclase-act:0.0305760762)52:0.005555528501)97:0.020851227)97:0.04356806834,((Xenopus-tropicalis_ENSXETT00000020214.3_guca1c-guanylate-cyc:0.09765467846,Homo-sapiens_ENST00000261047.8_GUCA1C-guanylate-cyclas:0.1447072949)55:0.01358471963,Gallus-gallus_ENSGALT00000030431.4_GUCA1C-guanylate-cyc:0.1160992965)97:0.06061948825)100:0.1229089915)59:0.006598864766)97:0.195404617,Drosophila-melanogaster_FBtr0335133_Duox-Dual-oxidase-DBNLI:0.4576261153)100:0,Drosophila-melanogaster_FBtr0112650_Nox-NADPH-oxidase-DBNLI:0.3677420485)100;
+
+>MonophyleticGeneGroups_1stTree
+Bilateria                       100  D=Y
+Deuterostomia                   r  D=Y
+BonyVertebrates                 96  D=Y
+Teleostei                       92  D=N
+Percomorpha                     r  D=Y
+Oryzias-latipes                 leaf  leaf
+
+>SisterGeneGroups_1stTree
+Bilateria                       100   Drosophila-melanogaster
+Deuterostomia                   r   Drosophila-melanogaster
+BonyVertebrates                 r   Ciona-intestinalis
+Teleostei                       99   Tetrapoda
+Percomorpha                     92   Danio-rerio
+Oryzias-latipes                 85   Gasterosteus-aculeatus
 
 >Aligned-ShortSequence_threshold evaluation
 Drosophila-melanogaster_FBtr0112650_Nox-NADPH-oxidase-DBNLI      0.931
@@ -144,6 +163,9 @@ Oryzias-latipes_ENSORLT00000016752.1_guca1b-Oryzias-latipes-     1.0
 
 ################ Settings ################
 
+>Mode
+E
+
 >NumberAssigned_querySequence
 Oryzias-latipes_ENSORLT00000016752.1_guca1b-Oryzias-latipes-
 MGQRLSEESDPDKEIDVAELQEWYKKFVVECPSGTLFMHEFKGFFGVTNNKEAADYIENMFRAFDKNGDNTIDFLEYVAALNLVLRGKLEHKLKWTFKMYDKDGSGCIDKTELLEIVESIYRLKKACHGELDEECNLLTPDQVVDRIFELVDENGDGELSLDEFIDGARRDKWVMKMLQMDVNPGDWINERRCSEDF
@@ -174,6 +196,8 @@ Tetraodon-nigroviridis_Green
 Gasterosteus-aculeatus_Red
 Oryzias-latipes_Blue
 
+>AnalysisTime
+12.5 seconds
 ################ Results: 2nd analysis ################
 
 >TreeSearchMethod
@@ -207,4 +231,4 @@ Percomorpha                     1
 Oryzias-latipes                 0
 
 >AnalysisTime
-9.4 seconds
+13.2 seconds

@@ -14,6 +14,9 @@ Tetraodon-nigroviridis   1
 Gasterosteus-aculeatus   2
 Oryzias-latipes          2
 
+>Rooting_4_1stTree
+Drosophila-melanogaster_FBtr0301787_skap-skpA-associated-pr
+
 >BS_of_orthogroupBasalNode
 100
 
@@ -36,7 +39,7 @@ Oryzias-latipes         1
 Tetraodon-nigroviridis  1
 Gasterosteus-aculeatus  1
 
->Rooting
+>Rooting_4_2ndTree
 Ciona-intestinalis_ENSCINT00000015047.3_NONE
 
 
@@ -48,6 +51,22 @@ Ciona-intestinalis_ENSCINT00000015047.3_NONE
 
 >1st_gene_tree_newick
 ((((((((Oryzias-latipes_ENSORLT00000010035.1_suclg2-succinate-CoA-li:0.08484951361,Gasterosteus-aculeatus_ENSGACT00000012404.1_suclg2-succinate:0.04426868785)39:0.0004565778906,Tetraodon-nigroviridis_ENSTNIT00000014261.1_suclg2-succinate:0.04532555194)96:0.01479338589,Danio-rerio_ENSDART00000122222.2_suclg2-succinate-CoA-ligase:0.05159094475)100:0.0360893232,((Xenopus-tropicalis_ENSXETT00000005372.3_suclg2-succinate-CoA:0.009117392899,Homo-sapiens_ENST00000493112.5_SUCLG2-succinate-CoA-li:0.09044692048)73:0.01092106881,Gallus-gallus_ENSGALT00000012394.5_SUCLG2-succinate-CoA:0.05835620826)99:0.01681768388)100:0.05823896874,Ciona-intestinalis_ENSCINT00000015047.3_NONE:0.1585975754)100:0.04494985059,Drosophila-melanogaster_FBtr0077134_Sucb-NONE:0.2285193983)100:0.109303232,((((Gallus-gallus_ENSGALT00000027453.4_SUCLA2-succinate-CoA:0.04485150341,Homo-sapiens_ENST00000643023.1_SUCLA2-succinate-CoA-li:0.05146844357)58:0.009209558954,Xenopus-tropicalis_ENSXETT00000001184.3_sucla2-succinate-CoA:0.05396575784)80:0.008412283688,((Gasterosteus-aculeatus_ENSGACT00000010679.1_sucla2-succinate:0.03117076445,Oryzias-latipes_ENSORLT00000017626.1_sucla2-succinate-CoA-li:0.02677359344)66:0.003162296215,Danio-rerio_ENSDART00000018503.8_sucla2-succinate-CoA-ligase:0.03333305719)100:0.03548673705)100:0.06379537841,Ciona-intestinalis_ENSCINT00000015522.3_NONE:0.1453836091)99:0.04451034889)100:0,Drosophila-melanogaster_FBtr0301787_skap-skpA-associated-pr:0.2006606527)100;
+
+>MonophyleticGeneGroups_1stTree
+Bilateria                       100  D=Y
+Deuterostomia                   100  D=N
+BonyVertebrates                 100  D=N
+Teleostei                       100  D=N
+Percomorpha                     96  D=N
+Oryzias-latipes                 leaf  leaf
+
+>SisterGeneGroups_1stTree
+Bilateria                       100   Deuterostomia
+Deuterostomia                   100   Drosophila-melanogaster
+BonyVertebrates                 100   Ciona-intestinalis
+Teleostei                       100   Tetrapoda
+Percomorpha                     100   Danio-rerio
+Oryzias-latipes                 96   Eupercaria
 
 >Aligned-ShortSequence_threshold evaluation
 Drosophila-melanogaster_FBtr0301787_skap-skpA-associated-pr      1.0
@@ -70,6 +89,9 @@ Oryzias-latipes_ENSORLT00000010035.1_suclg2-succinate-CoA-li     1.0
 
 
 ################ Settings ################
+
+>Mode
+E
 
 >NumberAssigned_querySequence
 Oryzias-latipes_ENSORLT00000010035.1_suclg2-succinate-CoA-li
@@ -101,6 +123,8 @@ Tetraodon-nigroviridis_Green
 Gasterosteus-aculeatus_Red
 Oryzias-latipes_Blue
 
+>AnalysisTime
+11.6 seconds
 ################ Results: 2nd analysis ################
 
 >TreeSearchMethod
@@ -134,4 +158,4 @@ Percomorpha                     0
 Oryzias-latipes                 0
 
 >AnalysisTime
-8.1 seconds
+12.3 seconds

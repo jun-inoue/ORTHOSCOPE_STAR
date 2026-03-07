@@ -14,6 +14,9 @@ Tetraodon-nigroviridis   2
 Gasterosteus-aculeatus   1
 Oryzias-latipes          1
 
+>Rooting_4_1stTree
+Ciona-intestinalis_ENSCINT00000022041.2_NONE
+
 >BS_of_orthogroupBasalNode
 100
 
@@ -35,7 +38,7 @@ Oryzias-latipes         1
 Tetraodon-nigroviridis  0
 Gasterosteus-aculeatus  1
 
->Rooting
+>Rooting_4_2ndTree
 Ciona-intestinalis_ENSCINT00000022041.2_NONE
 
 
@@ -47,6 +50,22 @@ Ciona-intestinalis_ENSCINT00000022041.2_NONE
 
 >1st_gene_tree_newick
 ((((Gallus-gallus_ENSGALT00000027264.6_CLYBL-citrate-lyase-:0.06764299621,Homo-sapiens_ENST00000376355.7_CLYBL-citramalyl-CoA-ly:0.08244031547)100:0.05597524271,Xenopus-tropicalis_ENSXETT00000040951.3_clybl-citrate-lyase-:0.1398429195)50:0.005134203162,((Gasterosteus-aculeatus_ENSGACT00000002468.1_clybl-citrate-ly:0.03742029722,Oryzias-latipes_ENSORLT00000013987.1_clybl-citrate-lyase-bet:0.05397963926)100:0.04514928814,Danio-rerio_ENSDART00000042259.7_clybl-citrate-lyase-beta-li:0.05916044809)100:0.08225071289)100:0,Ciona-intestinalis_ENSCINT00000022041.2_NONE:0.451932598)100;
+
+>MonophyleticGeneGroups_1stTree
+Bilateria                       NoGeneNode  NONE
+Deuterostomia                   NoGeneNode  NONE
+BonyVertebrates                 100  D=N
+Teleostei                       100  D=N
+Percomorpha                     100  D=N
+Oryzias-latipes                 leaf  leaf
+
+>SisterGeneGroups_1stTree
+Bilateria                       NONE   NoGeneNode
+Deuterostomia                   NONE   NoGeneNode
+BonyVertebrates                 NONE   NoGeneNode
+Teleostei                       100   Tetrapoda
+Percomorpha                     100   Danio-rerio
+Oryzias-latipes                 100   Gasterosteus-aculeatus
 
 >Aligned-ShortSequence_threshold evaluation
 Ciona-intestinalis_ENSCINT00000022041.2_NONE                     0.982
@@ -61,6 +80,9 @@ Oryzias-latipes_ENSORLT00000013987.1_clybl-citrate-lyase-bet     1.0
 
 
 ################ Settings ################
+
+>Mode
+E
 
 >NumberAssigned_querySequence
 Oryzias-latipes_ENSORLT00000013987.1_clybl-citrate-lyase-bet
@@ -92,6 +114,8 @@ Tetraodon-nigroviridis_Green
 Gasterosteus-aculeatus_Red
 Oryzias-latipes_Blue
 
+>AnalysisTime
+11.5 seconds
 ################ Results: 2nd analysis ################
 
 >TreeSearchMethod
@@ -125,4 +149,4 @@ Percomorpha                     0
 Oryzias-latipes                 0
 
 >AnalysisTime
-8.7 seconds
+12.1 seconds

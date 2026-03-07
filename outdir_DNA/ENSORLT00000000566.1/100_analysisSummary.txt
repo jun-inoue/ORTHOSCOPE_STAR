@@ -14,6 +14,9 @@ Tetraodon-nigroviridis   6
 Gasterosteus-aculeatus   7
 Oryzias-latipes          6
 
+>Rooting_4_1stTree
+Drosophila-melanogaster_FBtr0070336_CG4199-NONE
+
 >BS_of_orthogroupBasalNode
 100
 
@@ -36,7 +39,7 @@ Oryzias-latipes         1
 Tetraodon-nigroviridis  1
 Gasterosteus-aculeatus  1
 
->Rooting
+>Rooting_4_2ndTree
 Ciona-intestinalis_ENSCINT00000016324.3_NONE
 
 
@@ -48,6 +51,22 @@ Ciona-intestinalis_ENSCINT00000016324.3_NONE
 
 >1st_gene_tree_newick
 ((((((((((((Oryzias-latipes_ENSORLT00000014830.1_txnrd1-thioredoxin-redu:0.1921297741,Tetraodon-nigroviridis_ENSTNIT00000010355.1_txnrd1-thioredox:0.04090534915)30:0.0006133011539,Gasterosteus-aculeatus_ENSGACT00000014397.1_txnrd1-thioredox:0.03720768222)100:0.01786047874,Danio-rerio_ENSDART00000172544.2_txnrd1-thioredoxin-reductas:0.03923275514)100:0.03037855591,((Gallus-gallus_ENSGALT00000071945.2_TXNRD3-thioredoxin-r:0.06472229424,Homo-sapiens_ENST00000524230.8_TXNRD3-thioredoxin-redu:0.08566349701)86:0.01536887095,Xenopus-tropicalis_ENSXETT00000010415.2_txnrd3-thioredoxin-r:0.06390845162)89:0.0110354748)91:0.0159188487,((Gallus-gallus_ENSGALT00000081628.2_TXNRD1-thioredoxin-r:0.03775715911,Homo-sapiens_ENST00000525566.6_TXNRD1-thioredoxin-redu:0.06349032341)93:0.01148852694,Xenopus-tropicalis_ENSXETT00000042545.3_txnrd1-thioredoxin-r:0.09054617829)100:0.03321222485)99:0.02835528748,Ciona-intestinalis_ENSCINT00000034883.1_txnrd3-thioredoxin-r:0.1530903144)100:0.09721637674,(((((Gasterosteus-aculeatus_ENSGACT00000017271.1_txnrd2-thioredox:0.03108707636,Oryzias-latipes_ENSORLT00000019072.1_txnrd2-thioredoxin-redu:0.1150690922)67:0.01149833936,Tetraodon-nigroviridis_ENSTNIT00000020108.1_txnrd2-thioredox:0.0412685323)93:0.02886997296,(Danio-rerio_ENSDART00000139203.1_txnrd2-thioredoxin-reductas:-0.01304489227,Danio-rerio_ENSDART00000110987.3_TXNRD2-thioredoxin-reductas:0.01304489227)100:0.06105509505)100:0.04509588184,((Gallus-gallus_ENSGALT00000106227.1_TXNRD2-thioredoxin-r:0.08465380542,Homo-sapiens_ENST00000400521.7_TXNRD2-thioredoxin-redu:0.121149192)53:0.01081316774,Xenopus-tropicalis_ENSXETT00000013826.3_txnrd2-thioredoxin-r:0.0816724405)46:0.01090816939)100:0.06801278532,(Drosophila-melanogaster_FBtr0078514_Trxr-2-thioredoxin-redu:0.1153835642,Drosophila-melanogaster_FBtr0071168_Trxr-1-Thioredoxin-redu:0.07546444161)100:0.1574864327)97:0.03271724343)100:0.1639670492,(((((Tetraodon-nigroviridis_ENSTNIT00000019037.1_gsr-glutathione-:0.03711911941,Oryzias-latipes_ENSORLT00000000771.1_gsr-glutathione-reducta:0.06024611758)35:0.002894710976,Gasterosteus-aculeatus_ENSGACT00000023248.1_gsr-glutathione-:0.03480164902)100:0.03227461809,Danio-rerio_ENSDART00000127479.2_gsr-glutathione-reductase:0.09039541773)100:0.03880560467,((Xenopus-tropicalis_ENSXETT00000024638.2_gsr-glutathione-redu:0.09735752542,Homo-sapiens_ENST00000221130.11_GSR-glutathione-disulf:0.09301056575)59:0.00944860749,Gallus-gallus_ENSGALT00000064155.2_GSR-glutathione-disu:0.0843027459)95:0.01920652568)100:0.05424282037,Ciona-intestinalis_ENSCINT00000007825.3_NONE:0.1453799834)100:0.1889856648)100:0.1508463012,((((((Tetraodon-nigroviridis_ENSTNIT00000007300.1_dldh-dihydrolipo:0.02555382531,Oryzias-latipes_ENSORLT00000000566.1_DLD-dihydrolipoamide-de:0.02377929746)82:0.01181022588,Gasterosteus-aculeatus_ENSGACT00000010992.1_dldh-dihydrolipo:0.02164188552)92:0.01257879752,Danio-rerio_ENSDART00000006709.6_dldh-dihydrolipoamide-dehyd:0.0227445105)100:0.03760365351,((Xenopus-tropicalis_ENSXETT00000026823.3_dld-dihydrolipoamide:0.05313704543,Gallus-gallus_ENSGALT00000068183.2_DLD-dihydrolipoamide:0.03279194738)55:0.005401623885,Homo-sapiens_ENST00000417551.5_DLD-dihydrolipoamide-de:0.04202439507)71:0.009421032686)100:0.05280655174,Ciona-intestinalis_ENSCINT00000016324.3_NONE:0.1263152913)82:0.01344428621,Drosophila-melanogaster_FBtr0331810_CG7430-NONE:0.1602161872)100:0.3123737629)100:0.3307761046,Xenopus-tropicalis_ENSXETT00000037399.3_aifm2-apoptosis-indu:0.6061876341)98:0.1880854517,(((((((Tetraodon-nigroviridis_ENSTNIT00000021358.1_aifm4-apoptosis-:0.04053624021,Gasterosteus-aculeatus_ENSGACT00000011233.1_aifm4-apoptosis-:0.07375296845)72:0.01422783222,Oryzias-latipes_ENSORLT00000010038.1_aifm4-apoptosis-inducin:0.08504906954)100:0.09945994848,Danio-rerio_ENSDART00000154164.2_aifm4-apoptosis-inducing-fa:0.08370931535)67:0.02530367473,((Tetraodon-nigroviridis_ENSTNIT00000019446.1_aifm5-apoptosis-:0.07194631717,Gasterosteus-aculeatus_ENSGACT00000027134.1_aifm5-apoptosis-:0.05816550413)100:0.08197751746,Danio-rerio_ENSDART00000115097.3_aifm5-apoptosis-inducing-fa:0.08573310677)96:0.07538637664)73:0.03942340886,Xenopus-tropicalis_ENSXETT00000061302.1_NONE:0.1850863738)62:0.03163834629,(((Gasterosteus-aculeatus_ENSGACT00000012403.1_aifm3-apoptosis-:0.03157196603,Oryzias-latipes_ENSORLT00000009977.1_aifm3-apoptosis-inducin:0.0295077669)100:0.03716656829,Danio-rerio_ENSDART00000091124.4_aifm3-apoptosis-inducing-fa:0.04670346381)100:0.03997632209,((Xenopus-tropicalis_ENSXETT00000057179.2_aifm3-apoptosis-indu:0.1255084498,Gallus-gallus_ENSGALT00000061869.3_AIFM3-apoptosis-indu:0.06247492499)44:0.01050263973,Homo-sapiens_ENST00000399167.6_AIFM3-apoptosis-inducin:0.07585792951)100:0.06125280832)100:0.109279058)93:0.05587370022,Ciona-intestinalis_ENSCINT00000015764.3_NONE:0.2729574831)84:0.05500255038)100:0,Drosophila-melanogaster_FBtr0070336_CG4199-NONE:0.3877240213)100;
+
+>MonophyleticGeneGroups_1stTree
+Bilateria                       100  D=Y
+Deuterostomia                   82  D=N
+BonyVertebrates                 100  D=N
+Teleostei                       100  D=N
+Percomorpha                     92  D=Y
+Oryzias-latipes                 leaf  leaf
+
+>SisterGeneGroups_1stTree
+Bilateria                       100   Deuterostomia
+Deuterostomia                   100   Drosophila-melanogaster
+BonyVertebrates                 82   Ciona-intestinalis
+Teleostei                       100   Tetrapoda
+Percomorpha                     100   Danio-rerio
+Oryzias-latipes                 82   Tetraodon-nigroviridis
 
 >Aligned-ShortSequence_threshold evaluation
 Drosophila-melanogaster_FBtr0070336_CG4199-NONE                  0.847
@@ -109,6 +128,9 @@ Oryzias-latipes_ENSORLT00000000566.1_DLD-dihydrolipoamide-de     1.0
 
 ################ Settings ################
 
+>Mode
+E
+
 >NumberAssigned_querySequence
 Oryzias-latipes_ENSORLT00000000566.1_DLD-dihydrolipoamide-de
 VTGISLNLEKMMAQKSGAVKALTGGIAHLFKQNKVTHVNGFGRVTGKNQVTATAEDGSEQVINTKNILIATGSEVTPFPGIQIDEDTVVSSTGALSLKKVPGELIVIGAGVIGVELGSVWQRLGSKVTAVEFLGHVGGMGIDMEISKNFQRILQKQGLKFKLSTKVLGATRRPDGKIDVSVEAAAGGKNETLTCDVLLVCIGRRPYTQNLGLDSVGIELDSRGRIPVNGRFQTQVPSIYAIGDVVAGPMLAHKAEDEGIICVEGMAGGAVHIDYNCVPSVIYTHPELAWVGKTEEQLKEEGVPYKVGRFPFAANSRAKTNADTDGLVKILGHKETDRMLGAHILGTGAGEMINEAALAMEYGASCEDVARVCHAHPTVSEAFREANLAASFGKAINF
@@ -139,6 +161,8 @@ Tetraodon-nigroviridis_Green
 Gasterosteus-aculeatus_Red
 Oryzias-latipes_Blue
 
+>AnalysisTime
+12.0 seconds
 ################ Results: 2nd analysis ################
 
 >TreeSearchMethod
@@ -172,4 +196,4 @@ Percomorpha                     0
 Oryzias-latipes                 0
 
 >AnalysisTime
-8.8 seconds
+12.7 seconds

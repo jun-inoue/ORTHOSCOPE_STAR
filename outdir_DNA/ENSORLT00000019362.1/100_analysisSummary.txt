@@ -14,6 +14,9 @@ Tetraodon-nigroviridis   1
 Gasterosteus-aculeatus   1
 Oryzias-latipes          1
 
+>Rooting_4_1stTree
+Drosophila-melanogaster_FBtr0082552_CG14740-NONE
+
 >BS_of_orthogroupBasalNode
 79
 
@@ -34,7 +37,7 @@ Oryzias-latipes         1
 Tetraodon-nigroviridis  1
 Gasterosteus-aculeatus  1
 
->Rooting
+>Rooting_4_2ndTree
 Homo-sapiens_ENST00000351328.8_CS-citrate-synthase
 
 
@@ -46,6 +49,22 @@ Homo-sapiens_ENST00000351328.8_CS-citrate-synthase
 
 >1st_gene_tree_newick
 (((((((((Tetraodon-nigroviridis_ENSTNIT00000015697.1_cs-citrate-synth:0.020620999,Gasterosteus-aculeatus_ENSGACT00000014418.1_cs-citrate-synth:0.01709972728)85:0.005053904483,Oryzias-latipes_ENSORLT00000019362.1_cs-citrate-synthase:0.01448680709)49:0.004936069324,Danio-rerio_ENSDART00000159445.1_cs-citrate-synthase:0.02087781702)99:0.02446671445,Xenopus-tropicalis_ENSXETT00000020990.3_cs-citrate-synthase-:0.0361981474)79:0.009191188996,Homo-sapiens_ENST00000351328.8_CS-citrate-synthase:0.04000462463)67:0.01181037849,Gallus-gallus_ENSGALT00000047537.2_CS-citrate-synthase:0.01633400042)87:0.03739888732,(Ciona-intestinalis_ENSCINT00000036785.1_NONE:0.1294360921,Homo-sapiens_ENST00000549318.5_AC073896.1-novel-protei:1.063919859)17:0.007105369561)30:0.03545390575,Drosophila-melanogaster_FBtr0070906_kdn-knockdown-DBNLINE-1:0.1233675325)100:0,Drosophila-melanogaster_FBtr0082552_CG14740-NONE:0.3752424808)100;
+
+>MonophyleticGeneGroups_1stTree
+Bilateria                       100  D=N
+Deuterostomia                   r  D=N
+BonyVertebrates                 r  D=Y
+Teleostei                       99  D=N
+Percomorpha                     r  D=N
+Oryzias-latipes                 leaf  leaf
+
+>SisterGeneGroups_1stTree
+Bilateria                       NONE   NoGeneNode
+Deuterostomia                   100   Drosophila-melanogaster
+BonyVertebrates                 r   Ciona-intestinalis
+Teleostei                       79   Xenopus-tropicalis
+Percomorpha                     99   Danio-rerio
+Oryzias-latipes                 r   Eupercaria
 
 >Aligned-ShortSequence_threshold evaluation
 Drosophila-melanogaster_FBtr0082552_CG14740-NONE                 1.0
@@ -62,6 +81,9 @@ Oryzias-latipes_ENSORLT00000019362.1_cs-citrate-synthase         1.0
 
 
 ################ Settings ################
+
+>Mode
+E
 
 >NumberAssigned_querySequence
 Oryzias-latipes_ENSORLT00000019362.1_cs-citrate-synthase
@@ -93,6 +115,8 @@ Tetraodon-nigroviridis_Green
 Gasterosteus-aculeatus_Red
 Oryzias-latipes_Blue
 
+>AnalysisTime
+11.5 seconds
 ################ Results: 2nd analysis ################
 
 >TreeSearchMethod
@@ -126,4 +150,4 @@ Percomorpha                     0
 Oryzias-latipes                 0
 
 >AnalysisTime
-8.0 seconds
+12.2 seconds

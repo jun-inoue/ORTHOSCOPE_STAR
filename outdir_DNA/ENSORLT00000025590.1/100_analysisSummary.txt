@@ -14,6 +14,9 @@ Tetraodon-nigroviridis   3
 Gasterosteus-aculeatus   4
 Oryzias-latipes          3
 
+>Rooting_4_1stTree
+Drosophila-melanogaster_FBtr0082336_CG4706-NONE
+
 >BS_of_orthogroupBasalNode
 100
 
@@ -36,7 +39,7 @@ Oryzias-latipes         1
 Tetraodon-nigroviridis  1
 Gasterosteus-aculeatus  1
 
->Rooting
+>Rooting_4_2ndTree
 Drosophila-melanogaster_FBtr0082259_Irp-1B-Iron-regulatory-
 
 
@@ -48,6 +51,22 @@ Drosophila-melanogaster_FBtr0082259_Irp-1B-Iron-regulatory-
 
 >1st_gene_tree_newick
 (((((((((Gasterosteus-aculeatus_ENSGACT00000002203.1_aco1-aconitase-1:0.02888499622,Oryzias-latipes_ENSORLT00000025590.1_aco1-aconitase-1-solubl:0.02934838173)90:0.008806729919,Tetraodon-nigroviridis_ENSTNIT00000008128.1_aco1-aconitase-1:0.07038051304)81:0.01001269802,Danio-rerio_ENSDART00000045253.7_aco1-aconitase-1-soluble:0.04456069934)92:0.01335389749,((Gallus-gallus_ENSGALT00000076439.2_ACO1-aconitase-1-sol:0.04294683126,Homo-sapiens_ENST00000379923.5_ACO1-aconitase-1:0.04140949261)81:0.004698648722,Xenopus-tropicalis_ENSXETT00000020189.3_aco1-aconitase-1-aco:0.05859170935)100:0.0131312107)100:0.05401680774,((Drosophila-melanogaster_FBtr0084327_Irp-1A-Iron-regulatory-:0.04931384714,Drosophila-melanogaster_FBtr0082259_Irp-1B-Iron-regulatory-:0.03851871059)100:0.1130684936,Ciona-intestinalis_ENSCINT00000019416.3_NONE:0.1415831846)92:0.02853309995)77:0.01441756556,(((Gallus-gallus_ENSGALT00000059950.2_IREB2-iron-responsiv:0.06461775812,Homo-sapiens_ENST00000258886.13_IREB2-iron-responsive-:0.05394441266)100:0.03452507057,Xenopus-tropicalis_ENSXETT00000062273.1_ireb2-iron-responsiv:0.1926362925)95:0.01718556749,((Gasterosteus-aculeatus_ENSGACT00000009785.1_ireb2-iron-respo:0.03380002436,Oryzias-latipes_ENSORLT00000002418.1_ireb2-iron-responsive-e:0.03821650796)100:0.03189412903,Danio-rerio_ENSDART00000135808.1_ireb2-iron-responsive-eleme:0.06577068655)100:0.06599082879)100:0.07852803682)100:0.7704597609,((((((Tetraodon-nigroviridis_ENSTNIT00000016128.1_aco2-aconitase-2:0.03359857144,Oryzias-latipes_ENSORLT00000003270.1_aco2-aconitase-2-mitoch:0.02315936092)85:0.0115762685,Gasterosteus-aculeatus_ENSGACT00000006312.1_aco2-aconitase-2:0.02282360227)79:0.01354203057,Danio-rerio_ENSDART00000149180.2_aco2-aconitase-2-mitochondr:0.03882826172)51:0.004079550083,Gasterosteus-aculeatus_ENSGACT00000010121.1_ACO2-aconitase-2:0.04892662279)67:0.004644297701,Ciona-intestinalis_ENSCINT00000018217.3_NONE:0.1448995739)46:0.01762311665,((Xenopus-tropicalis_ENSXETT00000060979.1_aco2-aconitase-2:0.1524062087,Gallus-gallus_ENSGALT00000019494.5_ACO2-aconitase-2:0.02978300745)21:0.007900519338,Homo-sapiens_ENST00000396512.3_ACO2-aconitase-2:0.02275454628)100:0.04219361327)80:0.03283447143)100:0.05602054393,Drosophila-melanogaster_FBtr0346587_Acon-Aconitase-DBNLINE-:0.0641643309)100:0,Drosophila-melanogaster_FBtr0082336_CG4706-NONE:0.08736155733)100;
+
+>MonophyleticGeneGroups_1stTree
+Bilateria                       100  D=Y
+Deuterostomia                   NoGeneNode  NONE
+BonyVertebrates                 100  D=N
+Teleostei                       92  D=N
+Percomorpha                     81  D=Y
+Oryzias-latipes                 leaf  leaf
+
+>SisterGeneGroups_1stTree
+Bilateria                       100   Drosophila-melanogaster
+Deuterostomia                   NONE   NoGeneNode
+BonyVertebrates                 77   Bilateria(Drosophila-melanogaster;Ciona-intestinalis)
+Teleostei                       100   Tetrapoda
+Percomorpha                     92   Danio-rerio
+Oryzias-latipes                 90   Gasterosteus-aculeatus
 
 >Aligned-ShortSequence_threshold evaluation
 Drosophila-melanogaster_FBtr0082336_CG4706-NONE                  0.994
@@ -83,6 +102,9 @@ Oryzias-latipes_ENSORLT00000025590.1_aco1-aconitase-1-solubl     1.0
 
 ################ Settings ################
 
+>Mode
+E
+
 >NumberAssigned_querySequence
 Oryzias-latipes_ENSORLT00000025590.1_aco1-aconitase-1-solubl
 NMKNPFQHLVESLSPTDPQQQFFNLSKLTDPRYDRLPFSIRVLLESAVRNCDGFLVKRSDVENILNWKQTQTQTVEVPFRPARVILQDFTGVPAVVDFAAMRDAVMKLGGDPERINPVCPADLVIDHSIQVDFNRNLAPRPARRRQSADLLFSSVFRSDSLQKNQDLEFDRNKERFQFLKWGSKAFKNMRIIPPGSGIVHQVNLEYLARVVFHHDGFLYPDSLVGTDSHTTMIDGLGVLGWGVGGIEAEAVMLGQPISMVLPEVVGYKLHGVPDKFITSTDIVLTVTKHLRQVGVVGKFVEFFGPGVAQLSIADRATIANMCPEYGATAAFFPVDAVSVQYLEQTGREAQQLAYITEYLKAVAMFRDYEDAAQDPDFTHVVELDLSTVVPCCSGPKRPQDRIPVSEMKTDFESCLGAKQGFKGFQVAPERHSAAVPFHFSGNEYTLSHGSVVIAAITSCTNTSNPSVMLGAGLLAKKAVEHGLSVKPYIKTSLSPGSGVVTYYLKESGVMDYLSQLGFEVVGYGCMTCIGNSGPLPEAVVEAITQGDLVAAGILSGNRNFEGRVHPNTRANYLASPPLVIAYAIAGTVRIDFETEPIATNCDGKDVYLRDIWPTREEIQAVEKEFVIPSMFREVYQKIEKVNERWNALEAPSDKLYTWDPKSTYIKSPPFFEGLTLKLQPPRSIKDAYVLLNLGDSVTTDHISPAGNIARNSSAARYLADRGLTPRDYNSYGSRRGNDAVMARGTFANIRLFNKFLGKQAPQTVHLPSGETLDVFDAAERYRQSGEPLLVLAGKEYGSGSSRDWAAKGPFLLGIKAVLAESYERIHRSNLVGMGVIPLEYLPGDSADSLGLTGRERYSISIPEPLTPRMLADVKLDSGKTFQVRMRFDTDVELTYFHHGGILNYMIRKMSAN
@@ -113,6 +135,8 @@ Tetraodon-nigroviridis_Green
 Gasterosteus-aculeatus_Red
 Oryzias-latipes_Blue
 
+>AnalysisTime
+12.0 seconds
 ################ Results: 2nd analysis ################
 
 >TreeSearchMethod
@@ -146,4 +170,4 @@ Percomorpha                     1
 Oryzias-latipes                 0
 
 >AnalysisTime
-9.2 seconds
+12.7 seconds

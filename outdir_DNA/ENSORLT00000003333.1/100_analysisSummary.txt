@@ -14,6 +14,9 @@ Tetraodon-nigroviridis   1
 Gasterosteus-aculeatus   1
 Oryzias-latipes          1
 
+>Rooting_4_1stTree
+Drosophila-melanogaster_FBtr0082380_CG6629-NONE
+
 >BS_of_orthogroupBasalNode
 100
 
@@ -36,7 +39,7 @@ Oryzias-latipes         1
 Tetraodon-nigroviridis  1
 Gasterosteus-aculeatus  1
 
->Rooting
+>Rooting_4_2ndTree
 Drosophila-melanogaster_FBtr0082372_SdhC-Succinate-dehydrog
 
 
@@ -48,6 +51,22 @@ Drosophila-melanogaster_FBtr0082372_SdhC-Succinate-dehydrog
 
 >1st_gene_tree_newick
 (((((((Tetraodon-nigroviridis_ENSTNIT00000006367.1_NONE:0.1746572176,Oryzias-latipes_ENSORLT00000003333.1_sdhc-succinate-dehydrog:-0.01026573819)97:0.1059381912,Gasterosteus-aculeatus_ENSGACT00000023419.1_sdhc-succinate-d:0.05311390887)99:0.09172824196,Danio-rerio_ENSDART00000145728.2_sdhc-succinate-dehydrogenas:0.05382923858)99:0.1334548209,Gallus-gallus_ENSGALT00000100546.1_SDHC-succinate-dehyd:0.08946687722)20:0.02557122249,(Homo-sapiens_ENST00000367975.7_SDHC-succinate-dehydrog:0.0908565835,Xenopus-tropicalis_ENSXETT00000005600.3_sdhc-succinate-dehyd:0.09232287495)86:0.0123417454)100:0.3880144571,Drosophila-melanogaster_FBtr0082372_SdhC-Succinate-dehydrog:0.0852466148)100:0,Drosophila-melanogaster_FBtr0082380_CG6629-NONE:0.6817407249)100;
+
+>MonophyleticGeneGroups_1stTree
+Bilateria                       100  D=N
+Deuterostomia                   NoGeneNode  NONE
+BonyVertebrates                 100  D=N
+Teleostei                       99  D=N
+Percomorpha                     99  D=Y
+Oryzias-latipes                 leaf  leaf
+
+>SisterGeneGroups_1stTree
+Bilateria                       NONE   NoGeneNode
+Deuterostomia                   NONE   NoGeneNode
+BonyVertebrates                 100   Drosophila-melanogaster
+Teleostei                       100   Tetrapoda
+Percomorpha                     99   Danio-rerio
+Oryzias-latipes                 97   Tetraodon-nigroviridis
 
 >Aligned-ShortSequence_threshold evaluation
 Drosophila-melanogaster_FBtr0082380_CG6629-NONE                  0.994
@@ -62,6 +81,9 @@ Oryzias-latipes_ENSORLT00000003333.1_sdhc-succinate-dehydrog     1.0
 
 
 ################ Settings ################
+
+>Mode
+E
 
 >NumberAssigned_querySequence
 Oryzias-latipes_ENSORLT00000003333.1_sdhc-succinate-dehydrog
@@ -93,6 +115,8 @@ Tetraodon-nigroviridis_Green
 Gasterosteus-aculeatus_Red
 Oryzias-latipes_Blue
 
+>AnalysisTime
+11.7 seconds
 ################ Results: 2nd analysis ################
 
 >TreeSearchMethod
@@ -126,4 +150,4 @@ Percomorpha                     1
 Oryzias-latipes                 0
 
 >AnalysisTime
-8.0 seconds
+12.4 seconds
